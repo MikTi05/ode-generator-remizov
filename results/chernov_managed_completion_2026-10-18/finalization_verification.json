@@ -1,0 +1,114 @@
+{
+  "--status": {
+    "total": 1000,
+    "completed": 1000,
+    "finite_results": 997,
+    "outcomes": {
+      "accuracy_pass": 871,
+      "accuracy_not_met": 126,
+      "worker_exception": 3
+    },
+    "pending": 0,
+    "max_compute_workers": 1,
+    "active": {
+      "session_id": "2026-10-18T143405691282+0000_adefa1",
+      "token": "eac6f3814ee9404f9704682e7069f9b7",
+      "controller_pid": 61582,
+      "control_dir": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/results/chernov_solve1000_2026-10-18/control/2026-10-18T143405691282+0000_adefa1",
+      "owner_lease_seconds": 120.0,
+      "finished": true,
+      "finished_monotonic": 1010422.149038208
+    },
+    "guardians": [
+      {
+        "guardian_pid": 61585,
+        "controller_pid": 61582,
+        "token": "eac6f3814ee9404f9704682e7069f9b7",
+        "finished": true,
+        "worker_pid": 61586,
+        "worker_pgid": 61586,
+        "cleanup_success": true,
+        "worker_returncode": -15,
+        "reason": "controller_pipe_closed",
+        "finished_monotonic": 1010422.136587541
+      }
+    ],
+    "global_controller_or_cleanup_locked": false,
+    "global_compute_slot_locked": false
+  },
+  "--check-runtime": {
+    "runtime_valid": true,
+    "max_compute_workers": 1,
+    "numerical_solver_calls": 0
+  },
+  "final_sample": {
+    "utc": "2026-10-18T14:45:39.810820+00:00",
+    "epoch": 1792334739.810953,
+    "monotonic": 1010827.290921166,
+    "thermal_state": 0,
+    "thermal_name": "nominal",
+    "temperature_celsius": null,
+    "measurement": "NSProcessInfo.thermalState",
+    "limitation": "not degrees; unsupported/unknown systems can also return nominal",
+    "compute_workers": [],
+    "compute_worker_count": 0,
+    "solving_ids": [
+      "AMV1_F0199_S03"
+    ],
+    "guardians": [
+      {
+        "guardian_pid": 61585,
+        "controller_pid": 61582,
+        "token": "eac6f3814ee9404f9704682e7069f9b7",
+        "finished": true,
+        "worker_pid": 61586,
+        "worker_pgid": 61586,
+        "cleanup_success": true,
+        "worker_returncode": -15,
+        "reason": "controller_pipe_closed",
+        "finished_monotonic": 1010422.136587541
+      }
+    ],
+    "safety_stop_reason": null
+  },
+  "owned_process_exit_check": {
+    "command": [
+      "/bin/ps",
+      "-p",
+      "46384,61582,61585,61586",
+      "-o",
+      "pid=,ppid=,stat=,command="
+    ],
+    "returncode": 1,
+    "stdout": "",
+    "all_four_absent": true
+  },
+  "baseline_files_checked": 3181,
+  "baseline_changed_files": [
+    "PROJECT_STATUS.md",
+    "diagnostics/chernov_monitored_batch.py",
+    "results/chernov_solve1000_2026-10-18/active.json",
+    "results/chernov_solve1000_2026-10-18/progress.json"
+  ],
+  "baseline_missing_files": [],
+  "old_700_preserved": true,
+  "new_requests": 301,
+  "new_terminal_answers": 300,
+  "new_unfinished_attempts": 1,
+  "old_700_not_requested": true,
+  "additional_document_backup": {
+    "path": "docs/CHERNOV_BATCH_EXECUTION.md",
+    "original_sha256": "e595b32de7d89595f8bcdac6ea83ad9c2c20c4dc9ffca4f22bcd052e42e65e91",
+    "current_sha256": "7720f934dd503b49457d977d79cce55e39f322f4223778dd6fcf4201a2835381",
+    "original_preserved": true,
+    "reason": "docs/ copied before edits but omitted from recursive snapshot roots"
+  },
+  "final_document_sha256": {
+    "PROJECT_STATUS.md": "cf5b431fcffe8dbad19791997bec291323cbbd3b6b351826fae8969fd65e03e8",
+    "docs/CHERNOV_BATCH_EXECUTION.md": "7720f934dd503b49457d977d79cce55e39f322f4223778dd6fcf4201a2835381"
+  },
+  "final_report_sha256": "729eab3e582cc19f21522d59566640140ceaad9f8c21baa5d6788d972bc1c56d",
+  "report_source_sha256": "d25bad07afa1444ca34982385d509be3fd295295ec95ea3ff3f05fda6160b7ac",
+  "finalization_verified": true,
+  "numerical_solver_calls": 0
+}

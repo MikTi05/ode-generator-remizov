@@ -1,0 +1,27 @@
+{
+  "MC_calls": 32,
+  "MC_formula": "mean4 saved x0 M1024 runtime *33 grid points *4 paths ratio *P2 coverage20 median calibration; four calls",
+  "MC_scenario_seconds": 1545.2758283217925,
+  "MC_sensitivity_seconds": [
+    1489.9960421754026,
+    1601.908041796919
+  ],
+  "R128_calls": 32,
+  "R128_scenario_seconds": 379.01731865600004,
+  "R256_calls": 32,
+  "R256_scenario_seconds": 771.0606446720001,
+  "R_formula": "median saved full method wall per profile *32; numerical work n*512 and2081 points unchanged",
+  "approval_evidence": null,
+  "approved": false,
+  "calibration_factor": 0.9952585506278163,
+  "calibration_source": "reports/ml_selector_contract/pilot_p2_2026-10-26/analysis/summary.json",
+  "caveat": "x0 operation scaling and old timing cohorts are scenarios; no E_grid33 inference; stop on cap rather than expanding it",
+  "confidence_interval": false,
+  "formula": "cap=ceil(2*central_scenario+300); no automatic extensions",
+  "includes_future_setup_overhead": false,
+  "proposed_series_cap_seconds": 5691,
+  "scope_calls": 96,
+  "total_scenario_hours": 0.7487093865693868,
+  "total_scenario_seconds": 2695.3537916497926,
+  "upper_bound": false
+}

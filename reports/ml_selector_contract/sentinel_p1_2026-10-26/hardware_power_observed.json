@@ -1,0 +1,19 @@
+{
+  "observed_utc": "2026-10-26T07:37:35.238504+00:00",
+  "initial_power_state_not_sampled": true,
+  "hardware": {
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "sysctl: sysctl fmt -1 1024 1: Operation not permitted\n"
+  },
+  "power_settings": {
+    "returncode": 0,
+    "stdout": "AC Power:\n Sleep On Power Button 1\n lowpowermode         0\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         0\n womp                 1\n networkoversleep     0\n sleep                1\n tcpkeepalive         1\n disksleep            10\n",
+    "stderr": ""
+  },
+  "power_source": {
+    "returncode": 0,
+    "stdout": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=34734179)\t89%; discharging; 8:02 remaining present: true\n",
+    "stderr": ""
+  }
+}

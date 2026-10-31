@@ -1,0 +1,139 @@
+{
+  "attempts": [
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 64,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n_steps": 2048,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n_steps": 8192,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 64,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n_steps": 2048,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n_steps": 8192,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 64,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n_steps": 2048,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n_steps": 8192,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0007_S00"
+    }
+  ],
+  "purpose": "Accuracy pilot: vary only n for fixed-n or n_steps for streaming; target E_inf <= 0.01, retain all attempts",
+  "rss_limit_mib": 1024,
+  "wall_seconds": 120
+}

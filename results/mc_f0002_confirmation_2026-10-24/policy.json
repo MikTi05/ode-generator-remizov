@@ -1,0 +1,952 @@
+{
+  "T": 63.625,
+  "analysis": {
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026102411,
+    "cost": "sigma measured only at x=0. Estimate normal pointwise .005/.01 statistical half-width and 33-point simultaneous Bonferroni cost, assuming the same sigma at all points. No full-error certificate, grid sampling, or benchmark winner claim.",
+    "intervals": "t95 across independent run means; Bonferroni simultaneous intervals within each phase for level bias and adjacent contrasts",
+    "order": "Three-level contrast ratio is only a model diagnostic, not an asymptotic-order claim; do not fit a power if adjacent simultaneous contrast intervals include zero.",
+    "timing": "Extrapolate serial chunk=1024 full batches from observed finest-level runtime. Not a guaranteed wall-time prediction."
+  },
+  "attempts": [
+    {
+      "M": 1024,
+      "attempt_id": "control_00",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 16624100767786445845,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 16624100767786445845,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 24436,
+        "coefficient_values": 25022464,
+        "normal_values_generated_with_replay": 8339456,
+        "path_steps": 6254592,
+        "time_steps": [
+          2036,
+          4072
+        ],
+        "unique_finest_normal_values": 4169728
+      },
+      "repeat": 0,
+      "seed": 16624100767786445845,
+      "stage": "control"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "control_01",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13061504101591326375,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13061504101591326375,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 24436,
+        "coefficient_values": 25022464,
+        "normal_values_generated_with_replay": 8339456,
+        "path_steps": 6254592,
+        "time_steps": [
+          2036,
+          4072
+        ],
+        "unique_finest_normal_values": 4169728
+      },
+      "repeat": 1,
+      "seed": 13061504101591326375,
+      "stage": "control"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "control_02",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 11183416685473954651,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 11183416685473954651,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 24436,
+        "coefficient_values": 25022464,
+        "normal_values_generated_with_replay": 8339456,
+        "path_steps": 6254592,
+        "time_steps": [
+          2036,
+          4072
+        ],
+        "unique_finest_normal_values": 4169728
+      },
+      "repeat": 2,
+      "seed": 11183416685473954651,
+      "stage": "control"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "control_03",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 2616337507326531924,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 2616337507326531924,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 24436,
+        "coefficient_values": 25022464,
+        "normal_values_generated_with_replay": 8339456,
+        "path_steps": 6254592,
+        "time_steps": [
+          2036,
+          4072
+        ],
+        "unique_finest_normal_values": 4169728
+      },
+      "repeat": 3,
+      "seed": 2616337507326531924,
+      "stage": "control"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "control_04",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 3853915518612378344,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 3853915518612378344,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 24436,
+        "coefficient_values": 25022464,
+        "normal_values_generated_with_replay": 8339456,
+        "path_steps": 6254592,
+        "time_steps": [
+          2036,
+          4072
+        ],
+        "unique_finest_normal_values": 4169728
+      },
+      "repeat": 4,
+      "seed": 3853915518612378344,
+      "stage": "control"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "control_05",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 11180085623288822382,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 11180085623288822382,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 24436,
+        "coefficient_values": 25022464,
+        "normal_values_generated_with_replay": 8339456,
+        "path_steps": 6254592,
+        "time_steps": [
+          2036,
+          4072
+        ],
+        "unique_finest_normal_values": 4169728
+      },
+      "repeat": 5,
+      "seed": 11180085623288822382,
+      "stage": "control"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "control_06",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 14237340610088329007,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 14237340610088329007,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 24436,
+        "coefficient_values": 25022464,
+        "normal_values_generated_with_replay": 8339456,
+        "path_steps": 6254592,
+        "time_steps": [
+          2036,
+          4072
+        ],
+        "unique_finest_normal_values": 4169728
+      },
+      "repeat": 6,
+      "seed": 14237340610088329007,
+      "stage": "control"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "control_07",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 12186541355245212673,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 12186541355245212673,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 24436,
+        "coefficient_values": 25022464,
+        "normal_values_generated_with_replay": 8339456,
+        "path_steps": 6254592,
+        "time_steps": [
+          2036,
+          4072
+        ],
+        "unique_finest_normal_values": 4169728
+      },
+      "repeat": 7,
+      "seed": 12186541355245212673,
+      "stage": "control"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_00",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13350203009105916207,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13350203009105916207,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13350203009105916207,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 0,
+      "seed": 13350203009105916207,
+      "stage": "refinement128"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_01",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 2917420746012235943,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 2917420746012235943,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 2917420746012235943,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 1,
+      "seed": 2917420746012235943,
+      "stage": "refinement128"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_02",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13523746951197415933,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13523746951197415933,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13523746951197415933,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 2,
+      "seed": 13523746951197415933,
+      "stage": "refinement128"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_03",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 5127031444013796089,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 5127031444013796089,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 5127031444013796089,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 3,
+      "seed": 5127031444013796089,
+      "stage": "refinement128"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_04",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 11568444374676611120,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 11568444374676611120,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 11568444374676611120,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 4,
+      "seed": 11568444374676611120,
+      "stage": "refinement128"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_05",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13456548467599399912,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13456548467599399912,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13456548467599399912,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 5,
+      "seed": 13456548467599399912,
+      "stage": "refinement128"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_06",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13339249915090099949,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13339249915090099949,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13339249915090099949,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 6,
+      "seed": 13339249915090099949,
+      "stage": "refinement128"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_07",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 16121078669617617629,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 16121078669617617629,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 16121078669617617629,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 7,
+      "seed": 16121078669617617629,
+      "stage": "refinement128"
+    }
+  ],
+  "certified_T": 63.559871563734674,
+  "forcing_bound": {
+    "abs_upper_bound": 380.99952616975816,
+    "bounds_certification": "analytic",
+    "bounds_domain": "all_real_x",
+    "source": "all_methods_forcing_bounds_v1:AMV1_F0002_S00:sha256=a8e6a64c2b2d6fabf6f356c408c2b1cae52cc1b00327ca38839360c8589a718b"
+  },
+  "forcing_proof": {
+    "bump_bounds": {
+      "d1": 1.7678183123691067,
+      "d2": 9.815023417110293,
+      "value": 1.0
+    },
+    "coefficient_bounds": {
+      "a_upper": 2.521099371167056,
+      "b_abs": 0.8053875019109252,
+      "c_R_abs": 1.1797493337521907,
+      "q_abs": 2.6191225378099694
+    },
+    "forcing_bound": {
+      "abs_upper_bound": 380.99952616975816,
+      "bounds_certification": "analytic",
+      "bounds_domain": "all_real_x",
+      "source": "all_methods_forcing_bounds_v1:AMV1_F0002_S00:sha256=a8e6a64c2b2d6fabf6f356c408c2b1cae52cc1b00327ca38839360c8589a718b"
+    },
+    "problem_id": "AMV1_F0002_S00",
+    "rounding": "exact_rational_upward_binary64_v1",
+    "serialized_ast_sha256": "a8e6a64c2b2d6fabf6f356c408c2b1cae52cc1b00327ca38839360c8589a718b",
+    "shape_bounds": {
+      "d1": 2.4618803927002304,
+      "d2": 2.3069172859286016,
+      "value": 2.64085619670561
+    },
+    "solution_bounds": {
+      "d1": 25.685640727036375,
+      "d2": 133.0359394728598,
+      "value": 9.513036691600222
+    },
+    "support": [
+      -1.4983686386190112,
+      1.8956453038880214
+    ],
+    "term_bounds": {
+      "diffusion": 335.39682334764547,
+      "drift": 20.68689402012935,
+      "potential": 24.91580880198333
+    },
+    "version": "all_methods_forcing_bounds_v1"
+  },
+  "frozen_utc": "2026-10-24T20:58:06.854157+00:00",
+  "gate": {
+    "condition": "All 8 new control repeats succeed; t95 half-width/abs(paired mean)<=0.5 and estimated variance reduction>=2. No prior pilot data in the calculation.",
+    "maximum_relative_ci95_half": 0.5,
+    "minimum_variance_reduction": 2.0,
+    "required_repeats": 8
+  },
+  "master_seed": 2026102410,
+  "next_phase": {
+    "M_per_seed": 1024,
+    "freeze_separate_plan_before_worker": true,
+    "independent_from_control": true,
+    "levels": [
+      0.03125,
+      0.015625,
+      0.0078125
+    ],
+    "only_if_gate_passes": true,
+    "repeats": 8,
+    "stop": "Fixed sample size. No automatic increase if .01 remains unconfirmed, contrasts unresolved, or costs excessive. No h<1/128."
+  },
+  "problem_id": "AMV1_F0002_S00",
+  "resources": {
+    "attempt_cooperative_seconds": 20.0,
+    "blas_threads": 1,
+    "max_path_steps": 170000000,
+    "phase_wall_seconds": 180.0,
+    "planned_maximum_normal_values_generated": 266862592,
+    "planned_maximum_path_steps": 166789120,
+    "prior_seconds_estimate": [
+      65.0,
+      100.0
+    ],
+    "rss_limit_mib": 384.0,
+    "stop": "Stop on failure or external resource limit, preserve partial counters and not_run; no retries",
+    "total_wall_seconds": 240.0,
+    "workers": 1
+  },
+  "tail_eps": 0.0001,
+  "tail_error_bound": 9.832332563587108e-05,
+  "version": "F0002_independent_completion_v1",
+  "x": 0.0
+}

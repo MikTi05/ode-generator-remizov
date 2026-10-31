@@ -1,0 +1,139 @@
+{
+  "call_wall_seconds": 0.003922707866877317,
+  "config": {
+    "M": 2,
+    "T": 4.375,
+    "chunk": 8192,
+    "dt": 0.03125,
+    "max_batch_paths": 8192,
+    "max_path_steps": 5000000,
+    "max_runtime_seconds": 10.0,
+    "max_steps": 4096,
+    "seed": 17677266471273436003,
+    "stream_id": 0,
+    "tail_eps": 0.0001
+  },
+  "load_seconds": 4.4667162001132965e-05,
+  "max_abs_error": 8.349336916058103e-05,
+  "process_peak_rss_mib": 68.578125,
+  "result": {
+    "M": 2,
+    "T": 4.375,
+    "applicability_status": "bounds_certified_regularity_assumed",
+    "ci95": [
+      0.0
+    ],
+    "ci_lower": [
+      0.5000834933691606
+    ],
+    "ci_upper": [
+      0.5000834933691606
+    ],
+    "coefficient_calls": {
+      "a": 140,
+      "b": 140,
+      "c_R": 141,
+      "g_R": 141
+    },
+    "coefficient_values": {
+      "a": 280,
+      "b": 280,
+      "c_R": 282,
+      "g_R": 282
+    },
+    "completed_paths": [
+      2
+    ],
+    "confidence_level": 0.95,
+    "discretization_error_bound": null,
+    "dt_actual": 0.03125,
+    "dt_requested": 0.03125,
+    "f": [
+      0.5000834933691606
+    ],
+    "failure_reason": "",
+    "forcing_abs_upper_bound": 1.0,
+    "forcing_bound_source": "g_R=1 identically",
+    "interval_kind": "pointwise_asymptotic_normal_for_discrete_truncated_mean",
+    "lambda_c_gap": 2.0,
+    "message": "tail bound available; intervals exclude time bias and tail; total error is not certified",
+    "n_batches": 1,
+    "n_normal_draws": 280,
+    "n_path_steps": 280,
+    "n_steps": 140,
+    "peak_batch_paths": 2,
+    "point_spawn_keys": [
+      [
+        3536851869,
+        1219243447,
+        2072695799,
+        3269846262,
+        371432466,
+        3265140922,
+        789952500,
+        3565365837,
+        0
+      ]
+    ],
+    "preparation_seconds": 0.00021595903672277927,
+    "problem_id": "MC_constant",
+    "rng_scheme": "PCG64/SeedSequence/point_address_v1",
+    "runtime_seconds": 0.003916667075827718,
+    "seed_entropy": 17677266471273436003,
+    "stderr": [
+      0.0
+    ],
+    "stream_id": 0,
+    "success": true,
+    "tail_eps": 0.0001,
+    "tail_error_bound": 7.923066255787563e-05,
+    "tail_tolerance_met": true,
+    "total_error_certified": false,
+    "x": [
+      0.0
+    ]
+  },
+  "signed_error": [
+    8.349336916058103e-05
+  ],
+  "spec": {
+    "attempt_id": "006",
+    "config": {
+      "M": 2,
+      "T": 4.375,
+      "chunk": 8192,
+      "dt": 0.03125,
+      "max_batch_paths": 8192,
+      "max_path_steps": 5000000,
+      "max_runtime_seconds": 10.0,
+      "max_steps": 4096,
+      "seed": 17677266471273436003,
+      "stream_id": 0,
+      "tail_eps": 0.0001
+    },
+    "configuration_id": "0_6",
+    "preflight": {
+      "actual_dt": 0.03125,
+      "coefficient_calls": 562,
+      "normal_draws": 280,
+      "path_steps": 280,
+      "time_steps": 140
+    },
+    "problem_id": "MC_constant",
+    "repeat": 0,
+    "tail_bound": 7.923066255787563e-05,
+    "tail_tolerance_met": true,
+    "target_x": [
+      0.0
+    ],
+    "views": [
+      {
+        "factor": "T",
+        "level": 4.375
+      }
+    ]
+  },
+  "y_exact": [
+    0.5
+  ]
+}

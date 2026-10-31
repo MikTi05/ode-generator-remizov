@@ -1,0 +1,106 @@
+{
+  "attempts": [
+    {
+      "attempt_id": "control_00",
+      "phase": "control",
+      "status": "success"
+    },
+    {
+      "attempt_id": "control_01",
+      "phase": "control",
+      "status": "success"
+    },
+    {
+      "attempt_id": "control_02",
+      "phase": "control",
+      "status": "success"
+    },
+    {
+      "attempt_id": "control_03",
+      "phase": "control",
+      "status": "success"
+    },
+    {
+      "attempt_id": "control_04",
+      "phase": "control",
+      "status": "success"
+    },
+    {
+      "attempt_id": "control_05",
+      "phase": "control",
+      "status": "success"
+    },
+    {
+      "attempt_id": "control_06",
+      "phase": "control",
+      "status": "success"
+    },
+    {
+      "attempt_id": "control_07",
+      "phase": "control",
+      "status": "success"
+    },
+    {
+      "attempt_id": "refinement128_00",
+      "phase": "refinement128",
+      "status": "success"
+    },
+    {
+      "attempt_id": "refinement128_01",
+      "phase": "refinement128",
+      "status": "success"
+    },
+    {
+      "attempt_id": "refinement128_02",
+      "phase": "refinement128",
+      "status": "success"
+    },
+    {
+      "attempt_id": "refinement128_03",
+      "phase": "refinement128",
+      "status": "success"
+    },
+    {
+      "attempt_id": "refinement128_04",
+      "phase": "refinement128",
+      "status": "success"
+    },
+    {
+      "attempt_id": "refinement128_05",
+      "phase": "refinement128",
+      "status": "success"
+    },
+    {
+      "attempt_id": "refinement128_06",
+      "phase": "refinement128",
+      "status": "success"
+    },
+    {
+      "attempt_id": "refinement128_07",
+      "phase": "refinement128",
+      "status": "success"
+    }
+  ],
+  "events": [
+    {
+      "completed": 8,
+      "phase": "control",
+      "plan_sha256": "50eb39116f8e4c5992fa1c75150c2618a583bfdb71d2f13f3bdff5bac7590357",
+      "reason": null,
+      "returncode": 0,
+      "sampled_peak_rss_mib": 81.5,
+      "wall_seconds": 23.05261145811528
+    },
+    {
+      "completed": 8,
+      "phase": "refinement128",
+      "plan_sha256": "d1d24263a9fbb2724774f0901ac24a0d5757917d91a3be95f4e603b1b77e25d3",
+      "reason": null,
+      "returncode": 0,
+      "sampled_peak_rss_mib": 80.875,
+      "wall_seconds": 54.91806424991228
+    }
+  ],
+  "finished_utc": "2026-10-24T20:59:37.962104+00:00",
+  "wall_seconds": 77.98706824984401
+}

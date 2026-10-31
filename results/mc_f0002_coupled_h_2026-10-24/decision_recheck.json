@@ -1,0 +1,15 @@
+{
+  "analysis_covariance": "math.fsum of centered products; no BLAS matmul",
+  "differences_to_original_matmul": {
+    "paired_ci95_half": 0.0,
+    "paired_mean": 0.0,
+    "relative_ci95_half": 0.0,
+    "variance_reduction": 0.0
+  },
+  "finite_statistics": true,
+  "gate_result": false,
+  "independent_fsum_paired_mean": 0.020955277849355733,
+  "independent_fsum_paired_stderr": 0.0041760999200948215,
+  "note": "Original driver emitted matmul floating-point warnings with finite results; independent scalar summation confirms all decision quantities and the same stop. No new paths or altered thresholds.",
+  "original_decision_preserved": true
+}

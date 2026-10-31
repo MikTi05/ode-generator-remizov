@@ -1,0 +1,27 @@
+{
+  "goal_max_abs_error": 0.01,
+  "selection_from_pilots": [
+    [
+      "R1",
+      8,
+      512
+    ],
+    [
+      "AMV1_F0005_S00",
+      32,
+      8192
+    ],
+    [
+      "AMV1_F0006_S00",
+      64,
+      4096
+    ],
+    [
+      "AMV1_F0007_S00",
+      32,
+      2048
+    ]
+  ],
+  "timing_repetitions": 3,
+  "controls_change_goal": 0.001
+}

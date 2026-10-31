@@ -1,0 +1,53 @@
+{
+  "automatic_retries": 0,
+  "excluded_integrity_paths": [
+    ".venv",
+    ".git",
+    ".pytest_cache",
+    "__pycache__",
+    "results",
+    ".DS_Store"
+  ],
+  "executed_n_max": 4,
+  "figure_visually_checked": true,
+  "integrity": {
+    "new_project": {
+      "added": [
+        "diagnostics/plot_remizov_n_study.py",
+        "diagnostics/requirements-plot.txt"
+      ],
+      "changed_or_removed": [],
+      "files_checked": 36
+    },
+    "original_project": {
+      "added": [],
+      "changed_or_removed": [],
+      "files_checked": 168
+    }
+  },
+  "persisted_error_recalculation_matches": true,
+  "pip_check": "No broken requirements found.",
+  "tests": {
+    "command": ".venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_remizov_solver.py tests/test_remizov_verification.py tests/test_remizov_loader.py tests/test_all_methods_expressions.py -k 'not test_r1_finite_chernoff_approximations_converge_toward_exact'",
+    "deselected": 1,
+    "duration_seconds": 4.31,
+    "exit_code": 0,
+    "passed": 36,
+    "subtests_passed": 106,
+    "warnings": 1
+  },
+  "unchanged_mathematical_core": {
+    "remizov_solver.py": {
+      "matches_migration_source": true,
+      "sha256": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754"
+    },
+    "src/all_methods_dataset_v1.py": {
+      "matches_migration_source": true,
+      "sha256": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120"
+    },
+    "src/all_methods_expressions.py": {
+      "matches_migration_source": true,
+      "sha256": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+    }
+  }
+}

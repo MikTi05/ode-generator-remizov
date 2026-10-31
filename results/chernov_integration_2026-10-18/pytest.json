@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/bin/python",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests",
+    "-k",
+    "not test_r1_finite_chernoff_approximations_converge_toward_exact"
+  ],
+  "returncode": 0,
+  "wall_seconds": 19.384362041950226,
+  "excluded": "R1 long n=1,2,4,8 regression; the new comparison separately ran original R1 at n=8"
+}

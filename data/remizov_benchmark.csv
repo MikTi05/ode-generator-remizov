@@ -1,0 +1,6 @@
+benchmark_version,benchmark_id,a_expr,b_expr,c_remizov_expr,lambda,g_remizov_expr,exact_solution_expr,eval_x0,eval_x1,ivp_y0,ivp_v0,a_lower_bound,a_upper_bound,b_abs_upper_bound,c_abs_upper_bound,bounds_certification,bounds_domain
+remizov-verification-v1,R1,1,0,0,1,(3 - 4*x**2)*exp(-x**2),exp(-x**2),-2,2,exp(-4),4*exp(-4),1,1,0,0,analytic,all_real_x
+remizov-verification-v1,R2,2*sin(x)/5 + 3/2,0,0,1,2*(-4*x**2*sin(x)/5 - 3*x**2 + 2*sin(x)/5 + 2)*exp(-x**2),exp(-x**2),-2,2,exp(-4),4*exp(-4),11/10,19/10,0,0,analytic,all_real_x
+remizov-verification-v1,R3,3*sin(x)/10 + 3/2,tanh(x)/2,0,1,(-6*x**2*sin(x)/5 - 6*x**2 + x*tanh(x) + 3*sin(x)/5 + 4)*exp(-x**2),exp(-x**2),-2,2,exp(-4),4*exp(-4),6/5,9/5,1/2,0,analytic,all_real_x
+remizov-verification-v1,R4,3*sin(x)/10 + 3/2,tanh(x)/2,3*cos(x)/10,1,(-6*x**2*sin(x)/5 - 6*x**2 + x*tanh(x) + 3*sin(x)/5 - 3*cos(x)/10 + 4)*exp(-x**2),exp(-x**2),-2,2,exp(-4),4*exp(-4),6/5,9/5,1/2,3/10,analytic,all_real_x
+remizov-verification-v1,R5,sin(3*cos(x)/10 + tanh(x))/4 + 3/2,2*cos(sin(x))/5 + tanh(x)/5,sin(cos(x))/4 + exp(-x**2)/10,1,(-x**2*sin(3*cos(x)/10 + tanh(x)) - 6*x**2 + 4*x*cos(sin(x))/5 + 2*x*tanh(x)/5 + sin(3*cos(x)/10 + tanh(x))/2 - sin(cos(x))/4 + 4 - exp(-x**2)/10)*exp(-x**2),exp(-x**2),-2,2,exp(-4),4*exp(-4),5/4,7/4,3/5,7/20,analytic,all_real_x

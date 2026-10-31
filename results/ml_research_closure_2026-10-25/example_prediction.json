@@ -1,0 +1,491 @@
+{
+  "equation_id": "AMV1_F0000_S00",
+  "input_scope": {
+    "channels": [
+      "a",
+      "b",
+      "c",
+      "g"
+    ],
+    "distribution_membership_verified": false,
+    "domain": "all_methods_v1",
+    "input_grid_points": 256
+  },
+  "method_selection": {
+    "reason": "No validated model of fastest reliable solver on a common spatial/profile budget",
+    "status": "uncertain",
+    "winner": null
+  },
+  "results": [
+    {
+      "accuracy_certificate": false,
+      "parameters": {
+        "M_per_point_per_seed": 4096,
+        "T_policy": "analytic G auto_T",
+        "backend": "numba",
+        "chunk": 1024,
+        "h": 0.0078125,
+        "seeds": 4,
+        "tail_eps": 0.0001,
+        "time_discretization_bound": null,
+        "total_paths_per_point": 16384
+      },
+      "prediction_interval": null,
+      "predictions": {},
+      "profile_id": "mc_grid33_mean4x4096",
+      "scope": {
+        "method": "Monte Carlo",
+        "target": "E_inf<=0.01",
+        "x": [
+          -1.0,
+          -0.9375,
+          -0.875,
+          -0.8125,
+          -0.75,
+          -0.6875,
+          -0.625,
+          -0.5625,
+          -0.5,
+          -0.4375,
+          -0.375,
+          -0.3125,
+          -0.25,
+          -0.1875,
+          -0.125,
+          -0.0625,
+          0.0,
+          0.0625,
+          0.125,
+          0.1875,
+          0.25,
+          0.3125,
+          0.375,
+          0.4375,
+          0.5,
+          0.5625,
+          0.625,
+          0.6875,
+          0.75,
+          0.8125,
+          0.875,
+          0.9375,
+          1.0
+        ]
+      },
+      "status": "unsupported_no_trained_model",
+      "warnings": [
+        "No trained model for this profile; historical predictions are not transferred"
+      ]
+    },
+    {
+      "accuracy_certificate": false,
+      "parameters": {
+        "M_per_point_per_seed": 1024,
+        "T_policy": "analytic G auto_T",
+        "backend": "numba",
+        "chunk": 1024,
+        "h": 0.0078125,
+        "seeds": 1,
+        "tail_eps": 0.0001,
+        "time_discretization_bound": null
+      },
+      "prediction_interval": null,
+      "predictions": {},
+      "profile_id": "mc_grid33_single1024",
+      "scope": {
+        "method": "Monte Carlo",
+        "target": "E_inf<=0.01",
+        "x": [
+          -1.0,
+          -0.9375,
+          -0.875,
+          -0.8125,
+          -0.75,
+          -0.6875,
+          -0.625,
+          -0.5625,
+          -0.5,
+          -0.4375,
+          -0.375,
+          -0.3125,
+          -0.25,
+          -0.1875,
+          -0.125,
+          -0.0625,
+          0.0,
+          0.0625,
+          0.125,
+          0.1875,
+          0.25,
+          0.3125,
+          0.375,
+          0.4375,
+          0.5,
+          0.5625,
+          0.625,
+          0.6875,
+          0.75,
+          0.8125,
+          0.875,
+          0.9375,
+          1.0
+        ]
+      },
+      "status": "unsupported_no_trained_model",
+      "warnings": [
+        "No trained model for this profile; historical predictions are not transferred"
+      ]
+    },
+    {
+      "accuracy_certificate": false,
+      "parameters": {
+        "M_per_point_per_seed": 4096,
+        "T_policy": "analytic G auto_T",
+        "backend": "numba",
+        "chunk": 1024,
+        "h": 0.0078125,
+        "seeds": 1,
+        "tail_eps": 0.0001,
+        "time_discretization_bound": null
+      },
+      "prediction_interval": null,
+      "predictions": {},
+      "profile_id": "mc_grid33_single4096",
+      "scope": {
+        "method": "Monte Carlo",
+        "target": "E_inf<=0.01",
+        "x": [
+          -1.0,
+          -0.9375,
+          -0.875,
+          -0.8125,
+          -0.75,
+          -0.6875,
+          -0.625,
+          -0.5625,
+          -0.5,
+          -0.4375,
+          -0.375,
+          -0.3125,
+          -0.25,
+          -0.1875,
+          -0.125,
+          -0.0625,
+          0.0,
+          0.0625,
+          0.125,
+          0.1875,
+          0.25,
+          0.3125,
+          0.375,
+          0.4375,
+          0.5,
+          0.5625,
+          0.625,
+          0.6875,
+          0.75,
+          0.8125,
+          0.875,
+          0.9375,
+          1.0
+        ]
+      },
+      "status": "unsupported_no_trained_model",
+      "warnings": [
+        "No trained model for this profile; historical predictions are not transferred"
+      ]
+    },
+    {
+      "accuracy_certificate": false,
+      "parameters": {
+        "M_per_point_per_seed": 1024,
+        "T_policy": "analytic G auto_T",
+        "backend": "numba",
+        "chunk": 1024,
+        "h": 0.0078125,
+        "seeds": 4,
+        "tail_eps": 0.0001,
+        "time_discretization_bound": null,
+        "total_paths_per_point": 4096
+      },
+      "prediction_interval": null,
+      "predictions": {
+        "absolute_error_estimate": 0.00392400723940354,
+        "log10_absolute_error": -2.4062702000611744
+      },
+      "profile_id": "mc_x0_mean4x1024",
+      "scope": {
+        "method": "Monte Carlo",
+        "target": "log10 error of mean of four independent seed results",
+        "x": [
+          0.0
+        ]
+      },
+      "status": "supported_exploratory",
+      "warnings": [
+        "Exploratory surrogate; no accuracy certificate or validated prediction interval",
+        "Original family holdout; historical test outcomes previously inspected numerically",
+        "No out-of-distribution validation or portability to changed numerical parameters",
+        "Regression is for aggregate error; single-seed probability does not apply",
+        "No aggregate success classifier, MC runtime model, or h-bias bound"
+      ]
+    },
+    {
+      "accuracy_certificate": false,
+      "parameters": {
+        "M_per_point_per_seed": 1024,
+        "T_policy": "analytic G auto_T",
+        "backend": "numba",
+        "chunk": 1024,
+        "h": 0.0078125,
+        "seeds": 1,
+        "tail_eps": 0.0001,
+        "time_discretization_bound": null
+      },
+      "prediction_interval": null,
+      "predictions": {
+        "p_accuracy_met": 0.579659079143399
+      },
+      "profile_id": "mc_x0_single1024",
+      "scope": {
+        "method": "Monte Carlo",
+        "target": "probability of observed error<=0.01 for one seed",
+        "x": [
+          0.0
+        ]
+      },
+      "status": "supported_exploratory",
+      "warnings": [
+        "Exploratory surrogate; no accuracy certificate or validated prediction interval",
+        "Original family holdout; historical test outcomes previously inspected numerically",
+        "No out-of-distribution validation or portability to changed numerical parameters",
+        "Probability is not a lower reliability bound; h bias unbounded"
+      ]
+    },
+    {
+      "accuracy_certificate": false,
+      "parameters": {
+        "Q": 513,
+        "T_policy": "legacy, independent of G",
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interpolation": "cubic",
+        "n": 128,
+        "padding": 12.0,
+        "tail_eps": 1e-08
+      },
+      "prediction_interval": null,
+      "predictions": {
+        "historical_solver_seconds": 17.566184625029564,
+        "p_accuracy_met": 0.979395043314943
+      },
+      "profile_id": "remizov_taper_grid33",
+      "scope": {
+        "method": "Remizov",
+        "target": "E_inf<=0.01",
+        "x": [
+          -1.0,
+          -0.9375,
+          -0.875,
+          -0.8125,
+          -0.75,
+          -0.6875,
+          -0.625,
+          -0.5625,
+          -0.5,
+          -0.4375,
+          -0.375,
+          -0.3125,
+          -0.25,
+          -0.1875,
+          -0.125,
+          -0.0625,
+          0.0,
+          0.0625,
+          0.125,
+          0.1875,
+          0.25,
+          0.3125,
+          0.375,
+          0.4375,
+          0.5,
+          0.5625,
+          0.625,
+          0.6875,
+          0.75,
+          0.8125,
+          0.875,
+          0.9375,
+          1.0
+        ]
+      },
+      "status": "supported_exploratory",
+      "timing_context": {
+        "counterfactual_single_worker_cost": false,
+        "planned_external_workers": 8
+      },
+      "validation_threshold_decision": true,
+      "warnings": [
+        "Exploratory surrogate; no accuracy certificate or validated prediction interval",
+        "Original family holdout; historical test outcomes previously inspected numerically",
+        "No out-of-distribution validation or portability to changed numerical parameters",
+        "Historical taper has known catastrophic boundary artifacts; not cubic/zero",
+        "Historical wall time mixes planned external concurrency 8/1; not isolated CPU cost or a counterfactual single-worker timing."
+      ]
+    },
+    {
+      "accuracy_certificate": false,
+      "parameters": {
+        "Q": 513,
+        "T_policy": "legacy, independent of G",
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interpolation": "cubic",
+        "n": 128,
+        "padding": 12.0,
+        "tail_eps": 1e-08
+      },
+      "prediction_interval": null,
+      "predictions": {
+        "absolute_error_estimate": 0.0003477016510051769,
+        "log10_absolute_error": -3.4587932471345857,
+        "p_accuracy_met": 0.9934408715368025
+      },
+      "profile_id": "remizov_taper_x0",
+      "scope": {
+        "method": "Remizov",
+        "target": "abs point error<=0.01; log10 error",
+        "x": [
+          0.0
+        ]
+      },
+      "status": "supported_exploratory",
+      "warnings": [
+        "Exploratory surrogate; no accuracy certificate or validated prediction interval",
+        "Original family holdout; historical test outcomes previously inspected numerically",
+        "No out-of-distribution validation or portability to changed numerical parameters",
+        "Extracted node of historical grid33 solve; no point-only runtime model"
+      ]
+    },
+    {
+      "accuracy_certificate": false,
+      "parameters": {
+        "Q": 513,
+        "T_policy": "analytic G common T",
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interpolation": "cubic",
+        "n": 128,
+        "padding": 12.0,
+        "tail_eps": 0.0001
+      },
+      "prediction_interval": null,
+      "predictions": {},
+      "profile_id": "remizov_zero_grid33_n128",
+      "scope": {
+        "method": "Remizov",
+        "target": "E_inf<=0.01",
+        "x": [
+          -1.0,
+          -0.9375,
+          -0.875,
+          -0.8125,
+          -0.75,
+          -0.6875,
+          -0.625,
+          -0.5625,
+          -0.5,
+          -0.4375,
+          -0.375,
+          -0.3125,
+          -0.25,
+          -0.1875,
+          -0.125,
+          -0.0625,
+          0.0,
+          0.0625,
+          0.125,
+          0.1875,
+          0.25,
+          0.3125,
+          0.375,
+          0.4375,
+          0.5,
+          0.5625,
+          0.625,
+          0.6875,
+          0.75,
+          0.8125,
+          0.875,
+          0.9375,
+          1.0
+        ]
+      },
+      "status": "unsupported_no_trained_model",
+      "warnings": [
+        "No trained model for this profile; historical predictions are not transferred"
+      ]
+    },
+    {
+      "accuracy_certificate": false,
+      "parameters": {
+        "Q": 513,
+        "T_policy": "analytic G common T",
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interpolation": "cubic",
+        "n": 256,
+        "padding": 12.0,
+        "tail_eps": 0.0001
+      },
+      "prediction_interval": null,
+      "predictions": {},
+      "profile_id": "remizov_zero_grid33_n256",
+      "scope": {
+        "method": "Remizov",
+        "target": "E_inf<=0.01",
+        "x": [
+          -1.0,
+          -0.9375,
+          -0.875,
+          -0.8125,
+          -0.75,
+          -0.6875,
+          -0.625,
+          -0.5625,
+          -0.5,
+          -0.4375,
+          -0.375,
+          -0.3125,
+          -0.25,
+          -0.1875,
+          -0.125,
+          -0.0625,
+          0.0,
+          0.0625,
+          0.125,
+          0.1875,
+          0.25,
+          0.3125,
+          0.375,
+          0.4375,
+          0.5,
+          0.5625,
+          0.625,
+          0.6875,
+          0.75,
+          0.8125,
+          0.875,
+          0.9375,
+          1.0
+        ]
+      },
+      "status": "unsupported_no_trained_model",
+      "warnings": [
+        "No trained model for this profile; historical predictions are not transferred"
+      ]
+    }
+  ],
+  "schema": "quality_prototype_v1",
+  "total_accuracy_certified": false
+}

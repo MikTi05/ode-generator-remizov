@@ -1,0 +1,70 @@
+{
+  "MC_path_steps_completed": 5108809728,
+  "ML_runs": 0,
+  "ML_training_runs": 0,
+  "R_operator_applications_completed": 655360,
+  "additional900_equations": 0,
+  "additional_equation_solves": 0,
+  "all_guardians_finished": true,
+  "authorized_new_analysis_source_revision": [
+    "diagnostics/report_final_grid5.py"
+  ],
+  "baseline_byte_copies": true,
+  "figures_visually_inspected": [
+    "plots/accuracy_cost.png"
+  ],
+  "final_sources_sha256": {
+    "PROJECT_STATUS.md": "14d653693f667f20ca34a12e1f0976de71a793abd07037249aad670b0a654103",
+    "all_methods_bounds.py": "a7a99776c8fa8faf48bc25f11f8884824aab989b646044c43a47455daff18d41",
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "diagnostics/chernov_batch_control.py": "7483a440da43179e3c873d6e6d4d54900304c902a5b5ab73a468a6d1d79618a2",
+    "diagnostics/final_grid5.py": "76ecc30942806d526b7be39caba9d17fa6cefac7870def314b36b4f038294fbb",
+    "diagnostics/final_grid5_stats.py": "7853609f0a4402793c3b2fbb9b571320923ea356c22571138873d72010ee62f1",
+    "diagnostics/grid100_statistics.py": "79509b21483331ac834d764107293e8ed22947cabc505590a18cd547879a2e40",
+    "diagnostics/joint_grid100.py": "9994f3f579fd177ed5268917dfed053d64bdfc09ba9812a2413ec97e3aaa5729",
+    "diagnostics/mc_production_x0.py": "9f3a12003758e0fa852c1ff637145fc29d6d6a26ccd255fc9c1c5fa565ceafc3",
+    "diagnostics/report_final_grid5.py": "7cabf29070441e0ae602054eb33d716462cacb23c2d4af0e92e3127bae7545da",
+    "diagnostics/run_chernov_batch.py": "9f912e44ae6c071684afd29928d93d751f0137f043b553d2ed07e856c8b02748",
+    "mc_ast_kernels.py": "fa5f3123a2acf3fc4b9d6057c2a946b9ea9a59fcef40b5ff36d9a2ade3ab504e",
+    "mc_optimized.py": "a1f5c168ad5a752d02088d3110700a04b41140a63f1ccdd1f7baeb7fa17a9288",
+    "mc_solver.py": "b48e05e148009aaa4fabe7ec783d956f776438537c522a338a31624fe118ad83",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a",
+    "tests/test_final_grid5.py": "054ca734a886df0f65bad8d7549f9692466dc59102e9f36cebb37176cf66316e"
+  },
+  "fresh_seeds_only_in_confirmation": true,
+  "historical_or_numeric_files_changed": [],
+  "jobs_frozen_no_adaptation": true,
+  "locks_held": {
+    ".chernov_batch_compute.lock": false,
+    ".chernov_batch_controller.lock": false
+  },
+  "mathematical_schemes_changed": false,
+  "new_metric_identity_checks": 25,
+  "original_analysis_version_restorable": true,
+  "pending": 0,
+  "protected_files_changed": [
+    "diagnostics/report_final_grid5.py"
+  ],
+  "protected_files_checked": 16934,
+  "records_immutable_after_resume_and_analysis": true,
+  "resume_check": {
+    "new_solver_calls": 0,
+    "new_worker_startups": 0,
+    "passed": true,
+    "session": {
+      "finished_utc": "2026-10-25T12:05:40.716150+00:00",
+      "new_terminal": 0,
+      "previously_terminal": 25,
+      "reason": null,
+      "session": "final5_d740e2074a",
+      "startups": [],
+      "wall_seconds": 0.0004542078822851181
+    },
+    "unchanged_results": 25
+  },
+  "targeted_test_summary": "26 passed in 12.61s",
+  "terminal": 25
+}

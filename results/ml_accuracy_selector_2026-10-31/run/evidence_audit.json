@@ -1,0 +1,804 @@
+{
+  "by_split": {
+    "test": {
+      "mc_success": 138,
+      "oracle_success": 148,
+      "pairs": 150,
+      "remizov_success": 147,
+      "winners": {
+        "monte_carlo": 4,
+        "remizov": 146
+      }
+    },
+    "train": {
+      "mc_success": 632,
+      "oracle_success": 691,
+      "pairs": 697,
+      "remizov_success": 689,
+      "winners": {
+        "monte_carlo": 11,
+        "remizov": 686
+      }
+    },
+    "validation": {
+      "mc_success": 135,
+      "oracle_success": 146,
+      "pairs": 150,
+      "remizov_success": 146,
+      "winners": {
+        "monte_carlo": 6,
+        "remizov": 144
+      }
+    }
+  },
+  "canonical_dataset_sha256": "940d6c10a8cdd0933bb5c663c681efd39bac5ed450ea37cbb95be1ca481136ad",
+  "comparison_without_rounding": true,
+  "continuous_errors_preserved": true,
+  "dataset_identity": "SHA256 of canonical CSV bytes + equation_id + expression_hash",
+  "epsilon": 0.05,
+  "exact_values_verified_by_safe_loader": true,
+  "external_MC4096_equations": 20,
+  "external_R256_equations": 60,
+  "external_comparable_x0_pairs": 20,
+  "external_dataset_sha256": "2069976b7772c13b17a73e4e995f346fa0b3db2f7c6d425458aeea079971f130",
+  "external_missing_MC_pairs": 40,
+  "external_seed_count_per_equation": 1,
+  "external_subset_csv_sha256": "5dec1ca76063b8a5e75425ae360a81c02b92d6c9fddd61bf043eb55aca20e34f",
+  "external_used_for_primary_fit_or_metrics": false,
+  "grid": {
+    "grid_groups": [
+      {
+        "by_split": {
+          "test": {
+            "missing_pairs_n": 150,
+            "pairs_n": 0,
+            "universe_n": 150
+          },
+          "train": {
+            "missing_pairs_n": 600,
+            "pairs_n": 100,
+            "universe_n": 700
+          },
+          "validation": {
+            "missing_pairs_n": 150,
+            "pairs_n": 0,
+            "universe_n": 150
+          }
+        },
+        "cohort": "original_1000",
+        "context": "historical mass R128 taper vs joint100 primary MC1024; one MC seed, separate from x0 median4",
+        "mc_aggregation": "median of per-seed max absolute grid33 errors",
+        "missing_pairs_n": 900,
+        "name": "mass_R128_MC1024_primary_grid33",
+        "pairing_scope": "saved grid33 nodes only; no continuous interval certificate",
+        "pairs_n": 100,
+        "seed_count_distribution": {
+          "1": 100
+        },
+        "success_counts": {
+          "monte_carlo": 29,
+          "oracle": 87,
+          "remizov": 87
+        },
+        "universe_n": 1000,
+        "winners": {
+          "monte_carlo": 5,
+          "remizov": 95
+        }
+      },
+      {
+        "by_split": {
+          "test": {
+            "missing_pairs_n": 150,
+            "pairs_n": 0,
+            "universe_n": 150
+          },
+          "train": {
+            "missing_pairs_n": 663,
+            "pairs_n": 37,
+            "universe_n": 700
+          },
+          "validation": {
+            "missing_pairs_n": 150,
+            "pairs_n": 0,
+            "universe_n": 150
+          }
+        },
+        "cohort": "original_1000",
+        "context": "fixed R256 zero/commonT vs joint100 primary MC1024; one MC seed",
+        "mc_aggregation": "median of per-seed max absolute grid33 errors",
+        "missing_pairs_n": 963,
+        "name": "secondary_R256_MC1024_primary_grid33",
+        "pairing_scope": "saved grid33 nodes only; no continuous interval certificate",
+        "pairs_n": 37,
+        "seed_count_distribution": {
+          "1": 37
+        },
+        "success_counts": {
+          "monte_carlo": 10,
+          "oracle": 35,
+          "remizov": 35
+        },
+        "universe_n": 1000,
+        "winners": {
+          "monte_carlo": 0,
+          "remizov": 37
+        }
+      },
+      {
+        "by_split": {
+          "test": {
+            "missing_pairs_n": 150,
+            "pairs_n": 0,
+            "universe_n": 150
+          },
+          "train": {
+            "missing_pairs_n": 660,
+            "pairs_n": 40,
+            "universe_n": 700
+          },
+          "validation": {
+            "missing_pairs_n": 142,
+            "pairs_n": 8,
+            "universe_n": 150
+          }
+        },
+        "cohort": "original_1000",
+        "context": "fixed R256 zero/commonT vs MC4096; all saved independent semantic seeds, unequal seed budgets",
+        "mc_aggregation": "median of per-seed max absolute grid33 errors",
+        "missing_pairs_n": 952,
+        "name": "secondary_R256_MC4096_grid33",
+        "pairing_scope": "saved grid33 nodes only; no continuous interval certificate",
+        "pairs_n": 48,
+        "seed_count_distribution": {
+          "4": 43,
+          "8": 4,
+          "12": 1
+        },
+        "success_counts": {
+          "monte_carlo": 30,
+          "oracle": 46,
+          "remizov": 46
+        },
+        "universe_n": 1000,
+        "winners": {
+          "monte_carlo": 0,
+          "remizov": 48
+        }
+      },
+      {
+        "by_split": {
+          "test": {
+            "missing_pairs_n": 40,
+            "pairs_n": 20,
+            "universe_n": 60
+          },
+          "train": {
+            "missing_pairs_n": 0,
+            "pairs_n": 0,
+            "universe_n": 0
+          },
+          "validation": {
+            "missing_pairs_n": 0,
+            "pairs_n": 0,
+            "universe_n": 0
+          }
+        },
+        "cohort": "independent_60",
+        "context": "separate external dataset; R256 zero/commonT vs MC4096 episode0; one MC seed on twenty of sixty",
+        "mc_aggregation": "median of per-seed max absolute grid33 errors",
+        "missing_pairs_n": 40,
+        "name": "external_R256_MC4096_grid33",
+        "pairing_scope": "saved grid33 nodes only; no continuous interval certificate",
+        "pairs_n": 20,
+        "seed_count_distribution": {
+          "1": 20
+        },
+        "success_counts": {
+          "monte_carlo": 12,
+          "oracle": 20,
+          "remizov": 20
+        },
+        "universe_n": 60,
+        "winners": {
+          "monte_carlo": 0,
+          "remizov": 20
+        }
+      }
+    ],
+    "mc4096_replays_excluded": [
+      {
+        "duplicate": "results/f0047_observed_timing_2026-10-26/records/AMV1_F0047_S00_MC1_timing_episode0.json",
+        "kept": "reports/ml_selector_contract/sentinel_p1_2026-10-26/records/AMV1_F0047_S00_MC1_stage1_episode0.json"
+      },
+      {
+        "duplicate": "results/f0047_observed_timing_2026-10-26/records/AMV1_F0047_S00_MC1_timing_episode1.json",
+        "kept": "reports/ml_selector_contract/sentinel_p1_2026-10-26/records/AMV1_F0047_S00_MC1_stage1_episode1.json"
+      },
+      {
+        "duplicate": "results/f0047_observed_timing_2026-10-26/records/AMV1_F0047_S00_MC1_timing_episode2.json",
+        "kept": "reports/ml_selector_contract/sentinel_p1_2026-10-26/records/AMV1_F0047_S00_MC1_stage1_episode2.json"
+      },
+      {
+        "duplicate": "results/f0047_observed_timing_2026-10-26/records/AMV1_F0047_S00_MC1_timing_episode3.json",
+        "kept": "reports/ml_selector_contract/sentinel_p1_2026-10-26/records/AMV1_F0047_S00_MC1_stage1_episode3.json"
+      }
+    ],
+    "model_fit_calls": 0,
+    "numerical_solver_calls": 0
+  },
+  "grid_groups": [
+    {
+      "by_split": {
+        "test": {
+          "missing_pairs_n": 150,
+          "pairs_n": 0,
+          "universe_n": 150
+        },
+        "train": {
+          "missing_pairs_n": 600,
+          "pairs_n": 100,
+          "universe_n": 700
+        },
+        "validation": {
+          "missing_pairs_n": 150,
+          "pairs_n": 0,
+          "universe_n": 150
+        }
+      },
+      "cohort": "original_1000",
+      "context": "historical mass R128 taper vs joint100 primary MC1024; one MC seed, separate from x0 median4",
+      "mc_aggregation": "median of per-seed max absolute grid33 errors",
+      "missing_pairs_n": 900,
+      "name": "mass_R128_MC1024_primary_grid33",
+      "pairing_scope": "saved grid33 nodes only; no continuous interval certificate",
+      "pairs_n": 100,
+      "seed_count_distribution": {
+        "1": 100
+      },
+      "success_counts": {
+        "monte_carlo": 29,
+        "oracle": 87,
+        "remizov": 87
+      },
+      "universe_n": 1000,
+      "winners": {
+        "monte_carlo": 5,
+        "remizov": 95
+      }
+    },
+    {
+      "by_split": {
+        "test": {
+          "missing_pairs_n": 150,
+          "pairs_n": 0,
+          "universe_n": 150
+        },
+        "train": {
+          "missing_pairs_n": 663,
+          "pairs_n": 37,
+          "universe_n": 700
+        },
+        "validation": {
+          "missing_pairs_n": 150,
+          "pairs_n": 0,
+          "universe_n": 150
+        }
+      },
+      "cohort": "original_1000",
+      "context": "fixed R256 zero/commonT vs joint100 primary MC1024; one MC seed",
+      "mc_aggregation": "median of per-seed max absolute grid33 errors",
+      "missing_pairs_n": 963,
+      "name": "secondary_R256_MC1024_primary_grid33",
+      "pairing_scope": "saved grid33 nodes only; no continuous interval certificate",
+      "pairs_n": 37,
+      "seed_count_distribution": {
+        "1": 37
+      },
+      "success_counts": {
+        "monte_carlo": 10,
+        "oracle": 35,
+        "remizov": 35
+      },
+      "universe_n": 1000,
+      "winners": {
+        "monte_carlo": 0,
+        "remizov": 37
+      }
+    },
+    {
+      "by_split": {
+        "test": {
+          "missing_pairs_n": 150,
+          "pairs_n": 0,
+          "universe_n": 150
+        },
+        "train": {
+          "missing_pairs_n": 660,
+          "pairs_n": 40,
+          "universe_n": 700
+        },
+        "validation": {
+          "missing_pairs_n": 142,
+          "pairs_n": 8,
+          "universe_n": 150
+        }
+      },
+      "cohort": "original_1000",
+      "context": "fixed R256 zero/commonT vs MC4096; all saved independent semantic seeds, unequal seed budgets",
+      "mc_aggregation": "median of per-seed max absolute grid33 errors",
+      "missing_pairs_n": 952,
+      "name": "secondary_R256_MC4096_grid33",
+      "pairing_scope": "saved grid33 nodes only; no continuous interval certificate",
+      "pairs_n": 48,
+      "seed_count_distribution": {
+        "4": 43,
+        "8": 4,
+        "12": 1
+      },
+      "success_counts": {
+        "monte_carlo": 30,
+        "oracle": 46,
+        "remizov": 46
+      },
+      "universe_n": 1000,
+      "winners": {
+        "monte_carlo": 0,
+        "remizov": 48
+      }
+    },
+    {
+      "by_split": {
+        "test": {
+          "missing_pairs_n": 40,
+          "pairs_n": 20,
+          "universe_n": 60
+        },
+        "train": {
+          "missing_pairs_n": 0,
+          "pairs_n": 0,
+          "universe_n": 0
+        },
+        "validation": {
+          "missing_pairs_n": 0,
+          "pairs_n": 0,
+          "universe_n": 0
+        }
+      },
+      "cohort": "independent_60",
+      "context": "separate external dataset; R256 zero/commonT vs MC4096 episode0; one MC seed on twenty of sixty",
+      "mc_aggregation": "median of per-seed max absolute grid33 errors",
+      "missing_pairs_n": 40,
+      "name": "external_R256_MC4096_grid33",
+      "pairing_scope": "saved grid33 nodes only; no continuous interval certificate",
+      "pairs_n": 20,
+      "seed_count_distribution": {
+        "1": 20
+      },
+      "success_counts": {
+        "monte_carlo": 12,
+        "oracle": 20,
+        "remizov": 20
+      },
+      "universe_n": 60,
+      "winners": {
+        "monte_carlo": 0,
+        "remizov": 20
+      }
+    }
+  ],
+  "main_MC1024_and_supplementary_MC4096_seeds_combined": false,
+  "missing_remizov": {
+    "AMV1_F0134_S03": {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "reason": "remizov_worker_exception",
+      "source": "results/chernov_solve1000_2026-10-18/solutions/AMV1_F0134_S03.json"
+    },
+    "AMV1_F0136_S01": {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "reason": "remizov_worker_exception",
+      "source": "results/chernov_solve1000_2026-10-18/solutions/AMV1_F0136_S01.json"
+    },
+    "AMV1_F0139_S00": {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "reason": "remizov_worker_exception",
+      "source": "results/chernov_solve1000_2026-10-18/solutions/AMV1_F0139_S00.json"
+    }
+  },
+  "no_censoring_or_replacement_of_finite_outliers": true,
+  "numerical_parameters_changed": false,
+  "numerical_solver_calls": 0,
+  "original_family_counts": {
+    "test": 30,
+    "train": 140,
+    "validation": 30
+  },
+  "original_split": {
+    "test": 150,
+    "train": 700,
+    "validation": 150
+  },
+  "original_x0_missing_pair_count": 3,
+  "paired_summary": {
+    "mc_success": 905,
+    "oracle_success": 985,
+    "pairs": 997,
+    "remizov_success": 982,
+    "winners": {
+      "monte_carlo": 21,
+      "remizov": 976
+    }
+  },
+  "primary_context": "mass R128 cubic/taper legacy horizon versus mass MC1024 x0, median4 absolute seed errors",
+  "schema": "saved_two_method_accuracy_evidence_v1",
+  "source_files": 5799,
+  "spatial_scope": "primary x=0 only; grid33 summaries are separately scoped; neither is a continuous interval certificate",
+  "standalone_mc_equations": 1000,
+  "standalone_mc_seed_records": 4000,
+  "standalone_mc_success": 907,
+  "supplementary_context": "R256 cubic/zero forcing-aware horizon; excluded from primary fit/evaluation",
+  "supplementary_n256_by_split": {
+    "train": 40,
+    "validation": 8
+  },
+  "supplementary_n256_deterministic_duplicates": [
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0032_S02_R256_validation_episode1.json",
+      "equation_id": "AMV1_F0032_S02",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0032_S02_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0032_S02_R256_validation_episode2.json",
+      "equation_id": "AMV1_F0032_S02",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0032_S02_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0032_S02_R256_validation_episode3.json",
+      "equation_id": "AMV1_F0032_S02",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0032_S02_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0041_S02_R256_validation_episode1.json",
+      "equation_id": "AMV1_F0041_S02",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0041_S02_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0041_S02_R256_validation_episode2.json",
+      "equation_id": "AMV1_F0041_S02",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0041_S02_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0041_S02_R256_validation_episode3.json",
+      "equation_id": "AMV1_F0041_S02",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0041_S02_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0069_S00_R256_validation_episode1.json",
+      "equation_id": "AMV1_F0069_S00",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0069_S00_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0069_S00_R256_validation_episode2.json",
+      "equation_id": "AMV1_F0069_S00",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0069_S00_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0069_S00_R256_validation_episode3.json",
+      "equation_id": "AMV1_F0069_S00",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0069_S00_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0106_S01_R256_validation_episode1.json",
+      "equation_id": "AMV1_F0106_S01",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0106_S01_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0106_S01_R256_validation_episode2.json",
+      "equation_id": "AMV1_F0106_S01",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0106_S01_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0106_S01_R256_validation_episode3.json",
+      "equation_id": "AMV1_F0106_S01",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0106_S01_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0133_S03_R256_validation_episode1.json",
+      "equation_id": "AMV1_F0133_S03",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0133_S03_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0133_S03_R256_validation_episode2.json",
+      "equation_id": "AMV1_F0133_S03",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0133_S03_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0133_S03_R256_validation_episode3.json",
+      "equation_id": "AMV1_F0133_S03",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0133_S03_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0143_S04_R256_validation_episode1.json",
+      "equation_id": "AMV1_F0143_S04",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0143_S04_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0143_S04_R256_validation_episode2.json",
+      "equation_id": "AMV1_F0143_S04",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0143_S04_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0143_S04_R256_validation_episode3.json",
+      "equation_id": "AMV1_F0143_S04",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0143_S04_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0189_S01_R256_validation_episode1.json",
+      "equation_id": "AMV1_F0189_S01",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0189_S01_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0189_S01_R256_validation_episode2.json",
+      "equation_id": "AMV1_F0189_S01",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0189_S01_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0189_S01_R256_validation_episode3.json",
+      "equation_id": "AMV1_F0189_S01",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0189_S01_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0194_S00_R256_validation_episode1.json",
+      "equation_id": "AMV1_F0194_S00",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0194_S00_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0194_S00_R256_validation_episode2.json",
+      "equation_id": "AMV1_F0194_S00",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0194_S00_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_probability_validation_2026-10-26/records/AMV1_F0194_S00_R256_validation_episode3.json",
+      "equation_id": "AMV1_F0194_S00",
+      "kept": "results/ml_probability_validation_2026-10-26/records/AMV1_F0194_S00_R256_validation_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0016_S01_R256_switch5_timing_episode0.json",
+      "equation_id": "AMV1_F0016_S01",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0016_S01_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0016_S01_R256_switch5_timing_episode1.json",
+      "equation_id": "AMV1_F0016_S01",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0016_S01_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0016_S01_R256_switch5_timing_episode2.json",
+      "equation_id": "AMV1_F0016_S01",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0016_S01_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0016_S01_R256_switch5_timing_episode3.json",
+      "equation_id": "AMV1_F0016_S01",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0016_S01_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0043_S00_R256_switch5_timing_episode0.json",
+      "equation_id": "AMV1_F0043_S00",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0043_S00_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0043_S00_R256_switch5_timing_episode1.json",
+      "equation_id": "AMV1_F0043_S00",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0043_S00_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0043_S00_R256_switch5_timing_episode2.json",
+      "equation_id": "AMV1_F0043_S00",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0043_S00_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0043_S00_R256_switch5_timing_episode3.json",
+      "equation_id": "AMV1_F0043_S00",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0043_S00_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0119_S00_R256_switch5_timing_episode0.json",
+      "equation_id": "AMV1_F0119_S00",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0119_S00_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0119_S00_R256_switch5_timing_episode1.json",
+      "equation_id": "AMV1_F0119_S00",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0119_S00_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0119_S00_R256_switch5_timing_episode2.json",
+      "equation_id": "AMV1_F0119_S00",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0119_S00_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0119_S00_R256_switch5_timing_episode3.json",
+      "equation_id": "AMV1_F0119_S00",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0119_S00_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0153_S01_R256_switch5_timing_episode0.json",
+      "equation_id": "AMV1_F0153_S01",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0153_S01_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0153_S01_R256_switch5_timing_episode1.json",
+      "equation_id": "AMV1_F0153_S01",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0153_S01_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0153_S01_R256_switch5_timing_episode2.json",
+      "equation_id": "AMV1_F0153_S01",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0153_S01_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0153_S01_R256_switch5_timing_episode3.json",
+      "equation_id": "AMV1_F0153_S01",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0153_S01_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0172_S03_R256_switch5_timing_episode0.json",
+      "equation_id": "AMV1_F0172_S03",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0172_S03_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0172_S03_R256_switch5_timing_episode1.json",
+      "equation_id": "AMV1_F0172_S03",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0172_S03_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0172_S03_R256_switch5_timing_episode2.json",
+      "equation_id": "AMV1_F0172_S03",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0172_S03_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/ml_switch5_r_timing_2026-10-26/records/AMV1_F0172_S03_R256_switch5_timing_episode3.json",
+      "equation_id": "AMV1_F0172_S03",
+      "kept": "results/remizov_r0_2026-10-26/records/AMV1_F0172_S03_R256_stage0_episode0.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/f0047_observed_timing_2026-10-26/records/AMV1_F0047_S00_R256_timing_episode0.json",
+      "equation_id": "AMV1_F0047_S00",
+      "kept": "results/final_grid5_2026-10-25/records/AMV1_F0047_S00_R256.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/f0047_observed_timing_2026-10-26/records/AMV1_F0047_S00_R256_timing_episode1.json",
+      "equation_id": "AMV1_F0047_S00",
+      "kept": "results/final_grid5_2026-10-25/records/AMV1_F0047_S00_R256.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/f0047_observed_timing_2026-10-26/records/AMV1_F0047_S00_R256_timing_episode2.json",
+      "equation_id": "AMV1_F0047_S00",
+      "kept": "results/final_grid5_2026-10-25/records/AMV1_F0047_S00_R256.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/f0047_observed_timing_2026-10-26/records/AMV1_F0047_S00_R256_timing_episode3.json",
+      "equation_id": "AMV1_F0047_S00",
+      "kept": "results/final_grid5_2026-10-25/records/AMV1_F0047_S00_R256.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/f0047_three_profile_2026-10-26/records/AMV1_F0047_S00_R256_fresh_episode0.json",
+      "equation_id": "AMV1_F0047_S00",
+      "kept": "results/final_grid5_2026-10-25/records/AMV1_F0047_S00_R256.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/f0047_three_profile_2026-10-26/records/AMV1_F0047_S00_R256_fresh_episode1.json",
+      "equation_id": "AMV1_F0047_S00",
+      "kept": "results/final_grid5_2026-10-25/records/AMV1_F0047_S00_R256.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/f0047_three_profile_2026-10-26/records/AMV1_F0047_S00_R256_fresh_episode2.json",
+      "equation_id": "AMV1_F0047_S00",
+      "kept": "results/final_grid5_2026-10-25/records/AMV1_F0047_S00_R256.json",
+      "reason": "deterministic timing replay, not a new equation"
+    },
+    {
+      "duplicate": "results/f0047_three_profile_2026-10-26/records/AMV1_F0047_S00_R256_fresh_episode3.json",
+      "equation_id": "AMV1_F0047_S00",
+      "kept": "results/final_grid5_2026-10-25/records/AMV1_F0047_S00_R256.json",
+      "reason": "deterministic timing replay, not a new equation"
+    }
+  ],
+  "supplementary_n256_pairs": 48
+}

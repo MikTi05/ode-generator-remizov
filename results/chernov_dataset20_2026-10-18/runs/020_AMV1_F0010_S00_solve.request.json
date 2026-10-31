@@ -1,0 +1,20 @@
+{
+  "config": {
+    "T": null,
+    "boundary": "taper",
+    "dx": 0.0125,
+    "interp": "cubic",
+    "max_work_grid_points": 100000,
+    "n": 128,
+    "n_jobs": 1,
+    "n_steps": 32768,
+    "num_t": 513,
+    "padding": 12.0,
+    "start_method": "spawn",
+    "t_grading": "quadratic",
+    "tail_eps": 1e-08,
+    "taper_width": null
+  },
+  "method": "solve",
+  "problem_id": "AMV1_F0010_S00"
+}

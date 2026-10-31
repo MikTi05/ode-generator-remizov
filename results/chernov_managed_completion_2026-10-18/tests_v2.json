@@ -1,0 +1,8 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_chernov_monitored_batch.py tests/test_chernov_managed_batch.py tests/test_chernov_batch_control.py",
+  "returncode": 0,
+  "passed": 45,
+  "pytest_seconds": 14.84,
+  "numerical_solver_calls": 0,
+  "includes_bounded_snapshot_regression": true
+}

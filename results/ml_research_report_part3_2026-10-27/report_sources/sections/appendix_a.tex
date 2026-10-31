@@ -1,0 +1,2166 @@
+\renewcommand{\theHequation}{A.\arabic{equation}}\renewcommand{\theHtable}{A.\arabic{table}}
+
+\section*{Приложение А. Полные дифференциальные задачи}\label{app:a}
+
+\renewcommand{\theequation}{А.\arabic{equation}}\setcounter{equation}{0}
+
+\renewcommand{\thetable}{А.\arabic{table}}\setcounter{table}{0}
+
+\small\setlength{\abovedisplayskip}{3pt}\setlength{\belowdisplayskip}{3pt}\setlength{\belowdisplayshortskip}{3pt}
+
+Ниже приведены все семь реальных примеров. Числа сохранены с точностью исходного представления. Факторизация не оставляет неопределённых функций: каждая вспомогательная функция задана численно через ранее определённые выражения. Аргумент $x$ у них опущен. Символы $h_k,d_k,e_k$ означают функцию и её первую и вторую производные; сами производные также выписаны явно. Все задачи заданы на $\R$; численные ошибки относятся только к 33 узлам $[-1,1]$. Примеры 1--6 входят в финальные данные, пример 7 относится к отдельному историческому опыту. Графики каждого примера собраны в одноимённом пункте приложения Б. Причинная роль свойств коэффициентов в наблюдаемых ошибках не установлена.
+
+\subsection*{А.1. Пример 1}\label{app:ex1}
+
+Достаточность малого числа итераций; неточный результат Монте-Карло у порога.
+
+Исходная задача имеет вид \eqref{eq:original}. Полная численная запись её коэффициентов и правой части задаётся следующими равенствами.
+
+\begin{equation}
+p_{1}=-0.9445099704819986
+\end{equation}
+
+
+\begin{equation}
+q_{1}=-1.4320384163375453
+\end{equation}
+
+
+\begin{equation}
+r_{1}=-1.0418788348584225
+\end{equation}
+
+
+\begin{equation}
+h_{1}=e^{- 1.6583964568669665 \left(x + 0.7759412582493684\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+d_{1}=\left(- 3.316792913733933 x - 2.5736364668352967\right) h_{1}
+\end{equation}
+
+
+\begin{equation}
+e_{1}=\left(\left(3.316792913733933 x + 2.5736364668352967\right)^{2} - 3.316792913733933\right) h_{1}
+\end{equation}
+
+
+\begin{equation}
+h_{2}=0.774948700390804
+\end{equation}
+
+
+\begin{equation}
+d_{2}=0
+\end{equation}
+
+
+\begin{equation}
+e_{2}=0
+\end{equation}
+
+
+\begin{equation}
+h_{3}=1.4204653788060875 h_{1} + 1.4499935751532103 h_{2}
+\end{equation}
+
+
+\begin{equation}
+d_{3}=1.4204653788060875 d_{1} + 1.4499935751532103 d_{2}
+\end{equation}
+
+
+\begin{equation}
+e_{3}=1.4204653788060875 e_{1} + 1.4499935751532103 e_{2}
+\end{equation}
+
+
+\begin{equation}
+a(x)=0.4948927992340211 \tanh{\left(p_{1} \right)} + 1.983925129927827
+\end{equation}
+\begin{equation}
+b(x)=1.2736839759694616 \tanh{\left(q_{1} \right)}
+\end{equation}
+\begin{equation}
+c(x)=1.2336798048825266 \tanh{\left(r_{1} \right)} - 1.6551040450654098
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}z=\frac{x-(0.12552944688615264)}{2.7787272448026363},\quad D=1-z^2,\\s=0.4496376326792234\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+W(x)=\begin{cases}\exp(1-D^{-1}),&|z|<1,\\0,&|z|\ge1,\end{cases}
+\end{equation}
+
+
+\begin{equation}\label{eq:ex1-solution}
+y(x)=sW(x)h_{3}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\ell(x)=-\frac{2z}{2.7787272448026363D^2},\\\ell_1(x)=-\frac{2}{(2.7787272448026363)^2D^2}-\frac{8z^2}{(2.7787272448026363)^2D^3}.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\Gamma_2(x)=0.4948927992340211 \tanh{\left(p_{1} \right)} + 1.983925129927827
+\end{equation}
+
+
+\begin{equation}
+\Gamma_1(x)=2\Gamma_2(x)\ell(x)+\bigl(1.2736839759694616 \tanh{\left(q_{1} \right)}\bigr)
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\Gamma_0(x)&=\Gamma_2(x)[\ell(x)^2+\ell_1(x)]\\&\quad+\bigl(1.2736839759694616 \tanh{\left(q_{1} \right)}\bigr)\ell(x)\\&\quad+\bigl(1.2336798048825266 \tanh{\left(r_{1} \right)} - 1.6551040450654098\bigr).\end{aligned}
+\end{equation}
+
+
+\begin{equation}\label{eq:ex1-forcing}
+g(x)=\begin{cases}s e^{1-D^{-1}}[\Gamma_2(x)e_{3}+\Gamma_1(x)d_{3}+\Gamma_0(x)h_{3}],&|z|<1,\\0,&|z|\ge1.\end{cases}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\lambda=1.6551040450654098,\quad c_R(x)=c(x)+1.6551040450654098,\\g_R(x)=-g(x),\quad (\lambda-L)y=g_R.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\underline a=1.489032330693806,\quad \overline a=2.478817929161848,\\|b|\le1.2736839759694616,\quad |c_R(x)|\le C=1.2336798048825266,\\\lambda-C\approx0.42142424018288316>0.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+y(-1)\approx0.8981507364381763,\qquad y^\prime(-1)\approx0.7336190907516743
+\end{equation}
+
+
+\noindent\textbf{Уравнение с числовыми коэффициентами.} После всех определений выше полная подстановка в исходную форму даёт
+
+\begin{multline}\label{eq:ex1-ode}\bigl(0.4948927992340211 \tanh{\left(p_{1} \right)} + 1.983925129927827\bigr)y^{\prime\prime}(x)\\+\bigl(1.2736839759694616 \tanh{\left(q_{1} \right)}\bigr)y^\prime(x)\\+\bigl(1.2336798048825266 \tanh{\left(r_{1} \right)} - 1.6551040450654098\bigr)y(x)=g(x),\qquad x\in\R.\end{multline}
+
+Правая часть задана замкнутой формулой~\eqref{eq:ex1-forcing}; все её числовые параметры и функции определены в этом пункте, обращения к программным данным не требуется. На границе носителя и вне него $y=g=0$; гладкость обеспечивается функцией $W$. Границы носителя: $-2.6531977979164836$ и $2.904256691688789$.
+
+Глобальные оценки $\underline a,\overline a,B,C$ не обязательно являются точными экстремумами. Резольвентное равенство задаёт ограниченное решение на всей прямой. Начальные данные, выписанные выше с точностью хранения, совместимы с этим решением, но не заменяют постановку: произвольные другие данные Коши дали бы другое решение.
+
+\begin{center}\captionof{table}{Результаты примера 1}\label{tab:ex1}\begin{tabular}{lrrr}\toprule Приближение&$E_{\min}$--$E_{\max}$&Точных&Время, с\\\midrule
+
+Ремизов, $n=128$&0.0029193732--0.0029193732&1/1&11.6963\\
+
+Ремизов, $n=256$&0.001461412--0.001461412&1/1&23.4141\\
+
+Монте-Карло, $M=4096$&0.010262413--0.010262413&0/1&27.6979\\
+
+\bottomrule\end{tabular}\end{center}
+
+Время в таблице --- один сохранённый замер; повторный разброс по нему не известен.
+
+\clearpage
+
+\subsection*{А.2. Пример 2}\label{app:ex2}
+
+Достаточность малого числа итераций при переменных коэффициентах.
+
+Исходная задача имеет вид \eqref{eq:original}. Полная численная запись её коэффициентов и правой части задаётся следующими равенствами.
+
+\begin{equation}
+p_{1}=\frac{x + 0.21060487890393131}{\sqrt{\left(x + 0.21060487890393131\right)^{2} + 1}}
+\end{equation}
+
+
+\begin{equation}
+p_{2}=\cos{\left(0.5680183686903811 x + 1.2743887130599818 \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{3}=- 0.8732132664542837 p_{1} + 1.5298069736612434 p_{2}
+\end{equation}
+
+
+\begin{equation}
+q_{1}=\frac{x - 0.377349136461925}{\sqrt{\left(x - 0.377349136461925\right)^{2} + 1}}
+\end{equation}
+
+
+\begin{equation}
+q_{2}=1.000638003655915
+\end{equation}
+
+
+\begin{equation}
+q_{3}=q_{1} q_{2}
+\end{equation}
+
+
+\begin{equation}
+r_{1}=\cos{\left(1.00216641136428 x + 0.38109286865906444 \right)}
+\end{equation}
+
+
+\begin{equation}
+r_{2}=\cos{\left(1.210763323001174 x + 1.2222393183020743 \right)}
+\end{equation}
+
+
+\begin{equation}
+r_{3}=- 0.8208274553794475 r_{1} - 0.356146361135799 r_{2}
+\end{equation}
+
+
+\begin{equation}
+h_{1}=\frac{1}{0.638359964281694 \left(x - 0.9052063521362586\right)^{2} + 1}
+\end{equation}
+
+
+\begin{equation}
+d_{1}=\frac{1.1556949892345292 - 1.276719928563388 x}{\left(0.638359964281694 \left(x - 0.9052063521362586\right)^{2} + 1\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+e_{1}=\frac{\frac{\left(1.276719928563388 x - 1.1556949892345292\right) \left(2.553439857126776 x - 2.3113899784690584\right)}{0.638359964281694 \left(x - 0.9052063521362586\right)^{2} + 1} - 1.276719928563388}{\left(0.638359964281694 \left(x - 0.9052063521362586\right)^{2} + 1\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+h_{2}=\frac{x + 0.6468874800100536}{\sqrt{\left(x + 0.6468874800100536\right)^{2} + 1}}
+\end{equation}
+
+
+\begin{equation}
+d_{2}=\frac{\left(- x - 0.6468874800100536\right) \left(x + 0.6468874800100536\right)}{\left(\left(x + 0.6468874800100536\right)^{2} + 1\right)^{\frac{3}{2}}} + \frac{1}{\sqrt{\left(x + 0.6468874800100536\right)^{2} + 1}}
+\end{equation}
+
+
+\begin{equation}
+e_{2}=\frac{\left(x + 0.6468874800100536\right) \left(\frac{\left(x + 0.6468874800100536\right) \left(3 x + 1.9406624400301609\right)}{\left(x + 0.6468874800100536\right)^{2} + 1} - 3\right)}{\left(\left(x + 0.6468874800100536\right)^{2} + 1\right)^{\frac{3}{2}}}
+\end{equation}
+
+
+\begin{equation}
+h_{3}=1.5762477906577181 h_{1} + 0.6853099011085214 h_{2}
+\end{equation}
+
+
+\begin{equation}
+d_{3}=1.5762477906577181 d_{1} + 0.6853099011085214 d_{2}
+\end{equation}
+
+
+\begin{equation}
+e_{3}=1.5762477906577181 e_{1} + 0.6853099011085214 e_{2}
+\end{equation}
+
+
+\begin{equation}
+a(x)=0.2713886756098214 \tanh{\left(p_{3} \right)} + 1.4883119432565608
+\end{equation}
+\begin{equation}
+b(x)=0.3669965904808545 \tanh{\left(q_{3} \right)}
+\end{equation}
+\begin{equation}
+c(x)=0.7166536787465632 \tanh{\left(r_{3} \right)} - 1.1821619224255704
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}z=\frac{x-(-0.12615575192036316)}{2.5739978197604607},\quad D=1-z^2,\\s=0.4908742162816097\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+W(x)=\begin{cases}\exp(1-D^{-1}),&|z|<1,\\0,&|z|\ge1,\end{cases}
+\end{equation}
+
+
+\begin{equation}\label{eq:ex2-solution}
+y(x)=sW(x)h_{3}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\ell(x)=-\frac{2z}{2.5739978197604607D^2},\\\ell_1(x)=-\frac{2}{(2.5739978197604607)^2D^2}-\frac{8z^2}{(2.5739978197604607)^2D^3}.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\Gamma_2(x)=0.2713886756098214 \tanh{\left(p_{3} \right)} + 1.4883119432565608
+\end{equation}
+
+
+\begin{equation}
+\Gamma_1(x)=2\Gamma_2(x)\ell(x)+\bigl(0.3669965904808545 \tanh{\left(q_{3} \right)}\bigr)
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\Gamma_0(x)&=\Gamma_2(x)[\ell(x)^2+\ell_1(x)]\\&\quad+\bigl(0.3669965904808545 \tanh{\left(q_{3} \right)}\bigr)\ell(x)\\&\quad+\bigl(0.7166536787465632 \tanh{\left(r_{3} \right)} - 1.1821619224255704\bigr).\end{aligned}
+\end{equation}
+
+
+\begin{equation}\label{eq:ex2-forcing}
+g(x)=\begin{cases}s e^{1-D^{-1}}[\Gamma_2(x)e_{3}+\Gamma_1(x)d_{3}+\Gamma_0(x)h_{3}],&|z|<1,\\0,&|z|\ge1.\end{cases}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\lambda=1.1821619224255704,\quad c_R(x)=c(x)+1.1821619224255704,\\g_R(x)=-g(x),\quad (\lambda-L)y=g_R.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\underline a=1.2169232676467394,\quad \overline a=1.7597006188663822,\\|b|\le0.3669965904808545,\quad |c_R(x)|\le C=0.7166536787465632,\\\lambda-C\approx0.46550824367900734>0.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+y(-1)\approx0.10643772906019516,\qquad y^\prime(-1)\approx0.43361196045069755
+\end{equation}
+
+
+\noindent\textbf{Уравнение с числовыми коэффициентами.} После всех определений выше полная подстановка в исходную форму даёт
+
+\begin{multline}\label{eq:ex2-ode}\bigl(0.2713886756098214 \tanh{\left(p_{3} \right)} + 1.4883119432565608\bigr)y^{\prime\prime}(x)\\+\bigl(0.3669965904808545 \tanh{\left(q_{3} \right)}\bigr)y^\prime(x)\\+\bigl(0.7166536787465632 \tanh{\left(r_{3} \right)} - 1.1821619224255704\bigr)y(x)=g(x),\qquad x\in\R.\end{multline}
+
+Правая часть задана замкнутой формулой~\eqref{eq:ex2-forcing}; все её числовые параметры и функции определены в этом пункте, обращения к программным данным не требуется. На границе носителя и вне него $y=g=0$; гладкость обеспечивается функцией $W$. Границы носителя: $-2.700153571680824$ и $2.4478420678400976$.
+
+Глобальные оценки $\underline a,\overline a,B,C$ не обязательно являются точными экстремумами. Резольвентное равенство задаёт ограниченное решение на всей прямой. Начальные данные, выписанные выше с точностью хранения, совместимы с этим решением, но не заменяют постановку: произвольные другие данные Коши дали бы другое решение.
+
+\begin{center}\captionof{table}{Результаты примера 2}\label{tab:ex2}\begin{tabular}{lrrr}\toprule Приближение&$E_{\min}$--$E_{\max}$&Точных&Время, с\\\midrule
+
+Ремизов, $n=128$&0.0017445545--0.0017445545&1/1&11.5755\\
+
+Ремизов, $n=256$&0.00087090875--0.00087090875&1/1&23.1319\\
+
+\bottomrule\end{tabular}\end{center}
+
+Время в таблице --- один сохранённый замер; повторный разброс по нему не известен.
+
+\clearpage
+
+\subsection*{А.3. Пример 3}\label{app:ex3}
+
+Достижение точности после увеличения числа итераций.
+
+Исходная задача имеет вид \eqref{eq:original}. Полная численная запись её коэффициентов и правой части задаётся следующими равенствами.
+
+\begin{equation}
+p_{1}=\tanh{\left(0.8244771488423202 x - 1.1456471961460697 \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{2}=e^{- 0.22106311770162773 \left(x - 1.2370099813399829\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+p_{3}=p_{1} p_{2}
+\end{equation}
+
+
+\begin{equation}
+p_{4}=\frac{1}{0.5987102048642993 \left(x - 0.263931371098713\right)^{2} + 1}
+\end{equation}
+
+
+\begin{equation}
+p_{5}=\sin{\left(p_{4} \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{6}=0.5981038935548725 p_{3} + 0.8355110806170926 p_{5}
+\end{equation}
+
+
+\begin{equation}
+q_{1}=\sin{\left(0.4413832639126721 x + 1.2043497607282871 \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{2}=\tanh{\left(q_{1} \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{3}=- \tanh{\left(0.33786109799436775 x + 2.6471811900765823 \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{4}=-0.2105776416426166
+\end{equation}
+
+
+\begin{equation}
+q_{5}=- 0.3752371600926675 q_{3} + 0.8908997942655258 q_{4}
+\end{equation}
+
+
+\begin{equation}
+q_{6}=- 0.28938241805119097 q_{2} - 0.9633684125762357 q_{5}
+\end{equation}
+
+
+\begin{equation}
+r_{1}=- \sin{\left(0.5744472527325505 x - 2.7408528273199484 \right)}
+\end{equation}
+
+
+\begin{equation}
+r_{2}=\tanh{\left(r_{1} \right)}
+\end{equation}
+
+
+\begin{equation}
+r_{3}=\cos{\left(0.2982402651394469 x + 1.7033598802484164 \right)}
+\end{equation}
+
+
+\begin{equation}
+r_{4}=-0.698604414942803
+\end{equation}
+
+
+\begin{equation}
+r_{5}=0.493356366191655 r_{3} - 0.8567238179945769 r_{4}
+\end{equation}
+
+
+\begin{equation}
+r_{6}=r_{2} r_{5}
+\end{equation}
+
+
+\begin{equation}
+h_{1}=\cos{\left(0.162537284342751 x + 0.4547833238272104 \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{1}=- 0.162537284342751 \sin{\left(0.162537284342751 x + 0.4547833238272104 \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{1}=- 0.02641836880151629 h_{1}
+\end{equation}
+
+
+\begin{equation}
+h_{2}=e^{- h_{1}^{2}}
+\end{equation}
+
+
+\begin{equation}
+d_{2}=- 2 d_{1} h_{1} e^{- h_{1}^{2}}
+\end{equation}
+
+
+\begin{equation}
+e_{2}=2 d_{1}^{2} \left(2 h_{1}^{2} - 1\right) e^{- h_{1}^{2}} - 2 e_{1} h_{1} e^{- h_{1}^{2}}
+\end{equation}
+
+
+\begin{equation}
+h_{3}=- \tanh{\left(0.3613725371874747 x + 1.1967457073726797 \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{3}=0.3613725371874747 \tanh^{2}{\left(0.3613725371874747 x + 1.1967457073726797 \right)} - 0.3613725371874747
+\end{equation}
+
+
+\begin{equation}
+e_{3}=- 0.26118022126662555 \left(\tanh^{2}{\left(0.3613725371874747 x + 1.1967457073726797 \right)} - 1\right) (-h_{3})
+\end{equation}
+
+
+\begin{equation}
+h_{4}=e^{- 0.46929024038993034 \left(x - 1.3123761993740666\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+d_{4}=\left(1.2317706841725578 - 0.9385804807798607 x\right) h_{4}
+\end{equation}
+
+
+\begin{equation}
+e_{4}=\left(\left(0.9385804807798607 x - 1.2317706841725578\right)^{2} - 0.9385804807798607\right) h_{4}
+\end{equation}
+
+
+\begin{equation}
+h_{5}=- 0.8980719428395056 h_{3} - 0.6907321591909864 h_{4}
+\end{equation}
+
+
+\begin{equation}
+d_{5}=- 0.8980719428395056 d_{3} - 0.6907321591909864 d_{4}
+\end{equation}
+
+
+\begin{equation}
+e_{5}=- 0.8980719428395056 e_{3} - 0.6907321591909864 e_{4}
+\end{equation}
+
+
+\begin{equation}
+h_{6}=h_{2} h_{5}
+\end{equation}
+
+
+\begin{equation}
+d_{6}=d_{2} h_{5} + d_{5} h_{2}
+\end{equation}
+
+
+\begin{equation}
+e_{6}=2 d_{2} d_{5} + e_{2} h_{5} + e_{5} h_{2}
+\end{equation}
+
+
+\begin{equation}
+a(x)=0.16392539473914125 \tanh{\left(p_{6} \right)} + 1.618730489075625
+\end{equation}
+\begin{equation}
+b(x)=1.1248929748256933 \tanh{\left(q_{6} \right)}
+\end{equation}
+\begin{equation}
+c(x)=0.857751103852765 \tanh{\left(r_{6} \right)} - 1.2896129579422138
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}z=\frac{x-(-0.03666028004499061)}{1.7373814842542066},\quad D=1-z^2,\\s=6.034151780918269\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+W(x)=\begin{cases}\exp(1-D^{-1}),&|z|<1,\\0,&|z|\ge1,\end{cases}
+\end{equation}
+
+
+\begin{equation}\label{eq:ex3-solution}
+y(x)=sW(x)h_{6}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\ell(x)=-\frac{2z}{1.7373814842542066D^2},\\\ell_1(x)=-\frac{2}{(1.7373814842542066)^2D^2}-\frac{8z^2}{(1.7373814842542066)^2D^3}.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\Gamma_2(x)=0.16392539473914125 \tanh{\left(p_{6} \right)} + 1.618730489075625
+\end{equation}
+
+
+\begin{equation}
+\Gamma_1(x)=2\Gamma_2(x)\ell(x)+\bigl(1.1248929748256933 \tanh{\left(q_{6} \right)}\bigr)
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\Gamma_0(x)&=\Gamma_2(x)[\ell(x)^2+\ell_1(x)]\\&\quad+\bigl(1.1248929748256933 \tanh{\left(q_{6} \right)}\bigr)\ell(x)\\&\quad+\bigl(0.857751103852765 \tanh{\left(r_{6} \right)} - 1.2896129579422138\bigr).\end{aligned}
+\end{equation}
+
+
+\begin{equation}\label{eq:ex3-forcing}
+g(x)=\begin{cases}s e^{1-D^{-1}}[\Gamma_2(x)e_{6}+\Gamma_1(x)d_{6}+\Gamma_0(x)h_{6}],&|z|<1,\\0,&|z|\ge1.\end{cases}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\lambda=1.2896129579422138,\quad c_R(x)=c(x)+1.2896129579422138,\\g_R(x)=-g(x),\quad (\lambda-L)y=g_R.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\underline a=1.4548050943364836,\quad \overline a=1.7826558838147661,\\|b|\le1.1248929748256933,\quad |c_R(x)|\le C=0.857751103852765,\\\lambda-C\approx0.4318618540894487>0.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+y(-1)\approx0.8626576943125405,\qquad y^\prime(-1)\approx1.304418735575674
+\end{equation}
+
+
+\noindent\textbf{Уравнение с числовыми коэффициентами.} После всех определений выше полная подстановка в исходную форму даёт
+
+\begin{multline}\label{eq:ex3-ode}\bigl(0.16392539473914125 \tanh{\left(p_{6} \right)} + 1.618730489075625\bigr)y^{\prime\prime}(x)\\+\bigl(1.1248929748256933 \tanh{\left(q_{6} \right)}\bigr)y^\prime(x)\\+\bigl(0.857751103852765 \tanh{\left(r_{6} \right)} - 1.2896129579422138\bigr)y(x)=g(x),\qquad x\in\R.\end{multline}
+
+Правая часть задана замкнутой формулой~\eqref{eq:ex3-forcing}; все её числовые параметры и функции определены в этом пункте, обращения к программным данным не требуется. На границе носителя и вне него $y=g=0$; гладкость обеспечивается функцией $W$. Границы носителя: $-1.7740417642991972$ и $1.700721204209216$.
+
+Глобальные оценки $\underline a,\overline a,B,C$ не обязательно являются точными экстремумами. Резольвентное равенство задаёт ограниченное решение на всей прямой. Начальные данные, выписанные выше с точностью хранения, совместимы с этим решением, но не заменяют постановку: произвольные другие данные Коши дали бы другое решение.
+
+\begin{center}\captionof{table}{Результаты примера 3}\label{tab:ex3}\begin{tabular}{lrrr}\toprule Приближение&$E_{\min}$--$E_{\max}$&Точных&Время, с\\\midrule
+
+Ремизов, $n=128$&0.010221495--0.010221495&0/1&11.6567\\
+
+Ремизов, $n=256$&0.0037612517--0.0037612517&1/1&23.4027\\
+
+\bottomrule\end{tabular}\end{center}
+
+Время в таблице --- один сохранённый замер; повторный разброс по нему не известен.
+
+\clearpage
+
+\subsection*{А.4. Пример 4}\label{app:ex4}
+
+Достижение точности после уточнения при контрастных коэффициентах.
+
+Исходная задача имеет вид \eqref{eq:original}. Полная численная запись её коэффициентов и правой части задаётся следующими равенствами.
+
+\begin{equation}
+p_{1}=-1.3024529212340328
+\end{equation}
+
+
+\begin{equation}
+p_{2}=0.5029816396099253
+\end{equation}
+
+
+\begin{equation}
+p_{3}=p_{1} p_{2}
+\end{equation}
+
+
+\begin{equation}
+p_{4}=\sin{\left(0.7818782924694538 x - 1.1801170366294473 \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{5}=\frac{p_{4}}{p_{4}^{2} + 1}
+\end{equation}
+
+
+\begin{equation}
+p_{6}=1.13890967472324 p_{3} - 0.46236007446072785 p_{5}
+\end{equation}
+
+
+\begin{equation}
+q_{1}=\tanh{\left(0.5866167318243564 x + 1.4643758158879783 \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{2}=\cos{\left(2.7088356798428284 x - 2.2881880973758557 \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{3}=q_{1} q_{2}
+\end{equation}
+
+
+\begin{equation}
+q_{4}=\frac{1}{1.9311690589059394 \left(x - 0.7444930763698687\right)^{2} + 1}
+\end{equation}
+
+
+\begin{equation}
+q_{5}=\sin{\left(2.331750244678776 x - 3.0724933855373084 \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{6}=- 1.3855435147794901 q_{4} + 0.9577134828657919 q_{5}
+\end{equation}
+
+
+\begin{equation}
+q_{7}=0.2830466158191255 q_{3} - 0.877692605315722 q_{6}
+\end{equation}
+
+
+\begin{equation}
+r_{1}=e^{- 0.704724021002883 \left(x + 0.9516240766575155\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+r_{2}=\frac{x + 1.053126774535638}{\sqrt{\left(x + 1.053126774535638\right)^{2} + 1}}
+\end{equation}
+
+
+\begin{equation}
+r_{3}=r_{1} r_{2}
+\end{equation}
+
+
+\begin{equation}
+r_{4}=e^{- 2.0654206976403464 \left(x + 0.9684708843797861\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+r_{5}=e^{- 2.0914180629646806 \left(x + 1.329629003747796\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+r_{6}=- 0.5866321973351762 r_{4} + 1.001830302334693 r_{5}
+\end{equation}
+
+
+\begin{equation}
+r_{7}=- 0.46448908756192575 r_{3} + 1.1470991438786908 r_{6}
+\end{equation}
+
+
+\begin{equation}
+h_{1}=e^{- 0.604521211006746 \left(x + 0.7831400935304836\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+d_{1}=\left(- 1.209042422013492 x - 0.9468495954579685\right) h_{1}
+\end{equation}
+
+
+\begin{equation}
+e_{1}=\left(\left(1.209042422013492 x + 0.9468495954579685\right)^{2} - 1.209042422013492\right) h_{1}
+\end{equation}
+
+
+\begin{equation}
+h_{2}=\frac{1}{0.4917171508184534 \left(x - 0.06581533792763139\right)^{2} + 1}
+\end{equation}
+
+
+\begin{equation}
+d_{2}=\frac{0.0647250608918572 - 0.9834343016369068 x}{\left(0.4917171508184534 \left(x - 0.06581533792763139\right)^{2} + 1\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+e_{2}=\frac{\frac{\left(0.9834343016369068 x - 0.0647250608918572\right) \left(1.9668686032738136 x - 0.1294501217837144\right)}{0.4917171508184534 \left(x - 0.06581533792763139\right)^{2} + 1} - 0.9834343016369068}{\left(0.4917171508184534 \left(x - 0.06581533792763139\right)^{2} + 1\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+h_{3}=0.46162061439860985 h_{1} - 1.2044456238034085 h_{2}
+\end{equation}
+
+
+\begin{equation}
+d_{3}=0.46162061439860985 d_{1} - 1.2044456238034085 d_{2}
+\end{equation}
+
+
+\begin{equation}
+e_{3}=0.46162061439860985 e_{1} - 1.2044456238034085 e_{2}
+\end{equation}
+
+
+\begin{equation}
+h_{4}=- \sin{\left(2.2431163592671224 x + 2.3498802454456764 \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{4}=- 2.2431163592671224 \cos{\left(2.2431163592671224 x + 2.3498802454456764 \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{4}=5.03157100121179 (-h_{4})
+\end{equation}
+
+
+\begin{equation}
+h_{5}=\cos{\left(2.268917811535779 x - 2.463487325151556 \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{5}=- 2.268917811535779 \sin{\left(2.268917811535779 x - 2.463487325151556 \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{5}=- 5.147988035504309 h_{5}
+\end{equation}
+
+
+\begin{equation}
+h_{6}=- 1.2067864438660416 h_{4} + 0.5081018090547265 h_{5}
+\end{equation}
+
+
+\begin{equation}
+d_{6}=- 1.2067864438660416 d_{4} + 0.5081018090547265 d_{5}
+\end{equation}
+
+
+\begin{equation}
+e_{6}=- 1.2067864438660416 e_{4} + 0.5081018090547265 e_{5}
+\end{equation}
+
+
+\begin{equation}
+h_{7}=h_{3} h_{6}
+\end{equation}
+
+
+\begin{equation}
+d_{7}=d_{3} h_{6} + d_{6} h_{3}
+\end{equation}
+
+
+\begin{equation}
+e_{7}=2 d_{3} d_{6} + e_{3} h_{6} + e_{6} h_{3}
+\end{equation}
+
+
+\begin{equation}
+a(x)=1.0092381964055226 \tanh{\left(p_{6} \right)} + 1.8616684368042036
+\end{equation}
+\begin{equation}
+b(x)=2.032067123396739 \tanh{\left(q_{7} \right)}
+\end{equation}
+\begin{equation}
+c(x)=2.3494718274733275 \tanh{\left(r_{7} \right)} - 2.6446243375250695
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}z=\frac{x-(0.20327256628644208)}{2.232009279056697},\quad D=1-z^2,\\s=2.405729304757852\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+W(x)=\begin{cases}\exp(1-D^{-1}),&|z|<1,\\0,&|z|\ge1,\end{cases}
+\end{equation}
+
+
+\begin{equation}\label{eq:ex4-solution}
+y(x)=sW(x)h_{7}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\ell(x)=-\frac{2z}{2.232009279056697D^2},\\\ell_1(x)=-\frac{2}{(2.232009279056697)^2D^2}-\frac{8z^2}{(2.232009279056697)^2D^3}.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\Gamma_2(x)=1.0092381964055226 \tanh{\left(p_{6} \right)} + 1.8616684368042036
+\end{equation}
+
+
+\begin{equation}
+\Gamma_1(x)=2\Gamma_2(x)\ell(x)+\bigl(2.032067123396739 \tanh{\left(q_{7} \right)}\bigr)
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\Gamma_0(x)&=\Gamma_2(x)[\ell(x)^2+\ell_1(x)]\\&\quad+\bigl(2.032067123396739 \tanh{\left(q_{7} \right)}\bigr)\ell(x)\\&\quad+\bigl(2.3494718274733275 \tanh{\left(r_{7} \right)} - 2.6446243375250695\bigr).\end{aligned}
+\end{equation}
+
+
+\begin{equation}\label{eq:ex4-forcing}
+g(x)=\begin{cases}s e^{1-D^{-1}}[\Gamma_2(x)e_{7}+\Gamma_1(x)d_{7}+\Gamma_0(x)h_{7}],&|z|<1,\\0,&|z|\ge1.\end{cases}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\lambda=2.6446243375250695,\quad c_R(x)=c(x)+2.6446243375250695,\\g_R(x)=-g(x),\quad (\lambda-L)y=g_R.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\underline a=0.8524302403986809,\quad \overline a=2.870906633209726,\\|b|\le2.032067123396739,\quad |c_R(x)|\le C=2.3494718274733275,\\\lambda-C\approx0.2951525100517421>0.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+y(-1)\approx-0.07182719752189902,\qquad y^\prime(-1)\approx-0.954631339951968
+\end{equation}
+
+
+\noindent\textbf{Уравнение с числовыми коэффициентами.} После всех определений выше полная подстановка в исходную форму даёт
+
+\begin{multline}\label{eq:ex4-ode}\bigl(1.0092381964055226 \tanh{\left(p_{6} \right)} + 1.8616684368042036\bigr)y^{\prime\prime}(x)\\+\bigl(2.032067123396739 \tanh{\left(q_{7} \right)}\bigr)y^\prime(x)\\+\bigl(2.3494718274733275 \tanh{\left(r_{7} \right)} - 2.6446243375250695\bigr)y(x)=g(x),\qquad x\in\R.\end{multline}
+
+Правая часть задана замкнутой формулой~\eqref{eq:ex4-forcing}; все её числовые параметры и функции определены в этом пункте, обращения к программным данным не требуется. На границе носителя и вне него $y=g=0$; гладкость обеспечивается функцией $W$. Границы носителя: $-2.0287367127702547$ и $2.4352818453431393$.
+
+Глобальные оценки $\underline a,\overline a,B,C$ не обязательно являются точными экстремумами. Резольвентное равенство задаёт ограниченное решение на всей прямой. Начальные данные, выписанные выше с точностью хранения, совместимы с этим решением, но не заменяют постановку: произвольные другие данные Коши дали бы другое решение.
+
+\begin{center}\captionof{table}{Результаты примера 4}\label{tab:ex4}\begin{tabular}{lrrr}\toprule Приближение&$E_{\min}$--$E_{\max}$&Точных&Время, с\\\midrule
+
+Ремизов, $n=128$&0.01105733--0.01105733&0/1&11.9612\\
+
+Ремизов, $n=256$&0.0055417026--0.0055417026&1/1&23.9659\\
+
+Монте-Карло, $M=4096$&0.052012045--0.052012045&0/1&101.116\\
+
+\bottomrule\end{tabular}\end{center}
+
+Время в таблице --- один сохранённый замер; повторный разброс по нему не известен.
+
+\clearpage
+
+\subsection*{А.5. Пример 5}\label{app:ex5}
+
+Нарушение порога обоими приближениями.
+
+Исходная задача имеет вид \eqref{eq:original}. Полная численная запись её коэффициентов и правой части задаётся следующими равенствами.
+
+\begin{equation}
+p_{1}=\tanh{\left(1.5383072716611188 x + 1.3598081422261752 \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{2}=\cos{\left(2.2364545688350246 x + 0.39936973778908114 \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{3}=p_{1} p_{2}
+\end{equation}
+
+
+\begin{equation}
+p_{4}=\frac{p_{3}}{p_{3}^{2} + 1}
+\end{equation}
+
+
+\begin{equation}
+p_{5}=\tanh{\left(4.7496395037306005 x - 1.2243616208487218 \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{6}=- \sin{\left(2.090054357557095 x - 1.550021592498079 \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{7}=\frac{1}{4.6174987659528215 \left(x - 1.0914606710821546\right)^{2} + 1}
+\end{equation}
+
+
+\begin{equation}
+p_{8}=p_{6} p_{7}
+\end{equation}
+
+
+\begin{equation}
+p_{9}=p_{5} p_{8}
+\end{equation}
+
+
+\begin{equation}
+p_{10}=- 1.0209376532240069 p_{4} - 0.7141215133910271 p_{9}
+\end{equation}
+
+
+\begin{equation}
+q_{1}=\frac{1}{1.2881588469939753 \left(x - 0.7965454851224337\right)^{2} + 1}
+\end{equation}
+
+
+\begin{equation}
+q_{2}=\cos{\left(2.619168681756502 x + 2.8988188274039803 \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{3}=q_{1} q_{2}
+\end{equation}
+
+
+\begin{equation}
+q_{4}=\sin{\left(2.935358605925186 x - 1.2652672594819665 \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{5}=- \tanh{\left(3.157088138516657 x - 1.5431757904331629 \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{6}=0.7599559394699105 q_{4} - 0.5422873926735743 q_{5}
+\end{equation}
+
+
+\begin{equation}
+q_{7}=\frac{x + 1.20611559779741}{\sqrt{\left(x + 1.20611559779741\right)^{2} + 1}}
+\end{equation}
+
+
+\begin{equation}
+q_{8}=\sin{\left(4.424005954057264 x + 0.13696895076640409 \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{9}=- 1.2458622618367168 q_{7} - 0.5625725720979726 q_{8}
+\end{equation}
+
+
+\begin{equation}
+q_{10}=1.3934758129190752 q_{6} + 0.27275309768919687 q_{9}
+\end{equation}
+
+
+\begin{equation}
+q_{11}=q_{10} q_{3}
+\end{equation}
+
+
+\begin{equation}
+r_{1}=-0.8189112091809745
+\end{equation}
+
+
+\begin{equation}
+r_{2}=0.6911874123319409
+\end{equation}
+
+
+\begin{equation}
+r_{3}=- 0.8658252677199303 r_{1} + 1.1171222425399379 r_{2}
+\end{equation}
+
+
+\begin{equation}
+r_{4}=\frac{x + 1.1576424598909283}{\sqrt{\left(x + 1.1576424598909283\right)^{2} + 1}}
+\end{equation}
+
+
+\begin{equation}
+r_{5}=-1.339316981956632
+\end{equation}
+
+
+\begin{equation}
+r_{6}=r_{4} r_{5}
+\end{equation}
+
+
+\begin{equation}
+r_{7}=\cos{\left(4.822680958548961 x - 0.7209913440220824 \right)}
+\end{equation}
+
+
+\begin{equation}
+r_{8}=\tanh{\left(r_{7} \right)}
+\end{equation}
+
+
+\begin{equation}
+r_{9}=- 1.5437184477913952 r_{6} - 1.0625374522411972 r_{8}
+\end{equation}
+
+
+\begin{equation}
+r_{10}=1.0386995222549766 r_{3} - 0.6009085698347001 r_{9}
+\end{equation}
+
+
+\begin{equation}
+h_{1}=1.04507366357842
+\end{equation}
+
+
+\begin{equation}
+d_{1}=0
+\end{equation}
+
+
+\begin{equation}
+e_{1}=0
+\end{equation}
+
+
+\begin{equation}
+h_{2}=\sin{\left(h_{1} \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{2}=d_{1} \cos{\left(h_{1} \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{2}=- d_{1}^{2} \sin{\left(h_{1} \right)} + e_{1} \cos{\left(h_{1} \right)}
+\end{equation}
+
+
+\begin{equation}
+h_{3}=\cos{\left(3.073709653960773 x + 0.42238444835449895 \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{3}=- 3.073709653960773 \sin{\left(3.073709653960773 x + 0.42238444835449895 \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{3}=- 9.447691036851655 h_{3}
+\end{equation}
+
+
+\begin{equation}
+h_{4}=\tanh{\left(3.043622212959127 x - 0.39023248039364233 \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{4}=3.043622212959127 - 3.043622212959127 \tanh^{2}{\left(3.043622212959127 x - 0.39023248039364233 \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{4}=18.527272350436427 \left(\tanh^{2}{\left(3.043622212959127 x - 0.39023248039364233 \right)} - 1\right) h_{4}
+\end{equation}
+
+
+\begin{equation}
+h_{5}=h_{3} h_{4}
+\end{equation}
+
+
+\begin{equation}
+d_{5}=d_{3} h_{4} + d_{4} h_{3}
+\end{equation}
+
+
+\begin{equation}
+e_{5}=2 d_{3} d_{4} + e_{3} h_{4} + e_{4} h_{3}
+\end{equation}
+
+
+\begin{equation}
+h_{6}=\cos{\left(4.156721655422351 x + 0.9010039929978423 \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{6}=- 4.156721655422351 \sin{\left(4.156721655422351 x + 0.9010039929978423 \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{6}=- 17.27833492065713 h_{6}
+\end{equation}
+
+
+\begin{equation}
+h_{7}=\frac{1}{2.612056893295783 \left(x + 0.46590731141443753\right)^{2} + 1}
+\end{equation}
+
+
+\begin{equation}
+d_{7}=\frac{- 5.224113786591566 x - 2.4339528088339732}{\left(2.612056893295783 \left(x + 0.46590731141443753\right)^{2} + 1\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+e_{7}=\frac{\frac{\left(5.224113786591566 x + 2.4339528088339732\right) \left(10.448227573183132 x + 4.8679056176679465\right)}{2.612056893295783 \left(x + 0.46590731141443753\right)^{2} + 1} - 5.224113786591566}{\left(2.612056893295783 \left(x + 0.46590731141443753\right)^{2} + 1\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+h_{8}=h_{6} h_{7}
+\end{equation}
+
+
+\begin{equation}
+d_{8}=d_{6} h_{7} + d_{7} h_{6}
+\end{equation}
+
+
+\begin{equation}
+e_{8}=2 d_{6} d_{7} + e_{6} h_{7} + e_{7} h_{6}
+\end{equation}
+
+
+\begin{equation}
+h_{9}=- 1.4730895751868782 h_{5} + 0.92225814365757 h_{8}
+\end{equation}
+
+
+\begin{equation}
+d_{9}=- 1.4730895751868782 d_{5} + 0.92225814365757 d_{8}
+\end{equation}
+
+
+\begin{equation}
+e_{9}=- 1.4730895751868782 e_{5} + 0.92225814365757 e_{8}
+\end{equation}
+
+
+\begin{equation}
+h_{10}=h_{2} h_{9}
+\end{equation}
+
+
+\begin{equation}
+d_{10}=d_{2} h_{9} + d_{9} h_{2}
+\end{equation}
+
+
+\begin{equation}
+e_{10}=2 d_{2} d_{9} + e_{2} h_{9} + e_{9} h_{2}
+\end{equation}
+
+
+\begin{equation}
+a(x)=0.6081911612698898 \tanh{\left(p_{10} \right)} + 1.3923314952865382
+\end{equation}
+\begin{equation}
+b(x)=1.3963218557125774 \tanh{\left(q_{11} \right)}
+\end{equation}
+\begin{equation}
+c(x)=1.503197311229097 \tanh{\left(r_{10} \right)} - 1.7207743771954127
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}z=\frac{x-(0.20899798693774746)}{1.9721061459030749},\quad D=1-z^2,\\s=0.4266912316222408\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+W(x)=\begin{cases}\exp(1-D^{-1}),&|z|<1,\\0,&|z|\ge1,\end{cases}
+\end{equation}
+
+
+\begin{equation}\label{eq:ex5-solution}
+y(x)=sW(x)h_{10}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\ell(x)=-\frac{2z}{1.9721061459030749D^2},\\\ell_1(x)=-\frac{2}{(1.9721061459030749)^2D^2}-\frac{8z^2}{(1.9721061459030749)^2D^3}.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\Gamma_2(x)=0.6081911612698898 \tanh{\left(p_{10} \right)} + 1.3923314952865382
+\end{equation}
+
+
+\begin{equation}
+\Gamma_1(x)=2\Gamma_2(x)\ell(x)+\bigl(1.3963218557125774 \tanh{\left(q_{11} \right)}\bigr)
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\Gamma_0(x)&=\Gamma_2(x)[\ell(x)^2+\ell_1(x)]\\&\quad+\bigl(1.3963218557125774 \tanh{\left(q_{11} \right)}\bigr)\ell(x)\\&\quad+\bigl(1.503197311229097 \tanh{\left(r_{10} \right)} - 1.7207743771954127\bigr).\end{aligned}
+\end{equation}
+
+
+\begin{equation}\label{eq:ex5-forcing}
+g(x)=\begin{cases}s e^{1-D^{-1}}[\Gamma_2(x)e_{10}+\Gamma_1(x)d_{10}+\Gamma_0(x)h_{10}],&|z|<1,\\0,&|z|\ge1.\end{cases}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\lambda=1.7207743771954127,\quad c_R(x)=c(x)+1.7207743771954127,\\g_R(x)=-g(x),\quad (\lambda-L)y=g_R.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\underline a=0.7841403340166484,\quad \overline a=2.000522656556428,\\|b|\le1.3963218557125774,\quad |c_R(x)|\le C=1.503197311229097,\\\lambda-C\approx0.2175770659663156>0.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+y(-1)\approx-0.36824622420112074,\qquad y^\prime(-1)\approx-0.37455262845229914
+\end{equation}
+
+
+\noindent\textbf{Уравнение с числовыми коэффициентами.} После всех определений выше полная подстановка в исходную форму даёт
+
+\begin{multline}\label{eq:ex5-ode}\bigl(0.6081911612698898 \tanh{\left(p_{10} \right)} + 1.3923314952865382\bigr)y^{\prime\prime}(x)\\+\bigl(1.3963218557125774 \tanh{\left(q_{11} \right)}\bigr)y^\prime(x)\\+\bigl(1.503197311229097 \tanh{\left(r_{10} \right)} - 1.7207743771954127\bigr)y(x)=g(x),\qquad x\in\R.\end{multline}
+
+Правая часть задана замкнутой формулой~\eqref{eq:ex5-forcing}; все её числовые параметры и функции определены в этом пункте, обращения к программным данным не требуется. На границе носителя и вне него $y=g=0$; гладкость обеспечивается функцией $W$. Границы носителя: $-1.7631081589653275$ и $2.1811041328408223$.
+
+Глобальные оценки $\underline a,\overline a,B,C$ не обязательно являются точными экстремумами. Резольвентное равенство задаёт ограниченное решение на всей прямой. Начальные данные, выписанные выше с точностью хранения, совместимы с этим решением, но не заменяют постановку: произвольные другие данные Коши дали бы другое решение.
+
+\begin{center}\captionof{table}{Результаты примера 5}\label{tab:ex5}\begin{tabular}{lrrr}\toprule Приближение&$E_{\min}$--$E_{\max}$&Точных&Время, с\\\midrule
+
+Ремизов, $n=128$&0.04272617--0.04272617&0/1&12.1657\\
+
+Ремизов, $n=256$&0.021797481--0.021797481&0/1&24.191\\
+
+\bottomrule\end{tabular}\end{center}
+
+Время в таблице --- один сохранённый замер; повторный разброс по нему не известен.
+
+\clearpage
+
+\subsection*{А.6. Пример 6}\label{app:ex6}
+
+Нарушение порога при осциллирующих коэффициентах.
+
+Исходная задача имеет вид \eqref{eq:original}. Полная численная запись её коэффициентов и правой части задаётся следующими равенствами.
+
+\begin{equation}
+p_{1}=\cos{\left(5.9382709286661175 x - 1.9642787016115837 \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{2}=e^{- p_{1}^{2}}
+\end{equation}
+
+
+\begin{equation}
+p_{3}=- \tanh{\left(4.6435070949143595 x - 1.9781894173125592 \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{4}=\cos{\left(4.071732956482441 x - 2.5263662384714953 \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{5}=p_{3} p_{4}
+\end{equation}
+
+
+\begin{equation}
+p_{6}=\cos{\left(p_{5} \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{7}=p_{2} p_{6}
+\end{equation}
+
+
+\begin{equation}
+p_{8}=e^{- 2.30564620714083 \left(x - 0.972666894411388\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+p_{9}=\tanh{\left(1.302293670854403 x - 1.1540589884035966 \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{10}=p_{8} p_{9}
+\end{equation}
+
+
+\begin{equation}
+p_{11}=\tanh{\left(p_{10} \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{12}=- \tanh{\left(7.642925171317215 x + 1.4567373672203299 \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{13}=\cos{\left(p_{12} \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{14}=\tanh{\left(7.523892618788475 x - 1.6174785647100614 \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{15}=\sin{\left(p_{14} \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{16}=0.3992432364912119 p_{13} - 1.2738626167427491 p_{15}
+\end{equation}
+
+
+\begin{equation}
+p_{17}=0.37271805503505073 p_{11} + 0.43666219629320285 p_{16}
+\end{equation}
+
+
+\begin{equation}
+p_{18}=0.5211435313326136 p_{17} + 0.8858267338425572 p_{7}
+\end{equation}
+
+
+\begin{equation}
+q_{1}=\cos{\left(6.915168846323437 x + 2.801623590656297 \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{2}=0.0408599564309432
+\end{equation}
+
+
+\begin{equation}
+q_{3}=q_{1} q_{2}
+\end{equation}
+
+
+\begin{equation}
+q_{4}=\frac{1}{3.0312694867078274 \left(x - 0.5068141304811603\right)^{2} + 1}
+\end{equation}
+
+
+\begin{equation}
+q_{5}=q_{3} q_{4}
+\end{equation}
+
+
+\begin{equation}
+q_{6}=\tanh{\left(2.324659630464109 x + 2.938197519324949 \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{7}=\frac{1}{2.06273988229431 \left(x - 1.486163421361215\right)^{2} + 1}
+\end{equation}
+
+
+\begin{equation}
+q_{8}=q_{6} q_{7}
+\end{equation}
+
+
+\begin{equation}
+q_{9}=\tanh{\left(2.246322086432561 x + 1.7820229796450213 \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{10}=q_{8} q_{9}
+\end{equation}
+
+
+\begin{equation}
+q_{11}=0.4684410059652253 q_{10} - 0.7836534866808017 q_{5}
+\end{equation}
+
+
+\begin{equation}
+q_{12}=- \sin{\left(2.395128263503357 x - 0.46397291545591224 \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{13}=\cos{\left(q_{12} \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{14}=\cos{\left(q_{13} \right)}
+\end{equation}
+
+
+\begin{equation}
+q_{15}=0.563692019566939 q_{11} - 0.263423903963974 q_{14}
+\end{equation}
+
+
+\begin{equation}
+r_{1}=0.6981990224705383
+\end{equation}
+
+
+\begin{equation}
+r_{2}=\cos{\left(5.555187210861937 x - 2.4357263989970814 \right)}
+\end{equation}
+
+
+\begin{equation}
+r_{3}=- 1.064199577451562 r_{1} + 0.6787712984327509 r_{2}
+\end{equation}
+
+
+\begin{equation}
+r_{4}=e^{- 7.3492807202611345 \left(x - 1.4432445703569798\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+r_{5}=-0.6611102832833746
+\end{equation}
+
+
+\begin{equation}
+r_{6}=0.630012687050983 r_{4} + 0.3277310488327183 r_{5}
+\end{equation}
+
+
+\begin{equation}
+r_{7}=r_{3} r_{6}
+\end{equation}
+
+
+\begin{equation}
+r_{8}=\frac{x + 0.7886395491801296}{\sqrt{\left(x + 0.7886395491801296\right)^{2} + 1}}
+\end{equation}
+
+
+\begin{equation}
+r_{9}=\frac{x + 1.155913401019132}{\sqrt{\left(x + 1.155913401019132\right)^{2} + 1}}
+\end{equation}
+
+
+\begin{equation}
+r_{10}=r_{8} r_{9}
+\end{equation}
+
+
+\begin{equation}
+r_{11}=1.2793900351378298
+\end{equation}
+
+
+\begin{equation}
+r_{12}=\cos{\left(r_{11} \right)}
+\end{equation}
+
+
+\begin{equation}
+r_{13}=r_{10} r_{12}
+\end{equation}
+
+
+\begin{equation}
+r_{14}=\tanh{\left(5.664559110402111 x + 1.2731394149543833 \right)}
+\end{equation}
+
+
+\begin{equation}
+r_{15}=0.13977180303449677
+\end{equation}
+
+
+\begin{equation}
+r_{16}=r_{14} r_{15}
+\end{equation}
+
+
+\begin{equation}
+r_{17}=e^{- r_{16}^{2}}
+\end{equation}
+
+
+\begin{equation}
+r_{18}=r_{13} r_{17}
+\end{equation}
+
+
+\begin{equation}
+r_{19}=r_{18} r_{7}
+\end{equation}
+
+
+\begin{equation}
+h_{1}=\frac{1}{1.165123372946364 \left(x + 1.2412819624749751\right)^{2} + 1}
+\end{equation}
+
+
+\begin{equation}
+d_{1}=\frac{- 2.330246745892728 x - 2.89249325379265}{\left(1.165123372946364 \left(x + 1.2412819624749751\right)^{2} + 1\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+e_{1}=\frac{\frac{\left(2.330246745892728 x + 2.89249325379265\right) \left(4.660493491785456 x + 5.7849865075853\right)}{1.165123372946364 \left(x + 1.2412819624749751\right)^{2} + 1} - 2.330246745892728}{\left(1.165123372946364 \left(x + 1.2412819624749751\right)^{2} + 1\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+h_{2}=\tanh{\left(5.084368676828701 x - 2.4510948256663307 \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{2}=5.084368676828701 - 5.084368676828701 \tanh^{2}{\left(5.084368676828701 x - 2.4510948256663307 \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{2}=51.701609683833674 \left(\tanh^{2}{\left(5.084368676828701 x - 2.4510948256663307 \right)} - 1\right) h_{2}
+\end{equation}
+
+
+\begin{equation}
+h_{3}=- 0.5849529263359973 h_{1} - 1.347355778014714 h_{2}
+\end{equation}
+
+
+\begin{equation}
+d_{3}=- 0.5849529263359973 d_{1} - 1.347355778014714 d_{2}
+\end{equation}
+
+
+\begin{equation}
+e_{3}=- 0.5849529263359973 e_{1} - 1.347355778014714 e_{2}
+\end{equation}
+
+
+\begin{equation}
+h_{4}=e^{- 2.083620754470506 \left(x - 0.8817625000935178\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+d_{4}=\left(3.6745172914173105 - 4.167241508941012 x\right) h_{4}
+\end{equation}
+
+
+\begin{equation}
+e_{4}=\left(\left(4.167241508941012 x - 3.6745172914173105\right)^{2} - 4.167241508941012\right) h_{4}
+\end{equation}
+
+
+\begin{equation}
+h_{5}=\cos{\left(5.457837660051869 x + 0.16424779027260622 \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{5}=- 5.457837660051869 \sin{\left(5.457837660051869 x + 0.16424779027260622 \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{5}=- 29.78799192348046 h_{5}
+\end{equation}
+
+
+\begin{equation}
+h_{6}=h_{4} h_{5}
+\end{equation}
+
+
+\begin{equation}
+d_{6}=d_{4} h_{5} + d_{5} h_{4}
+\end{equation}
+
+
+\begin{equation}
+e_{6}=2 d_{4} d_{5} + e_{4} h_{5} + e_{5} h_{4}
+\end{equation}
+
+
+\begin{equation}
+h_{7}=h_{3} h_{6}
+\end{equation}
+
+
+\begin{equation}
+d_{7}=d_{3} h_{6} + d_{6} h_{3}
+\end{equation}
+
+
+\begin{equation}
+e_{7}=2 d_{3} d_{6} + e_{3} h_{6} + e_{6} h_{3}
+\end{equation}
+
+
+\begin{equation}
+h_{8}=e^{- 4.6794742908577325 \left(x - 0.7857113142586927\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+d_{8}=\left(7.353431790219186 - 9.358948581715465 x\right) h_{8}
+\end{equation}
+
+
+\begin{equation}
+e_{8}=\left(\left(9.358948581715465 x - 7.353431790219186\right)^{2} - 9.358948581715465\right) h_{8}
+\end{equation}
+
+
+\begin{equation}
+h_{9}=\sin{\left(h_{8} \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{9}=d_{8} \cos{\left(h_{8} \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{9}=- d_{8}^{2} \sin{\left(h_{8} \right)} + e_{8} \cos{\left(h_{8} \right)}
+\end{equation}
+
+
+\begin{equation}
+h_{10}=e^{- 4.80177119343172 \left(x - 0.3071890230474459\right)^{2}}
+\end{equation}
+
+
+\begin{equation}
+d_{10}=\left(2.9501028036153167 - 9.60354238686344 x\right) h_{10}
+\end{equation}
+
+
+\begin{equation}
+e_{10}=\left(\left(9.60354238686344 x - 2.9501028036153167\right)^{2} - 9.60354238686344\right) h_{10}
+\end{equation}
+
+
+\begin{equation}
+h_{11}=\tanh{\left(3.5831366135502916 x - 1.2077437578984584 \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{11}=3.5831366135502916 - 3.5831366135502916 \tanh^{2}{\left(3.5831366135502916 x - 1.2077437578984584 \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{11}=25.677735982729303 \left(\tanh^{2}{\left(3.5831366135502916 x - 1.2077437578984584 \right)} - 1\right) h_{11}
+\end{equation}
+
+
+\begin{equation}
+h_{12}=h_{10} h_{11}
+\end{equation}
+
+
+\begin{equation}
+d_{12}=d_{10} h_{11} + d_{11} h_{10}
+\end{equation}
+
+
+\begin{equation}
+e_{12}=2 d_{10} d_{11} + e_{10} h_{11} + e_{11} h_{10}
+\end{equation}
+
+
+\begin{equation}
+h_{13}=0.5306497885859084 h_{12} - 1.487717480351624 h_{9}
+\end{equation}
+
+
+\begin{equation}
+d_{13}=0.5306497885859084 d_{12} - 1.487717480351624 d_{9}
+\end{equation}
+
+
+\begin{equation}
+e_{13}=0.5306497885859084 e_{12} - 1.487717480351624 e_{9}
+\end{equation}
+
+
+\begin{equation}
+h_{14}=- 0.8895285220159446 h_{13} + 0.7150545891913082 h_{7}
+\end{equation}
+
+
+\begin{equation}
+d_{14}=- 0.8895285220159446 d_{13} + 0.7150545891913082 d_{7}
+\end{equation}
+
+
+\begin{equation}
+e_{14}=- 0.8895285220159446 e_{13} + 0.7150545891913082 e_{7}
+\end{equation}
+
+
+\begin{equation}
+h_{15}=- \sin{\left(2.4400546155888105 x - 0.124854066857516 \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{15}=- 2.4400546155888105 \cos{\left(2.4400546155888105 x - 0.124854066857516 \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{15}=5.953866527056258 (-h_{15})
+\end{equation}
+
+
+\begin{equation}
+h_{16}=\cos{\left(h_{15} \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{16}=- d_{15} \sin{\left(h_{15} \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{16}=- d_{15}^{2} h_{16} - e_{15} \sin{\left(h_{15} \right)}
+\end{equation}
+
+
+\begin{equation}
+h_{17}=\sin{\left(4.682121971989812 x - 2.7638522216960926 \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{17}=4.682121971989812 \cos{\left(4.682121971989812 x - 2.7638522216960926 \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{17}=- 21.922266160589764 h_{17}
+\end{equation}
+
+
+\begin{equation}
+h_{18}=\sin{\left(h_{17} \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{18}=d_{17} \cos{\left(h_{17} \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{18}=- d_{17}^{2} h_{18} + e_{17} \cos{\left(h_{17} \right)}
+\end{equation}
+
+
+\begin{equation}
+h_{19}=e^{- h_{18}^{2}}
+\end{equation}
+
+
+\begin{equation}
+d_{19}=- 2 d_{18} h_{18} e^{- h_{18}^{2}}
+\end{equation}
+
+
+\begin{equation}
+e_{19}=2 d_{18}^{2} \left(2 h_{18}^{2} - 1\right) e^{- h_{18}^{2}} - 2 e_{18} h_{18} e^{- h_{18}^{2}}
+\end{equation}
+
+
+\begin{equation}
+h_{20}=h_{16} h_{19}
+\end{equation}
+
+
+\begin{equation}
+d_{20}=d_{16} h_{19} + d_{19} h_{16}
+\end{equation}
+
+
+\begin{equation}
+e_{20}=2 d_{16} d_{19} + e_{16} h_{19} + e_{19} h_{16}
+\end{equation}
+
+
+\begin{equation}
+h_{21}=h_{14} h_{20}
+\end{equation}
+
+
+\begin{equation}
+d_{21}=d_{14} h_{20} + d_{20} h_{14}
+\end{equation}
+
+
+\begin{equation}
+e_{21}=2 d_{14} d_{20} + e_{14} h_{20} + e_{20} h_{14}
+\end{equation}
+
+
+\begin{equation}
+a(x)=0.5331092971139447 \tanh{\left(p_{18} \right)} + 1.8426882879627082
+\end{equation}
+\begin{equation}
+b(x)=2.094707957375217 \tanh{\left(q_{15} \right)}
+\end{equation}
+\begin{equation}
+c(x)=2.7061878305031866 \tanh{\left(r_{19} \right)} - 3.6506501776468228
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}z=\frac{x-(-0.20448473031683023)}{1.9678549244122596},\quad D=1-z^2,\\s=1.5445192766661604\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+W(x)=\begin{cases}\exp(1-D^{-1}),&|z|<1,\\0,&|z|\ge1,\end{cases}
+\end{equation}
+
+
+\begin{equation}\label{eq:ex6-solution}
+y(x)=sW(x)h_{21}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\ell(x)=-\frac{2z}{1.9678549244122596D^2},\\\ell_1(x)=-\frac{2}{(1.9678549244122596)^2D^2}-\frac{8z^2}{(1.9678549244122596)^2D^3}.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\Gamma_2(x)=0.5331092971139447 \tanh{\left(p_{18} \right)} + 1.8426882879627082
+\end{equation}
+
+
+\begin{equation}
+\Gamma_1(x)=2\Gamma_2(x)\ell(x)+\bigl(2.094707957375217 \tanh{\left(q_{15} \right)}\bigr)
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\Gamma_0(x)&=\Gamma_2(x)[\ell(x)^2+\ell_1(x)]\\&\quad+\bigl(2.094707957375217 \tanh{\left(q_{15} \right)}\bigr)\ell(x)\\&\quad+\bigl(2.7061878305031866 \tanh{\left(r_{19} \right)} - 3.6506501776468228\bigr).\end{aligned}
+\end{equation}
+
+
+\begin{equation}\label{eq:ex6-forcing}
+g(x)=\begin{cases}s e^{1-D^{-1}}[\Gamma_2(x)e_{21}+\Gamma_1(x)d_{21}+\Gamma_0(x)h_{21}],&|z|<1,\\0,&|z|\ge1.\end{cases}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\lambda=3.6506501776468228,\quad c_R(x)=c(x)+3.6506501776468228,\\g_R(x)=-g(x),\quad (\lambda-L)y=g_R.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\underline a=1.3095789908487634,\quad \overline a=2.375797585076653,\\|b|\le2.094707957375217,\quad |c_R(x)|\le C=2.7061878305031866,\\\lambda-C\approx0.9444623471436362>0.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+y(-1)\approx0.00018813818948298745,\qquad y^\prime(-1)\approx0.0011422696910843755
+\end{equation}
+
+
+\noindent\textbf{Уравнение с числовыми коэффициентами.} После всех определений выше полная подстановка в исходную форму даёт
+
+\begin{multline}\label{eq:ex6-ode}\bigl(0.5331092971139447 \tanh{\left(p_{18} \right)} + 1.8426882879627082\bigr)y^{\prime\prime}(x)\\+\bigl(2.094707957375217 \tanh{\left(q_{15} \right)}\bigr)y^\prime(x)\\+\bigl(2.7061878305031866 \tanh{\left(r_{19} \right)} - 3.6506501776468228\bigr)y(x)=g(x),\qquad x\in\R.\end{multline}
+
+Правая часть задана замкнутой формулой~\eqref{eq:ex6-forcing}; все её числовые параметры и функции определены в этом пункте, обращения к программным данным не требуется. На границе носителя и вне него $y=g=0$; гладкость обеспечивается функцией $W$. Границы носителя: $-2.1723396547290896$ и $1.7633701940954294$.
+
+Глобальные оценки $\underline a,\overline a,B,C$ не обязательно являются точными экстремумами. Резольвентное равенство задаёт ограниченное решение на всей прямой. Начальные данные, выписанные выше с точностью хранения, совместимы с этим решением, но не заменяют постановку: произвольные другие данные Коши дали бы другое решение.
+
+\begin{center}\captionof{table}{Результаты примера 6}\label{tab:ex6}\begin{tabular}{lrrr}\toprule Приближение&$E_{\min}$--$E_{\max}$&Точных&Время, с\\\midrule
+
+Ремизов, $n=128$&0.044075219--0.044075219&0/1&11.8277\\
+
+Ремизов, $n=256$&0.011114694--0.011114694&0/1&23.7951\\
+
+\bottomrule\end{tabular}\end{center}
+
+Время в таблице --- один сохранённый замер; повторный разброс по нему не известен.
+
+\clearpage
+
+\subsection*{А.7. Пример 7}\label{app:ex7}
+
+Изменчивость точности четырёх реализаций Монте-Карло.
+
+Исходная задача имеет вид \eqref{eq:original}. Полная численная запись её коэффициентов и правой части задаётся следующими равенствами.
+
+\begin{equation}
+p_{1}=\frac{1}{1.6732926527362686 \left(x + 0.7294349309869332\right)^{2} + 1}
+\end{equation}
+
+
+\begin{equation}
+p_{2}=\cos{\left(0.3956791718106786 x - 1.237485158520438 \right)}
+\end{equation}
+
+
+\begin{equation}
+p_{3}=p_{1} p_{2}
+\end{equation}
+
+
+\begin{equation}
+q_{1}=-1.3741713202624033
+\end{equation}
+
+
+\begin{equation}
+q_{2}=\frac{x + 0.4868704629694469}{\sqrt{\left(x + 0.4868704629694469\right)^{2} + 1}}
+\end{equation}
+
+
+\begin{equation}
+q_{3}=1.262471318706068 q_{1} - 0.7208722265994816 q_{2}
+\end{equation}
+
+
+\begin{equation}
+r_{1}=\frac{1}{2.7143004385624576 \left(x + 0.844025409063345\right)^{2} + 1}
+\end{equation}
+
+
+\begin{equation}
+r_{2}=-0.8694060225797431
+\end{equation}
+
+
+\begin{equation}
+r_{3}=r_{1} r_{2}
+\end{equation}
+
+
+\begin{equation}
+h_{1}=\cos{\left(0.38896691402710115 x - 0.765129280976121 \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{1}=- 0.38896691402710115 \sin{\left(0.38896691402710115 x - 0.765129280976121 \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{1}=- 0.1512952602077663 h_{1}
+\end{equation}
+
+
+\begin{equation}
+h_{2}=- \sin{\left(0.7994408908200522 x + 2.2415464565670673 \right)}
+\end{equation}
+
+
+\begin{equation}
+d_{2}=- 0.7994408908200522 \cos{\left(0.7994408908200522 x + 2.2415464565670673 \right)}
+\end{equation}
+
+
+\begin{equation}
+e_{2}=0.6391057379151586 (-h_{2})
+\end{equation}
+
+
+\begin{equation}
+h_{3}=h_{1} h_{2}
+\end{equation}
+
+
+\begin{equation}
+d_{3}=d_{1} h_{2} + d_{2} h_{1}
+\end{equation}
+
+
+\begin{equation}
+e_{3}=2 d_{1} d_{2} + e_{1} h_{2} + e_{2} h_{1}
+\end{equation}
+
+
+\begin{equation}
+a(x)=0.6899054725302279 \tanh{\left(p_{3} \right)} + 1.3877465994017353
+\end{equation}
+\begin{equation}
+b(x)=2.928501252330038 \tanh{\left(q_{3} \right)}
+\end{equation}
+\begin{equation}
+c(x)=1.9612207794126544 \tanh{\left(r_{3} \right)} - 3.5275716142968054
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}z=\frac{x-(-0.18597579471337672)}{2.721546805554939},\quad D=1-z^2,\\s=1.0323309132762415\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+W(x)=\begin{cases}\exp(1-D^{-1}),&|z|<1,\\0,&|z|\ge1,\end{cases}
+\end{equation}
+
+
+\begin{equation}\label{eq:ex7-solution}
+y(x)=sW(x)h_{3}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\ell(x)=-\frac{2z}{2.721546805554939D^2},\\\ell_1(x)=-\frac{2}{(2.721546805554939)^2D^2}-\frac{8z^2}{(2.721546805554939)^2D^3}.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\Gamma_2(x)=0.6899054725302279 \tanh{\left(p_{3} \right)} + 1.3877465994017353
+\end{equation}
+
+
+\begin{equation}
+\Gamma_1(x)=2\Gamma_2(x)\ell(x)+\bigl(2.928501252330038 \tanh{\left(q_{3} \right)}\bigr)
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\Gamma_0(x)&=\Gamma_2(x)[\ell(x)^2+\ell_1(x)]\\&\quad+\bigl(2.928501252330038 \tanh{\left(q_{3} \right)}\bigr)\ell(x)\\&\quad+\bigl(1.9612207794126544 \tanh{\left(r_{3} \right)} - 3.5275716142968054\bigr).\end{aligned}
+\end{equation}
+
+
+\begin{equation}\label{eq:ex7-forcing}
+g(x)=\begin{cases}s e^{1-D^{-1}}[\Gamma_2(x)e_{3}+\Gamma_1(x)d_{3}+\Gamma_0(x)h_{3}],&|z|<1,\\0,&|z|\ge1.\end{cases}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\lambda=3.5275716142968054,\quad c_R(x)=c(x)+3.5275716142968054,\\g_R(x)=-g(x),\quad (\lambda-L)y=g_R.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}\underline a=0.6978411268715072,\quad \overline a=2.077652071931963,\\|b|\le2.928501252330038,\quad |c_R(x)|\le C=1.9612207794126544,\\\lambda-C\approx1.566350834884151>0.\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+y(-1)\approx-0.37559836748434083,\qquad y^\prime(-1)\approx-0.4685038562328828
+\end{equation}
+
+
+\noindent\textbf{Уравнение с числовыми коэффициентами.} После всех определений выше полная подстановка в исходную форму даёт
+
+\begin{multline}\label{eq:ex7-ode}\bigl(0.6899054725302279 \tanh{\left(p_{3} \right)} + 1.3877465994017353\bigr)y^{\prime\prime}(x)\\+\bigl(2.928501252330038 \tanh{\left(q_{3} \right)}\bigr)y^\prime(x)\\+\bigl(1.9612207794126544 \tanh{\left(r_{3} \right)} - 3.5275716142968054\bigr)y(x)=g(x),\qquad x\in\R.\end{multline}
+
+Правая часть задана замкнутой формулой~\eqref{eq:ex7-forcing}; все её числовые параметры и функции определены в этом пункте, обращения к программным данным не требуется. На границе носителя и вне него $y=g=0$; гладкость обеспечивается функцией $W$. Границы носителя: $-2.907522600268316$ и $2.5355710108415623$.
+
+Глобальные оценки $\underline a,\overline a,B,C$ не обязательно являются точными экстремумами. Резольвентное равенство задаёт ограниченное решение на всей прямой. Начальные данные, выписанные выше с точностью хранения, совместимы с этим решением, но не заменяют постановку: произвольные другие данные Коши дали бы другое решение.
+
+\begin{center}\captionof{table}{Результаты примера 7}\label{tab:ex7}\begin{tabular}{lrrr}\toprule Приближение&$E_{\min}$--$E_{\max}$&Точных&Время, с\\\midrule
+
+Ремизов, $n=128$&0.0018826144--0.0018826144&4/4&11.6786\\
+
+Ремизов, $n=256$&0.00094385074--0.00094385074&4/4&23.1466\\
+
+Монте-Карло, $M=4096$&0.0080432644--0.013993653&1/4&8.67361\\
+
+\bottomrule\end{tabular}\end{center}
+
+Время в таблице --- медиана четырёх сопоставимых измерений внутри прежнего блока; реализации Монте-Карло не усреднялись. Один из четырёх MC-ответов точен, но это не оценка высокой надёжности нового запуска.
+
+\normalsize\setlength{\abovedisplayskip}{6pt}\setlength{\belowdisplayskip}{6pt}

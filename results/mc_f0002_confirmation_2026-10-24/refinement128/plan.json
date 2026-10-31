@@ -1,0 +1,523 @@
+{
+  "T": 63.625,
+  "analysis": {
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026102411,
+    "cost": "sigma measured only at x=0. Estimate normal pointwise .005/.01 statistical half-width and 33-point simultaneous Bonferroni cost, assuming the same sigma at all points. No full-error certificate, grid sampling, or benchmark winner claim.",
+    "intervals": "t95 across independent run means; Bonferroni simultaneous intervals within each phase for level bias and adjacent contrasts",
+    "order": "Three-level contrast ratio is only a model diagnostic, not an asymptotic-order claim; do not fit a power if adjacent simultaneous contrast intervals include zero.",
+    "timing": "Extrapolate serial chunk=1024 full batches from observed finest-level runtime. Not a guaranteed wall-time prediction."
+  },
+  "attempts": [
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_00",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13350203009105916207,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13350203009105916207,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13350203009105916207,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 0,
+      "seed": 13350203009105916207,
+      "stage": "refinement128"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_01",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 2917420746012235943,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 2917420746012235943,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 2917420746012235943,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 1,
+      "seed": 2917420746012235943,
+      "stage": "refinement128"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_02",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13523746951197415933,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13523746951197415933,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13523746951197415933,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 2,
+      "seed": 13523746951197415933,
+      "stage": "refinement128"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_03",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 5127031444013796089,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 5127031444013796089,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 5127031444013796089,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 3,
+      "seed": 5127031444013796089,
+      "stage": "refinement128"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_04",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 11568444374676611120,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 11568444374676611120,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 11568444374676611120,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 4,
+      "seed": 11568444374676611120,
+      "stage": "refinement128"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_05",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13456548467599399912,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13456548467599399912,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13456548467599399912,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 5,
+      "seed": 13456548467599399912,
+      "stage": "refinement128"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_06",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13339249915090099949,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13339249915090099949,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 13339249915090099949,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 6,
+      "seed": 13339249915090099949,
+      "stage": "refinement128"
+    },
+    {
+      "M": 1024,
+      "attempt_id": "refinement128_07",
+      "configs": [
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 16121078669617617629,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 16121078669617617629,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 16121078669617617629,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        }
+      ],
+      "maximum_cost": {
+        "coefficient_calls": 57014,
+        "coefficient_values": 58382336,
+        "normal_values_generated_with_replay": 25018368,
+        "path_steps": 14594048,
+        "time_steps": [
+          2036,
+          4072,
+          8144
+        ],
+        "unique_finest_normal_values": 8339456
+      },
+      "repeat": 7,
+      "seed": 16121078669617617629,
+      "stage": "refinement128"
+    }
+  ],
+  "forcing_bound": {
+    "abs_upper_bound": 380.99952616975816,
+    "bounds_certification": "analytic",
+    "bounds_domain": "all_real_x",
+    "source": "all_methods_forcing_bounds_v1:AMV1_F0002_S00:sha256=a8e6a64c2b2d6fabf6f356c408c2b1cae52cc1b00327ca38839360c8589a718b"
+  },
+  "frozen_utc": "2026-10-24T20:58:43.043259+00:00",
+  "gate_decision_sha256": "0e04ff7062d6d5657dc4dcda31f97cc1917519c799ab5d252abdba2f3c434878",
+  "parent_policy_sha256": "8090240766106c8e515c641a85ab0513775e62b69e38db2a2ae96112f9b36cda",
+  "phase": "refinement128",
+  "problem_id": "AMV1_F0002_S00",
+  "resources": {
+    "attempt_cooperative_seconds": 20.0,
+    "blas_threads": 1,
+    "max_path_steps": 170000000,
+    "phase_wall_seconds": 180.0,
+    "planned_maximum_normal_values_generated": 266862592,
+    "planned_maximum_path_steps": 166789120,
+    "prior_seconds_estimate": [
+      65.0,
+      100.0
+    ],
+    "rss_limit_mib": 384.0,
+    "stop": "Stop on failure or external resource limit, preserve partial counters and not_run; no retries",
+    "total_wall_seconds": 240.0,
+    "workers": 1
+  },
+  "tail_eps": 0.0001,
+  "tail_error_bound": 9.832332563587108e-05,
+  "x": 0.0
+}

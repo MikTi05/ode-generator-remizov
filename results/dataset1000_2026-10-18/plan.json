@@ -1,0 +1,87 @@
+{
+  "commands": [
+    [
+      ".venv/bin/python",
+      "-B",
+      "generate_all_methods_dataset_v1.py",
+      "--output-dir",
+      "data/all_methods_v1_1000_2026-10-18",
+      "--seed",
+      "2488",
+      "--n-families",
+      "200",
+      "--samples-per-family",
+      "5",
+      "--ml-grid-size",
+      "256",
+      "--validation-grid-size",
+      "2049"
+    ],
+    [
+      ".venv/bin/python",
+      "-B",
+      "validate_all_methods_dataset_v1.py",
+      "--input-dir",
+      "data/all_methods_v1_1000_2026-10-18",
+      "--expect-production"
+    ],
+    [
+      ".venv/bin/python",
+      "-B",
+      "diagnostics/check_all_methods_production.py",
+      "--input-dir",
+      "data/all_methods_v1_1000_2026-10-18",
+      "--output-dir",
+      "results/dataset1000_2026-10-18"
+    ]
+  ],
+  "configuration": {
+    "a_min": 0.001,
+    "max_abs_safety": 1000000.0,
+    "max_attempts": 100,
+    "ml_grid_size": 256,
+    "n_families": 200,
+    "residual_rtol": 1e-10,
+    "samples_per_family": 5,
+    "seed": 2488,
+    "validation_grid_size": 2049,
+    "x0": -1.0,
+    "x1": 1.0
+  },
+  "created_utc": "2026-10-18T07:44:08.626583+00:00",
+  "data_dir": "data/all_methods_v1_1000_2026-10-18",
+  "discovery": {
+    "equations": 20,
+    "existing_dataset": "data/generated",
+    "families": 20,
+    "full_dataset_found": false
+  },
+  "environment": {
+    "executable": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/bin/python",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "threads": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "versions": {
+      "numpy": "2.2.6",
+      "pytest": "9.1.1",
+      "scipy": "1.15.3",
+      "sympy": "1.14.0"
+    }
+  },
+  "numerical_solver_calls_planned": 0,
+  "purpose": "Generate the unchanged production all_methods_v1 dataset and validate all 1000 tasks without numerical solves",
+  "resource_policy": {
+    "blas_threads": 1,
+    "extra_disk_required": true,
+    "max_generation_attempts_per_equation": 100,
+    "ml_float_payload_bytes": 12288000,
+    "serial_processes": 1
+  },
+  "validation_dir": "results/dataset1000_2026-10-18"
+}

@@ -1,0 +1,242 @@
+{
+  "implementation_complete": true,
+  "final_independent_experiment_complete": true,
+  "solver_calls": 140,
+  "families": 60,
+  "primary": {
+    "constant_R128": {
+      "accuracy_bounds": [
+        0.8833333333333333,
+        0.8833333333333333
+      ],
+      "accurate_deliveries": 53,
+      "confirmed_correct": 53,
+      "cost_per_accurate": 13.328436337264158,
+      "cost_scope": "single realized full warm method wall; selector additionally charged frozen measured feature/inference proxy; not median4",
+      "delivery_accuracy": 0.8833333333333333,
+      "finite_violations": 7,
+      "known_observed_method_spend": 706.4071258750004,
+      "known_outcomes": 60,
+      "known_partial_cost": 706.4071258750004,
+      "known_solver_failures": 0,
+      "missing_times": 0,
+      "refusals": 0,
+      "requested_tasks": 60,
+      "total_warm_cost": 706.4071258750004,
+      "unattempted": 0,
+      "unknown_outcomes": 0
+    },
+    "constant_R256": {
+      "accuracy_bounds": [
+        0.95,
+        0.95
+      ],
+      "accurate_deliveries": 57,
+      "confirmed_correct": 57,
+      "cost_per_accurate": 24.75450646057895,
+      "cost_scope": "single realized full warm method wall; selector additionally charged frozen measured feature/inference proxy; not median4",
+      "delivery_accuracy": 0.95,
+      "finite_violations": 3,
+      "known_observed_method_spend": 1411.006868253,
+      "known_outcomes": 60,
+      "known_partial_cost": 1411.006868253,
+      "known_solver_failures": 0,
+      "missing_times": 0,
+      "refusals": 0,
+      "requested_tasks": 60,
+      "total_warm_cost": 1411.006868253,
+      "unattempted": 0,
+      "unknown_outcomes": 0
+    },
+    "selector": {
+      "accuracy_bounds": [
+        0.95,
+        0.95
+      ],
+      "accurate_deliveries": 57,
+      "confirmed_correct": 57,
+      "cost_per_accurate": 20.425793258140356,
+      "cost_scope": "single realized full warm method wall; selector additionally charged frozen measured feature/inference proxy; not median4",
+      "delivery_accuracy": 0.95,
+      "finite_violations": 3,
+      "known_observed_method_spend": 1164.1665455020004,
+      "known_outcomes": 60,
+      "known_partial_cost": 1164.2702157140002,
+      "known_solver_failures": 0,
+      "missing_times": 0,
+      "refusals": 0,
+      "requested_tasks": 60,
+      "total_warm_cost": 1164.2702157140002,
+      "unattempted": 0,
+      "unknown_outcomes": 0
+    }
+  },
+  "paired_comparisons": {
+    "constant_R128": {
+      "assumptions": "bootstrap descriptive for stratified fresh-family design; Hoeffding upper conditional on independent-family sampling; neither is per-input certification",
+      "baseline_correct_denominator": 53,
+      "claim": "descriptive paired stratified bootstrap; conservative loss bound assumes independent families, not a guarantee of noninferiority",
+      "columns": [
+        "correct_delivery_delta",
+        "seconds_per_request_delta"
+      ],
+      "conditional_loss_fraction": 0.0,
+      "conservative_Hoeffding95_upper_loss": 0.1580013785159798,
+      "gained_correct_deliveries": 4,
+      "individual_loss_upper_Bonferroni_two_comparisons": 0.17533015176408231,
+      "lost_baseline_correct_deliveries": 0,
+      "observed_baseline_correct_losses": 0.0,
+      "point_delta_correct_deliveries": 4,
+      "point_delta_seconds": 457.8630898389998,
+      "relative_cost_saving": -0.6481575186148665,
+      "stratified_family_bootstrap95": [
+        [
+          0.016666666666666666,
+          0.11666666666666667
+        ],
+        [
+          6.4666045128466685,
+          8.792799268634168
+        ]
+      ]
+    },
+    "constant_R256": {
+      "assumptions": "bootstrap descriptive for stratified fresh-family design; Hoeffding upper conditional on independent-family sampling; neither is per-input certification",
+      "baseline_correct_denominator": 57,
+      "claim": "descriptive paired stratified bootstrap; conservative loss bound assumes independent families, not a guarantee of noninferiority",
+      "columns": [
+        "correct_delivery_delta",
+        "seconds_per_request_delta"
+      ],
+      "conditional_loss_fraction": 0.0,
+      "conservative_Hoeffding95_upper_loss": 0.1580013785159798,
+      "gained_correct_deliveries": 0,
+      "individual_loss_upper_Bonferroni_two_comparisons": 0.17533015176408231,
+      "lost_baseline_correct_deliveries": 0,
+      "observed_baseline_correct_losses": 0.0,
+      "point_delta_correct_deliveries": 0,
+      "point_delta_seconds": -246.7366525389998,
+      "relative_cost_saving": 0.174865663725996,
+      "stratified_family_bootstrap95": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -5.285639966062084,
+          -2.939312873617084
+        ]
+      ]
+    }
+  },
+  "MC_secondary": {
+    "complete": true,
+    "conditional_MC_choice_quality_confirmed": false,
+    "confirmed_successes": 0,
+    "full60_three_profile_oracle_available": false,
+    "known_outcomes": 20,
+    "limitation": "one seed on each of20 fixed strata; no within-family reliability/timing spread; absent MC40 remains unknown",
+    "measured_three_profile_winner_counts": {
+      "R128": 17,
+      "R256": 3
+    },
+    "not_measured_families": 40,
+    "planned_families": 20,
+    "profile_summary": {
+      "accuracy_bounds": [
+        0.0,
+        0.0
+      ],
+      "accurate_deliveries": 0,
+      "confirmed_correct": 0,
+      "cost_per_accurate": null,
+      "cost_scope": "single realized full warm method wall; selector additionally charged frozen measured feature/inference proxy; not median4",
+      "delivery_accuracy": 0.0,
+      "finite_violations": 20,
+      "known_observed_method_spend": 1144.8646460420002,
+      "known_outcomes": 20,
+      "known_partial_cost": 1144.8646460420002,
+      "known_solver_failures": 0,
+      "missing_times": 0,
+      "refusals": 0,
+      "requested_tasks": 20,
+      "total_warm_cost": 1144.8646460420002,
+      "unattempted": 0,
+      "unknown_outcomes": 0
+    },
+    "selected_MC_actions": 0,
+    "uncertainty": {
+      "assumptions": "independent bounded family outcomes; cells may differ; not per-input or future-seed reliability",
+      "conservative_Hoeffding95_interval": [
+        0.0,
+        0.3036807309541526
+      ],
+      "mean_success_fraction": 0.0,
+      "within_cell_bootstrap_used": false
+    },
+    "unknown_outcomes": 0
+  },
+  "quality_scope": "empirical accuracy/cost/refusal on60 fresh stratified families; no unconditional accuracy guarantee or population noninferiority proof",
+  "full_Remizov_vs_MC_choice_quality_confirmed": false,
+  "reason": "frozen model selected MC0; MC20 accurate0; MC40 unmeasured",
+  "fastest_accurate_R_profile_selected": 23,
+  "R_feasible_families": 57,
+  "production_blocked": true,
+  "remaining_authorized_solver_calls": 0,
+  "additional_experiments_or_training_performed": false,
+  "execution": {
+    "passed": true,
+    "plan_sha256": "c4ffde64ca5013da6a896fbd2f07f1bfe9626ee4b3c474a696ef044edbfcad1b",
+    "requests": 140,
+    "records": 140,
+    "complete_140": true,
+    "statuses": {
+      "completed": 140
+    },
+    "profiles": {
+      "R128": 60,
+      "R256": 60,
+      "MC1": 20
+    },
+    "independent_primary": {
+      "selector": {
+        "confirmed_correct": 57,
+        "known_outcomes": 60,
+        "finite_violations": 3,
+        "total_warm_cost": 1164.2702157140002
+      },
+      "constant_R128": {
+        "confirmed_correct": 53,
+        "known_outcomes": 60,
+        "finite_violations": 7,
+        "total_warm_cost": 706.407125875
+      },
+      "constant_R256": {
+        "confirmed_correct": 57,
+        "known_outcomes": 60,
+        "finite_violations": 3,
+        "total_warm_cost": 1411.006868253
+      }
+    },
+    "unique_MC_point_addresses": 660,
+    "MC_choices": 0,
+    "MC_choice_quality_confirmed": false,
+    "numerical_worker_pids": [
+      32754
+    ],
+    "maximum_worker_rss_mib": 198.53125,
+    "thermal_samples": 315,
+    "maximum_thermal_state": 0,
+    "guardian_cleanup_verified": true,
+    "external_CLI_renewals": 62,
+    "maximum_renewal_gap_seconds": 79.13772216695361,
+    "elapsed_to_guardian_cleanup_seconds": 3268.0407518749125,
+    "budget_cap_seconds": 7464,
+    "protected_sources_model_inputs_and_original_artifacts_unchanged": true,
+    "new_solver_calls_by_audit": 0,
+    "new_model_training": 0,
+    "production_blocked": true
+  },
+  "holdout_now_disclosed": true,
+  "eligible_for_future_independent_confirmation_after_tuning": false
+}

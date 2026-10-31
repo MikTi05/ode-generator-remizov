@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "MC1": {
+      "cost_equations": 40,
+      "equations": 40,
+      "successes": 7,
+      "trials": 160
+    },
+    "R128": {
+      "cost_equations": 4,
+      "equations": 103,
+      "successes": 75,
+      "trials": 103
+    },
+    "R256": {
+      "cost_equations": 36,
+      "equations": 40,
+      "successes": 33,
+      "trials": 40
+    }
+  },
+  "exclusions": {
+    "MC0_MC2": "different profiles",
+    "MC_fresh_group": "reserved post-fit seed audit; never fit/calibrate/tune",
+    "MC_replay_trials": 0,
+    "R_native_time": "never used as full wall target",
+    "deterministic_R_repeats": "one accuracy trial per equation/profile",
+    "legacy_taper_x0": "different target/profile",
+    "old_final_MC20": "selected earlier cohort not pooled with P1/P2"
+  },
+  "raw_checks": 340
+}

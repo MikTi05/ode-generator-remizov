@@ -1,0 +1,80 @@
+{
+  "MC_path_steps_completed": 15637788672,
+  "ML_retrained": false,
+  "ML_training_runs": 0,
+  "adaptive_rule_reproduced": true,
+  "additional900_equations_solved": 0,
+  "additional900_run": false,
+  "all_100_primary_pairs_completed": true,
+  "all_guardians_finished": true,
+  "controls_bitwise_equal": true,
+  "controls_reproduced": true,
+  "figures_visually_inspected": [
+    "plots/accuracy_cost.png",
+    "plots/distribution_uncertainty.png",
+    "plots/repeats.png"
+  ],
+  "final_source_sha256": {
+    "PROJECT_STATUS.md": "ec339abd594c2081fb814f53e8da35fa8748b2558b29d2499bf5de18c6ac3017",
+    "all_methods_bounds.py": "a7a99776c8fa8faf48bc25f11f8884824aab989b646044c43a47455daff18d41",
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "diagnostics/chernov_batch_control.py": "7483a440da43179e3c873d6e6d4d54900304c902a5b5ab73a468a6d1d79618a2",
+    "diagnostics/grid100_statistics.py": "79509b21483331ac834d764107293e8ed22947cabc505590a18cd547879a2e40",
+    "diagnostics/joint_grid100.py": "9994f3f579fd177ed5268917dfed053d64bdfc09ba9812a2413ec97e3aaa5729",
+    "diagnostics/mc_production_x0.py": "9f3a12003758e0fa852c1ff637145fc29d6d6a26ccd255fc9c1c5fa565ceafc3",
+    "diagnostics/report_joint_grid100.py": "68355c17548934854a2bcf42959dfe06cfdce3becdd7d7973bc1df86a948c2f7",
+    "diagnostics/run_chernov_batch.py": "9f912e44ae6c071684afd29928d93d751f0137f043b553d2ed07e856c8b02748",
+    "diagnostics/verify_joint_grid100.py": "3b614ea648afb05298c5009a6c4e97368af205264676d3d7388e49a76310bf66",
+    "mc_ast_kernels.py": "fa5f3123a2acf3fc4b9d6057c2a946b9ea9a59fcef40b5ff36d9a2ade3ab504e",
+    "mc_optimized.py": "a1f5c168ad5a752d02088d3110700a04b41140a63f1ccdd1f7baeb7fa17a9288",
+    "mc_solver.py": "b48e05e148009aaa4fabe7ec783d956f776438537c522a338a31624fe118ad83",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a",
+    "tests/test_joint_grid100.py": "2a68d1e91f1a2db1bd892119307c6185703a39a822d2d7ccf4c5aea2c8799374"
+  },
+  "frozen_sources_sha256": {
+    "all_methods_bounds.py": "a7a99776c8fa8faf48bc25f11f8884824aab989b646044c43a47455daff18d41",
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "diagnostics/chernov_batch_control.py": "7483a440da43179e3c873d6e6d4d54900304c902a5b5ab73a468a6d1d79618a2",
+    "diagnostics/grid100_statistics.py": "79509b21483331ac834d764107293e8ed22947cabc505590a18cd547879a2e40",
+    "diagnostics/joint_grid100.py": "9994f3f579fd177ed5268917dfed053d64bdfc09ba9812a2413ec97e3aaa5729",
+    "diagnostics/mc_production_x0.py": "9f3a12003758e0fa852c1ff637145fc29d6d6a26ccd255fc9c1c5fa565ceafc3",
+    "diagnostics/run_chernov_batch.py": "9f912e44ae6c071684afd29928d93d751f0137f043b553d2ed07e856c8b02748",
+    "mc_ast_kernels.py": "fa5f3123a2acf3fc4b9d6057c2a946b9ea9a59fcef40b5ff36d9a2ade3ab504e",
+    "mc_optimized.py": "a1f5c168ad5a752d02088d3110700a04b41140a63f1ccdd1f7baeb7fa17a9288",
+    "mc_solver.py": "b48e05e148009aaa4fabe7ec783d956f776438537c522a338a31624fe118ad83",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "interrupted_physical_attempts": 1,
+  "locks_held": {
+    ".chernov_batch_compute.lock": false,
+    ".chernov_batch_controller.lock": false
+  },
+  "new_calls_on_resume_check": 0,
+  "numeric_schemes_changed": false,
+  "observed_adaptive_outcomes": {
+    "R_only": 71,
+    "both_pass": 2,
+    "neither_pass": 27
+  },
+  "observed_primary_outcomes": {
+    "R_only": 73,
+    "neither_pass": 27
+  },
+  "physical_attempts": 241,
+  "planned": 240,
+  "primary_completed": 200,
+  "primary_profile": "cubic/zero common analyticT; historical control profile isolated",
+  "protected_files_changed": [],
+  "protected_files_checked": 16379,
+  "regression_summary": "373 passed, 1 deselected, 2 warnings, 679 subtests passed in 44.39s",
+  "resume_immutable_records_unchanged": 240,
+  "selection_train_only": true,
+  "simultaneous_bands_reproduced": true,
+  "terminal": 240
+}

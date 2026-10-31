@@ -1,0 +1,29 @@
+{
+  "child_returncode": -15,
+  "config": {
+    "dx_initial": 0.05,
+    "max_quadrature_refinements": 8,
+    "max_spatial_refinements": 5,
+    "max_work_grid_points": 100000,
+    "n": 4,
+    "nt_initial": 8,
+    "quadrature_atol": 1e-09,
+    "quadrature_rtol": 1e-07,
+    "spatial_atol": 1e-09,
+    "spatial_rtol": 1e-07,
+    "tail_eps": 1e-08
+  },
+  "equation_id": "AMV1_F0007_S00",
+  "exact_amplitude_on_target_33": 1.15966357080846,
+  "failure_reason": "external_time_limit",
+  "instrumented": false,
+  "max_abs_error": null,
+  "n": 4,
+  "regime": "moderate_varying",
+  "runtime_seconds": null,
+  "solver_result": null,
+  "status": "external_time_limit",
+  "termination_requested_wall_seconds": 45.00852654199116,
+  "worker_peak_rss_mib": 205.328125,
+  "worker_wall_seconds": 45.016631833976135
+}

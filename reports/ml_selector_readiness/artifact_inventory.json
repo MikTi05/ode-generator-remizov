@@ -1,0 +1,120 @@
+{
+  "caveat": "Inventory counts records, including legacy wrappers, not unique attempts or production equations",
+  "mc_saved_records": {
+    "final_grid5_2026-10-25": {
+      "grid33_production_hash_verified": 20
+    },
+    "joint_grid100_2026-10-25": {
+      "grid33_production_hash_verified": 136
+    },
+    "joint_pilot_2026-10-25": {
+      "grid1_not_admitted_by_identity": 160,
+      "grid33_not_admitted_by_identity": 8
+    },
+    "mc1000_x0_2026-10-25": {
+      "grid1_production_hash_verified": 4002
+    },
+    "mc_convergence_2026-10-24": {
+      "grid1_not_admitted_by_identity": 295
+    },
+    "mc_optimized_backend_2026-10-25": {
+      "grid1_not_admitted_by_identity": 49,
+      "grid33_not_admitted_by_identity": 3
+    },
+    "monte_carlo_integration_2026-10-24": {
+      "grid33_not_admitted_by_identity": 5
+    }
+  },
+  "optimization_saved_path_replay": {
+    "AMV1_F0000_S00": {
+      "numba": 2.220446049250313e-16,
+      "numpy": 0.0
+    },
+    "AMV1_F0002_S00": {
+      "numba": 3.885780586188048e-15,
+      "numpy": 0.0
+    },
+    "AMV1_F0014_S00": {
+      "numba": 3.219646771412954e-15,
+      "numpy": 0.0
+    },
+    "AMV1_F0017_S00": {
+      "numba": 1.27675647831893e-15,
+      "numpy": 0.0
+    },
+    "AMV1_F0018_S00": {
+      "numba": 3.9968028886505635e-15,
+      "numpy": 0.0
+    }
+  },
+  "optimization_speedup_range": [
+    3.7104578793556415,
+    8.30727197567654
+  ],
+  "protected_source_versions": {
+    "all_methods_bounds.py": {
+      "a7a99776c8fa8faf48bc25f11f8884824aab989b646044c43a47455daff18d41": true
+    },
+    "all_methods_dataset_loader.py": {
+      "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601": true
+    },
+    "chernov_solver.py": {
+      "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0": true
+    },
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1.csv": {
+      "940d6c10a8cdd0933bb5c663c681efd39bac5ed450ea37cbb95be1ca481136ad": true
+    },
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_metadata.jsonl": {
+      "e464e289af2bf98dc1e6e49a1211ae2d5bf78838cee59b13c22df7bd01be0a79": true
+    },
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_ml.npz": {
+      "53231f72622dda82c8210dcd2ea4a843cc48f97a2a362ace596d66b37fca7c89": true
+    },
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_report.json": {
+      "5307f5d3f763949b6663fe680f2e21c714534dcf1e429ab52a3b2219e49aae86": true
+    },
+    "diagnostics/chernov_batch_control.py": {
+      "7483a440da43179e3c873d6e6d4d54900304c902a5b5ab73a468a6d1d79618a2": true
+    },
+    "diagnostics/final_grid5.py": {
+      "76ecc30942806d526b7be39caba9d17fa6cefac7870def314b36b4f038294fbb": true
+    },
+    "diagnostics/final_grid5_stats.py": {
+      "7853609f0a4402793c3b2fbb9b571320923ea356c22571138873d72010ee62f1": true
+    },
+    "diagnostics/grid100_statistics.py": {
+      "79509b21483331ac834d764107293e8ed22947cabc505590a18cd547879a2e40": true
+    },
+    "diagnostics/joint_grid100.py": {
+      "9994f3f579fd177ed5268917dfed053d64bdfc09ba9812a2413ec97e3aaa5729": true
+    },
+    "diagnostics/mc_production_x0.py": {
+      "9f3a12003758e0fa852c1ff637145fc29d6d6a26ccd255fc9c1c5fa565ceafc3": true
+    },
+    "diagnostics/report_chernov_batch.py": {
+      "40d887656ca2e158e5267fa8d26e4310cc8e986931777e43101b5a1f47962460": false
+    },
+    "diagnostics/run_chernov_batch.py": {
+      "26ab4bd47e77805f65e2821bb4ef7e37636638a934ed862c047a37b2e7d4eac0": false,
+      "9f912e44ae6c071684afd29928d93d751f0137f043b553d2ed07e856c8b02748": true
+    },
+    "mc_ast_kernels.py": {
+      "fa5f3123a2acf3fc4b9d6057c2a946b9ea9a59fcef40b5ff36d9a2ade3ab504e": true
+    },
+    "mc_optimized.py": {
+      "a1f5c168ad5a752d02088d3110700a04b41140a63f1ccdd1f7baeb7fa17a9288": true
+    },
+    "mc_solver.py": {
+      "b48e05e148009aaa4fabe7ec783d956f776438537c522a338a31624fe118ad83": true
+    },
+    "remizov_solver.py": {
+      "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754": true
+    },
+    "src/all_methods_dataset_v1.py": {
+      "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120": true
+    },
+    "src/all_methods_expressions.py": {
+      "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a": true
+    }
+  }
+}

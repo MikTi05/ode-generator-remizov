@@ -1,0 +1,139 @@
+{
+  "call_wall_seconds": 0.009381083073094487,
+  "config": {
+    "M": 2048,
+    "T": 5.0,
+    "chunk": 8192,
+    "dt": 0.03125,
+    "max_batch_paths": 8192,
+    "max_path_steps": 5000000,
+    "max_runtime_seconds": 10.0,
+    "max_steps": 4096,
+    "seed": 11915109478153196695,
+    "stream_id": 0,
+    "tail_eps": 0.0001
+  },
+  "load_seconds": 4.254188388586044e-05,
+  "max_abs_error": 0.005991152228836505,
+  "process_peak_rss_mib": 69.453125,
+  "result": {
+    "M": 2048,
+    "T": 5.0,
+    "applicability_status": "bounds_certified_regularity_assumed",
+    "ci95": [
+      0.01697526101593836
+    ],
+    "ci_lower": [
+      0.9890158912128981
+    ],
+    "ci_upper": [
+      1.0229664132447749
+    ],
+    "coefficient_calls": {
+      "a": 160,
+      "b": 160,
+      "c_R": 161,
+      "g_R": 161
+    },
+    "coefficient_values": {
+      "a": 327680,
+      "b": 327680,
+      "c_R": 329728,
+      "g_R": 329728
+    },
+    "completed_paths": [
+      2048
+    ],
+    "confidence_level": 0.95,
+    "discretization_error_bound": null,
+    "dt_actual": 0.03125,
+    "dt_requested": 0.03125,
+    "f": [
+      1.0059911522288365
+    ],
+    "failure_reason": "",
+    "forcing_abs_upper_bound": 4.0,
+    "forcing_bound_source": "|(1-u)exp(-u)|<=1 for u=x^2>=0",
+    "interval_kind": "pointwise_asymptotic_normal_for_discrete_truncated_mean",
+    "lambda_c_gap": 2.0,
+    "message": "tail bound available; intervals exclude time bias and tail; total error is not certified",
+    "n_batches": 1,
+    "n_normal_draws": 327680,
+    "n_path_steps": 327680,
+    "n_steps": 160,
+    "peak_batch_paths": 2048,
+    "point_spawn_keys": [
+      [
+        2146154489,
+        2320109110,
+        3764441186,
+        188408948,
+        3300608657,
+        906708982,
+        2864516910,
+        1895568976,
+        0
+      ]
+    ],
+    "preparation_seconds": 0.0002657908480614424,
+    "problem_id": "MC_gaussian",
+    "rng_scheme": "PCG64/SeedSequence/point_address_v1",
+    "runtime_seconds": 0.009375208057463169,
+    "seed_entropy": 11915109478153196695,
+    "stderr": [
+      0.008660847457111409
+    ],
+    "stream_id": 0,
+    "success": true,
+    "tail_eps": 0.0001,
+    "tail_error_bound": 9.079985952496971e-05,
+    "tail_tolerance_met": true,
+    "total_error_certified": false,
+    "x": [
+      0.0
+    ]
+  },
+  "signed_error": [
+    0.005991152228836505
+  ],
+  "spec": {
+    "attempt_id": "075",
+    "config": {
+      "M": 2048,
+      "T": 5.0,
+      "chunk": 8192,
+      "dt": 0.03125,
+      "max_batch_paths": 8192,
+      "max_path_steps": 5000000,
+      "max_runtime_seconds": 10.0,
+      "max_steps": 4096,
+      "seed": 11915109478153196695,
+      "stream_id": 0,
+      "tail_eps": 0.0001
+    },
+    "configuration_id": "1_8",
+    "preflight": {
+      "actual_dt": 0.03125,
+      "coefficient_calls": 642,
+      "normal_draws": 327680,
+      "path_steps": 327680,
+      "time_steps": 160
+    },
+    "problem_id": "MC_gaussian",
+    "repeat": 4,
+    "tail_bound": 9.079985952496971e-05,
+    "tail_tolerance_met": true,
+    "target_x": [
+      0.0
+    ],
+    "views": [
+      {
+        "factor": "T",
+        "level": 5.0
+      }
+    ]
+  },
+  "y_exact": [
+    1.0
+  ]
+}

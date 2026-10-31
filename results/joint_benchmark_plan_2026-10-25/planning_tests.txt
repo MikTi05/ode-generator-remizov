@@ -1,0 +1,5 @@
+Command: PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_joint_benchmark_plan.py
+Captured output of the planning-only test run:
+..........                                                               [100%]
+10 passed in 0.13s
+No ODE solver, benchmark, ML, or full pytest run.

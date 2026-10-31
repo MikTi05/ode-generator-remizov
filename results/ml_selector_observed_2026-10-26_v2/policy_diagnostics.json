@@ -1,0 +1,167 @@
+{
+  "CatBoost_OOF": {
+    "abstention_rate": 0.2777777777777778,
+    "accuracy_constrained_cost_regret": null,
+    "classification": {
+      "accuracy": 0.5555555555555556,
+      "confusion": [
+        [
+          16,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          4
+        ]
+      ],
+      "confusion_labels": [
+        "remizov",
+        "monte_carlo",
+        "none"
+      ],
+      "known": 36,
+      "macro_f1_supported": 0.5,
+      "recall": {
+        "monte_carlo": null,
+        "none": 0.2857142857142857,
+        "remizov": 0.7272727272727273
+      },
+      "support": {
+        "monte_carlo": 0,
+        "none": 14,
+        "remizov": 22
+      }
+    },
+    "conditional_accuracy_on_observed_outputs": 0.6153846153846154,
+    "cost_reason": "no common complete end-to-end costs, no actual policy/solver execution",
+    "delivery_accuracy_rate": 0.4444444444444444,
+    "evaluation": "retrospective saved outputs only; missing selected output is unobserved, not a fabricated failure",
+    "known_label_fraction": 1.0,
+    "known_labels": 36,
+    "observed_accuracy_violations": 10,
+    "observed_correct_deliveries": 16,
+    "observed_execution_failures": 0,
+    "observed_finite_outputs": 26,
+    "regret_reason": "no uniform median4 R cost evidence",
+    "requested_tasks": 36,
+    "total_policy_wall_seconds": null,
+    "unobserved_selected_outputs": 0
+  },
+  "constant_remizov": {
+    "abstention_rate": 0.0,
+    "accuracy_constrained_cost_regret": null,
+    "classification": {
+      "accuracy": 0.6111111111111112,
+      "confusion": [
+        [
+          22,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          14,
+          0,
+          0
+        ]
+      ],
+      "confusion_labels": [
+        "remizov",
+        "monte_carlo",
+        "none"
+      ],
+      "known": 36,
+      "macro_f1_supported": 0.3793103448275862,
+      "recall": {
+        "monte_carlo": null,
+        "none": 0.0,
+        "remizov": 1.0
+      },
+      "support": {
+        "monte_carlo": 0,
+        "none": 14,
+        "remizov": 22
+      }
+    },
+    "conditional_accuracy_on_observed_outputs": 0.6111111111111112,
+    "cost_reason": "no common complete end-to-end costs, no actual policy/solver execution",
+    "delivery_accuracy_rate": 0.6111111111111112,
+    "evaluation": "retrospective saved outputs only; missing selected output is unobserved, not a fabricated failure",
+    "known_label_fraction": 1.0,
+    "known_labels": 36,
+    "observed_accuracy_violations": 14,
+    "observed_correct_deliveries": 22,
+    "observed_execution_failures": 0,
+    "observed_finite_outputs": 36,
+    "regret_reason": "no uniform median4 R cost evidence",
+    "requested_tasks": 36,
+    "total_policy_wall_seconds": null,
+    "unobserved_selected_outputs": 0
+  },
+  "offline_oracle": {
+    "abstention_rate": 0.3888888888888889,
+    "accuracy_constrained_cost_regret": null,
+    "classification": {
+      "accuracy": 1.0,
+      "confusion": [
+        [
+          22,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14
+        ]
+      ],
+      "confusion_labels": [
+        "remizov",
+        "monte_carlo",
+        "none"
+      ],
+      "known": 36,
+      "macro_f1_supported": 1.0,
+      "recall": {
+        "monte_carlo": null,
+        "none": 1.0,
+        "remizov": 1.0
+      },
+      "support": {
+        "monte_carlo": 0,
+        "none": 14,
+        "remizov": 22
+      }
+    },
+    "conditional_accuracy_on_observed_outputs": 1.0,
+    "cost_reason": "no common complete end-to-end costs, no actual policy/solver execution",
+    "delivery_accuracy_rate": 0.6111111111111112,
+    "evaluation": "retrospective saved outputs only; missing selected output is unobserved, not a fabricated failure",
+    "known_label_fraction": 1.0,
+    "known_labels": 36,
+    "observed_accuracy_violations": 0,
+    "observed_correct_deliveries": 22,
+    "observed_execution_failures": 0,
+    "observed_finite_outputs": 22,
+    "regret_reason": "no uniform median4 R cost evidence",
+    "requested_tasks": 36,
+    "total_policy_wall_seconds": null,
+    "unobserved_selected_outputs": 0
+  }
+}

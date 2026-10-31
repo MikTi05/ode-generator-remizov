@@ -1,0 +1,60 @@
+{
+  "all_other_existing_files_unchanged": true,
+  "benchmark1000_calls": 0,
+  "changed_code": [
+    "ml/selector_labels.py",
+    "ml/selector_evidence.py",
+    "ml/method_selector.py",
+    "diagnostics/train_method_selector.py",
+    "diagnostics/verify_method_selector.py",
+    "tests/test_method_selector.py",
+    "docs/ML_METHOD_SELECTOR.md"
+  ],
+  "changed_existing": [
+    "PROJECT_STATUS.md"
+  ],
+  "final_status_sha256": "a45c01fbb3e3d5c49fec6ea18b900dc4f8175350997623b31de4c3af005c265e",
+  "full_selector_status": "insufficient_evidence",
+  "independent_verification": {
+    "CBM_and_scaler_reload_verified": true,
+    "CV_family_disjoint": true,
+    "MC_calls": 0,
+    "R_calls": 0,
+    "canonical_error_checks": 260,
+    "diagnostic_fit_families": 36,
+    "diagnostic_fit_rows": 36,
+    "features": 253,
+    "full_selector_not_deployed": true,
+    "known": 36,
+    "numerical_calls": 0,
+    "original_family_split_preserved": true,
+    "original_validation_test_used_for_fit_or_diagnostic": false,
+    "passed": true,
+    "repeated_run_labels_OOF_probabilities_identical": true,
+    "rows": 1000,
+    "scaler_fit_only_labeled_train": true,
+    "trained_MC_class": false,
+    "unknown": 964
+  },
+  "labels": {
+    "monte_carlo": 0,
+    "none": 14,
+    "remizov": 22,
+    "unknown": 964
+  },
+  "local_links_broken": [],
+  "missing_existing": [],
+  "model": "diagnostic CatBoost R-versus-none only",
+  "new_MC_calls": 0,
+  "new_R_calls": 0,
+  "new_numerical_calls": 0,
+  "notes": "Current user authorized ML on saved outcomes; frozen contract files retain historical design/no-fit text unchanged",
+  "original_P1_P2_artifacts_unchanged": true,
+  "protected_paths": 17833,
+  "source_dataset_and_feature_hashes_valid": true,
+  "status": "passed",
+  "tests": {
+    "log": "tests.txt",
+    "passed": 62
+  }
+}

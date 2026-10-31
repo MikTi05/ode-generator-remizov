@@ -1,0 +1,12 @@
+group_type,group,rows,known_failures,false_accept_bad,false_reject_good,runtime_mae_seconds
+regime,constant,30,1,0,4,0.4900373916180494
+regime,high_contrast,30,3,1,13,0.9320195667484464
+regime,moderate_varying,30,2,0,4,0.6808403306097414
+regime,oscillatory,30,9,1,11,0.7981949013619063
+regime,slow_varying,30,1,0,2,0.4821842179827703
+complexity,L1,35,2,1,3,0.7269683237653226
+complexity,L2,40,4,1,7,0.8180545417941175
+complexity,L3,35,3,0,12,0.8882785201505092
+complexity,L4,40,7,0,12,0.3060617760202149
+execution_cohort,initial_parallel8,106,10,2,18,0.82601155190979
+execution_cohort,managed_serial1,44,6,0,16,0.3168424487997651

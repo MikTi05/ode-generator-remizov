@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/usr/bin/log",
+    "show",
+    "--start",
+    "2026-10-18 11:25:45",
+    "--end",
+    "2026-10-18 11:27:10",
+    "--style",
+    "json",
+    "--predicate",
+    "processID == 23392 OR processID == 23397 OR processID == 23395 OR eventMessage CONTAINS \"23392\" OR eventMessage CONTAINS \"23397\" OR eventMessage CONTAINS \"23395\""
+  ],
+  "returncode": 0,
+  "stdout": "[]",
+  "stderr": "",
+  "local_timezone": [
+    "MSK",
+    "MSK"
+  ]
+}

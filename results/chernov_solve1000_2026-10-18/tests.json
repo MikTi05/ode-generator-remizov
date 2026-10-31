@@ -1,0 +1,10 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_chernov_batch.py tests/test_chernov_solver.py",
+  "returncode": 0,
+  "passed": 28,
+  "pytest_seconds": 1.37,
+  "warnings": 1,
+  "warning": "Pre-existing invalid escape sequence \\i in src/all_methods_expressions.py docstring",
+  "source": "terminal output before numerical pilot",
+  "cases": "atomic exclusive writes; crash adoption; unfinished request resume; duplicate terminal rejection; wrong implementation rejection; timeout/RSS/crash/interrupt reaping; saved-result polling; threshold/distribution; prior 14 solver cases"
+}

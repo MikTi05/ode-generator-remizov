@@ -1,0 +1,254 @@
+[
+  {
+    "problem_id": "R1",
+    "method": "solve",
+    "control": "dx_half",
+    "change": 3.833490880289503e-08,
+    "max_abs_error": 0.009491634202420718
+  },
+  {
+    "problem_id": "R1",
+    "method": "solve",
+    "control": "padding_double",
+    "change": 9.37114535276562e-10,
+    "max_abs_error": 0.009491633305654945
+  },
+  {
+    "problem_id": "R1",
+    "method": "solve",
+    "control": "time_refine",
+    "change": 3.6181114970723627e-07,
+    "max_abs_error": 0.009491553894667382
+  },
+  {
+    "problem_id": "R1",
+    "method": "solve",
+    "control": "tail_refine",
+    "change": 2.033384733923782e-07,
+    "max_abs_error": 0.009491678009399873
+  },
+  {
+    "problem_id": "R1",
+    "method": "streaming",
+    "control": "dx_half",
+    "change": 2.3950303518205374e-08,
+    "max_abs_error": 0.009901596022860115
+  },
+  {
+    "problem_id": "R1",
+    "method": "streaming",
+    "control": "padding_double",
+    "change": 5.427623975262641e-11,
+    "max_abs_error": 0.009901608812084683
+  },
+  {
+    "problem_id": "R1",
+    "method": "streaming",
+    "control": "time_refine",
+    "change": 0.005019175457909197,
+    "max_abs_error": 0.004882433337614733
+  },
+  {
+    "problem_id": "R1",
+    "method": "streaming",
+    "control": "tail_refine",
+    "change": 0.002451584063283163,
+    "max_abs_error": 0.012353192858807094
+  },
+  {
+    "problem_id": "R1",
+    "method": "streaming",
+    "control": "tail_fixed_tau",
+    "change": 1.0237936805990167e-05,
+    "max_abs_error": 0.00989137085871794
+  },
+  {
+    "problem_id": "AMV1_F0005_S00",
+    "method": "solve",
+    "control": "dx_half",
+    "change": 3.941090866876884e-06,
+    "max_abs_error": 0.007823751412544766
+  },
+  {
+    "problem_id": "AMV1_F0005_S00",
+    "method": "solve",
+    "control": "padding_double",
+    "change": 3.337657927815485e-10,
+    "max_abs_error": 0.007825260094406983
+  },
+  {
+    "problem_id": "AMV1_F0005_S00",
+    "method": "solve",
+    "control": "time_refine",
+    "change": 2.755139125054651e-05,
+    "max_abs_error": 0.007808746091386931
+  },
+  {
+    "problem_id": "AMV1_F0005_S00",
+    "method": "solve",
+    "control": "tail_refine",
+    "change": 1.5518617826115744e-05,
+    "max_abs_error": 0.007834583986772947
+  },
+  {
+    "problem_id": "AMV1_F0005_S00",
+    "method": "streaming",
+    "control": "dx_half",
+    "change": 1.133432676159174e-06,
+    "max_abs_error": 0.009442811901649972
+  },
+  {
+    "problem_id": "AMV1_F0005_S00",
+    "method": "streaming",
+    "control": "padding_double",
+    "change": 1.2041478925084448e-12,
+    "max_abs_error": 0.009443660652296848
+  },
+  {
+    "problem_id": "AMV1_F0005_S00",
+    "method": "streaming",
+    "control": "time_refine",
+    "change": 0.004795191683019673,
+    "max_abs_error": 0.004648468970283481
+  },
+  {
+    "problem_id": "AMV1_F0005_S00",
+    "method": "streaming",
+    "control": "tail_refine",
+    "change": 0.002337289551850752,
+    "max_abs_error": 0.011780950205153906
+  },
+  {
+    "problem_id": "AMV1_F0005_S00",
+    "method": "streaming",
+    "control": "tail_fixed_tau",
+    "change": 1.2037057151026431e-06,
+    "max_abs_error": 0.009442456947588052
+  },
+  {
+    "problem_id": "AMV1_F0006_S00",
+    "method": "solve",
+    "control": "dx_half",
+    "change": 3.5371377709036977e-06,
+    "max_abs_error": 0.005355724684003693
+  },
+  {
+    "problem_id": "AMV1_F0006_S00",
+    "method": "solve",
+    "control": "padding_double",
+    "change": 1.636302204843787e-11,
+    "max_abs_error": 0.0053555276327443835
+  },
+  {
+    "problem_id": "AMV1_F0006_S00",
+    "method": "solve",
+    "control": "time_refine",
+    "change": 4.116663447795155e-06,
+    "max_abs_error": 0.00535646414297819
+  },
+  {
+    "problem_id": "AMV1_F0006_S00",
+    "method": "solve",
+    "control": "tail_refine",
+    "change": 1.0351965390398288e-05,
+    "max_abs_error": 0.005356976222467669
+  },
+  {
+    "problem_id": "AMV1_F0006_S00",
+    "method": "streaming",
+    "control": "dx_half",
+    "change": 2.4895725161178106e-05,
+    "max_abs_error": 0.004027587526738152
+  },
+  {
+    "problem_id": "AMV1_F0006_S00",
+    "method": "streaming",
+    "control": "padding_double",
+    "change": 1.6220802478983387e-11,
+    "max_abs_error": 0.004027381811784636
+  },
+  {
+    "problem_id": "AMV1_F0006_S00",
+    "method": "streaming",
+    "control": "time_refine",
+    "change": 0.0020198141530418656,
+    "max_abs_error": 0.002007567654603859
+  },
+  {
+    "problem_id": "AMV1_F0006_S00",
+    "method": "streaming",
+    "control": "tail_refine",
+    "change": 0.0009980842151056102,
+    "max_abs_error": 0.005025466022751335
+  },
+  {
+    "problem_id": "AMV1_F0006_S00",
+    "method": "streaming",
+    "control": "tail_fixed_tau",
+    "change": 9.874895881001322e-07,
+    "max_abs_error": 0.0040265873872984415
+  },
+  {
+    "problem_id": "AMV1_F0007_S00",
+    "method": "solve",
+    "control": "dx_half",
+    "change": 7.241061268592475e-05,
+    "max_abs_error": 0.006457470916200518
+  },
+  {
+    "problem_id": "AMV1_F0007_S00",
+    "method": "solve",
+    "control": "padding_double",
+    "change": 5.782251483177347e-10,
+    "max_abs_error": 0.006457044550207992
+  },
+  {
+    "problem_id": "AMV1_F0007_S00",
+    "method": "solve",
+    "control": "time_refine",
+    "change": 3.163709892972655e-05,
+    "max_abs_error": 0.006462803155333777
+  },
+  {
+    "problem_id": "AMV1_F0007_S00",
+    "method": "solve",
+    "control": "tail_refine",
+    "change": 3.4550305983982454e-05,
+    "max_abs_error": 0.00647100694564131
+  },
+  {
+    "problem_id": "AMV1_F0007_S00",
+    "method": "streaming",
+    "control": "dx_half",
+    "change": 0.0001606953333865846,
+    "max_abs_error": 0.007406025826710572
+  },
+  {
+    "problem_id": "AMV1_F0007_S00",
+    "method": "streaming",
+    "control": "padding_double",
+    "change": 4.4990004777201165e-11,
+    "max_abs_error": 0.007290739969836313
+  },
+  {
+    "problem_id": "AMV1_F0007_S00",
+    "method": "streaming",
+    "control": "time_refine",
+    "change": 0.008592934598276147,
+    "max_abs_error": 0.0032265958816364293
+  },
+  {
+    "problem_id": "AMV1_F0007_S00",
+    "method": "streaming",
+    "control": "tail_refine",
+    "change": 0.015490290721471012,
+    "max_abs_error": 0.013357271491747147
+  },
+  {
+    "problem_id": "AMV1_F0007_S00",
+    "method": "streaming",
+    "control": "tail_fixed_tau",
+    "change": 6.474064954409275e-05,
+    "max_abs_error": 0.00733089255932895
+  }
+]

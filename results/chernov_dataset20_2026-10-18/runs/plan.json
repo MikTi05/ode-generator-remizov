@@ -1,0 +1,825 @@
+{
+  "accuracy_threshold": 0.01,
+  "attempts": [
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0000_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0000_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0001_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0001_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0002_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0002_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0003_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0003_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0004_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0004_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0008_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0008_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0009_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0009_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0010_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0010_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0011_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0011_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0012_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0012_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0013_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0013_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0014_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0014_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0015_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0015_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0016_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0016_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0017_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0017_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0018_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0018_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0019_S00"
+    },
+    {
+      "config": {
+        "T": null,
+        "boundary": "taper",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 1e-08,
+        "taper_width": null
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0019_S00"
+    }
+  ],
+  "created_utc": "2026-10-18T07:20:09.890615+00:00",
+  "parameter_policy": "identical complete ChernovConfig for every equation and both schemes; only T derives from the certified gap by the unchanged formula",
+  "purpose": "One-pass coverage of both Chern schemes on all 20 existing equations; no per-equation tuning or retries",
+  "resource_policy": {
+    "automatic_retries": 0,
+    "blas_threads": 1,
+    "concurrent_solver_processes": 1,
+    "continue_after_failure": true,
+    "max_attempts": 40,
+    "poll_seconds": 0.1,
+    "worst_case_worker_wall_seconds": 2400
+  },
+  "rss_limit_mib": 512,
+  "selection_rationale": "n=128 is twice the largest selected fixed n in the preceding four-task study; 513 time nodes double its panels; K=32768 is four times its largest selected streaming K; dx is halved, padding increased from 8 to 12. No current exact errors are inspected before freezing this plan.",
+  "target_grid": {
+    "points": 33,
+    "x_max": 1.0,
+    "x_min": -1.0
+  },
+  "wall_seconds": 60.0
+}

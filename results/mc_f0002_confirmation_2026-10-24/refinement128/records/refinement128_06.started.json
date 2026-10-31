@@ -1,0 +1,63 @@
+{
+  "spec": {
+    "M": 1024,
+    "attempt_id": "refinement128_06",
+    "configs": [
+      {
+        "M": 1024,
+        "T": 63.625,
+        "chunk": 1024,
+        "dt": 0.03125,
+        "max_batch_paths": 4096,
+        "max_path_steps": 32000000,
+        "max_runtime_seconds": 20.0,
+        "max_steps": 8192,
+        "seed": 13339249915090099949,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      {
+        "M": 1024,
+        "T": 63.625,
+        "chunk": 1024,
+        "dt": 0.015625,
+        "max_batch_paths": 4096,
+        "max_path_steps": 32000000,
+        "max_runtime_seconds": 20.0,
+        "max_steps": 8192,
+        "seed": 13339249915090099949,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      {
+        "M": 1024,
+        "T": 63.625,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 4096,
+        "max_path_steps": 32000000,
+        "max_runtime_seconds": 20.0,
+        "max_steps": 8192,
+        "seed": 13339249915090099949,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      }
+    ],
+    "maximum_cost": {
+      "coefficient_calls": 57014,
+      "coefficient_values": 58382336,
+      "normal_values_generated_with_replay": 25018368,
+      "path_steps": 14594048,
+      "time_steps": [
+        2036,
+        4072,
+        8144
+      ],
+      "unique_finest_normal_values": 8339456
+    },
+    "repeat": 6,
+    "seed": 13339249915090099949,
+    "stage": "refinement128"
+  },
+  "started_utc": "2026-10-24T20:59:24.148341+00:00"
+}

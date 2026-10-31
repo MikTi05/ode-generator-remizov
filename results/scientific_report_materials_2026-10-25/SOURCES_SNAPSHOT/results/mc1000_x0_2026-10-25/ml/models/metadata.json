@@ -1,0 +1,23 @@
+{
+  "schema": "quality_profiles_x0_v1",
+  "classification": {
+    "mc_single_seed_accuracy": "catboost",
+    "remizov_point_accuracy": "catboost"
+  },
+  "regression": {
+    "mc_aggregate_log_error": "catboost",
+    "remizov_point_log_error": "catboost"
+  },
+  "feature_schema": "../feature_schema.json",
+  "probability_scope": {
+    "remizov": "historical Chernov solve profile at x0",
+    "mc": "single Numba MC seed,M1024,h1/128,certified autoT tail1e-4"
+  },
+  "error_regression_scope": {
+    "remizov": "log10 absolute point error",
+    "mc": "log10 absolute point error of mean4x1024; different from single-seed classification"
+  },
+  "fastest_method_selection": false,
+  "comparative_model_trained": false,
+  "confidence_warning": "Probabilistic exploratory surrogate, not accuracy/reliability certificate; family holdout,4 observed seeds"
+}

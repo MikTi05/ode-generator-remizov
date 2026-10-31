@@ -1,0 +1,104 @@
+{
+  "builder_ast_has_no_solve_fit": true,
+  "changed": [],
+  "figures": [
+    {
+      "dpi": 399.9992,
+      "pdf": "01_solution_and_error.pdf",
+      "pdf_bytes": 18576,
+      "pixels": [
+        2926,
+        1206
+      ],
+      "png": "01_solution_and_error.png",
+      "visually_verified": true
+    },
+    {
+      "dpi": 399.9992,
+      "pdf": "02_grid33_error_distributions.pdf",
+      "pdf_bytes": 19809,
+      "pixels": [
+        2926,
+        1206
+      ],
+      "png": "02_grid33_error_distributions.png",
+      "visually_verified": true
+    },
+    {
+      "dpi": 399.9992,
+      "pdf": "03_accuracy_and_cost.pdf",
+      "pdf_bytes": 23924,
+      "pixels": [
+        2926,
+        1206
+      ],
+      "png": "03_accuracy_and_cost.png",
+      "visually_verified": true
+    },
+    {
+      "dpi": 399.9992,
+      "pdf": "04_ml_roc.pdf",
+      "pdf_bytes": 15171,
+      "pixels": [
+        2926,
+        1206
+      ],
+      "png": "04_ml_roc.png",
+      "visually_verified": true
+    }
+  ],
+  "figures_pdf": 4,
+  "figures_png": 4,
+  "formula_display_delimiters_balanced": true,
+  "formula_examples": [
+    {
+      "bump_log_derivatives_symbolically_verified": true,
+      "equation_id": "AMV1_F0005_S02",
+      "expression_hash": "0b591002f6be3711d8856fa575d2b24a8ac359d536e370fae0cf678c4d3ff420",
+      "global_identity_basis": "algebraic substitution of exact stored AST parameters; finite checks are supplementary, not global certificates",
+      "max_abs_differences": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d2y": 1.5543122344752192e-15,
+        "dy": 2.220446049250313e-16,
+        "g": 2.6645352591003757e-15,
+        "y": 0.0
+      },
+      "points": 3078,
+      "topology_checked": true
+    },
+    {
+      "bump_log_derivatives_symbolically_verified": true,
+      "equation_id": "AMV1_F0047_S00",
+      "expression_hash": "bcdfe7422297c6c421647ad350b79c797a21ad63d0d6795ba318a57fb0a3c24f",
+      "global_identity_basis": "algebraic substitution of exact stored AST parameters; finite checks are supplementary, not global certificates",
+      "max_abs_differences": {
+        "a": 2.220446049250313e-16,
+        "b": 4.440892098500626e-16,
+        "c": 8.881784197001252e-16,
+        "d2y": 1.5543122344752192e-15,
+        "dy": 3.3306690738754696e-16,
+        "g": 2.6645352591003757e-15,
+        "y": 0.0
+      },
+      "points": 3078,
+      "topology_checked": true
+    }
+  ],
+  "known_secondary_summary_error": "closure speedup21.93 unsupported; primary maximum8.30727197567654 used",
+  "main_tables": 2,
+  "new_mc_runs": 0,
+  "new_model_fits": 0,
+  "new_ode_solves": 0,
+  "pdf_renderer": "macOS sips; all four rendered and visually inspected",
+  "protected_paths": 17085,
+  "raw_labels_independently_checked": {
+    "MC": 4000,
+    "remizov": 997
+  },
+  "source_copies_checked": 86,
+  "source_copy_hashes_verified": true,
+  "status_after_sha256": "99127ed6afe3e396b9a028e3c3cecb81e0ae750dac14cd9cb6b8b8b4e3368123",
+  "validation_scope": "Analytic function evaluation/AST checks, saved-result arithmetic and artifact checks only; no new numerical solves or model fitting"
+}

@@ -1,0 +1,68 @@
+{
+  "includes_partial_failure_counters": true,
+  "level_runtime_seconds": 11.513189542572945,
+  "max_rss_mib": 79.71875,
+  "no_solver_called": true,
+  "normal_values_generated_with_replay": 33357824,
+  "source_baseline": {
+    "M": 2048,
+    "ci95_half": 0.01677718783864319,
+    "mean": -0.33209107220789036,
+    "pooled_with_new": false,
+    "repeats": 8,
+    "signed_error": 0.05503101013515266,
+    "source": "results/mc_convergence_2026-10-24/aggregates.json"
+  },
+  "statuses": [
+    {
+      "attempt_id": "pilot_00",
+      "status": "success"
+    },
+    {
+      "attempt_id": "pilot_01",
+      "status": "success"
+    },
+    {
+      "attempt_id": "pilot_02",
+      "status": "success"
+    },
+    {
+      "attempt_id": "pilot_03",
+      "status": "success"
+    },
+    {
+      "attempt_id": "confirmation_00",
+      "status": "not_run"
+    },
+    {
+      "attempt_id": "confirmation_01",
+      "status": "not_run"
+    },
+    {
+      "attempt_id": "confirmation_02",
+      "status": "not_run"
+    },
+    {
+      "attempt_id": "confirmation_03",
+      "status": "not_run"
+    },
+    {
+      "attempt_id": "confirmation_04",
+      "status": "not_run"
+    },
+    {
+      "attempt_id": "confirmation_05",
+      "status": "not_run"
+    },
+    {
+      "attempt_id": "confirmation_06",
+      "status": "not_run"
+    },
+    {
+      "attempt_id": "confirmation_07",
+      "status": "not_run"
+    }
+  ],
+  "successful_coupled_attempts": 4,
+  "total_path_steps": 25018368
+}

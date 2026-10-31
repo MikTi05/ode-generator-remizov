@@ -1,0 +1,78 @@
+{
+  "summary": {
+    "equations": 5,
+    "terminal": 25,
+    "planned": 25,
+    "pending": 0,
+    "statuses": {
+      "completed": 25
+    },
+    "R128_pass": 2,
+    "R256_pass": 5,
+    "R_improved": 5,
+    "MC_fresh_successes": 5,
+    "MC_fresh_completed": 20,
+    "MC_only_observed_trials": 0,
+    "MC_p95_confirmed": 0,
+    "MC_faster_observed_success_trials": 5,
+    "active_session_seconds": 628.0306349580642,
+    "calendar_seconds": 627.9923579692841,
+    "solver_seconds": 622.8134933768306,
+    "R_solver_seconds": 117.78475867002271,
+    "MC_solver_seconds": 505.0287347068079,
+    "peak_rss_mib": 281.90625,
+    "guardian_interruptions": [],
+    "targeted_train_subset": true,
+    "time_discretization_bound": null,
+    "ML_training_runs": 0,
+    "additional900_run": false,
+    "source_and_metric_checks": 25
+  },
+  "table": [
+    {
+      "ID": "F0047_S00",
+      "R128": "0.00188261",
+      "R256": "0.000943851",
+      "MC_success": "2/4",
+      "MC_E_range": "0.0074732\u20130.0110201",
+      "R256_s": "22.55",
+      "MC_all_s": "33.74"
+    },
+    {
+      "ID": "F0005_S02",
+      "R128": "0.000379017",
+      "R256": "0.000191493",
+      "MC_success": "3/4",
+      "MC_E_range": "0.00753545\u20130.0114711",
+      "R256_s": "23.18",
+      "MC_all_s": "54.39"
+    },
+    {
+      "ID": "F0042_S00",
+      "R128": "0.0136623",
+      "R256": "0.0071163",
+      "MC_success": "0/4",
+      "MC_E_range": "0.0183232\u20130.0256965",
+      "R256_s": "23.94",
+      "MC_all_s": "71.61"
+    },
+    {
+      "ID": "F0059_S04",
+      "R128": "0.0133103",
+      "R256": "0.00532767",
+      "MC_success": "0/4",
+      "MC_E_range": "0.0227808\u20130.035563",
+      "R256_s": "23.83",
+      "MC_all_s": "51.38"
+    },
+    {
+      "ID": "F0125_S04",
+      "R128": "0.018706",
+      "R256": "0.00917467",
+      "MC_success": "0/4",
+      "MC_E_range": "0.0615813\u20130.068697",
+      "R256_s": "24.28",
+      "MC_all_s": "293.92"
+    }
+  ]
+}

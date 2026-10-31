@@ -1,0 +1,33 @@
+{
+  "pilot40_train_families": true,
+  "all20_cells": true,
+  "mandatory_stress_ids": true,
+  "config_validation_passed": 518,
+  "conditional_branches_valid": 3,
+  "maximum_active_calls": 238,
+  "maximum_active_MC_calls": 200,
+  "new_R_calls": 38,
+  "CP_minimum_repetitions_verified": [
+    59,
+    194,
+    207
+  ],
+  "pilot_final_seeds_disjoint": true,
+  "independent_pilot_seed_base_count": 24,
+  "final_seed_base_count": 12,
+  "benchmark_rows_valid": 1000,
+  "generated_files_byte_identical": [
+    "plan.json",
+    "pilot_manifest.csv",
+    "pilot_jobs.jsonl",
+    "benchmark_requirements.csv",
+    "cost_forecast.csv",
+    "benchmark_cost_scenarios.csv",
+    "planning_checks.json",
+    "sources_sha256.json"
+  ],
+  "planner_has_no_solver_fit_calls": true,
+  "new_solver_calls": 0,
+  "new_mc_paths": 0,
+  "new_model_fits": 0
+}

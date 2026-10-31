@@ -1,0 +1,98 @@
+{
+  "per_equation": [
+    {
+      "equation_id": "AMV1_F0047_S00",
+      "error_median_MC0": 0.014865055683266667,
+      "error_median_MC1": 0.008805992905916007,
+      "error_median_MC2": 0.007666734555625686,
+      "error_improvement_M4": 1.688061283047376,
+      "error_improvement_half_h": 1.1485975994113893,
+      "max_stderr_reduction_M4": 2.021419299540609,
+      "half_h_improved_median_error": true,
+      "time_factor_M4": 4.011899860286166,
+      "time_factor_half_h": 1.9957229423307559
+    },
+    {
+      "equation_id": "AMV1_F0005_S02",
+      "error_median_MC0": 0.018939503634264387,
+      "error_median_MC1": 0.00882039003024554,
+      "error_median_MC2": 0.01101379178396271,
+      "error_improvement_M4": 2.1472410595585822,
+      "error_improvement_half_h": 0.8008495351336673,
+      "max_stderr_reduction_M4": 2.0162618651585134,
+      "half_h_improved_median_error": false,
+      "time_factor_M4": 4.000035799395487,
+      "time_factor_half_h": 1.993209538678899
+    },
+    {
+      "equation_id": "AMV1_F0042_S00",
+      "error_median_MC0": 0.03813764054929364,
+      "error_median_MC1": 0.022170776271909665,
+      "error_median_MC2": 0.01933787776262516,
+      "error_improvement_M4": 1.720176149069438,
+      "error_improvement_half_h": 1.1464947986567442,
+      "max_stderr_reduction_M4": 1.9933356801172315,
+      "half_h_improved_median_error": true,
+      "time_factor_M4": 3.969769774413815,
+      "time_factor_half_h": 2.0063829707569867
+    },
+    {
+      "equation_id": "AMV1_F0059_S04",
+      "error_median_MC0": 0.05799027525233519,
+      "error_median_MC1": 0.027701731106064525,
+      "error_median_MC2": 0.028101799879424405,
+      "error_improvement_M4": 2.0933809165319572,
+      "error_improvement_half_h": 0.985763588984462,
+      "max_stderr_reduction_M4": 2.028990694836828,
+      "half_h_improved_median_error": false,
+      "time_factor_M4": 3.9927544414332474,
+      "time_factor_half_h": 1.9981202153994968
+    },
+    {
+      "equation_id": "AMV1_F0125_S04",
+      "error_median_MC0": 0.09797401125754279,
+      "error_median_MC1": 0.06628462318982559,
+      "error_median_MC2": 0.06002566956311747,
+      "error_improvement_M4": 1.4780805342585306,
+      "error_improvement_half_h": 1.104271283806785,
+      "max_stderr_reduction_M4": 1.9950641395859274,
+      "half_h_improved_median_error": true,
+      "time_factor_M4": 4.002025797420912,
+      "time_factor_half_h": 1.9967983820008326
+    }
+  ],
+  "M4_median_error_improved_tasks": 5,
+  "half_h_median_error_improved_tasks": 3,
+  "max_stderr_reduction_M4_range": [
+    1.9933356801172315,
+    2.028990694836828
+  ],
+  "per_equation_timing_MAD_median_ratio_max": 0.008134462300679672,
+  "diagnostic_mean4": {
+    "MC0": {
+      "AMV1_F0047_S00": 0.007716855502146985,
+      "AMV1_F0005_S02": 0.008297245882291304,
+      "AMV1_F0042_S00": 0.024722673358512415,
+      "AMV1_F0059_S04": 0.03685932379902712,
+      "AMV1_F0125_S04": 0.08004300740703385
+    },
+    "MC1": {
+      "AMV1_F0047_S00": 0.004011387648979348,
+      "AMV1_F0005_S02": 0.004820161019330693,
+      "AMV1_F0042_S00": 0.01289123732060804,
+      "AMV1_F0059_S04": 0.013208444451848933,
+      "AMV1_F0125_S04": 0.04950021099672686
+    },
+    "MC2": {
+      "AMV1_F0047_S00": 0.0029425612527306244,
+      "AMV1_F0005_S02": 0.00315660897258635,
+      "AMV1_F0042_S00": 0.01672897213201685,
+      "AMV1_F0059_S04": 0.008685196051211777,
+      "AMV1_F0125_S04": 0.03525846315948766
+    }
+  },
+  "paths_updates_sum": 16602550272,
+  "thermal_state_counts": {
+    "0": 160
+  }
+}

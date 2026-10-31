@@ -1,0 +1,171 @@
+{
+  "attempts": [
+    {
+      "config": {
+        "dx_initial": 0.05,
+        "max_quadrature_refinements": 7,
+        "max_spatial_refinements": 4,
+        "max_work_grid_points": 200000,
+        "n": 8,
+        "nt_initial": 8,
+        "quadrature_atol": 1e-07,
+        "quadrature_rtol": 0.0001,
+        "spatial_atol": 1e-07,
+        "spatial_rtol": 0.0001,
+        "tail_eps": 1e-08
+      },
+      "method": "remizov",
+      "problem_id": "R1"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "solve",
+      "problem_id": "R1"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "streaming",
+      "problem_id": "R1"
+    },
+    {
+      "config": {
+        "dx_initial": 0.05,
+        "max_quadrature_refinements": 7,
+        "max_spatial_refinements": 4,
+        "max_work_grid_points": 200000,
+        "n": 8,
+        "nt_initial": 8,
+        "quadrature_atol": 1e-07,
+        "quadrature_rtol": 0.0001,
+        "spatial_atol": 1e-07,
+        "spatial_rtol": 0.0001,
+        "tail_eps": 1e-08
+      },
+      "method": "remizov",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx_initial": 0.05,
+        "max_quadrature_refinements": 7,
+        "max_spatial_refinements": 4,
+        "max_work_grid_points": 200000,
+        "n": 8,
+        "nt_initial": 8,
+        "quadrature_atol": 1e-07,
+        "quadrature_rtol": 0.0001,
+        "spatial_atol": 1e-07,
+        "spatial_rtol": 0.0001,
+        "tail_eps": 1e-08
+      },
+      "method": "remizov",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx_initial": 0.05,
+        "max_quadrature_refinements": 7,
+        "max_spatial_refinements": 4,
+        "max_work_grid_points": 200000,
+        "n": 8,
+        "nt_initial": 8,
+        "quadrature_atol": 1e-07,
+        "quadrature_rtol": 0.0001,
+        "spatial_atol": 1e-07,
+        "spatial_rtol": 0.0001,
+        "tail_eps": 1e-08
+      },
+      "method": "remizov",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "solve",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "method": "streaming",
+      "problem_id": "AMV1_F0007_S00"
+    }
+  ],
+  "purpose": "Pilot: same n fixed-n equivalence, feasibility and exact errors; no claim of speed at matched accuracy yet",
+  "rss_limit_mib": 1024,
+  "wall_seconds": 120
+}

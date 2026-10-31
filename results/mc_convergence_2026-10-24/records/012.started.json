@@ -1,0 +1,40 @@
+{
+  "spec": {
+    "attempt_id": "012",
+    "config": {
+      "M": 512,
+      "T": 8.0,
+      "chunk": 8192,
+      "dt": 0.03125,
+      "max_batch_paths": 8192,
+      "max_path_steps": 5000000,
+      "max_runtime_seconds": 10.0,
+      "max_steps": 4096,
+      "seed": 549412950611867417,
+      "stream_id": 0,
+      "tail_eps": 0.0001
+    },
+    "configuration_id": "1_0",
+    "preflight": {
+      "actual_dt": 0.03125,
+      "coefficient_calls": 1026,
+      "normal_draws": 131072,
+      "path_steps": 131072,
+      "time_steps": 256
+    },
+    "problem_id": "MC_gaussian",
+    "repeat": 5,
+    "tail_bound": 2.2507034943851823e-07,
+    "tail_tolerance_met": true,
+    "target_x": [
+      0.0
+    ],
+    "views": [
+      {
+        "factor": "M",
+        "level": 512
+      }
+    ]
+  },
+  "started_utc": "2026-10-24T19:37:27.288153+00:00"
+}

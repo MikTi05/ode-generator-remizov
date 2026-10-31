@@ -1,0 +1,49 @@
+{
+  "spec": {
+    "M": 1024,
+    "attempt_id": "control_00",
+    "configs": [
+      {
+        "M": 1024,
+        "T": 63.625,
+        "chunk": 1024,
+        "dt": 0.03125,
+        "max_batch_paths": 4096,
+        "max_path_steps": 32000000,
+        "max_runtime_seconds": 20.0,
+        "max_steps": 8192,
+        "seed": 16624100767786445845,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      {
+        "M": 1024,
+        "T": 63.625,
+        "chunk": 1024,
+        "dt": 0.015625,
+        "max_batch_paths": 4096,
+        "max_path_steps": 32000000,
+        "max_runtime_seconds": 20.0,
+        "max_steps": 8192,
+        "seed": 16624100767786445845,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      }
+    ],
+    "maximum_cost": {
+      "coefficient_calls": 24436,
+      "coefficient_values": 25022464,
+      "normal_values_generated_with_replay": 8339456,
+      "path_steps": 6254592,
+      "time_steps": [
+        2036,
+        4072
+      ],
+      "unique_finest_normal_values": 4169728
+    },
+    "repeat": 0,
+    "seed": 16624100767786445845,
+    "stage": "control"
+  },
+  "started_utc": "2026-10-24T20:58:20.257453+00:00"
+}

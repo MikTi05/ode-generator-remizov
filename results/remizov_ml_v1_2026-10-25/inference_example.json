@@ -1,0 +1,15 @@
+[
+  {
+    "equation_id": "AMV1_F0000_S00",
+    "p_accuracy_met": 0.979395043314943,
+    "predicted_accuracy_met": true,
+    "predicted_solver_seconds": 17.566184625029564,
+    "planned_external_workers": 8,
+    "classifier": "classifier_catboost",
+    "regressor": "regressor_dummy_context",
+    "classification_scope": "Accuracy conditional on a finite completed solve; worker exceptions are unlabeled",
+    "profile": "ChernovSolver.solve n128/Q513/dx.0125/padding12/cubic_taper/tail_eps1e-8/grid33",
+    "prediction_is_not_accuracy_certificate": true,
+    "runtime_context_warning": "Historical wall time mixes planned external concurrency 8/1; not isolated CPU cost or a counterfactual single-worker timing."
+  }
+]

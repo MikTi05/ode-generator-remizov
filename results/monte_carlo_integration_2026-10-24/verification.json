@@ -1,0 +1,103 @@
+{
+  "current_source_sha256": {
+    "diagnostics/compare_chernov.py": "563f18bec704cfcaa11099587c064564d1dbebb287160430a1ab0b733658c03d",
+    "examples/solve_mc_equation.py": "881f5c647388dc36bce44e8b076117c4ce78104b79982e2a19981472ac82bb7e",
+    "mc_solver.py": "53cd984bfd58decbaa44f865ad396a17f1583d6198fc73e6be100690c7a2847b",
+    "tests/test_all_methods_mc_pipeline.py": "5e3ee96c72634f861546aed8c241e05cfc3a5e64ca2acdfae16799f43c8c0f3d",
+    "tests/test_mc_solver.py": "5669b6f4d70f3cbfaa3c27a6f5c6f3597ded0b7d5fee850a4abf5c82da6faa20"
+  },
+  "experiment_source_snapshots": {
+    "diagnostics/compare_chernov.py": true,
+    "mc_solver.py": true
+  },
+  "mathematical_core": {
+    "remizov_solver.py": true,
+    "src/all_methods_dataset_v1.py": true,
+    "src/all_methods_expressions.py": true
+  },
+  "old_files": 4495,
+  "original_materials": {
+    "README.md": true,
+    "example.ipynb": true,
+    "mc_solver.py": true
+  },
+  "permitted_changes": [
+    "PROJECT_STATUS.md",
+    "README.md",
+    "diagnostics/compare_chernov.py"
+  ],
+  "recalculated_rows": [
+    {
+      "E": 1.5621812642696575e-05,
+      "T": 6.561181688702165,
+      "dt": 0.009986577912788683,
+      "max_stderr": 0.0,
+      "observed_target_met": true,
+      "problem_id": "MC_constant",
+      "rss": 68.765625,
+      "seconds": 0.6829410828649998,
+      "status": "success",
+      "tail": 9.999999999999987e-07,
+      "threshold": 2e-05
+    },
+    {
+      "E": 0.007009460636153264,
+      "T": 6.103036322765088,
+      "dt": 0.009988602819582795,
+      "max_stderr": 0.005197339902204795,
+      "observed_target_met": true,
+      "problem_id": "MC_gaussian",
+      "rss": 72.921875,
+      "seconds": 3.6809569159522653,
+      "status": "success",
+      "tail": 9.99999999999998e-06,
+      "threshold": 0.03
+    },
+    {
+      "E": 0.03799808402750332,
+      "T": 4.0,
+      "dt": 0.02,
+      "max_stderr": 0.012003151663783147,
+      "observed_target_met": null,
+      "problem_id": "AMV1_F0000_S00",
+      "rss": 81.8125,
+      "seconds": 1.8147758750710636,
+      "status": "success",
+      "tail": null,
+      "threshold": null
+    },
+    {
+      "E": 0.021957979567230057,
+      "T": 4.0,
+      "dt": 0.02,
+      "max_stderr": 0.018127370965157305,
+      "observed_target_met": null,
+      "problem_id": "AMV1_F0001_S00",
+      "rss": 80.015625,
+      "seconds": 4.170362832956016,
+      "status": "success",
+      "tail": null,
+      "threshold": null
+    },
+    {
+      "E": 0.05750379201440947,
+      "T": 4.0,
+      "dt": 0.02,
+      "max_stderr": 0.01799500849447436,
+      "observed_target_met": null,
+      "problem_id": "AMV1_F0002_S00",
+      "rss": 81.75,
+      "seconds": 4.68761175009422,
+      "status": "success",
+      "tail": null,
+      "threshold": null
+    }
+  ],
+  "recoverable_previous_versions": {
+    "PROJECT_STATUS.md": true,
+    "README.md": true,
+    "diagnostics/compare_chernov.py": true
+  },
+  "unchanged_old_files": 4492,
+  "unexpected_changes": []
+}

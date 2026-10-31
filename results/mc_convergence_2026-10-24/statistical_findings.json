@@ -1,0 +1,95 @@
+{
+  "M_scaling": [
+    {
+      "empirical_sd_ratio": 4.987526271763577,
+      "expected_ratio": 4.0,
+      "halfwidth_ratio": 3.9830178207277815,
+      "holm_pvalue": 0.0008362046909284348,
+      "holm_significant_005": true,
+      "problem_id": "MC_gaussian",
+      "pvalue": 0.00039168835544687555,
+      "pvalue_for_variance_ratio_16": 0.5746720003850124,
+      "sd_ratio_ci95": [
+        2.231625917835897,
+        11.14676887049898
+      ]
+    },
+    {
+      "empirical_sd_ratio": 8.404625696383455,
+      "expected_ratio": 4.0,
+      "halfwidth_ratio": 3.991134813614547,
+      "holm_pvalue": 4.659703665400254e-05,
+      "holm_significant_005": true,
+      "problem_id": "AMV1_F0000_S00",
+      "pvalue": 1.1649259163500635e-05,
+      "pvalue_for_variance_ratio_16": 0.06861620082250636,
+      "sd_ratio_ci95": [
+        3.760577791829219,
+        18.78374468141224
+      ]
+    },
+    {
+      "empirical_sd_ratio": 5.251318007001837,
+      "expected_ratio": 4.0,
+      "halfwidth_ratio": 3.9761376954212153,
+      "holm_pvalue": 0.0008362046909284348,
+      "holm_significant_005": true,
+      "problem_id": "AMV1_F0001_S00",
+      "pvalue": 0.00027873489697614494,
+      "pvalue_for_variance_ratio_16": 0.4896347372590682,
+      "sd_ratio_ci95": [
+        2.349657270693402,
+        11.73632476302544
+      ]
+    },
+    {
+      "empirical_sd_ratio": 2.653125801042466,
+      "expected_ratio": 4.0,
+      "halfwidth_ratio": 4.011572942286343,
+      "holm_pvalue": 0.019630337185651367,
+      "holm_significant_005": true,
+      "problem_id": "AMV1_F0002_S00",
+      "pvalue": 0.019630337185651367,
+      "pvalue_for_variance_ratio_16": 0.3008608099878156,
+      "sd_ratio_ci95": [
+        1.187118418684924,
+        5.929548733609098
+      ]
+    }
+  ],
+  "analytic_time_orders": [
+    {
+      "biases_coarse_to_fine": [
+        0.002601457730719292,
+        0.0006508721143689833,
+        0.0001627498029557195
+      ],
+      "log2_bias_ratios": [
+        1.9988742555777024,
+        1.9997183087708639
+      ],
+      "problem_id": "MC_constant"
+    },
+    {
+      "biases_coarse_to_fine": [
+        0.030344968932882632,
+        0.007750869558867168,
+        0.0019491755710897563
+      ],
+      "log2_bias_ratios": [
+        1.969027265136538,
+        1.9914941268021293
+      ],
+      "problem_id": "MC_gaussian"
+    }
+  ],
+  "dataset_order": {
+    "caveat": "Shared-middle covariance accounted for through gradient. Only three coarse levels, Gaussian delta approximation; asymptotic order is not established.",
+    "delta_method_approx_ci95": [
+      0.6634990763248367,
+      1.3789273146071885
+    ],
+    "p": 1.0212131954660126,
+    "problem_id": "AMV1_F0002_S00"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "MC_calls": 0,
+  "R_calls": 0,
+  "benchmark1000_calls": 0,
+  "blocked_two_accurate": [
+    "AMV1_F0047_S00"
+  ],
+  "diagnostic_status": "diagnostic_only",
+  "feature_extraction_seconds": 0.459485042,
+  "features": 253,
+  "independent_saved_record_checks": 260,
+  "invalid_evidence": 0,
+  "known_labels_all_original_train": true,
+  "label_reasons": {
+    "both_episode0_inaccurate": 14,
+    "sole_episode0_accurate": 22,
+    "timing_unknown": 1,
+    "unknown_numerical_evidence": 963
+  },
+  "numerical_calls": 0,
+  "original_families": {
+    "test": 30,
+    "train": 140,
+    "validation": 30
+  },
+  "pipeline_wall_seconds": 9.23718420881778,
+  "rows": 1000,
+  "selector_status": "insufficient_evidence",
+  "support": {
+    "test": {
+      "counts": {
+        "monte_carlo": 0,
+        "none": 0,
+        "remizov": 0,
+        "unknown": 150
+      },
+      "families": {
+        "monte_carlo": 0,
+        "none": 0,
+        "remizov": 0,
+        "unknown": 30
+      },
+      "known": 0,
+      "total": 150
+    },
+    "train": {
+      "counts": {
+        "monte_carlo": 0,
+        "none": 14,
+        "remizov": 22,
+        "unknown": 664
+      },
+      "families": {
+        "monte_carlo": 0,
+        "none": 14,
+        "remizov": 22,
+        "unknown": 140
+      },
+      "known": 36,
+      "total": 700
+    },
+    "validation": {
+      "counts": {
+        "monte_carlo": 0,
+        "none": 0,
+        "remizov": 0,
+        "unknown": 150
+      },
+      "families": {
+        "monte_carlo": 0,
+        "none": 0,
+        "remizov": 0,
+        "unknown": 30
+      },
+      "known": 0,
+      "total": 150
+    }
+  }
+}

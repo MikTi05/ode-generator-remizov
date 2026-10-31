@@ -1,0 +1,58 @@
+{
+  "attempts": [
+    {
+      "config": {
+        "dx_initial": 0.05,
+        "max_quadrature_refinements": 7,
+        "max_spatial_refinements": 4,
+        "max_work_grid_points": 200000,
+        "n": 32,
+        "nt_initial": 8,
+        "quadrature_atol": 1e-06,
+        "quadrature_rtol": 0.001,
+        "spatial_atol": 1e-06,
+        "spatial_rtol": 0.001,
+        "tail_eps": 1e-08
+      },
+      "method": "remizov",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx_initial": 0.05,
+        "max_quadrature_refinements": 7,
+        "max_spatial_refinements": 4,
+        "max_work_grid_points": 200000,
+        "n": 64,
+        "nt_initial": 8,
+        "quadrature_atol": 1e-06,
+        "quadrature_rtol": 0.001,
+        "spatial_atol": 1e-06,
+        "spatial_rtol": 0.001,
+        "tail_eps": 1e-08
+      },
+      "method": "remizov",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx_initial": 0.05,
+        "max_quadrature_refinements": 7,
+        "max_spatial_refinements": 4,
+        "max_work_grid_points": 200000,
+        "n": 32,
+        "nt_initial": 8,
+        "quadrature_atol": 1e-06,
+        "quadrature_rtol": 0.001,
+        "spatial_atol": 1e-06,
+        "spatial_rtol": 0.001,
+        "tail_eps": 1e-08
+      },
+      "method": "remizov",
+      "problem_id": "AMV1_F0007_S00"
+    }
+  ],
+  "purpose": "Baseline accuracy pilot at the selected fixed-n levels; internal rtol=1e-3 is 10x below the common E_inf goal 1e-2, numerical controls will be checked separately",
+  "rss_limit_mib": 1024,
+  "wall_seconds": 240
+}

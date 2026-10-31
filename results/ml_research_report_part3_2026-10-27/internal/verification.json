@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "checks": {
+    "protected_sources_unchanged": true,
+    "primary_metrics_recomputed_from_60_saved_cases": true,
+    "MC20_and_23_of_57_selection_limits_confirmed": true,
+    "piecewise_rule_matches_all_60_frozen_decisions": true,
+    "scientific_text_has_no_internal_ids_and_all_references_resolve": true,
+    "all_seven_equations_retain_numeric_parameters_and_full_definitions": true,
+    "all_34_prepared_figures_used_once_including_4_main_figures": true,
+    "compiled_A4_pdf_main_8_pages_no_TeX_warnings": true,
+    "no_solver_training_or_model_inference_calls": true
+  },
+  "protected_files": 1584,
+  "main_pages": 8,
+  "total_pages": 48,
+  "primary": {
+    "constant_R128": {
+      "accurate": 53,
+      "seconds": 706.4071258750004
+    },
+    "constant_R256": {
+      "accurate": 57,
+      "seconds": 1411.006868253
+    },
+    "selector": {
+      "accurate": 57,
+      "seconds": 1164.2702157140002
+    }
+  },
+  "saving_fraction": 0.174865663725996,
+  "solver_calls": 0,
+  "new_training": 0,
+  "new_model_inference": 0,
+  "visual_qa": "All pages rendered; contact sheets and representative full-size pages inspected.",
+  "formulas": "Inherited independent analytic verification: 7 examples × 515 points, max discrepancy 8.53e-14; no new ODE solutions."
+}

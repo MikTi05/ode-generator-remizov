@@ -1,0 +1,223 @@
+{
+  "after_sha256": {
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "comparison_inputs/Chern.py": "2f56b407c78ed5b79a3c7253587e806b8200e916c051415e7c6bd6ef94b39d52",
+    "comparison_inputs/README.md": "6cbe76f2fca432ce90935bf9729eb72f5998a1b1a6a78ce35665d39ee9ace334",
+    "comparison_inputs/example.ipynb": "0a403607b31455ca7f23cd8820eab9f703694b48492e468df2846c466b7199c8",
+    "comparison_inputs/provenance.json": "095c87030f7c9c230cb1a8a1dd8cdf2f28e8bdd2328bec60831608235a06b3c6",
+    "data/generated/all_methods_equations_v1.csv": "ba498e3ee7432fa983a07d994b55b6e359c41fcb5353f20ab6c368b7bb76cd8b",
+    "data/generated/all_methods_equations_v1_metadata.jsonl": "cef44a1950345a72cc36e7b023ad6e147c16527d3d12501c5be66f5e1afb5e16",
+    "data/generated/all_methods_equations_v1_ml.npz": "1ce7d9e930138af7743bde726ba1cb68a2ef422dec406f8b901a16da10277d5a",
+    "data/generated/all_methods_equations_v1_report.json": "8fbe370a582edb6535c6f25ee903cc03fc4e7bb19bf941b7b267f5a72f40f669",
+    "data/remizov_benchmark.csv": "3a82de02fb6367706def5f3ec5e0658be11f638d6897f5da992ff799bccaee36",
+    "diagnostics/compare_chernov.py": "ca1bd751333f3c32c2c68b7c1a623af0c27d6bf86c4ecad4b2fbbd0f40cbf484",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "before_sha256": {
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "comparison_inputs/Chern.py": "2f56b407c78ed5b79a3c7253587e806b8200e916c051415e7c6bd6ef94b39d52",
+    "comparison_inputs/example.ipynb": "0a403607b31455ca7f23cd8820eab9f703694b48492e468df2846c466b7199c8",
+    "comparison_inputs/provenance.json": "095c87030f7c9c230cb1a8a1dd8cdf2f28e8bdd2328bec60831608235a06b3c6",
+    "data/generated/all_methods_equations_v1.csv": "ba498e3ee7432fa983a07d994b55b6e359c41fcb5353f20ab6c368b7bb76cd8b",
+    "data/generated/all_methods_equations_v1_metadata.jsonl": "cef44a1950345a72cc36e7b023ad6e147c16527d3d12501c5be66f5e1afb5e16",
+    "data/generated/all_methods_equations_v1_ml.npz": "1ce7d9e930138af7743bde726ba1cb68a2ef422dec406f8b901a16da10277d5a",
+    "data/generated/all_methods_equations_v1_report.json": "8fbe370a582edb6535c6f25ee903cc03fc4e7bb19bf941b7b267f5a72f40f669",
+    "data/remizov_benchmark.csv": "3a82de02fb6367706def5f3ec5e0658be11f638d6897f5da992ff799bccaee36",
+    "diagnostics/compare_chernov.py": "ca1bd751333f3c32c2c68b7c1a623af0c27d6bf86c4ecad4b2fbbd0f40cbf484",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "changed_or_removed": [],
+  "environment": {
+    "executable": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/bin/python",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "versions": {
+      "numpy": "2.2.6",
+      "pytest": "9.1.1",
+      "scipy": "1.15.3",
+      "sympy": "1.14.0"
+    }
+  },
+  "finished_utc": "2026-10-17T22:24:17.550852+00:00",
+  "plan": {
+    "attempts": [
+      {
+        "config": {
+          "dx_initial": 0.05,
+          "max_quadrature_refinements": 7,
+          "max_spatial_refinements": 4,
+          "max_work_grid_points": 200000,
+          "n": 32,
+          "nt_initial": 8,
+          "quadrature_atol": 1e-06,
+          "quadrature_rtol": 0.001,
+          "spatial_atol": 1e-06,
+          "spatial_rtol": 0.001,
+          "tail_eps": 1e-08
+        },
+        "method": "remizov",
+        "problem_id": "AMV1_F0005_S00"
+      },
+      {
+        "config": {
+          "dx_initial": 0.05,
+          "max_quadrature_refinements": 7,
+          "max_spatial_refinements": 4,
+          "max_work_grid_points": 200000,
+          "n": 64,
+          "nt_initial": 8,
+          "quadrature_atol": 1e-06,
+          "quadrature_rtol": 0.001,
+          "spatial_atol": 1e-06,
+          "spatial_rtol": 0.001,
+          "tail_eps": 1e-08
+        },
+        "method": "remizov",
+        "problem_id": "AMV1_F0006_S00"
+      },
+      {
+        "config": {
+          "dx_initial": 0.05,
+          "max_quadrature_refinements": 7,
+          "max_spatial_refinements": 4,
+          "max_work_grid_points": 200000,
+          "n": 32,
+          "nt_initial": 8,
+          "quadrature_atol": 1e-06,
+          "quadrature_rtol": 0.001,
+          "spatial_atol": 1e-06,
+          "spatial_rtol": 0.001,
+          "tail_eps": 1e-08
+        },
+        "method": "remizov",
+        "problem_id": "AMV1_F0007_S00"
+      }
+    ],
+    "purpose": "Baseline accuracy pilot at the selected fixed-n levels; internal rtol=1e-3 is 10x below the common E_inf goal 1e-2, numerical controls will be checked separately",
+    "rss_limit_mib": 1024,
+    "wall_seconds": 240
+  },
+  "preflight": [
+    {
+      "T": 25.256710982823332,
+      "finest_source_points_bound": 50037,
+      "max_node_evaluations": 10200,
+      "max_operator_applications": 326400,
+      "source_width_bound": 156.3604855414465,
+      "target_points": 33
+    },
+    {
+      "T": 15.006387621106363,
+      "finest_source_points_bound": 49076,
+      "max_node_evaluations": 10200,
+      "max_operator_applications": 652800,
+      "source_width_bound": 153.35664546654064,
+      "target_points": 33
+    },
+    {
+      "T": 12.493414362854814,
+      "finest_source_points_bound": 38529,
+      "max_node_evaluations": 10200,
+      "max_operator_applications": 326400,
+      "source_width_bound": 120.39989040598961,
+      "target_points": 33
+    }
+  ],
+  "runs": [
+    {
+      "max_abs_error": 0.0078100828842795345,
+      "observed_peak_rss_mib": 89.5625,
+      "relative_error": 0.01183483730220548,
+      "result_file": "000_AMV1_F0005_S00_remizov.result.json",
+      "returncode": 0,
+      "runtime_seconds": 5.51561712496914,
+      "spec": {
+        "config": {
+          "dx_initial": 0.05,
+          "max_quadrature_refinements": 7,
+          "max_spatial_refinements": 4,
+          "max_work_grid_points": 200000,
+          "n": 32,
+          "nt_initial": 8,
+          "quadrature_atol": 1e-06,
+          "quadrature_rtol": 0.001,
+          "spatial_atol": 1e-06,
+          "spatial_rtol": 0.001,
+          "tail_eps": 1e-08
+        },
+        "method": "remizov",
+        "problem_id": "AMV1_F0005_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 5.851439749938436
+    },
+    {
+      "max_abs_error": 0.005465957618738582,
+      "observed_peak_rss_mib": 91.734375,
+      "relative_error": 0.0036995366359088185,
+      "result_file": "001_AMV1_F0006_S00_remizov.result.json",
+      "returncode": 0,
+      "runtime_seconds": 10.453120207996108,
+      "spec": {
+        "config": {
+          "dx_initial": 0.05,
+          "max_quadrature_refinements": 7,
+          "max_spatial_refinements": 4,
+          "max_work_grid_points": 200000,
+          "n": 64,
+          "nt_initial": 8,
+          "quadrature_atol": 1e-06,
+          "quadrature_rtol": 0.001,
+          "spatial_atol": 1e-06,
+          "spatial_rtol": 0.001,
+          "tail_eps": 1e-08
+        },
+        "method": "remizov",
+        "problem_id": "AMV1_F0006_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 10.77681566704996
+    },
+    {
+      "max_abs_error": 0.0064627378667866525,
+      "observed_peak_rss_mib": 103.78125,
+      "relative_error": 0.005572942040665425,
+      "result_file": "002_AMV1_F0007_S00_remizov.result.json",
+      "returncode": 0,
+      "runtime_seconds": 38.004969457979314,
+      "spec": {
+        "config": {
+          "dx_initial": 0.05,
+          "max_quadrature_refinements": 7,
+          "max_spatial_refinements": 4,
+          "max_work_grid_points": 200000,
+          "n": 32,
+          "nt_initial": 8,
+          "quadrature_atol": 1e-06,
+          "quadrature_rtol": 0.001,
+          "spatial_atol": 1e-06,
+          "spatial_rtol": 0.001,
+          "tail_eps": 1e-08
+        },
+        "method": "remizov",
+        "problem_id": "AMV1_F0007_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 38.39411895792
+    }
+  ],
+  "started_utc": "2026-10-17T22:23:22.166154+00:00"
+}

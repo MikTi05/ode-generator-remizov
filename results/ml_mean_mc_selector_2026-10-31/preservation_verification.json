@@ -1,0 +1,31 @@
+{
+  "automatic_followup_experiments": false,
+  "before_files": 22513,
+  "changed_existing_files": [
+    "PROJECT_STATUS.md",
+    "README.md"
+  ],
+  "changed_existing_files_backed_up": true,
+  "copied_features_byte_identical": true,
+  "missing_files": [],
+  "model_fit_count": 1,
+  "new_run_artifact_hashes_verified": 31,
+  "new_source_files": [
+    "ml/mean_mc_evidence.py",
+    "ml/mean_mc_selector.py",
+    "diagnostics/train_mean_mc_selector.py",
+    "diagnostics/predict_mean_mc_selector.py",
+    "diagnostics/report_mean_mc_selector.py",
+    "diagnostics/verify_mean_mc_selector.py",
+    "tests/test_mean_mc_selector.py"
+  ],
+  "new_target": "abs(mean(four saved MC1024 estimates)-saved exact(0))",
+  "numerical_solver_calls": 0,
+  "previous_run_artifacts_unchanged": 32,
+  "retrospective_reanalysis": true,
+  "status": "passed",
+  "tests_log": "pytest.txt",
+  "tests_passed": 34,
+  "trajectory_generation_calls": 0,
+  "unchanged_files": 22511
+}

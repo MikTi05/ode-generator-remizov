@@ -1,0 +1,23 @@
+{
+  "approved": false,
+  "frozen_predictions_sha256": "79f3cebf10ecae6e952650c763a6695140a90634042a46d1c0f47eab2976d6c8",
+  "model_registry_sha256": "9854a71be60a42f88878da317e02947a9de857fb862e088096661449eb1684d9",
+  "next_step": "Explicit user budget approval; implement/test execution controller for these frozen jobs; recheck sources/resources; no retraining or policy tuning",
+  "plan_sha256": "b71b64e65be5f92d56ed8494779be01f296ae4ea931ad8392ee7be72bb9c2ca4",
+  "requested_budget": {
+    "MC1_calls": 32,
+    "R128_calls": 32,
+    "R256_calls": 32,
+    "maximum_initial_calls": 96,
+    "owner_lease_seconds": 300,
+    "rss_mib": 512,
+    "series_cap_seconds": 5691,
+    "thermal_stop_at": 2,
+    "threads": 1,
+    "workers": 1
+  },
+  "requested_by": "Current user explicitly requires stopping if budget not already approved",
+  "scenario_not_upper_bound": true,
+  "scenario_seconds": 2695.3537916497926,
+  "status": "budget_approval_required_no_numerical_execution"
+}

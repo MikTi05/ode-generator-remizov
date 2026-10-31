@@ -1,0 +1,31 @@
+{
+  "catboost": {
+    "bootstrap_type": "No",
+    "depth": 3,
+    "iterations": 200,
+    "l2_leaf_reg": 5.0,
+    "learning_rate": 0.05,
+    "loss_function": "MultiClass",
+    "random_seed": 2488,
+    "thread_count": 1
+  },
+  "created_utc": "2026-10-26T11:14:48.778432+00:00",
+  "diagnostic": "4-fold stratified family CV within known original train only; fixed200 trees, no model selection",
+  "full_gate": ">=20 MC-winner train families,>=5 validation MC-winner families; R class and validation labels required",
+  "historical_test_exposure": "Existing numerical audits inspected test historically; not a pristine prospective holdout",
+  "label_type": "observed_fastest_v1",
+  "no_benchmark1000": true,
+  "no_new_numerical_calls": true,
+  "no_synthetic_training_examples": true,
+  "pair": "R128_zero_commonT versus MC1_single4096_h128; fixed diagnostic pair, no R256 oracle-min",
+  "preprocessing": "StandardScaler fit on labeled train only; inside each diagnostic fold separately",
+  "primary_episode": 0,
+  "schema": "observed_selector_training_protocol_v1",
+  "seed": 2488,
+  "split": "original700/150/150, family140/30/30; no relabeling held-out splits",
+  "test": "evaluate once only after full model freeze; diagnostic never predicts/evaluates original validation/test",
+  "threshold": 0.01,
+  "uncertainty": "500 whole-family bootstrap draws of fixed OOF predictions; not prospective validation",
+  "unknown_excluded_from_fit": true,
+  "user_authorization": "Current request authorizes ML from saved evidence only; no numerical calls or benchmark1000"
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "E_MC": 0.08240083666033149,
+    "E_MC_median_seed_error": 0.06619391142286446,
+    "E_R": 842.0865810144144,
+    "E_selected": 842.0865810144144,
+    "best_method": "monte_carlo",
+    "diagnostic_features_used_for_selection_or_refit": false,
+    "equation_id": "AMV1_F0141_S00",
+    "expression_hash": "5bac471d30003aa5a39f82403a7c3004ccbe4fef49e3b5c20a05630103a84a1c",
+    "family_id": "F0141",
+    "features": [
+      {
+        "importance": 11.988529418665768,
+        "name": "b_rms",
+        "train_percentile": 94.11764705882352,
+        "value": 1.9307945969353806
+      },
+      {
+        "importance": 7.922068174063127,
+        "name": "cert_remizov_lambda",
+        "train_percentile": 86.22668579626973,
+        "value": 3.472884579195582
+      },
+      {
+        "importance": 7.656490199052659,
+        "name": "b_spectral_high_fraction",
+        "train_percentile": 97.13055954088952,
+        "value": 0.12076601492294238
+      },
+      {
+        "importance": 5.911182791936983,
+        "name": "a_d2_rms",
+        "train_percentile": 57.24533715925395,
+        "value": 0.5007835938779318
+      },
+      {
+        "importance": 5.7247573035369195,
+        "name": "b_sample_00",
+        "train_percentile": 1.291248206599713,
+        "value": -2.7671411330847366
+      },
+      {
+        "importance": 5.217001067949336,
+        "name": "pre_drift_length",
+        "train_percentile": 77.76183644189383,
+        "value": 59.92218877242001
+      },
+      {
+        "importance": 4.410707666091548,
+        "name": "cert_a_lower_cert",
+        "train_percentile": 1.721664275466284,
+        "value": 0.5513166730384147
+      },
+      {
+        "importance": 3.534928294974883,
+        "name": "a_sample_25",
+        "train_percentile": 47.77618364418939,
+        "value": 1.4851594513198378
+      },
+      {
+        "importance": 3.405518983689709,
+        "name": "b_sample_11",
+        "train_percentile": 9.75609756097561,
+        "value": -1.0837200549541628
+      },
+      {
+        "importance": 3.3841298272102067,
+        "name": "b_mean",
+        "train_percentile": 2.8694404591104736,
+        "value": -1.4755047435902282
+      }
+    ],
+    "mc_mean_f0": -0.9867649594965202,
+    "mc_seed_f0": [
+      -0.9951355321083935,
+      -1.0413959383172502,
+      -1.010808237359581,
+      -0.8997201302008566
+    ],
+    "p_monte_carlo": 0.39019342536013246,
+    "p_remizov": 0.6098065746398675,
+    "prediction_scope": "in-sample training recognition; not generalization",
+    "previous_p_monte_carlo": 0.6546989433606697,
+    "previous_selected_method": "monte_carlo",
+    "regret": 842.004180177754,
+    "remizov_f0": 841.0174152182575,
+    "risk_interpretation": "p_MC estimates lower aggregate error, not probability of catastrophic R error",
+    "selected_method": "remizov",
+    "selected_success": false,
+    "split": "train",
+    "y_exact0": -1.0691657961568517
+  },
+  {
+    "E_MC": 0.10308096210860278,
+    "E_MC_median_seed_error": 0.09951175050771142,
+    "E_R": 248.32307672784063,
+    "E_selected": 248.32307672784063,
+    "best_method": "monte_carlo",
+    "diagnostic_features_used_for_selection_or_refit": false,
+    "equation_id": "AMV1_F0180_S04",
+    "expression_hash": "f4c4e681897763e3853a8c452cc38f3e8db6d14624669533b47e7583d49ad1df",
+    "family_id": "F0180",
+    "features": [
+      {
+        "importance": 11.988529418665768,
+        "name": "b_rms",
+        "train_percentile": 84.50502152080345,
+        "value": 1.285478706650651
+      },
+      {
+        "importance": 7.922068174063127,
+        "name": "cert_remizov_lambda",
+        "train_percentile": 64.13199426111909,
+        "value": 2.4125425443182413
+      },
+      {
+        "importance": 7.656490199052659,
+        "name": "b_spectral_high_fraction",
+        "train_percentile": 52.79770444763271,
+        "value": 0.03466393067053613
+      },
+      {
+        "importance": 5.911182791936983,
+        "name": "a_d2_rms",
+        "train_percentile": 71.01865136298422,
+        "value": 1.2452856755419606
+      },
+      {
+        "importance": 5.7247573035369195,
+        "name": "b_sample_00",
+        "train_percentile": 9.612625538020087,
+        "value": -1.0568251963790605
+      },
+      {
+        "importance": 5.217001067949336,
+        "name": "pre_drift_length",
+        "train_percentile": 72.16642754662841,
+        "value": 51.872884520896584
+      },
+      {
+        "importance": 4.410707666091548,
+        "name": "cert_a_lower_cert",
+        "train_percentile": 65.71018651362984,
+        "value": 1.1257698964604215
+      },
+      {
+        "importance": 3.534928294974883,
+        "name": "a_sample_25",
+        "train_percentile": 23.38593974175036,
+        "value": 1.2087988560014207
+      },
+      {
+        "importance": 3.405518983689709,
+        "name": "b_sample_11",
+        "train_percentile": 40.45911047345768,
+        "value": -0.10117027357511352
+      },
+      {
+        "importance": 3.3841298272102067,
+        "name": "b_mean",
+        "train_percentile": 36.441893830703016,
+        "value": -0.1262864288610887
+      }
+    ],
+    "mc_mean_f0": 0.13674951860951134,
+    "mc_seed_f0": [
+      0.12383799950843122,
+      0.2117010459077903,
+      0.06893641451301513,
+      0.14252261450880876
+    ],
+    "p_monte_carlo": 0.12052375594658273,
+    "p_remizov": 0.8794762440534173,
+    "prediction_scope": "retrospective held-family test; no tuning allowed",
+    "previous_p_monte_carlo": 0.01893866728559643,
+    "previous_selected_method": "remizov",
+    "regret": 248.21999576573202,
+    "remizov_f0": -248.28940817133972,
+    "risk_interpretation": "p_MC estimates lower aggregate error, not probability of catastrophic R error",
+    "selected_method": "remizov",
+    "selected_success": false,
+    "split": "test",
+    "y_exact0": 0.03366855650090857
+  }
+]

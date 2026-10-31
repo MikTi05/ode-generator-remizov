@@ -1,0 +1,374 @@
+{
+  "after_sha256": {
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "comparison_inputs/Chern.py": "2f56b407c78ed5b79a3c7253587e806b8200e916c051415e7c6bd6ef94b39d52",
+    "comparison_inputs/README.md": "6cbe76f2fca432ce90935bf9729eb72f5998a1b1a6a78ce35665d39ee9ace334",
+    "comparison_inputs/example.ipynb": "0a403607b31455ca7f23cd8820eab9f703694b48492e468df2846c466b7199c8",
+    "comparison_inputs/monte_carlo/README.md": "c16fbb65094f60600424071e2ce82c60aa1665233cc22848a068acfc89b3582e",
+    "comparison_inputs/monte_carlo/example.ipynb": "fa3dc13bf2dd513b3dc18213fcc22db209e5e2b5a4f92d4b17f9ce905376e15b",
+    "comparison_inputs/monte_carlo/mc_solver.py": "3a97915208210db089486e625e700396dd0abafb8f2d6232595c625871c9a918",
+    "comparison_inputs/monte_carlo/provenance.json": "349948ef06a8d4f438ba33c9589352d89b35b56cbf120ef4b8e8b80b9d19573a",
+    "comparison_inputs/provenance.json": "095c87030f7c9c230cb1a8a1dd8cdf2f28e8bdd2328bec60831608235a06b3c6",
+    "data/all_methods_v1_1000_2026-10-18/README.md": "e98d76cd462a7be82a11bab78eadbed7ac04cd068a5ab98dfffbbb53e312c58b",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1.csv": "940d6c10a8cdd0933bb5c663c681efd39bac5ed450ea37cbb95be1ca481136ad",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_metadata.jsonl": "e464e289af2bf98dc1e6e49a1211ae2d5bf78838cee59b13c22df7bd01be0a79",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_ml.npz": "53231f72622dda82c8210dcd2ea4a843cc48f97a2a362ace596d66b37fca7c89",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_report.json": "5307f5d3f763949b6663fe680f2e21c714534dcf1e429ab52a3b2219e49aae86",
+    "data/generated/all_methods_equations_v1.csv": "ba498e3ee7432fa983a07d994b55b6e359c41fcb5353f20ab6c368b7bb76cd8b",
+    "data/generated/all_methods_equations_v1_metadata.jsonl": "cef44a1950345a72cc36e7b023ad6e147c16527d3d12501c5be66f5e1afb5e16",
+    "data/generated/all_methods_equations_v1_ml.npz": "1ce7d9e930138af7743bde726ba1cb68a2ef422dec406f8b901a16da10277d5a",
+    "data/generated/all_methods_equations_v1_report.json": "8fbe370a582edb6535c6f25ee903cc03fc4e7bb19bf941b7b267f5a72f40f669",
+    "data/remizov_benchmark.csv": "3a82de02fb6367706def5f3ec5e0658be11f638d6897f5da992ff799bccaee36",
+    "diagnostics/compare_chernov.py": "3c33637750f4f6cd8ee50a4e6f321b693db1fecf3c8bf59d9286e057213dfae5",
+    "mc_solver.py": "b37662a82002f316bd69871a08b0485ca0f5289178235774265d095bb7fa1a9d",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "before_sha256": {
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "comparison_inputs/Chern.py": "2f56b407c78ed5b79a3c7253587e806b8200e916c051415e7c6bd6ef94b39d52",
+    "comparison_inputs/README.md": "6cbe76f2fca432ce90935bf9729eb72f5998a1b1a6a78ce35665d39ee9ace334",
+    "comparison_inputs/example.ipynb": "0a403607b31455ca7f23cd8820eab9f703694b48492e468df2846c466b7199c8",
+    "comparison_inputs/monte_carlo/README.md": "c16fbb65094f60600424071e2ce82c60aa1665233cc22848a068acfc89b3582e",
+    "comparison_inputs/monte_carlo/example.ipynb": "fa3dc13bf2dd513b3dc18213fcc22db209e5e2b5a4f92d4b17f9ce905376e15b",
+    "comparison_inputs/monte_carlo/mc_solver.py": "3a97915208210db089486e625e700396dd0abafb8f2d6232595c625871c9a918",
+    "comparison_inputs/monte_carlo/provenance.json": "349948ef06a8d4f438ba33c9589352d89b35b56cbf120ef4b8e8b80b9d19573a",
+    "comparison_inputs/provenance.json": "095c87030f7c9c230cb1a8a1dd8cdf2f28e8bdd2328bec60831608235a06b3c6",
+    "data/all_methods_v1_1000_2026-10-18/README.md": "e98d76cd462a7be82a11bab78eadbed7ac04cd068a5ab98dfffbbb53e312c58b",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1.csv": "940d6c10a8cdd0933bb5c663c681efd39bac5ed450ea37cbb95be1ca481136ad",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_metadata.jsonl": "e464e289af2bf98dc1e6e49a1211ae2d5bf78838cee59b13c22df7bd01be0a79",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_ml.npz": "53231f72622dda82c8210dcd2ea4a843cc48f97a2a362ace596d66b37fca7c89",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_report.json": "5307f5d3f763949b6663fe680f2e21c714534dcf1e429ab52a3b2219e49aae86",
+    "data/generated/all_methods_equations_v1.csv": "ba498e3ee7432fa983a07d994b55b6e359c41fcb5353f20ab6c368b7bb76cd8b",
+    "data/generated/all_methods_equations_v1_metadata.jsonl": "cef44a1950345a72cc36e7b023ad6e147c16527d3d12501c5be66f5e1afb5e16",
+    "data/generated/all_methods_equations_v1_ml.npz": "1ce7d9e930138af7743bde726ba1cb68a2ef422dec406f8b901a16da10277d5a",
+    "data/generated/all_methods_equations_v1_report.json": "8fbe370a582edb6535c6f25ee903cc03fc4e7bb19bf941b7b267f5a72f40f669",
+    "data/remizov_benchmark.csv": "3a82de02fb6367706def5f3ec5e0658be11f638d6897f5da992ff799bccaee36",
+    "diagnostics/compare_chernov.py": "3c33637750f4f6cd8ee50a4e6f321b693db1fecf3c8bf59d9286e057213dfae5",
+    "mc_solver.py": "b37662a82002f316bd69871a08b0485ca0f5289178235774265d095bb7fa1a9d",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "changed_or_removed": [],
+  "environment": {
+    "executable": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/bin/python",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "versions": {
+      "numpy": "2.2.6",
+      "pytest": "9.1.1",
+      "scipy": "1.15.3",
+      "sympy": "1.14.0"
+    }
+  },
+  "finished_utc": "2026-10-24T17:22:54.460591+00:00",
+  "plan": {
+    "accuracy_policy": "exact evaluated after solve; thresholds only for analytical cases; dataset integration reports observed errors without total accuracy claim",
+    "attempts": [
+      {
+        "config": {
+          "M": 8,
+          "T": null,
+          "chunk": 8,
+          "dt": 0.01,
+          "max_batch_paths": 200000,
+          "max_path_steps": 100000000,
+          "max_runtime_seconds": 30,
+          "max_steps": 100000,
+          "seed": 2488,
+          "stream_id": 0,
+          "tail_eps": 1e-06
+        },
+        "method": "monte_carlo",
+        "observational_threshold": 2e-05,
+        "problem_id": "MC_constant"
+      },
+      {
+        "config": {
+          "M": 8000,
+          "T": null,
+          "chunk": 4000,
+          "dt": 0.01,
+          "max_batch_paths": 200000,
+          "max_path_steps": 200000000,
+          "max_runtime_seconds": 45,
+          "max_steps": 100000,
+          "seed": 2488,
+          "stream_id": 0,
+          "tail_eps": 1e-05
+        },
+        "method": "monte_carlo",
+        "observational_threshold": 0.03,
+        "problem_id": "MC_gaussian"
+      },
+      {
+        "config": {
+          "M": 2000,
+          "T": 4.0,
+          "chunk": 2000,
+          "dt": 0.02,
+          "max_batch_paths": 200000,
+          "max_path_steps": 20000000,
+          "max_runtime_seconds": 30,
+          "max_steps": 100000,
+          "seed": 2488,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        "method": "monte_carlo",
+        "observational_threshold": null,
+        "problem_id": "AMV1_F0000_S00"
+      },
+      {
+        "config": {
+          "M": 2000,
+          "T": 4.0,
+          "chunk": 2000,
+          "dt": 0.02,
+          "max_batch_paths": 200000,
+          "max_path_steps": 20000000,
+          "max_runtime_seconds": 30,
+          "max_steps": 100000,
+          "seed": 2488,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        "method": "monte_carlo",
+        "observational_threshold": null,
+        "problem_id": "AMV1_F0001_S00"
+      },
+      {
+        "config": {
+          "M": 2000,
+          "T": 4.0,
+          "chunk": 2000,
+          "dt": 0.02,
+          "max_batch_paths": 200000,
+          "max_path_steps": 20000000,
+          "max_runtime_seconds": 30,
+          "max_steps": 100000,
+          "seed": 2488,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        "method": "monte_carlo",
+        "observational_threshold": null,
+        "problem_id": "AMV1_F0002_S00"
+      }
+    ],
+    "automatic_retries": 0,
+    "blas_threads": 1,
+    "cost_estimate": "Gaussian 161304000 path steps; each dataset task 13200000 path steps; batch <=4000 paths, no trajectory history; outer watchdog 60s/512MiB per attempt",
+    "grid": "33 points on [-2,2] for analytical, [-1,1] for dataset",
+    "purpose": "Five predeclared MC checks, no parameter fitting or comparison winner labels",
+    "rss_limit_mib": 512,
+    "wall_seconds": 60,
+    "workers": 1
+  },
+  "preflight": [
+    {
+      "T": 6.561181688702165,
+      "actual_dt": 0.009986577912788683,
+      "path_steps": 173448,
+      "peak_batch_paths": 8,
+      "tail_bound_available": true,
+      "target_points": 33,
+      "time_steps": 657,
+      "total_error_certified": false
+    },
+    {
+      "T": 6.103036322765088,
+      "actual_dt": 0.009988602819582795,
+      "path_steps": 161304000,
+      "peak_batch_paths": 4000,
+      "tail_bound_available": true,
+      "target_points": 33,
+      "time_steps": 611,
+      "total_error_certified": false
+    },
+    {
+      "T": 4.0,
+      "actual_dt": 0.02,
+      "path_steps": 13200000,
+      "peak_batch_paths": 2000,
+      "tail_bound_available": false,
+      "target_points": 33,
+      "time_steps": 200,
+      "total_error_certified": false
+    },
+    {
+      "T": 4.0,
+      "actual_dt": 0.02,
+      "path_steps": 13200000,
+      "peak_batch_paths": 2000,
+      "tail_bound_available": false,
+      "target_points": 33,
+      "time_steps": 200,
+      "total_error_certified": false
+    },
+    {
+      "T": 4.0,
+      "actual_dt": 0.02,
+      "path_steps": 13200000,
+      "peak_batch_paths": 2000,
+      "tail_bound_available": false,
+      "target_points": 33,
+      "time_steps": 200,
+      "total_error_certified": false
+    }
+  ],
+  "runs": [
+    {
+      "max_abs_error": 1.5621812642696575e-05,
+      "observed_peak_rss_mib": 68.765625,
+      "relative_error": 3.124362528539315e-05,
+      "result_file": "000_MC_constant_monte_carlo.result.json",
+      "returncode": 0,
+      "runtime_seconds": 0.6829410828649998,
+      "spec": {
+        "config": {
+          "M": 8,
+          "T": null,
+          "chunk": 8,
+          "dt": 0.01,
+          "max_batch_paths": 200000,
+          "max_path_steps": 100000000,
+          "max_runtime_seconds": 30,
+          "max_steps": 100000,
+          "seed": 2488,
+          "stream_id": 0,
+          "tail_eps": 1e-06
+        },
+        "method": "monte_carlo",
+        "observational_threshold": 2e-05,
+        "problem_id": "MC_constant"
+      },
+      "status": "success",
+      "worker_wall_seconds": 0.9431401251349598
+    },
+    {
+      "max_abs_error": 0.007009460636153264,
+      "observed_peak_rss_mib": 72.921875,
+      "relative_error": 0.007009460636153264,
+      "result_file": "001_MC_gaussian_monte_carlo.result.json",
+      "returncode": 0,
+      "runtime_seconds": 3.6809569159522653,
+      "spec": {
+        "config": {
+          "M": 8000,
+          "T": null,
+          "chunk": 4000,
+          "dt": 0.01,
+          "max_batch_paths": 200000,
+          "max_path_steps": 200000000,
+          "max_runtime_seconds": 45,
+          "max_steps": 100000,
+          "seed": 2488,
+          "stream_id": 0,
+          "tail_eps": 1e-05
+        },
+        "method": "monte_carlo",
+        "observational_threshold": 0.03,
+        "problem_id": "MC_gaussian"
+      },
+      "status": "success",
+      "worker_wall_seconds": 3.96027195896022
+    },
+    {
+      "max_abs_error": 0.03799808402750332,
+      "observed_peak_rss_mib": 81.8125,
+      "relative_error": 0.052044305315085075,
+      "result_file": "002_AMV1_F0000_S00_monte_carlo.result.json",
+      "returncode": 0,
+      "runtime_seconds": 1.8147758750710636,
+      "spec": {
+        "config": {
+          "M": 2000,
+          "T": 4.0,
+          "chunk": 2000,
+          "dt": 0.02,
+          "max_batch_paths": 200000,
+          "max_path_steps": 20000000,
+          "max_runtime_seconds": 30,
+          "max_steps": 100000,
+          "seed": 2488,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        "method": "monte_carlo",
+        "observational_threshold": null,
+        "problem_id": "AMV1_F0000_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 2.182401374913752
+    },
+    {
+      "max_abs_error": 0.021957979567230057,
+      "observed_peak_rss_mib": 80.015625,
+      "relative_error": 0.018931553845293707,
+      "result_file": "003_AMV1_F0001_S00_monte_carlo.result.json",
+      "returncode": 0,
+      "runtime_seconds": 4.170362832956016,
+      "spec": {
+        "config": {
+          "M": 2000,
+          "T": 4.0,
+          "chunk": 2000,
+          "dt": 0.02,
+          "max_batch_paths": 200000,
+          "max_path_steps": 20000000,
+          "max_runtime_seconds": 30,
+          "max_steps": 100000,
+          "seed": 2488,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        "method": "monte_carlo",
+        "observational_threshold": null,
+        "problem_id": "AMV1_F0001_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 4.58539537480101
+    },
+    {
+      "max_abs_error": 0.05750379201440947,
+      "observed_peak_rss_mib": 81.75,
+      "relative_error": 0.07797018437409396,
+      "result_file": "004_AMV1_F0002_S00_monte_carlo.result.json",
+      "returncode": 0,
+      "runtime_seconds": 4.68761175009422,
+      "spec": {
+        "config": {
+          "M": 2000,
+          "T": 4.0,
+          "chunk": 2000,
+          "dt": 0.02,
+          "max_batch_paths": 200000,
+          "max_path_steps": 20000000,
+          "max_runtime_seconds": 30,
+          "max_steps": 100000,
+          "seed": 2488,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        "method": "monte_carlo",
+        "observational_threshold": null,
+        "problem_id": "AMV1_F0002_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 5.114020166918635
+    }
+  ],
+  "started_utc": "2026-10-24T17:22:37.259042+00:00"
+}

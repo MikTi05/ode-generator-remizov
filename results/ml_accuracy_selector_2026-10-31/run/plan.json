@@ -1,0 +1,33 @@
+{
+  "catboost": {
+    "allow_const_label": true,
+    "allow_writing_files": false,
+    "bootstrap_type": "No",
+    "class_names": [
+      "remizov",
+      "monte_carlo"
+    ],
+    "depth": 2,
+    "iterations": 120,
+    "l2_leaf_reg": 10,
+    "learning_rate": 0.05,
+    "loss_function": "Logloss",
+    "random_seed": 2488,
+    "random_strength": 0,
+    "thread_count": 1,
+    "verbose": false
+  },
+  "class_balancing": false,
+  "epsilon": 0.05,
+  "fit_count": 1,
+  "n256_role": "supplementary only; user revision 2026-10-31",
+  "numerical_calls": 0,
+  "original_split": [
+    700,
+    150,
+    150
+  ],
+  "primary": "saved mass n128 taper versus mass MC1024 median4 at x0",
+  "schema": "two_method_x0_accuracy_v1",
+  "tuning": false
+}

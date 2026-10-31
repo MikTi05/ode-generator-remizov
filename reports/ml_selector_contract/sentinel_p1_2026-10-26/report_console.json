@@ -1,0 +1,187 @@
+{
+  "schema": "sentinel_MC_P1_summary_v1",
+  "planned": 60,
+  "terminal": 60,
+  "not_run": 0,
+  "physical_requests": 60,
+  "confirmed_solver_calls": 60,
+  "statuses": {
+    "completed": 60
+  },
+  "completed": 60,
+  "accuracy_pass": 10,
+  "equations_any_profile_pass": 2,
+  "profiles": {
+    "MC0": {
+      "terminal": 20,
+      "completed": 20,
+      "failures": 0,
+      "accuracy_pass": 0,
+      "equations_any_pass": 0,
+      "error": {
+        "n": 20,
+        "min": 0.013740139110008043,
+        "median": 0.03813764054929364,
+        "max": 0.09928375537364886,
+        "mean": 0.045998286799680446,
+        "std": 0.030319270006300157,
+        "iqr": 0.042658392510601224,
+        "mad": 0.02094608579308946
+      },
+      "wall": {
+        "n": 20,
+        "min": 2.0989272910000003,
+        "median": 3.451538729,
+        "max": 18.429651209000003,
+        "mean": 6.34180279175,
+        "std": 6.224002124997044,
+        "iqr": 1.3690578752500002,
+        "mad": 1.0923235425
+      },
+      "total_method_wall_seconds": 126.836055835
+    },
+    "MC1": {
+      "terminal": 20,
+      "completed": 20,
+      "failures": 0,
+      "accuracy_pass": 6,
+      "equations_any_pass": 2,
+      "error": {
+        "n": 20,
+        "min": 0.007466649382203594,
+        "median": 0.022170776271909665,
+        "max": 0.07856531767676156,
+        "mean": 0.026180365362985476,
+        "std": 0.021534600552298895,
+        "iqr": 0.01949259517005817,
+        "mad": 0.012598706685171795
+      },
+      "wall": {
+        "n": 20,
+        "min": 8.221118667,
+        "median": 13.806278479,
+        "max": 73.63399225,
+        "mean": 25.322083531300002,
+        "std": 24.93266812066937,
+        "iqr": 5.373015187749999,
+        "mad": 4.231808625500001
+      },
+      "total_method_wall_seconds": 506.441670626
+    },
+    "MC2": {
+      "terminal": 20,
+      "completed": 20,
+      "failures": 0,
+      "accuracy_pass": 4,
+      "equations_any_pass": 2,
+      "error": {
+        "n": 20,
+        "min": 0.007005873414503261,
+        "median": 0.01933787776262516,
+        "max": 0.06640016445448804,
+        "mean": 0.025123125344156626,
+        "std": 0.019340904404750704,
+        "iqr": 0.020571658880434378,
+        "mad": 0.010140689507859124
+      },
+      "wall": {
+        "n": 20,
+        "min": 16.672998917,
+        "median": 27.518805958,
+        "max": 147.241957917,
+        "mean": 50.61445808325001,
+        "std": 49.80753549613906,
+        "iqr": 10.781340635250004,
+        "mad": 8.672504833500003
+      },
+      "total_method_wall_seconds": 1012.2891616650002
+    }
+  },
+  "decision": {
+    "selected": "MC1",
+    "status": "candidate_for_separately_authorized_stage2",
+    "profiles": {
+      "MC0": {
+        "eligible": true,
+        "reasons": [],
+        "cost_ratio": 1.0,
+        "median_error_ratio": 1.0
+      },
+      "MC1": {
+        "eligible": true,
+        "reasons": [],
+        "cost_ratio": 4.000035799395487,
+        "median_error_ratio": 0.5813358129287917
+      },
+      "MC2": {
+        "eligible": true,
+        "reasons": [],
+        "cost_ratio": 7.97290951041216,
+        "median_error_ratio": 0.5070549064940338
+      }
+    },
+    "tie_priority_applied": false,
+    "maximum_observed_successes": 6
+  },
+  "sum_method_wall_seconds": 1645.5668881260003,
+  "controller_wall_seconds": 1652.5848363749683,
+  "peak_rss_mib": 274.4375,
+  "warmups": [
+    {
+      "jit": {
+        "compilation_seconds": 1.0272106670308858,
+        "numba_import_seconds": 0.16720341704785824
+      },
+      "no_MC_calls_in_warmup": true,
+      "numba_threads": 1,
+      "shared_load_seconds": 2.9137134170159698,
+      "warmup_wall_seconds": 1.1944178330000002
+    }
+  ],
+  "remaining35_cost": [
+    {
+      "profile": "MC0",
+      "equations": 35,
+      "calls": 140,
+      "initial_operation_scaled_seconds": 2325.802743165754,
+      "median_measured_calibration_ratio": 0.9852594216552931,
+      "scenario_end_to_end_seconds": 2291.5190656157847,
+      "sensitivity_seconds_low": 2225.3473385038415,
+      "sensitivity_seconds_high": 2331.8345190329546,
+      "confidence_interval": false,
+      "actual_remaining_calls": 0,
+      "proposed_cap_seconds": 4884
+    },
+    {
+      "profile": "MC1",
+      "equations": 35,
+      "calls": 140,
+      "initial_operation_scaled_seconds": 9303.210972663015,
+      "median_measured_calibration_ratio": 0.983474732944531,
+      "scenario_end_to_end_seconds": 9149.472926866389,
+      "sensitivity_seconds_low": 8927.870676431752,
+      "sensitivity_seconds_high": 9256.846192591798,
+      "confidence_interval": false,
+      "actual_remaining_calls": 0,
+      "proposed_cap_seconds": 18599
+    },
+    {
+      "profile": "MC2",
+      "equations": 35,
+      "calls": 140,
+      "initial_operation_scaled_seconds": 18605.08115086177,
+      "median_measured_calibration_ratio": 0.9829149553141032,
+      "scenario_end_to_end_seconds": 18287.21250801456,
+      "sensitivity_seconds_low": 17816.27238697406,
+      "sensitivity_seconds_high": 18571.440193639035,
+      "confidence_interval": false,
+      "actual_remaining_calls": 0,
+      "proposed_cap_seconds": 36875
+    }
+  ],
+  "numerical_metric_checks": 60,
+  "new_R_calls": 0,
+  "new_stage2_calls": 0,
+  "new_model_fits": 0,
+  "interpretation": "five targeted train tasks; single calls primary; no95% reliability certificate; no temporal-order claim"
+}

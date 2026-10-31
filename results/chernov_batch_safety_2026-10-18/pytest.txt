@@ -1,0 +1,34 @@
+.................F..........                                             [100%]
+=================================== FAILURES ===================================
+_______________ test_signals_clean_worker_group[Signals.SIGINT] ________________
+
+sleeping_controller = <function sleeping_controller.<locals>.launch at 0x1047b4d30>
+sig = <Signals.SIGINT: 2>
+
+    @pytest.mark.parametrize('sig',[signal.SIGINT,signal.SIGTERM,signal.SIGHUP])
+    def test_signals_clean_worker_group(sleeping_controller,sig):
+        p,out,pids=sleeping_controller()
+        p.send_signal(sig);p.wait(timeout=4)
+>       assert_clean(out,pids)
+
+tests/test_chernov_batch_control.py:116: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_chernov_batch_control.py:87: in assert_clean
+    wait_until(lambda:json.loads(state.read_text()).get('finished'))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+predicate = <function assert_clean.<locals>.<lambda> at 0x1046f72e0>
+seconds = 5
+
+    def wait_until(predicate,seconds=5):
+        deadline=time.monotonic()+seconds
+        while time.monotonic()<deadline:
+            if predicate():return
+            time.sleep(.03)
+>       raise AssertionError('short-process condition timed out')
+E       AssertionError: short-process condition timed out
+
+tests/test_chernov_batch_control.py:23: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_chernov_batch_control.py::test_signals_clean_worker_group[Signals.SIGINT]
+1 failed, 27 passed in 17.46s

@@ -1,0 +1,176 @@
+{
+  "T": 18.692237908953764,
+  "baseline_error": 0.07045188951985172,
+  "baseline_path": "results/chernov_boundary_diagnosis_2026-10-24/runs/AMV1_F0180_S04_cubic_zero.json",
+  "baseline_recomputed": false,
+  "baseline_sha256": "852b9ac8018e9a020434529dc2d4ce2b43cc7680d7de8cd11b56ac79afd65462",
+  "changed_config_fields": [
+    "num_t"
+  ],
+  "created_utc": "2026-10-24T11:56:36.316931+00:00",
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "versions": {
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "sympy": "1.14.0"
+    }
+  },
+  "lambda_value": 2.4125425443182413,
+  "new_config": {
+    "T": null,
+    "boundary": "zero",
+    "dx": 0.0125,
+    "interp": "cubic",
+    "max_work_grid_points": 100000,
+    "n": 128,
+    "n_jobs": 1,
+    "n_steps": 32768,
+    "num_t": 1025,
+    "padding": 12.0,
+    "start_method": "spawn",
+    "t_grading": "quadratic",
+    "tail_eps": 1e-08,
+    "taper_width": null
+  },
+  "new_fingerprints": {
+    "a": "d612108e9bbfab4b06b9ae73f65dc5143b12a2e71eccfa4c4fe989f6ae4f5214",
+    "b": "47790968f2f38fb991136c4252783c248a140e0babf5dc6f1caa265675a959fe",
+    "c_R": "08f7fac95cb81449847985cf1ef2fd8a3c5d71bb5dc0fd524fe3d43058e1c06e",
+    "g_R": "d83f53e66a227be84a41789b8f381997a88bce0322b23521ff460c25e66c6dca",
+    "grid": "0dd183618f1893ab79474cfda841b0624798e012ca6c70df9963e69dfc55d142",
+    "t": "b169abf3f3014c68999dd978fe77ef9abc5743069802175f054b34cdd4240f11",
+    "target_x": "c8ae0b662ea825e72075d58f8684d8e5c302ce9d228a08f62bb72b9c78dd1c63",
+    "weights": "4ea9526ddb1be150df4ff76c19797a71b44af37a28df5a83e2a6c22b5c905174"
+  },
+  "observer_source_sha256": "e16a34a9c024519d3a6cd3d0391933c8a2728f27a756f365cbed8762810f1610",
+  "old_config": {
+    "T": null,
+    "boundary": "zero",
+    "dx": 0.0125,
+    "interp": "cubic",
+    "max_work_grid_points": 100000,
+    "n": 128,
+    "n_jobs": 1,
+    "n_steps": 32768,
+    "num_t": 513,
+    "padding": 12.0,
+    "start_method": "spawn",
+    "t_grading": "quadratic",
+    "tail_eps": 1e-08,
+    "taper_width": null
+  },
+  "planned_full_solves": 1,
+  "problem_id": "AMV1_F0180_S04",
+  "quadrature_check": {
+    "1025": {
+      "first_weight": -1.1884204806616316e-05,
+      "first_weight_analytic": -1.1884204806616316e-05,
+      "max_spacing": 0.036490450858714496,
+      "min_spacing": 1.7826307209924473e-05,
+      "moments": [
+        {
+          "absolute_error": 0.0,
+          "actual": 18.692237908953764,
+          "degree": 0,
+          "expected": 18.692237908953764
+        },
+        {
+          "absolute_error": 0.0,
+          "actual": 174.6998790224641,
+          "degree": 1,
+          "expected": 174.6998790224641
+        },
+        {
+          "absolute_error": 0.0,
+          "actual": 2177.02113423556,
+          "degree": 2,
+          "expected": 2177.02113423556
+        }
+      ],
+      "negative_weight_indices": [
+        0
+      ],
+      "sum_weights": 18.692237908953764,
+      "sum_weights_minus_T": 0.0,
+      "time_nodes_sha256": "b169abf3f3014c68999dd978fe77ef9abc5743069802175f054b34cdd4240f11",
+      "weights_sha256": "4ea9526ddb1be150df4ff76c19797a71b44af37a28df5a83e2a6c22b5c905174"
+    },
+    "513": {
+      "first_weight": -4.7536819226465264e-05,
+      "first_weight_analytic": -4.7536819226465264e-05,
+      "max_spacing": 0.07294524910301092,
+      "min_spacing": 7.130522883969789e-05,
+      "moments": [
+        {
+          "absolute_error": 0.0,
+          "actual": 18.692237908953764,
+          "degree": 0,
+          "expected": 18.692237908953764
+        },
+        {
+          "absolute_error": 0.0,
+          "actual": 174.6998790224641,
+          "degree": 1,
+          "expected": 174.6998790224641
+        },
+        {
+          "absolute_error": 0.0,
+          "actual": 2177.02113423556,
+          "degree": 2,
+          "expected": 2177.02113423556
+        }
+      ],
+      "negative_weight_indices": [
+        0
+      ],
+      "sum_weights": 18.692237908953764,
+      "sum_weights_minus_T": 0.0,
+      "time_nodes_sha256": "57ab99a5d98e1dd1d189b415ad536b48795ec480601d17e7aa617a4a203bda84",
+      "weights_sha256": "1dfd25b1d7ef4df879b5283d8ffcba0353f6ed49fbbdca6a05a90c088f34405d"
+    },
+    "nodes_formula": "T*(j/(num_t-1))**2",
+    "old_nodes_bitwise_equal_new_even_nodes": true,
+    "quadrature_bug_detected": false,
+    "same_method": "integrated quadratic interpolant on every nonuniform three-node panel"
+  },
+  "resource_policy": {
+    "blas_threads": 1,
+    "compute_processes": 1,
+    "expected_seconds": [
+      25,
+      50
+    ],
+    "memory_mib": 768,
+    "stage_wall_limit_seconds": 143.46718149539083
+  },
+  "schema": "chernov_time_quadrature1025_v1",
+  "source_data_sha256": {
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1.csv": "940d6c10a8cdd0933bb5c663c681efd39bac5ed450ea37cbb95be1ca481136ad",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_metadata.jsonl": "e464e289af2bf98dc1e6e49a1211ae2d5bf78838cee59b13c22df7bd01be0a79",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_ml.npz": "53231f72622dda82c8210dcd2ea4a843cc48f97a2a362ace596d66b37fca7c89",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_report.json": "5307f5d3f763949b6663fe680f2e21c714534dcf1e429ab52a3b2219e49aae86",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "source_script_sha256": "550a4fe3184a90df94fce762244ce7b5dcb6d4b46a28256cedfd56d7e9438a57",
+  "unchanged_spatial_array_hashes": {
+    "a": "d612108e9bbfab4b06b9ae73f65dc5143b12a2e71eccfa4c4fe989f6ae4f5214",
+    "b": "47790968f2f38fb991136c4252783c248a140e0babf5dc6f1caa265675a959fe",
+    "c_R": "08f7fac95cb81449847985cf1ef2fd8a3c5d71bb5dc0fd524fe3d43058e1c06e",
+    "g_R": "d83f53e66a227be84a41789b8f381997a88bce0322b23521ff460c25e66c6dca",
+    "grid": "0dd183618f1893ab79474cfda841b0624798e012ca6c70df9963e69dfc55d142",
+    "target_x": "c8ae0b662ea825e72075d58f8684d8e5c302ce9d228a08f62bb72b9c78dd1c63"
+  }
+}

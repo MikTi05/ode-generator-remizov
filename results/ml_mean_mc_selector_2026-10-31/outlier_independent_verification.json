@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "outliers": [
+    {
+      "equation_id": "AMV1_F0141_S00",
+      "split": "train",
+      "best_method": "monte_carlo",
+      "selected_method": "remizov",
+      "p_remizov": 0.6098065746398675,
+      "p_monte_carlo": 0.39019342536013246,
+      "E_R": 842.0865810144144,
+      "E_MC": 0.08240083666033149,
+      "E_selected": 842.0865810144144,
+      "selected_success": false,
+      "prediction_scope": "in-sample training recognition; not generalization"
+    },
+    {
+      "equation_id": "AMV1_F0180_S04",
+      "split": "test",
+      "best_method": "monte_carlo",
+      "selected_method": "remizov",
+      "p_remizov": 0.8794762440534173,
+      "p_monte_carlo": 0.12052375594658273,
+      "E_R": 248.32307672784063,
+      "E_MC": 0.10308096210860278,
+      "E_selected": 248.32307672784063,
+      "selected_success": false,
+      "prediction_scope": "retrospective held-family test; no tuning allowed"
+    }
+  ],
+  "saved_feature_values_and_train_percentiles_checked": 20,
+  "feature_importance_from_saved_model_checked": true,
+  "old_decisions_and_probabilities_checked": true,
+  "diagnostics_change_model": false,
+  "numerical_calls": 0,
+  "fit_calls": 0
+}

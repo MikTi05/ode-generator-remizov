@@ -1,0 +1,59 @@
+{
+  "case": "AMV1_F0047_S00",
+  "choices": {
+    "0.5": {
+      "all_profiles_point": {
+        "action": "R128",
+        "q": 0.5,
+        "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+      },
+      "fixed_pair_model_spread": {
+        "action": "abstain",
+        "q": 0.5,
+        "reason": "competing_method_probability_unresolved"
+      },
+      "fixed_pair_point": {
+        "action": "MC1",
+        "q": 0.5,
+        "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+      }
+    },
+    "0.8": {
+      "all_profiles_point": {
+        "action": "R128",
+        "q": 0.8,
+        "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+      },
+      "fixed_pair_model_spread": {
+        "action": "abstain",
+        "q": 0.8,
+        "reason": "competing_method_probability_unresolved"
+      },
+      "fixed_pair_point": {
+        "action": "MC1",
+        "q": 0.8,
+        "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+      }
+    },
+    "0.95": {
+      "all_profiles_point": {
+        "action": "R256",
+        "q": 0.95,
+        "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+      },
+      "fixed_pair_model_spread": {
+        "action": "R256",
+        "q": 0.95,
+        "reason": "exploratory_model_spread_dominance_NOT_a_certificate"
+      },
+      "fixed_pair_point": {
+        "action": "R256",
+        "q": 0.95,
+        "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+      }
+    }
+  },
+  "fresh_MC_k": 1,
+  "fresh_MC_n": 4,
+  "status": "in-sample feature case, post-fit seed diagnostic; not evidence of model generalization"
+}

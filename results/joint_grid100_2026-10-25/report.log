@@ -1,0 +1,114 @@
+{
+  "equations": 100,
+  "cohorts": [
+    {
+      "cohort": "representative",
+      "equations": 80,
+      "families": 80,
+      "paired_completed": 80,
+      "R_pass": 66,
+      "MC_primary_pass": 0,
+      "MC_final_pass": 2,
+      "primary_categories": {
+        "R_only": 66,
+        "neither_pass": 14
+      },
+      "final_categories": {
+        "R_only": 64,
+        "neither_pass": 14,
+        "both_pass": 2
+      },
+      "statistical_accuracy": {
+        "uncertain": 75,
+        "supported_fail_discrete": 5
+      },
+      "R_solver_seconds": 989.596228960203,
+      "MC_primary_solver_seconds": 1060.4238079534844,
+      "MC_all_solver_seconds": 1338.3869686617982
+    },
+    {
+      "cohort": "stress",
+      "equations": 20,
+      "families": 14,
+      "paired_completed": 20,
+      "R_pass": 7,
+      "MC_primary_pass": 0,
+      "MC_final_pass": 0,
+      "primary_categories": {
+        "neither_pass": 13,
+        "R_only": 7
+      },
+      "final_categories": {
+        "neither_pass": 13,
+        "R_only": 7
+      },
+      "statistical_accuracy": {
+        "uncertain": 13,
+        "supported_fail_discrete": 7
+      },
+      "R_solver_seconds": 248.73512387415394,
+      "MC_primary_solver_seconds": 773.4555867486633,
+      "MC_all_solver_seconds": 844.6215409135912
+    }
+  ],
+  "terminal_records": 240,
+  "attempt_statuses": {
+    "completed": 240,
+    "interrupted": 1
+  },
+  "primary_pairs_terminal": 100,
+  "primary_pairs_completed": 100,
+  "repeated_equations": 12,
+  "MC_solve_count": 137,
+  "MC_completed_solve_count": 136,
+  "physical_attempts": 241,
+  "R_solve_count": 104,
+  "active_session_seconds": 3561.568981999997,
+  "calendar_seconds": 11406.986257076263,
+  "peak_rss_mib": 286.390625,
+  "total_solver_seconds": 3474.6992564515676,
+  "controls": [
+    {
+      "ID": "AMV1_F0184_S01",
+      "boundary": "zero",
+      "E_inf": 0.05356807321592094,
+      "max_difference_saved": 0.0,
+      "seconds": 11.987323208944872
+    },
+    {
+      "ID": "AMV1_F0141_S00",
+      "boundary": "zero",
+      "E_inf": 0.01871927854087696,
+      "max_difference_saved": 0.0,
+      "seconds": 11.998031832976267
+    },
+    {
+      "ID": "AMV1_F0184_S01",
+      "boundary": "taper",
+      "E_inf": 444.58925463912163,
+      "max_difference_saved": 0.0,
+      "seconds": 14.739118000026792
+    },
+    {
+      "ID": "AMV1_F0141_S00",
+      "boundary": "taper",
+      "E_inf": 19704.50191093058,
+      "max_difference_saved": 0.0,
+      "seconds": 14.63492099987343
+    }
+  ],
+  "guardian_interruptions": [
+    "owner_lease_expired"
+  ],
+  "uncertain_fastest_labels": 100,
+  "reliable_winner_labels": 0,
+  "ML_training_performed": false,
+  "pending": {
+    "adaptive_decision_pending": false,
+    "keys": [],
+    "reason": null
+  },
+  "representative_selection": "80 equal-probability train rows,80 families,4 per cell; stress20 separate",
+  "profile": "new common certified T,cubic/zero; historical taper timings/errors not pooled",
+  "recommendation": "Do not launch900 automatically: inspect accuracy-class balance and simultaneous uncertainty first"
+}

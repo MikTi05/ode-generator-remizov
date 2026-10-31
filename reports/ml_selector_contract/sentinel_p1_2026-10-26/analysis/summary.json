@@ -1,0 +1,187 @@
+{
+  "accuracy_pass": 10,
+  "completed": 60,
+  "confirmed_solver_calls": 60,
+  "controller_wall_seconds": 1652.5848363749683,
+  "decision": {
+    "maximum_observed_successes": 6,
+    "profiles": {
+      "MC0": {
+        "cost_ratio": 1.0,
+        "eligible": true,
+        "median_error_ratio": 1.0,
+        "reasons": []
+      },
+      "MC1": {
+        "cost_ratio": 4.000035799395487,
+        "eligible": true,
+        "median_error_ratio": 0.5813358129287917,
+        "reasons": []
+      },
+      "MC2": {
+        "cost_ratio": 7.97290951041216,
+        "eligible": true,
+        "median_error_ratio": 0.5070549064940338,
+        "reasons": []
+      }
+    },
+    "selected": "MC1",
+    "status": "candidate_for_separately_authorized_stage2",
+    "tie_priority_applied": false
+  },
+  "equations_any_profile_pass": 2,
+  "interpretation": "five targeted train tasks; single calls primary; no95% reliability certificate; no temporal-order claim",
+  "new_R_calls": 0,
+  "new_model_fits": 0,
+  "new_stage2_calls": 0,
+  "not_run": 0,
+  "numerical_metric_checks": 60,
+  "peak_rss_mib": 274.4375,
+  "physical_requests": 60,
+  "planned": 60,
+  "profiles": {
+    "MC0": {
+      "accuracy_pass": 0,
+      "completed": 20,
+      "equations_any_pass": 0,
+      "error": {
+        "iqr": 0.042658392510601224,
+        "mad": 0.02094608579308946,
+        "max": 0.09928375537364886,
+        "mean": 0.045998286799680446,
+        "median": 0.03813764054929364,
+        "min": 0.013740139110008043,
+        "n": 20,
+        "std": 0.030319270006300157
+      },
+      "failures": 0,
+      "terminal": 20,
+      "total_method_wall_seconds": 126.836055835,
+      "wall": {
+        "iqr": 1.3690578752500002,
+        "mad": 1.0923235425,
+        "max": 18.429651209000003,
+        "mean": 6.34180279175,
+        "median": 3.451538729,
+        "min": 2.0989272910000003,
+        "n": 20,
+        "std": 6.224002124997044
+      }
+    },
+    "MC1": {
+      "accuracy_pass": 6,
+      "completed": 20,
+      "equations_any_pass": 2,
+      "error": {
+        "iqr": 0.01949259517005817,
+        "mad": 0.012598706685171795,
+        "max": 0.07856531767676156,
+        "mean": 0.026180365362985476,
+        "median": 0.022170776271909665,
+        "min": 0.007466649382203594,
+        "n": 20,
+        "std": 0.021534600552298895
+      },
+      "failures": 0,
+      "terminal": 20,
+      "total_method_wall_seconds": 506.441670626,
+      "wall": {
+        "iqr": 5.373015187749999,
+        "mad": 4.231808625500001,
+        "max": 73.63399225,
+        "mean": 25.322083531300002,
+        "median": 13.806278479,
+        "min": 8.221118667,
+        "n": 20,
+        "std": 24.93266812066937
+      }
+    },
+    "MC2": {
+      "accuracy_pass": 4,
+      "completed": 20,
+      "equations_any_pass": 2,
+      "error": {
+        "iqr": 0.020571658880434378,
+        "mad": 0.010140689507859124,
+        "max": 0.06640016445448804,
+        "mean": 0.025123125344156626,
+        "median": 0.01933787776262516,
+        "min": 0.007005873414503261,
+        "n": 20,
+        "std": 0.019340904404750704
+      },
+      "failures": 0,
+      "terminal": 20,
+      "total_method_wall_seconds": 1012.2891616650002,
+      "wall": {
+        "iqr": 10.781340635250004,
+        "mad": 8.672504833500003,
+        "max": 147.241957917,
+        "mean": 50.61445808325001,
+        "median": 27.518805958,
+        "min": 16.672998917,
+        "n": 20,
+        "std": 49.80753549613906
+      }
+    }
+  },
+  "remaining35_cost": [
+    {
+      "actual_remaining_calls": 0,
+      "calls": 140,
+      "confidence_interval": false,
+      "equations": 35,
+      "initial_operation_scaled_seconds": 2325.802743165754,
+      "median_measured_calibration_ratio": 0.9852594216552931,
+      "profile": "MC0",
+      "proposed_cap_seconds": 4884,
+      "scenario_end_to_end_seconds": 2291.5190656157847,
+      "sensitivity_seconds_high": 2331.8345190329546,
+      "sensitivity_seconds_low": 2225.3473385038415
+    },
+    {
+      "actual_remaining_calls": 0,
+      "calls": 140,
+      "confidence_interval": false,
+      "equations": 35,
+      "initial_operation_scaled_seconds": 9303.210972663015,
+      "median_measured_calibration_ratio": 0.983474732944531,
+      "profile": "MC1",
+      "proposed_cap_seconds": 18599,
+      "scenario_end_to_end_seconds": 9149.472926866389,
+      "sensitivity_seconds_high": 9256.846192591798,
+      "sensitivity_seconds_low": 8927.870676431752
+    },
+    {
+      "actual_remaining_calls": 0,
+      "calls": 140,
+      "confidence_interval": false,
+      "equations": 35,
+      "initial_operation_scaled_seconds": 18605.08115086177,
+      "median_measured_calibration_ratio": 0.9829149553141032,
+      "profile": "MC2",
+      "proposed_cap_seconds": 36875,
+      "scenario_end_to_end_seconds": 18287.21250801456,
+      "sensitivity_seconds_high": 18571.440193639035,
+      "sensitivity_seconds_low": 17816.27238697406
+    }
+  ],
+  "schema": "sentinel_MC_P1_summary_v1",
+  "statuses": {
+    "completed": 60
+  },
+  "sum_method_wall_seconds": 1645.5668881260003,
+  "terminal": 60,
+  "warmups": [
+    {
+      "jit": {
+        "compilation_seconds": 1.0272106670308858,
+        "numba_import_seconds": 0.16720341704785824
+      },
+      "no_MC_calls_in_warmup": true,
+      "numba_threads": 1,
+      "shared_load_seconds": 2.9137134170159698,
+      "warmup_wall_seconds": 1.1944178330000002
+    }
+  ]
+}

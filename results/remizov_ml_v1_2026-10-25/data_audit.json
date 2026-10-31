@@ -1,0 +1,61 @@
+{
+  "classes": {
+    "accuracy_met": 871,
+    "accuracy_not_met": 126
+  },
+  "context_counts": {
+    "initial_parallel8": 700,
+    "managed_serial1": 300
+  },
+  "dataset_sha256": {
+    "all_methods_equations_v1.csv": "940d6c10a8cdd0933bb5c663c681efd39bac5ed450ea37cbb95be1ca481136ad",
+    "all_methods_equations_v1_metadata.jsonl": "e464e289af2bf98dc1e6e49a1211ae2d5bf78838cee59b13c22df7bd01be0a79",
+    "all_methods_equations_v1_ml.npz": "53231f72622dda82c8210dcd2ea4a843cc48f97a2a362ace596d66b37fca7c89",
+    "all_methods_equations_v1_report.json": "5307f5d3f763949b6663fe680f2e21c714534dcf1e429ab52a3b2219e49aae86"
+  },
+  "historical_test_exposure": "Prior numerical audits inspected test outcomes; no test-guided tuning in this ML run",
+  "known": 997,
+  "solver_config": {
+    "T": null,
+    "boundary": "taper",
+    "dx": 0.0125,
+    "interp": "cubic",
+    "max_work_grid_points": 100000,
+    "n": 128,
+    "n_jobs": 1,
+    "n_steps": 32768,
+    "num_t": 513,
+    "padding": 12.0,
+    "start_method": "spawn",
+    "t_grading": "quadratic",
+    "tail_eps": 1e-08,
+    "taper_width": null
+  },
+  "splits": {
+    "test": {
+      "accuracy_met": 134,
+      "families": 30,
+      "labeled": 150,
+      "rows": 150
+    },
+    "train": {
+      "accuracy_met": 605,
+      "families": 140,
+      "labeled": 697,
+      "rows": 700
+    },
+    "validation": {
+      "accuracy_met": 132,
+      "families": 30,
+      "labeled": 150,
+      "rows": 150
+    }
+  },
+  "timing_context_sources": {
+    "/Users/mikti/Documents/vsc projects/ode-generator-remizov/results/chernov_managed_completion_2026-10-18/plan_v2.json": "12823b03d7b2da3e97f8506aae87492da377227f0c6ea222700aabc0d90fc6de",
+    "/Users/mikti/Documents/vsc projects/ode-generator-remizov/results/chernov_solve1000_2026-10-18/plan.json": "43775415b51e3bc4129edf262533dfb8515685351760d4b0325f6d77de3f9da9"
+  },
+  "topology_split_overlap": false,
+  "total": 1000,
+  "unknown": 3
+}

@@ -1,0 +1,64 @@
+{
+  "backups": {
+    "PROJECT_STATUS.md": true,
+    "README.md": true,
+    "diagnostics/compare_chernov.py": true,
+    "docs/MONTE_CARLO.md": true,
+    "examples/solve_mc_equation.py": true,
+    "mc_solver.py": true,
+    "tests/test_all_methods_mc_pipeline.py": true
+  },
+  "dataset_inputs": {
+    "all_methods_equations_v1.csv": true,
+    "all_methods_equations_v1_metadata.jsonl": true
+  },
+  "independent_checks": "exact Fraction product-rule and forcing inequalities; 200-digit horizon and tail oracle",
+  "independently_checked_equations": [
+    "AMV1_F0000_S00",
+    "AMV1_F0001_S00",
+    "AMV1_F0002_S00",
+    "AMV1_F0003_S00",
+    "AMV1_F0004_S00",
+    "AMV1_F0005_S00",
+    "AMV1_F0006_S00",
+    "AMV1_F0007_S00",
+    "AMV1_F0008_S00",
+    "AMV1_F0009_S00",
+    "AMV1_F0010_S00",
+    "AMV1_F0011_S00",
+    "AMV1_F0012_S00",
+    "AMV1_F0013_S00",
+    "AMV1_F0014_S00",
+    "AMV1_F0015_S00",
+    "AMV1_F0016_S00",
+    "AMV1_F0017_S00",
+    "AMV1_F0018_S00",
+    "AMV1_F0019_S00"
+  ],
+  "mathematical_core": {
+    "remizov_solver.py": true,
+    "src/all_methods_dataset_v1.py": true,
+    "src/all_methods_expressions.py": true
+  },
+  "old_files": 4543,
+  "permitted_changes": [
+    "PROJECT_STATUS.md",
+    "README.md",
+    "diagnostics/compare_chernov.py",
+    "docs/MONTE_CARLO.md",
+    "examples/solve_mc_equation.py",
+    "mc_solver.py",
+    "tests/test_all_methods_mc_pipeline.py"
+  ],
+  "survey_monte_carlo_trajectories": 0,
+  "survey_source_snapshots": {
+    "all_methods_bounds.py": true,
+    "all_methods_dataset_loader.py": true,
+    "diagnostics/certify_forcing_bounds.py": true,
+    "mc_solver.py": true,
+    "src/all_methods_expressions.py": true
+  },
+  "tests": "262 passed, 1 deselected, 2 warnings, 679 subtests passed in 37.07s",
+  "unchanged_old_files": 4536,
+  "unexpected_changes": []
+}

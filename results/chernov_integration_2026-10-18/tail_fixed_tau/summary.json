@@ -1,0 +1,256 @@
+{
+  "after_sha256": {
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "comparison_inputs/Chern.py": "2f56b407c78ed5b79a3c7253587e806b8200e916c051415e7c6bd6ef94b39d52",
+    "comparison_inputs/README.md": "6cbe76f2fca432ce90935bf9729eb72f5998a1b1a6a78ce35665d39ee9ace334",
+    "comparison_inputs/example.ipynb": "0a403607b31455ca7f23cd8820eab9f703694b48492e468df2846c466b7199c8",
+    "comparison_inputs/provenance.json": "095c87030f7c9c230cb1a8a1dd8cdf2f28e8bdd2328bec60831608235a06b3c6",
+    "data/generated/all_methods_equations_v1.csv": "ba498e3ee7432fa983a07d994b55b6e359c41fcb5353f20ab6c368b7bb76cd8b",
+    "data/generated/all_methods_equations_v1_metadata.jsonl": "cef44a1950345a72cc36e7b023ad6e147c16527d3d12501c5be66f5e1afb5e16",
+    "data/generated/all_methods_equations_v1_ml.npz": "1ce7d9e930138af7743bde726ba1cb68a2ef422dec406f8b901a16da10277d5a",
+    "data/generated/all_methods_equations_v1_report.json": "8fbe370a582edb6535c6f25ee903cc03fc4e7bb19bf941b7b267f5a72f40f669",
+    "data/remizov_benchmark.csv": "3a82de02fb6367706def5f3ec5e0658be11f638d6897f5da992ff799bccaee36",
+    "diagnostics/compare_chernov.py": "ca1bd751333f3c32c2c68b7c1a623af0c27d6bf86c4ecad4b2fbbd0f40cbf484",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "before_sha256": {
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "comparison_inputs/Chern.py": "2f56b407c78ed5b79a3c7253587e806b8200e916c051415e7c6bd6ef94b39d52",
+    "comparison_inputs/README.md": "6cbe76f2fca432ce90935bf9729eb72f5998a1b1a6a78ce35665d39ee9ace334",
+    "comparison_inputs/example.ipynb": "0a403607b31455ca7f23cd8820eab9f703694b48492e468df2846c466b7199c8",
+    "comparison_inputs/provenance.json": "095c87030f7c9c230cb1a8a1dd8cdf2f28e8bdd2328bec60831608235a06b3c6",
+    "data/generated/all_methods_equations_v1.csv": "ba498e3ee7432fa983a07d994b55b6e359c41fcb5353f20ab6c368b7bb76cd8b",
+    "data/generated/all_methods_equations_v1_metadata.jsonl": "cef44a1950345a72cc36e7b023ad6e147c16527d3d12501c5be66f5e1afb5e16",
+    "data/generated/all_methods_equations_v1_ml.npz": "1ce7d9e930138af7743bde726ba1cb68a2ef422dec406f8b901a16da10277d5a",
+    "data/generated/all_methods_equations_v1_report.json": "8fbe370a582edb6535c6f25ee903cc03fc4e7bb19bf941b7b267f5a72f40f669",
+    "data/remizov_benchmark.csv": "3a82de02fb6367706def5f3ec5e0658be11f638d6897f5da992ff799bccaee36",
+    "diagnostics/compare_chernov.py": "ca1bd751333f3c32c2c68b7c1a623af0c27d6bf86c4ecad4b2fbbd0f40cbf484",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "changed_or_removed": [],
+  "environment": {
+    "executable": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/bin/python",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "versions": {
+      "numpy": "2.2.6",
+      "pytest": "9.1.1",
+      "scipy": "1.15.3",
+      "sympy": "1.14.0"
+    }
+  },
+  "finished_utc": "2026-10-17T22:25:57.180767+00:00",
+  "plan": {
+    "attempts": [
+      {
+        "config": {
+          "dx": 0.025,
+          "n": 8,
+          "n_steps": 636,
+          "num_t": 257,
+          "padding": 8,
+          "tail_eps": 1e-10
+        },
+        "label": "tail_fixed_tau",
+        "method": "streaming",
+        "original_T": 19.11382792451231,
+        "original_steps": 512,
+        "problem_id": "R1"
+      },
+      {
+        "config": {
+          "dx": 0.025,
+          "n": 32,
+          "n_steps": 10140,
+          "num_t": 257,
+          "padding": 8,
+          "tail_eps": 1e-10
+        },
+        "label": "tail_fixed_tau",
+        "method": "streaming",
+        "original_T": 25.256710982823332,
+        "original_steps": 8192,
+        "problem_id": "AMV1_F0005_S00"
+      },
+      {
+        "config": {
+          "dx": 0.025,
+          "n": 64,
+          "n_steps": 5096,
+          "num_t": 257,
+          "padding": 8,
+          "tail_eps": 1e-10
+        },
+        "label": "tail_fixed_tau",
+        "method": "streaming",
+        "original_T": 15.006387621106363,
+        "original_steps": 4096,
+        "problem_id": "AMV1_F0006_S00"
+      },
+      {
+        "config": {
+          "dx": 0.025,
+          "n": 32,
+          "n_steps": 2554,
+          "num_t": 257,
+          "padding": 8,
+          "tail_eps": 1e-10
+        },
+        "label": "tail_fixed_tau",
+        "method": "streaming",
+        "original_T": 12.493414362854814,
+        "original_steps": 2048,
+        "problem_id": "AMV1_F0007_S00"
+      }
+    ],
+    "purpose": "Isolate tail change in streaming while holding tau approximately fixed: tail_eps changes to 1e-10, n_steps scales with computed T and rounds up to even. Earlier fixed-K tail controls are retained and do not isolate truncation.",
+    "rss_limit_mib": 1024,
+    "wall_seconds": 120
+  },
+  "preflight": [
+    {
+      "T": 23.7189981105004,
+      "operator_applications": 636,
+      "source_width_bound": 20.0,
+      "target_points": 257,
+      "work_points": 801
+    },
+    {
+      "T": 31.258723184645614,
+      "operator_applications": 10140,
+      "source_width_bound": 18.0,
+      "target_points": 33,
+      "work_points": 721
+    },
+    {
+      "T": 18.66594108126694,
+      "operator_applications": 5096,
+      "source_width_bound": 18.0,
+      "target_points": 33,
+      "work_points": 721
+    },
+    {
+      "T": 15.56847490356338,
+      "operator_applications": 2554,
+      "source_width_bound": 18.0,
+      "target_points": 33,
+      "work_points": 721
+    }
+  ],
+  "runs": [
+    {
+      "max_abs_error": 0.00989137085871794,
+      "observed_peak_rss_mib": 101.578125,
+      "relative_error": 0.00989137085871794,
+      "result_file": "000_R1_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 0.0814888330642134,
+      "spec": {
+        "config": {
+          "dx": 0.025,
+          "n": 8,
+          "n_steps": 636,
+          "num_t": 257,
+          "padding": 8,
+          "tail_eps": 1e-10
+        },
+        "label": "tail_fixed_tau",
+        "method": "streaming",
+        "original_T": 19.11382792451231,
+        "original_steps": 512,
+        "problem_id": "R1"
+      },
+      "status": "success",
+      "worker_wall_seconds": 0.5253953749779612
+    },
+    {
+      "max_abs_error": 0.009442456947588052,
+      "observed_peak_rss_mib": 79.796875,
+      "relative_error": 0.014308419432106078,
+      "result_file": "001_AMV1_F0005_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 1.2810669579776004,
+      "spec": {
+        "config": {
+          "dx": 0.025,
+          "n": 32,
+          "n_steps": 10140,
+          "num_t": 257,
+          "padding": 8,
+          "tail_eps": 1e-10
+        },
+        "label": "tail_fixed_tau",
+        "method": "streaming",
+        "original_T": 25.256710982823332,
+        "original_steps": 8192,
+        "problem_id": "AMV1_F0005_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 1.66193795891013
+    },
+    {
+      "max_abs_error": 0.0040265873872984415,
+      "observed_peak_rss_mib": 76.3125,
+      "relative_error": 0.0027253243797445924,
+      "result_file": "002_AMV1_F0006_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 0.6436876670923084,
+      "spec": {
+        "config": {
+          "dx": 0.025,
+          "n": 64,
+          "n_steps": 5096,
+          "num_t": 257,
+          "padding": 8,
+          "tail_eps": 1e-10
+        },
+        "label": "tail_fixed_tau",
+        "method": "streaming",
+        "original_T": 15.006387621106363,
+        "original_steps": 4096,
+        "problem_id": "AMV1_F0006_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 1.0414114999584854
+    },
+    {
+      "max_abs_error": 0.00733089255932895,
+      "observed_peak_rss_mib": 76.484375,
+      "relative_error": 0.0063215683788516485,
+      "result_file": "003_AMV1_F0007_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 0.34373645891901106,
+      "spec": {
+        "config": {
+          "dx": 0.025,
+          "n": 32,
+          "n_steps": 2554,
+          "num_t": 257,
+          "padding": 8,
+          "tail_eps": 1e-10
+        },
+        "label": "tail_fixed_tau",
+        "method": "streaming",
+        "original_T": 12.493414362854814,
+        "original_steps": 2048,
+        "problem_id": "AMV1_F0007_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 0.7365564580541104
+    }
+  ],
+  "started_utc": "2026-10-17T22:25:52.725402+00:00"
+}

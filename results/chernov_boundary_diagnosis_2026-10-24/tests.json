@@ -1,0 +1,10 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_chernov_boundary_diagnosis.py tests/test_chernov_solver.py -k 'boundary_diagnosis or test_simpson_accumulation_matches_scipy_on_both_grids or test_operator_polynomial_weights_sign_and_no_lambda'",
+  "deselected": 12,
+  "exit_code": 0,
+  "passed": 11,
+  "runtime_seconds": 0.49,
+  "warnings": [
+    "Existing DeprecationWarning: invalid escape sequence in src/all_methods_expressions.py docstring"
+  ]
+}

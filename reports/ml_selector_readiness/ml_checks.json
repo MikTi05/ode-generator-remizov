@@ -1,0 +1,132 @@
+{
+  "existing_comparative_model": {
+    "gate": {
+      "test": {
+        "mc": 1,
+        "n": 8,
+        "remizov": 7
+      },
+      "train": {
+        "mc": 5,
+        "n": 49,
+        "remizov": 44
+      },
+      "validation": {
+        "mc": 1,
+        "n": 10,
+        "remizov": 9
+      }
+    },
+    "limitation": "Exploratory fixed-profile mean-error label, approximate t95 from 4 seeds; no fastest-method or 95%-reliability certificate",
+    "reason": "insufficient separated labels/classes; separate quality models are primary",
+    "trained": false
+  },
+  "feature_matrix_rebuilt_exactly": true,
+  "features": 253,
+  "input_only_metadata_invariance": true,
+  "metrics": {
+    "MC_x0_single_test": {
+      "auc": 0.735006518904824,
+      "brier": 0.20147026301274218,
+      "logloss": 0.5863061267258461,
+      "n": 600,
+      "negatives": 364,
+      "positives": 236
+    },
+    "MC_x0_single_train": {
+      "auc": 0.8129901461723094,
+      "brier": 0.1689863670460131,
+      "logloss": 0.5103787053658407,
+      "n": 2800,
+      "negatives": 1821,
+      "positives": 979
+    },
+    "MC_x0_single_validation": {
+      "auc": 0.6987109979410081,
+      "brier": 0.20159621422556354,
+      "logloss": 0.587708521402916,
+      "n": 600,
+      "negatives": 389,
+      "positives": 211
+    },
+    "R_grid33_test": {
+      "auc": 0.8801305970149254,
+      "brier": 0.06788355380198068,
+      "logloss": 0.23217176448527113,
+      "n": 150,
+      "negatives": 16,
+      "positives": 134
+    },
+    "R_grid33_train": {
+      "auc": 0.9904599353215954,
+      "brier": 0.03073472635620318,
+      "logloss": 0.12707681613033397,
+      "n": 697,
+      "negatives": 92,
+      "positives": 605
+    },
+    "R_grid33_validation": {
+      "auc": 0.8577441077441077,
+      "brier": 0.06942450594262053,
+      "logloss": 0.24895087835904192,
+      "n": 150,
+      "negatives": 18,
+      "positives": 132
+    },
+    "R_x0_test": {
+      "auc": 0.894675925925926,
+      "brier": 0.029608115633856354,
+      "logloss": 0.11823983695082338,
+      "n": 150,
+      "negatives": 6,
+      "positives": 144
+    },
+    "R_x0_train": {
+      "auc": 0.9958720330237358,
+      "brier": 0.015077277065481237,
+      "logloss": 0.06715446940098603,
+      "n": 697,
+      "negatives": 51,
+      "positives": 646
+    },
+    "R_x0_validation": {
+      "auc": 0.9092857142857143,
+      "brier": 0.04951136877751237,
+      "logloss": 0.1755214136748586,
+      "n": 150,
+      "negatives": 10,
+      "positives": 140
+    }
+  },
+  "registry_hash_checks": 6,
+  "scaler_checks": {
+    "results/mc1000_x0_2026-10-25/ml/models/mc_aggregate_log_error_ridge.joblib": {
+      "columns": 253,
+      "train_count": 700
+    },
+    "results/mc1000_x0_2026-10-25/ml/models/mc_single_seed_accuracy_logistic.joblib": {
+      "columns": 253,
+      "train_count": 2800
+    },
+    "results/mc1000_x0_2026-10-25/ml/models/remizov_point_accuracy_logistic.joblib": {
+      "columns": 253,
+      "train_count": 697
+    },
+    "results/mc1000_x0_2026-10-25/ml/models/remizov_point_log_error_ridge.joblib": {
+      "columns": 253,
+      "train_count": 697
+    },
+    "results/remizov_ml_v1_2026-10-25/models/classifier_logistic.joblib": {
+      "columns": 253,
+      "train_count": 697
+    },
+    "results/remizov_ml_v1_2026-10-25/models/regressor_ridge_coeff.joblib": {
+      "columns": 253,
+      "train_count": 697
+    },
+    "results/remizov_ml_v1_2026-10-25/models/regressor_ridge_context.joblib": {
+      "columns": 254,
+      "train_count": 697
+    }
+  }
+}

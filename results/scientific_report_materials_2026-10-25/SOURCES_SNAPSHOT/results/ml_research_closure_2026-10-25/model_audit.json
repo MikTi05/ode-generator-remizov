@@ -1,0 +1,180 @@
+{
+  "all_saved_metrics_recomputed": true,
+  "family_and_topology_disjoint": true,
+  "feature_count": 253,
+  "features_identical_rows": 1000,
+  "forbidden_metadata_invariance_rows": 1000,
+  "limitations": [
+    "Source and artifact audit cannot retrospectively prove absence of every hidden training input",
+    "Historical test previously exposed; evaluation is descriptive, not pristine prospective policy validation",
+    "MC feature_names NPZ entry is object dtype; not unpickled; JSON schema used instead",
+    "No per-equation probability confidence bounds, no temporal bias certificate, no OOD validation"
+  ],
+  "linear_nonblas_checks": [
+    {
+      "max_abs_nonblas_difference": 6.106226635438361e-16,
+      "model": "results/remizov_ml_v1_2026-10-25/models/classifier_logistic.joblib"
+    },
+    {
+      "max_abs_nonblas_difference": 1.0658141036401503e-14,
+      "model": "results/remizov_ml_v1_2026-10-25/models/regressor_ridge_coeff.joblib"
+    },
+    {
+      "max_abs_nonblas_difference": 7.105427357601002e-15,
+      "model": "results/remizov_ml_v1_2026-10-25/models/regressor_ridge_context.joblib"
+    },
+    {
+      "max_abs_nonblas_difference": 4.440892098500626e-16,
+      "model": "results/mc1000_x0_2026-10-25/ml/models/mc_single_seed_accuracy_logistic.joblib"
+    },
+    {
+      "max_abs_nonblas_difference": 8.326672684688674e-16,
+      "model": "results/mc1000_x0_2026-10-25/ml/models/remizov_point_accuracy_logistic.joblib"
+    },
+    {
+      "max_abs_nonblas_difference": 4.440892098500626e-16,
+      "model": "results/mc1000_x0_2026-10-25/ml/models/mc_aggregate_log_error_ridge.joblib"
+    },
+    {
+      "max_abs_nonblas_difference": 8.881784197001252e-16,
+      "model": "results/mc1000_x0_2026-10-25/ml/models/remizov_point_log_error_ridge.joblib"
+    }
+  ],
+  "models_replayed": [
+    {
+      "max_abs_prediction_difference": 1.1102230246251565e-16,
+      "path": "results/remizov_ml_v1_2026-10-25/models/classifier_catboost.cbm"
+    },
+    {
+      "max_abs_prediction_difference": 0.0,
+      "path": "results/remizov_ml_v1_2026-10-25/models/classifier_dummy_prior.joblib"
+    },
+    {
+      "max_abs_prediction_difference": 1.1102230246251565e-16,
+      "path": "results/remizov_ml_v1_2026-10-25/models/classifier_logistic.joblib"
+    },
+    {
+      "max_abs_prediction_difference": 3.552713678800501e-15,
+      "path": "results/remizov_ml_v1_2026-10-25/models/regressor_catboost_coeff.cbm"
+    },
+    {
+      "max_abs_prediction_difference": 3.552713678800501e-15,
+      "path": "results/remizov_ml_v1_2026-10-25/models/regressor_catboost_context.cbm"
+    },
+    {
+      "max_abs_prediction_difference": 0.0,
+      "path": "results/remizov_ml_v1_2026-10-25/models/regressor_dummy_context.json"
+    },
+    {
+      "max_abs_prediction_difference": 0.0,
+      "path": "results/remizov_ml_v1_2026-10-25/models/regressor_dummy_median.joblib"
+    },
+    {
+      "max_abs_prediction_difference": 3.552713678800501e-15,
+      "path": "results/remizov_ml_v1_2026-10-25/models/regressor_ridge_coeff.joblib"
+    },
+    {
+      "max_abs_prediction_difference": 3.552713678800501e-15,
+      "path": "results/remizov_ml_v1_2026-10-25/models/regressor_ridge_context.joblib"
+    },
+    {
+      "max_abs_prediction_difference": 9.71445146547012e-17,
+      "path": "results/mc1000_x0_2026-10-25/ml/models/mc_single_seed_accuracy_catboost.cbm"
+    },
+    {
+      "max_abs_prediction_difference": 5.551115123125783e-17,
+      "path": "results/mc1000_x0_2026-10-25/ml/models/mc_single_seed_accuracy_dummy.joblib"
+    },
+    {
+      "max_abs_prediction_difference": 9.71445146547012e-17,
+      "path": "results/mc1000_x0_2026-10-25/ml/models/mc_single_seed_accuracy_logistic.joblib"
+    },
+    {
+      "max_abs_prediction_difference": 1.1102230246251565e-16,
+      "path": "results/mc1000_x0_2026-10-25/ml/models/remizov_point_accuracy_catboost.cbm"
+    },
+    {
+      "max_abs_prediction_difference": 0.0,
+      "path": "results/mc1000_x0_2026-10-25/ml/models/remizov_point_accuracy_dummy.joblib"
+    },
+    {
+      "max_abs_prediction_difference": 1.1102230246251565e-16,
+      "path": "results/mc1000_x0_2026-10-25/ml/models/remizov_point_accuracy_logistic.joblib"
+    },
+    {
+      "max_abs_prediction_difference": 4.440892098500626e-16,
+      "path": "results/mc1000_x0_2026-10-25/ml/models/mc_aggregate_log_error_catboost.cbm"
+    },
+    {
+      "max_abs_prediction_difference": 0.0,
+      "path": "results/mc1000_x0_2026-10-25/ml/models/mc_aggregate_log_error_dummy.joblib"
+    },
+    {
+      "max_abs_prediction_difference": 4.440892098500626e-16,
+      "path": "results/mc1000_x0_2026-10-25/ml/models/mc_aggregate_log_error_ridge.joblib"
+    },
+    {
+      "max_abs_prediction_difference": 4.440892098500626e-16,
+      "path": "results/mc1000_x0_2026-10-25/ml/models/remizov_point_log_error_catboost.cbm"
+    },
+    {
+      "max_abs_prediction_difference": 0.0,
+      "path": "results/mc1000_x0_2026-10-25/ml/models/remizov_point_log_error_dummy.joblib"
+    },
+    {
+      "max_abs_prediction_difference": 4.440892098500626e-16,
+      "path": "results/mc1000_x0_2026-10-25/ml/models/remizov_point_log_error_ridge.joblib"
+    }
+  ],
+  "new_model_fits": 0,
+  "new_solver_calls": 0,
+  "original_split_families": {
+    "test": 30,
+    "train": 140,
+    "validation": 30
+  },
+  "original_split_rows": {
+    "test": 150,
+    "train": 700,
+    "validation": 150
+  },
+  "recomputed_raw_labels": {
+    "mc": 4000,
+    "remizov": 997
+  },
+  "scalers_train_only_verified": [
+    {
+      "model": "results/remizov_ml_v1_2026-10-25/models/classifier_logistic.joblib",
+      "rows": 697
+    },
+    {
+      "model": "results/remizov_ml_v1_2026-10-25/models/regressor_ridge_coeff.joblib",
+      "rows": 697
+    },
+    {
+      "model": "results/remizov_ml_v1_2026-10-25/models/regressor_ridge_context.joblib",
+      "rows": 697
+    },
+    {
+      "model": "results/mc1000_x0_2026-10-25/ml/models/mc_single_seed_accuracy_logistic.joblib",
+      "rows": 2800
+    },
+    {
+      "model": "results/mc1000_x0_2026-10-25/ml/models/remizov_point_accuracy_logistic.joblib",
+      "rows": 697
+    },
+    {
+      "model": "results/mc1000_x0_2026-10-25/ml/models/mc_aggregate_log_error_ridge.joblib",
+      "rows": 700
+    },
+    {
+      "model": "results/mc1000_x0_2026-10-25/ml/models/remizov_point_log_error_ridge.joblib",
+      "rows": 697
+    }
+  ],
+  "seed_replicas_stay_in_original_split": true,
+  "training_sources_match_archives": true,
+  "unified_predictions_reproduced": 1000,
+  "unknown_remizov_targets_censored": 3,
+  "validation_selection_preserved": true
+}

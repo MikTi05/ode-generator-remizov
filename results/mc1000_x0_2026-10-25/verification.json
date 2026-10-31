@@ -1,0 +1,132 @@
+{
+  "all_attempts_unchanged_after_analysis": true,
+  "all_guardians_finished": true,
+  "classification_metric_checks": 18,
+  "completed_attempts": 4000,
+  "family_split_rows": {
+    "test": 150,
+    "train": 700,
+    "validation": 150
+  },
+  "feature_matrix_equal_to_prior_input_only_matrix": true,
+  "feature_schema_columns": 253,
+  "figures_visually_inspected": [
+    "plots/errors.png",
+    "plots/seed_stability.png",
+    "plots/ml_calibration.png"
+  ],
+  "independent_runtime_comparison": false,
+  "locks_held": {
+    ".chernov_batch_compute.lock": false,
+    ".chernov_batch_controller.lock": false
+  },
+  "maximum_attempt_calendar_seconds": 5.054863,
+  "model_audit": {
+    "mc_aggregate_log_error_catboost": {
+      "reload_max_difference": 4.440892098500626e-16
+    },
+    "mc_aggregate_log_error_dummy": {
+      "reload_max_difference": 0.0
+    },
+    "mc_aggregate_log_error_ridge": {
+      "nonblas_prediction_max_difference": 4.440892098500626e-16,
+      "reload_max_difference": 4.440892098500626e-16
+    },
+    "mc_single_seed_accuracy_catboost": {
+      "reload_max_difference": 9.71445146547012e-17,
+      "trees": 301
+    },
+    "mc_single_seed_accuracy_dummy": {
+      "reload_max_difference": 5.551115123125783e-17
+    },
+    "mc_single_seed_accuracy_logistic": {
+      "nonblas_probability_max_difference": 4.440892098500626e-16,
+      "reload_max_difference": 9.71445146547012e-17
+    },
+    "remizov_point_accuracy_catboost": {
+      "reload_max_difference": 1.1102230246251565e-16,
+      "trees": 237
+    },
+    "remizov_point_accuracy_dummy": {
+      "reload_max_difference": 0.0
+    },
+    "remizov_point_accuracy_logistic": {
+      "nonblas_probability_max_difference": 8.326672684688674e-16,
+      "reload_max_difference": 1.1102230246251565e-16
+    },
+    "remizov_point_log_error_catboost": {
+      "reload_max_difference": 4.440892098500626e-16
+    },
+    "remizov_point_log_error_dummy": {
+      "reload_max_difference": 0.0
+    },
+    "remizov_point_log_error_ridge": {
+      "nonblas_prediction_max_difference": 8.881784197001252e-16,
+      "reload_max_difference": 4.440892098500626e-16
+    }
+  },
+  "models_saved": 12,
+  "new_source_sha256": {
+    "PROJECT_STATUS.md": "f9468d05dc51943b8b7b82c14326355c2854b5f1909da21f26ed6e4fd286623c",
+    "all_methods_bounds.py": "a7a99776c8fa8faf48bc25f11f8884824aab989b646044c43a47455daff18d41",
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "diagnostics/analyze_mc1000_x0.py": "fd7bb6f3ea14dc4a0a21a928972c971f1d4a771df3ade4984264080e05458003",
+    "diagnostics/chernov_batch_control.py": "7483a440da43179e3c873d6e6d4d54900304c902a5b5ab73a468a6d1d79618a2",
+    "diagnostics/mc_production_x0.py": "9f3a12003758e0fa852c1ff637145fc29d6d6a26ccd255fc9c1c5fa565ceafc3",
+    "diagnostics/predict_mc1000_quality.py": "8a76a128156ef5e8d90d91d1ef342d7a46fdd9f11103512c2d1b08adf51adb7c",
+    "diagnostics/report_mc1000_x0.py": "abaef787c1a6de54f62d622d9809d1481496a66aeed59f68e2ec8021931b3c4b",
+    "diagnostics/run_chernov_batch.py": "9f912e44ae6c071684afd29928d93d751f0137f043b553d2ed07e856c8b02748",
+    "diagnostics/train_mc1000_quality.py": "a0161ad11c95533c66e694656ba153e6a037cb2b153a8baab44f9280de52c331",
+    "diagnostics/verify_mc1000_x0.py": "6bc538ed6890ceee5727507bd73b027674e142b1ec0867c1f38c03d9789ffc9c",
+    "mc_ast_kernels.py": "fa5f3123a2acf3fc4b9d6057c2a946b9ea9a59fcef40b5ff36d9a2ade3ab504e",
+    "mc_optimized.py": "a1f5c168ad5a752d02088d3110700a04b41140a63f1ccdd1f7baeb7fa17a9288",
+    "mc_solver.py": "b48e05e148009aaa4fabe7ec783d956f776438537c522a338a31624fe118ad83",
+    "ml/remizov_features.py": "caafd44f886e54d0fe78f28f6bc235045035d8f25f2e857eec61397cef518828",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a",
+    "tests/test_mc1000_quality.py": "4cadcabea95e7e389912f328a223b8869651c5f1782937506e541c0ff00279d5",
+    "tests/test_mc_production_x0.py": "1e1867042b3ebab3e4daf6b030641a24b56da216f2b0a7727b98213eb37a93a9"
+  },
+  "pending": 0,
+  "protected_files_changed": [],
+  "protected_files_checked": 8205,
+  "regression_summary": "369 passed, 1 deselected, 2 warnings, 679 subtests passed in 44.65s",
+  "resume_check": {
+    "new_attempts": 0,
+    "passed": true,
+    "session": {
+      "finished_utc": "2026-10-25T07:56:04.165817+00:00",
+      "new_terminal": 0,
+      "planned": 0,
+      "reason": null,
+      "session": "mass_a3ea5bc1f9",
+      "smoke": false,
+      "started_utc": "2026-10-25T07:56:04.163709+00:00",
+      "startups": [],
+      "wall_seconds": 0.0019831249956041574
+    },
+    "unchanged_results": 4000,
+    "workers_started": 0
+  },
+  "scope": "x=0; no most-efficient-method labels or total error certificate",
+  "serving_check": {
+    "max_abs_difference": 4.440892098500626e-16,
+    "new_ode_solves": 0,
+    "rows": 1000
+  },
+  "source_sha256": {
+    "all_methods_bounds.py": "a7a99776c8fa8faf48bc25f11f8884824aab989b646044c43a47455daff18d41",
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "diagnostics/chernov_batch_control.py": "7483a440da43179e3c873d6e6d4d54900304c902a5b5ab73a468a6d1d79618a2",
+    "diagnostics/mc_production_x0.py": "9f3a12003758e0fa852c1ff637145fc29d6d6a26ccd255fc9c1c5fa565ceafc3",
+    "diagnostics/run_chernov_batch.py": "9f912e44ae6c071684afd29928d93d751f0137f043b553d2ed07e856c8b02748",
+    "mc_ast_kernels.py": "fa5f3123a2acf3fc4b9d6057c2a946b9ea9a59fcef40b5ff36d9a2ade3ab504e",
+    "mc_optimized.py": "a1f5c168ad5a752d02088d3110700a04b41140a63f1ccdd1f7baeb7fa17a9288",
+    "mc_solver.py": "b48e05e148009aaa4fabe7ec783d956f776438537c522a338a31624fe118ad83",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "terminal_attempts": 4000
+}

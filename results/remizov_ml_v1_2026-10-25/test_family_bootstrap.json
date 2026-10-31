@@ -1,0 +1,21 @@
+{
+  "caveat": "Descriptive uncertainty conditional on trained models and the original split; test previously exposed in numerical audits.",
+  "families": 30,
+  "percentile95": {
+    "balanced_accuracy": [
+      0.7096292175434592,
+      0.9041340425531915
+    ],
+    "roc_auc": [
+      0.7821129236175721,
+      0.9515515478164732
+    ],
+    "runtime_mae_seconds": [
+      0.5181140085390459,
+      0.8464509604821987
+    ]
+  },
+  "repetitions": 500,
+  "unit": "whole original family, five equations",
+  "valid": 500
+}

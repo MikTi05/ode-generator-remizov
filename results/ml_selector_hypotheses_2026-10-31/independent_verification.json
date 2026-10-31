@@ -1,0 +1,27 @@
+{
+  "status": "verified",
+  "verifier": "independent_numpy_sklearn_no_experiment_helpers",
+  "unique_comparable_ids": 997,
+  "preserved_files": 5931,
+  "source_artifacts": 31,
+  "exact_split_sizes": true,
+  "fixed_test_ids": 150,
+  "no_ID_family_topology_leakage": true,
+  "development_only_selection": true,
+  "candidate_models": 96,
+  "validation_policies": 844,
+  "threshold_rows": 12337,
+  "test_policies": 844,
+  "test_prediction_rows": 126600,
+  "numerical_solver_calls": 0,
+  "model_fits": 0,
+  "cv": {
+    "folds": 10,
+    "fold_policies": 110,
+    "prediction_rows": 15884,
+    "inner_candidates": 100,
+    "fit_count": 160,
+    "inner_threshold_optimality": "not independently checked: inner scores not retained"
+  },
+  "selection_lock_sha256": "f9e77ad781f7a3baaaa275497c9202f3de786eadd963cafc7ce03c4b8c25e9f9"
+}

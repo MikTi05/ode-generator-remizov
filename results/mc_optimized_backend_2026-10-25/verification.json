@@ -1,0 +1,49 @@
+{
+  "protected_files_checked": 8071,
+  "protected_files_changed": [],
+  "reference_mc_sha256": "b48e05e148009aaa4fabe7ec783d956f776438537c522a338a31624fe118ad83",
+  "numba_kernel_identical_to_measured": true,
+  "final_source_sha256": {
+    "mc_optimized.py": "a1f5c168ad5a752d02088d3110700a04b41140a63f1ccdd1f7baeb7fa17a9288",
+    "mc_ast_kernels.py": "fa5f3123a2acf3fc4b9d6057c2a946b9ea9a59fcef40b5ff36d9a2ade3ab504e",
+    "diagnostics/profile_mc_reference.py": "9b485a08dde67993479216b4c9658d7d01087401937b5e28fc1b933db151fbf9",
+    "diagnostics/benchmark_mc_optimized.py": "2fe5a69db9eba6b4dee569b204174dcdcbf570d4a4c1d726a29ab6b99a08646b",
+    "diagnostics/preflight_mc_optimized.py": "1e5f2efd5db3af41123d79f228cd47f4df37dc7e4fbe864c9db28225af2529ad",
+    "diagnostics/report_mc_optimized.py": "5de376b8c34188bf3888f76a4d6b37be43ddf84d458eb991683d19710d445bbf",
+    "tests/test_mc_optimized.py": "fe23d62846bb9bfce7af9726b93abc59224b316e0a3c1860992bd6e46fe80f1f",
+    "docs/MC_OPTIMIZED.md": "f70ad6a3b91c8834230be36e3eb2905cd0cea9d85dbe41b3ccd463d3e1d67b90",
+    "requirements-mc-optimized.txt": "258124ac2330d65f7a9724ac08d7293857517a2feb43b7853e3fdc28ec5a75dc",
+    "PROJECT_STATUS.md": "24a8925c5c45b793127067b7509673ccb38744db2100baacd9663f57a594ac55"
+  },
+  "source_snapshot_sha256": {
+    "sources/PROJECT_STATUS.md": "24a8925c5c45b793127067b7509673ccb38744db2100baacd9663f57a594ac55",
+    "sources/requirements-mc-optimized.txt": "258124ac2330d65f7a9724ac08d7293857517a2feb43b7853e3fdc28ec5a75dc",
+    "sources/mc_optimized.py": "a1f5c168ad5a752d02088d3110700a04b41140a63f1ccdd1f7baeb7fa17a9288",
+    "sources/mc_ast_kernels.py": "fa5f3123a2acf3fc4b9d6057c2a946b9ea9a59fcef40b5ff36d9a2ade3ab504e",
+    "sources/tests/test_mc_optimized.py": "fe23d62846bb9bfce7af9726b93abc59224b316e0a3c1860992bd6e46fe80f1f",
+    "sources/docs/MC_OPTIMIZED.md": "f70ad6a3b91c8834230be36e3eb2905cd0cea9d85dbe41b3ccd463d3e1d67b90",
+    "sources/diagnostics/profile_mc_reference.py": "9b485a08dde67993479216b4c9658d7d01087401937b5e28fc1b933db151fbf9",
+    "sources/diagnostics/report_mc_optimized.py": "5de376b8c34188bf3888f76a4d6b37be43ddf84d458eb991683d19710d445bbf",
+    "sources/diagnostics/benchmark_mc_optimized.py": "2fe5a69db9eba6b4dee569b204174dcdcbf570d4a4c1d726a29ab6b99a08646b",
+    "sources/diagnostics/preflight_mc_optimized.py": "1e5f2efd5db3af41123d79f228cd47f4df37dc7e4fbe864c9db28225af2529ad"
+  },
+  "all_numerical_attempts_successful": true,
+  "solver_calls": 50,
+  "trajectory_replays": 15,
+  "actual_total_path_updates": 804504576,
+  "regression_summary": "363 passed, 1 deselected, 2 warnings, 679 subtests passed in 46.51s",
+  "freeze_overwrite_guard": true,
+  "worker_finished": true,
+  "worker_cleanup_success": true,
+  "locks_held": {
+    ".chernov_batch_compute.lock": false,
+    ".chernov_batch_controller.lock": false
+  },
+  "figures_visually_inspected": [
+    "plots/timing.png",
+    "plots/grid_errors.png"
+  ],
+  "only_existing_project_file_intentionally_edited": "PROJECT_STATUS.md (backup PROJECT_STATUS.before.md)",
+  "mass_1000_mc_solves": 0,
+  "new_ml_training_runs": 0
+}

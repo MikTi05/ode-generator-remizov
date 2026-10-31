@@ -1,0 +1,137 @@
+{
+  "confirmation_hs": [],
+  "fine_bias_plus_ci_and_tail": 0.032280423380503916,
+  "need_128": true,
+  "paired_ci95_half": 0.013290213761204959,
+  "paired_mean": 0.020955277849356427,
+  "pilot_summary": {
+    "covariance_paired_seed_differences": [
+      [
+        6.975924217047743e-05
+      ]
+    ],
+    "covariance_path_integrals": [
+      [
+        0.6356358149920225,
+        0.5819195668579931
+      ],
+      [
+        0.5819195668579931,
+        0.5948678589639713
+      ]
+    ],
+    "covariance_seed_means": [
+      [
+        0.00022733850455169144,
+        0.00015550673721948646
+      ],
+      [
+        0.00015550673721948646,
+        0.00015343421205775898
+      ]
+    ],
+    "differences": [
+      {
+        "ci95": [
+          0.007665064088151468,
+          0.03424549161056138
+        ],
+        "ci95_half": 0.013290213761204959,
+        "coarse_h": 0.03125,
+        "correlation": 0.9463429006533457,
+        "fine_h": 0.015625,
+        "independent_stderr_at_equal_paths": 0.017332510955554378,
+        "mean": 0.020955277849356427,
+        "paired_stderr_from_paths": 0.00403429331104383,
+        "path_sigma": 0.2581947719068051,
+        "pvalue": 0.015242293876523193,
+        "seed_mean_stderr": 0.0041760999200952265,
+        "simultaneous_ci95": [
+          0.007665064088151468,
+          0.03424549161056138
+        ],
+        "simultaneous_ci95_half": 0.013290213761204959,
+        "variance_reduction_vs_independent": 18.458143857677676
+      }
+    ],
+    "hs": [
+      0.03125,
+      0.015625
+    ],
+    "levels": [
+      {
+        "abs_mean_error": 0.03342712517461027,
+        "ci95_error": [
+          0.0094350624225049,
+          0.057419187926715645
+        ],
+        "ci95_half": 0.023992062752105373,
+        "h": 0.03125,
+        "individual_runs_with_abs_error_le_001": 0,
+        "mean": -0.35369495716843274,
+        "mean_individual_ci95_half": 0.04884303586578926,
+        "median_runtime_seconds": 0.9657136040041223,
+        "normal_values_generated_with_replay": 16678912,
+        "path_sigma": 0.7972677185187059,
+        "path_steps": 8339456,
+        "pooled_path_mean_stderr": 0.01245730810185478,
+        "rmse_of_replicates": 0.03588699730895346,
+        "seed_mean_stderr": 0.007538874328301464,
+        "signed_error": 0.03342712517461027,
+        "simultaneous_ci95_half": 0.031486371332850496,
+        "sum_runtime_seconds": 3.8620494578499347,
+        "y_exact": -0.387122082343043
+      },
+      {
+        "abs_mean_error": 0.01247184732525386,
+        "ci95_error": [
+          -0.00723840540436033,
+          0.032182100054868046
+        ],
+        "ci95_half": 0.01971025272961419,
+        "h": 0.015625,
+        "individual_runs_with_abs_error_le_001": 1,
+        "mean": -0.37465023501778916,
+        "mean_individual_ci95_half": 0.04725162159149206,
+        "median_runtime_seconds": 1.9149210839532316,
+        "normal_values_generated_with_replay": 16678912,
+        "path_sigma": 0.7712767719593085,
+        "path_steps": 16678912,
+        "pooled_path_mean_stderr": 0.012051199561864196,
+        "rmse_of_replicates": 0.01645061198702835,
+        "seed_mean_stderr": 0.006193428211777363,
+        "signed_error": 0.01247184732525386,
+        "simultaneous_ci95_half": 0.02586706874357865,
+        "sum_runtime_seconds": 7.651140084723011,
+        "y_exact": -0.387122082343043
+      }
+    ],
+    "means_by_seed": [
+      [
+        -0.3404868781469712,
+        -0.37294161001490167
+      ],
+      [
+        -0.34580016229807164,
+        -0.3599974397278175
+      ],
+      [
+        -0.35369725355869364,
+        -0.37545426603458404
+      ],
+      [
+        -0.3747955346699945,
+        -0.3902076242938535
+      ]
+    ],
+    "paths_per_repeat": 1024,
+    "repeats": 4,
+    "stage": "pilot",
+    "sum_call_runtime_seconds": 11.513770624995232,
+    "total_independent_paths": 4096
+  },
+  "proceed": false,
+  "reason": "insufficient_paired_resolution",
+  "relative_ci95_half": 0.634217969179212,
+  "variance_reduction": 18.458143857677676
+}

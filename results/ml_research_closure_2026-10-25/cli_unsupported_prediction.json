@@ -1,0 +1,143 @@
+[
+  {
+    "equation_id": "AMV1_F0047_S00",
+    "schema": "quality_prototype_v1",
+    "results": [
+      {
+        "profile_id": "remizov_zero_grid33_n256",
+        "scope": {
+          "method": "Remizov",
+          "target": "E_inf<=0.01",
+          "x": [
+            -1.0,
+            -0.9375,
+            -0.875,
+            -0.8125,
+            -0.75,
+            -0.6875,
+            -0.625,
+            -0.5625,
+            -0.5,
+            -0.4375,
+            -0.375,
+            -0.3125,
+            -0.25,
+            -0.1875,
+            -0.125,
+            -0.0625,
+            0.0,
+            0.0625,
+            0.125,
+            0.1875,
+            0.25,
+            0.3125,
+            0.375,
+            0.4375,
+            0.5,
+            0.5625,
+            0.625,
+            0.6875,
+            0.75,
+            0.8125,
+            0.875,
+            0.9375,
+            1.0
+          ]
+        },
+        "parameters": {
+          "Q": 513,
+          "T_policy": "analytic G common T",
+          "boundary": "zero",
+          "dx": 0.0125,
+          "interpolation": "cubic",
+          "n": 256,
+          "padding": 12.0,
+          "tail_eps": 0.0001
+        },
+        "status": "unsupported_no_trained_model",
+        "predictions": {},
+        "warnings": [
+          "No trained model for this profile; historical predictions are not transferred"
+        ],
+        "accuracy_certificate": false,
+        "prediction_interval": null
+      },
+      {
+        "profile_id": "mc_grid33_single4096",
+        "scope": {
+          "method": "Monte Carlo",
+          "target": "E_inf<=0.01",
+          "x": [
+            -1.0,
+            -0.9375,
+            -0.875,
+            -0.8125,
+            -0.75,
+            -0.6875,
+            -0.625,
+            -0.5625,
+            -0.5,
+            -0.4375,
+            -0.375,
+            -0.3125,
+            -0.25,
+            -0.1875,
+            -0.125,
+            -0.0625,
+            0.0,
+            0.0625,
+            0.125,
+            0.1875,
+            0.25,
+            0.3125,
+            0.375,
+            0.4375,
+            0.5,
+            0.5625,
+            0.625,
+            0.6875,
+            0.75,
+            0.8125,
+            0.875,
+            0.9375,
+            1.0
+          ]
+        },
+        "parameters": {
+          "M_per_point_per_seed": 4096,
+          "T_policy": "analytic G auto_T",
+          "backend": "numba",
+          "chunk": 1024,
+          "h": 0.0078125,
+          "seeds": 1,
+          "tail_eps": 0.0001,
+          "time_discretization_bound": null
+        },
+        "status": "unsupported_no_trained_model",
+        "predictions": {},
+        "warnings": [
+          "No trained model for this profile; historical predictions are not transferred"
+        ],
+        "accuracy_certificate": false,
+        "prediction_interval": null
+      }
+    ],
+    "method_selection": {
+      "status": "uncertain",
+      "winner": null,
+      "reason": "No validated model of fastest reliable solver on a common spatial/profile budget"
+    },
+    "input_scope": {
+      "domain": "all_methods_v1",
+      "distribution_membership_verified": false,
+      "channels": [
+        "a",
+        "b",
+        "c",
+        "g"
+      ],
+      "input_grid_points": 256
+    },
+    "total_accuracy_certified": false
+  }
+]

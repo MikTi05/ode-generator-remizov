@@ -1,0 +1,120 @@
+{
+  "ast_preparation_seconds": 0.001766707981005311,
+  "config": {
+    "M": 1024,
+    "T": 27.25,
+    "chunk": 1024,
+    "dt": 0.0078125,
+    "max_batch_paths": 1024,
+    "max_path_steps": 300000000,
+    "max_runtime_seconds": null,
+    "max_steps": 100000,
+    "seed": 2026102504,
+    "stream_id": 0,
+    "tail_eps": 0.0001
+  },
+  "engine": "numpy",
+  "error_infinity": 0.10021714441005092,
+  "external_solve_seconds": 1.8861679579131305,
+  "process_peak_rss_mib": 202.34375,
+  "repeat": 0,
+  "result": {
+    "M": 1024,
+    "T": 27.25,
+    "applicability_status": "bounds_certified_regularity_assumed",
+    "ast_preparation_seconds": 0.001766707981005311,
+    "backend": "numpy",
+    "block_steps": 64,
+    "ci95": [
+      0.08197410519944837
+    ],
+    "ci_lower": [
+      -0.029277244927811252
+    ],
+    "ci_upper": [
+      0.13467096547108548
+    ],
+    "coefficient_calls": {
+      "a": 3488,
+      "b": 3488,
+      "c_R": 3489,
+      "g_R": 3489
+    },
+    "coefficient_counter_kind": "logical reference-role counts; physical fused work reported separately",
+    "coefficient_values": {
+      "a": 3571712,
+      "b": 3571712,
+      "c_R": 3572736,
+      "g_R": 3572736
+    },
+    "compilation_seconds": 0.0,
+    "completed_paths": [
+      1024
+    ],
+    "confidence_level": 0.95,
+    "discretization_error_bound": null,
+    "dt_actual": 0.0078125,
+    "dt_requested": 0.0078125,
+    "f": [
+      0.052696860271637114
+    ],
+    "failure_reason": "",
+    "forcing_abs_upper_bound": 3819.219084779512,
+    "forcing_bound_source": "all_methods_forcing_bounds_v1:AMV1_F0018_S00:sha256=6cf938e821d41e0a45e78d98d4ecf83a3f1cd72e7f62dc3e20ed5bbfcb9a78b5",
+    "fused_point_evaluations": 3572736,
+    "interval_kind": "pointwise_asymptotic_normal_for_discrete_truncated_mean",
+    "lambda_c_gap": 0.6581307886703578,
+    "message": "analytical tail available; intervals exclude time bias and tail; total error not certified",
+    "n_batches": 1,
+    "n_normal_draws": 3571712,
+    "n_path_steps": 3571712,
+    "n_steps": 3488,
+    "numba_import_seconds": 0.0,
+    "numerical_blocks": 55,
+    "numerical_seconds": 1.869383916258812,
+    "peak_batch_paths": 1024,
+    "point_spawn_keys": [
+      [
+        1604194959,
+        779782826,
+        1673205447,
+        802069084,
+        2120444565,
+        1300806568,
+        1014926592,
+        814489780,
+        0
+      ]
+    ],
+    "preparation_seconds": 0.000358999939635396,
+    "problem_id": "AMV1_F0018_S00",
+    "random_prefetch": "same per-step NumPy PCG64 vectors; failure can discard prefetched draws",
+    "rng_scheme": "PCG64/SeedSequence/point_address_v1",
+    "rng_seconds": 0.016220832942053676,
+    "runtime_seconds": 1.8861527920234948,
+    "seed_entropy": 2026102504,
+    "stderr": [
+      0.041823523060943044
+    ],
+    "stream_id": 0,
+    "success": true,
+    "tail_eps": 0.0001,
+    "tail_error_bound": 9.440550808084735e-05,
+    "tail_tolerance_met": true,
+    "total_error_certified": false,
+    "x": [
+      0.0
+    ]
+  },
+  "task": {
+    "G": 3819.219084779512,
+    "N": 3488,
+    "T": 27.25,
+    "coefficient_nodes": 48,
+    "problem_id": "AMV1_F0018_S00",
+    "solution_nodes": 15
+  },
+  "y_exact": [
+    -0.0475202841384138
+  ]
+}

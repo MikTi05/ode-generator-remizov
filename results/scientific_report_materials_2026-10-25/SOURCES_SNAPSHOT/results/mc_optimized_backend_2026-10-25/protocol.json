@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-10-25T06:39:28.027269+00:00",
+  "reference_sha256": "b48e05e148009aaa4fabe7ec783d956f776438537c522a338a31624fe118ad83",
+  "profiling": {
+    "ids": [
+      "AMV1_F0000_S00",
+      "AMV1_F0002_S00",
+      "AMV1_F0014_S00",
+      "AMV1_F0017_S00"
+    ],
+    "x": [
+      0.0
+    ],
+    "M": 256,
+    "T": 2.0,
+    "dt": 0.0078125,
+    "seed": 2026102503,
+    "purpose": "kernel profile only; T2 is not certified accuracy horizon"
+  },
+  "performance": {
+    "ids": [
+      "AMV1_F0000_S00",
+      "AMV1_F0002_S00",
+      "AMV1_F0014_S00",
+      "AMV1_F0017_S00",
+      "AMV1_F0018_S00"
+    ],
+    "M": 1024,
+    "dt": 0.0078125,
+    "chunk": 1024,
+    "x": [
+      0.0
+    ],
+    "T": "analytic G, eps_tail1e-4, round up1/8",
+    "repeats": 3,
+    "seed_base": 2026102504,
+    "threads": 1,
+    "measurement": "unprofiled reference/optimized paired alternating order; same seed and chunk"
+  },
+  "equivalence": {
+    "coefficient_abs_tol": 1e-12,
+    "jet_abs_tol": 1e-11,
+    "path_integral_abs_tol": 1e-08,
+    "mean_abs_tol": 1e-08,
+    "stderr_abs_tol": 1e-08,
+    "note": "1e-8 is six orders below target .01; fixed before new backend measurements; report all actual maxima"
+  },
+  "no_grid_interpolation": true,
+  "no_ml": true,
+  "no_1000_numerical_solves": true
+}

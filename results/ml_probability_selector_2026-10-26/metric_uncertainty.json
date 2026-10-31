@@ -1,0 +1,167 @@
+{
+  "families": 40,
+  "metrics": {
+    "MC1": {
+      "Brier_delta_model_minus_constant": 0.0023557730061810256,
+      "calibration_bins": [
+        {
+          "families": 38,
+          "mean_prediction": 0.016904092191200083,
+          "prediction_bin": [
+            0,
+            0.05
+          ],
+          "rate": 0.046052631578947366,
+          "successes": 7,
+          "trials": 152
+        },
+        {
+          "families": 1,
+          "mean_prediction": 0.09842062374433065,
+          "prediction_bin": [
+            0.05,
+            0.1
+          ],
+          "rate": 0.0,
+          "successes": 0,
+          "trials": 4
+        },
+        {
+          "families": 1,
+          "mean_prediction": 0.2877142447804545,
+          "prediction_bin": [
+            0.25,
+            0.5
+          ],
+          "rate": 0.0,
+          "successes": 0,
+          "trials": 4
+        }
+      ],
+      "conditional_family_bootstrap95": [
+        -0.0011596016502430112,
+        0.007084167763924163
+      ]
+    },
+    "R128": {
+      "Brier_delta_model_minus_constant": -0.07529861801807272,
+      "calibration_bins": [
+        {
+          "families": 1,
+          "mean_prediction": 0.04961181814990798,
+          "prediction_bin": [
+            0,
+            0.05
+          ],
+          "rate": 0.0,
+          "successes": 0,
+          "trials": 1
+        },
+        {
+          "families": 2,
+          "mean_prediction": 0.16790176230039933,
+          "prediction_bin": [
+            0.1,
+            0.25
+          ],
+          "rate": 0.5,
+          "successes": 1,
+          "trials": 2
+        },
+        {
+          "families": 5,
+          "mean_prediction": 0.3113942226910532,
+          "prediction_bin": [
+            0.25,
+            0.5
+          ],
+          "rate": 0.0,
+          "successes": 0,
+          "trials": 5
+        },
+        {
+          "families": 4,
+          "mean_prediction": 0.6675373011716663,
+          "prediction_bin": [
+            0.5,
+            0.75
+          ],
+          "rate": 0.25,
+          "successes": 1,
+          "trials": 4
+        },
+        {
+          "families": 28,
+          "mean_prediction": 0.9292287032815166,
+          "prediction_bin": [
+            0.75,
+            1.0
+          ],
+          "rate": 0.8214285714285714,
+          "successes": 23,
+          "trials": 28
+        }
+      ],
+      "conditional_family_bootstrap95": [
+        -0.15909503477454157,
+        0.0008291277989181539
+      ]
+    },
+    "R256": {
+      "Brier_delta_model_minus_constant": -0.044064423809101,
+      "calibration_bins": [
+        {
+          "families": 2,
+          "mean_prediction": 0.17426264033172173,
+          "prediction_bin": [
+            0.1,
+            0.25
+          ],
+          "rate": 0.5,
+          "successes": 1,
+          "trials": 2
+        },
+        {
+          "families": 2,
+          "mean_prediction": 0.3824156238374997,
+          "prediction_bin": [
+            0.25,
+            0.5
+          ],
+          "rate": 0.5,
+          "successes": 1,
+          "trials": 2
+        },
+        {
+          "families": 5,
+          "mean_prediction": 0.6052636754687412,
+          "prediction_bin": [
+            0.5,
+            0.75
+          ],
+          "rate": 0.4,
+          "successes": 2,
+          "trials": 5
+        },
+        {
+          "families": 31,
+          "mean_prediction": 0.9693323460593886,
+          "prediction_bin": [
+            0.75,
+            1.0
+          ],
+          "rate": 0.9354838709677419,
+          "successes": 29,
+          "trials": 31
+        }
+      ],
+      "conditional_family_bootstrap95": [
+        -0.1089867023706242,
+        0.0194245270369933
+      ]
+    }
+  },
+  "resamples": 1000,
+  "scope": "whole-family resampling of fixed train OOF predictions; exploratory conditional intervals, not prospective validation or per-input p bounds",
+  "seed": 2488
+}

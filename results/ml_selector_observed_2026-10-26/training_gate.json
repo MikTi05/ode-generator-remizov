@@ -1,0 +1,60 @@
+{
+  "allowed": false,
+  "reasons": [
+    "need_20_train_MC_winner_families",
+    "need_5_validation_MC_winner_families",
+    "no_original_validation_labels"
+  ],
+  "support": {
+    "test": {
+      "counts": {
+        "monte_carlo": 0,
+        "none": 0,
+        "remizov": 0,
+        "unknown": 150
+      },
+      "families": {
+        "monte_carlo": 0,
+        "none": 0,
+        "remizov": 0,
+        "unknown": 30
+      },
+      "known": 0,
+      "total": 150
+    },
+    "train": {
+      "counts": {
+        "monte_carlo": 0,
+        "none": 14,
+        "remizov": 22,
+        "unknown": 664
+      },
+      "families": {
+        "monte_carlo": 0,
+        "none": 14,
+        "remizov": 22,
+        "unknown": 140
+      },
+      "known": 36,
+      "total": 700
+    },
+    "validation": {
+      "counts": {
+        "monte_carlo": 0,
+        "none": 0,
+        "remizov": 0,
+        "unknown": 150
+      },
+      "families": {
+        "monte_carlo": 0,
+        "none": 0,
+        "remizov": 0,
+        "unknown": 30
+      },
+      "known": 0,
+      "total": 150
+    }
+  },
+  "test_available": false,
+  "test_required_for_performance_claim": true
+}

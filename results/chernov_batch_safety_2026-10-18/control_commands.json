@@ -1,0 +1,60 @@
+[
+  {
+    "command": [
+      "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/bin/python",
+      "-B",
+      "diagnostics/run_chernov_batch.py",
+      "--output-dir",
+      "results/chernov_solve1000_2026-10-18",
+      "--status"
+    ],
+    "returncode": 0,
+    "response": {
+      "total": 1000,
+      "completed": 694,
+      "finite_results": 691,
+      "outcomes": {
+        "accuracy_pass": 629,
+        "accuracy_not_met": 62,
+        "worker_exception": 3
+      },
+      "pending": 306,
+      "max_compute_workers": 1,
+      "active": null,
+      "guardians": [],
+      "global_controller_or_cleanup_locked": false,
+      "global_compute_slot_locked": false
+    }
+  },
+  {
+    "command": [
+      "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/bin/python",
+      "-B",
+      "diagnostics/run_chernov_batch.py",
+      "--output-dir",
+      "results/chernov_solve1000_2026-10-18",
+      "--stop"
+    ],
+    "returncode": 0,
+    "response": {
+      "stop_requested": false,
+      "reason": "no managed session"
+    }
+  },
+  {
+    "command": [
+      "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/bin/python",
+      "-B",
+      "diagnostics/run_chernov_batch.py",
+      "--output-dir",
+      "results/chernov_solve1000_2026-10-18",
+      "--check-runtime"
+    ],
+    "returncode": 0,
+    "response": {
+      "runtime_valid": true,
+      "max_compute_workers": 1,
+      "numerical_solver_calls": 0
+    }
+  }
+]

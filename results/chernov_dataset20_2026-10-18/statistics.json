@@ -1,0 +1,59 @@
+{
+  "solve": {
+    "accuracy_fraction": 1.0,
+    "accuracy_passes": 20,
+    "all_attempt_wall_seconds": {
+      "count": 20,
+      "max": 17.59510862501338,
+      "mean": 15.917459989729105,
+      "median": 15.9133029380464,
+      "min": 14.248527333023958,
+      "p95": 16.998101510060952,
+      "total": 318.3491997945821
+    },
+    "attempts": 20,
+    "completed_solver_seconds": {
+      "count": 20,
+      "max": 17.145825000014156,
+      "mean": 15.494218870962504,
+      "median": 15.492579396057408,
+      "min": 13.864457792020403,
+      "p95": 16.55328708117595,
+      "total": 309.8843774192501
+    },
+    "numerical_successes": 20,
+    "observed_peak_rss_mib": 83.515625,
+    "outcomes": {
+      "accuracy_pass": 20
+    }
+  },
+  "streaming": {
+    "accuracy_fraction": 0.9,
+    "accuracy_passes": 18,
+    "all_attempt_wall_seconds": {
+      "count": 20,
+      "max": 9.143732042051852,
+      "mean": 8.238463718810817,
+      "median": 8.328418853983749,
+      "min": 7.195763500058092,
+      "p95": 8.773001548275351,
+      "total": 164.76927437621634
+    },
+    "attempts": 20,
+    "completed_solver_seconds": {
+      "count": 20,
+      "max": 8.71988374995999,
+      "mean": 7.783404733351199,
+      "median": 7.847368083486799,
+      "min": 6.820957834017463,
+      "p95": 8.247705091285752,
+      "total": 155.66809466702398
+    },
+    "numerical_successes": 20,
+    "observed_peak_rss_mib": 82.96875,
+    "outcomes": {
+      "accuracy_not_met": 2,
+      "accuracy_pass": 18
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_chernov_monitored_batch.py",
+  "returncode": 0,
+  "passed": 13,
+  "pytest_seconds": 0.05,
+  "numerical_solver_calls": 0
+}

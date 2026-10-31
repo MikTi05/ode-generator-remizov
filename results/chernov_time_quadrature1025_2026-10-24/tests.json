@@ -1,0 +1,10 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_chernov_time_quadrature1025.py",
+  "exit_code": 0,
+  "passed": 3,
+  "seconds": 0.25,
+  "warnings": [
+    "Existing invalid escape sequence in AST module docstring"
+  ],
+  "preliminary_check_note": "An initial passing test used matmul and emitted floating-status warnings; final independent polynomial moments use math.fsum and nonpolynomial comparison uses elementwise reduction. Production quadrature code is unchanged."
+}

@@ -1,0 +1,15 @@
+experiment,cohort,method,profile,points,observations,observed_pass,solver_seconds,caveat
+historical1000,all original splits,R,n128/taper/legacyT,33,997,871,16620.74014193064,3 worker exceptions censored; mixed 8/1 external workers
+mc1000_x0,same 997 paired,R,node of historical grid33,1,997,930,,No point-only measured runtime; 33-point time cannot be divided by33
+mc1000_x0,all original splits,MC,"1x1024,h1/128,G-T",1,4000,1426,1633.2469729075674,"4000 seed outcomes,1000 equations,200 families"
+mc1000_x0,all original splits,MC,"mean4x1024,h1/128,G-T",1,1000,535,1633.2469729075674,Same raw runs as preceding row; do not sum costs twice
+grid100,representative,R,n128/zero/commonG-T,33,80,66,989.596228960203,"train only; 80 representative vs20 targeted, not pooled population rate"
+grid100,representative,MC,"1x1024,h1/128,commonG-T",33,80,0,1060.4238079534844,first seed only; no temporal bias control
+grid100,representative,MC,adaptive mean1or4x1024,33,80,2,1338.3869686617982,"12 selected repeats; costs include primary, do not sum again"
+grid100,stress,R,n128/zero/commonG-T,33,20,7,248.73512387415394,"train only; 80 representative vs20 targeted, not pooled population rate"
+grid100,stress,MC,"1x1024,h1/128,commonG-T",33,20,0,773.4555867486633,first seed only; no temporal bias control
+grid100,stress,MC,adaptive mean1or4x1024,33,20,0,844.6215409135912,"12 selected repeats; costs include primary, do not sum again"
+final_grid5,five targeted train,R,n128/zero baseline,33,5,2,60.940680666361004,"Copied old results, no new cost; subset of grid100"
+final_grid5,five targeted train,R,n256/zero/commonG-T,33,5,5,117.78475867002271,New direct solves; no population accuracy estimate
+final_grid5,five targeted train,MC,"1x4096,h1/128,commonG-T",33,20,5,505.0287347068079,Fresh seed outcomes; no p>=.95 success confirmed
+final_grid5,five targeted train,MC,mean4x4096=16384,33,5,2,505.0287347068079,Same raw runs as previous row; different estimator/budget

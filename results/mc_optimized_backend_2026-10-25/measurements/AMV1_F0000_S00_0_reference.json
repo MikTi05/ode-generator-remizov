@@ -1,0 +1,109 @@
+{
+  "ast_preparation_seconds": 0.00037933303974568844,
+  "config": {
+    "M": 1024,
+    "T": 8.5,
+    "chunk": 1024,
+    "dt": 0.0078125,
+    "max_batch_paths": 1024,
+    "max_path_steps": 300000000,
+    "max_runtime_seconds": null,
+    "max_steps": 100000,
+    "seed": 2026102504,
+    "stream_id": 0,
+    "tail_eps": 0.0001
+  },
+  "engine": "reference",
+  "error_infinity": 0.015389771494842996,
+  "external_solve_seconds": 0.22748895804397762,
+  "process_peak_rss_mib": 177.203125,
+  "repeat": 0,
+  "result": {
+    "M": 1024,
+    "T": 8.5,
+    "applicability_status": "bounds_certified_regularity_assumed",
+    "ci95": [
+      0.02333878415391903
+    ],
+    "ci_lower": [
+      0.631398656177862
+    ],
+    "ci_upper": [
+      0.6780762244856999
+    ],
+    "coefficient_calls": {
+      "a": 1088,
+      "b": 1088,
+      "c_R": 1089,
+      "g_R": 1089
+    },
+    "coefficient_values": {
+      "a": 1114112,
+      "b": 1114112,
+      "c_R": 1115136,
+      "g_R": 1115136
+    },
+    "completed_paths": [
+      1024
+    ],
+    "confidence_level": 0.95,
+    "discretization_error_bound": null,
+    "dt_actual": 0.0078125,
+    "dt_requested": 0.0078125,
+    "f": [
+      0.6547374403317809
+    ],
+    "failure_reason": "",
+    "forcing_abs_upper_bound": 25.11832190687126,
+    "forcing_bound_source": "all_methods_forcing_bounds_v1:AMV1_F0000_S00:sha256=23bd0f03b18e6bc767c445fb55ce5dd8cc6b8874d10130aa0180c3f2a3be6c03",
+    "interval_kind": "pointwise_asymptotic_normal_for_discrete_truncated_mean",
+    "lambda_c_gap": 1.427324152971554,
+    "message": "tail bound available; intervals exclude time bias and tail; total error is not certified",
+    "n_batches": 1,
+    "n_normal_draws": 1114112,
+    "n_path_steps": 1114112,
+    "n_steps": 1088,
+    "peak_batch_paths": 1024,
+    "point_spawn_keys": [
+      [
+        527575411,
+        2139720829,
+        1629732532,
+        1042010407,
+        88623932,
+        2600594418,
+        677287042,
+        3825145902,
+        0
+      ]
+    ],
+    "preparation_seconds": 0.00032724998891353607,
+    "problem_id": "AMV1_F0000_S00",
+    "rng_scheme": "PCG64/SeedSequence/point_address_v1",
+    "runtime_seconds": 0.22747174999676645,
+    "seed_entropy": 2026102504,
+    "stderr": [
+      0.011907542935672975
+    ],
+    "stream_id": 0,
+    "success": true,
+    "tail_eps": 0.0001,
+    "tail_error_bound": 9.473194998649439e-05,
+    "tail_tolerance_met": true,
+    "total_error_certified": false,
+    "x": [
+      0.0
+    ]
+  },
+  "task": {
+    "G": 25.11832190687126,
+    "N": 1088,
+    "T": 8.5,
+    "coefficient_nodes": 3,
+    "problem_id": "AMV1_F0000_S00",
+    "solution_nodes": 3
+  },
+  "y_exact": [
+    0.6393476688369379
+  ]
+}

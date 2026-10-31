@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "plan_sha256": "c4ffde64ca5013da6a896fbd2f07f1bfe9626ee4b3c474a696ef044edbfcad1b",
+  "requests": 140,
+  "records": 140,
+  "complete_140": true,
+  "statuses": {
+    "completed": 140
+  },
+  "profiles": {
+    "R128": 60,
+    "R256": 60,
+    "MC1": 20
+  },
+  "independent_primary": {
+    "selector": {
+      "confirmed_correct": 57,
+      "known_outcomes": 60,
+      "finite_violations": 3,
+      "total_warm_cost": 1164.2702157140002
+    },
+    "constant_R128": {
+      "confirmed_correct": 53,
+      "known_outcomes": 60,
+      "finite_violations": 7,
+      "total_warm_cost": 706.407125875
+    },
+    "constant_R256": {
+      "confirmed_correct": 57,
+      "known_outcomes": 60,
+      "finite_violations": 3,
+      "total_warm_cost": 1411.006868253
+    }
+  },
+  "unique_MC_point_addresses": 660,
+  "MC_choices": 0,
+  "MC_choice_quality_confirmed": false,
+  "numerical_worker_pids": [
+    32754
+  ],
+  "maximum_worker_rss_mib": 198.53125,
+  "thermal_samples": 315,
+  "maximum_thermal_state": 0,
+  "guardian_cleanup_verified": true,
+  "external_CLI_renewals": 62,
+  "maximum_renewal_gap_seconds": 79.13772216695361,
+  "elapsed_to_guardian_cleanup_seconds": 3268.0407518749125,
+  "budget_cap_seconds": 7464,
+  "protected_sources_model_inputs_and_original_artifacts_unchanged": true,
+  "new_solver_calls_by_audit": 0,
+  "new_model_training": 0,
+  "production_blocked": true
+}

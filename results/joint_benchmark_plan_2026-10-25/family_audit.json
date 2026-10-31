@@ -1,0 +1,36 @@
+{
+  "cross_dataset": {
+    "shared_expression_hashes": 0,
+    "shared_ids": 20,
+    "shared_structure_signatures": 1,
+    "topology_split_conflicts": 0
+  },
+  "production1000": {
+    "dataset_sha256": "52ab5a5bfd7cb6079a193787e07b3b357ce49ad3f014f93fcbbf894236866566",
+    "families": 200,
+    "family_splits": {
+      "test": 30,
+      "train": 140,
+      "validation": 30
+    },
+    "rows": 1000,
+    "splits": {
+      "test": 150,
+      "train": 700,
+      "validation": 150
+    }
+  },
+  "small20": {
+    "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+    "families": 20,
+    "family_splits": {
+      "test": 10,
+      "validation": 10
+    },
+    "rows": 20,
+    "splits": {
+      "test": 10,
+      "validation": 10
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/bin/python",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_all_methods_expressions.py",
+    "tests/test_all_methods_dataset_v1.py",
+    "tests/test_all_methods_loader.py"
+  ],
+  "returncode": 0,
+  "wall_seconds": 3.9848737500142306,
+  "numerical_solver_tests": false
+}

@@ -1,0 +1,118 @@
+{
+  "MC_probability_head_trained": true,
+  "MC_winner_classifier_trained": false,
+  "benchmark1000_calls": 0,
+  "counts": {
+    "MC1": {
+      "cost_equations": 40,
+      "equations": 40,
+      "successes": 7,
+      "trials": 160
+    },
+    "R128": {
+      "cost_equations": 4,
+      "equations": 103,
+      "successes": 75,
+      "trials": 103
+    },
+    "R256": {
+      "cost_equations": 36,
+      "equations": 40,
+      "successes": 33,
+      "trials": 40
+    }
+  },
+  "fresh_seed_fit_excluded": true,
+  "head_count": 6,
+  "metrics": {
+    "MC1": {
+      "constant_cost": {
+        "cases": 40,
+        "mean_absolute_log_error": 0.7018475798833681,
+        "median_absolute_percentage_error": 0.5128950463199311
+      },
+      "constant_probability": {
+        "brier": 0.042527588300825474,
+        "equations": 40,
+        "logloss": 0.1888891958233764,
+        "mean_prediction": 0.043910256410256414,
+        "observed_rate_equal_equation_weight": 0.04375,
+        "trials": 160
+      },
+      "cost": {
+        "cases": 40,
+        "mean_absolute_log_error": 0.3425141245422946,
+        "median_absolute_percentage_error": 0.26285349256652896
+      },
+      "probability": {
+        "brier": 0.04488336130700651,
+        "equations": 40,
+        "logloss": 0.20964319900996048,
+        "mean_prediction": 0.02571225929475971,
+        "observed_rate_equal_equation_weight": 0.04375,
+        "trials": 160
+      }
+    },
+    "R128": {
+      "constant_cost": {
+        "cases": 4,
+        "mean_absolute_log_error": 0.02046121017812679,
+        "median_absolute_percentage_error": 0.01371621692223135
+      },
+      "constant_probability": {
+        "brier": 0.2524984530726463,
+        "equations": 40,
+        "logloss": 0.7064214003446153,
+        "mean_prediction": 0.7597493833685693,
+        "observed_rate_equal_equation_weight": 0.625,
+        "trials": 40
+      },
+      "cost": {
+        "cases": 4,
+        "mean_absolute_log_error": 0.02046121017812679,
+        "median_absolute_percentage_error": 0.01371621692223135
+      },
+      "probability": {
+        "brier": 0.17719983505457354,
+        "equations": 40,
+        "logloss": 0.5983707268323591,
+        "mean_prediction": 0.7657734838193777,
+        "observed_rate_equal_equation_weight": 0.625,
+        "trials": 40
+      }
+    },
+    "R256": {
+      "constant_cost": {
+        "cases": 36,
+        "mean_absolute_log_error": 0.016443099009209965,
+        "median_absolute_percentage_error": 0.014097225106429356
+      },
+      "constant_probability": {
+        "brier": 0.15192226524135355,
+        "equations": 40,
+        "logloss": 0.4885295134420257,
+        "mean_prediction": 0.8229344729344732,
+        "observed_rate_equal_equation_weight": 0.825,
+        "trials": 40
+      },
+      "cost": {
+        "cases": 36,
+        "mean_absolute_log_error": 0.016462480954182648,
+        "median_absolute_percentage_error": 0.014832960701136488
+      },
+      "probability": {
+        "brier": 0.10785784143225255,
+        "equations": 40,
+        "logloss": 0.34559113431112143,
+        "mean_prediction": 0.8547244408380796,
+        "observed_rate_equal_equation_weight": 0.825,
+        "trials": 40
+      }
+    }
+  },
+  "numerical_calls": 0,
+  "original_validation_fit": false,
+  "pipeline_seconds": 21.117163083981723,
+  "selector_status": "research_only_uncalibrated",
+  "test_fit_or_tuning": false
+}

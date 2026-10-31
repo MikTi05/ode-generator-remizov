@@ -1,0 +1,43 @@
+{
+  "counts_by_complexity": {
+    "L1": 250,
+    "L2": 250,
+    "L3": 250,
+    "L4": 250
+  },
+  "counts_by_regime": {
+    "constant": 200,
+    "high_contrast": 200,
+    "moderate_varying": 200,
+    "oscillatory": 200,
+    "slow_varying": 200
+  },
+  "counts_by_split": {
+    "test": 150,
+    "train": 700,
+    "validation": 150
+  },
+  "generation_version": "all_methods_v1",
+  "master_seed": 2488,
+  "max_generation_attempts": 2,
+  "output_paths": {
+    "csv": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1.csv",
+    "metadata": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_metadata.jsonl",
+    "ml": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_ml.npz",
+    "report": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_report.json"
+  },
+  "rejection_counts": {
+    "near_zero_solution": 1
+  },
+  "samples_per_family": 5,
+  "sha256": {
+    "all_methods_equations_v1.csv": "940d6c10a8cdd0933bb5c663c681efd39bac5ed450ea37cbb95be1ca481136ad",
+    "all_methods_equations_v1_metadata.jsonl": "e464e289af2bf98dc1e6e49a1211ae2d5bf78838cee59b13c22df7bd01be0a79",
+    "all_methods_equations_v1_ml.npz": "53231f72622dda82c8210dcd2ea4a843cc48f97a2a362ace596d66b37fca7c89",
+    "all_methods_equations_v1_report.json": "5307f5d3f763949b6663fe680f2e21c714534dcf1e429ab52a3b2219e49aae86"
+  },
+  "total_equations": 1000,
+  "total_families": 200,
+  "total_rejections": 1,
+  "valid": true
+}

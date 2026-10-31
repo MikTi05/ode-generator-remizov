@@ -1,0 +1,3698 @@
+[
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.08,
+        "lower": 0.0,
+        "mean_score": 0.07853418181604913,
+        "n": 50
+      },
+      {
+        "MC_fraction": 0.125,
+        "lower": 0.1,
+        "mean_score": 0.13702432450643023,
+        "n": 40
+      },
+      {
+        "MC_fraction": 0.4444444444444444,
+        "lower": 0.2,
+        "mean_score": 0.2268135563068114,
+        "n": 9
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34303729889593754,
+        "n": 1
+      }
+    ],
+    "brier": 0.10757593748170904,
+    "candidate_id": "new__X__classifier__w1__baseline",
+    "ece": 0.02855979181589388,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.3665738356218955
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.1016949152542373,
+        "lower": 0.0,
+        "mean_score": 0.05890344535147418,
+        "n": 59
+      },
+      {
+        "MC_fraction": 0.15151515151515152,
+        "lower": 0.1,
+        "mean_score": 0.1403041781221565,
+        "n": 33
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.2,
+        "mean_score": 0.24159114796481806,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.3333333333333333,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34278977355366486,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6224826940480223,
+        "n": 1
+      }
+    ],
+    "brier": 0.11170300351638689,
+    "candidate_id": "new__X__classifier__w1__medium",
+    "ece": 0.03579146269081604,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.37829902880776944
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.09090909090909091,
+        "lower": 0.0,
+        "mean_score": 0.05741631293065227,
+        "n": 66
+      },
+      {
+        "MC_fraction": 0.13793103448275862,
+        "lower": 0.1,
+        "mean_score": 0.1470189541380768,
+        "n": 29
+      },
+      {
+        "MC_fraction": 0.75,
+        "lower": 0.2,
+        "mean_score": 0.23221128170730465,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5355939713251547,
+        "n": 1
+      }
+    ],
+    "brier": 0.11125882336487174,
+    "candidate_id": "new__X__classifier__w1__deeper",
+    "ece": 0.050808218610771144,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.3804021098716197
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.09523809523809523,
+        "lower": 0.0,
+        "mean_score": 0.08779257844446889,
+        "n": 21
+      },
+      {
+        "MC_fraction": 0.10526315789473684,
+        "lower": 0.1,
+        "mean_score": 0.14723508452622475,
+        "n": 38
+      },
+      {
+        "MC_fraction": 0.13333333333333333,
+        "lower": 0.2,
+        "mean_score": 0.2451057163544725,
+        "n": 30
+      },
+      {
+        "MC_fraction": 0.375,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.33637570741261014,
+        "n": 8
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.4,
+        "mean_score": 0.43403921576352367,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5071483593188005,
+        "n": 1
+      }
+    ],
+    "brier": 0.11717925533617865,
+    "candidate_id": "new__X__classifier__w2__baseline",
+    "ece": 0.06788681686841837,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.39205225321357523
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.10638297872340426,
+        "lower": 0.0,
+        "mean_score": 0.05522398942742275,
+        "n": 47
+      },
+      {
+        "MC_fraction": 0.038461538461538464,
+        "lower": 0.1,
+        "mean_score": 0.1455315126130644,
+        "n": 26
+      },
+      {
+        "MC_fraction": 0.2777777777777778,
+        "lower": 0.2,
+        "mean_score": 0.24444337733384758,
+        "n": 18
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3142032234758166,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.4,
+        "mean_score": 0.4477481659190684,
+        "n": 5
+      }
+    ],
+    "brier": 0.11136099570156753,
+    "candidate_id": "new__X__classifier__w2__medium",
+    "ece": 0.07283864756340157,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.3720986849239646
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.08333333333333333,
+        "lower": 0.0,
+        "mean_score": 0.04512123941520274,
+        "n": 48
+      },
+      {
+        "MC_fraction": 0.16129032258064516,
+        "lower": 0.1,
+        "mean_score": 0.1439837406218668,
+        "n": 31
+      },
+      {
+        "MC_fraction": 0.13333333333333333,
+        "lower": 0.2,
+        "mean_score": 0.23669759086802866,
+        "n": 15
+      },
+      {
+        "MC_fraction": 0.4,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3464604025640508,
+        "n": 5
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.4,
+        "mean_score": 0.4605482598029458,
+        "n": 1
+      }
+    ],
+    "brier": 0.11103298990047683,
+    "candidate_id": "new__X__classifier__w2__deeper",
+    "ece": 0.046493946587955186,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.3824596816454915
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.08839218493091425,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.05405405405405406,
+        "lower": 0.1,
+        "mean_score": 0.1445200218170844,
+        "n": 37
+      },
+      {
+        "MC_fraction": 0.21739130434782608,
+        "lower": 0.2,
+        "mean_score": 0.2431569251041394,
+        "n": 23
+      },
+      {
+        "MC_fraction": 0.16129032258064516,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34479840126629285,
+        "n": 31
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.4,
+        "mean_score": 0.44281951134483444,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5646018017889192,
+        "n": 1
+      }
+    ],
+    "brier": 0.1283264653769295,
+    "candidate_id": "new__X__classifier__w3__baseline",
+    "ece": 0.11318049110774321,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.42155524353959073
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.09523809523809523,
+        "lower": 0.0,
+        "mean_score": 0.058649511405043576,
+        "n": 42
+      },
+      {
+        "MC_fraction": 0.1,
+        "lower": 0.1,
+        "mean_score": 0.15587909837184358,
+        "n": 20
+      },
+      {
+        "MC_fraction": 0.12,
+        "lower": 0.2,
+        "mean_score": 0.24583972814642013,
+        "n": 25
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.332182172020841,
+        "n": 8
+      },
+      {
+        "MC_fraction": 0.5,
+        "lower": 0.4,
+        "mean_score": 0.444118468369159,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.3333333333333333,
+        "lower": 0.5,
+        "mean_score": 0.5393411534457315,
+        "n": 3
+      }
+    ],
+    "brier": 0.11449578106435222,
+    "candidate_id": "new__X__classifier__w3__medium",
+    "ece": 0.07187539591851148,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.38166408467065216
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.10638297872340426,
+        "lower": 0.0,
+        "mean_score": 0.04546165042155983,
+        "n": 47
+      },
+      {
+        "MC_fraction": 0.12121212121212122,
+        "lower": 0.1,
+        "mean_score": 0.14662984261885936,
+        "n": 33
+      },
+      {
+        "MC_fraction": 0.08333333333333333,
+        "lower": 0.2,
+        "mean_score": 0.24997966346884282,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.5,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3538476923703552,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.5,
+        "lower": 0.4,
+        "mean_score": 0.4677534023478692,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5078372365879809,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6023906216726329,
+        "n": 1
+      }
+    ],
+    "brier": 0.11535912870225738,
+    "candidate_id": "new__X__classifier__w3__deeper",
+    "ece": 0.07461173482318616,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.3908541072727905
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.1,
+        "lower": 0.1,
+        "mean_score": 0.15156630943612903,
+        "n": 20
+      },
+      {
+        "MC_fraction": 0.06451612903225806,
+        "lower": 0.2,
+        "mean_score": 0.24407114176395556,
+        "n": 31
+      },
+      {
+        "MC_fraction": 0.26666666666666666,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34940265304231194,
+        "n": 15
+      },
+      {
+        "MC_fraction": 0.08695652173913043,
+        "lower": 0.4,
+        "mean_score": 0.436811189959467,
+        "n": 23
+      },
+      {
+        "MC_fraction": 0.2727272727272727,
+        "lower": 0.5,
+        "mean_score": 0.5397599924312063,
+        "n": 11
+      }
+    ],
+    "brier": 0.15210244732713712,
+    "candidate_id": "new__X__classifier__w5__baseline",
+    "ece": 0.18822588664850895,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.47726613858547084
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.03225806451612903,
+        "lower": 0.0,
+        "mean_score": 0.05438637573539262,
+        "n": 31
+      },
+      {
+        "MC_fraction": 0.19230769230769232,
+        "lower": 0.1,
+        "mean_score": 0.1414321829428919,
+        "n": 26
+      },
+      {
+        "MC_fraction": 0.125,
+        "lower": 0.2,
+        "mean_score": 0.24963281305783597,
+        "n": 16
+      },
+      {
+        "MC_fraction": 0.17647058823529413,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3492204984254249,
+        "n": 17
+      },
+      {
+        "MC_fraction": 0.14285714285714285,
+        "lower": 0.4,
+        "mean_score": 0.4337812932350519,
+        "n": 7
+      },
+      {
+        "MC_fraction": 0.5,
+        "lower": 0.5,
+        "mean_score": 0.5370692119833748,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6731888632747802,
+        "n": 1
+      }
+    ],
+    "brier": 0.1223916155868307,
+    "candidate_id": "new__X__classifier__w5__medium",
+    "ece": 0.09723410713326473,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.3945117220408021
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.06666666666666667,
+        "lower": 0.0,
+        "mean_score": 0.049373894862949165,
+        "n": 45
+      },
+      {
+        "MC_fraction": 0.16666666666666666,
+        "lower": 0.1,
+        "mean_score": 0.15404250489241658,
+        "n": 24
+      },
+      {
+        "MC_fraction": 0.3125,
+        "lower": 0.2,
+        "mean_score": 0.24521653437541233,
+        "n": 16
+      },
+      {
+        "MC_fraction": 0.08333333333333333,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3438149034197926,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.4,
+        "mean_score": 0.40437074032833914,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.626034902116952,
+        "n": 2
+      }
+    ],
+    "brier": 0.12125417484841343,
+    "candidate_id": "new__X__classifier__w5__deeper",
+    "ece": 0.06939909449342446,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.38967534613083005
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.1,
+        "mean_score": 0.15391695989096668,
+        "n": 14
+      },
+      {
+        "MC_fraction": 0.16666666666666666,
+        "lower": 0.2,
+        "mean_score": 0.2607656880757291,
+        "n": 18
+      },
+      {
+        "MC_fraction": 0.10526315789473684,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.35373318634692713,
+        "n": 19
+      },
+      {
+        "MC_fraction": 0.14285714285714285,
+        "lower": 0.4,
+        "mean_score": 0.4424295816326808,
+        "n": 14
+      },
+      {
+        "MC_fraction": 0.13043478260869565,
+        "lower": 0.5,
+        "mean_score": 0.5468531652628957,
+        "n": 23
+      },
+      {
+        "MC_fraction": 0.2727272727272727,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6444730669992921,
+        "n": 11
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7464365779779635,
+        "n": 1
+      }
+    ],
+    "brier": 0.19914388286675164,
+    "candidate_id": "new__X__classifier__w8__baseline",
+    "ece": 0.27176827623302585,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.5788236775379169
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.034482758620689655,
+        "lower": 0.0,
+        "mean_score": 0.06402464213764705,
+        "n": 29
+      },
+      {
+        "MC_fraction": 0.18181818181818182,
+        "lower": 0.1,
+        "mean_score": 0.15046132079612673,
+        "n": 22
+      },
+      {
+        "MC_fraction": 0.23076923076923078,
+        "lower": 0.2,
+        "mean_score": 0.23799360964604907,
+        "n": 13
+      },
+      {
+        "MC_fraction": 0.0625,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3555746976010207,
+        "n": 16
+      },
+      {
+        "MC_fraction": 0.16666666666666666,
+        "lower": 0.4,
+        "mean_score": 0.4417693959293123,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.16666666666666666,
+        "lower": 0.5,
+        "mean_score": 0.5548275052565612,
+        "n": 6
+      },
+      {
+        "MC_fraction": 0.5,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6515578826712984,
+        "n": 2
+      }
+    ],
+    "brier": 0.13738569054494065,
+    "candidate_id": "new__X__classifier__w8__medium",
+    "ece": 0.12262991199525658,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.430341159665917
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.07692307692307693,
+        "lower": 0.0,
+        "mean_score": 0.0513394887408475,
+        "n": 39
+      },
+      {
+        "MC_fraction": 0.17391304347826086,
+        "lower": 0.1,
+        "mean_score": 0.1494531414544378,
+        "n": 23
+      },
+      {
+        "MC_fraction": 0.14285714285714285,
+        "lower": 0.2,
+        "mean_score": 0.23155969725652745,
+        "n": 14
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34824733709039424,
+        "n": 11
+      },
+      {
+        "MC_fraction": 0.2857142857142857,
+        "lower": 0.4,
+        "mean_score": 0.4274177732249602,
+        "n": 7
+      },
+      {
+        "MC_fraction": 0.5,
+        "lower": 0.5,
+        "mean_score": 0.5527180326286347,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6714486968795588,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7507606368313599,
+        "n": 1
+      }
+    ],
+    "brier": 0.12987363380860273,
+    "candidate_id": "new__X__classifier__w8__deeper",
+    "ece": 0.0925790003204078,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.4199018381793638
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.1,
+        "mean_score": 0.15627958145550266,
+        "n": 10
+      },
+      {
+        "MC_fraction": 0.1,
+        "lower": 0.2,
+        "mean_score": 0.2683958490268262,
+        "n": 10
+      },
+      {
+        "MC_fraction": 0.21428571428571427,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.340116219106091,
+        "n": 14
+      },
+      {
+        "MC_fraction": 0.11764705882352941,
+        "lower": 0.4,
+        "mean_score": 0.4542016025815055,
+        "n": 17
+      },
+      {
+        "MC_fraction": 0.1,
+        "lower": 0.5,
+        "mean_score": 0.5537103298459345,
+        "n": 20
+      },
+      {
+        "MC_fraction": 0.1111111111111111,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6453119006346905,
+        "n": 18
+      },
+      {
+        "MC_fraction": 0.3,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7416972151567376,
+        "n": 10
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.8,
+        "mean_score": 0.8467233310730798,
+        "n": 1
+      }
+    ],
+    "brier": 0.2554714553831734,
+    "candidate_id": "new__X__classifier__w12__baseline",
+    "ece": 0.34683324907177737,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.7033474812216253
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.13636363636363635,
+        "lower": 0.0,
+        "mean_score": 0.06131718958761734,
+        "n": 22
+      },
+      {
+        "MC_fraction": 0.05555555555555555,
+        "lower": 0.1,
+        "mean_score": 0.13036589178803906,
+        "n": 18
+      },
+      {
+        "MC_fraction": 0.2222222222222222,
+        "lower": 0.2,
+        "mean_score": 0.23631869956634255,
+        "n": 18
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.352233061198506,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.4,
+        "mean_score": 0.4460747792661282,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.1111111111111111,
+        "lower": 0.5,
+        "mean_score": 0.5404477182493053,
+        "n": 9
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6425530423945364,
+        "n": 5
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7530021045832231,
+        "n": 4
+      }
+    ],
+    "brier": 0.17459020624291002,
+    "candidate_id": "new__X__classifier__w12__medium",
+    "ece": 0.1891984165357622,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.5251308162636802
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.06666666666666667,
+        "lower": 0.0,
+        "mean_score": 0.05276594895566366,
+        "n": 30
+      },
+      {
+        "MC_fraction": 0.1875,
+        "lower": 0.1,
+        "mean_score": 0.14499718144879642,
+        "n": 16
+      },
+      {
+        "MC_fraction": 0.1875,
+        "lower": 0.2,
+        "mean_score": 0.243157393352646,
+        "n": 16
+      },
+      {
+        "MC_fraction": 0.15789473684210525,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3441057623978552,
+        "n": 19
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.4,
+        "mean_score": 0.45539931632467684,
+        "n": 10
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.5,
+        "mean_score": 0.537386636221308,
+        "n": 5
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.653506801259896,
+        "n": 2
+      },
+      {
+        "MC_fraction": 1.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7274770757735489,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.8,
+        "mean_score": 0.8552418418749572,
+        "n": 1
+      }
+    ],
+    "brier": 0.1527365984899539,
+    "candidate_id": "new__X__classifier__w12__deeper",
+    "ece": 0.14201299120325436,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.4736596909727051
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0851063829787234,
+        "lower": 0.0,
+        "mean_score": 0.07807334949558488,
+        "n": 47
+      },
+      {
+        "MC_fraction": 0.09090909090909091,
+        "lower": 0.1,
+        "mean_score": 0.13868187704933368,
+        "n": 44
+      },
+      {
+        "MC_fraction": 0.625,
+        "lower": 0.2,
+        "mean_score": 0.23333243396333436,
+        "n": 8
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.37358045053481076,
+        "n": 1
+      }
+    ],
+    "brier": 0.10617309246414589,
+    "candidate_id": "new__augmented__classifier__w1__baseline",
+    "ece": 0.059394761427063285,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.35977853406730176
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.06896551724137931,
+        "lower": 0.0,
+        "mean_score": 0.05749830252274325,
+        "n": 58
+      },
+      {
+        "MC_fraction": 0.18181818181818182,
+        "lower": 0.1,
+        "mean_score": 0.13847900521929965,
+        "n": 33
+      },
+      {
+        "MC_fraction": 0.3333333333333333,
+        "lower": 0.2,
+        "mean_score": 0.23018075187539563,
+        "n": 6
+      },
+      {
+        "MC_fraction": 0.5,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.35139482407024814,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7010087728179478,
+        "n": 1
+      }
+    ],
+    "brier": 0.11058176987659857,
+    "candidate_id": "new__augmented__classifier__w1__medium",
+    "ece": 0.0371242589486908,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.36786274733838376
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.07936507936507936,
+        "lower": 0.0,
+        "mean_score": 0.05605334377508088,
+        "n": 63
+      },
+      {
+        "MC_fraction": 0.13793103448275862,
+        "lower": 0.1,
+        "mean_score": 0.13884236383073387,
+        "n": 29
+      },
+      {
+        "MC_fraction": 0.5714285714285714,
+        "lower": 0.2,
+        "mean_score": 0.2289837526920242,
+        "n": 7
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6521750602664051,
+        "n": 1
+      }
+    ],
+    "brier": 0.1097471443429101,
+    "candidate_id": "new__augmented__classifier__w1__deeper",
+    "ece": 0.04544356684683422,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.36846284250419875
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.1,
+        "lower": 0.0,
+        "mean_score": 0.0881337930856439,
+        "n": 20
+      },
+      {
+        "MC_fraction": 0.10256410256410256,
+        "lower": 0.1,
+        "mean_score": 0.146409933629727,
+        "n": 39
+      },
+      {
+        "MC_fraction": 0.10344827586206896,
+        "lower": 0.2,
+        "mean_score": 0.2486793600818293,
+        "n": 29
+      },
+      {
+        "MC_fraction": 0.3333333333333333,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.32993879670643167,
+        "n": 9
+      },
+      {
+        "MC_fraction": 0.5,
+        "lower": 0.4,
+        "mean_score": 0.4068577040217498,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5456152965653716,
+        "n": 1
+      }
+    ],
+    "brier": 0.11566670988463237,
+    "candidate_id": "new__augmented__classifier__w2__baseline",
+    "ece": 0.06921463710383513,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.38952388897927187
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.06666666666666667,
+        "lower": 0.0,
+        "mean_score": 0.05612013579469754,
+        "n": 45
+      },
+      {
+        "MC_fraction": 0.10344827586206896,
+        "lower": 0.1,
+        "mean_score": 0.14013004782963862,
+        "n": 29
+      },
+      {
+        "MC_fraction": 0.2222222222222222,
+        "lower": 0.2,
+        "mean_score": 0.24308983553951002,
+        "n": 18
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.37269320688416596,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.6,
+        "lower": 0.4,
+        "mean_score": 0.4469980765951485,
+        "n": 5
+      }
+    ],
+    "brier": 0.10324504530898572,
+    "candidate_id": "new__augmented__classifier__w2__medium",
+    "ece": 0.03797071553686067,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.3494220120115829
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.1,
+        "lower": 0.0,
+        "mean_score": 0.05156472486888436,
+        "n": 50
+      },
+      {
+        "MC_fraction": 0.09090909090909091,
+        "lower": 0.1,
+        "mean_score": 0.1443595238563308,
+        "n": 33
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.2,
+        "mean_score": 0.2479236425696427,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.3333333333333333,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34657335924376703,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.5,
+        "lower": 0.5,
+        "mean_score": 0.5626583271108914,
+        "n": 2
+      }
+    ],
+    "brier": 0.10892844348310994,
+    "candidate_id": "new__augmented__classifier__w2__deeper",
+    "ece": 0.04375581064932071,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.3729175568391442
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.0911787112071902,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.05128205128205128,
+        "lower": 0.1,
+        "mean_score": 0.1481903158279769,
+        "n": 39
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.2,
+        "mean_score": 0.24725612264357016,
+        "n": 20
+      },
+      {
+        "MC_fraction": 0.13793103448275862,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3479731593917498,
+        "n": 29
+      },
+      {
+        "MC_fraction": 0.2857142857142857,
+        "lower": 0.4,
+        "mean_score": 0.44183566152271764,
+        "n": 7
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5927017816210318,
+        "n": 1
+      }
+    ],
+    "brier": 0.13025264393143052,
+    "candidate_id": "new__augmented__classifier__w3__baseline",
+    "ece": 0.11975787743889256,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.42640196773966893
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.08333333333333333,
+        "lower": 0.0,
+        "mean_score": 0.05391406878784736,
+        "n": 36
+      },
+      {
+        "MC_fraction": 0.07692307692307693,
+        "lower": 0.1,
+        "mean_score": 0.13900859397815254,
+        "n": 26
+      },
+      {
+        "MC_fraction": 0.19230769230769232,
+        "lower": 0.2,
+        "mean_score": 0.2462490392337833,
+        "n": 26
+      },
+      {
+        "MC_fraction": 0.14285714285714285,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3476704353793533,
+        "n": 7
+      },
+      {
+        "MC_fraction": 0.6666666666666666,
+        "lower": 0.4,
+        "mean_score": 0.4333003182841191,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5406890421724393,
+        "n": 2
+      }
+    ],
+    "brier": 0.11068171691433991,
+    "candidate_id": "new__augmented__classifier__w3__medium",
+    "ece": 0.07290962164295821,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.36590102960748533
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.10638297872340426,
+        "lower": 0.0,
+        "mean_score": 0.04703325306696028,
+        "n": 47
+      },
+      {
+        "MC_fraction": 0.07407407407407407,
+        "lower": 0.1,
+        "mean_score": 0.1478101951589706,
+        "n": 27
+      },
+      {
+        "MC_fraction": 0.125,
+        "lower": 0.2,
+        "mean_score": 0.23629338322158597,
+        "n": 16
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34213325823092344,
+        "n": 5
+      },
+      {
+        "MC_fraction": 1.0,
+        "lower": 0.4,
+        "mean_score": 0.4765979038454893,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5488148554505249,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6207886546196257,
+        "n": 1
+      }
+    ],
+    "brier": 0.1107536542112203,
+    "candidate_id": "new__augmented__classifier__w3__deeper",
+    "ece": 0.10011482596378748,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.37839395005343346
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.08,
+        "lower": 0.1,
+        "mean_score": 0.17013182077496275,
+        "n": 25
+      },
+      {
+        "MC_fraction": 0.043478260869565216,
+        "lower": 0.2,
+        "mean_score": 0.24367747376179147,
+        "n": 23
+      },
+      {
+        "MC_fraction": 0.2857142857142857,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3538810650188411,
+        "n": 21
+      },
+      {
+        "MC_fraction": 0.09090909090909091,
+        "lower": 0.4,
+        "mean_score": 0.4510067555070847,
+        "n": 22
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.5,
+        "mean_score": 0.5622815642388113,
+        "n": 8
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6120832428044638,
+        "n": 1
+      }
+    ],
+    "brier": 0.15580924691396603,
+    "candidate_id": "new__augmented__classifier__w5__baseline",
+    "ece": 0.19321864159161753,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.48663319378462533
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.06451612903225806,
+        "lower": 0.0,
+        "mean_score": 0.052807568506306496,
+        "n": 31
+      },
+      {
+        "MC_fraction": 0.16666666666666666,
+        "lower": 0.1,
+        "mean_score": 0.1405550237433625,
+        "n": 24
+      },
+      {
+        "MC_fraction": 0.13636363636363635,
+        "lower": 0.2,
+        "mean_score": 0.2584468948749375,
+        "n": 22
+      },
+      {
+        "MC_fraction": 0.13333333333333333,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34446573626555144,
+        "n": 15
+      },
+      {
+        "MC_fraction": 0.4,
+        "lower": 0.4,
+        "mean_score": 0.4383626414564105,
+        "n": 5
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5354310656125431,
+        "n": 3
+      }
+    ],
+    "brier": 0.1262816095738067,
+    "candidate_id": "new__augmented__classifier__w5__medium",
+    "ece": 0.08640568941815378,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.4078455568106751
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.06976744186046512,
+        "lower": 0.0,
+        "mean_score": 0.04775528857551791,
+        "n": 43
+      },
+      {
+        "MC_fraction": 0.16,
+        "lower": 0.1,
+        "mean_score": 0.15084335226619294,
+        "n": 25
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.2,
+        "mean_score": 0.254973021887672,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.16666666666666666,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3423122105691642,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.4,
+        "mean_score": 0.425783608742353,
+        "n": 6
+      },
+      {
+        "MC_fraction": 1.0,
+        "lower": 0.5,
+        "mean_score": 0.523821334451232,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7145535371540487,
+        "n": 1
+      }
+    ],
+    "brier": 0.12227026592394477,
+    "candidate_id": "new__augmented__classifier__w5__deeper",
+    "ece": 0.07088295429236875,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.3950956574046502
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.1,
+        "mean_score": 0.15490796688973707,
+        "n": 11
+      },
+      {
+        "MC_fraction": 0.125,
+        "lower": 0.2,
+        "mean_score": 0.2477969122805038,
+        "n": 24
+      },
+      {
+        "MC_fraction": 0.13333333333333333,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3595463445245936,
+        "n": 15
+      },
+      {
+        "MC_fraction": 0.23076923076923078,
+        "lower": 0.4,
+        "mean_score": 0.443048872040707,
+        "n": 13
+      },
+      {
+        "MC_fraction": 0.1,
+        "lower": 0.5,
+        "mean_score": 0.5427601060766183,
+        "n": 20
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6371251695406814,
+        "n": 15
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7305518816457828,
+        "n": 2
+      }
+    ],
+    "brier": 0.2089189598835696,
+    "candidate_id": "new__augmented__classifier__w8__baseline",
+    "ece": 0.2767712746285145,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.6005378996925165
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.037037037037037035,
+        "lower": 0.0,
+        "mean_score": 0.06493513091586973,
+        "n": 27
+      },
+      {
+        "MC_fraction": 0.13636363636363635,
+        "lower": 0.1,
+        "mean_score": 0.1481965089606985,
+        "n": 22
+      },
+      {
+        "MC_fraction": 0.26666666666666666,
+        "lower": 0.2,
+        "mean_score": 0.24864265489223591,
+        "n": 15
+      },
+      {
+        "MC_fraction": 0.07692307692307693,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3411177769660897,
+        "n": 13
+      },
+      {
+        "MC_fraction": 0.16666666666666666,
+        "lower": 0.4,
+        "mean_score": 0.446955342627882,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.16666666666666666,
+        "lower": 0.5,
+        "mean_score": 0.5285722862351981,
+        "n": 6
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6530886401820245,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7150600694769192,
+        "n": 1
+      }
+    ],
+    "brier": 0.14534622742215106,
+    "candidate_id": "new__augmented__classifier__w8__medium",
+    "ece": 0.12580775468190267,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.44818922436079217
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.11764705882352941,
+        "lower": 0.0,
+        "mean_score": 0.04678809063858026,
+        "n": 34
+      },
+      {
+        "MC_fraction": 0.09523809523809523,
+        "lower": 0.1,
+        "mean_score": 0.1355805766115779,
+        "n": 21
+      },
+      {
+        "MC_fraction": 0.15384615384615385,
+        "lower": 0.2,
+        "mean_score": 0.24079595915354945,
+        "n": 13
+      },
+      {
+        "MC_fraction": 0.23076923076923078,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.33799329116300775,
+        "n": 13
+      },
+      {
+        "MC_fraction": 0.09090909090909091,
+        "lower": 0.4,
+        "mean_score": 0.44627551599607496,
+        "n": 11
+      },
+      {
+        "MC_fraction": 0.16666666666666666,
+        "lower": 0.5,
+        "mean_score": 0.5340226112489578,
+        "n": 6
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7367650588311263,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.8,
+        "mean_score": 0.8423674640890978,
+        "n": 1
+      }
+    ],
+    "brier": 0.14543347895606817,
+    "candidate_id": "new__augmented__classifier__w8__deeper",
+    "ece": 0.13472956147617446,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.4552288451296954
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.1,
+        "mean_score": 0.17132761069776506,
+        "n": 10
+      },
+      {
+        "MC_fraction": 0.08333333333333333,
+        "lower": 0.2,
+        "mean_score": 0.2466891977216503,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.346526472392034,
+        "n": 10
+      },
+      {
+        "MC_fraction": 0.23529411764705882,
+        "lower": 0.4,
+        "mean_score": 0.44888340473271415,
+        "n": 17
+      },
+      {
+        "MC_fraction": 0.05555555555555555,
+        "lower": 0.5,
+        "mean_score": 0.5543565642388385,
+        "n": 18
+      },
+      {
+        "MC_fraction": 0.14285714285714285,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6496162237187769,
+        "n": 21
+      },
+      {
+        "MC_fraction": 0.18181818181818182,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7427486358392124,
+        "n": 11
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.8,
+        "mean_score": 0.8404774903992223,
+        "n": 1
+      }
+    ],
+    "brier": 0.2626252382711353,
+    "candidate_id": "new__augmented__classifier__w12__baseline",
+    "ece": 0.354009004230379,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.718278590509821
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.047619047619047616,
+        "lower": 0.0,
+        "mean_score": 0.05720780842653641,
+        "n": 21
+      },
+      {
+        "MC_fraction": 0.15,
+        "lower": 0.1,
+        "mean_score": 0.13986506132980764,
+        "n": 20
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.2,
+        "mean_score": 0.24787712988396995,
+        "n": 15
+      },
+      {
+        "MC_fraction": 0.06666666666666667,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.35080650860237395,
+        "n": 15
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.4,
+        "mean_score": 0.46542492896901955,
+        "n": 10
+      },
+      {
+        "MC_fraction": 0.2222222222222222,
+        "lower": 0.5,
+        "mean_score": 0.5617607941564356,
+        "n": 9
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6491110881969164,
+        "n": 6
+      },
+      {
+        "MC_fraction": 0.3333333333333333,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7385592845306855,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.8,
+        "mean_score": 0.8300334910971033,
+        "n": 1
+      }
+    ],
+    "brier": 0.17618289507330587,
+    "candidate_id": "new__augmented__classifier__w12__medium",
+    "ece": 0.17034791638625044,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.5242757922575035
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.10344827586206896,
+        "lower": 0.0,
+        "mean_score": 0.049223891804563505,
+        "n": 29
+      },
+      {
+        "MC_fraction": 0.14285714285714285,
+        "lower": 0.1,
+        "mean_score": 0.14357377908943086,
+        "n": 21
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.2,
+        "mean_score": 0.24665139853214552,
+        "n": 10
+      },
+      {
+        "MC_fraction": 0.08333333333333333,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.33740431272260024,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.1875,
+        "lower": 0.4,
+        "mean_score": 0.44595708694852265,
+        "n": 16
+      },
+      {
+        "MC_fraction": 0.1111111111111111,
+        "lower": 0.5,
+        "mean_score": 0.5477700585360227,
+        "n": 9
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6400887395168294,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7363968115800563,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.8,
+        "mean_score": 0.8737615688807798,
+        "n": 1
+      }
+    ],
+    "brier": 0.16391968104725976,
+    "candidate_id": "new__augmented__classifier__w12__deeper",
+    "ece": 0.15418413274516596,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.5003425665967929
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.04285714285714286,
+        "lower": 0.0,
+        "mean_score": 0.07672753533305186,
+        "n": 70
+      },
+      {
+        "MC_fraction": 0.12903225806451613,
+        "lower": 0.1,
+        "mean_score": 0.13755293750545497,
+        "n": 62
+      },
+      {
+        "MC_fraction": 0.4,
+        "lower": 0.2,
+        "mean_score": 0.2416282278244939,
+        "n": 10
+      },
+      {
+        "MC_fraction": 0.75,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3443432109271074,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5703055887508764,
+        "n": 4
+      }
+    ],
+    "brier": 0.1032477629004904,
+    "candidate_id": "old__X__classifier__w1__baseline",
+    "ece": 0.05591184554467984,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.34478606780362125
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.07407407407407407,
+        "lower": 0.0,
+        "mean_score": 0.06068457966529454,
+        "n": 81
+      },
+      {
+        "MC_fraction": 0.11764705882352941,
+        "lower": 0.1,
+        "mean_score": 0.137348985682315,
+        "n": 51
+      },
+      {
+        "MC_fraction": 0.2857142857142857,
+        "lower": 0.2,
+        "mean_score": 0.24017153311607914,
+        "n": 7
+      },
+      {
+        "MC_fraction": 0.6666666666666666,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3553151517358067,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.4,
+        "lower": 0.4,
+        "mean_score": 0.46075608054202555,
+        "n": 5
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5299137044783334,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7347833622814707,
+        "n": 2
+      }
+    ],
+    "brier": 0.10537137937307363,
+    "candidate_id": "old__X__classifier__w1__medium",
+    "ece": 0.03763641307760423,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.35499379683475835
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.07608695652173914,
+        "lower": 0.0,
+        "mean_score": 0.058487350579227285,
+        "n": 92
+      },
+      {
+        "MC_fraction": 0.175,
+        "lower": 0.1,
+        "mean_score": 0.13701307266662263,
+        "n": 40
+      },
+      {
+        "MC_fraction": 0.125,
+        "lower": 0.2,
+        "mean_score": 0.22798167752686926,
+        "n": 8
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3503347813662573,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.6666666666666666,
+        "lower": 0.4,
+        "mean_score": 0.4466458424512321,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.3333333333333333,
+        "lower": 0.5,
+        "mean_score": 0.5724870036147651,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6739227471474912,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.726110923227255,
+        "n": 1
+      }
+    ],
+    "brier": 0.10831475932138777,
+    "candidate_id": "old__X__classifier__w1__deeper",
+    "ece": 0.04960480651239332,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.3614342751235684
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.08614935574060296,
+        "n": 19
+      },
+      {
+        "MC_fraction": 0.07936507936507936,
+        "lower": 0.1,
+        "mean_score": 0.14411882373833973,
+        "n": 63
+      },
+      {
+        "MC_fraction": 0.17777777777777778,
+        "lower": 0.2,
+        "mean_score": 0.24627883895410044,
+        "n": 45
+      },
+      {
+        "MC_fraction": 0.26666666666666666,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.348293054944271,
+        "n": 15
+      },
+      {
+        "MC_fraction": 0.3333333333333333,
+        "lower": 0.4,
+        "mean_score": 0.42515386931258686,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5603378770433292,
+        "n": 5
+      }
+    ],
+    "brier": 0.11371616712132798,
+    "candidate_id": "old__X__classifier__w2__baseline",
+    "ece": 0.08733612149893233,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.37808218213929995
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.05,
+        "lower": 0.0,
+        "mean_score": 0.06258412850126463,
+        "n": 60
+      },
+      {
+        "MC_fraction": 0.2127659574468085,
+        "lower": 0.1,
+        "mean_score": 0.14119509318131546,
+        "n": 47
+      },
+      {
+        "MC_fraction": 0.05263157894736842,
+        "lower": 0.2,
+        "mean_score": 0.248360578977561,
+        "n": 19
+      },
+      {
+        "MC_fraction": 0.21428571428571427,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3434444916502918,
+        "n": 14
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.4,
+        "mean_score": 0.4326623336681722,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.5,
+        "lower": 0.5,
+        "mean_score": 0.5752041570698189,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6016295062259408,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7796862913875455,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.8,
+        "mean_score": 0.8013303792430256,
+        "n": 1
+      }
+    ],
+    "brier": 0.12521574035011981,
+    "candidate_id": "old__X__classifier__w2__medium",
+    "ece": 0.09659561554192121,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.404369368137826
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.09333333333333334,
+        "lower": 0.0,
+        "mean_score": 0.05592427168442458,
+        "n": 75
+      },
+      {
+        "MC_fraction": 0.175,
+        "lower": 0.1,
+        "mean_score": 0.14214650815553792,
+        "n": 40
+      },
+      {
+        "MC_fraction": 0.08695652173913043,
+        "lower": 0.2,
+        "mean_score": 0.23575915839235598,
+        "n": 23
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3567954684023163,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.6666666666666666,
+        "lower": 0.4,
+        "mean_score": 0.44434089681243644,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5455439778208054,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6742915365473431,
+        "n": 3
+      }
+    ],
+    "brier": 0.11780775639737356,
+    "candidate_id": "old__X__classifier__w2__deeper",
+    "ece": 0.08500267792617616,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.38871360736041644
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.08876782509634873,
+        "n": 7
+      },
+      {
+        "MC_fraction": 0.022222222222222223,
+        "lower": 0.1,
+        "mean_score": 0.14707810543999925,
+        "n": 45
+      },
+      {
+        "MC_fraction": 0.1590909090909091,
+        "lower": 0.2,
+        "mean_score": 0.2434489948024856,
+        "n": 44
+      },
+      {
+        "MC_fraction": 0.20588235294117646,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34905021134734987,
+        "n": 34
+      },
+      {
+        "MC_fraction": 0.2727272727272727,
+        "lower": 0.4,
+        "mean_score": 0.43553420237032603,
+        "n": 11
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5365211103372104,
+        "n": 7
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6336915147477384,
+        "n": 2
+      }
+    ],
+    "brier": 0.12863604197001138,
+    "candidate_id": "old__X__classifier__w3__baseline",
+    "ece": 0.14422173003682134,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.4177391255834302
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.04081632653061224,
+        "lower": 0.0,
+        "mean_score": 0.059830383120356205,
+        "n": 49
+      },
+      {
+        "MC_fraction": 0.17777777777777778,
+        "lower": 0.1,
+        "mean_score": 0.14467753585680826,
+        "n": 45
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.2,
+        "mean_score": 0.2490858748616216,
+        "n": 25
+      },
+      {
+        "MC_fraction": 0.058823529411764705,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3427798324996871,
+        "n": 17
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.4,
+        "mean_score": 0.4448796174332186,
+        "n": 5
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.5,
+        "mean_score": 0.5530923250489056,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6486297400574792,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7094712224050088,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.8,
+        "mean_score": 0.8050339296346217,
+        "n": 1
+      }
+    ],
+    "brier": 0.13265124751319546,
+    "candidate_id": "old__X__classifier__w3__medium",
+    "ece": 0.09622404616865077,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.42101914060997137
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.08450704225352113,
+        "lower": 0.0,
+        "mean_score": 0.05572880983038459,
+        "n": 71
+      },
+      {
+        "MC_fraction": 0.1388888888888889,
+        "lower": 0.1,
+        "mean_score": 0.14049983108853004,
+        "n": 36
+      },
+      {
+        "MC_fraction": 0.19230769230769232,
+        "lower": 0.2,
+        "mean_score": 0.2443120484589182,
+        "n": 26
+      },
+      {
+        "MC_fraction": 0.1,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34966986877431544,
+        "n": 10
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.4,
+        "mean_score": 0.4748367021518672,
+        "n": 4
+      },
+      {
+        "MC_fraction": 1.0,
+        "lower": 0.5,
+        "mean_score": 0.5117676519057899,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.635517807790212,
+        "n": 2
+      }
+    ],
+    "brier": 0.11507778766224175,
+    "candidate_id": "old__X__classifier__w3__deeper",
+    "ece": 0.06405783427457935,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.3780692769438245
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.07693797936903439,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.1,
+        "mean_score": 0.15375758934782924,
+        "n": 26
+      },
+      {
+        "MC_fraction": 0.029411764705882353,
+        "lower": 0.2,
+        "mean_score": 0.25333515449941774,
+        "n": 34
+      },
+      {
+        "MC_fraction": 0.15789473684210525,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.35081696073239416,
+        "n": 38
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.4,
+        "mean_score": 0.4542964805302611,
+        "n": 30
+      },
+      {
+        "MC_fraction": 0.3333333333333333,
+        "lower": 0.5,
+        "mean_score": 0.5480227323541998,
+        "n": 15
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6412252861986558,
+        "n": 6
+      }
+    ],
+    "brier": 0.1549770602034597,
+    "candidate_id": "old__X__classifier__w5__baseline",
+    "ece": 0.2247710812109103,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.48225871047402774
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.05405405405405406,
+        "lower": 0.0,
+        "mean_score": 0.05974017271592408,
+        "n": 37
+      },
+      {
+        "MC_fraction": 0.05263157894736842,
+        "lower": 0.1,
+        "mean_score": 0.14100847239943884,
+        "n": 38
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.2,
+        "mean_score": 0.24633461206304816,
+        "n": 35
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.35470595841006825,
+        "n": 24
+      },
+      {
+        "MC_fraction": 0.14285714285714285,
+        "lower": 0.4,
+        "mean_score": 0.4632784582308062,
+        "n": 7
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5202926520715312,
+        "n": 6
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.652939192563747,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7331397327432033,
+        "n": 1
+      }
+    ],
+    "brier": 0.12905980546984974,
+    "candidate_id": "old__X__classifier__w5__medium",
+    "ece": 0.10071390669087811,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.4078800597865214
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0196078431372549,
+        "lower": 0.0,
+        "mean_score": 0.04685652726197324,
+        "n": 51
+      },
+      {
+        "MC_fraction": 0.20833333333333334,
+        "lower": 0.1,
+        "mean_score": 0.14509467413080854,
+        "n": 48
+      },
+      {
+        "MC_fraction": 0.15384615384615385,
+        "lower": 0.2,
+        "mean_score": 0.24595945536606226,
+        "n": 26
+      },
+      {
+        "MC_fraction": 0.1875,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.351990292470178,
+        "n": 16
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.4,
+        "mean_score": 0.4502655249662541,
+        "n": 7
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5771808576794709,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7310679650235653,
+        "n": 1
+      }
+    ],
+    "brier": 0.12074802346743224,
+    "candidate_id": "old__X__classifier__w5__deeper",
+    "ece": 0.09274691032392739,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.38791621895743045
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.09356939685377896,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.1,
+        "mean_score": 0.1599066876621661,
+        "n": 10
+      },
+      {
+        "MC_fraction": 0.03571428571428571,
+        "lower": 0.2,
+        "mean_score": 0.24147800961829707,
+        "n": 28
+      },
+      {
+        "MC_fraction": 0.07142857142857142,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3487148426399118,
+        "n": 28
+      },
+      {
+        "MC_fraction": 0.17391304347826086,
+        "lower": 0.4,
+        "mean_score": 0.44422943764075323,
+        "n": 23
+      },
+      {
+        "MC_fraction": 0.22857142857142856,
+        "lower": 0.5,
+        "mean_score": 0.5500072119234465,
+        "n": 35
+      },
+      {
+        "MC_fraction": 0.15,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6340346474298719,
+        "n": 20
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7337493424485588,
+        "n": 3
+      }
+    ],
+    "brier": 0.19930953173213775,
+    "candidate_id": "old__X__classifier__w8__baseline",
+    "ece": 0.29836430259609276,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.5796817308442911
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.061930807798868906,
+        "n": 32
+      },
+      {
+        "MC_fraction": 0.12903225806451613,
+        "lower": 0.1,
+        "mean_score": 0.139479482153912,
+        "n": 31
+      },
+      {
+        "MC_fraction": 0.14285714285714285,
+        "lower": 0.2,
+        "mean_score": 0.2500167432822678,
+        "n": 28
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3462095783538952,
+        "n": 32
+      },
+      {
+        "MC_fraction": 0.06666666666666667,
+        "lower": 0.4,
+        "mean_score": 0.4466264889895376,
+        "n": 15
+      },
+      {
+        "MC_fraction": 0.125,
+        "lower": 0.5,
+        "mean_score": 0.5294383818840775,
+        "n": 8
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6203701019465077,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7376274317099287,
+        "n": 2
+      }
+    ],
+    "brier": 0.13708600021486272,
+    "candidate_id": "old__X__classifier__w8__medium",
+    "ece": 0.1335714971519452,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.4261792818634923
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.02,
+        "lower": 0.0,
+        "mean_score": 0.05416013820491756,
+        "n": 50
+      },
+      {
+        "MC_fraction": 0.1935483870967742,
+        "lower": 0.1,
+        "mean_score": 0.14003488673824557,
+        "n": 31
+      },
+      {
+        "MC_fraction": 0.2857142857142857,
+        "lower": 0.2,
+        "mean_score": 0.24841169009265965,
+        "n": 28
+      },
+      {
+        "MC_fraction": 0.11764705882352941,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3401738856747589,
+        "n": 17
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.4,
+        "mean_score": 0.4542037729449513,
+        "n": 13
+      },
+      {
+        "MC_fraction": 0.125,
+        "lower": 0.5,
+        "mean_score": 0.5434879382547163,
+        "n": 8
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6585243719518873,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.709324992315821,
+        "n": 1
+      }
+    ],
+    "brier": 0.13620812817558392,
+    "candidate_id": "old__X__classifier__w8__deeper",
+    "ece": 0.1298218696385226,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.418695299148556
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.08623162904169901,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.1,
+        "mean_score": 0.16038353120987553,
+        "n": 8
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.2,
+        "mean_score": 0.25715271480899266,
+        "n": 18
+      },
+      {
+        "MC_fraction": 0.05263157894736842,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34548318844422665,
+        "n": 19
+      },
+      {
+        "MC_fraction": 0.10714285714285714,
+        "lower": 0.4,
+        "mean_score": 0.44808812520443414,
+        "n": 28
+      },
+      {
+        "MC_fraction": 0.12,
+        "lower": 0.5,
+        "mean_score": 0.5542727914068495,
+        "n": 25
+      },
+      {
+        "MC_fraction": 0.2727272727272727,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6520345648176065,
+        "n": 33
+      },
+      {
+        "MC_fraction": 0.11764705882352941,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7407424282981486,
+        "n": 17
+      }
+    ],
+    "brier": 0.24754455462323094,
+    "candidate_id": "old__X__classifier__w12__baseline",
+    "ece": 0.36774340110473,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.6863203473254634
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.06062018527045326,
+        "n": 28
+      },
+      {
+        "MC_fraction": 0.13043478260869565,
+        "lower": 0.1,
+        "mean_score": 0.14955504016641785,
+        "n": 23
+      },
+      {
+        "MC_fraction": 0.09375,
+        "lower": 0.2,
+        "mean_score": 0.25408463624401223,
+        "n": 32
+      },
+      {
+        "MC_fraction": 0.23529411764705882,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34709300380483815,
+        "n": 17
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.4,
+        "mean_score": 0.4496886215252404,
+        "n": 20
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.5,
+        "mean_score": 0.5429392526383744,
+        "n": 16
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.638719014984159,
+        "n": 11
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7581195782969418,
+        "n": 3
+      }
+    ],
+    "brier": 0.16143198068430098,
+    "candidate_id": "old__X__classifier__w12__medium",
+    "ece": 0.18766325938884207,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.4810912349991817
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.02631578947368421,
+        "lower": 0.0,
+        "mean_score": 0.054695306872129736,
+        "n": 38
+      },
+      {
+        "MC_fraction": 0.1111111111111111,
+        "lower": 0.1,
+        "mean_score": 0.13940989717637794,
+        "n": 36
+      },
+      {
+        "MC_fraction": 0.21052631578947367,
+        "lower": 0.2,
+        "mean_score": 0.2501858619814336,
+        "n": 19
+      },
+      {
+        "MC_fraction": 0.19047619047619047,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3626603034684466,
+        "n": 21
+      },
+      {
+        "MC_fraction": 0.125,
+        "lower": 0.4,
+        "mean_score": 0.44821995763055406,
+        "n": 16
+      },
+      {
+        "MC_fraction": 0.2222222222222222,
+        "lower": 0.5,
+        "mean_score": 0.5381459286674234,
+        "n": 9
+      },
+      {
+        "MC_fraction": 0.125,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.632436844317373,
+        "n": 8
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.730038398574274,
+        "n": 3
+      }
+    ],
+    "brier": 0.1489103554645651,
+    "candidate_id": "old__X__classifier__w12__deeper",
+    "ece": 0.1382067889355509,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.45090752890560065
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.04411764705882353,
+        "lower": 0.0,
+        "mean_score": 0.07471471510365302,
+        "n": 68
+      },
+      {
+        "MC_fraction": 0.125,
+        "lower": 0.1,
+        "mean_score": 0.13723731307540765,
+        "n": 64
+      },
+      {
+        "MC_fraction": 0.4166666666666667,
+        "lower": 0.2,
+        "mean_score": 0.24491548477685046,
+        "n": 12
+      },
+      {
+        "MC_fraction": 1.0,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.33741057574354927,
+        "n": 1
+      },
+      {
+        "MC_fraction": 1.0,
+        "lower": 0.4,
+        "mean_score": 0.44921988938288654,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5574664366194569,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6158354147502715,
+        "n": 1
+      }
+    ],
+    "brier": 0.10204953149854327,
+    "candidate_id": "old__augmented__classifier__w1__baseline",
+    "ece": 0.056176047373563305,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.3407646456422816
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.07058823529411765,
+        "lower": 0.0,
+        "mean_score": 0.06146099161195096,
+        "n": 85
+      },
+      {
+        "MC_fraction": 0.16279069767441862,
+        "lower": 0.1,
+        "mean_score": 0.1380380812068653,
+        "n": 43
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.2,
+        "mean_score": 0.23439866579652974,
+        "n": 10
+      },
+      {
+        "MC_fraction": 1.0,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.31738384012210574,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.4,
+        "mean_score": 0.4503756677514434,
+        "n": 5
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5005730846952559,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7016218586187796,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.8,
+        "mean_score": 0.8039658299210222,
+        "n": 1
+      }
+    ],
+    "brier": 0.1087893433143746,
+    "candidate_id": "old__augmented__classifier__w1__medium",
+    "ece": 0.0678177908703874,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.363789282875514
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.07865168539325842,
+        "lower": 0.0,
+        "mean_score": 0.059907316815409714,
+        "n": 89
+      },
+      {
+        "MC_fraction": 0.11904761904761904,
+        "lower": 0.1,
+        "mean_score": 0.13892389790427145,
+        "n": 42
+      },
+      {
+        "MC_fraction": 0.375,
+        "lower": 0.2,
+        "mean_score": 0.22935638723476687,
+        "n": 8
+      },
+      {
+        "MC_fraction": 0.3333333333333333,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3189672733793525,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.4,
+        "mean_score": 0.4221688007293008,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.3333333333333333,
+        "lower": 0.5,
+        "mean_score": 0.5558740247695994,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.5,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6333795475111493,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7277389648413741,
+        "n": 2
+      }
+    ],
+    "brier": 0.10855476328922217,
+    "candidate_id": "old__augmented__classifier__w1__deeper",
+    "ece": 0.04348884998089927,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.36196737563054227
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.08791485927739706,
+        "n": 24
+      },
+      {
+        "MC_fraction": 0.08333333333333333,
+        "lower": 0.1,
+        "mean_score": 0.1470178413955737,
+        "n": 60
+      },
+      {
+        "MC_fraction": 0.17073170731707318,
+        "lower": 0.2,
+        "mean_score": 0.2480183072908419,
+        "n": 41
+      },
+      {
+        "MC_fraction": 0.29411764705882354,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3343985349971791,
+        "n": 17
+      },
+      {
+        "MC_fraction": 0.3333333333333333,
+        "lower": 0.4,
+        "mean_score": 0.4533797415588631,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5325029281276223,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6208820308918964,
+        "n": 3
+      }
+    ],
+    "brier": 0.11268978117379462,
+    "candidate_id": "old__augmented__classifier__w2__baseline",
+    "ece": 0.08714895982584026,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.37443255513118573
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.04918032786885246,
+        "lower": 0.0,
+        "mean_score": 0.05960133111554643,
+        "n": 61
+      },
+      {
+        "MC_fraction": 0.2222222222222222,
+        "lower": 0.1,
+        "mean_score": 0.14199628330658357,
+        "n": 45
+      },
+      {
+        "MC_fraction": 0.08,
+        "lower": 0.2,
+        "mean_score": 0.24272414004547987,
+        "n": 25
+      },
+      {
+        "MC_fraction": 0.1,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34561792388115126,
+        "n": 10
+      },
+      {
+        "MC_fraction": 0.3333333333333333,
+        "lower": 0.4,
+        "mean_score": 0.45434343105516833,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5731097185254432,
+        "n": 3
+      },
+      {
+        "MC_fraction": 1.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6178486423059846,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7333651810157926,
+        "n": 2
+      }
+    ],
+    "brier": 0.11886224504314792,
+    "candidate_id": "old__augmented__classifier__w2__medium",
+    "ece": 0.09800914905112008,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.38761928884182983
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.05714285714285714,
+        "lower": 0.0,
+        "mean_score": 0.05370115393396673,
+        "n": 70
+      },
+      {
+        "MC_fraction": 0.21739130434782608,
+        "lower": 0.1,
+        "mean_score": 0.140389098730032,
+        "n": 46
+      },
+      {
+        "MC_fraction": 0.05263157894736842,
+        "lower": 0.2,
+        "mean_score": 0.24146774464884158,
+        "n": 19
+      },
+      {
+        "MC_fraction": 0.14285714285714285,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.360583687972348,
+        "n": 7
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.4,
+        "mean_score": 0.483973622141408,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.5,
+        "mean_score": 0.5513504482435703,
+        "n": 4
+      },
+      {
+        "MC_fraction": 1.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6061356063612969,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7165620915864684,
+        "n": 1
+      }
+    ],
+    "brier": 0.10999608223231151,
+    "candidate_id": "old__augmented__classifier__w2__deeper",
+    "ece": 0.08119179446438367,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.36235901897360484
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.09289936352381502,
+        "n": 7
+      },
+      {
+        "MC_fraction": 0.058823529411764705,
+        "lower": 0.1,
+        "mean_score": 0.14812601592255598,
+        "n": 51
+      },
+      {
+        "MC_fraction": 0.11904761904761904,
+        "lower": 0.2,
+        "mean_score": 0.25007799889107457,
+        "n": 42
+      },
+      {
+        "MC_fraction": 0.22580645161290322,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3491066460111221,
+        "n": 31
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.4,
+        "mean_score": 0.44496809659324843,
+        "n": 10
+      },
+      {
+        "MC_fraction": 0.14285714285714285,
+        "lower": 0.5,
+        "mean_score": 0.539075199980183,
+        "n": 7
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6249448526307422,
+        "n": 2
+      }
+    ],
+    "brier": 0.12679109272103412,
+    "candidate_id": "old__augmented__classifier__w3__baseline",
+    "ece": 0.1400226760502815,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.41246521586557483
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0425531914893617,
+        "lower": 0.0,
+        "mean_score": 0.0595557094160272,
+        "n": 47
+      },
+      {
+        "MC_fraction": 0.17647058823529413,
+        "lower": 0.1,
+        "mean_score": 0.1440884824074614,
+        "n": 51
+      },
+      {
+        "MC_fraction": 0.12,
+        "lower": 0.2,
+        "mean_score": 0.24504336571066576,
+        "n": 25
+      },
+      {
+        "MC_fraction": 0.15384615384615385,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3407291194857798,
+        "n": 13
+      },
+      {
+        "MC_fraction": 0.16666666666666666,
+        "lower": 0.4,
+        "mean_score": 0.4271025058367248,
+        "n": 6
+      },
+      {
+        "MC_fraction": 0.3333333333333333,
+        "lower": 0.5,
+        "mean_score": 0.5503570671894101,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6131791716584278,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.740515483135267,
+        "n": 3
+      }
+    ],
+    "brier": 0.12678074648038618,
+    "candidate_id": "old__augmented__classifier__w3__medium",
+    "ece": 0.09111839643443843,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.4076052142324936
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.1095890410958904,
+        "lower": 0.0,
+        "mean_score": 0.05528582830421646,
+        "n": 73
+      },
+      {
+        "MC_fraction": 0.16216216216216217,
+        "lower": 0.1,
+        "mean_score": 0.1452579428244122,
+        "n": 37
+      },
+      {
+        "MC_fraction": 0.058823529411764705,
+        "lower": 0.2,
+        "mean_score": 0.2206309128883276,
+        "n": 17
+      },
+      {
+        "MC_fraction": 0.13333333333333333,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3440658734807928,
+        "n": 15
+      },
+      {
+        "MC_fraction": 0.16666666666666666,
+        "lower": 0.4,
+        "mean_score": 0.4454731308680136,
+        "n": 6
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6073997421527437,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7538220067157577,
+        "n": 1
+      }
+    ],
+    "brier": 0.11845578228399951,
+    "candidate_id": "old__augmented__classifier__w3__deeper",
+    "ece": 0.09023576536452661,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.39006131723957627
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.08721148898057743,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.1,
+        "mean_score": 0.15460197774483497,
+        "n": 32
+      },
+      {
+        "MC_fraction": 0.058823529411764705,
+        "lower": 0.2,
+        "mean_score": 0.2571829770891445,
+        "n": 34
+      },
+      {
+        "MC_fraction": 0.25,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3552154043941754,
+        "n": 32
+      },
+      {
+        "MC_fraction": 0.16129032258064516,
+        "lower": 0.4,
+        "mean_score": 0.44860922152010907,
+        "n": 31
+      },
+      {
+        "MC_fraction": 0.16666666666666666,
+        "lower": 0.5,
+        "mean_score": 0.5285245561258237,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.125,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6358939352839683,
+        "n": 8
+      }
+    ],
+    "brier": 0.15373811327836576,
+    "candidate_id": "old__augmented__classifier__w5__baseline",
+    "ece": 0.21654613974243223,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.47779259372452826
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.046511627906976744,
+        "lower": 0.0,
+        "mean_score": 0.06544770283831582,
+        "n": 43
+      },
+      {
+        "MC_fraction": 0.15789473684210525,
+        "lower": 0.1,
+        "mean_score": 0.16224178143214363,
+        "n": 38
+      },
+      {
+        "MC_fraction": 0.17647058823529413,
+        "lower": 0.2,
+        "mean_score": 0.24941450490564676,
+        "n": 34
+      },
+      {
+        "MC_fraction": 0.21428571428571427,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3405579744399258,
+        "n": 14
+      },
+      {
+        "MC_fraction": 0.08333333333333333,
+        "lower": 0.4,
+        "mean_score": 0.456771724889496,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.544317014198248,
+        "n": 5
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6335607972376807,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7955266090782763,
+        "n": 2
+      }
+    ],
+    "brier": 0.13686379098877485,
+    "candidate_id": "old__augmented__classifier__w5__medium",
+    "ece": 0.10192242871811397,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.42682693108917086
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.05,
+        "lower": 0.0,
+        "mean_score": 0.0498078776540724,
+        "n": 60
+      },
+      {
+        "MC_fraction": 0.1875,
+        "lower": 0.1,
+        "mean_score": 0.15336790818601134,
+        "n": 48
+      },
+      {
+        "MC_fraction": 0.3157894736842105,
+        "lower": 0.2,
+        "mean_score": 0.2388374548539702,
+        "n": 19
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.35222445734467395,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.4,
+        "mean_score": 0.4424490257632428,
+        "n": 7
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5500348394429783,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6534899421264458,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7482054513396181,
+        "n": 1
+      }
+    ],
+    "brier": 0.1259943608777145,
+    "candidate_id": "old__augmented__classifier__w5__deeper",
+    "ece": 0.08625038564288325,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.39997950329936466
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.08793147124270138,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.1,
+        "mean_score": 0.15661352913350104,
+        "n": 14
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.2,
+        "mean_score": 0.25873787573577867,
+        "n": 29
+      },
+      {
+        "MC_fraction": 0.13043478260869565,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3524509538510202,
+        "n": 23
+      },
+      {
+        "MC_fraction": 0.16129032258064516,
+        "lower": 0.4,
+        "mean_score": 0.44692462984257203,
+        "n": 31
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.5,
+        "mean_score": 0.5523904563834154,
+        "n": 30
+      },
+      {
+        "MC_fraction": 0.23529411764705882,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6533032033682415,
+        "n": 17
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7223136803846643,
+        "n": 3
+      }
+    ],
+    "brier": 0.19296122823735662,
+    "candidate_id": "old__augmented__classifier__w8__baseline",
+    "ece": 0.2917708458102964,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.565622947776247
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.05838435235954108,
+        "n": 32
+      },
+      {
+        "MC_fraction": 0.125,
+        "lower": 0.1,
+        "mean_score": 0.14851729665121005,
+        "n": 32
+      },
+      {
+        "MC_fraction": 0.20689655172413793,
+        "lower": 0.2,
+        "mean_score": 0.25581784820571296,
+        "n": 29
+      },
+      {
+        "MC_fraction": 0.21428571428571427,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34942335416759046,
+        "n": 28
+      },
+      {
+        "MC_fraction": 0.06666666666666667,
+        "lower": 0.4,
+        "mean_score": 0.4348298711057607,
+        "n": 15
+      },
+      {
+        "MC_fraction": 0.1111111111111111,
+        "lower": 0.5,
+        "mean_score": 0.5411686882471874,
+        "n": 9
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6352038010239286,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7369381768162118,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.8,
+        "mean_score": 0.858375399325142,
+        "n": 1
+      }
+    ],
+    "brier": 0.14260400894952943,
+    "candidate_id": "old__augmented__classifier__w8__medium",
+    "ece": 0.13811543682017652,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.4410620440281547
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0425531914893617,
+        "lower": 0.0,
+        "mean_score": 0.05225992781868323,
+        "n": 47
+      },
+      {
+        "MC_fraction": 0.1875,
+        "lower": 0.1,
+        "mean_score": 0.1484160892431692,
+        "n": 32
+      },
+      {
+        "MC_fraction": 0.22857142857142856,
+        "lower": 0.2,
+        "mean_score": 0.24065179907978101,
+        "n": 35
+      },
+      {
+        "MC_fraction": 0.05,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.33947538379471615,
+        "n": 20
+      },
+      {
+        "MC_fraction": 0.125,
+        "lower": 0.4,
+        "mean_score": 0.44213875432801314,
+        "n": 8
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5365657697700841,
+        "n": 4
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6117781117864122,
+        "n": 2
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7428281680931781,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.8,
+        "mean_score": 0.8222389878629416,
+        "n": 1
+      }
+    ],
+    "brier": 0.13364859750081057,
+    "candidate_id": "old__augmented__classifier__w8__deeper",
+    "ece": 0.10260812592411162,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.4163385087358026
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.07982942961633932,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.1,
+        "mean_score": 0.15184396554427404,
+        "n": 9
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.2,
+        "mean_score": 0.24532738260358594,
+        "n": 14
+      },
+      {
+        "MC_fraction": 0.043478260869565216,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.35103239602537567,
+        "n": 23
+      },
+      {
+        "MC_fraction": 0.12,
+        "lower": 0.4,
+        "mean_score": 0.44892811742797967,
+        "n": 25
+      },
+      {
+        "MC_fraction": 0.15151515151515152,
+        "lower": 0.5,
+        "mean_score": 0.5560772362645257,
+        "n": 33
+      },
+      {
+        "MC_fraction": 0.20689655172413793,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6533756061374713,
+        "n": 29
+      },
+      {
+        "MC_fraction": 0.16666666666666666,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7435988045917991,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.5,
+        "lower": 0.8,
+        "mean_score": 0.8209069813254731,
+        "n": 2
+      }
+    ],
+    "brier": 0.2402123651113528,
+    "candidate_id": "old__augmented__classifier__w12__baseline",
+    "ece": 0.3613403758129958,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.6693244321684518
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.054057038461581455,
+        "n": 28
+      },
+      {
+        "MC_fraction": 0.15384615384615385,
+        "lower": 0.1,
+        "mean_score": 0.1510044421504262,
+        "n": 26
+      },
+      {
+        "MC_fraction": 0.041666666666666664,
+        "lower": 0.2,
+        "mean_score": 0.2537005193049962,
+        "n": 24
+      },
+      {
+        "MC_fraction": 0.23076923076923078,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.3545922331070456,
+        "n": 26
+      },
+      {
+        "MC_fraction": 0.1875,
+        "lower": 0.4,
+        "mean_score": 0.44953744894602377,
+        "n": 16
+      },
+      {
+        "MC_fraction": 0.21428571428571427,
+        "lower": 0.5,
+        "mean_score": 0.554911025608832,
+        "n": 14
+      },
+      {
+        "MC_fraction": 0.08333333333333333,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6399156669733926,
+        "n": 12
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7161969347578836,
+        "n": 3
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.8,
+        "mean_score": 0.8103712376218097,
+        "n": 1
+      }
+    ],
+    "brier": 0.1691325105246655,
+    "candidate_id": "old__augmented__classifier__w12__medium",
+    "ece": 0.1899666379490166,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.49941410056999475
+  },
+  {
+    "bins": [
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.0,
+        "mean_score": 0.05243348969806326,
+        "n": 35
+      },
+      {
+        "MC_fraction": 0.12195121951219512,
+        "lower": 0.1,
+        "mean_score": 0.14232076256541415,
+        "n": 41
+      },
+      {
+        "MC_fraction": 0.2777777777777778,
+        "lower": 0.2,
+        "mean_score": 0.2457664423398902,
+        "n": 18
+      },
+      {
+        "MC_fraction": 0.2,
+        "lower": 0.30000000000000004,
+        "mean_score": 0.34431115161655673,
+        "n": 25
+      },
+      {
+        "MC_fraction": 0.15384615384615385,
+        "lower": 0.4,
+        "mean_score": 0.45231222514256575,
+        "n": 13
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.5,
+        "mean_score": 0.5297270421872996,
+        "n": 10
+      },
+      {
+        "MC_fraction": 0.16666666666666666,
+        "lower": 0.6000000000000001,
+        "mean_score": 0.6352105683788747,
+        "n": 6
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.7000000000000001,
+        "mean_score": 0.7564750315317996,
+        "n": 1
+      },
+      {
+        "MC_fraction": 0.0,
+        "lower": 0.8,
+        "mean_score": 0.8408021435935793,
+        "n": 1
+      }
+    ],
+    "brier": 0.14743943209585378,
+    "candidate_id": "old__augmented__classifier__w12__deeper",
+    "ece": 0.1362678411135671,
+    "interpretation": "descriptive validation only; no calibration or probability guarantee",
+    "logloss": 0.44736542732638934
+  }
+]

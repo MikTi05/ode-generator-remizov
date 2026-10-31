@@ -1,0 +1,506 @@
+{
+  "test": {
+    "monte_carlo": {
+      "abstention_rate": 0.0,
+      "accuracy_constrained_cost_regret": null,
+      "classification": {
+        "accuracy": null,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "confusion_labels": [
+          "remizov",
+          "monte_carlo",
+          "none"
+        ],
+        "known": 0,
+        "macro_f1_supported": null,
+        "recall": {
+          "monte_carlo": null,
+          "none": null,
+          "remizov": null
+        },
+        "support": {
+          "monte_carlo": 0,
+          "none": 0,
+          "remizov": 0
+        }
+      },
+      "conditional_accuracy_on_observed_outputs": null,
+      "cost_reason": "no common complete end-to-end costs, no actual policy/solver execution",
+      "delivery_accuracy_rate": null,
+      "evaluation": "retrospective saved outputs only; missing selected output is unobserved, not a fabricated failure",
+      "known_label_fraction": 0.0,
+      "known_labels": 0,
+      "observed_accuracy_violations": 0,
+      "observed_correct_deliveries": 0,
+      "observed_execution_failures": 0,
+      "observed_finite_outputs": 0,
+      "regret_reason": "no uniform median4 R cost evidence",
+      "requested_tasks": 150,
+      "total_policy_wall_seconds": null,
+      "unobserved_selected_outputs": 150
+    },
+    "offline_oracle": {
+      "abstain_due_to_unknown": 150,
+      "abstention_rate": 1.0,
+      "accuracy_constrained_cost_regret": null,
+      "classification": {
+        "accuracy": null,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "confusion_labels": [
+          "remizov",
+          "monte_carlo",
+          "none"
+        ],
+        "known": 0,
+        "macro_f1_supported": null,
+        "recall": {
+          "monte_carlo": null,
+          "none": null,
+          "remizov": null
+        },
+        "support": {
+          "monte_carlo": 0,
+          "none": 0,
+          "remizov": 0
+        }
+      },
+      "conditional_accuracy_on_observed_outputs": null,
+      "cost_reason": "no common complete end-to-end costs, no actual policy/solver execution",
+      "delivery_accuracy_rate": 0.0,
+      "evaluation": "retrospective saved outputs only; missing selected output is unobserved, not a fabricated failure",
+      "known_label_fraction": 0.0,
+      "known_labels": 0,
+      "observed_accuracy_violations": 0,
+      "observed_correct_deliveries": 0,
+      "observed_execution_failures": 0,
+      "observed_finite_outputs": 0,
+      "regret_reason": "no uniform median4 R cost evidence",
+      "requested_tasks": 150,
+      "total_policy_wall_seconds": null,
+      "unobserved_selected_outputs": 0
+    },
+    "remizov": {
+      "abstention_rate": 0.0,
+      "accuracy_constrained_cost_regret": null,
+      "classification": {
+        "accuracy": null,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "confusion_labels": [
+          "remizov",
+          "monte_carlo",
+          "none"
+        ],
+        "known": 0,
+        "macro_f1_supported": null,
+        "recall": {
+          "monte_carlo": null,
+          "none": null,
+          "remizov": null
+        },
+        "support": {
+          "monte_carlo": 0,
+          "none": 0,
+          "remizov": 0
+        }
+      },
+      "conditional_accuracy_on_observed_outputs": null,
+      "cost_reason": "no common complete end-to-end costs, no actual policy/solver execution",
+      "delivery_accuracy_rate": null,
+      "evaluation": "retrospective saved outputs only; missing selected output is unobserved, not a fabricated failure",
+      "known_label_fraction": 0.0,
+      "known_labels": 0,
+      "observed_accuracy_violations": 0,
+      "observed_correct_deliveries": 0,
+      "observed_execution_failures": 0,
+      "observed_finite_outputs": 0,
+      "regret_reason": "no uniform median4 R cost evidence",
+      "requested_tasks": 150,
+      "total_policy_wall_seconds": null,
+      "unobserved_selected_outputs": 150
+    }
+  },
+  "train": {
+    "monte_carlo": {
+      "abstention_rate": 0.0,
+      "accuracy_constrained_cost_regret": null,
+      "classification": {
+        "accuracy": 0.0,
+        "confusion": [
+          [
+            0,
+            22,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ]
+        ],
+        "confusion_labels": [
+          "remizov",
+          "monte_carlo",
+          "none"
+        ],
+        "known": 36,
+        "macro_f1_supported": 0.0,
+        "recall": {
+          "monte_carlo": null,
+          "none": 0.0,
+          "remizov": 0.0
+        },
+        "support": {
+          "monte_carlo": 0,
+          "none": 14,
+          "remizov": 22
+        }
+      },
+      "conditional_accuracy_on_observed_outputs": 0.025,
+      "cost_reason": "no common complete end-to-end costs, no actual policy/solver execution",
+      "delivery_accuracy_rate": null,
+      "evaluation": "retrospective saved outputs only; missing selected output is unobserved, not a fabricated failure",
+      "known_label_fraction": 0.05142857142857143,
+      "known_labels": 36,
+      "observed_accuracy_violations": 39,
+      "observed_correct_deliveries": 1,
+      "observed_execution_failures": 0,
+      "observed_finite_outputs": 40,
+      "regret_reason": "no uniform median4 R cost evidence",
+      "requested_tasks": 700,
+      "total_policy_wall_seconds": null,
+      "unobserved_selected_outputs": 660
+    },
+    "offline_oracle": {
+      "abstain_due_to_unknown": 664,
+      "abstention_rate": 0.9685714285714285,
+      "accuracy_constrained_cost_regret": null,
+      "classification": {
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            22,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            14
+          ]
+        ],
+        "confusion_labels": [
+          "remizov",
+          "monte_carlo",
+          "none"
+        ],
+        "known": 36,
+        "macro_f1_supported": 1.0,
+        "recall": {
+          "monte_carlo": null,
+          "none": 1.0,
+          "remizov": 1.0
+        },
+        "support": {
+          "monte_carlo": 0,
+          "none": 14,
+          "remizov": 22
+        }
+      },
+      "conditional_accuracy_on_observed_outputs": 1.0,
+      "cost_reason": "no common complete end-to-end costs, no actual policy/solver execution",
+      "delivery_accuracy_rate": 0.03142857142857143,
+      "evaluation": "retrospective saved outputs only; missing selected output is unobserved, not a fabricated failure",
+      "known_label_fraction": 0.05142857142857143,
+      "known_labels": 36,
+      "observed_accuracy_violations": 0,
+      "observed_correct_deliveries": 22,
+      "observed_execution_failures": 0,
+      "observed_finite_outputs": 22,
+      "regret_reason": "no uniform median4 R cost evidence",
+      "requested_tasks": 700,
+      "total_policy_wall_seconds": null,
+      "unobserved_selected_outputs": 0
+    },
+    "remizov": {
+      "abstention_rate": 0.0,
+      "accuracy_constrained_cost_regret": null,
+      "classification": {
+        "accuracy": 0.6111111111111112,
+        "confusion": [
+          [
+            22,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            0,
+            0
+          ]
+        ],
+        "confusion_labels": [
+          "remizov",
+          "monte_carlo",
+          "none"
+        ],
+        "known": 36,
+        "macro_f1_supported": 0.3793103448275862,
+        "recall": {
+          "monte_carlo": null,
+          "none": 0.0,
+          "remizov": 1.0
+        },
+        "support": {
+          "monte_carlo": 0,
+          "none": 14,
+          "remizov": 22
+        }
+      },
+      "conditional_accuracy_on_observed_outputs": 0.73,
+      "cost_reason": "no common complete end-to-end costs, no actual policy/solver execution",
+      "delivery_accuracy_rate": null,
+      "evaluation": "retrospective saved outputs only; missing selected output is unobserved, not a fabricated failure",
+      "known_label_fraction": 0.05142857142857143,
+      "known_labels": 36,
+      "observed_accuracy_violations": 27,
+      "observed_correct_deliveries": 73,
+      "observed_execution_failures": 0,
+      "observed_finite_outputs": 100,
+      "regret_reason": "no uniform median4 R cost evidence",
+      "requested_tasks": 700,
+      "total_policy_wall_seconds": null,
+      "unobserved_selected_outputs": 600
+    }
+  },
+  "validation": {
+    "monte_carlo": {
+      "abstention_rate": 0.0,
+      "accuracy_constrained_cost_regret": null,
+      "classification": {
+        "accuracy": null,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "confusion_labels": [
+          "remizov",
+          "monte_carlo",
+          "none"
+        ],
+        "known": 0,
+        "macro_f1_supported": null,
+        "recall": {
+          "monte_carlo": null,
+          "none": null,
+          "remizov": null
+        },
+        "support": {
+          "monte_carlo": 0,
+          "none": 0,
+          "remizov": 0
+        }
+      },
+      "conditional_accuracy_on_observed_outputs": null,
+      "cost_reason": "no common complete end-to-end costs, no actual policy/solver execution",
+      "delivery_accuracy_rate": null,
+      "evaluation": "retrospective saved outputs only; missing selected output is unobserved, not a fabricated failure",
+      "known_label_fraction": 0.0,
+      "known_labels": 0,
+      "observed_accuracy_violations": 0,
+      "observed_correct_deliveries": 0,
+      "observed_execution_failures": 0,
+      "observed_finite_outputs": 0,
+      "regret_reason": "no uniform median4 R cost evidence",
+      "requested_tasks": 150,
+      "total_policy_wall_seconds": null,
+      "unobserved_selected_outputs": 150
+    },
+    "offline_oracle": {
+      "abstain_due_to_unknown": 150,
+      "abstention_rate": 1.0,
+      "accuracy_constrained_cost_regret": null,
+      "classification": {
+        "accuracy": null,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "confusion_labels": [
+          "remizov",
+          "monte_carlo",
+          "none"
+        ],
+        "known": 0,
+        "macro_f1_supported": null,
+        "recall": {
+          "monte_carlo": null,
+          "none": null,
+          "remizov": null
+        },
+        "support": {
+          "monte_carlo": 0,
+          "none": 0,
+          "remizov": 0
+        }
+      },
+      "conditional_accuracy_on_observed_outputs": null,
+      "cost_reason": "no common complete end-to-end costs, no actual policy/solver execution",
+      "delivery_accuracy_rate": 0.0,
+      "evaluation": "retrospective saved outputs only; missing selected output is unobserved, not a fabricated failure",
+      "known_label_fraction": 0.0,
+      "known_labels": 0,
+      "observed_accuracy_violations": 0,
+      "observed_correct_deliveries": 0,
+      "observed_execution_failures": 0,
+      "observed_finite_outputs": 0,
+      "regret_reason": "no uniform median4 R cost evidence",
+      "requested_tasks": 150,
+      "total_policy_wall_seconds": null,
+      "unobserved_selected_outputs": 0
+    },
+    "remizov": {
+      "abstention_rate": 0.0,
+      "accuracy_constrained_cost_regret": null,
+      "classification": {
+        "accuracy": null,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "confusion_labels": [
+          "remizov",
+          "monte_carlo",
+          "none"
+        ],
+        "known": 0,
+        "macro_f1_supported": null,
+        "recall": {
+          "monte_carlo": null,
+          "none": null,
+          "remizov": null
+        },
+        "support": {
+          "monte_carlo": 0,
+          "none": 0,
+          "remizov": 0
+        }
+      },
+      "conditional_accuracy_on_observed_outputs": null,
+      "cost_reason": "no common complete end-to-end costs, no actual policy/solver execution",
+      "delivery_accuracy_rate": null,
+      "evaluation": "retrospective saved outputs only; missing selected output is unobserved, not a fabricated failure",
+      "known_label_fraction": 0.0,
+      "known_labels": 0,
+      "observed_accuracy_violations": 0,
+      "observed_correct_deliveries": 0,
+      "observed_execution_failures": 0,
+      "observed_finite_outputs": 0,
+      "regret_reason": "no uniform median4 R cost evidence",
+      "requested_tasks": 150,
+      "total_policy_wall_seconds": null,
+      "unobserved_selected_outputs": 150
+    }
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "environment": {
+    "modules": {
+      "all_methods_dataset_loader": "all_methods_dataset_loader.py",
+      "create_remizov_benchmark": "create_remizov_benchmark.py",
+      "generate_all_methods_dataset_v1": "generate_all_methods_dataset_v1.py",
+      "remizov_benchmark_loader": "remizov_benchmark_loader.py",
+      "remizov_solver": "remizov_solver.py",
+      "src.all_methods_dataset_v1": "src/all_methods_dataset_v1.py",
+      "src.all_methods_expressions": "src/all_methods_expressions.py",
+      "src.problem_types": "src/problem_types.py",
+      "validate_all_methods_dataset_v1": "validate_all_methods_dataset_v1.py",
+      "validate_remizov_benchmark": "validate_remizov_benchmark.py",
+      "verify_remizov_solver": "verify_remizov_solver.py"
+    },
+    "prefix": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv",
+    "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "versions": {
+      "numpy": "2.2.6",
+      "pytest": "9.1.1",
+      "scipy": "1.15.3",
+      "sympy": "1.14.0"
+    }
+  },
+  "excluded_execution": [
+    "1000-equation production generation",
+    "test_r1_finite_chernoff_approximations_converge_toward_exact",
+    "Full verify_remizov_solver.py studies at n=16,32",
+    "git commit, git push, GitHub repository creation"
+  ],
+  "generated_case_attempts": [
+    {
+      "T": 13.142092786567558,
+      "config": {
+        "dx_initial": 0.05,
+        "max_quadrature_refinements": 8,
+        "max_spatial_refinements": 5,
+        "max_work_grid_points": 100000,
+        "n": 1,
+        "nt_initial": 8,
+        "quadrature_atol": 1e-09,
+        "quadrature_rtol": 1e-07,
+        "spatial_atol": 1e-09,
+        "spatial_rtol": 1e-07,
+        "tail_eps": 1e-08
+      },
+      "equation_id": "AMV1_F0000_S00",
+      "failure_reason": "quadrature_not_converged",
+      "final_dx": 0.05,
+      "final_nt": 2048,
+      "max_abs_error": null,
+      "quadrature_error_estimate": 4.043714989521163e-07,
+      "runtime_seconds": 1.5675015830202028,
+      "solution_points": 0,
+      "spatial_error_estimate": null,
+      "success": false,
+      "target_points": 33,
+      "total_error_certified": false
+    },
+    {
+      "T": 25.256710982823332,
+      "config": {
+        "dx_initial": 0.05,
+        "max_quadrature_refinements": 8,
+        "max_spatial_refinements": 5,
+        "max_work_grid_points": 100000,
+        "n": 1,
+        "nt_initial": 8,
+        "quadrature_atol": 1e-09,
+        "quadrature_rtol": 1e-07,
+        "spatial_atol": 1e-09,
+        "spatial_rtol": 1e-07,
+        "tail_eps": 1e-08
+      },
+      "equation_id": "AMV1_F0005_S00",
+      "failure_reason": "",
+      "final_dx": 0.00625,
+      "final_nt": 512,
+      "max_abs_error": 3.0429668353311623,
+      "quadrature_error_estimate": 9.964738367784776e-09,
+      "runtime_seconds": 7.983011499978602,
+      "solution_points": 33,
+      "spatial_error_estimate": 3.081570798535438e-08,
+      "success": true,
+      "target_points": 33,
+      "total_error_certified": false
+    }
+  ],
+  "generation": {
+    "counts_by_complexity": {
+      "L1": 5,
+      "L2": 5,
+      "L3": 5,
+      "L4": 5
+    },
+    "counts_by_regime": {
+      "constant": 4,
+      "high_contrast": 4,
+      "moderate_varying": 4,
+      "oscillatory": 4,
+      "slow_varying": 4
+    },
+    "counts_by_split": {
+      "test": 10,
+      "train": 0,
+      "validation": 10
+    },
+    "generation_version": "all_methods_v1",
+    "master_seed": 2488,
+    "max_generation_attempts": 1,
+    "output_paths": {
+      "csv": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/data/generated/all_methods_equations_v1.csv",
+      "metadata": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/data/generated/all_methods_equations_v1_metadata.jsonl",
+      "ml": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/data/generated/all_methods_equations_v1_ml.npz",
+      "report": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/data/generated/all_methods_equations_v1_report.json"
+    },
+    "rejection_counts": {},
+    "samples_per_family": 1,
+    "sha256": {
+      "all_methods_equations_v1.csv": "ba498e3ee7432fa983a07d994b55b6e359c41fcb5353f20ab6c368b7bb76cd8b",
+      "all_methods_equations_v1_metadata.jsonl": "cef44a1950345a72cc36e7b023ad6e147c16527d3d12501c5be66f5e1afb5e16",
+      "all_methods_equations_v1_ml.npz": "1ce7d9e930138af7743bde726ba1cb68a2ef422dec406f8b901a16da10277d5a",
+      "all_methods_equations_v1_report.json": "8fbe370a582edb6535c6f25ee903cc03fc4e7bb19bf941b7b267f5a72f40f669"
+    },
+    "total_equations": 20,
+    "total_families": 20,
+    "total_rejections": 0,
+    "valid": true
+  },
+  "import_isolation": {
+    "forbidden_imports": [],
+    "original_project_runtime_dependency": false,
+    "python_files_checked": 21
+  },
+  "loading": {
+    "csv_rows": 20,
+    "first_id": "AMV1_F0000_S00",
+    "last_id": "AMV1_F0019_S00",
+    "loaded_equations": 20,
+    "max_abs_residual": 0.0,
+    "metadata_rows": 20
+  },
+  "notes": [
+    "The 20-family smoke dataset contains no train families because the unchanged splitter rounds floor(0.70*1) to zero per cell.",
+    "Original invalid escape sequence warning in all_methods_expressions.py is preserved to keep mathematical source bytes unchanged.",
+    "The new CLI integration test was corrected to distinguish analytic admissibility from convergence at a fixed budget."
+  ],
+  "project": "/Users/mikti/Documents/vsc projects/ode-generator-remizov",
+  "remizov": {
+    "T": 25.256710982823332,
+    "config": {
+      "dx_initial": 0.05,
+      "max_quadrature_refinements": 8,
+      "max_spatial_refinements": 5,
+      "max_work_grid_points": 100000,
+      "n": 1,
+      "nt_initial": 8,
+      "quadrature_atol": 1e-09,
+      "quadrature_rtol": 1e-07,
+      "spatial_atol": 1e-09,
+      "spatial_rtol": 1e-07,
+      "tail_eps": 1e-08
+    },
+    "equation_id": "AMV1_F0005_S00",
+    "failure_reason": "",
+    "final_dx": 0.00625,
+    "final_nt": 512,
+    "max_abs_error": 3.0429668353311623,
+    "quadrature_error_estimate": 9.964738367784776e-09,
+    "runtime_seconds": 7.8540518750669435,
+    "solution_points": 33,
+    "spatial_error_estimate": 3.081570798535438e-08,
+    "success": true,
+    "target_points": 33,
+    "total_error_certified": false
+  },
+  "source_integrity": {
+    "added": [],
+    "all_files_unchanged": false,
+    "changed": [
+      ".DS_Store"
+    ],
+    "code_data_tests_and_original_environment_unchanged": true,
+    "files_checked": 28450,
+    "macos_metadata_change": {
+      "after": {
+        "sha256": "ea2b31e95f64999db545dcbbea0b73f7a00517ef5dcfe990649f6495ad7fe70f",
+        "size": 18436
+      },
+      "before": {
+        "sha256": "1191f91d10d7307ce6e9278fbee848c651299ae88bbbbac5e76975bee8e67bcb",
+        "size": 18436
+      },
+      "cause": "not established; migration scripts do not write this file",
+      "path": ".DS_Store",
+      "restored": false
+    },
+    "removed": []
+  },
+  "structural_preservation": {
+    "CauchyProblem_AST_identical": true,
+    "documentation_math_blocks_identical": true
+  },
+  "tests": {
+    "command": ".venv/bin/python -B -m pytest -q tests -k 'not test_r1_finite_chernoff_approximations_converge_toward_exact'",
+    "deselected": 1,
+    "duration_seconds": 17.03,
+    "exit_code": 0,
+    "passed": 70,
+    "subtests_passed": 679,
+    "warnings": 2
+  },
+  "unchanged_mathematical_core": {
+    "remizov_solver.py": true,
+    "src/all_methods_dataset_v1.py": true,
+    "src/all_methods_expressions.py": true
+  },
+  "validation": {
+    "counts_by_split": {
+      "test": 10,
+      "validation": 10
+    },
+    "family_split_leakage": false,
+    "generation_version": "all_methods_v1",
+    "loader_compatibility_checked_ids": [
+      "AMV1_F0000_S00",
+      "AMV1_F0010_S00",
+      "AMV1_F0019_S00"
+    ],
+    "master_seed": 2488,
+    "npz_dtypes": {
+      "X": "float64",
+      "channel_order": "<U1",
+      "complexity_level": "<U2",
+      "dy_exact": "float64",
+      "equation_id": "<U14",
+      "family_id": "<U5",
+      "regime": "<U16",
+      "split": "<U10",
+      "v0": "float64",
+      "x_grid": "float64",
+      "y0": "float64",
+      "y_exact": "float64"
+    },
+    "npz_shapes": {
+      "X": [
+        20,
+        4,
+        32
+      ],
+      "channel_order": [
+        4
+      ],
+      "complexity_level": [
+        20
+      ],
+      "dy_exact": [
+        20,
+        32
+      ],
+      "equation_id": [
+        20
+      ],
+      "family_id": [
+        20
+      ],
+      "regime": [
+        20
+      ],
+      "split": [
+        20
+      ],
+      "v0": [
+        20
+      ],
+      "x_grid": [
+        32
+      ],
+      "y0": [
+        20
+      ],
+      "y_exact": [
+        20,
+        32
+      ]
+    },
+    "reproducible_from_seed": true,
+    "samples_per_family": 1,
+    "sha256": {
+      "all_methods_equations_v1.csv": "ba498e3ee7432fa983a07d994b55b6e359c41fcb5353f20ab6c368b7bb76cd8b",
+      "all_methods_equations_v1_metadata.jsonl": "cef44a1950345a72cc36e7b023ad6e147c16527d3d12501c5be66f5e1afb5e16",
+      "all_methods_equations_v1_ml.npz": "1ce7d9e930138af7743bde726ba1cb68a2ef422dec406f8b901a16da10277d5a",
+      "all_methods_equations_v1_report.json": "8fbe370a582edb6535c6f25ee903cc03fc4e7bb19bf941b7b267f5a72f40f669"
+    },
+    "structure_signature_count": 20,
+    "total_equations": 20,
+    "total_families": 20,
+    "valid": true,
+    "wide_grid_max_residual": 0.0,
+    "wide_grid_size": 1025
+  }
+}

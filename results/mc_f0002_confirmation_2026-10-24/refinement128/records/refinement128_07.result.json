@@ -1,0 +1,211 @@
+{
+  "hs": [
+    0.03125,
+    0.015625,
+    0.0078125
+  ],
+  "process_peak_rss_mib": 80.9375,
+  "result": {
+    "coupling": "PCG64 production point stream; normalized disjoint finest blocks v1",
+    "failure": null,
+    "levels": [
+      {
+        "config": {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.03125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 16121078669617617629,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        "factor": 4,
+        "failure": null,
+        "kernel_statistics": {
+          "calls": {
+            "a": 2036,
+            "b": 2036,
+            "c_R": 2037,
+            "g_R": 2037
+          },
+          "deadline": 1185787.333104416,
+          "n_batches": 1,
+          "n_normal_draws": 2084864,
+          "n_path_steps": 2084864,
+          "peak_batch_paths": 1024,
+          "values": {
+            "a": 2084864,
+            "b": 2084864,
+            "c_R": 2085888,
+            "g_R": 2085888
+          }
+        },
+        "n_steps": 2036,
+        "normal_values_generated_with_replay": 8339456,
+        "runtime_seconds": 1.0168673750013113,
+        "success": true
+      },
+      {
+        "config": {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.015625,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 16121078669617617629,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        "factor": 2,
+        "failure": null,
+        "kernel_statistics": {
+          "calls": {
+            "a": 4072,
+            "b": 4072,
+            "c_R": 4073,
+            "g_R": 4073
+          },
+          "deadline": 1185787.333104416,
+          "n_batches": 1,
+          "n_normal_draws": 4169728,
+          "n_path_steps": 4169728,
+          "peak_batch_paths": 1024,
+          "values": {
+            "a": 4169728,
+            "b": 4169728,
+            "c_R": 4170752,
+            "g_R": 4170752
+          }
+        },
+        "n_steps": 4072,
+        "normal_values_generated_with_replay": 8339456,
+        "runtime_seconds": 1.9780863751657307,
+        "success": true
+      },
+      {
+        "config": {
+          "M": 1024,
+          "T": 63.625,
+          "chunk": 1024,
+          "dt": 0.0078125,
+          "max_batch_paths": 4096,
+          "max_path_steps": 32000000,
+          "max_runtime_seconds": 20.0,
+          "max_steps": 8192,
+          "seed": 16121078669617617629,
+          "stream_id": 0,
+          "tail_eps": 0.0001
+        },
+        "factor": 1,
+        "failure": null,
+        "kernel_statistics": {
+          "calls": {
+            "a": 8144,
+            "b": 8144,
+            "c_R": 8145,
+            "g_R": 8145
+          },
+          "deadline": 1185787.333104416,
+          "n_batches": 1,
+          "n_normal_draws": 8339456,
+          "n_path_steps": 8339456,
+          "peak_batch_paths": 1024,
+          "values": {
+            "a": 8339456,
+            "b": 8339456,
+            "c_R": 8340480,
+            "g_R": 8340480
+          }
+        },
+        "n_steps": 8144,
+        "normal_values_generated_with_replay": 8339456,
+        "runtime_seconds": 3.900376250036061,
+        "success": true
+      }
+    ],
+    "preflight": {
+      "coefficient_calls": 57014,
+      "coefficient_values": 58382336,
+      "normal_values_generated_with_replay": 25018368,
+      "path_steps": 14594048,
+      "time_steps": [
+        2036,
+        4072,
+        8144
+      ],
+      "unique_finest_normal_values": 8339456
+    },
+    "production_scheme_unchanged": true,
+    "runtime_seconds": 6.895546375075355,
+    "success": true,
+    "total_error_certified": false
+  },
+  "spec": {
+    "M": 1024,
+    "attempt_id": "refinement128_07",
+    "configs": [
+      {
+        "M": 1024,
+        "T": 63.625,
+        "chunk": 1024,
+        "dt": 0.03125,
+        "max_batch_paths": 4096,
+        "max_path_steps": 32000000,
+        "max_runtime_seconds": 20.0,
+        "max_steps": 8192,
+        "seed": 16121078669617617629,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      {
+        "M": 1024,
+        "T": 63.625,
+        "chunk": 1024,
+        "dt": 0.015625,
+        "max_batch_paths": 4096,
+        "max_path_steps": 32000000,
+        "max_runtime_seconds": 20.0,
+        "max_steps": 8192,
+        "seed": 16121078669617617629,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      {
+        "M": 1024,
+        "T": 63.625,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 4096,
+        "max_path_steps": 32000000,
+        "max_runtime_seconds": 20.0,
+        "max_steps": 8192,
+        "seed": 16121078669617617629,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      }
+    ],
+    "maximum_cost": {
+      "coefficient_calls": 57014,
+      "coefficient_values": 58382336,
+      "normal_values_generated_with_replay": 25018368,
+      "path_steps": 14594048,
+      "time_steps": [
+        2036,
+        4072,
+        8144
+      ],
+      "unique_finest_normal_values": 8339456
+    },
+    "repeat": 7,
+    "seed": 16121078669617617629,
+    "stage": "refinement128"
+  },
+  "y_exact": -0.387122082343043
+}

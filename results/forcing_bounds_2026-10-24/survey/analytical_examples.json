@@ -1,0 +1,36 @@
+{
+  "cancellation": {
+    "G_reduced": 13.06640625,
+    "G_unreduced": 28733331210226.934,
+    "T_reduced": 5.543618859749502,
+    "T_unreduced": 19.753136061228155,
+    "identity": "2^40*(sin(x)-(1-2^-40)*sin(x))=sin(x)",
+    "proven_conservatism_lower_bound": 2199023255551.0
+  },
+  "examples": [
+    {
+      "G": 1.0,
+      "T": 4.258596595708119,
+      "exact_G": 1.0,
+      "name": "constant_y_half",
+      "solution_bounds": {
+        "d1": 0.0,
+        "d2": 0.0,
+        "value": 0.5
+      },
+      "tail_bound": 9.999999999999992e-05
+    },
+    {
+      "G": 4.0,
+      "T": 4.9517437762680645,
+      "exact_G": 4.0,
+      "name": "gaussian_y",
+      "solution_bounds": {
+        "d1": 1.0,
+        "d2": 2.0,
+        "value": 1.0
+      },
+      "tail_bound": 9.999999999999991e-05
+    }
+  ]
+}

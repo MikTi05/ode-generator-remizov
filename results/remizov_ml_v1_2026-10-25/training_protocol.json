@@ -1,0 +1,57 @@
+{
+  "classifier_catboost": {
+    "allow_writing_files": false,
+    "depth": 4,
+    "eval_metric": "Logloss",
+    "iterations": 1200,
+    "l2_leaf_reg": 10.0,
+    "learning_rate": 0.03,
+    "loss_function": "Logloss",
+    "random_seed": 20261025,
+    "thread_count": 1,
+    "verbose": false
+  },
+  "config": {
+    "T": null,
+    "boundary": "taper",
+    "dx": 0.0125,
+    "interp": "cubic",
+    "max_work_grid_points": 100000,
+    "n": 128,
+    "n_jobs": 1,
+    "n_steps": 32768,
+    "num_t": 513,
+    "padding": 12.0,
+    "start_method": "spawn",
+    "t_grading": "quadratic",
+    "tail_eps": 1e-08,
+    "taper_width": null
+  },
+  "created_utc": "2026-10-25T06:07:37.181468+00:00",
+  "early_stopping_rounds": 80,
+  "logistic": {
+    "C": 0.1,
+    "max_iter": 3000
+  },
+  "no_new_ode_solutions": true,
+  "regressor_catboost": {
+    "allow_writing_files": false,
+    "depth": 4,
+    "iterations": 1200,
+    "l2_leaf_reg": 10.0,
+    "learning_rate": 0.03,
+    "loss_function": "RMSE",
+    "random_seed": 20261025,
+    "target": "log(solver_seconds)",
+    "thread_count": 1,
+    "verbose": false
+  },
+  "ridge": {
+    "alpha": 100.0
+  },
+  "seed": 20261025,
+  "selection": "validation ROC-AUC for classifier, validation seconds-MAE for regression; test only after freeze",
+  "thresholds": "learned classifiers: validation maximum balanced accuracy, then failure recall; dummy fixed .5",
+  "training_scope": "saved Chernov solve cubic/taper profile only; not zero, adaptive Remizov, or method selection",
+  "uncertainty": "500 bootstrap resamples of whole held-out families, not individual equations"
+}

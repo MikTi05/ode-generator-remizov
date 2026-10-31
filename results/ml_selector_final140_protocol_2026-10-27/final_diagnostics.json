@@ -1,0 +1,83 @@
+{
+  "R_only_oracle": {
+    "scope": "post-hoc measured R128/R256 only; MC40 unknown",
+    "feasible_families": 57,
+    "selected_accurate": 57,
+    "fastest_accurate_selected": 23,
+    "missed_faster_R128": [
+      "AMV1_F0035_S00",
+      "AMV1_F0061_S00",
+      "AMV1_F0040_S00",
+      "AMV1_F0075_S00",
+      "AMV1_F0090_S00",
+      "AMV1_F0128_S00",
+      "AMV1_F0185_S00",
+      "AMV1_F0209_S00",
+      "AMV1_F0272_S00",
+      "AMV1_F0286_S00",
+      "AMV1_F0288_S00",
+      "AMV1_F0351_S00",
+      "AMV1_F0353_S00",
+      "AMV1_F0381_S00",
+      "AMV1_F0390_S00",
+      "AMV1_F0412_S00",
+      "AMV1_F0425_S00",
+      "AMV1_F0450_S00",
+      "AMV1_F0479_S00",
+      "AMV1_F0455_S00",
+      "AMV1_F0511_S00",
+      "AMV1_F0481_S00",
+      "AMV1_F0501_S00",
+      "AMV1_F0552_S00",
+      "AMV1_F0572_S00",
+      "AMV1_F0599_S00",
+      "AMV1_F0570_S00",
+      "AMV1_F0621_S00",
+      "AMV1_F0615_S00",
+      "AMV1_F0716_S00",
+      "AMV1_F0682_S00",
+      "AMV1_F0729_S00",
+      "AMV1_F0793_S00",
+      "AMV1_F0791_S00"
+    ],
+    "known_feasible_best_method_cost": 717.3725410840002,
+    "known_feasible_selected_method_cost": 1116.1313456690002,
+    "known_feasible_cost_regret": 398.758804585,
+    "unresolvable_with_measured_R": [
+      "AMV1_F0521_S00",
+      "AMV1_F0738_S00",
+      "AMV1_F0751_S00"
+    ]
+  },
+  "MC20": {
+    "successes": 0,
+    "finite_violations": 20,
+    "errors_min_median_max": [
+      0.010262413110868174,
+      0.041014631493611564,
+      0.20119967975661024
+    ],
+    "seconds_min_median_max": [
+      9.611506541,
+      34.0611109795,
+      203.909966542
+    ],
+    "mean_predicted_accuracy_probability": 0.06235161170473778,
+    "predicted_accuracy_range": [
+      0.05261335431753106,
+      0.09433972045338766
+    ],
+    "warm_cost_R128_same20": 236.02300083300003,
+    "warm_cost_R256_same20": 471.277101042,
+    "observed_MC_faster_than_R128": 1,
+    "observed_MC_faster_than_R256": 6,
+    "observed_MC_admissible_winners": 0,
+    "claims_about_fresh_seed_reliability": false
+  },
+  "execution": {
+    "total_method_wall_seconds": 3262.278640169997,
+    "full_elapsed_seconds": 3268.0407518749125,
+    "series_overhead_seconds": 5.7621117049156965,
+    "ML_feature_inference_proxy_seconds": 0.10367021199976989
+  }
+}

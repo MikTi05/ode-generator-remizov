@@ -1,0 +1,1401 @@
+{
+  "config": {
+    "M": 256,
+    "T": 2.0,
+    "chunk": 256,
+    "dt": 0.0078125,
+    "max_batch_paths": 200000,
+    "max_path_steps": 100000000,
+    "max_runtime_seconds": null,
+    "max_steps": 100000,
+    "seed": 2026102503,
+    "stream_id": 0,
+    "tail_eps": 0.0001
+  },
+  "functions": [
+    {
+      "cumulative_seconds": 0.128096333,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "solve_monte_carlo",
+      "line": 334,
+      "primitive_calls": 1,
+      "self_seconds": 6.5832e-05,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 0.127627666,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "_path_contributions",
+      "line": 252,
+      "primitive_calls": 1,
+      "self_seconds": 0.0037152680000000003,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 0.120803593,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "_values",
+      "line": 220,
+      "primitive_calls": 1026,
+      "self_seconds": 0.0015805930000000001,
+      "total_calls": 1026
+    },
+    {
+      "cumulative_seconds": 0.11537404600000001,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+      "function": "evaluate",
+      "line": 313,
+      "primitive_calls": 1026,
+      "self_seconds": 0.0005487640000000001,
+      "total_calls": 1026
+    },
+    {
+      "cumulative_seconds": 0.08874973700000001,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+      "function": "evaluate_jet2",
+      "line": 577,
+      "primitive_calls": 1797,
+      "self_seconds": 0.001492234,
+      "total_calls": 1797
+    },
+    {
+      "cumulative_seconds": 0.075982804,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+      "function": "evaluate_expression",
+      "line": 585,
+      "primitive_calls": 1540,
+      "self_seconds": 0.00047993700000000005,
+      "total_calls": 1540
+    },
+    {
+      "cumulative_seconds": 0.07153079300000001,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "_forcing",
+      "line": 237,
+      "primitive_calls": 257,
+      "self_seconds": 0.00038179,
+      "total_calls": 257
+    },
+    {
+      "cumulative_seconds": 0.06706779,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+      "function": "_evaluate_array",
+      "line": 455,
+      "primitive_calls": 1797,
+      "self_seconds": 0.026252642000000003,
+      "total_calls": 5391
+    },
+    {
+      "cumulative_seconds": 0.06705340800000001,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+      "function": "g_remizov",
+      "line": 423,
+      "primitive_calls": 257,
+      "self_seconds": 0.00017483400000000001,
+      "total_calls": 257
+    },
+    {
+      "cumulative_seconds": 0.06687857400000001,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+      "function": "g",
+      "line": 419,
+      "primitive_calls": 257,
+      "self_seconds": 0.000555804,
+      "total_calls": 257
+    },
+    {
+      "cumulative_seconds": 0.046704642000000005,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+      "function": "<listcomp>",
+      "line": 510,
+      "primitive_calls": 1797,
+      "self_seconds": 0.000752347,
+      "total_calls": 1797
+    },
+    {
+      "cumulative_seconds": 0.037696909,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+      "function": "_finite_jet",
+      "line": 447,
+      "primitive_calls": 5905,
+      "self_seconds": 0.012209919000000001,
+      "total_calls": 5905
+    },
+    {
+      "cumulative_seconds": 0.027220902,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py",
+      "function": "all",
+      "line": 2589,
+      "primitive_calls": 23111,
+      "self_seconds": 0.0046805710000000006,
+      "total_calls": 23111
+    },
+    {
+      "cumulative_seconds": 0.026924253000000002,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+      "function": "solution_jet",
+      "line": 394,
+      "primitive_calls": 257,
+      "self_seconds": 0.00021513800000000003,
+      "total_calls": 257
+    },
+    {
+      "cumulative_seconds": 0.026826888,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+      "function": "c_remizov",
+      "line": 387,
+      "primitive_calls": 514,
+      "self_seconds": 0.000770052,
+      "total_calls": 514
+    },
+    {
+      "cumulative_seconds": 0.026709115000000002,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+      "function": "evaluate_solution",
+      "line": 657,
+      "primitive_calls": 257,
+      "self_seconds": 0.001533194,
+      "total_calls": 257
+    },
+    {
+      "cumulative_seconds": 0.026665431000000003,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+      "function": "a",
+      "line": 379,
+      "primitive_calls": 513,
+      "self_seconds": 0.000964386,
+      "total_calls": 513
+    },
+    {
+      "cumulative_seconds": 0.024969751000000002,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+      "function": "b",
+      "line": 383,
+      "primitive_calls": 513,
+      "self_seconds": 0.000744828,
+      "total_calls": 513
+    },
+    {
+      "cumulative_seconds": 0.024610180000000002,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py",
+      "function": "_wrapreduction_any_all",
+      "line": 89,
+      "primitive_calls": 25164,
+      "self_seconds": 0.008927712,
+      "total_calls": 25164
+    },
+    {
+      "cumulative_seconds": 0.017919713,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "_potential",
+      "line": 245,
+      "primitive_calls": 257,
+      "self_seconds": 0.000370842,
+      "total_calls": 257
+    },
+    {
+      "cumulative_seconds": 0.013794939,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+      "function": "validate_expression",
+      "line": 263,
+      "primitive_calls": 1797,
+      "self_seconds": 0.004165848000000001,
+      "total_calls": 1797
+    },
+    {
+      "cumulative_seconds": 0.013395882000000001,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+      "function": "c",
+      "line": 391,
+      "primitive_calls": 257,
+      "self_seconds": 0.000167591,
+      "total_calls": 257
+    },
+    {
+      "cumulative_seconds": 0.0119281,
+      "file": "~",
+      "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+      "line": 0,
+      "primitive_calls": 25165,
+      "self_seconds": 0.0119281,
+      "total_calls": 25165
+    },
+    {
+      "cumulative_seconds": 0.009702509,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+      "function": "normalized_bump_jet2",
+      "line": 597,
+      "primitive_calls": 257,
+      "self_seconds": 0.004361605,
+      "total_calls": 257
+    },
+    {
+      "cumulative_seconds": 0.008058249,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+      "function": "_coerce_finite_parameter",
+      "line": 109,
+      "primitive_calls": 9756,
+      "self_seconds": 0.002611506,
+      "total_calls": 9756
+    },
+    {
+      "cumulative_seconds": 0.005908658000000001,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+      "function": "_real_values",
+      "line": 285,
+      "primitive_calls": 1026,
+      "self_seconds": 0.0014715260000000001,
+      "total_calls": 1026
+    },
+    {
+      "cumulative_seconds": 0.005515903,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+      "function": "_prepare_real_points",
+      "line": 431,
+      "primitive_calls": 2054,
+      "self_seconds": 0.002030594,
+      "total_calls": 2054
+    },
+    {
+      "cumulative_seconds": 0.005345239000000001,
+      "file": "~",
+      "function": "<built-in method builtins.isinstance>",
+      "line": 0,
+      "primitive_calls": 24951,
+      "self_seconds": 0.001689638,
+      "total_calls": 24951
+    },
+    {
+      "cumulative_seconds": 0.0046962570000000006,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_stride_tricks_impl.py",
+      "function": "broadcast_to",
+      "line": 367,
+      "primitive_calls": 2052,
+      "self_seconds": 0.000353881,
+      "total_calls": 2052
+    },
+    {
+      "cumulative_seconds": 0.004342376,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_stride_tricks_impl.py",
+      "function": "_broadcast_to",
+      "line": 340,
+      "primitive_calls": 2052,
+      "self_seconds": 0.003014408,
+      "total_calls": 2052
+    },
+    {
+      "cumulative_seconds": 0.003870885,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_type_check_impl.py",
+      "function": "iscomplexobj",
+      "line": 270,
+      "primitive_calls": 22848,
+      "self_seconds": 0.0032003360000000002,
+      "total_calls": 22848
+    },
+    {
+      "cumulative_seconds": 0.0036559350000000003,
+      "file": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/abc.py",
+      "function": "__instancecheck__",
+      "line": 117,
+      "primitive_calls": 9780,
+      "self_seconds": 0.000796859,
+      "total_calls": 9780
+    },
+    {
+      "cumulative_seconds": 0.0030605880000000004,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py",
+      "function": "<dictcomp>",
+      "line": 91,
+      "primitive_calls": 25164,
+      "self_seconds": 0.0030605880000000004,
+      "total_calls": 25164
+    },
+    {
+      "cumulative_seconds": 0.0028590760000000003,
+      "file": "~",
+      "function": "<built-in method _abc._abc_instancecheck>",
+      "line": 0,
+      "primitive_calls": 9780,
+      "self_seconds": 0.001154697,
+      "total_calls": 9780
+    },
+    {
+      "cumulative_seconds": 0.002635337,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/_ufunc_config.py",
+      "function": "__enter__",
+      "line": 440,
+      "primitive_calls": 5908,
+      "self_seconds": 0.0017229220000000002,
+      "total_calls": 5908
+    },
+    {
+      "cumulative_seconds": 0.002632072,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+      "function": "_real_coordinates",
+      "line": 272,
+      "primitive_calls": 1026,
+      "self_seconds": 0.000943191,
+      "total_calls": 1026
+    },
+    {
+      "cumulative_seconds": 0.002548243,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py",
+      "function": "any",
+      "line": 2477,
+      "primitive_calls": 2053,
+      "self_seconds": 0.00047839400000000004,
+      "total_calls": 2053
+    },
+    {
+      "cumulative_seconds": 0.001817061,
+      "file": "<string>",
+      "function": "__init__",
+      "line": 2,
+      "primitive_calls": 7959,
+      "self_seconds": 0.001817061,
+      "total_calls": 7959
+    },
+    {
+      "cumulative_seconds": 0.001758203,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+      "function": "_restore_shape",
+      "line": 567,
+      "primitive_calls": 2054,
+      "self_seconds": 0.0008933670000000001,
+      "total_calls": 2054
+    },
+    {
+      "cumulative_seconds": 0.0017510610000000002,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+      "function": "_iter_nodes_unchecked",
+      "line": 280,
+      "primitive_calls": 7188,
+      "self_seconds": 0.001635925,
+      "total_calls": 14376
+    },
+    {
+      "cumulative_seconds": 0.001704379,
+      "file": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/abc.py",
+      "function": "__subclasscheck__",
+      "line": 121,
+      "primitive_calls": 9774,
+      "self_seconds": 0.0007939760000000001,
+      "total_calls": 9774
+    },
+    {
+      "cumulative_seconds": 0.0015570170000000002,
+      "file": "~",
+      "function": "<built-in method numpy.asarray>",
+      "line": 0,
+      "primitive_calls": 34146,
+      "self_seconds": 0.0015570170000000002,
+      "total_calls": 34146
+    },
+    {
+      "cumulative_seconds": 0.0012910060000000001,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/_ufunc_config.py",
+      "function": "__exit__",
+      "line": 456,
+      "primitive_calls": 5908,
+      "self_seconds": 0.000787424,
+      "total_calls": 5908
+    },
+    {
+      "cumulative_seconds": 0.0011697880000000002,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/numeric.py",
+      "function": "zeros_like",
+      "line": 64,
+      "primitive_calls": 1285,
+      "self_seconds": 0.0008711200000000001,
+      "total_calls": 1285
+    },
+    {
+      "cumulative_seconds": 0.0011255940000000002,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py",
+      "function": "_all_dispatcher",
+      "line": 2584,
+      "primitive_calls": 23111,
+      "self_seconds": 0.0011255940000000002,
+      "total_calls": 23111
+    },
+    {
+      "cumulative_seconds": 0.001072354,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/_ufunc_config.py",
+      "function": "__init__",
+      "line": 430,
+      "primitive_calls": 5908,
+      "self_seconds": 0.001072354,
+      "total_calls": 5908
+    },
+    {
+      "cumulative_seconds": 0.001051812,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_type_check_impl.py",
+      "function": "_is_type_dispatcher",
+      "line": 171,
+      "primitive_calls": 22848,
+      "self_seconds": 0.001051812,
+      "total_calls": 22848
+    },
+    {
+      "cumulative_seconds": 0.0009104030000000001,
+      "file": "~",
+      "function": "<built-in method _abc._abc_subclasscheck>",
+      "line": 0,
+      "primitive_calls": 9774,
+      "self_seconds": 0.0009104030000000001,
+      "total_calls": 9774
+    },
+    {
+      "cumulative_seconds": 0.000694946,
+      "file": "~",
+      "function": "<method 'items' of 'dict' objects>",
+      "line": 0,
+      "primitive_calls": 25164,
+      "self_seconds": 0.000694946,
+      "total_calls": 25164
+    },
+    {
+      "cumulative_seconds": 0.000670674,
+      "file": "~",
+      "function": "<built-in method builtins.issubclass>",
+      "line": 0,
+      "primitive_calls": 22850,
+      "self_seconds": 0.000670674,
+      "total_calls": 22850
+    },
+    {
+      "cumulative_seconds": 0.000567311,
+      "file": "~",
+      "function": "<built-in method builtins.any>",
+      "line": 0,
+      "primitive_calls": 2052,
+      "self_seconds": 0.000307161,
+      "total_calls": 2052
+    },
+    {
+      "cumulative_seconds": 0.0005038740000000001,
+      "file": "~",
+      "function": "<method 'reset' of '_contextvars.ContextVar' objects>",
+      "line": 0,
+      "primitive_calls": 5909,
+      "self_seconds": 0.0005038740000000001,
+      "total_calls": 5909
+    },
+    {
+      "cumulative_seconds": 0.00047182,
+      "file": "~",
+      "function": "<built-in method numpy._core._multiarray_umath._make_extobj>",
+      "line": 0,
+      "primitive_calls": 5909,
+      "self_seconds": 0.00047182,
+      "total_calls": 5909
+    },
+    {
+      "cumulative_seconds": 0.000441054,
+      "file": "~",
+      "function": "<method 'set' of '_contextvars.ContextVar' objects>",
+      "line": 0,
+      "primitive_calls": 5909,
+      "self_seconds": 0.000441054,
+      "total_calls": 5909
+    },
+    {
+      "cumulative_seconds": 0.00034328500000000003,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py",
+      "function": "iterable",
+      "line": 339,
+      "primitive_calls": 2052,
+      "self_seconds": 0.00025189,
+      "total_calls": 2052
+    },
+    {
+      "cumulative_seconds": 0.000294025,
+      "file": "~",
+      "function": "<built-in method math.isfinite>",
+      "line": 0,
+      "primitive_calls": 9778,
+      "self_seconds": 0.000294025,
+      "total_calls": 9778
+    },
+    {
+      "cumulative_seconds": 0.000264209,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "_tail_bound",
+      "line": 181,
+      "primitive_calls": 1,
+      "self_seconds": 1.4583e-05,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 0.00026015,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_stride_tricks_impl.py",
+      "function": "<genexpr>",
+      "line": 345,
+      "primitive_calls": 4104,
+      "self_seconds": 0.00026015,
+      "total_calls": 4104
+    },
+    {
+      "cumulative_seconds": 0.00025890900000000004,
+      "file": "~",
+      "function": "<method 'items' of 'mappingproxy' objects>",
+      "line": 0,
+      "primitive_calls": 5391,
+      "self_seconds": 0.00025890900000000004,
+      "total_calls": 5391
+    },
+    {
+      "cumulative_seconds": 0.00022463000000000002,
+      "file": "~",
+      "function": "<built-in method builtins.len>",
+      "line": 0,
+      "primitive_calls": 5392,
+      "self_seconds": 0.00022463000000000002,
+      "total_calls": 5392
+    },
+    {
+      "cumulative_seconds": 0.000205166,
+      "file": "~",
+      "function": "<method 'ln' of 'decimal.Decimal' objects>",
+      "line": 0,
+      "primitive_calls": 3,
+      "self_seconds": 0.000205166,
+      "total_calls": 3
+    },
+    {
+      "cumulative_seconds": 0.00018611700000000002,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_stride_tricks_impl.py",
+      "function": "_maybe_view_as_subclass",
+      "line": 24,
+      "primitive_calls": 2052,
+      "self_seconds": 0.00018611700000000002,
+      "total_calls": 2052
+    },
+    {
+      "cumulative_seconds": 0.00017163100000000002,
+      "file": "~",
+      "function": "<built-in method numpy.zeros>",
+      "line": 0,
+      "primitive_calls": 1287,
+      "self_seconds": 0.00017163100000000002,
+      "total_calls": 1287
+    },
+    {
+      "cumulative_seconds": 0.00013085200000000001,
+      "file": "~",
+      "function": "<built-in method numpy.array>",
+      "line": 0,
+      "primitive_calls": 2052,
+      "self_seconds": 0.00013085200000000001,
+      "total_calls": 2052
+    },
+    {
+      "cumulative_seconds": 0.000106358,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_stride_tricks_impl.py",
+      "function": "_broadcast_to_dispatcher",
+      "line": 363,
+      "primitive_calls": 2052,
+      "self_seconds": 0.000106358,
+      "total_calls": 2052
+    },
+    {
+      "cumulative_seconds": 0.00010040300000000001,
+      "file": "~",
+      "function": "<method '__exit__' of 'numpy.nditer' objects>",
+      "line": 0,
+      "primitive_calls": 2052,
+      "self_seconds": 0.00010040300000000001,
+      "total_calls": 2052
+    },
+    {
+      "cumulative_seconds": 9.9541e-05,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py",
+      "function": "_any_dispatcher",
+      "line": 2472,
+      "primitive_calls": 2053,
+      "self_seconds": 9.9541e-05,
+      "total_calls": 2053
+    },
+    {
+      "cumulative_seconds": 9.1395e-05,
+      "file": "~",
+      "function": "<built-in method builtins.iter>",
+      "line": 0,
+      "primitive_calls": 2052,
+      "self_seconds": 9.1395e-05,
+      "total_calls": 2052
+    },
+    {
+      "cumulative_seconds": 8.570700000000001e-05,
+      "file": "~",
+      "function": "<method 'astype' of 'numpy.ndarray' objects>",
+      "line": 0,
+      "primitive_calls": 1026,
+      "self_seconds": 8.570700000000001e-05,
+      "total_calls": 1026
+    },
+    {
+      "cumulative_seconds": 6.7766e-05,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/multiarray.py",
+      "function": "copyto",
+      "line": 1098,
+      "primitive_calls": 1286,
+      "self_seconds": 6.7766e-05,
+      "total_calls": 1286
+    },
+    {
+      "cumulative_seconds": 6.1547e-05,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/numeric.py",
+      "function": "_zeros_like_dispatcher",
+      "line": 58,
+      "primitive_calls": 1285,
+      "self_seconds": 6.1547e-05,
+      "total_calls": 1285
+    },
+    {
+      "cumulative_seconds": 6.0105e-05,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/multiarray.py",
+      "function": "empty_like",
+      "line": 107,
+      "primitive_calls": 1285,
+      "self_seconds": 6.0105e-05,
+      "total_calls": 1285
+    },
+    {
+      "cumulative_seconds": 4.8189e-05,
+      "file": "~",
+      "function": "<method 'copy' of 'numpy.ndarray' objects>",
+      "line": 0,
+      "primitive_calls": 259,
+      "self_seconds": 4.8189e-05,
+      "total_calls": 259
+    },
+    {
+      "cumulative_seconds": 3.1125000000000004e-05,
+      "file": "~",
+      "function": "<method 'exp' of 'decimal.Decimal' objects>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 3.1125000000000004e-05,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 3.0371e-05,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "check_time",
+      "line": 215,
+      "primitive_calls": 259,
+      "self_seconds": 3.0371e-05,
+      "total_calls": 259
+    },
+    {
+      "cumulative_seconds": 2.5959e-05,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "add",
+      "line": 296,
+      "primitive_calls": 1,
+      "self_seconds": 1.1167e-05,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 2.4547e-05,
+      "file": "~",
+      "function": "<built-in method math.sqrt>",
+      "line": 0,
+      "primitive_calls": 513,
+      "self_seconds": 2.4547e-05,
+      "total_calls": 513
+    },
+    {
+      "cumulative_seconds": 1.8125e-05,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "_gap_lower",
+      "line": 165,
+      "primitive_calls": 1,
+      "self_seconds": 2.582e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 1.5834e-05,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "validate",
+      "line": 59,
+      "primitive_calls": 1,
+      "self_seconds": 3.878e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 1.2875000000000001e-05,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py",
+      "function": "mean",
+      "line": 3735,
+      "primitive_calls": 1,
+      "self_seconds": 1.958e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 1.2667000000000001e-05,
+      "file": "~",
+      "function": "<built-in method builtins.all>",
+      "line": 0,
+      "primitive_calls": 3,
+      "self_seconds": 1.6680000000000002e-06,
+      "total_calls": 3
+    },
+    {
+      "cumulative_seconds": 1.0917e-05,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/_methods.py",
+      "function": "_mean",
+      "line": 118,
+      "primitive_calls": 1,
+      "self_seconds": 5e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 9.956000000000001e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "_real",
+      "line": 122,
+      "primitive_calls": 11,
+      "self_seconds": 4.412e-06,
+      "total_calls": 11
+    },
+    {
+      "cumulative_seconds": 9.916000000000001e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "<listcomp>",
+      "line": 366,
+      "primitive_calls": 1,
+      "self_seconds": 1.5e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 9.250000000000001e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/_ufunc_config.py",
+      "function": "inner",
+      "line": 464,
+      "primitive_calls": 1,
+      "self_seconds": 8.499000000000001e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 8.584000000000001e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py",
+      "function": "diff",
+      "line": 1369,
+      "primitive_calls": 1,
+      "self_seconds": 8.001e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 8.416e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "_spawn_key",
+      "line": 321,
+      "primitive_calls": 1,
+      "self_seconds": 5.458e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 8.207000000000001e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "<genexpr>",
+      "line": 427,
+      "primitive_calls": 6,
+      "self_seconds": 2.249e-06,
+      "total_calls": 6
+    },
+    {
+      "cumulative_seconds": 7.999e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "_integer",
+      "line": 116,
+      "primitive_calls": 7,
+      "self_seconds": 2.5e-06,
+      "total_calls": 7
+    },
+    {
+      "cumulative_seconds": 7.3340000000000004e-06,
+      "file": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/fractions.py",
+      "function": "__new__",
+      "line": 62,
+      "primitive_calls": 4,
+      "self_seconds": 5.2500000000000006e-06,
+      "total_calls": 4
+    },
+    {
+      "cumulative_seconds": 6.792e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py",
+      "function": "_problem_conditions_valid",
+      "line": 180,
+      "primitive_calls": 1,
+      "self_seconds": 2.413e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 5.500000000000001e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "_decimal_float_upper",
+      "line": 174,
+      "primitive_calls": 1,
+      "self_seconds": 4.916e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 5.1260000000000006e-06,
+      "file": "~",
+      "function": "<built-in method from_float>",
+      "line": 0,
+      "primitive_calls": 2,
+      "self_seconds": 5.1260000000000006e-06,
+      "total_calls": 2
+    },
+    {
+      "cumulative_seconds": 4.875e-06,
+      "file": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/fractions.py",
+      "function": "forward",
+      "line": 356,
+      "primitive_calls": 1,
+      "self_seconds": 5.420000000000001e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 4.542e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py",
+      "function": "_validate_target_x",
+      "line": 213,
+      "primitive_calls": 1,
+      "self_seconds": 2.667e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 4.292000000000001e-06,
+      "file": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/fractions.py",
+      "function": "_sub",
+      "line": 467,
+      "primitive_calls": 1,
+      "self_seconds": 2.832e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 3.833e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/_methods.py",
+      "function": "_count_reduce_items",
+      "line": 76,
+      "primitive_calls": 1,
+      "self_seconds": 3.458e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 2.708e-06,
+      "file": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/fractions.py",
+      "function": "_richcmp",
+      "line": 691,
+      "primitive_calls": 2,
+      "self_seconds": 1.958e-06,
+      "total_calls": 2
+    },
+    {
+      "cumulative_seconds": 2.6250000000000003e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "validate",
+      "line": 36,
+      "primitive_calls": 1,
+      "self_seconds": 1.666e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 2.375e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/numeric.py",
+      "function": "full",
+      "line": 290,
+      "primitive_calls": 1,
+      "self_seconds": 1.833e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 1.916e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "<lambda>",
+      "line": 212,
+      "primitive_calls": 1,
+      "self_seconds": 1.082e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 1.7920000000000002e-06,
+      "file": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/fractions.py",
+      "function": "__gt__",
+      "line": 717,
+      "primitive_calls": 1,
+      "self_seconds": 3.34e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 1.7500000000000002e-06,
+      "file": "~",
+      "function": "<built-in method decimal.localcontext>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 1.7500000000000002e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 1.709e-06,
+      "file": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/fractions.py",
+      "function": "__le__",
+      "line": 721,
+      "primitive_calls": 1,
+      "self_seconds": 4.59e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 1.667e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py",
+      "function": "<genexpr>",
+      "line": 181,
+      "primitive_calls": 5,
+      "self_seconds": 1.5020000000000002e-06,
+      "total_calls": 5
+    },
+    {
+      "cumulative_seconds": 1.207e-06,
+      "file": "~",
+      "function": "<built-in method builtins.getattr>",
+      "line": 0,
+      "primitive_calls": 13,
+      "self_seconds": 1.207e-06,
+      "total_calls": 13
+    },
+    {
+      "cumulative_seconds": 1.125e-06,
+      "file": "~",
+      "function": "<built-in method _struct.pack>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 1.125e-06,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 1.125e-06,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py",
+      "function": "<genexpr>",
+      "line": 198,
+      "primitive_calls": 8,
+      "self_seconds": 1.0420000000000001e-06,
+      "total_calls": 8
+    },
+    {
+      "cumulative_seconds": 9.59e-07,
+      "file": "~",
+      "function": "<built-in method fromkeys>",
+      "line": 0,
+      "primitive_calls": 2,
+      "self_seconds": 9.59e-07,
+      "total_calls": 2
+    },
+    {
+      "cumulative_seconds": 7.08e-07,
+      "file": "~",
+      "function": "<built-in method numpy.lib.array_utils.normalize_axis_index>",
+      "line": 0,
+      "primitive_calls": 2,
+      "self_seconds": 7.08e-07,
+      "total_calls": 2
+    },
+    {
+      "cumulative_seconds": 6.67e-07,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "stderr",
+      "line": 315,
+      "primitive_calls": 1,
+      "self_seconds": 6.25e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 6.25e-07,
+      "file": "~",
+      "function": "<method 'digest' of '_hashlib.HASH' objects>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 6.25e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 5.870000000000001e-07,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py",
+      "function": "<genexpr>",
+      "line": 184,
+      "primitive_calls": 8,
+      "self_seconds": 5.870000000000001e-07,
+      "total_calls": 8
+    },
+    {
+      "cumulative_seconds": 5.84e-07,
+      "file": "~",
+      "function": "<method 'next_plus' of 'decimal.Context' objects>",
+      "line": 0,
+      "primitive_calls": 2,
+      "self_seconds": 5.84e-07,
+      "total_calls": 2
+    },
+    {
+      "cumulative_seconds": 5.830000000000001e-07,
+      "file": "~",
+      "function": "<built-in method _hashlib.openssl_sha256>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 5.830000000000001e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 5.420000000000001e-07,
+      "file": "~",
+      "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 5.420000000000001e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 5.420000000000001e-07,
+      "file": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/numbers.py",
+      "function": "__float__",
+      "line": 283,
+      "primitive_calls": 1,
+      "self_seconds": 4.59e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 5.420000000000001e-07,
+      "file": "~",
+      "function": "<method 'as_integer_ratio' of 'float' objects>",
+      "line": 0,
+      "primitive_calls": 3,
+      "self_seconds": 5.420000000000001e-07,
+      "total_calls": 3
+    },
+    {
+      "cumulative_seconds": 5.000000000000001e-07,
+      "file": "~",
+      "function": "<built-in method _struct.unpack>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 5.000000000000001e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 5.000000000000001e-07,
+      "file": "~",
+      "function": "<method 'append' of 'list' objects>",
+      "line": 0,
+      "primitive_calls": 3,
+      "self_seconds": 5.000000000000001e-07,
+      "total_calls": 3
+    },
+    {
+      "cumulative_seconds": 5.000000000000001e-07,
+      "file": "~",
+      "function": "<built-in method builtins.hasattr>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 5.000000000000001e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 5.000000000000001e-07,
+      "file": "~",
+      "function": "<built-in method numpy.empty>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 5.000000000000001e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 4.1700000000000004e-07,
+      "file": "~",
+      "function": "<method 'next_minus' of 'decimal.Context' objects>",
+      "line": 0,
+      "primitive_calls": 2,
+      "self_seconds": 4.1700000000000004e-07,
+      "total_calls": 2
+    },
+    {
+      "cumulative_seconds": 3.35e-07,
+      "file": "~",
+      "function": "<built-in method __new__ of type object at 0x101177b20>",
+      "line": 0,
+      "primitive_calls": 4,
+      "self_seconds": 3.35e-07,
+      "total_calls": 4
+    },
+    {
+      "cumulative_seconds": 3.34e-07,
+      "file": "~",
+      "function": "<built-in method math.gcd>",
+      "line": 0,
+      "primitive_calls": 2,
+      "self_seconds": 3.34e-07,
+      "total_calls": 2
+    },
+    {
+      "cumulative_seconds": 3.34e-07,
+      "file": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/fractions.py",
+      "function": "numerator",
+      "line": 256,
+      "primitive_calls": 4,
+      "self_seconds": 3.34e-07,
+      "total_calls": 4
+    },
+    {
+      "cumulative_seconds": 3.3300000000000003e-07,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/multiarray.py",
+      "function": "concatenate",
+      "line": 180,
+      "primitive_calls": 4,
+      "self_seconds": 3.3300000000000003e-07,
+      "total_calls": 4
+    },
+    {
+      "cumulative_seconds": 3.3300000000000003e-07,
+      "file": "~",
+      "function": "<built-in method builtins.max>",
+      "line": 0,
+      "primitive_calls": 2,
+      "self_seconds": 3.3300000000000003e-07,
+      "total_calls": 2
+    },
+    {
+      "cumulative_seconds": 2.92e-07,
+      "file": "~",
+      "function": "<built-in method builtins.min>",
+      "line": 0,
+      "primitive_calls": 2,
+      "self_seconds": 2.92e-07,
+      "total_calls": 2
+    },
+    {
+      "cumulative_seconds": 2.91e-07,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+      "function": "<lambda>",
+      "line": 213,
+      "primitive_calls": 1,
+      "self_seconds": 1.66e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 2.5000000000000004e-07,
+      "file": "~",
+      "function": "<method '__exit__' of 'decimal.ContextManager' objects>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 2.5000000000000004e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 2.5000000000000004e-07,
+      "file": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/fractions.py",
+      "function": "denominator",
+      "line": 260,
+      "primitive_calls": 4,
+      "self_seconds": 2.5000000000000004e-07,
+      "total_calls": 4
+    },
+    {
+      "cumulative_seconds": 2.08e-07,
+      "file": "~",
+      "function": "<built-in method time.perf_counter>",
+      "line": 0,
+      "primitive_calls": 3,
+      "self_seconds": 2.08e-07,
+      "total_calls": 3
+    },
+    {
+      "cumulative_seconds": 1.67e-07,
+      "file": "~",
+      "function": "<built-in method math.nextafter>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 1.67e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 1.67e-07,
+      "file": "~",
+      "function": "<built-in method numpy.asanyarray>",
+      "line": 0,
+      "primitive_calls": 2,
+      "self_seconds": 1.67e-07,
+      "total_calls": 2
+    },
+    {
+      "cumulative_seconds": 1.67e-07,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py",
+      "function": "_diff_dispatcher",
+      "line": 1365,
+      "primitive_calls": 1,
+      "self_seconds": 1.67e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 1.65e-07,
+      "file": "~",
+      "function": "<built-in method builtins.callable>",
+      "line": 0,
+      "primitive_calls": 4,
+      "self_seconds": 1.65e-07,
+      "total_calls": 4
+    },
+    {
+      "cumulative_seconds": 1.2500000000000002e-07,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/multiarray.py",
+      "function": "dot",
+      "line": 761,
+      "primitive_calls": 1,
+      "self_seconds": 1.2500000000000002e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 1.2500000000000002e-07,
+      "file": "~",
+      "function": "<method 'encode' of 'str' objects>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 1.2500000000000002e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 1.2500000000000002e-07,
+      "file": "~",
+      "function": "<method 'strip' of 'str' objects>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 1.2500000000000002e-07,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 8.3e-08,
+      "file": "~",
+      "function": "<built-in method math.ceil>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 8.3e-08,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 8.3e-08,
+      "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py",
+      "function": "_mean_dispatcher",
+      "line": 3730,
+      "primitive_calls": 1,
+      "self_seconds": 8.3e-08,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 8.3e-08,
+      "file": "~",
+      "function": "<built-in method _operator.le>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 8.3e-08,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 8.3e-08,
+      "file": "~",
+      "function": "<built-in method _operator.gt>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 8.3e-08,
+      "total_calls": 1
+    },
+    {
+      "cumulative_seconds": 8.3e-08,
+      "file": "~",
+      "function": "<method 'copy_negate' of 'decimal.Decimal' objects>",
+      "line": 0,
+      "primitive_calls": 1,
+      "self_seconds": 8.3e-08,
+      "total_calls": 1
+    }
+  ],
+  "problem_id": "AMV1_F0002_S00",
+  "profiled_wall_seconds": 0.12810429208911955,
+  "result": {
+    "M": 256,
+    "T": 2.0,
+    "applicability_status": "bounds_certified_regularity_assumed",
+    "ci95": [
+      0.08829763492512835
+    ],
+    "ci_lower": [
+      -0.4043344368509668
+    ],
+    "ci_upper": [
+      -0.2277391670007101
+    ],
+    "coefficient_calls": {
+      "a": 256,
+      "b": 256,
+      "c_R": 257,
+      "g_R": 257
+    },
+    "coefficient_values": {
+      "a": 65536,
+      "b": 65536,
+      "c_R": 65792,
+      "g_R": 65792
+    },
+    "completed_paths": [
+      256
+    ],
+    "confidence_level": 0.95,
+    "discretization_error_bound": null,
+    "dt_actual": 0.0078125,
+    "dt_requested": 0.0078125,
+    "f": [
+      -0.31603680192583844
+    ],
+    "failure_reason": "",
+    "forcing_abs_upper_bound": 380.99952616975816,
+    "forcing_bound_source": "all_methods_forcing_bounds_v1:AMV1_F0002_S00:sha256=a8e6a64c2b2d6fabf6f356c408c2b1cae52cc1b00327ca38839360c8589a718b",
+    "interval_kind": "pointwise_asymptotic_normal_for_discrete_truncated_mean",
+    "lambda_c_gap": 0.25962387030558776,
+    "message": "tail bound available; intervals exclude time bias and tail; total error is not certified",
+    "n_batches": 1,
+    "n_normal_draws": 65536,
+    "n_path_steps": 65536,
+    "n_steps": 256,
+    "peak_batch_paths": 256,
+    "point_spawn_keys": [
+      [
+        807638191,
+        2307554949,
+        2270549917,
+        4151227694,
+        1174906000,
+        3366760109,
+        3861203323,
+        599745388,
+        0
+      ]
+    ],
+    "preparation_seconds": 0.00038095912896096706,
+    "problem_id": "AMV1_F0002_S00",
+    "rng_scheme": "PCG64/SeedSequence/point_address_v1",
+    "runtime_seconds": 0.1280874591320753,
+    "seed_entropy": 2026102503,
+    "stderr": [
+      0.04504981373731038
+    ],
+    "stream_id": 0,
+    "success": true,
+    "tail_eps": 0.0001,
+    "tail_error_bound": 873.1188959208873,
+    "tail_tolerance_met": false,
+    "total_error_certified": false,
+    "x": [
+      0.0
+    ]
+  }
+}

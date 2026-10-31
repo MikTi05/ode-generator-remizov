@@ -1,0 +1,13 @@
+..................................................................................................... [ 38%]
+........................................................................ [ 66%]
+......................................................................................... [100%]
+=============================== warnings summary ===============================
+src/all_methods_expressions.py:1
+  /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:1: DeprecationWarning: invalid escape sequence '\i'
+    """Safe expression trees and analytic derivatives for ``all_methods_v1``.
+
+tests/test_all_methods_remizov_pipeline.py::test_working_components_import_only_from_this_project
+  <unknown>:1: DeprecationWarning: invalid escape sequence '\i'
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+262 passed, 1 deselected, 2 warnings, 679 subtests passed in 37.07s

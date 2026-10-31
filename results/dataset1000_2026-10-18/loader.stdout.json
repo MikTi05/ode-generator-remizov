@@ -1,0 +1,38 @@
+{
+  "all_initial_conditions_match": true,
+  "all_npz_functions_match": true,
+  "all_remizov_conditions_valid": true,
+  "chernov_constructors_checked": 1000,
+  "counts_by_complexity": {
+    "L1": 250,
+    "L2": 250,
+    "L3": 250,
+    "L4": 250
+  },
+  "counts_by_regime": {
+    "constant": 200,
+    "high_contrast": 200,
+    "moderate_varying": 200,
+    "oscillatory": 200,
+    "slow_varying": 200
+  },
+  "counts_by_split": {
+    "test": 150,
+    "train": 700,
+    "validation": 150
+  },
+  "family_counts_by_split": {
+    "test": 30,
+    "train": 140,
+    "validation": 30
+  },
+  "family_split_leakage": false,
+  "max_loaded_residual": 0.0,
+  "numerical_solver_calls": 0,
+  "runtime_seconds": 30.144138959003612,
+  "samples_per_family": 5,
+  "structure_signature_count": 200,
+  "total_equations": 1000,
+  "total_families": 200,
+  "valid": true
+}

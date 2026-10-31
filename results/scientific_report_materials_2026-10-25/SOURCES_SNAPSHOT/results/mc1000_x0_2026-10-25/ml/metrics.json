@@ -1,0 +1,428 @@
+{
+  "classification": {
+    "mc_single_seed_accuracy": {
+      "catboost": {
+        "fit_seconds": 3.5167791249696165,
+        "test": {
+          "accuracy": 0.6833333333333333,
+          "balanced_accuracy": 0.6294933879679643,
+          "brier": 0.20147026301274218,
+          "failure_average_precision": 0.8109605587173089,
+          "logloss": 0.5863061267258461,
+          "n": 600,
+          "roc_auc": 0.735006518904824,
+          "success_rate": 0.3933333333333333,
+          "successes": 236
+        },
+        "train": {
+          "accuracy": 0.7467857142857143,
+          "balanced_accuracy": 0.6730822842571542,
+          "brier": 0.1689863670460131,
+          "failure_average_precision": 0.8901550974155545,
+          "logloss": 0.5103787053658407,
+          "n": 2800,
+          "roc_auc": 0.8129901461723094,
+          "success_rate": 0.34964285714285714,
+          "successes": 979
+        },
+        "validation": {
+          "accuracy": 0.6816666666666666,
+          "balanced_accuracy": 0.6081153522825571,
+          "brier": 0.20159621422556354,
+          "failure_average_precision": 0.8048243097143157,
+          "logloss": 0.587708521402916,
+          "n": 600,
+          "roc_auc": 0.6987109979410081,
+          "success_rate": 0.3516666666666667,
+          "successes": 211
+        }
+      },
+      "dummy": {
+        "fit_seconds": 0.005428542150184512,
+        "test": {
+          "accuracy": 0.6066666666666667,
+          "balanced_accuracy": 0.5,
+          "brier": 0.2405310799319728,
+          "failure_average_precision": 0.6066666666666667,
+          "logloss": 0.6743399950665457,
+          "n": 600,
+          "roc_auc": 0.5,
+          "success_rate": 0.3933333333333333,
+          "successes": 236
+        },
+        "train": {
+          "accuracy": 0.6503571428571429,
+          "balanced_accuracy": 0.5,
+          "brier": 0.22739272959183673,
+          "failure_average_precision": 0.6503571428571429,
+          "logloss": 0.6472252732271012,
+          "n": 2800,
+          "roc_auc": 0.5,
+          "success_rate": 0.34964285714285714,
+          "successes": 979
+        },
+        "validation": {
+          "accuracy": 0.6483333333333333,
+          "balanced_accuracy": 0.5,
+          "brier": 0.22800131802721088,
+          "failure_average_precision": 0.6483333333333333,
+          "logloss": 0.6484812685166668,
+          "n": 600,
+          "roc_auc": 0.5,
+          "success_rate": 0.3516666666666667,
+          "successes": 211
+        }
+      },
+      "logistic": {
+        "fit_seconds": 0.020112541038542986,
+        "test": {
+          "accuracy": 0.6333333333333333,
+          "balanced_accuracy": 0.5815794375116409,
+          "brier": 0.2292872562641791,
+          "failure_average_precision": 0.7438099172952033,
+          "logloss": 0.6789682358214681,
+          "n": 600,
+          "roc_auc": 0.6556621344756939,
+          "success_rate": 0.3933333333333333,
+          "successes": 236
+        },
+        "train": {
+          "accuracy": 0.7167857142857142,
+          "balanced_accuracy": 0.6509626371259379,
+          "brier": 0.18514199351821106,
+          "failure_average_precision": 0.8484026989439877,
+          "logloss": 0.5476364176466361,
+          "n": 2800,
+          "roc_auc": 0.7587887650546148,
+          "success_rate": 0.34964285714285714,
+          "successes": 979
+        },
+        "validation": {
+          "accuracy": 0.6783333333333333,
+          "balanced_accuracy": 0.6022916945869223,
+          "brier": 0.2079295708662231,
+          "failure_average_precision": 0.8003849811732389,
+          "logloss": 0.6036004980709003,
+          "n": 600,
+          "roc_auc": 0.6836036014083993,
+          "success_rate": 0.3516666666666667,
+          "successes": 211
+        }
+      },
+      "selected_by_validation_logloss": "catboost"
+    },
+    "remizov_point_accuracy": {
+      "catboost": {
+        "fit_seconds": 2.4069117920007557,
+        "test": {
+          "accuracy": 0.96,
+          "balanced_accuracy": 0.6597222222222222,
+          "brier": 0.029608115633856354,
+          "failure_average_precision": 0.3681241944312022,
+          "logloss": 0.11823983695082338,
+          "n": 150,
+          "roc_auc": 0.894675925925926,
+          "success_rate": 0.96,
+          "successes": 144
+        },
+        "train": {
+          "accuracy": 0.9827833572453372,
+          "balanced_accuracy": 0.8823529411764706,
+          "brier": 0.015077277065481237,
+          "failure_average_precision": 0.9754327681558919,
+          "logloss": 0.06715446940098603,
+          "n": 697,
+          "roc_auc": 0.9958720330237358,
+          "success_rate": 0.926829268292683,
+          "successes": 646
+        },
+        "validation": {
+          "accuracy": 0.94,
+          "balanced_accuracy": 0.6428571428571429,
+          "brier": 0.04951136877751237,
+          "failure_average_precision": 0.5006160506160506,
+          "logloss": 0.1755214136748586,
+          "n": 150,
+          "roc_auc": 0.9092857142857143,
+          "success_rate": 0.9333333333333333,
+          "successes": 140
+        }
+      },
+      "dummy": {
+        "fit_seconds": 0.005295375129207969,
+        "test": {
+          "accuracy": 0.96,
+          "balanced_accuracy": 0.5,
+          "brier": 0.0395002974419988,
+          "failure_average_precision": 0.04,
+          "logloss": 0.17754486182025303,
+          "n": 150,
+          "roc_auc": 0.5,
+          "success_rate": 0.96,
+          "successes": 144
+        },
+        "train": {
+          "accuracy": 0.926829268292683,
+          "balanced_accuracy": 0.5,
+          "brier": 0.06781677572873289,
+          "failure_average_precision": 0.07317073170731707,
+          "logloss": 0.2617644829090154,
+          "n": 697,
+          "roc_auc": 0.5,
+          "success_rate": 0.926829268292683,
+          "successes": 646
+        },
+        "validation": {
+          "accuracy": 0.9333333333333333,
+          "balanced_accuracy": 0.5,
+          "brier": 0.062264525084275206,
+          "failure_average_precision": 0.06666666666666667,
+          "logloss": 0.24525083171514045,
+          "n": 150,
+          "roc_auc": 0.5,
+          "success_rate": 0.9333333333333333,
+          "successes": 140
+        }
+      },
+      "logistic": {
+        "fit_seconds": 0.013847457943484187,
+        "test": {
+          "accuracy": 0.9533333333333334,
+          "balanced_accuracy": 0.7361111111111112,
+          "brier": 0.04726340821374841,
+          "failure_average_precision": 0.4998964803312629,
+          "logloss": 0.21846699142772352,
+          "n": 150,
+          "roc_auc": 0.744212962962963,
+          "success_rate": 0.96,
+          "successes": 144
+        },
+        "train": {
+          "accuracy": 0.9784791965566715,
+          "balanced_accuracy": 0.8619711042311662,
+          "brier": 0.01832182309643508,
+          "failure_average_precision": 0.9370573372694601,
+          "logloss": 0.07090249118476233,
+          "n": 697,
+          "roc_auc": 0.9868876343106903,
+          "success_rate": 0.926829268292683,
+          "successes": 646
+        },
+        "validation": {
+          "accuracy": 0.9466666666666667,
+          "balanced_accuracy": 0.7392857142857143,
+          "brier": 0.048928642313074235,
+          "failure_average_precision": 0.5100211055186692,
+          "logloss": 0.2408893477037364,
+          "n": 150,
+          "roc_auc": 0.7957142857142857,
+          "success_rate": 0.9333333333333333,
+          "successes": 140
+        }
+      },
+      "selected_by_validation_logloss": "catboost"
+    }
+  },
+  "comparative": {
+    "gate": {
+      "test": {
+        "mc": 1,
+        "n": 8,
+        "remizov": 7
+      },
+      "train": {
+        "mc": 5,
+        "n": 49,
+        "remizov": 44
+      },
+      "validation": {
+        "mc": 1,
+        "n": 10,
+        "remizov": 9
+      }
+    },
+    "limitation": "Exploratory fixed-profile mean-error label, approximate t95 from 4 seeds; no fastest-method or 95%-reliability certificate",
+    "reason": "insufficient separated labels/classes; separate quality models are primary",
+    "trained": false
+  },
+  "elapsed_seconds": 13.809282041853294,
+  "features": 253,
+  "regression": {
+    "mc_aggregate_log_error": {
+      "catboost": {
+        "test": {
+          "mae_error": 0.011634675154374191,
+          "mae_log10": 0.3624367066930853,
+          "n": 150,
+          "r2_log10": 0.2773432422601918
+        },
+        "train": {
+          "mae_error": 0.009857175323792634,
+          "mae_log10": 0.3341534360762429,
+          "n": 700,
+          "r2_log10": 0.4852129135778931
+        },
+        "validation": {
+          "mae_error": 0.016219119751651252,
+          "mae_log10": 0.3728111077166107,
+          "n": 150,
+          "r2_log10": 0.2499763302881568
+        }
+      },
+      "dummy": {
+        "test": {
+          "mae_error": 0.013054716462662388,
+          "mae_log10": 0.4121199640094677,
+          "n": 150,
+          "r2_log10": -0.001595689426986624
+        },
+        "train": {
+          "mae_error": 0.01352131192527401,
+          "mae_log10": 0.4569176463360258,
+          "n": 700,
+          "r2_log10": -0.008365128789392884
+        },
+        "validation": {
+          "mae_error": 0.017911088303988063,
+          "mae_log10": 0.42204702271426525,
+          "n": 150,
+          "r2_log10": -0.003951127043833269
+        }
+      },
+      "ridge": {
+        "test": {
+          "mae_error": 0.01901394054128348,
+          "mae_log10": 0.3992277694498593,
+          "n": 150,
+          "r2_log10": 0.10004913648492997
+        },
+        "train": {
+          "mae_error": 0.01015658605473818,
+          "mae_log10": 0.36940205088506495,
+          "n": 700,
+          "r2_log10": 0.36420836785956434
+        },
+        "validation": {
+          "mae_error": 0.028437996979221905,
+          "mae_log10": 0.3946618588347514,
+          "n": 150,
+          "r2_log10": 0.21356260389555726
+        }
+      },
+      "selected_by_validation_mae": "catboost"
+    },
+    "remizov_point_log_error": {
+      "catboost": {
+        "test": {
+          "mae_error": 1.658010491712017,
+          "mae_log10": 0.3579417528329333,
+          "n": 150,
+          "r2_log10": 0.45542579821244067
+        },
+        "train": {
+          "mae_error": 1.2043961786341855,
+          "mae_log10": 0.27020457354081573,
+          "n": 697,
+          "r2_log10": 0.7131001367366199
+        },
+        "validation": {
+          "mae_error": 0.005004072752455872,
+          "mae_log10": 0.40443283422084647,
+          "n": 150,
+          "r2_log10": 0.3212798398125253
+        }
+      },
+      "dummy": {
+        "test": {
+          "mae_error": 1.6584728972391758,
+          "mae_log10": 0.4843956904247106,
+          "n": 150,
+          "r2_log10": -0.0005345645170833357
+        },
+        "train": {
+          "mae_error": 1.253128170473298,
+          "mae_log10": 0.4825716321579068,
+          "n": 697,
+          "r2_log10": -0.00032518861163821633
+        },
+        "validation": {
+          "mae_error": 0.005244786093431745,
+          "mae_log10": 0.48638672997555527,
+          "n": 150,
+          "r2_log10": -0.0018042843939849451
+        }
+      },
+      "ridge": {
+        "test": {
+          "mae_error": 1.5987166671088116,
+          "mae_log10": 0.3617526751366621,
+          "n": 150,
+          "r2_log10": 0.5725113036955285
+        },
+        "train": {
+          "mae_error": 1.2504119047072588,
+          "mae_log10": 0.34429587895389563,
+          "n": 697,
+          "r2_log10": 0.4968891605969026
+        },
+        "validation": {
+          "mae_error": 0.08744193345299704,
+          "mae_log10": 0.4295389472121814,
+          "n": 150,
+          "r2_log10": 0.20273117085533932
+        }
+      },
+      "selected_by_validation_mae": "catboost"
+    }
+  },
+  "split_rows": {
+    "test": 150,
+    "train": 700,
+    "validation": 150
+  },
+  "training_scope": "Preliminary quality of fixed profiles at x=0. MC success probability is for one 1024-path seed, aggregate error for 4x1024. No runtime winner.",
+  "uncertainty": {
+    "mc_single_seed_accuracy": {
+      "catboost_minus_dummy_logloss_95": [
+        -0.1250574419874144,
+        -0.051500634241837207
+      ],
+      "scope": "conditional on these observed seed outcomes; 500 whole-family resamples",
+      "test_logloss_95": {
+        "catboost": [
+          0.5362909237943914,
+          0.6405159943599763
+        ],
+        "dummy": [
+          0.6371034288347199,
+          0.7141882926799094
+        ],
+        "logistic": [
+          0.5988371702239964,
+          0.77210645620588
+        ]
+      }
+    },
+    "remizov_point_accuracy": {
+      "catboost_minus_dummy_logloss_95": [
+        -0.12194896588634316,
+        -0.01843788266807336
+      ],
+      "scope": "conditional on these observed seed outcomes; 500 whole-family resamples",
+      "test_logloss_95": {
+        "catboost": [
+          0.050412602731707515,
+          0.20692825387728983
+        ],
+        "dummy": [
+          0.09291239945164378,
+          0.30491671768500955
+        ],
+        "logistic": [
+          0.08833512837010202,
+          0.3628682652336925
+        ]
+      }
+    }
+  }
+}

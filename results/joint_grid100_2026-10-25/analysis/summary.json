@@ -1,0 +1,114 @@
+{
+  "MC_completed_solve_count": 136,
+  "MC_solve_count": 137,
+  "ML_training_performed": false,
+  "R_solve_count": 104,
+  "active_session_seconds": 3561.568981999997,
+  "attempt_statuses": {
+    "completed": 240,
+    "interrupted": 1
+  },
+  "calendar_seconds": 11406.986257076263,
+  "cohorts": [
+    {
+      "MC_all_solver_seconds": 1338.3869686617982,
+      "MC_final_pass": 2,
+      "MC_primary_pass": 0,
+      "MC_primary_solver_seconds": 1060.4238079534844,
+      "R_pass": 66,
+      "R_solver_seconds": 989.596228960203,
+      "cohort": "representative",
+      "equations": 80,
+      "families": 80,
+      "final_categories": {
+        "R_only": 64,
+        "both_pass": 2,
+        "neither_pass": 14
+      },
+      "paired_completed": 80,
+      "primary_categories": {
+        "R_only": 66,
+        "neither_pass": 14
+      },
+      "statistical_accuracy": {
+        "supported_fail_discrete": 5,
+        "uncertain": 75
+      }
+    },
+    {
+      "MC_all_solver_seconds": 844.6215409135912,
+      "MC_final_pass": 0,
+      "MC_primary_pass": 0,
+      "MC_primary_solver_seconds": 773.4555867486633,
+      "R_pass": 7,
+      "R_solver_seconds": 248.73512387415394,
+      "cohort": "stress",
+      "equations": 20,
+      "families": 14,
+      "final_categories": {
+        "R_only": 7,
+        "neither_pass": 13
+      },
+      "paired_completed": 20,
+      "primary_categories": {
+        "R_only": 7,
+        "neither_pass": 13
+      },
+      "statistical_accuracy": {
+        "supported_fail_discrete": 7,
+        "uncertain": 13
+      }
+    }
+  ],
+  "controls": [
+    {
+      "E_inf": 0.05356807321592094,
+      "ID": "AMV1_F0184_S01",
+      "boundary": "zero",
+      "max_difference_saved": 0.0,
+      "seconds": 11.987323208944872
+    },
+    {
+      "E_inf": 0.01871927854087696,
+      "ID": "AMV1_F0141_S00",
+      "boundary": "zero",
+      "max_difference_saved": 0.0,
+      "seconds": 11.998031832976267
+    },
+    {
+      "E_inf": 444.58925463912163,
+      "ID": "AMV1_F0184_S01",
+      "boundary": "taper",
+      "max_difference_saved": 0.0,
+      "seconds": 14.739118000026792
+    },
+    {
+      "E_inf": 19704.50191093058,
+      "ID": "AMV1_F0141_S00",
+      "boundary": "taper",
+      "max_difference_saved": 0.0,
+      "seconds": 14.63492099987343
+    }
+  ],
+  "equations": 100,
+  "guardian_interruptions": [
+    "owner_lease_expired"
+  ],
+  "peak_rss_mib": 286.390625,
+  "pending": {
+    "adaptive_decision_pending": false,
+    "keys": [],
+    "reason": null
+  },
+  "physical_attempts": 241,
+  "primary_pairs_completed": 100,
+  "primary_pairs_terminal": 100,
+  "profile": "new common certified T,cubic/zero; historical taper timings/errors not pooled",
+  "recommendation": "Do not launch900 automatically: inspect accuracy-class balance and simultaneous uncertainty first",
+  "reliable_winner_labels": 0,
+  "repeated_equations": 12,
+  "representative_selection": "80 equal-probability train rows,80 families,4 per cell; stress20 separate",
+  "terminal_records": 240,
+  "total_solver_seconds": 3474.6992564515676,
+  "uncertain_fastest_labels": 100
+}

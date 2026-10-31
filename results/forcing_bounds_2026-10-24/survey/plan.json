@@ -1,0 +1,84 @@
+{
+  "cost_model": "K*M*N path steps and K*M*(4*N+2) coefficient values, excluding nested AST work; no wall-time extrapolation",
+  "created_utc": "2026-10-24T18:50:45.377169+00:00",
+  "data_dir": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/data/generated",
+  "equation_ids": [
+    "AMV1_F0000_S00",
+    "AMV1_F0001_S00",
+    "AMV1_F0002_S00",
+    "AMV1_F0003_S00",
+    "AMV1_F0004_S00",
+    "AMV1_F0005_S00",
+    "AMV1_F0006_S00",
+    "AMV1_F0007_S00",
+    "AMV1_F0008_S00",
+    "AMV1_F0009_S00",
+    "AMV1_F0010_S00",
+    "AMV1_F0011_S00",
+    "AMV1_F0012_S00",
+    "AMV1_F0013_S00",
+    "AMV1_F0014_S00",
+    "AMV1_F0015_S00",
+    "AMV1_F0016_S00",
+    "AMV1_F0017_S00",
+    "AMV1_F0018_S00",
+    "AMV1_F0019_S00"
+  ],
+  "policy": "certificates and budgets computed before diagnostic samples; no parameter tuning; no Monte Carlo paths",
+  "profiles": {
+    "curve_default": {
+      "config": {
+        "M": 20000,
+        "T": null,
+        "chunk": 20000,
+        "dt": 0.005,
+        "max_batch_paths": 200000,
+        "max_path_steps": 100000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 2488,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "points": 33
+    },
+    "curve_moderate": {
+      "config": {
+        "M": 2000,
+        "T": null,
+        "chunk": 2000,
+        "dt": 0.02,
+        "max_batch_paths": 200000,
+        "max_path_steps": 100000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 2488,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "points": 33
+    },
+    "point_default": {
+      "config": {
+        "M": 20000,
+        "T": null,
+        "chunk": 20000,
+        "dt": 0.005,
+        "max_batch_paths": 200000,
+        "max_path_steps": 100000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 2488,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "points": 1
+    }
+  },
+  "sample_points": [
+    4097,
+    16385
+  ],
+  "scope": "all existing small-dataset equations, two analytical forcing norms and one cancellation identity",
+  "tail_eps": 0.0001
+}

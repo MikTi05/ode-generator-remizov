@@ -1,0 +1,69 @@
+{
+  "analysis_revision_note": "After sampling: made order non-identification explicit, separated observed point accuracy from reproducibility/grid flags, and documented timing replay. No new paths or changed configs/CI thresholds.",
+  "changed_or_removed": [],
+  "core_matches_manifest": {
+    "remizov_solver.py": true,
+    "src/all_methods_dataset_v1.py": true,
+    "src/all_methods_expressions.py": true
+  },
+  "current_source_sha256": {
+    "diagnostics/mc_f0002_confirmation.py": "e5648833c937d23498dc2fcd692a20643cdca50d247c4c9936ec3ea0d0146194",
+    "diagnostics/report_mc_f0002_confirmation.py": "55b260a5e9cf0054f3c7e7b31eb913ab8d90c4c49e9f00e3f97ec9168633eb39",
+    "tests/test_mc_f0002_confirmation.py": "5caacff3e5b2c67fa6e32e81d4e0b78b5ac03dbd649ac319781bd78c867967b2"
+  },
+  "gate_sha256": "0e04ff7062d6d5657dc4dcda31f97cc1917519c799ab5d252abdba2f3c434878",
+  "new_seeds_disjoint_from_old": true,
+  "phase_checks": {
+    "control": {
+      "independent_fsum_differences": [
+        {
+          "mean": 0.020994031048271307,
+          "stderr": 0.0017964645183775063
+        }
+      ],
+      "independent_fsum_means": [
+        -0.3489888500916687,
+        -0.36998288113994
+      ],
+      "raw_shape_per_seed": [
+        1024,
+        2
+      ],
+      "records": 8
+    },
+    "refinement128": {
+      "independent_fsum_differences": [
+        {
+          "mean": 0.020464457339412434,
+          "stderr": 0.0024397124267725606
+        },
+        {
+          "mean": 0.012338736032071411,
+          "stderr": 0.0024316109834232637
+        }
+      ],
+      "independent_fsum_means": [
+        -0.3527647943895223,
+        -0.37322925172893473,
+        -0.38556798776100615
+      ],
+      "raw_shape_per_seed": [
+        1024,
+        3
+      ],
+      "records": 8
+    }
+  },
+  "phase_plans_frozen_before_workers": true,
+  "phases_not_pooled": true,
+  "policy_sha256": "8090240766106c8e515c641a85ab0513775e62b69e38db2a2ae96112f9b36cda",
+  "project_status_after_sha256": "b0224556c556d389f25595bd56be5b4ea33e5c8cae819a263dd948975a7a3f49",
+  "project_status_before_sha256": "802f139a047c3e4d87797cb4c0c222376b94abe983c295075d59fc14427f3ecb",
+  "protected_files": 5255,
+  "raw_results": 16,
+  "refinement_plan_after_gate": true,
+  "regression": "291 passed, 1 deselected, 679 subtests in 35.78s",
+  "runner_and_tests_match_frozen_sources": true,
+  "verified_normal_values_generated": 266862592,
+  "verified_path_steps": 166789120
+}

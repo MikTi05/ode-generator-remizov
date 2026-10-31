@@ -1,0 +1,312 @@
+{
+  "child_returncode": 143,
+  "config": {
+    "dx_initial": 0.05,
+    "max_quadrature_refinements": 8,
+    "max_spatial_refinements": 5,
+    "max_work_grid_points": 100000,
+    "n": 4,
+    "nt_initial": 8,
+    "quadrature_atol": 1e-09,
+    "quadrature_rtol": 1e-07,
+    "spatial_atol": 1e-09,
+    "spatial_rtol": 1e-07,
+    "tail_eps": 1e-08
+  },
+  "equation_id": "AMV1_F0000_S00",
+  "failure_reason": "external_time_limit",
+  "instrumented": true,
+  "max_abs_error": null,
+  "n": 4,
+  "partial_diagnostics": {
+    "active_calls": [
+      {
+        "context": {},
+        "elapsed_seconds": 44.61651812493801,
+        "function": "_converge_spatial"
+      },
+      {
+        "context": {
+          "dx_limit": 0.003125
+        },
+        "elapsed_seconds": 14.07849429093767,
+        "function": "_converge_quadrature"
+      },
+      {
+        "context": {
+          "dx_limit": 0.003125,
+          "nt": 2048
+        },
+        "elapsed_seconds": 6.540986999985762,
+        "function": "_integrate_fixed_nt"
+      },
+      {
+        "context": {
+          "dx_limit": 0.003125,
+          "t": 11.939645961513719
+        },
+        "elapsed_seconds": 0.0010920829372480512,
+        "function": "_compute_chernoff_at_t"
+      },
+      {
+        "context": {
+          "destination_points": 10035,
+          "source_points": 13166,
+          "tau": 2.9849114903784297
+        },
+        "elapsed_seconds": 0.0005787499248981476,
+        "function": "_apply_operator_on_grid"
+      }
+    ],
+    "completed_inclusive_timings": {
+      "_apply_operator_on_grid": {
+        "calls_completed": 80156,
+        "inclusive_seconds": 34.949937961879186
+      },
+      "_compute_chernoff_at_t": {
+        "calls_completed": 20039,
+        "inclusive_seconds": 41.836780365905724
+      },
+      "_converge_quadrature": {
+        "calls_completed": 4,
+        "inclusive_seconds": 30.53426616487559
+      },
+      "_integrate_fixed_nt": {
+        "calls_completed": 44,
+        "inclusive_seconds": 38.0190115403384
+      },
+      "leggauss": {
+        "calls_completed": 45,
+        "inclusive_seconds": 2.542083504027687
+      }
+    },
+    "elapsed_solver_observed_seconds": 44.61660020798445,
+    "inclusive_timings_overlap_do_not_sum": true,
+    "instrumentation_changes_timing_not_arithmetic": true,
+    "observer_io_seconds_completed": 0.13326337235048413,
+    "partial_solver_diagnostics": {
+      "counters": {
+        "n_interpolated_values": 625841436,
+        "n_interpolation_calls": 320624,
+        "n_operator_applications": 80157,
+        "n_quadrature_node_evaluations": 20040,
+        "n_spline_builds": 80157,
+        "spatial_grid_points_peak": 13166,
+        "spatial_grid_points_total_processed": 156470394,
+        "work_domain_left_min": -20.57000921916463,
+        "work_domain_right_max": 20.57000921916463,
+        "work_domain_width_max": 41.14001843832926,
+        "work_grid_points_required_max": 13166
+      },
+      "final_dx": 0.003125,
+      "final_nt": 2048,
+      "quadrature_error_estimate": 1.2798261754820572e-06,
+      "quadrature_history": [
+        {
+          "converged": true,
+          "convergence_thresholds": [
+            8.318997766841087e-08,
+            7.4928685841604e-08,
+            7.157630071202072e-08,
+            7.082277176473831e-08,
+            7.077636143685029e-08,
+            7.077646776675864e-08,
+            7.077652395323054e-08,
+            7.077652475310794e-08
+          ],
+          "dx_limit": 0.05,
+          "error_estimates": [
+            0.47963085264884264,
+            0.19102162382687776,
+            0.057236532125659045,
+            0.01305487472771405,
+            0.0007530712253144278,
+            2.0560818858594843e-05,
+            8.048106101554708e-07,
+            3.6678267534284714e-08
+          ],
+          "final_nt": 2048,
+          "nt_levels": [
+            8,
+            16,
+            32,
+            64,
+            128,
+            256,
+            512,
+            1024,
+            2048
+          ]
+        },
+        {
+          "converged": true,
+          "convergence_thresholds": [
+            8.344968930379057e-08,
+            7.500239101448298e-08,
+            7.153924351449603e-08,
+            7.091490820229935e-08,
+            7.076740535497123e-08,
+            7.077046686114526e-08,
+            7.077054350408007e-08,
+            7.077054628753327e-08
+          ],
+          "dx_limit": 0.025,
+          "error_estimates": [
+            0.4820841215730834,
+            0.20047292548100304,
+            0.06063492954052663,
+            0.014041602591927327,
+            0.001827043428637154,
+            4.835408853698375e-05,
+            1.560413485757195e-06,
+            3.194628839242597e-08
+          ],
+          "final_nt": 2048,
+          "nt_levels": [
+            8,
+            16,
+            32,
+            64,
+            128,
+            256,
+            512,
+            1024,
+            2048
+          ]
+        },
+        {
+          "converged": true,
+          "convergence_thresholds": [
+            8.349399217536716e-08,
+            7.503955439980794e-08,
+            7.153141278284093e-08,
+            7.092694829136135e-08,
+            7.076486823425405e-08,
+            7.077101577989797e-08,
+            7.07708814724194e-08,
+            7.077088559202244e-08
+          ],
+          "dx_limit": 0.0125,
+          "error_estimates": [
+            0.4822395453259684,
+            0.20082893090913934,
+            0.06119226576806902,
+            0.013942255559240224,
+            0.0019317227342633414,
+            7.044938505118559e-05,
+            2.100879056277094e-06,
+            6.19545864610771e-08
+          ],
+          "final_nt": 2048,
+          "nt_levels": [
+            8,
+            16,
+            32,
+            64,
+            128,
+            256,
+            512,
+            1024,
+            2048
+          ]
+        },
+        {
+          "converged": true,
+          "convergence_thresholds": [
+            8.34994664140092e-08,
+            7.50423021624009e-08,
+            7.15308982872781e-08,
+            7.092700302861695e-08,
+            7.07645837154346e-08,
+            7.077086675501971e-08,
+            7.077089032629757e-08,
+            7.077089273629996e-08
+          ],
+          "dx_limit": 0.00625,
+          "error_estimates": [
+            0.48227636271963126,
+            0.20083071344642983,
+            0.061230488815369966,
+            0.013939388857762136,
+            0.0019313652836530082,
+            7.195452149988402e-05,
+            1.2430266089769049e-06,
+            2.7009300573865858e-08
+          ],
+          "final_nt": 2048,
+          "nt_levels": [
+            8,
+            16,
+            32,
+            64,
+            128,
+            256,
+            512,
+            1024,
+            2048
+          ]
+        },
+        {
+          "converged": false,
+          "convergence_thresholds": [
+            8.349953206602206e-08,
+            7.504241360846958e-08,
+            7.153091057604023e-08,
+            7.092702290009097e-08,
+            7.076457959413218e-08,
+            7.077086578507329e-08,
+            7.077089529827702e-08
+          ],
+          "dx_limit": 0.003125,
+          "error_estimates": [
+            0.4822771997136513,
+            0.20083146897085308,
+            0.061231954387664045,
+            0.013939173895798018,
+            0.0019315553579488665,
+            7.20957488337115e-05,
+            1.2798261754820572e-06
+          ],
+          "final_nt": 1024,
+          "nt_levels": [
+            8,
+            16,
+            32,
+            64,
+            128,
+            256,
+            512,
+            1024,
+            2048
+          ]
+        }
+      ],
+      "quadrature_refinements": 39,
+      "spatial_convergence_thresholds": [
+        7.077054628753327e-08,
+        7.077088559202244e-08,
+        7.077089273629996e-08
+      ],
+      "spatial_dx_levels": [
+        0.05,
+        0.025,
+        0.0125,
+        0.00625,
+        0.003125
+      ],
+      "spatial_error_estimate": 1.0114607370548256e-06,
+      "spatial_error_history": [
+        0.0003640177386947663,
+        8.81262858798415e-06,
+        1.0114607370548256e-06
+      ],
+      "spatial_refinements": 4
+    }
+  },
+  "runtime_seconds": null,
+  "solver_result": null,
+  "status": "external_time_limit",
+  "termination_requested_wall_seconds": 45.00549445790239,
+  "worker_peak_rss_mib": 235.28125,
+  "worker_wall_seconds": 45.01400120800827
+}

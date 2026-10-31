@@ -1,0 +1,103 @@
+{
+  "accuracy_policy": "exact evaluated after solve; thresholds only for analytical cases; dataset integration reports observed errors without total accuracy claim",
+  "attempts": [
+    {
+      "config": {
+        "M": 8,
+        "T": null,
+        "chunk": 8,
+        "dt": 0.01,
+        "max_batch_paths": 200000,
+        "max_path_steps": 100000000,
+        "max_runtime_seconds": 30,
+        "max_steps": 100000,
+        "seed": 2488,
+        "stream_id": 0,
+        "tail_eps": 1e-06
+      },
+      "method": "monte_carlo",
+      "observational_threshold": 2e-05,
+      "problem_id": "MC_constant"
+    },
+    {
+      "config": {
+        "M": 8000,
+        "T": null,
+        "chunk": 4000,
+        "dt": 0.01,
+        "max_batch_paths": 200000,
+        "max_path_steps": 200000000,
+        "max_runtime_seconds": 45,
+        "max_steps": 100000,
+        "seed": 2488,
+        "stream_id": 0,
+        "tail_eps": 1e-05
+      },
+      "method": "monte_carlo",
+      "observational_threshold": 0.03,
+      "problem_id": "MC_gaussian"
+    },
+    {
+      "config": {
+        "M": 2000,
+        "T": 4.0,
+        "chunk": 2000,
+        "dt": 0.02,
+        "max_batch_paths": 200000,
+        "max_path_steps": 20000000,
+        "max_runtime_seconds": 30,
+        "max_steps": 100000,
+        "seed": 2488,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "method": "monte_carlo",
+      "observational_threshold": null,
+      "problem_id": "AMV1_F0000_S00"
+    },
+    {
+      "config": {
+        "M": 2000,
+        "T": 4.0,
+        "chunk": 2000,
+        "dt": 0.02,
+        "max_batch_paths": 200000,
+        "max_path_steps": 20000000,
+        "max_runtime_seconds": 30,
+        "max_steps": 100000,
+        "seed": 2488,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "method": "monte_carlo",
+      "observational_threshold": null,
+      "problem_id": "AMV1_F0001_S00"
+    },
+    {
+      "config": {
+        "M": 2000,
+        "T": 4.0,
+        "chunk": 2000,
+        "dt": 0.02,
+        "max_batch_paths": 200000,
+        "max_path_steps": 20000000,
+        "max_runtime_seconds": 30,
+        "max_steps": 100000,
+        "seed": 2488,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "method": "monte_carlo",
+      "observational_threshold": null,
+      "problem_id": "AMV1_F0002_S00"
+    }
+  ],
+  "automatic_retries": 0,
+  "blas_threads": 1,
+  "cost_estimate": "Gaussian 161304000 path steps; each dataset task 13200000 path steps; batch <=4000 paths, no trajectory history; outer watchdog 60s/512MiB per attempt",
+  "grid": "33 points on [-2,2] for analytical, [-1,1] for dataset",
+  "purpose": "Five predeclared MC checks, no parameter fitting or comparison winner labels",
+  "rss_limit_mib": 512,
+  "wall_seconds": 60,
+  "workers": 1
+}

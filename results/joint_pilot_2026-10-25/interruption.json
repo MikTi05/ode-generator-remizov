@@ -1,0 +1,37 @@
+{
+  "actual_partial_path_steps_upper_bound": 275202048,
+  "cleared_guardian": {
+    "cleanup_success": true,
+    "controller_pid": 92981,
+    "finished": true,
+    "finished_monotonic": 1192330.13528425,
+    "guardian_pid": 99196,
+    "reason": "owner_lease_expired",
+    "token": "47de2f79f133442e927c9d523713745a",
+    "worker_pgid": 99197,
+    "worker_pid": 99197,
+    "worker_returncode": -15
+  },
+  "completed_path_steps_lower_bound": 258523136,
+  "continuation_plan_sha256": "e13ee898638b0f758d7c86762ca52c4f1f54d80c96eb130c5774fa7010b5cbf4",
+  "mathematical_failure": false,
+  "no_partial_prediction_or_exact_score": true,
+  "original_plan_sha256": "7017b521446b01d11115f4dfc4061d6e9c413737924f8a485ee5f444c024b6b4",
+  "original_summary_sha256": "7663f36e8607b760b33ef7ee713ee67a7ce12f8cc012679cfa55b57d68f96227",
+  "original_trial": "trials/233_grid33_AMV1_F0002_S00_monte_carlo_r01",
+  "partial_telemetry": {
+    "completed_batches": 31,
+    "completed_units": 258523136,
+    "cpu_seconds": 131.38066999999998,
+    "monotonic": 1192330.042035875,
+    "peak_rss_mib": 82.515625,
+    "stage": "solve",
+    "total_units": 275202048
+  },
+  "partial_worker_wall_seconds": 132.50556341698393,
+  "reason": "operator_owner_lease_expired",
+  "retry_directory": "recovery_01",
+  "retry_identical_seed_config": true,
+  "sampled_cpu_seconds_lower_bound": 131.38066999999998,
+  "uncontrolled_workers_after_cleanup": false
+}

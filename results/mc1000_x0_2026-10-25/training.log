@@ -1,0 +1,490 @@
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+{"event": "classified", "target": "remizov_point_accuracy", "selected": "catboost"}
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+{"event": "classified", "target": "mc_single_seed_accuracy", "selected": "catboost"}
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_base.py:280: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_base.py:280: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_base.py:280: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_base.py:280: RuntimeWarning: divide by zero encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_base.py:280: RuntimeWarning: overflow encountered in matmul
+  return X @ coef_ + self.intercept_
+/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/sklearn/linear_model/_base.py:280: RuntimeWarning: invalid value encountered in matmul
+  return X @ coef_ + self.intercept_
+{
+  "classification": {
+    "remizov_point_accuracy": {
+      "dummy": {
+        "train": {
+          "n": 697,
+          "successes": 646,
+          "success_rate": 0.926829268292683,
+          "roc_auc": 0.5,
+          "failure_average_precision": 0.07317073170731707,
+          "logloss": 0.2617644829090154,
+          "brier": 0.06781677572873289,
+          "accuracy": 0.926829268292683,
+          "balanced_accuracy": 0.5
+        },
+        "validation": {
+          "n": 150,
+          "successes": 140,
+          "success_rate": 0.9333333333333333,
+          "roc_auc": 0.5,
+          "failure_average_precision": 0.06666666666666667,
+          "logloss": 0.24525083171514045,
+          "brier": 0.062264525084275206,
+          "accuracy": 0.9333333333333333,
+          "balanced_accuracy": 0.5
+        },
+        "test": {
+          "n": 150,
+          "successes": 144,
+          "success_rate": 0.96,
+          "roc_auc": 0.5,
+          "failure_average_precision": 0.04,
+          "logloss": 0.17754486182025303,
+          "brier": 0.0395002974419988,
+          "accuracy": 0.96,
+          "balanced_accuracy": 0.5
+        },
+        "fit_seconds": 0.005295375129207969
+      },
+      "logistic": {
+        "train": {
+          "n": 697,
+          "successes": 646,
+          "success_rate": 0.926829268292683,
+          "roc_auc": 0.9868876343106903,
+          "failure_average_precision": 0.9370573372694601,
+          "logloss": 0.07090249118476233,
+          "brier": 0.01832182309643508,
+          "accuracy": 0.9784791965566715,
+          "balanced_accuracy": 0.8619711042311662
+        },
+        "validation": {
+          "n": 150,
+          "successes": 140,
+          "success_rate": 0.9333333333333333,
+          "roc_auc": 0.7957142857142857,
+          "failure_average_precision": 0.5100211055186692,
+          "logloss": 0.2408893477037364,
+          "brier": 0.048928642313074235,
+          "accuracy": 0.9466666666666667,
+          "balanced_accuracy": 0.7392857142857143
+        },
+        "test": {
+          "n": 150,
+          "successes": 144,
+          "success_rate": 0.96,
+          "roc_auc": 0.744212962962963,
+          "failure_average_precision": 0.4998964803312629,
+          "logloss": 0.21846699142772352,
+          "brier": 0.04726340821374841,
+          "accuracy": 0.9533333333333334,
+          "balanced_accuracy": 0.7361111111111112
+        },
+        "fit_seconds": 0.013847457943484187
+      },
+      "catboost": {
+        "train": {
+          "n": 697,
+          "successes": 646,
+          "success_rate": 0.926829268292683,
+          "roc_auc": 0.9958720330237358,
+          "failure_average_precision": 0.9754327681558919,
+          "logloss": 0.06715446940098603,
+          "brier": 0.015077277065481237,
+          "accuracy": 0.9827833572453372,
+          "balanced_accuracy": 0.8823529411764706
+        },
+        "validation": {
+          "n": 150,
+          "successes": 140,
+          "success_rate": 0.9333333333333333,
+          "roc_auc": 0.9092857142857143,
+          "failure_average_precision": 0.5006160506160506,
+          "logloss": 0.1755214136748586,
+          "brier": 0.04951136877751237,
+          "accuracy": 0.94,
+          "balanced_accuracy": 0.6428571428571429
+        },
+        "test": {
+          "n": 150,
+          "successes": 144,
+          "success_rate": 0.96,
+          "roc_auc": 0.894675925925926,
+          "failure_average_precision": 0.3681241944312022,
+          "logloss": 0.11823983695082338,
+          "brier": 0.029608115633856354,
+          "accuracy": 0.96,
+          "balanced_accuracy": 0.6597222222222222
+        },
+        "fit_seconds": 2.4069117920007557
+      },
+      "selected_by_validation_logloss": "catboost"
+    },
+    "mc_single_seed_accuracy": {
+      "dummy": {
+        "train": {
+          "n": 2800,
+          "successes": 979,
+          "success_rate": 0.34964285714285714,
+          "roc_auc": 0.5,
+          "failure_average_precision": 0.6503571428571429,
+          "logloss": 0.6472252732271012,
+          "brier": 0.22739272959183673,
+          "accuracy": 0.6503571428571429,
+          "balanced_accuracy": 0.5
+        },
+        "validation": {
+          "n": 600,
+          "successes": 211,
+          "success_rate": 0.3516666666666667,
+          "roc_auc": 0.5,
+          "failure_average_precision": 0.6483333333333333,
+          "logloss": 0.6484812685166668,
+          "brier": 0.22800131802721088,
+          "accuracy": 0.6483333333333333,
+          "balanced_accuracy": 0.5
+        },
+        "test": {
+          "n": 600,
+          "successes": 236,
+          "success_rate": 0.3933333333333333,
+          "roc_auc": 0.5,
+          "failure_average_precision": 0.6066666666666667,
+          "logloss": 0.6743399950665457,
+          "brier": 0.2405310799319728,
+          "accuracy": 0.6066666666666667,
+          "balanced_accuracy": 0.5
+        },
+        "fit_seconds": 0.005428542150184512
+      },
+      "logistic": {
+        "train": {
+          "n": 2800,
+          "successes": 979,
+          "success_rate": 0.34964285714285714,
+          "roc_auc": 0.7587887650546148,
+          "failure_average_precision": 0.8484026989439877,
+          "logloss": 0.5476364176466361,
+          "brier": 0.18514199351821106,
+          "accuracy": 0.7167857142857142,
+          "balanced_accuracy": 0.6509626371259379
+        },
+        "validation": {
+          "n": 600,
+          "successes": 211,
+          "success_rate": 0.3516666666666667,
+          "roc_auc": 0.6836036014083993,
+          "failure_average_precision": 0.8003849811732389,
+          "logloss": 0.6036004980709003,
+          "brier": 0.2079295708662231,
+          "accuracy": 0.6783333333333333,
+          "balanced_accuracy": 0.6022916945869223
+        },
+        "test": {
+          "n": 600,
+          "successes": 236,
+          "success_rate": 0.3933333333333333,
+          "roc_auc": 0.6556621344756939,
+          "failure_average_precision": 0.7438099172952033,
+          "logloss": 0.6789682358214681,
+          "brier": 0.2292872562641791,
+          "accuracy": 0.6333333333333333,
+          "balanced_accuracy": 0.5815794375116409
+        },
+        "fit_seconds": 0.020112541038542986
+      },
+      "catboost": {
+        "train": {
+          "n": 2800,
+          "successes": 979,
+          "success_rate": 0.34964285714285714,
+          "roc_auc": 0.8129901461723094,
+          "failure_average_precision": 0.8901550974155545,
+          "logloss": 0.5103787053658407,
+          "brier": 0.1689863670460131,
+          "accuracy": 0.7467857142857143,
+          "balanced_accuracy": 0.6730822842571542
+        },
+        "validation": {
+          "n": 600,
+          "successes": 211,
+          "success_rate": 0.3516666666666667,
+          "roc_auc": 0.6987109979410081,
+          "failure_average_precision": 0.8048243097143157,
+          "logloss": 0.587708521402916,
+          "brier": 0.20159621422556354,
+          "accuracy": 0.6816666666666666,
+          "balanced_accuracy": 0.6081153522825571
+        },
+        "test": {
+          "n": 600,
+          "successes": 236,
+          "success_rate": 0.3933333333333333,
+          "roc_auc": 0.735006518904824,
+          "failure_average_precision": 0.8109605587173089,
+          "logloss": 0.5863061267258461,
+          "brier": 0.20147026301274218,
+          "accuracy": 0.6833333333333333,
+          "balanced_accuracy": 0.6294933879679643
+        },
+        "fit_seconds": 3.5167791249696165
+      },
+      "selected_by_validation_logloss": "catboost"
+    }
+  },
+  "regression": {
+    "remizov_point_log_error": {
+      "dummy": {
+        "train": {
+          "n": 697,
+          "mae_log10": 0.4825716321579068,
+          "mae_error": 1.253128170473298,
+          "r2_log10": -0.00032518861163821633
+        },
+        "validation": {
+          "n": 150,
+          "mae_log10": 0.48638672997555527,
+          "mae_error": 0.005244786093431745,
+          "r2_log10": -0.0018042843939849451
+        },
+        "test": {
+          "n": 150,
+          "mae_log10": 0.4843956904247106,
+          "mae_error": 1.6584728972391758,
+          "r2_log10": -0.0005345645170833357
+        }
+      },
+      "ridge": {
+        "train": {
+          "n": 697,
+          "mae_log10": 0.34429587895389563,
+          "mae_error": 1.2504119047072588,
+          "r2_log10": 0.4968891605969026
+        },
+        "validation": {
+          "n": 150,
+          "mae_log10": 0.4295389472121814,
+          "mae_error": 0.08744193345299704,
+          "r2_log10": 0.20273117085533932
+        },
+        "test": {
+          "n": 150,
+          "mae_log10": 0.3617526751366621,
+          "mae_error": 1.5987166671088116,
+          "r2_log10": 0.5725113036955285
+        }
+      },
+      "catboost": {
+        "train": {
+          "n": 697,
+          "mae_log10": 0.27020457354081573,
+          "mae_error": 1.2043961786341855,
+          "r2_log10": 0.7131001367366199
+        },
+        "validation": {
+          "n": 150,
+          "mae_log10": 0.40443283422084647,
+          "mae_error": 0.005004072752455872,
+          "r2_log10": 0.3212798398125253
+        },
+        "test": {
+          "n": 150,
+          "mae_log10": 0.3579417528329333,
+          "mae_error": 1.658010491712017,
+          "r2_log10": 0.45542579821244067
+        }
+      },
+      "selected_by_validation_mae": "catboost"
+    },
+    "mc_aggregate_log_error": {
+      "dummy": {
+        "train": {
+          "n": 700,
+          "mae_log10": 0.4569176463360258,
+          "mae_error": 0.01352131192527401,
+          "r2_log10": -0.008365128789392884
+        },
+        "validation": {
+          "n": 150,
+          "mae_log10": 0.42204702271426525,
+          "mae_error": 0.017911088303988063,
+          "r2_log10": -0.003951127043833269
+        },
+        "test": {
+          "n": 150,
+          "mae_log10": 0.4121199640094677,
+          "mae_error": 0.013054716462662388,
+          "r2_log10": -0.001595689426986624
+        }
+      },
+      "ridge": {
+        "train": {
+          "n": 700,
+          "mae_log10": 0.36940205088506495,
+          "mae_error": 0.01015658605473818,
+          "r2_log10": 0.36420836785956434
+        },
+        "validation": {
+          "n": 150,
+          "mae_log10": 0.3946618588347514,
+          "mae_error": 0.028437996979221905,
+          "r2_log10": 0.21356260389555726
+        },
+        "test": {
+          "n": 150,
+          "mae_log10": 0.3992277694498593,
+          "mae_error": 0.01901394054128348,
+          "r2_log10": 0.10004913648492997
+        }
+      },
+      "catboost": {
+        "train": {
+          "n": 700,
+          "mae_log10": 0.3341534360762429,
+          "mae_error": 0.009857175323792634,
+          "r2_log10": 0.4852129135778931
+        },
+        "validation": {
+          "n": 150,
+          "mae_log10": 0.3728111077166107,
+          "mae_error": 0.016219119751651252,
+          "r2_log10": 0.2499763302881568
+        },
+        "test": {
+          "n": 150,
+          "mae_log10": 0.3624367066930853,
+          "mae_error": 0.011634675154374191,
+          "r2_log10": 0.2773432422601918
+        }
+      },
+      "selected_by_validation_mae": "catboost"
+    }
+  },
+  "comparative": {
+    "gate": {
+      "train": {
+        "n": 49,
+        "mc": 5,
+        "remizov": 44
+      },
+      "validation": {
+        "n": 10,
+        "mc": 1,
+        "remizov": 9
+      },
+      "test": {
+        "n": 8,
+        "mc": 1,
+        "remizov": 7
+      }
+    },
+    "trained": false,
+    "limitation": "Exploratory fixed-profile mean-error label, approximate t95 from 4 seeds; no fastest-method or 95%-reliability certificate",
+    "reason": "insufficient separated labels/classes; separate quality models are primary"
+  },
+  "uncertainty": {
+    "remizov_point_accuracy": {
+      "test_logloss_95": {
+        "dummy": [
+          0.09291239945164378,
+          0.30491671768500955
+        ],
+        "logistic": [
+          0.08833512837010202,
+          0.3628682652336925
+        ],
+        "catboost": [
+          0.050412602731707515,
+          0.20692825387728983
+        ]
+      },
+      "catboost_minus_dummy_logloss_95": [
+        -0.12194896588634316,
+        -0.01843788266807336
+      ],
+      "scope": "conditional on these observed seed outcomes; 500 whole-family resamples"
+    },
+    "mc_single_seed_accuracy": {
+      "test_logloss_95": {
+        "dummy": [
+          0.6371034288347199,
+          0.7141882926799094
+        ],
+        "logistic": [
+          0.5988371702239964,
+          0.77210645620588
+        ],
+        "catboost": [
+          0.5362909237943914,
+          0.6405159943599763
+        ]
+      },
+      "catboost_minus_dummy_logloss_95": [
+        -0.1250574419874144,
+        -0.051500634241837207
+      ],
+      "scope": "conditional on these observed seed outcomes; 500 whole-family resamples"
+    }
+  },
+  "elapsed_seconds": 13.809282041853294,
+  "features": 253,
+  "split_rows": {
+    "train": 700,
+    "validation": 150,
+    "test": 150
+  },
+  "training_scope": "Preliminary quality of fixed profiles at x=0. MC success probability is for one 1024-path seed, aggregate error for 4x1024. No runtime winner."
+}

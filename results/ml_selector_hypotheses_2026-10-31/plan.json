@@ -1,0 +1,127 @@
+{
+  "calibration": "descriptive validation Brier/logloss/ECE only; weighted scores not assumed calibrated; no calibration fit",
+  "class_weights_MC": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    12
+  ],
+  "classifier_base": {
+    "allow_const_label": true,
+    "allow_writing_files": false,
+    "bootstrap_type": "No",
+    "class_names": [
+      "remizov",
+      "monte_carlo"
+    ],
+    "depth": 2,
+    "iterations": 120,
+    "l2_leaf_reg": 10,
+    "learning_rate": 0.05,
+    "loss_function": "Logloss",
+    "random_seed": 2488,
+    "random_strength": 0,
+    "thread_count": 1,
+    "verbose": false
+  },
+  "classifier_thresholds": "0.05:0.05:0.50 plus every validation score partition including constant policies",
+  "configs": [
+    {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    }
+  ],
+  "cv": "5 stratified family folds within each train; fixed-default comparisons plus nested inner one-quarter group holdout selection over baseline original253 six weights two regressions and constants; refit chosen spec on outer train",
+  "errors": "E_R=abs(saved_R128-exact0); E_MC=abs(mean(four saved MC1024)-exact0)",
+  "features": [
+    "original253",
+    "augmented258"
+  ],
+  "final_stage": "lock every candidate/threshold and selected policy before one final pass on fixed test; no changes afterwards",
+  "fit_budget": {
+    "cv_default_and_nested_max": 170,
+    "main": 96,
+    "upper_total": 266
+  },
+  "new_equations": 0,
+  "numerical_calls": 0,
+  "primary": "minimum validation mean_regret = minimum mean selected absolute error minus fixed oracle mean",
+  "regression_decision": "MC iff predicted_delta > threshold; strict sign at threshold0",
+  "regression_targets": [
+    "raw_delta",
+    "asinh(delta/train_median_abs_delta)"
+  ],
+  "regression_thresholds": "0 plus every validation score partition including constant policies",
+  "resources": "one process, CatBoost and BLAS one thread; no universal wall limit",
+  "scenarios": [
+    "new",
+    "old"
+  ],
+  "schema": "selector_hypotheses_v1",
+  "scope": "retrospective exploratory comparison on previously disclosed test; x=0 only",
+  "seed": 2488,
+  "source": "results/ml_mean_mc_selector_2026-10-31/run",
+  "split_algorithm": {
+    "rule": "largest_remainder_family_MC_count_then_seeded_permutation",
+    "seed": 2488,
+    "strata_sizes": {
+      "0": 91,
+      "1": 52,
+      "2": 18,
+      "3": 6
+    },
+    "validation_families": [
+      "F0011",
+      "F0015",
+      "F0016",
+      "F0017",
+      "F0031",
+      "F0044",
+      "F0047",
+      "F0048",
+      "F0076",
+      "F0078",
+      "F0080",
+      "F0083",
+      "F0101",
+      "F0107",
+      "F0108",
+      "F0119",
+      "F0155",
+      "F0165",
+      "F0170",
+      "F0172"
+    ],
+    "validation_family_quotas": {
+      "0": 11,
+      "1": 6,
+      "2": 2,
+      "3": 1
+    }
+  },
+  "thread_count": 1,
+  "threshold_selection": "same primary criterion, validation only; no fit on validation",
+  "tie_breakers": [
+    "higher success at epsilon=.05",
+    "higher macro_f1",
+    "fewer MC choices",
+    "stable candidate ID"
+  ],
+  "winner": "MC iff E_MC < E_R; ties R"
+}

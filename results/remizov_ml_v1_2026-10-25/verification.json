@@ -1,0 +1,43 @@
+{
+  "changed_protected_files": [],
+  "classifier_metrics_verified": true,
+  "completed": true,
+  "core_sha256": {
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "mc_solver.py": "b48e05e148009aaa4fabe7ec783d956f776438537c522a338a31624fe118ad83",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "family_split_preserved": true,
+  "independent_linear_audit": {
+    "all_features_finite": true,
+    "all_models_predictions_finite": true,
+    "independent_logistic_gradient_inf": 8.837305396324152e-05,
+    "logistic_iterations": [
+      39
+    ],
+    "logistic_prob_max_difference_nonblas_einsum": 1.2212453270876722e-15,
+    "logistic_tolerance": 0.0001,
+    "ridge_nonblas_checks": {
+      "ridge_coeff": 1.0658141036401503e-14,
+      "ridge_context": 1.0658141036401503e-14
+    },
+    "warning_observed": "Initial sklearn fit emitted matmul divide/overflow/invalid RuntimeWarning; cause not established"
+  },
+  "independently_recomputed_saved_errors": 997,
+  "input_features": 253,
+  "known_targets": 997,
+  "local_links_broken": [],
+  "new_mc_runs": 0,
+  "new_ode_solves": 0,
+  "numerical_dependencies_preserved": true,
+  "protected_files": 8011,
+  "runtime_metrics_verified": true,
+  "status_after_sha256": "08a19e2d1b026395100274a3f2d8bb9f2fda8c02a1a23051afe3387eb0d5b982",
+  "status_before_sha256": "cf41b7747534233a405ac996ebb737ae3114d3b5c496c20e31cba3a583f06a4d",
+  "targets": 1000,
+  "topology_split_preserved": true,
+  "unknown_targets": 3
+}

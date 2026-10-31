@@ -1,0 +1,1 @@
+{"command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_probability_selector_audit.py tests/test_probability_validation_report.py", "duration_seconds": 0.52, "failed": 0, "passed": 15, "scope": "pure unit and saved-only accounting/statistics/AST checks; no solver or ML fit, no dataset-test", "stdout": "15 passed in 0.52s"}

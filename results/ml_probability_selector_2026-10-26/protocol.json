@@ -1,0 +1,41 @@
+{
+  "bootstrap_replicas": 10,
+  "calibrator": "not fit: no original validation outcomes",
+  "deployment": "blocked; diagnostics expose both methods and uncertainty",
+  "fresh_F0047": "known historical independent4-seed group reserved until weights freeze; post-hoc seen-family audit, not blind family validation",
+  "gate_20plus5": "belongs to direct MC-winner classification; not required to fit probability/cost heads; replaced by held-family calibration/cost/policy evidence",
+  "main_fixed_pair": "R256_MC1; R128 is included with sparse-time warning, never silently excluded",
+  "model": {
+    "bootstrap_type": "No",
+    "cost_loss": "RMSE(log wall)",
+    "depth": 2,
+    "iterations": 120,
+    "l2_leaf_reg": 10,
+    "learning_rate": 0.05,
+    "probability_loss": "CrossEntropy",
+    "random_strength": 0,
+    "threads": 1
+  },
+  "new_solver_calls": 0,
+  "objective": "min predicted typical full warm wall subject to caller-supplied probability q; realized MC accuracy is unknowable before sampling",
+  "profiles": [
+    "R128",
+    "R256",
+    "MC1"
+  ],
+  "repetitions": "MC P1/P2 four unique semantic seeds per equation; R deterministic repeats deduplicated; no synthetic winner labels or rows",
+  "risk_sensitivity": [
+    0.5,
+    0.8,
+    0.95
+  ],
+  "schema": "risk_constrained_typical_cost_v1",
+  "seed": 2488,
+  "source": "saved only",
+  "sparse_cost_head": "less than8 train families: empirical log-time constant; no claimed learned timing regression",
+  "targets": "probability: actual k/n binomial sufficient statistics; cost: log observed full warm wall (median when4 available, single otherwise)",
+  "test": "no test outcomes read for training/tuning/evaluation; no test predictions",
+  "thresholds_not_tuned": true,
+  "training": "only original train; 3-fold StratifiedGroupKFold by family, stratify MC ever-success3families; auxiliary R128 train cases exclude held families",
+  "uncertainty": "family bootstrap10/90 model-spread only, NOT calibrated probability bounds or CI"
+}

@@ -1,0 +1,110 @@
+Mon Oct 12 18:10:40 2026    /Users/mikti/Documents/vsc projects/ode-generator-remizov/results/remizov_n4_followup_2026-10-12/F0000_n4_profile/partial_profile.pstats
+
+         81188292 function calls (80987958 primitive calls) in 44.449 seconds
+
+   Ordered by: internal time
+   List reduced from 200 to 45 due to restriction <45>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   320624    8.346    0.000    8.391    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/scipy/interpolate/_interpolate.py:858(_evaluate)
+  4469019    2.615    0.000    2.615    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+       45    2.321    0.052    2.321    0.052 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/linalg/_linalg.py:1229(eigvalsh)
+    80157    2.150    0.000    2.588    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/scipy/linalg/_basic.py:525(solve_banded)
+    80157    2.142    0.000   34.709    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:350(_apply_operator_on_grid)
+  3506928    1.444    0.000    4.009    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:89(_wrapreduction_any_all)
+360711/320631    1.401    0.000    3.058    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:455(_evaluate_array)
+    80157    1.190    0.000    4.145    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/scipy/interpolate/_cubic.py:139(__init__)
+    80157    1.184    0.000    9.778    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/scipy/interpolate/_cubic.py:728(__init__)
+   480944    1.015    0.000    1.105    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:1369(diff)
+   160314    0.977    0.000    3.481    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/scipy/interpolate/_cubic.py:16(prepare_input)
+   521022    0.824    0.000    1.182    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_stride_tricks_impl.py:340(_broadcast_to)
+   100197    0.751    0.000    2.115    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py:379(a)
+  2905749    0.706    0.000    4.054    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:2589(all)
+   100197    0.673    0.000    1.947    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py:383(b)
+   100197    0.663    0.000    1.908    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py:387(c_remizov)
+    80157    0.613    0.000    9.295    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:278(_evaluate_coefficients)
+    20040    0.497    0.000    1.029    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:597(normalized_bump_jet2)
+  3506928    0.481    0.000    0.481    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:91(<dictcomp>)
+   320624    0.474    0.000    9.154    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/scipy/interpolate/_interpolate.py:744(__call__)
+   260511    0.470    0.000    1.709    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py:285(_real_values)
+   340671    0.458    0.000    1.116    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:431(_prepare_real_points)
+    20040    0.395    0.000    3.468    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:657(evaluate_solution)
+   260511    0.389    0.000   13.706    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:260(_as_values)
+   420876    0.386    0.000    0.484    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/numeric.py:64(zeros_like)
+   320631    0.381    0.000    0.945    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:263(validate_expression)
+100293/20199    0.378    0.000   44.368    0.002 /Users/mikti/Documents/vsc projects/ode-generator-remizov/diagnostics/remizov_n4_followup.py:88(observed)
+    80158    0.371    0.000    0.540    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/function_base.py:25(linspace)
+   961956    0.351    0.000    1.163    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:69(_wrapreduction)
+   320631    0.346    0.000    0.381    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/numeric.py:367(full_like)
+   260511    0.330    0.000    0.804    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py:272(_real_coordinates)
+    80160    0.316    0.000    0.749    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:447(_finite_jet)
+   240561    0.308    0.000    0.865    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/numeric.py:1448(moveaxis)
+   400781    0.299    0.000    0.832    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:341(<genexpr>)
+   320631    0.291    0.000    5.618    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:577(evaluate_jet2)
+   481122    0.288    0.000    0.440    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/numeric.py:1386(normalize_axis_tuple)
+    80157    0.274    0.000    0.758    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/scipy/interpolate/_interpolate.py:578(__init__)
+   721413    0.244    0.000    0.553    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/numerictypes.py:471(issubdtype)
+  4208313    0.243    0.000    0.243    0.000 {built-in method numpy.asarray}
+  1102218    0.228    0.000    0.268    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_type_check_impl.py:270(iscomplexobj)
+   400785    0.215    0.000    0.622    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:335(<genexpr>)
+   400780    0.209    0.000    1.156    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:344(<genexpr>)
+  1442826    0.203    0.000    0.287    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/numerictypes.py:289(issubclass_)
+      135    0.201    0.001    0.202    0.001 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/polynomial/legendre.py:830(legval)
+   501031    0.199    0.000    0.287    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/_ufunc_config.py:440(__enter__)
+
+
+Mon Oct 12 18:10:40 2026    /Users/mikti/Documents/vsc projects/ode-generator-remizov/results/remizov_n4_followup_2026-10-12/F0000_n4_profile/partial_profile.pstats
+
+         81188292 function calls (80987958 primitive calls) in 44.449 seconds
+
+   Ordered by: cumulative time
+   List reduced from 200 to 45 due to restriction <45>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+100293/20199    0.378    0.000   44.368    0.002 /Users/mikti/Documents/vsc projects/ode-generator-remizov/diagnostics/remizov_n4_followup.py:88(observed)
+    20040    0.130    0.000   41.756    0.002 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:413(_compute_chernoff_at_t)
+    80157    2.142    0.000   34.709    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:350(_apply_operator_on_grid)
+       45    0.027    0.001   19.719    0.438 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:465(_integrate_fixed_nt)
+   260511    0.389    0.000   13.706    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:260(_as_values)
+   260511    0.151    0.000   12.324    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py:313(evaluate)
+    80157    1.184    0.000    9.778    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/scipy/interpolate/_cubic.py:728(__init__)
+    80157    0.613    0.000    9.295    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:278(_evaluate_coefficients)
+   320624    0.474    0.000    9.154    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/scipy/interpolate/_interpolate.py:744(__call__)
+   320624    8.346    0.000    8.391    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/scipy/interpolate/_interpolate.py:858(_evaluate)
+   320631    0.291    0.000    5.618    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:577(evaluate_jet2)
+    20040    0.030    0.000    5.243    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py:423(g_remizov)
+    20040    0.145    0.000    5.213    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py:419(g)
+    80157    1.190    0.000    4.145    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/scipy/interpolate/_cubic.py:139(__init__)
+  2905749    0.706    0.000    4.054    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:2589(all)
+  3506928    1.444    0.000    4.009    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:89(_wrapreduction_any_all)
+   300591    0.076    0.000    3.885    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:585(evaluate_expression)
+    20040    0.018    0.000    3.486    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py:394(solution_jet)
+   160314    0.977    0.000    3.481    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/scipy/interpolate/_cubic.py:16(prepare_input)
+    20040    0.395    0.000    3.468    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:657(evaluate_solution)
+360711/320631    1.401    0.000    3.058    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:455(_evaluate_array)
+    80157    0.166    0.000    2.913    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:329(_coordinates_inside_source)
+  4469019    2.615    0.000    2.615    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+    80157    2.150    0.000    2.588    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/scipy/linalg/_basic.py:525(solve_banded)
+       45    0.001    0.000    2.540    0.056 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/polynomial/legendre.py:1472(leggauss)
+       45    2.321    0.052    2.321    0.052 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/linalg/_linalg.py:1229(eigvalsh)
+   100197    0.751    0.000    2.115    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py:379(a)
+   100197    0.673    0.000    1.947    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py:383(b)
+   100197    0.663    0.000    1.908    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py:387(c_remizov)
+   260511    0.470    0.000    1.709    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py:285(_real_values)
+   521022    0.092    0.000    1.274    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_stride_tricks_impl.py:367(broadcast_to)
+    80158    0.032    0.000    1.188    0.000 {built-in method builtins.all}
+   521022    0.824    0.000    1.182    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_stride_tricks_impl.py:340(_broadcast_to)
+   961956    0.351    0.000    1.163    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:69(_wrapreduction)
+   400780    0.209    0.000    1.156    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:344(<genexpr>)
+   340671    0.458    0.000    1.116    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:431(_prepare_real_points)
+   480944    1.015    0.000    1.105    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py:1369(diff)
+    20040    0.497    0.000    1.029    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:597(normalized_bump_jet2)
+   641332    0.181    0.000    0.955    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3052(max)
+   320631    0.381    0.000    0.945    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:263(validate_expression)
+    20040    0.011    0.000    0.906    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:510(<listcomp>)
+    80158    0.171    0.000    0.884    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:297(_uniform_grid)
+   240561    0.308    0.000    0.865    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/numeric.py:1448(moveaxis)
+   400781    0.299    0.000    0.832    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/remizov_solver.py:341(<genexpr>)
+   601179    0.147    0.000    0.809    0.000 /Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:2477(any)
+
+

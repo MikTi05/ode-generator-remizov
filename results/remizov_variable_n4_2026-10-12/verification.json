@@ -1,0 +1,45 @@
+{
+  "CLI_edit_exactly_two_added_worker_choices": true,
+  "attempts_per_equation": 1,
+  "automatic_retries": 0,
+  "checks": [
+    {
+      "config_matches": true,
+      "equation_id": "AMV1_F0006_S00",
+      "error_recalculation_matches_if_success": true,
+      "instrumented": false,
+      "no_profile_artifacts": true,
+      "resource_samples": 90,
+      "rss_recalculation_matches": true,
+      "solver_result_returned": true
+    },
+    {
+      "config_matches": true,
+      "equation_id": "AMV1_F0007_S00",
+      "error_recalculation_matches_if_success": null,
+      "instrumented": false,
+      "no_profile_artifacts": true,
+      "resource_samples": 176,
+      "rss_recalculation_matches": true,
+      "solver_result_returned": false
+    }
+  ],
+  "core_matches_migration_source": {
+    "remizov_solver.py": true,
+    "src/all_methods_dataset_v1.py": true,
+    "src/all_methods_expressions.py": true
+  },
+  "exactly_two_attempts": true,
+  "new_dependencies_installed": false,
+  "original_changed_or_removed": [],
+  "preexisting_project_changes_since_pre_edit_baseline": [
+    "diagnostics/remizov_n4_followup.py"
+  ],
+  "previous_results_identical": {
+    "remizov_f0000_n4_control_2026-10-12": true,
+    "remizov_n4_followup_2026-10-12": true,
+    "remizov_n_study_2026-10-11": true
+  },
+  "project_changed_during_execution": [],
+  "second_task_completed_attempt_independently": true
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "pytest_passed": 7,
+  "pytest_failed": 0,
+  "command": "MPLCONFIGDIR=/private/tmp/ode_report_mpl PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_ml_report_illustrations.py",
+  "wall_seconds": 0.1,
+  "closed_formula_maximum_absolute_difference": 8.526512829121202e-14,
+  "protected_previous_files_unchanged": 1531,
+  "independent_symbolic_jet_and_forcing_verified": true,
+  "PDF_pages": [
+    29,
+    5
+  ],
+  "PNG_figures": 34,
+  "numerical_points_per_record": 33,
+  "numerical_records": 26,
+  "new_solver_calls": 0,
+  "new_training": 0,
+  "new_inference": 0,
+  "visual_QA": "contact sheets for34 PNG; full PDFKit render checks of errors for examples1 and7 and selection matrix; final example7 legend moved outside data axes; no clipping or missing glyphs found"
+}

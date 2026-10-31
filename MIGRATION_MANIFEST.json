@@ -1,0 +1,72 @@
+{
+  "project": "ode-generator-remizov",
+  "origin": "generator_DE",
+  "copied_files": [
+    "generate_all_methods_dataset_v1.py",
+    "validate_all_methods_dataset_v1.py",
+    "all_methods_dataset_loader.py",
+    "remizov_solver.py",
+    "src/__init__.py",
+    "src/all_methods_dataset_v1.py",
+    "src/all_methods_expressions.py",
+    "create_remizov_benchmark.py",
+    "validate_remizov_benchmark.py",
+    "remizov_benchmark_loader.py",
+    "verify_remizov_solver.py",
+    "data/remizov_benchmark.csv",
+    "tests/test_all_methods_expressions.py",
+    "tests/test_all_methods_dataset_v1.py",
+    "tests/test_remizov_solver.py",
+    "tests/test_remizov_loader.py",
+    "tests/test_remizov_verification.py",
+    "tests/test_remizov_benchmark.py",
+    "docs/ALL_METHODS_DATASET_V1.md"
+  ],
+  "source_sha256": {
+    "generate_all_methods_dataset_v1.py": "daa83a9b1a69ad7bc53ed30148ff53f78efb786ad04f49f16ca0acff18dc91c4",
+    "validate_all_methods_dataset_v1.py": "e8f711413f59286da32c14b5bc1e60cc47f8120fc11bd797c9748677e644b4d7",
+    "all_methods_dataset_loader.py": "7130d74326a1fb327bc2fb439d761f382a71ec95a7d4f486bf7c6a621719ac76",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/__init__.py": "b463f592dcaaf9eb6c076995b6b4b2f2a4f145b08e72cbb5c38b04112e70e426",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a",
+    "create_remizov_benchmark.py": "91d5f8e1e8b8d9f28db62830c16590a7cfda401ee48f869ccc32e8d1f3066649",
+    "validate_remizov_benchmark.py": "4e88bbf9cbb7818b33e5201a06a24f941407563ef2f3acd006db60ba46f93557",
+    "remizov_benchmark_loader.py": "8f9e6a6967049d38d8773d882caf714998ccb8050b627687acf0708e704ea9bb",
+    "verify_remizov_solver.py": "ffc873f724bc784cbbf6373f150d375b5f08de9a6595f702f7e1fa2dc6152039",
+    "data/remizov_benchmark.csv": "3a82de02fb6367706def5f3ec5e0658be11f638d6897f5da992ff799bccaee36",
+    "tests/test_all_methods_expressions.py": "772bb480eea4ce5b78aee65d7cac06693a820e3b5cf2149485b18d61e77aacbe",
+    "tests/test_all_methods_dataset_v1.py": "5b51d03aec8da2283a1a72f338609fea5da779f721782c42d483b12ea19fb76c",
+    "tests/test_remizov_solver.py": "23b3e584890b421906995ddb6b482c7411c8f0ade9f08b975f9ee3bb2155125b",
+    "tests/test_remizov_loader.py": "0d389718b66509a0b768ad20c83085d43498d742cfe0338d7bed9e65ffcfe5ce",
+    "tests/test_remizov_verification.py": "f3e0beb2dfad1227f51adde32d0e9da3c282ad583a85af26c024d1d1ae87631d",
+    "tests/test_remizov_benchmark.py": "9722ba2ae94eddd9a0f3cb9086f94812717a6ec62ccbc8c766e79fca64f48d51",
+    "docs/ALL_METHODS_DATASET_V1.md": "94cd8a79b6d75ed40fe2795f4fbf44da9ffc0934c4776388a680de6dd61308b7"
+  },
+  "unchanged_mathematical_core": [
+    "src/all_methods_dataset_v1.py",
+    "src/all_methods_expressions.py",
+    "remizov_solver.py"
+  ],
+  "adaptations": {
+    "all_methods_dataset_loader.py": "Import CauchyProblem from standalone src.problem_types.",
+    "src/__init__.py": "Update the package docstring only.",
+    "tests/test_remizov_benchmark.py": "Remove RK4 import and calculation; retain symbolic equation identity.",
+    "docs/ALL_METHODS_DATASET_V1.md": "Update project scope and loading documentation; preserve mathematical formulas."
+  },
+  "created_files": [
+    "src/problem_types.py",
+    "requirements.txt",
+    "requirements-dev.txt",
+    ".gitignore",
+    "pytest.ini",
+    "README.md",
+    "examples/solve_generated_equation.py",
+    "tests/test_all_methods_loader.py",
+    "tests/test_all_methods_remizov_pipeline.py",
+    "MIGRATION_MANIFEST.json",
+    "docs/LOCAL_VERIFICATION.md",
+    "docs/local_verification_results.json"
+  ],
+  "source_snapshot_sha256": "eb1e5a587c3ebaa6146d0024351c438b9442b689ba53930891814c4aaaaa3680"
+}

@@ -1,0 +1,33 @@
+{
+  "artificial_training_examples": 0,
+  "benchmark1000_calls": 0,
+  "direct_MC_winner_gate_applied": false,
+  "fresh_MC_seed_group_excluded_from_fit": true,
+  "full_selector_validated": false,
+  "independent_verification": "independent_verification.json",
+  "intentionally_changed": [
+    "PROJECT_STATUS.md"
+  ],
+  "learned_heads": [
+    "R128_probability",
+    "R256_probability",
+    "MC1_probability",
+    "R256_cost",
+    "MC1_cost"
+  ],
+  "model_reload_exact": true,
+  "models_frozen_before_seed_audit": true,
+  "numerical_calls": 0,
+  "numerical_methods_and_data_unchanged": true,
+  "old_frozen_artifacts_unchanged": 853,
+  "original_validation_or_test_fit": false,
+  "passed": true,
+  "pipeline_seconds": 21.117163083981723,
+  "previous_paths_checked": 18197,
+  "registry_sha256": "9854a71be60a42f88878da317e02947a9de857fb862e088096661449eb1684d9",
+  "report_reproduction": "report_reproduction.json",
+  "saved_CBM_files": 54,
+  "sparse_R128_time_baseline": true,
+  "test_outcomes_used": false,
+  "tests_passed": 54
+}

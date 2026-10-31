@@ -1,0 +1,15 @@
+{
+  "frozen_before_all_replicates": true,
+  "epsilon": 0.01,
+  "p_target": 0.95,
+  "alpha": 0.05,
+  "seed_unit": "independent production answer",
+  "accuracy_interval": "one-sided Clopper-Pearson bounds per equation/mode; not simultaneous 95% two-sided",
+  "mc_below_target_multiple_testing": "exact binomial P_p=.95(K<=observed k), Holm over all 26 equation/mode MC profiles",
+  "bias_intervals": "t across independent seed means; Bonferroni over spatial points within each fixed profile",
+  "time_metric": "cold response including setup/certificate; solver time separately; no runtime cutoff or PAR2",
+  "time_comparison": "Welch log-time ratio 95% only for qualified profiles with complete observations; practical zone [1/1.1,1.1]; other ratios descriptive",
+  "no_accuracy_based_retries": true,
+  "no_pooling_as_free_answer": true,
+  "ML_training_eligible": false
+}

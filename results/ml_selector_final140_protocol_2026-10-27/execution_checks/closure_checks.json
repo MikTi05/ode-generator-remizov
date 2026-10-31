@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "production_lease_probe": {
+    "passed": true,
+    "external_cli_renewal_observed_while_worker_alive": true,
+    "external_stop_cleanup_confirmed": true,
+    "guardian": {
+      "guardian_pid": 32515,
+      "controller_pid": 32513,
+      "token": "836e2ecf852d4d0dbe563c7c3b4119c6",
+      "finished": true,
+      "worker_pid": 32520,
+      "worker_pgid": 32520,
+      "cleanup_success": true,
+      "worker_returncode": -15,
+      "reason": "stop_requested",
+      "finished_monotonic": 1300853.521852541
+    },
+    "elapsed_seconds": 10.381064666900784,
+    "numerical_calls": 0
+  },
+  "initial_short_probe": {
+    "passed": false,
+    "renewed_externally_and_survived_initial_lease": false,
+    "fail_closed_after_external_renewal_stopped": true,
+    "guardian": {
+      "guardian_pid": 32346,
+      "controller_pid": 32343,
+      "token": "9549884aa28c4c489b853dba0d79ddc7",
+      "finished": true,
+      "worker_pid": 32347,
+      "worker_pgid": 32347,
+      "cleanup_success": true,
+      "worker_returncode": -15,
+      "reason": "owner_lease_expired",
+      "finished_monotonic": 1300766.941648333
+    },
+    "elapsed_seconds": 4.1445398749783635,
+    "numerical_calls": 0
+  },
+  "initial_short_probe_interpretation": "expired before external tool call; failure preserved; no numerical calls; not used as successful start gate",
+  "start_gate": "production300 probe passed before numerical execution",
+  "actual_external_renewals": 62,
+  "maximum_actual_renewal_gap_seconds": 79.13772216695361,
+  "active_finished": true,
+  "controller_lock_free": true,
+  "compute_lock_free": true,
+  "raw_execution_files_unchanged": 294,
+  "preparation_files_unchanged": 53
+}

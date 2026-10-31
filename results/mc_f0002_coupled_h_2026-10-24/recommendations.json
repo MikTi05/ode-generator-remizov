@@ -1,0 +1,28 @@
+{
+  "caveat": "Only uncertainty of mean bias checked, not probability that a new run is within .01",
+  "finest_bias_ci95": [
+    -0.00723840540436033,
+    0.032182100054868046
+  ],
+  "finest_simultaneous_bias_ci95": [
+    -0.01339522141832479,
+    0.03833891606883251
+  ],
+  "finest_tested_h": 0.015625,
+  "next_small_pair_candidate": {
+    "M_per_seed": 1024,
+    "caveat": "Planning estimate from four pilots, not a new experiment or a precision guarantee",
+    "executed": false,
+    "hs": [
+      0.03125,
+      0.015625
+    ],
+    "path_steps": 50036736,
+    "projected_t95_difference_half": 0.006745507224046884,
+    "repeats": 8
+  },
+  "path_steps_at_finest_tested": 372221520,
+  "pilot_M_for_stat_ci_half_005": 91410,
+  "source_stage": "pilot",
+  "tested_mean_bias_within_001": false
+}

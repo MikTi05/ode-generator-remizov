@@ -1,0 +1,689 @@
+{
+  "batch_prediction_seconds": 0.019911167211830616,
+  "feature_precomputation_and_model_loading_outside_timer": true,
+  "policy_code_sha256": "bccbbfe8db6aa19b1172d62f79d06d9a70c200048550d05b511d242b065a139c",
+  "registry_sha256": "9854a71be60a42f88878da317e02947a9de857fb862e088096661449eb1684d9",
+  "rows": [
+    {
+      "diagnostic_choices": {
+        "0.5": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.5,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.5,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        },
+        "0.8": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.8,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.8,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        },
+        "0.95": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.95,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R256",
+            "q": 0.95,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        }
+      },
+      "equation_id": "AMV1_F0032_S02",
+      "estimates": {
+        "MC1": {
+          "cost": {
+            "high": 23.961167231976873,
+            "low": 16.463940372569375,
+            "point": 20.42097513111251,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.027118136788319664,
+            "low": 0.010082626654726834,
+            "point": 0.010082626654726834
+          }
+        },
+        "R128": {
+          "cost": {
+            "high": 12.00208971133216,
+            "low": 11.884556222737393,
+            "point": 11.940014542543897,
+            "supported": false
+          },
+          "probability": {
+            "high": 0.9595189324663012,
+            "low": 0.8994844100097746,
+            "point": 0.9109326156790251
+          }
+        },
+        "R256": {
+          "cost": {
+            "high": 24.19234467621341,
+            "low": 23.976183284897303,
+            "point": 24.062881204377906,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.9921670126087109,
+            "low": 0.9726298530400054,
+            "point": 0.9921670126087109
+          }
+        }
+      },
+      "expression_hash": "0df44a85b14772258cd111449950087a569712d1ee411d8cef161c2cafcea7ca",
+      "production_action": "abstain",
+      "production_status": "research_only_uncalibrated"
+    },
+    {
+      "diagnostic_choices": {
+        "0.5": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.5,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.5,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        },
+        "0.8": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.8,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.8,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        },
+        "0.95": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.95,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R256",
+            "q": 0.95,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        }
+      },
+      "equation_id": "AMV1_F0041_S02",
+      "estimates": {
+        "MC1": {
+          "cost": {
+            "high": 25.368037622545476,
+            "low": 18.03788293896236,
+            "point": 18.572077118708336,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.5448665081822421,
+            "low": 0.010041014774880464,
+            "point": 0.010041014774880464
+          }
+        },
+        "R128": {
+          "cost": {
+            "high": 12.00208971133216,
+            "low": 11.884556222737393,
+            "point": 11.940014542543897,
+            "supported": false
+          },
+          "probability": {
+            "high": 0.963037462012675,
+            "low": 0.6756623453787233,
+            "point": 0.9202110581174071
+          }
+        },
+        "R256": {
+          "cost": {
+            "high": 24.25746235374487,
+            "low": 24.05836136665183,
+            "point": 24.088513081745404,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.9921670126087109,
+            "low": 0.9215268392377491,
+            "point": 0.9921670126087109
+          }
+        }
+      },
+      "expression_hash": "9e4e468041d125c9183d6a6b47e424d8de01131e58f29354eec1a00263bf2d91",
+      "production_action": "abstain",
+      "production_status": "research_only_uncalibrated"
+    },
+    {
+      "diagnostic_choices": {
+        "0.5": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.5,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.5,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        },
+        "0.8": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.8,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.8,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        },
+        "0.95": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.95,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.95,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        }
+      },
+      "equation_id": "AMV1_F0069_S00",
+      "estimates": {
+        "MC1": {
+          "cost": {
+            "high": 24.75463571518718,
+            "low": 16.33672508003708,
+            "point": 22.27571192027951,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.020871747178987304,
+            "low": 0.009841175608811143,
+            "point": 0.009841175608811143
+          }
+        },
+        "R128": {
+          "cost": {
+            "high": 12.00208971133216,
+            "low": 11.884556222737393,
+            "point": 11.940014542543897,
+            "supported": false
+          },
+          "probability": {
+            "high": 0.9765534780078522,
+            "low": 0.9111200647625081,
+            "point": 0.9655654756004962
+          }
+        },
+        "R256": {
+          "cost": {
+            "high": 24.163615514414893,
+            "low": 23.91960183954259,
+            "point": 23.978444491942227,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.991881918971716,
+            "low": 0.9786434220007264,
+            "point": 0.991881918971716
+          }
+        }
+      },
+      "expression_hash": "b9d9acb83c17e84183e4a609fdd9993cae38fb613e1a6b608ac4d6d66c30dded",
+      "production_action": "abstain",
+      "production_status": "research_only_uncalibrated"
+    },
+    {
+      "diagnostic_choices": {
+        "0.5": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.5,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.5,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        },
+        "0.8": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.8,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.8,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        },
+        "0.95": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.95,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.95,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        }
+      },
+      "equation_id": "AMV1_F0106_S01",
+      "estimates": {
+        "MC1": {
+          "cost": {
+            "high": 24.11077519406305,
+            "low": 16.043188682164743,
+            "point": 19.006454543986745,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.08123642429047095,
+            "low": 0.010188310609472229,
+            "point": 0.010188310609472229
+          }
+        },
+        "R128": {
+          "cost": {
+            "high": 12.00208971133216,
+            "low": 11.884556222737393,
+            "point": 11.940014542543897,
+            "supported": false
+          },
+          "probability": {
+            "high": 0.9841007730068768,
+            "low": 0.9531770348954796,
+            "point": 0.9663264277107224
+          }
+        },
+        "R256": {
+          "cost": {
+            "high": 24.196096841583586,
+            "low": 24.02961227420136,
+            "point": 24.11286117689421,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.9921869049563682,
+            "low": 0.9738217509656503,
+            "point": 0.9921869049563682
+          }
+        }
+      },
+      "expression_hash": "9862fe6f750f04d9c9196c3dff3156508bb24473f1d50d71ba3ccd2a66c31ff2",
+      "production_action": "abstain",
+      "production_status": "research_only_uncalibrated"
+    },
+    {
+      "diagnostic_choices": {
+        "0.5": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.5,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.5,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        },
+        "0.8": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.8,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.8,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        },
+        "0.95": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.95,
+            "reason": "probability_requirement_unresolved"
+          },
+          "point": {
+            "action": "R256",
+            "q": 0.95,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        }
+      },
+      "equation_id": "AMV1_F0133_S03",
+      "estimates": {
+        "MC1": {
+          "cost": {
+            "high": 120.35559190333507,
+            "low": 60.245510351384574,
+            "point": 93.3373634068203,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.020596585763991992,
+            "low": 0.010035732989079124,
+            "point": 0.010035732989079124
+          }
+        },
+        "R128": {
+          "cost": {
+            "high": 12.00208971133216,
+            "low": 11.884556222737393,
+            "point": 11.940014542543897,
+            "supported": false
+          },
+          "probability": {
+            "high": 0.9488869632519827,
+            "low": 0.629502112188811,
+            "point": 0.8316119647549616
+          }
+        },
+        "R256": {
+          "cost": {
+            "high": 24.41490077031398,
+            "low": 23.947591209248422,
+            "point": 24.41490077031398,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.9916676517998185,
+            "low": 0.8770379051069492,
+            "point": 0.9916676517998185
+          }
+        }
+      },
+      "expression_hash": "40bb994a00c0baf3f354a827f2533da852598f337d490738913e7583292c9775",
+      "production_action": "abstain",
+      "production_status": "research_only_uncalibrated"
+    },
+    {
+      "diagnostic_choices": {
+        "0.5": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.5,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.5,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        },
+        "0.8": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.8,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.8,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        },
+        "0.95": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.95,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.95,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        }
+      },
+      "equation_id": "AMV1_F0143_S04",
+      "estimates": {
+        "MC1": {
+          "cost": {
+            "high": 43.717401047382666,
+            "low": 21.11635123359004,
+            "point": 26.420068947328087,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.20166643562245712,
+            "low": 0.027484666478787775,
+            "point": 0.06776679329900691
+          }
+        },
+        "R128": {
+          "cost": {
+            "high": 12.00208971133216,
+            "low": 11.884556222737393,
+            "point": 11.940014542543897,
+            "supported": false
+          },
+          "probability": {
+            "high": 0.9759077851680172,
+            "low": 0.9031541420233481,
+            "point": 0.9670385462621206
+          }
+        },
+        "R256": {
+          "cost": {
+            "high": 24.335573099463247,
+            "low": 24.00516699537509,
+            "point": 24.191405560687233,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.9918337492942487,
+            "low": 0.9059094288308566,
+            "point": 0.9918337492942487
+          }
+        }
+      },
+      "expression_hash": "da63dbcee6ad52a609e0e60d5c2569ba4d7b7a865f2b187b7ec7455405745eca",
+      "production_action": "abstain",
+      "production_status": "research_only_uncalibrated"
+    },
+    {
+      "diagnostic_choices": {
+        "0.5": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.5,
+            "reason": "probability_requirement_unresolved"
+          },
+          "point": {
+            "action": "abstain",
+            "q": 0.5,
+            "reason": "probability_requirement_unresolved"
+          }
+        },
+        "0.8": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.8,
+            "reason": "no_predicted_feasible_method"
+          },
+          "point": {
+            "action": "abstain",
+            "q": 0.8,
+            "reason": "no_predicted_feasible_method"
+          }
+        },
+        "0.95": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.95,
+            "reason": "no_predicted_feasible_method"
+          },
+          "point": {
+            "action": "abstain",
+            "q": 0.95,
+            "reason": "no_predicted_feasible_method"
+          }
+        }
+      },
+      "equation_id": "AMV1_F0189_S01",
+      "estimates": {
+        "MC1": {
+          "cost": {
+            "high": 89.73474868518966,
+            "low": 54.32898835834733,
+            "point": 84.49377648578307,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.020596585763991992,
+            "low": 0.010147328813812358,
+            "point": 0.010147328813812358
+          }
+        },
+        "R128": {
+          "cost": {
+            "high": 12.00208971133216,
+            "low": 11.884556222737393,
+            "point": 11.940014542543897,
+            "supported": false
+          },
+          "probability": {
+            "high": 0.26151656251836397,
+            "low": 0.06857280886873411,
+            "point": 0.22322831573739418
+          }
+        },
+        "R256": {
+          "cost": {
+            "high": 24.67852032301574,
+            "low": 24.002143993933945,
+            "point": 24.67852032301574,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.7611836855038927,
+            "low": 0.10999334133109523,
+            "point": 0.18916061834495798
+          }
+        }
+      },
+      "expression_hash": "7541b6a8ce89f2186d966a21c2612f6dedf3ec1083f508c65a70775e41778b1f",
+      "production_action": "abstain",
+      "production_status": "research_only_uncalibrated"
+    },
+    {
+      "diagnostic_choices": {
+        "0.5": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.5,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.5,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        },
+        "0.8": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.8,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.8,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        },
+        "0.95": {
+          "model_spread": {
+            "action": "abstain",
+            "q": 0.95,
+            "reason": "potential_candidate_time_head_insufficient"
+          },
+          "point": {
+            "action": "R128",
+            "q": 0.95,
+            "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+          }
+        }
+      },
+      "equation_id": "AMV1_F0194_S00",
+      "estimates": {
+        "MC1": {
+          "cost": {
+            "high": 67.79194150711032,
+            "low": 37.53585074990496,
+            "point": 53.17515072222358,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.02071123041494642,
+            "low": 0.009844270932900918,
+            "point": 0.009844270932900918
+          }
+        },
+        "R128": {
+          "cost": {
+            "high": 12.00208971133216,
+            "low": 11.884556222737393,
+            "point": 11.940014542543897,
+            "supported": false
+          },
+          "probability": {
+            "high": 0.96526724532663,
+            "low": 0.7761180244094006,
+            "point": 0.963134728701233
+          }
+        },
+        "R256": {
+          "cost": {
+            "high": 24.41065689020833,
+            "low": 23.94159815152413,
+            "point": 24.127960122296315,
+            "supported": true
+          },
+          "probability": {
+            "high": 0.9832027583195007,
+            "low": 0.6951171061105629,
+            "point": 0.9832027583195007
+          }
+        }
+      },
+      "expression_hash": "575f69dbc87f35aae0c5ba75dc4e8712f79a7526000ccf355ace9529b11fa667",
+      "production_action": "abstain",
+      "production_status": "research_only_uncalibrated"
+    }
+  ],
+  "validation_outcomes_used": false
+}

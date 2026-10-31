@@ -1,0 +1,44 @@
+{
+  "spec": {
+    "attempt_id": "241",
+    "config": {
+      "M": 8192,
+      "T": 8.0,
+      "chunk": 8192,
+      "dt": 0.03125,
+      "max_batch_paths": 8192,
+      "max_path_steps": 5000000,
+      "max_runtime_seconds": 10.0,
+      "max_steps": 4096,
+      "seed": 16694460575395936084,
+      "stream_id": 0,
+      "tail_eps": 0.0001
+    },
+    "configuration_id": "4_2",
+    "preflight": {
+      "actual_dt": 0.03125,
+      "coefficient_calls": 1026,
+      "normal_draws": 2097152,
+      "path_steps": 2097152,
+      "time_steps": 256
+    },
+    "problem_id": "AMV1_F0002_S00",
+    "repeat": 2,
+    "tail_bound": 183.8883016603427,
+    "tail_tolerance_met": false,
+    "target_x": [
+      0.0
+    ],
+    "views": [
+      {
+        "factor": "M",
+        "level": 8192
+      },
+      {
+        "factor": "h",
+        "level": 0.03125
+      }
+    ]
+  },
+  "started_utc": "2026-10-24T19:38:03.236299+00:00"
+}

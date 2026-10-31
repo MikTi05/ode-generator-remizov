@@ -1,0 +1,208 @@
+{
+  "certified_ranges": {
+    "a_lower_cert": {
+      "max": 1.498758372842553,
+      "min": 0.5004319705061232
+    },
+    "a_upper_cert": {
+      "max": 2.9955580155358166,
+      "min": 1.0132455433038856
+    },
+    "b_abs_cert": {
+      "max": 4.985607109911009,
+      "min": 0.1527998355921178
+    },
+    "remizov_c_abs_cert": {
+      "max": 3.9933463642879503,
+      "min": 0.15115734792553634
+    },
+    "remizov_gap_cert": {
+      "max": 1.799160412053794,
+      "min": 0.13553143144404048
+    },
+    "remizov_lambda": {
+      "max": 5.71020909104854,
+      "min": 0.41590388413838764
+    }
+  },
+  "channel_order": [
+    "a",
+    "b",
+    "c",
+    "g"
+  ],
+  "coefficient_sampled_ranges": {
+    "a": {
+      "max": 2.8755343775750193,
+      "min": 0.5635131583001485
+    },
+    "b": {
+      "max": 4.828873449528283,
+      "min": -4.6339409655749675
+    },
+    "c": {
+      "max": -0.2241692483408737,
+      "min": -9.115415933144899
+    },
+    "c_r": {
+      "max": 3.7695351883312185,
+      "min": -3.728011880956939
+    },
+    "g": {
+      "max": 328.5372095383957,
+      "min": -306.4872436859529
+    }
+  },
+  "configuration": {
+    "a_min": 0.001,
+    "max_abs_safety": 1000000.0,
+    "max_attempts": 100,
+    "ml_grid_size": 256,
+    "n_families": 200,
+    "residual_rtol": 1e-10,
+    "samples_per_family": 5,
+    "seed": 2488,
+    "validation_grid_size": 2049,
+    "x0": -1.0,
+    "x1": 1.0
+  },
+  "counts_by_complexity": {
+    "L1": 250,
+    "L2": 250,
+    "L3": 250,
+    "L4": 250
+  },
+  "counts_by_complexity_regime": {
+    "L1|constant": 50,
+    "L1|high_contrast": 50,
+    "L1|moderate_varying": 50,
+    "L1|oscillatory": 50,
+    "L1|slow_varying": 50,
+    "L2|constant": 50,
+    "L2|high_contrast": 50,
+    "L2|moderate_varying": 50,
+    "L2|oscillatory": 50,
+    "L2|slow_varying": 50,
+    "L3|constant": 50,
+    "L3|high_contrast": 50,
+    "L3|moderate_varying": 50,
+    "L3|oscillatory": 50,
+    "L3|slow_varying": 50,
+    "L4|constant": 50,
+    "L4|high_contrast": 50,
+    "L4|moderate_varying": 50,
+    "L4|oscillatory": 50,
+    "L4|slow_varying": 50
+  },
+  "counts_by_regime": {
+    "constant": 200,
+    "high_contrast": 200,
+    "moderate_varying": 200,
+    "oscillatory": 200,
+    "slow_varying": 200
+  },
+  "counts_by_split": {
+    "test": 150,
+    "train": 700,
+    "validation": 150
+  },
+  "exact_feature_duplicates": 0,
+  "exact_symbolic_duplicates": 0,
+  "family_split_leakage": false,
+  "generation_version": "all_methods_v1",
+  "global_max_residual": 0.0,
+  "master_seed": 2488,
+  "max_generation_attempts": 2,
+  "max_ml_tensor_absolute_value": 327.74911702026935,
+  "metadata_schema_version": "all_methods_metadata_v1",
+  "npz_dtypes": {
+    "X": "float64",
+    "channel_order": "<U1",
+    "complexity_level": "<U2",
+    "dy_exact": "float64",
+    "equation_id": "<U14",
+    "family_id": "<U5",
+    "regime": "<U16",
+    "split": "<U10",
+    "v0": "float64",
+    "x_grid": "float64",
+    "y0": "float64",
+    "y_exact": "float64"
+  },
+  "npz_shapes": {
+    "X": [
+      1000,
+      4,
+      256
+    ],
+    "channel_order": [
+      4
+    ],
+    "complexity_level": [
+      1000
+    ],
+    "dy_exact": [
+      1000,
+      256
+    ],
+    "equation_id": [
+      1000
+    ],
+    "family_id": [
+      1000
+    ],
+    "regime": [
+      1000
+    ],
+    "split": [
+      1000
+    ],
+    "v0": [
+      1000
+    ],
+    "x_grid": [
+      256
+    ],
+    "y0": [
+      1000
+    ],
+    "y_exact": [
+      1000,
+      256
+    ]
+  },
+  "output_sha256": {
+    "all_methods_equations_v1.csv": "940d6c10a8cdd0933bb5c663c681efd39bac5ed450ea37cbb95be1ca481136ad",
+    "all_methods_equations_v1_metadata.jsonl": "e464e289af2bf98dc1e6e49a1211ae2d5bf78838cee59b13c22df7bd01be0a79",
+    "all_methods_equations_v1_ml.npz": "53231f72622dda82c8210dcd2ea4a843cc48f97a2a362ace596d66b37fca7c89"
+  },
+  "rejection_counts": {
+    "near_zero_solution": 1
+  },
+  "samples_per_family": 5,
+  "structure_signature_count": 200,
+  "total_equations": 1000,
+  "total_families": 200,
+  "total_rejections": 1,
+  "v0_distribution": {
+    "count": 1000,
+    "max": 7.129156659316019,
+    "mean": 0.012515810040603058,
+    "median": 0.03928055189954024,
+    "min": -7.241446833506826,
+    "q05": -1.9595155206419745,
+    "q95": 1.9584705028579388,
+    "std": 1.283645985665522
+  },
+  "worst_residual_equation_id": "AMV1_F0000_S00",
+  "y0_distribution": {
+    "count": 1000,
+    "max": 1.491119304504924,
+    "mean": 0.011225034062150146,
+    "median": 0.024239896287935752,
+    "min": -1.4991235753771894,
+    "q05": -1.1084562162088416,
+    "q95": 1.0458440755080012,
+    "std": 0.6310257031262382
+  }
+}

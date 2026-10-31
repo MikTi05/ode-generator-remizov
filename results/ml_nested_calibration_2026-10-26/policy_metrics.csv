@@ -1,0 +1,13 @@
+mode,q,policy,accurate,selected,abstentions,lost_R256_deliveries,R128_switches,MC_switches,missing_costs,predicted_method_cost_sum
+raw,0.5,baseline_default,27.0,40,0,6.0,32,0,29,575.6132833172628
+raw,0.5,risk_constraint,27.0,38,2,6.0,32,0,29,527.2004162046534
+raw,0.8,baseline_default,30.0,40,0,3.0,26,0,24,649.2266083309153
+raw,0.8,risk_constraint,29.0,34,6,4.0,26,0,24,503.57464837873135
+raw,0.95,baseline_default,32.0,40,0,1.0,15,0,16,782.5883611757401
+raw,0.95,risk_constraint,28.0,30,10,5.0,15,0,16,539.687742246444
+calibrated,0.5,baseline_default,25.0,40,0,8.0,36,0,32,526.2505394429833
+calibrated,0.5,risk_constraint,25.0,38,2,8.0,36,0,32,477.8376723303739
+calibrated,0.8,baseline_default,30.0,40,0,3.0,21,0,21,710.4424931048867
+calibrated,0.8,risk_constraint,28.0,32,8,5.0,21,0,21,516.3582306973469
+calibrated,0.95,baseline_default,33.0,40,0,0.0,5,0,9,904.337632216132
+calibrated,0.95,risk_constraint,11.0,12,28,22.0,5,0,7,227.43876206146433

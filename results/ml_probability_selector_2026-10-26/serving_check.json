@@ -1,0 +1,65 @@
+{
+  "feature_and_inference_seconds": 0.01133158290758729,
+  "models_loaded_before_timer": true,
+  "result": {
+    "accuracy_certificate": false,
+    "action": "abstain",
+    "diagnostic_point_choice": {
+      "action": "R256",
+      "q": 0.95,
+      "reason": "point_estimate_risk_constraint_and10pct_tie_policy"
+    },
+    "diagnostic_uncertainty_choice": {
+      "action": "abstain",
+      "q": 0.95,
+      "reason": "potential_candidate_time_head_insufficient"
+    },
+    "estimates": {
+      "MC1": {
+        "cost": {
+          "high": 20.85377653356206,
+          "low": 13.65190478706673,
+          "point": 13.754142586376517,
+          "supported": true
+        },
+        "probability": {
+          "high": 0.8710683777642211,
+          "low": 0.017506631260894762,
+          "point": 0.8377884118658271
+        }
+      },
+      "R128": {
+        "cost": {
+          "high": 12.00208971133216,
+          "low": 11.884556222737393,
+          "point": 11.940014542543897,
+          "supported": false
+        },
+        "probability": {
+          "high": 0.9692932906921995,
+          "low": 0.7451869880134947,
+          "point": 0.8879255699051742
+        }
+      },
+      "R256": {
+        "cost": {
+          "high": 24.115843491094658,
+          "low": 23.892850307830958,
+          "point": 24.02320366737844,
+          "supported": true
+        },
+        "probability": {
+          "high": 0.991881918971716,
+          "low": 0.9790457389839091,
+          "point": 0.991881918971716
+        }
+      }
+    },
+    "q": 0.95,
+    "reason": "no_original_validation_calibration;cost_context_unvalidated;R128_time_only4families",
+    "reliability_status": "not_certified",
+    "schema": "risk_constrained_typical_cost_v1",
+    "status": "research_only",
+    "uncertainty_status": "uncalibrated_family_bootstrap_model_spread"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "attempts": 4000,
+  "dataset_sha256": {
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1.csv": "940d6c10a8cdd0933bb5c663c681efd39bac5ed450ea37cbb95be1ca481136ad",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_metadata.jsonl": "e464e289af2bf98dc1e6e49a1211ae2d5bf78838cee59b13c22df7bd01be0a79",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_ml.npz": "53231f72622dda82c8210dcd2ea4a843cc48f97a2a362ace596d66b37fca7c89",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_report.json": "5307f5d3f763949b6663fe680f2e21c714534dcf1e429ab52a3b2219e49aae86"
+  },
+  "equations_all_four": 1000,
+  "error_quantiles": {
+    "mc_aggregate_error": {
+      "0.1": 0.0014681722156542065,
+      "0.5": 0.00918753330859462,
+      "0.9": 0.03890023945463161,
+      "0.95": 0.058163599689053394,
+      "0.99": 0.14959596423277371,
+      "1.0": 0.5697637347981473
+    },
+    "remizov_error0": {
+      "0.1": 0.0002303734145680636,
+      "0.5": 0.0011862543142486803,
+      "0.9": 0.007608077837395565,
+      "0.95": 0.013520656721672327,
+      "0.99": 0.08292440217371158,
+      "1.0": 842.0865810144144
+    }
+  },
+  "exploratory_labels": {
+    "mc_mean_closer_exploratory": 7,
+    "remizov_closer_exploratory": 60,
+    "uncertain": 930
+  },
+  "historical_identities_checked": 997,
+  "independent_seed_success95_lower_bound_if4of4": 0.4728708045015879,
+  "mc_aggregate_accuracy_rate": 0.535,
+  "mc_all_four_pass": 56,
+  "mc_at_least_one_pass": 719,
+  "mc_seed_accuracy_rate": 0.3565,
+  "paired_aggregate_contingency": {
+    "R0_MC0": 60,
+    "R0_MC1": 7,
+    "R1_MC0": 404,
+    "R1_MC1": 526
+  },
+  "paired_equations": 997,
+  "path_steps": 12138684416,
+  "peak_rss_mib": 285.0625,
+  "pending": 0,
+  "remizov_point_accuracy_rate": 0.9327983951855566,
+  "scope": "x=0 only; MC 1024 per seed vs 4096-path aggregate distinguished; timing not directly comparable with saved33-point Remizov",
+  "solver_seconds_sum": 1633.2469729075674,
+  "split_census": {
+    "test": {
+      "families": 30,
+      "paired": 150,
+      "rows": 150
+    },
+    "train": {
+      "families": 140,
+      "paired": 697,
+      "rows": 700
+    },
+    "validation": {
+      "families": 30,
+      "paired": 150,
+      "rows": 150
+    }
+  },
+  "statuses": {
+    "completed": 4000
+  },
+  "task_seconds_sum": 1637.964547346346,
+  "terminal": 4000
+}

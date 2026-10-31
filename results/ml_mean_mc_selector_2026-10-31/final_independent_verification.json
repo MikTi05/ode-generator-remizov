@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "epsilon": 0.05,
+  "aggregation": "arithmetic_mean_of_four_saved_MC1024_estimates",
+  "raw_MC_records_checked": 4000,
+  "raw_pairs_checked": 997,
+  "absent_pairs": [
+    "AMV1_F0134_S03",
+    "AMV1_F0136_S01",
+    "AMV1_F0139_S00"
+  ],
+  "changed_winner_labels_vs_median": 103,
+  "source_hashes_checked": 5850,
+  "artifact_hashes_checked": 31,
+  "previous_artifact_hashes_checked": 32,
+  "unchanged_input_feature_sha256": "1c40520cd6142f3f1359777f3168085b452cca90b07a47683e733fe18ea031b9",
+  "features_n": 253,
+  "original_split": {
+    "validation": 150,
+    "train": 700,
+    "test": 150
+  },
+  "fixed_CatBoost_configuration_verified": true,
+  "binary_decision_threshold": 0.5,
+  "declared_fit_n": 697,
+  "family_and_topology_leakage": false,
+  "direct_CatBoost_predictions_checked": 997,
+  "strategy_split_metrics_checked": 12,
+  "classifier_choices": {
+    "remizov": 980,
+    "monte_carlo": 17
+  },
+  "largest_test_regret": {
+    "equation_id": "AMV1_F0180_S04",
+    "E_R": 248.32307672784063,
+    "E_MC": 0.10308096210860278,
+    "winner": "monte_carlo",
+    "selected_method": "remizov",
+    "regret": 248.21999576573202,
+    "p_remizov": 0.8794762440534173,
+    "p_monte_carlo": 0.12052375594658273
+  },
+  "test_confusion_matrix": [
+    [
+      141,
+      0
+    ],
+    [
+      9,
+      0
+    ]
+  ],
+  "forbidden_result_metadata_ignored": true,
+  "numerical_calls": 0,
+  "fit_calls": 0
+}

@@ -1,0 +1,41 @@
+{
+  "analysis_changed_after_sampling": "Centered covariance checked with scalar fsum; added reporting for stopped pilot. Decision/plan/paths unchanged.",
+  "before_project_status_matches_prior_task": true,
+  "changed_or_removed": [],
+  "executed_coupled_attempts": 4,
+  "figures": [
+    "figures/bias_and_paired_differences.pdf",
+    "figures/bias_and_paired_differences.png",
+    "figures/cost.pdf",
+    "figures/cost.png",
+    "figures/variance_reduction.pdf",
+    "figures/variance_reduction.png"
+  ],
+  "finest_executed_h": 0.015625,
+  "mathematical_core": {
+    "remizov_solver.py": true,
+    "src/all_methods_dataset_v1.py": true,
+    "src/all_methods_expressions.py": true
+  },
+  "normal_values_generated_with_replay": 33357824,
+  "not_run_attempts": 8,
+  "plan_sha256": "ec46499020185f9bc02e4773f37f50b0e67a1f6973cc64559cfaaada2af10eea",
+  "project_status_after_sha256": "802f139a047c3e4d87797cb4c0c222376b94abe983c295075d59fc14427f3ecb",
+  "project_status_before_sha256": "2060bea6da12ce9ff6bc8275d2c3153cbe8dc7b1c936551fb67e35795119b697",
+  "protected_files": 5139,
+  "runner_and_test_match_frozen_snapshot": true,
+  "source_sha256": {
+    "diagnostics/mc_f0002_time_refinement.py": "2d7140e748af88169995d75c804ed4213e1c40726e581df1476e6f41a4e76e84",
+    "diagnostics/report_mc_f0002_time_refinement.py": "0f932d2caa8c83f008c59858d18d4d834f57b0f57aeac5aa7d7c35b0a125a2fb",
+    "tests/test_mc_coupled_refinement.py": "d986c019b46f6767bf079e38341d4a85bea9ee295516c5a888de5c374f878357"
+  },
+  "successful_path_steps": 25018368,
+  "tests": "283 passed, 1 deselected, 679 subtests; 35.80s",
+  "used_dependency_sha256": {
+    "all_methods_bounds.py": "a7a99776c8fa8faf48bc25f11f8884824aab989b646044c43a47455daff18d41",
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "diagnostics/compare_chernov.py": "b70bd9775a2d01973d7842cb2f467cc3134de50bfce264ca8e79e549dc3b0e10",
+    "diagnostics/mc_convergence.py": "78df3e54daa730e3697fb9e3aa21e12fb1cdcfb5b4ae3100c83ec6bb96f36a52",
+    "mc_solver.py": "b48e05e148009aaa4fabe7ec783d956f776438537c522a338a31624fe118ad83"
+  }
+}

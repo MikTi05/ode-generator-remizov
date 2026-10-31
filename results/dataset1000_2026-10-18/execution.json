@@ -1,0 +1,55 @@
+{
+  "finished_utc": "2026-10-18T07:45:17.283602+00:00",
+  "stages": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "-B",
+        "generate_all_methods_dataset_v1.py",
+        "--output-dir",
+        "data/all_methods_v1_1000_2026-10-18",
+        "--seed",
+        "2488",
+        "--n-families",
+        "200",
+        "--samples-per-family",
+        "5",
+        "--ml-grid-size",
+        "256",
+        "--validation-grid-size",
+        "2049"
+      ],
+      "returncode": 0,
+      "stage": "generation",
+      "wall_seconds": 16.717248999979347
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-B",
+        "validate_all_methods_dataset_v1.py",
+        "--input-dir",
+        "data/all_methods_v1_1000_2026-10-18",
+        "--expect-production"
+      ],
+      "returncode": 0,
+      "stage": "validation",
+      "wall_seconds": 12.479600541992113
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-B",
+        "diagnostics/check_all_methods_production.py",
+        "--input-dir",
+        "data/all_methods_v1_1000_2026-10-18",
+        "--output-dir",
+        "results/dataset1000_2026-10-18"
+      ],
+      "returncode": 0,
+      "stage": "loader",
+      "wall_seconds": 30.490621707984246
+    }
+  ],
+  "started_utc": "2026-10-18T07:44:17.594095+00:00"
+}

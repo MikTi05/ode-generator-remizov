@@ -1,0 +1,139 @@
+{
+  "call_wall_seconds": 0.044284333009272814,
+  "config": {
+    "M": 2048,
+    "T": 2.0,
+    "chunk": 8192,
+    "dt": 0.03125,
+    "max_batch_paths": 8192,
+    "max_path_steps": 5000000,
+    "max_runtime_seconds": 10.0,
+    "max_steps": 4096,
+    "seed": 6570996953528647028,
+    "stream_id": 0,
+    "tail_eps": 0.0001
+  },
+  "load_seconds": 0.07285633287392557,
+  "max_abs_error": 0.04643638360804375,
+  "process_peak_rss_mib": 81.921875,
+  "result": {
+    "M": 2048,
+    "T": 2.0,
+    "applicability_status": "bounds_certified_regularity_assumed",
+    "ci95": [
+      0.035475607522850325
+    ],
+    "ci_lower": [
+      -0.3761613062578496
+    ],
+    "ci_upper": [
+      -0.3052100912121489
+    ],
+    "coefficient_calls": {
+      "a": 64,
+      "b": 64,
+      "c_R": 65,
+      "g_R": 65
+    },
+    "coefficient_values": {
+      "a": 131072,
+      "b": 131072,
+      "c_R": 133120,
+      "g_R": 133120
+    },
+    "completed_paths": [
+      2048
+    ],
+    "confidence_level": 0.95,
+    "discretization_error_bound": null,
+    "dt_actual": 0.03125,
+    "dt_requested": 0.03125,
+    "f": [
+      -0.34068569873499926
+    ],
+    "failure_reason": "",
+    "forcing_abs_upper_bound": 380.99952616975816,
+    "forcing_bound_source": "all_methods_forcing_bounds_v1:AMV1_F0002_S00:sha256=a8e6a64c2b2d6fabf6f356c408c2b1cae52cc1b00327ca38839360c8589a718b",
+    "interval_kind": "pointwise_asymptotic_normal_for_discrete_truncated_mean",
+    "lambda_c_gap": 0.25962387030558776,
+    "message": "tail bound available; intervals exclude time bias and tail; total error is not certified",
+    "n_batches": 1,
+    "n_normal_draws": 131072,
+    "n_path_steps": 131072,
+    "n_steps": 64,
+    "peak_batch_paths": 2048,
+    "point_spawn_keys": [
+      [
+        807638191,
+        2307554949,
+        2270549917,
+        4151227694,
+        1174906000,
+        3366760109,
+        3861203323,
+        599745388,
+        0
+      ]
+    ],
+    "preparation_seconds": 0.0003221658989787102,
+    "problem_id": "AMV1_F0002_S00",
+    "rng_scheme": "PCG64/SeedSequence/point_address_v1",
+    "runtime_seconds": 0.044273999985307455,
+    "seed_entropy": 6570996953528647028,
+    "stderr": [
+      0.01809979975655629
+    ],
+    "stream_id": 0,
+    "success": true,
+    "tail_eps": 0.0001,
+    "tail_error_bound": 873.1188959208873,
+    "tail_tolerance_met": false,
+    "total_error_certified": false,
+    "x": [
+      0.0
+    ]
+  },
+  "signed_error": [
+    0.04643638360804375
+  ],
+  "spec": {
+    "attempt_id": "271",
+    "config": {
+      "M": 2048,
+      "T": 2.0,
+      "chunk": 8192,
+      "dt": 0.03125,
+      "max_batch_paths": 8192,
+      "max_path_steps": 5000000,
+      "max_runtime_seconds": 10.0,
+      "max_steps": 4096,
+      "seed": 6570996953528647028,
+      "stream_id": 0,
+      "tail_eps": 0.0001
+    },
+    "configuration_id": "4_6",
+    "preflight": {
+      "actual_dt": 0.03125,
+      "coefficient_calls": 258,
+      "normal_draws": 131072,
+      "path_steps": 131072,
+      "time_steps": 64
+    },
+    "problem_id": "AMV1_F0002_S00",
+    "repeat": 0,
+    "tail_bound": 873.1188959208873,
+    "tail_tolerance_met": false,
+    "target_x": [
+      0.0
+    ],
+    "views": [
+      {
+        "factor": "T",
+        "level": 2.0
+      }
+    ]
+  },
+  "y_exact": [
+    -0.387122082343043
+  ]
+}

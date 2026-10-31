@@ -1,0 +1,53 @@
+% Add in the preamble: \usepackage{graphicx}
+% Russian captions require an existing Russian-language setup.
+% Upload the seven PDFs to figures/remizov/ in Overleaf.
+% Insert this fragment with \input{figures/remizov/figures.tex}.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{figures/remizov/AMV1_F0000_S00_coefficients.pdf}
+  \caption{Коэффициенты исходного уравнения AMV1\_F0000\_S00 на $[-1,1]$.}
+  \label{fig:amv1_f0000_s00-coefficients}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{figures/remizov/AMV1_F0000_S00_solutions.pdf}
+  \caption{Точное и сохранённое численное решения AMV1\_F0000\_S00. Маркеры обозначают 33 расчётных узла; штрихи соединяют соседние узлы.}
+  \label{fig:amv1_f0000_s00-solutions}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{figures/remizov/AMV1_F0000_S00_absolute_error.pdf}
+  \caption{Абсолютная ошибка AMV1\_F0000\_S00 в 33 сохранённых узлах. Все ошибки ниже $0.01$; порог вне показанного масштаба.}
+  \label{fig:amv1_f0000_s00-absolute-error}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{figures/remizov/AMV1_F0141_S00_coefficients.pdf}
+  \caption{Коэффициенты исходного уравнения AMV1\_F0141\_S00 на $[-1,1]$.}
+  \label{fig:amv1_f0141_s00-coefficients}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{figures/remizov/AMV1_F0141_S00_solutions.pdf}
+  \caption{Точное и сохранённое численное решения AMV1\_F0141\_S00. Маркеры обозначают 33 расчётных узла; штрихи соединяют соседние узлы. На вставке точное решение показано в собственном масштабе.}
+  \label{fig:amv1_f0141_s00-solutions}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{figures/remizov/AMV1_F0141_S00_absolute_error.pdf}
+  \caption{Абсолютная ошибка AMV1\_F0141\_S00 в 33 сохранённых узлах. Пунктир обозначает порог $0.01$.}
+  \label{fig:amv1_f0141_s00-absolute-error}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{figures/remizov/AMV1_F0141_S00_absolute_error_log.pdf}
+  \caption{Абсолютная ошибка AMV1\_F0141\_S00 в 33 сохранённых узлах; логарифмическая шкала по вертикали. Пунктир обозначает порог $0.01$.}
+  \label{fig:amv1_f0141_s00-absolute-error-log}
+\end{figure}

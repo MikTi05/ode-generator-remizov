@@ -1,0 +1,15 @@
+{
+  "all_features_finite": true,
+  "all_models_predictions_finite": true,
+  "independent_logistic_gradient_inf": 8.837305396324152e-05,
+  "logistic_iterations": [
+    39
+  ],
+  "logistic_prob_max_difference_nonblas_einsum": 1.2212453270876722e-15,
+  "logistic_tolerance": 0.0001,
+  "ridge_nonblas_checks": {
+    "ridge_coeff": 1.0658141036401503e-14,
+    "ridge_context": 1.0658141036401503e-14
+  },
+  "warning_observed": "Initial sklearn fit emitted matmul divide/overflow/invalid RuntimeWarning; cause not established"
+}

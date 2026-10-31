@@ -1,0 +1,67 @@
+{
+  "purpose": "Isolate tail change in streaming while holding tau approximately fixed: tail_eps changes to 1e-10, n_steps scales with computed T and rounds up to even. Earlier fixed-K tail controls are retained and do not isolate truncation.",
+  "wall_seconds": 120,
+  "rss_limit_mib": 1024,
+  "attempts": [
+    {
+      "problem_id": "R1",
+      "method": "streaming",
+      "label": "tail_fixed_tau",
+      "config": {
+        "n": 8,
+        "num_t": 257,
+        "n_steps": 636,
+        "dx": 0.025,
+        "padding": 8,
+        "tail_eps": 1e-10
+      },
+      "original_steps": 512,
+      "original_T": 19.11382792451231
+    },
+    {
+      "problem_id": "AMV1_F0005_S00",
+      "method": "streaming",
+      "label": "tail_fixed_tau",
+      "config": {
+        "n": 32,
+        "num_t": 257,
+        "n_steps": 10140,
+        "dx": 0.025,
+        "padding": 8,
+        "tail_eps": 1e-10
+      },
+      "original_steps": 8192,
+      "original_T": 25.256710982823332
+    },
+    {
+      "problem_id": "AMV1_F0006_S00",
+      "method": "streaming",
+      "label": "tail_fixed_tau",
+      "config": {
+        "n": 64,
+        "num_t": 257,
+        "n_steps": 5096,
+        "dx": 0.025,
+        "padding": 8,
+        "tail_eps": 1e-10
+      },
+      "original_steps": 4096,
+      "original_T": 15.006387621106363
+    },
+    {
+      "problem_id": "AMV1_F0007_S00",
+      "method": "streaming",
+      "label": "tail_fixed_tau",
+      "config": {
+        "n": 32,
+        "num_t": 257,
+        "n_steps": 2554,
+        "dx": 0.025,
+        "padding": 8,
+        "tail_eps": 1e-10
+      },
+      "original_steps": 2048,
+      "original_T": 12.493414362854814
+    }
+  ]
+}

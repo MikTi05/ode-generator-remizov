@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/bin/python",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_chernov_batch.py",
+    "tests/test_chernov_batch_control.py"
+  ],
+  "returncode": 0,
+  "wall_seconds": 12.594184207962826,
+  "numerical_solver_calls": 0
+}

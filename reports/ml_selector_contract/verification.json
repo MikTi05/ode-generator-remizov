@@ -1,0 +1,84 @@
+{
+  "artifact_sha256": {
+    "BENCHMARK_PLAN.md": "bd57bc73e59578996815da645a68e84675c218296d3255c8562bf5b9015b6ccd",
+    "CONTRACT.md": "dbf26c86039a68996121310711737cb48bb57c9db23cbf80e59a549e88fd9de1",
+    "DECISIONS.md": "68dd6792d52bf46f6c49fe7e63da82224258990f6686ac336b5aed47dd9a9f86",
+    "MC_PILOT_PLAN.md": "e857b890b46af72506f6e6a04d58997a69730895df68dc27213b2a8bae0a85f3",
+    "ML_SELECTOR_SPEC.md": "a9d91b8a6ece8f0a9732177bc176a6cd7e34f2be7e0299732223bcecf9d7f967",
+    "PROFILE_MATRIX.md": "12bd86bae7fdebf6f1ba9a5d3866a3b010b030fa7b5728f3a6bca2993c14d38e",
+    "PROJECT_STATUS.before.md": "db97ae60e83bc6df8db48336e5ebfd3dfc81c7c74e7edb73899444739a0776bb",
+    "benchmark_cost_scenarios.csv": "66643489faa8059915186c9d03c61c7e716d534e1759eb67afe961a41ffa61d8",
+    "benchmark_requirements.csv": "984ab303f6998bea4b9f7c3faa9417d2ff8821e70cb6bf4ba12c894868ee1878",
+    "cost_forecast.csv": "25fb8a385aaa6ad53fd3635091d229e2f4f1272c1f6a3ee972744772eca7bacb",
+    "pilot_jobs.jsonl": "e8ab18bd74e04ecee5d48a67a80c69f43f0bf249984a6f6f702d2d81852097b6",
+    "pilot_manifest.csv": "50233d770fe89424c774fbee7becd1b4adea3259bc76bb60b03b4e2c209e12a3",
+    "plan.json": "284588195a677cc65739da2895829714ab263ae77bb12f54719582cadcdbfd4a",
+    "planning_checks.json": "5b8c18861a6022b5edfa2e847ae11e43016b0bd0132eb3d253285e844b054428",
+    "protected_before.json": "138b9acd7afbd4f1acecfe157c3189a97998ebffbbf4686fc64ccdcf4a61e102",
+    "sources_sha256.json": "ba61e0b3740a53bf5f135412e36d4b14fec358ea2d5bfd4cd62b61c663d2e41d",
+    "validation_checks.json": "a2d0cf661b2bec8a4ab7ea417a31493dfffa8a678a8dd672b71ea0d3bded1e55"
+  },
+  "changed_existing": [
+    "PROJECT_STATUS.md"
+  ],
+  "consumed_status_restorable_in": "PROJECT_STATUS.before.md",
+  "date": "2026-10-25",
+  "deleted_existing": [],
+  "local_document_links_broken": [],
+  "network_calls": 0,
+  "new_mc_paths": 0,
+  "new_model_fits": 0,
+  "new_solver_calls": 0,
+  "new_source_sha256": "700798785436a49b92aeeca1b1756c998ce52c0f3aabca7806e8055a68643b30",
+  "planning_checks": {
+    "CP_minimum_repetitions_verified": [
+      59,
+      194,
+      207
+    ],
+    "all20_cells": true,
+    "benchmark_rows_valid": 1000,
+    "conditional_branches_valid": 3,
+    "config_validation_passed": 518,
+    "final_seed_base_count": 12,
+    "generated_files_byte_identical": [
+      "plan.json",
+      "pilot_manifest.csv",
+      "pilot_jobs.jsonl",
+      "benchmark_requirements.csv",
+      "cost_forecast.csv",
+      "benchmark_cost_scenarios.csv",
+      "planning_checks.json",
+      "sources_sha256.json"
+    ],
+    "independent_pilot_seed_base_count": 24,
+    "mandatory_stress_ids": true,
+    "maximum_active_MC_calls": 200,
+    "maximum_active_calls": 238,
+    "new_R_calls": 38,
+    "new_mc_paths": 0,
+    "new_model_fits": 0,
+    "new_solver_calls": 0,
+    "pilot40_train_families": true,
+    "pilot_final_seeds_disjoint": true,
+    "planner_has_no_solver_fit_calls": true
+  },
+  "prior_numeric_data_models_audit_unchanged": true,
+  "project_status_sha256": "0eb0208b35d13e0012524b2b2a30f240ee55e7956e15797707ee397c46aa14ae",
+  "protected_paths": 17251,
+  "pytest_not_run_reason": "Documents and new inert planner only; validated schema/configuration/branches/reproducibility without simulations",
+  "required_documents": [
+    "CONTRACT.md",
+    "PROFILE_MATRIX.md",
+    "MC_PILOT_PLAN.md",
+    "BENCHMARK_PLAN.md",
+    "ML_SELECTOR_SPEC.md",
+    "DECISIONS.md"
+  ],
+  "reusable_pilot_R_raw_profiles_verified": 42,
+  "source_changes_after_planning": [
+    "PROJECT_STATUS.md"
+  ],
+  "source_manifest_checked": 80,
+  "status": "SPECIFICATION_COMPLETE_NOT_EXECUTED"
+}

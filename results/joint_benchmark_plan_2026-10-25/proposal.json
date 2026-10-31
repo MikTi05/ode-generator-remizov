@@ -1,0 +1,170 @@
+{
+  "T_policy": "shared ceil(saved certified T(tail_eps=1e-4)*8)/8; revalidate certificate before future execution",
+  "accuracy": {
+    "confidence": 0.95,
+    "epsilon": 0.01,
+    "practical_time_margin": 0.1,
+    "reliability_target": 0.95,
+    "statistical_planning_halfwidth": 0.005,
+    "tail_epsilon": 0.0001
+  },
+  "base_configs": {
+    "monte_carlo": {
+      "M": null,
+      "T": null,
+      "chunk": 1024,
+      "dt": 0.0078125,
+      "max_batch_paths": 1024,
+      "max_path_steps": 300000000,
+      "max_runtime_seconds": null,
+      "max_steps": 100000,
+      "seed": null,
+      "stream_id": 0,
+      "tail_eps": 0.0001
+    },
+    "remizov": {
+      "T": null,
+      "boundary": "zero",
+      "dx": 0.0125,
+      "interp": "cubic",
+      "max_work_grid_points": 100000,
+      "n": 128,
+      "n_jobs": 1,
+      "n_steps": 32768,
+      "num_t": 513,
+      "padding": 12.0,
+      "start_method": "spawn",
+      "t_grading": "quadratic",
+      "tail_eps": 0.0001,
+      "taper_width": null
+    }
+  },
+  "budgets": {
+    "automatic_retries": 0,
+    "blas_threads": 1,
+    "on_first_resource_limit": "same equation/mode/method: remaining repeats not_run_after_resource_limit",
+    "on_numerical_failure": "retain failure and continue predetermined independent seed list",
+    "on_phase_limit": "retain partial series and mark unstarted trials not_run_phase_budget",
+    "serial_workers": 1,
+    "total_session_seconds": 5400,
+    "worker_rss_mib": 384,
+    "worker_wall_seconds": 60
+  },
+  "design_date": "2026-10-25",
+  "executable_plan": false,
+  "execution_authorized": false,
+  "interval_power": {
+    "confidence_scope": "one profile and one target mode; not familywise across equations",
+    "grid_best_possible_lower": 0.4728708045015879,
+    "n_all_success_needed_for_p95": 59,
+    "point_best_possible_lower": 0.6876560219336321
+  },
+  "new_solver_runs": 0,
+  "phases": [
+    {
+      "M": 2048,
+      "ids": [
+        "AMV1_F0000_S00",
+        "AMV1_F0001_S00",
+        "AMV1_F0002_S00",
+        "AMV1_F0003_S00",
+        "AMV1_F0004_S00",
+        "AMV1_F0005_S00",
+        "AMV1_F0006_S00",
+        "AMV1_F0007_S00",
+        "AMV1_F0008_S00",
+        "AMV1_F0009_S00",
+        "AMV1_F0010_S00",
+        "AMV1_F0011_S00",
+        "AMV1_F0012_S00",
+        "AMV1_F0013_S00",
+        "AMV1_F0014_S00",
+        "AMV1_F0015_S00",
+        "AMV1_F0016_S00",
+        "AMV1_F0017_S00",
+        "AMV1_F0018_S00",
+        "AMV1_F0019_S00"
+      ],
+      "mc_repeats": 8,
+      "name": "point",
+      "phase_wall_seconds": 2700,
+      "remizov_repeats": 3,
+      "root_seeds": [
+        3457627577,
+        3847895755,
+        2792549110,
+        2475354683,
+        1109195411,
+        3640752586,
+        3723369239,
+        3005637481
+      ],
+      "target_x": [
+        0.0
+      ]
+    },
+    {
+      "M": 1024,
+      "ids": [
+        "AMV1_F0000_S00",
+        "AMV1_F0001_S00",
+        "AMV1_F0002_S00",
+        "AMV1_F0003_S00",
+        "AMV1_F0014_S00",
+        "AMV1_F0018_S00"
+      ],
+      "mc_repeats": 4,
+      "name": "grid33",
+      "phase_wall_seconds": 2700,
+      "remizov_repeats": 3,
+      "root_seeds": [
+        1693902677,
+        3758258073,
+        1314908611,
+        3552329624
+      ],
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ]
+    }
+  ],
+  "pilot_labels_training_eligible": false,
+  "primary_implementation": {
+    "monte_carlo": "mc_solver.solve_monte_carlo",
+    "remizov": "chernov_solver.ChernovSolver.solve"
+  },
+  "results_status": "design_only_no_new_comparative_results",
+  "schema_version": "joint_benchmark_proposal_v1"
+}

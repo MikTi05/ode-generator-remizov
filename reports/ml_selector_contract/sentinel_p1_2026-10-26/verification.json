@@ -1,0 +1,61 @@
+{
+  "actual_confirmed_MC_calls": 60,
+  "added_code": [
+    "diagnostics/mc_sentinel_p1.py",
+    "diagnostics/report_mc_sentinel_p1.py",
+    "diagnostics/verify_mc_sentinel_p1.py",
+    "tests/test_mc_sentinel_p1.py"
+  ],
+  "all_other_baseline_files_unchanged": true,
+  "baseline_scope": "preflight snapshot after creation of new wrapper/report/test files",
+  "changed_existing": [
+    "PROJECT_STATUS.md"
+  ],
+  "completed": 60,
+  "current_PROJECT_STATUS_sha256": "1d468b8b99fed56684d4ec7bcbb9f0d46dd0f193bced93f0b9f8afdaa6ca5007",
+  "date": "2026-10-26",
+  "execution_failures": 0,
+  "guardian_finished": true,
+  "independent_error_checks": 60,
+  "local_links_broken": [],
+  "locks_free": true,
+  "metadata_limitation": "Detailed sysctl hardware query denied by sandbox; power observed during run, not initially; preserved in hardware_power_observed.json",
+  "missing_existing": [],
+  "new_R_calls": 0,
+  "new_model_fits": 0,
+  "new_stage2_calls": 0,
+  "no_R0_or_P2_or_benchmark1000_or_ML": true,
+  "not_run": 0,
+  "numeric_sources_sha256": {
+    "all_methods_bounds.py": "a7a99776c8fa8faf48bc25f11f8884824aab989b646044c43a47455daff18d41",
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "mc_ast_kernels.py": "fa5f3123a2acf3fc4b9d6057c2a946b9ea9a59fcef40b5ff36d9a2ade3ab504e",
+    "mc_optimized.py": "a1f5c168ad5a752d02088d3110700a04b41140a63f1ccdd1f7baeb7fa17a9288",
+    "mc_solver.py": "b48e05e148009aaa4fabe7ec783d956f776438537c522a338a31624fe118ad83",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "planned_calls": 60,
+  "protected_paths": 17273,
+  "resume_check": {
+    "command_result": {
+      "new_calls": 0,
+      "reason": "already_complete",
+      "worker_started": false
+    },
+    "new_calls": 0,
+    "new_worker_startups": 0,
+    "requests_after": 60,
+    "requests_before": 60,
+    "result_hashes_unchanged": true,
+    "worker_startups_after": 1,
+    "worker_startups_before": 1
+  },
+  "selected_profile_by_frozen_gates": "MC1",
+  "selection_is_not_reliability_certificate": true,
+  "sources_dataset_profiles_seeds_unchanged": true,
+  "status": "P1_COMPLETE_STOPPED_BEFORE_P2",
+  "tests": "10 passed in 0.09s; mocks only; no numerical trajectories",
+  "total_physical_requests": 60
+}

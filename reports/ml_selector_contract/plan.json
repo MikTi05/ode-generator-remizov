@@ -1,0 +1,266 @@
+{
+  "current_numeric_coverage": {
+    "MC0": 100,
+    "MC1_four_seeds": 5,
+    "MC2": 0,
+    "R128": 100,
+    "R256": 5
+  },
+  "data_dir": "data/all_methods_v1_1000_2026-10-18",
+  "dataset_sha256": {
+    "all_methods_equations_v1.csv": "940d6c10a8cdd0933bb5c663c681efd39bac5ed450ea37cbb95be1ca481136ad",
+    "all_methods_equations_v1_metadata.jsonl": "e464e289af2bf98dc1e6e49a1211ae2d5bf78838cee59b13c22df7bd01be0a79",
+    "all_methods_equations_v1_ml.npz": "53231f72622dda82c8210dcd2ea4a843cc48f97a2a362ace596d66b37fca7c89"
+  },
+  "date": "2026-10-25",
+  "error_metric": "max_absolute_grid_error",
+  "error_threshold": 0.01,
+  "execution_authorized": false,
+  "final_benchmark": {
+    "combined_calls": 8000,
+    "equations": 1000,
+    "historical_final_timing_reuse_allowed": false,
+    "historical_numeric_reuse_allowed": true,
+    "per_method_calls": 4000,
+    "profile_choice_train_only": true,
+    "test_once_after_freeze": true,
+    "validation_selects_ML_only": true
+  },
+  "final_seed_schedule": {
+    "MC0": [
+      248800030000,
+      248800030001,
+      248800030002,
+      248800030003
+    ],
+    "MC1": [
+      248800030100,
+      248800030101,
+      248800030102,
+      248800030103
+    ],
+    "MC2": [
+      248800030200,
+      248800030201,
+      248800030202,
+      248800030203
+    ]
+  },
+  "gates": {
+    "MC_expensive_cost_ratio_cap": 8.0,
+    "MC_expensive_zero_success_median_error_ratio_cutoff": 0.8,
+    "MC_max_operational_failures_per20": 1,
+    "MC_selection_order": [
+      "max_observed_successes",
+      "lower_stable_median_warm_cost_with10pct_margin",
+      "MC0_MC1_MC2_priority"
+    ],
+    "MC_zero_all_profiles_action": "stop_before_stage2;negative_control_requires_new_decision",
+    "R_selection_order": [
+      "max_delivered_accurate_answers_of40",
+      "smaller_n"
+    ],
+    "requires_complete_stage1_before_accuracy_gates": true,
+    "stage1_required_MC_calls": 60,
+    "stage2_profile_count": 1,
+    "stage2_profile_switching": false
+  },
+  "mathematical_object": "bounded_whole_line_resolvent",
+  "notes": [
+    "operation-scaled timing scenarios are not bounds or new measurements",
+    "selection contains stress enrichment; no population accuracy inference",
+    "pilot seeds disjoint from final seeds; no best-seed selection",
+    "no coupling, h512 or aggregate algorithm silently introduced"
+  ],
+  "pilot": {
+    "aggregation": "none",
+    "cohorts": {
+      "coverage": 20,
+      "stress": 20
+    },
+    "conditional_job_rows": 518,
+    "conditional_rows_are_not_all_to_be_executed": true,
+    "coverage_cells": 20,
+    "equations": 40,
+    "families": 40,
+    "frozen_selection_rule": "SHA256 rank2488;mandatory10+pass5+inaccurate5+cell20;train-only distinct families",
+    "independent_repeats": 4,
+    "maximum_branch_MC_scenario_seconds": 20272.21330006568,
+    "missing_R_scenario_seconds": 901.1619730646489,
+    "new_MC_calls_max": 200,
+    "proposed_stage1_compute_cap_seconds": 5437,
+    "sentinels": [
+      "AMV1_F0047_S00",
+      "AMV1_F0005_S02",
+      "AMV1_F0042_S00",
+      "AMV1_F0059_S04",
+      "AMV1_F0125_S04"
+    ],
+    "stage0_missing_R_calls": 38,
+    "stage1_new_MC_calls": 60,
+    "stage1_scenario_seconds": 1667.1321492039203,
+    "stage2_compute_cap": "freeze from stage1 actual timing before authorizing stage2",
+    "stage2_new_MC_calls_max": 140
+  },
+  "profiles": {
+    "MC0": {
+      "aggregation": "none_single_full_call",
+      "backend": "numba",
+      "block_steps": 64,
+      "config": {
+        "M": 1024,
+        "T": null,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 100000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": null,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "implementation": "mc_optimized.solve_monte_carlo_optimized",
+      "method": "monte_carlo"
+    },
+    "MC1": {
+      "aggregation": "none_single_full_call",
+      "backend": "numba",
+      "block_steps": 64,
+      "config": {
+        "M": 4096,
+        "T": null,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 100000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": null,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "implementation": "mc_optimized.solve_monte_carlo_optimized",
+      "method": "monte_carlo"
+    },
+    "MC2": {
+      "aggregation": "none_single_full_call",
+      "backend": "numba",
+      "block_steps": 64,
+      "config": {
+        "M": 4096,
+        "T": null,
+        "chunk": 1024,
+        "dt": 0.00390625,
+        "max_batch_paths": 1024,
+        "max_path_steps": 100000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": null,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "implementation": "mc_optimized.solve_monte_carlo_optimized",
+      "method": "monte_carlo"
+    },
+    "R128": {
+      "config": {
+        "T": null,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "implementation": "chernov_solver.ChernovSolver.solve",
+      "method": "remizov"
+    },
+    "R256": {
+      "config": {
+        "T": null,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 256,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "implementation": "chernov_solver.ChernovSolver.solve",
+      "method": "remizov"
+    }
+  },
+  "recommended_track": "A_fixed_profiles_observed_fastest",
+  "reliability_candidate": {
+    "confidence": 0.95,
+    "success_probability": 0.95,
+    "zero_failure_minimum_trials_individual": 59,
+    "zero_failure_minimum_trials_simultaneous1000_one_sided": 194,
+    "zero_failure_minimum_trials_simultaneous1000_two_sided": 207
+  },
+  "reliability_requirement_active": false,
+  "schema": "ml_selector_contract_v1",
+  "target_x": [
+    -1.0,
+    -0.9375,
+    -0.875,
+    -0.8125,
+    -0.75,
+    -0.6875,
+    -0.625,
+    -0.5625,
+    -0.5,
+    -0.4375,
+    -0.375,
+    -0.3125,
+    -0.25,
+    -0.1875,
+    -0.125,
+    -0.0625,
+    0.0,
+    0.0625,
+    0.125,
+    0.1875,
+    0.25,
+    0.3125,
+    0.375,
+    0.4375,
+    0.5,
+    0.5625,
+    0.625,
+    0.6875,
+    0.75,
+    0.8125,
+    0.875,
+    0.9375,
+    1.0
+  ],
+  "timing": {
+    "clock": "perf_counter_ns",
+    "compilation": "warm_once_per_process_report_separately",
+    "concurrency": 1,
+    "cost": "warm_end_to_end_method_wall",
+    "exact_scoring": "after_timer",
+    "minimum_repeat_times_needed": 4,
+    "noisy_MAD_over_median_threshold": 0.2,
+    "preprocessing": "G/T/AST/constructor included per method call",
+    "repeats_final": 4,
+    "threads": 1,
+    "tie_relative_margin": 0.1,
+    "tie_rule": "prefer_remizov_with_tie_flag"
+  }
+}

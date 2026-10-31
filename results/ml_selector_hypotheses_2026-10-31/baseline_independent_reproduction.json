@@ -1,0 +1,63 @@
+{
+  "status": "exact_reproduction_verified",
+  "audit_fit_count": 1,
+  "audit_fit_is_not_a_grid_candidate": true,
+  "independent_fit_config": {
+    "iterations": 120,
+    "depth": 2,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 10,
+    "loss_function": "Logloss",
+    "random_seed": 2488,
+    "thread_count": 1,
+    "bootstrap_type": "No",
+    "random_strength": 0,
+    "allow_writing_files": false,
+    "verbose": false,
+    "allow_const_label": true,
+    "class_names": [
+      "remizov",
+      "monte_carlo"
+    ]
+  },
+  "source_evidence": "results/ml_mean_mc_selector_2026-10-31/run/evidence.json",
+  "source_features": "results/ml_mean_mc_selector_2026-10-31/run/input_features.npz",
+  "source_model": "results/ml_mean_mc_selector_2026-10-31/run/model/model.cbm",
+  "source_sha256": {
+    "results/ml_mean_mc_selector_2026-10-31/run/evidence.json": "e44e386b490ade59e9408b8447fb46a616f26c5f99f558020fe70946574e640e",
+    "results/ml_mean_mc_selector_2026-10-31/run/input_features.npz": "1c40520cd6142f3f1359777f3168085b452cca90b07a47683e733fe18ea031b9",
+    "results/ml_mean_mc_selector_2026-10-31/run/model/model.cbm": "0f66db3027f4536ede6a5023fb723f742b6fab1afda7870e3388f408ff4efe52",
+    "results/ml_mean_mc_selector_2026-10-31/run/model/registry.json": "bdcd7a74f983b1523f3f9a7a4ccc344997ee9f3e44362fc155398cf4e41efdce"
+  },
+  "fit_training_size": 697,
+  "fit_training_row_order": "main_rows filtered in original order to split=train",
+  "checks": {
+    "train": {
+      "n": 697,
+      "max_absolute_probability_difference": 0.0,
+      "prediction_labels_equal": true
+    },
+    "validation": {
+      "n": 150,
+      "max_absolute_probability_difference": 0.0,
+      "prediction_labels_equal": true
+    }
+  },
+  "test_predicted": false,
+  "test_labels_used": false,
+  "numerical_solver_calls": 0,
+  "recorded_after_fit": true,
+  "audit_model_not_persisted": true,
+  "runner_old_baseline_vs_saved_mean4": {
+    "validation": {
+      "n": 150,
+      "max_absolute_MC_score_difference": 0.0
+    },
+    "test": {
+      "n": 150,
+      "max_absolute_MC_score_difference": 0.0
+    }
+  },
+  "test_predicted_in_post_final_audit": true,
+  "audit_only_no_selection_changed": true
+}

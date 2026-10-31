@@ -1,0 +1,63 @@
+{
+  "actual_comparable_split": [
+    697,
+    150,
+    150
+  ],
+  "catboost": {
+    "allow_const_label": true,
+    "allow_writing_files": false,
+    "bootstrap_type": "No",
+    "class_names": [
+      "remizov",
+      "monte_carlo"
+    ],
+    "depth": 2,
+    "iterations": 120,
+    "l2_leaf_reg": 10,
+    "learning_rate": 0.05,
+    "loss_function": "Logloss",
+    "random_seed": 2488,
+    "random_strength": 0,
+    "thread_count": 1,
+    "verbose": false
+  },
+  "class_balancing": false,
+  "early_stopping": false,
+  "epsilon": 0.05,
+  "features": "unchanged existing input-only253; saved features npz copied byte-for-byte",
+  "fit_count": 1,
+  "generation_calls": 0,
+  "hyperparameter_search": false,
+  "metric": "absolute_error_at_x0",
+  "monte_carlo": {
+    "E_MC": "abs(mean(mc_seed_f0)-y_exact0)",
+    "M_per_seed": 1024,
+    "aggregation": "arithmetic_mean_of_four_saved_MC1024_estimates",
+    "dt": 0.0078125,
+    "seeds": [
+      202610250101,
+      202610250102,
+      202610250103,
+      202610250104
+    ],
+    "total_paths": 4096
+  },
+  "numerical_calls": 0,
+  "original_family_split": [
+    700,
+    150,
+    150
+  ],
+  "outlier_diagnostics": [
+    "AMV1_F0141_S00 (train): in-sample, cannot establish generalization",
+    "AMV1_F0180_S04 (test): fixed held-family retrospective diagnostic; no configuration adaptation"
+  ],
+  "remizov": "unchanged historical mass n128 taper",
+  "retrospective_reanalysis": true,
+  "schema": "two_method_x0_mc_mean4_accuracy_v1",
+  "source": "results/ml_accuracy_selector_2026-10-31/run",
+  "stop_after_single_fit": true,
+  "target": "remizov if E_R<=E_MC else monte_carlo",
+  "test_tuning": false
+}

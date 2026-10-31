@@ -1,0 +1,466 @@
+[
+  {
+    "ast_cumulative_seconds": 0.0264292,
+    "expression_jet_seconds": 0.01008461,
+    "problem_id": "AMV1_F0000_S00",
+    "profiled_seconds": 0.06701454194262624,
+    "top_functions": [
+      {
+        "cumulative_seconds": 0.067008042,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "solve_monte_carlo",
+        "line": 334,
+        "primitive_calls": 1,
+        "self_seconds": 8.999600000000001e-05,
+        "total_calls": 1
+      },
+      {
+        "cumulative_seconds": 0.064817,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "_path_contributions",
+        "line": 252,
+        "primitive_calls": 1,
+        "self_seconds": 0.003639461,
+        "total_calls": 1
+      },
+      {
+        "cumulative_seconds": 0.058090916000000006,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "_values",
+        "line": 220,
+        "primitive_calls": 1026,
+        "self_seconds": 0.001581086,
+        "total_calls": 1026
+      },
+      {
+        "cumulative_seconds": 0.052615644,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+        "function": "evaluate",
+        "line": 313,
+        "primitive_calls": 1026,
+        "self_seconds": 0.0005572530000000001,
+        "total_calls": 1026
+      },
+      {
+        "cumulative_seconds": 0.038441755,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "_forcing",
+        "line": 237,
+        "primitive_calls": 257,
+        "self_seconds": 0.000370655,
+        "total_calls": 257
+      },
+      {
+        "cumulative_seconds": 0.033919505,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+        "function": "g_remizov",
+        "line": 423,
+        "primitive_calls": 257,
+        "self_seconds": 0.000171122,
+        "total_calls": 257
+      },
+      {
+        "cumulative_seconds": 0.033748383,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+        "function": "g",
+        "line": 419,
+        "primitive_calls": 257,
+        "self_seconds": 0.000548312,
+        "total_calls": 257
+      },
+      {
+        "cumulative_seconds": 0.0264292,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "evaluate_jet2",
+        "line": 577,
+        "primitive_calls": 1797,
+        "self_seconds": 0.000999101,
+        "total_calls": 1797
+      },
+      {
+        "cumulative_seconds": 0.023680448,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+        "function": "solution_jet",
+        "line": 394,
+        "primitive_calls": 257,
+        "self_seconds": 0.000199619,
+        "total_calls": 257
+      },
+      {
+        "cumulative_seconds": 0.023480829,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "evaluate_solution",
+        "line": 657,
+        "primitive_calls": 257,
+        "self_seconds": 0.001476777,
+        "total_calls": 257
+      },
+      {
+        "cumulative_seconds": 0.016445435,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "evaluate_expression",
+        "line": 585,
+        "primitive_calls": 1540,
+        "self_seconds": 0.0002997,
+        "total_calls": 1540
+      },
+      {
+        "cumulative_seconds": 0.014099904000000002,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "_evaluate_array",
+        "line": 455,
+        "primitive_calls": 1797,
+        "self_seconds": 0.004801617,
+        "total_calls": 2311
+      }
+    ]
+  },
+  {
+    "ast_cumulative_seconds": 0.08874973700000001,
+    "expression_jet_seconds": 0.044120643,
+    "problem_id": "AMV1_F0002_S00",
+    "profiled_seconds": 0.12810429208911955,
+    "top_functions": [
+      {
+        "cumulative_seconds": 0.128096333,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "solve_monte_carlo",
+        "line": 334,
+        "primitive_calls": 1,
+        "self_seconds": 6.5832e-05,
+        "total_calls": 1
+      },
+      {
+        "cumulative_seconds": 0.127627666,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "_path_contributions",
+        "line": 252,
+        "primitive_calls": 1,
+        "self_seconds": 0.0037152680000000003,
+        "total_calls": 1
+      },
+      {
+        "cumulative_seconds": 0.120803593,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "_values",
+        "line": 220,
+        "primitive_calls": 1026,
+        "self_seconds": 0.0015805930000000001,
+        "total_calls": 1026
+      },
+      {
+        "cumulative_seconds": 0.11537404600000001,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+        "function": "evaluate",
+        "line": 313,
+        "primitive_calls": 1026,
+        "self_seconds": 0.0005487640000000001,
+        "total_calls": 1026
+      },
+      {
+        "cumulative_seconds": 0.08874973700000001,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "evaluate_jet2",
+        "line": 577,
+        "primitive_calls": 1797,
+        "self_seconds": 0.001492234,
+        "total_calls": 1797
+      },
+      {
+        "cumulative_seconds": 0.075982804,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "evaluate_expression",
+        "line": 585,
+        "primitive_calls": 1540,
+        "self_seconds": 0.00047993700000000005,
+        "total_calls": 1540
+      },
+      {
+        "cumulative_seconds": 0.07153079300000001,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "_forcing",
+        "line": 237,
+        "primitive_calls": 257,
+        "self_seconds": 0.00038179,
+        "total_calls": 257
+      },
+      {
+        "cumulative_seconds": 0.06706779,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "_evaluate_array",
+        "line": 455,
+        "primitive_calls": 1797,
+        "self_seconds": 0.026252642000000003,
+        "total_calls": 5391
+      },
+      {
+        "cumulative_seconds": 0.06705340800000001,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+        "function": "g_remizov",
+        "line": 423,
+        "primitive_calls": 257,
+        "self_seconds": 0.00017483400000000001,
+        "total_calls": 257
+      },
+      {
+        "cumulative_seconds": 0.06687857400000001,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+        "function": "g",
+        "line": 419,
+        "primitive_calls": 257,
+        "self_seconds": 0.000555804,
+        "total_calls": 257
+      },
+      {
+        "cumulative_seconds": 0.046704642000000005,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "<listcomp>",
+        "line": 510,
+        "primitive_calls": 1797,
+        "self_seconds": 0.000752347,
+        "total_calls": 1797
+      },
+      {
+        "cumulative_seconds": 0.037696909,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "_finite_jet",
+        "line": 447,
+        "primitive_calls": 5905,
+        "self_seconds": 0.012209919000000001,
+        "total_calls": 5905
+      }
+    ]
+  },
+  {
+    "ast_cumulative_seconds": 0.269486655,
+    "expression_jet_seconds": 0.134326317,
+    "problem_id": "AMV1_F0014_S00",
+    "profiled_seconds": 0.31026966706849635,
+    "top_functions": [
+      {
+        "cumulative_seconds": 0.310260625,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "solve_monte_carlo",
+        "line": 334,
+        "primitive_calls": 1,
+        "self_seconds": 6.4127e-05,
+        "total_calls": 1
+      },
+      {
+        "cumulative_seconds": 0.30985100000000004,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "_path_contributions",
+        "line": 252,
+        "primitive_calls": 1,
+        "self_seconds": 0.003885856,
+        "total_calls": 1
+      },
+      {
+        "cumulative_seconds": 0.30275367200000003,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "_values",
+        "line": 220,
+        "primitive_calls": 1026,
+        "self_seconds": 0.0016986310000000001,
+        "total_calls": 1026
+      },
+      {
+        "cumulative_seconds": 0.29696765,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+        "function": "evaluate",
+        "line": 313,
+        "primitive_calls": 1026,
+        "self_seconds": 0.0006123880000000001,
+        "total_calls": 1026
+      },
+      {
+        "cumulative_seconds": 0.269486655,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "evaluate_jet2",
+        "line": 577,
+        "primitive_calls": 1797,
+        "self_seconds": 0.0017119050000000001,
+        "total_calls": 1797
+      },
+      {
+        "cumulative_seconds": 0.225402872,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "_evaluate_array",
+        "line": 455,
+        "primitive_calls": 1797,
+        "self_seconds": 0.083504147,
+        "total_calls": 18997
+      },
+      {
+        "cumulative_seconds": 0.224201495,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "evaluate_expression",
+        "line": 585,
+        "primitive_calls": 1540,
+        "self_seconds": 0.000556919,
+        "total_calls": 1540
+      },
+      {
+        "cumulative_seconds": 0.20552689500000001,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "<listcomp>",
+        "line": 510,
+        "primitive_calls": 1797,
+        "self_seconds": 0.005702644000000001,
+        "total_calls": 10782
+      },
+      {
+        "cumulative_seconds": 0.17864717600000002,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "_forcing",
+        "line": 237,
+        "primitive_calls": 257,
+        "self_seconds": 0.00041629300000000003,
+        "total_calls": 257
+      },
+      {
+        "cumulative_seconds": 0.173864121,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+        "function": "g_remizov",
+        "line": 423,
+        "primitive_calls": 257,
+        "self_seconds": 0.00018123800000000002,
+        "total_calls": 257
+      },
+      {
+        "cumulative_seconds": 0.173682883,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+        "function": "g",
+        "line": 419,
+        "primitive_calls": 257,
+        "self_seconds": 0.0005839840000000001,
+        "total_calls": 257
+      },
+      {
+        "cumulative_seconds": 0.117762267,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "_finite_jet",
+        "line": 447,
+        "primitive_calls": 18484,
+        "self_seconds": 0.03803784,
+        "total_calls": 18484
+      }
+    ]
+  },
+  {
+    "ast_cumulative_seconds": 0.45806980100000005,
+    "expression_jet_seconds": 0.22809704900000002,
+    "problem_id": "AMV1_F0017_S00",
+    "profiled_seconds": 0.5045901250559837,
+    "top_functions": [
+      {
+        "cumulative_seconds": 0.504577625,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "solve_monte_carlo",
+        "line": 334,
+        "primitive_calls": 1,
+        "self_seconds": 8.683600000000001e-05,
+        "total_calls": 1
+      },
+      {
+        "cumulative_seconds": 0.504052625,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "_path_contributions",
+        "line": 252,
+        "primitive_calls": 1,
+        "self_seconds": 0.0048146790000000005,
+        "total_calls": 1
+      },
+      {
+        "cumulative_seconds": 0.495612629,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "_values",
+        "line": 220,
+        "primitive_calls": 1026,
+        "self_seconds": 0.001983274,
+        "total_calls": 1026
+      },
+      {
+        "cumulative_seconds": 0.48921430800000004,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+        "function": "evaluate",
+        "line": 313,
+        "primitive_calls": 1026,
+        "self_seconds": 0.0007309650000000001,
+        "total_calls": 1026
+      },
+      {
+        "cumulative_seconds": 0.45806980100000005,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "evaluate_jet2",
+        "line": 577,
+        "primitive_calls": 1797,
+        "self_seconds": 0.001978235,
+        "total_calls": 1797
+      },
+      {
+        "cumulative_seconds": 0.40253986,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "evaluate_expression",
+        "line": 585,
+        "primitive_calls": 1540,
+        "self_seconds": 0.0006228000000000001,
+        "total_calls": 1540
+      },
+      {
+        "cumulative_seconds": 0.384467329,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "_evaluate_array",
+        "line": 455,
+        "primitive_calls": 1797,
+        "self_seconds": 0.144295099,
+        "total_calls": 30805
+      },
+      {
+        "cumulative_seconds": 0.36349296200000003,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "<listcomp>",
+        "line": 510,
+        "primitive_calls": 1797,
+        "self_seconds": 0.010411614000000001,
+        "total_calls": 17200
+      },
+      {
+        "cumulative_seconds": 0.27974567100000003,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/mc_solver.py",
+        "function": "_forcing",
+        "line": 237,
+        "primitive_calls": 257,
+        "self_seconds": 0.0005160680000000001,
+        "total_calls": 257
+      },
+      {
+        "cumulative_seconds": 0.274369127,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+        "function": "g_remizov",
+        "line": 423,
+        "primitive_calls": 257,
+        "self_seconds": 0.000205426,
+        "total_calls": 257
+      },
+      {
+        "cumulative_seconds": 0.27416370100000004,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/all_methods_dataset_loader.py",
+        "function": "g",
+        "line": 419,
+        "primitive_calls": 257,
+        "self_seconds": 0.000689784,
+        "total_calls": 257
+      },
+      {
+        "cumulative_seconds": 0.19633776700000002,
+        "file": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py",
+        "function": "_finite_jet",
+        "line": 447,
+        "primitive_calls": 29267,
+        "self_seconds": 0.062919615,
+        "total_calls": 29267
+      }
+    ]
+  }
+]

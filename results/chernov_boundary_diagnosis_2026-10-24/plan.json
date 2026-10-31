@@ -1,0 +1,168 @@
+{
+  "baseline_config": {
+    "T": null,
+    "boundary": "taper",
+    "dx": 0.0125,
+    "interp": "cubic",
+    "max_work_grid_points": 100000,
+    "n": 128,
+    "n_jobs": 1,
+    "n_steps": 32768,
+    "num_t": 513,
+    "padding": 12.0,
+    "start_method": "spawn",
+    "t_grading": "quadratic",
+    "tail_eps": 1e-08,
+    "taper_width": null
+  },
+  "changes": {
+    "cubic_zero": [
+      "boundary"
+    ],
+    "linear_zero": [
+      "interp",
+      "boundary"
+    ]
+  },
+  "created_utc": "2026-10-24T10:05:36.096778+00:00",
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "versions": {
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "sympy": "1.14.0"
+    }
+  },
+  "numerical_refinement": false,
+  "production_plan_sha256": "c40ffcade7c85da56dd3fa9599daf75232d7d8a87b366268546b066873221d68",
+  "resource_policy": {
+    "blas_threads": 1,
+    "compute_processes": 1,
+    "expected_core_full_solves": 8,
+    "expected_core_solver_seconds": 128,
+    "linear_phase_conditional": true,
+    "memory_mib": 768,
+    "stage_wall_limit": "six times max saved task wall, at least 60 s"
+  },
+  "schema": "chernov_boundary_diagnosis_v1",
+  "source_data_hash_checks": {
+    "all_methods_dataset_loader.py": true,
+    "chernov_solver.py": true,
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1.csv": true,
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_metadata.jsonl": true,
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_ml.npz": true,
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_report.json": true,
+    "remizov_solver.py": true,
+    "src/all_methods_dataset_v1.py": true,
+    "src/all_methods_expressions.py": true
+  },
+  "source_data_sha256": {
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1.csv": "940d6c10a8cdd0933bb5c663c681efd39bac5ed450ea37cbb95be1ca481136ad",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_metadata.jsonl": "e464e289af2bf98dc1e6e49a1211ae2d5bf78838cee59b13c22df7bd01be0a79",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_ml.npz": "53231f72622dda82c8210dcd2ea4a843cc48f97a2a362ace596d66b37fca7c89",
+    "data/all_methods_v1_1000_2026-10-18/all_methods_equations_v1_report.json": "5307f5d3f763949b6663fe680f2e21c714534dcf1e429ab52a3b2219e49aae86",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "tasks": [
+    {
+      "T": 19.44927185677228,
+      "baseline_boundary_max": 1.7358079558332735e+45,
+      "baseline_error": 19704.50191093058,
+      "effective_taper_width": 2.6,
+      "fingerprints": {
+        "a": "b687632478d964488d6c8f8d408809be2765605b610dbae1eb6f639d20fd21d7",
+        "b": "0fb2cb1df2ac0c4cd8d173c3d32d70cf9c8cb09879754acd6cea3020a31ebd33",
+        "c_R": "7f07281c6dd6db865e0a3bb1a5badc88a41f9e0630633c9d434ba3ff19662834",
+        "g_R": "92d4f7b7d263f5e04b73d83a76262fe37c803fa3e6cf401fe1ab4c390778bc3a",
+        "grid": "0dd183618f1893ab79474cfda841b0624798e012ca6c70df9963e69dfc55d142",
+        "t": "5d9351c69fc59ad03c41d53226e8f8142e887c2461da11917d04d4d7c0e0d872",
+        "target_x": "c8ae0b662ea825e72075d58f8684d8e5c302ce9d228a08f62bb72b9c78dd1c63",
+        "weights": "c28365d3cf1fd967807d556e15c163a5989f69ef840edd1675eef52283e030dc"
+      },
+      "lambda_value": 3.472884579195582,
+      "problem_id": "AMV1_F0141_S00",
+      "source_result_sha256": "2ca2cf2ac58c7efc5d489bc1289aced0fc07d732fe17a3d321ec1dc99688908a"
+    },
+    {
+      "T": 18.692237908953764,
+      "baseline_boundary_max": 4.933352510492392e+37,
+      "baseline_error": 19134.405186775984,
+      "effective_taper_width": 2.6,
+      "fingerprints": {
+        "a": "d612108e9bbfab4b06b9ae73f65dc5143b12a2e71eccfa4c4fe989f6ae4f5214",
+        "b": "47790968f2f38fb991136c4252783c248a140e0babf5dc6f1caa265675a959fe",
+        "c_R": "08f7fac95cb81449847985cf1ef2fd8a3c5d71bb5dc0fd524fe3d43058e1c06e",
+        "g_R": "d83f53e66a227be84a41789b8f381997a88bce0322b23521ff460c25e66c6dca",
+        "grid": "0dd183618f1893ab79474cfda841b0624798e012ca6c70df9963e69dfc55d142",
+        "t": "57ab99a5d98e1dd1d189b415ad536b48795ec480601d17e7aa617a4a203bda84",
+        "target_x": "c8ae0b662ea825e72075d58f8684d8e5c302ce9d228a08f62bb72b9c78dd1c63",
+        "weights": "1dfd25b1d7ef4df879b5283d8ffcba0353f6ed49fbbdca6a05a90c088f34405d"
+      },
+      "lambda_value": 2.4125425443182413,
+      "problem_id": "AMV1_F0180_S04",
+      "source_result_sha256": "bbc6f02def147b7b9e608ee8b889b2b5873e00535891e137dd6e0f118f568a36"
+    },
+    {
+      "T": 14.316766352162844,
+      "baseline_boundary_max": 2.7675305085004193e+31,
+      "baseline_error": 444.58925463912163,
+      "effective_taper_width": 2.6,
+      "fingerprints": {
+        "a": "7ffd3225ae9481a4d322afa1162579374fb72854f3598c96e13c3e97ea39568c",
+        "b": "54dc241e0eaee7ba30577b303d0e977edb1b84ea2999c630da4afd5c3a41fb9d",
+        "c_R": "1408aaf2b4b33400f1762f9ade933d5304486ed96e06567883bedc87720aad6d",
+        "g_R": "4349aeb32ac9d2437f39f1134fb03de72d3840b6aa6cff82fd987eecedda371b",
+        "grid": "0dd183618f1893ab79474cfda841b0624798e012ca6c70df9963e69dfc55d142",
+        "t": "82acf112212f608c995f6f98a85b5a9eebab00270236c4313d3909acf477ca54",
+        "target_x": "c8ae0b662ea825e72075d58f8684d8e5c302ce9d228a08f62bb72b9c78dd1c63",
+        "weights": "775786bb263ea0f99b53edc7749933c5057921c678043a6960093abbc4ec9236"
+      },
+      "lambda_value": 2.521224131085095,
+      "problem_id": "AMV1_F0184_S01",
+      "source_result_sha256": "ed0b44badb5f457e7c07706cada48da4d003ee82742c7eeb9f676979f8c4b7ce"
+    },
+    {
+      "T": 77.43215753309508,
+      "baseline_boundary_max": 1.311134538622733e+27,
+      "baseline_error": 0.007182660318103728,
+      "effective_taper_width": 2.6,
+      "fingerprints": {
+        "a": "ac8c853c3608a572b195db4c2f62511234b2d51d58874af815d80d1bbb9636cf",
+        "b": "365ccdcef511fb83b81dadea84d0ee57d716a851ba399121cd774e44e81226e6",
+        "c_R": "b5a640ff89521766a66507736ad09cdb7b9a5a244ca5ec3b1a0c59d896d73e02",
+        "g_R": "f470a7cd2a1d9ce6bb676527e8ec2ddfacb9eb2507c1ec4b130c900546458210",
+        "grid": "0dd183618f1893ab79474cfda841b0624798e012ca6c70df9963e69dfc55d142",
+        "t": "a419492157c7cde05eef14e237eb9bed0804292cf1d3b4088c986dcd624b40b2",
+        "target_x": "c8ae0b662ea825e72075d58f8684d8e5c302ce9d228a08f62bb72b9c78dd1c63",
+        "weights": "9153c75bff178630a0c8c8fdb627b2c079eef4a7f5b571a3df78c15ceec32823"
+      },
+      "lambda_value": 2.337692465642569,
+      "problem_id": "AMV1_F0180_S03",
+      "source_result_sha256": "22d4a6586d4f64b4c38b155d5f3bcac53bb1fddf33ed5c064722cebe909b69e8"
+    }
+  ],
+  "trace_fractions": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "trace_onset_definitions": {
+    "significant_global_growth": "first ||u_k|| > 2||g_grid||",
+    "step_bound_violation": "first ||u_(k+1)|| > (1+tau*C)||u_k||*(1+1e-10)",
+    "target_boundary_effect": "first ||u_taper-u_zero|| on [-1,1] > 0.01",
+    "weighted_target_boundary_effect": "same difference times exp(-lambda*t*k/n) > 0.01"
+  }
+}

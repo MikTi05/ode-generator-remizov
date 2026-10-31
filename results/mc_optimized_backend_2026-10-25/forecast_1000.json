@@ -1,0 +1,33 @@
+{
+  "equations": 1000,
+  "points": 33,
+  "M": 1024,
+  "h": 0.0078125,
+  "seeds": 1,
+  "total_path_steps": 100395761664,
+  "observed_rate_range_seconds": [
+    5588.879032842918,
+    24003.271906781487
+  ],
+  "ast_weighted_scenario_seconds": 13059.979267274852,
+  "weighted_rate_sensitivity_seconds": [
+    11387.356116201927,
+    25055.958937348027
+  ],
+  "ast_preparation_seconds": 0.8236978754866868,
+  "max_T": 125.375,
+  "median_T": 16.5625,
+  "max_N": 16048,
+  "over_default_steps": 0,
+  "over_default_path_budget": 345,
+  "weighted_nodes_range": [
+    12,
+    128
+  ],
+  "measured_weighted_nodes_range": [
+    12,
+    95
+  ],
+  "beyond_measured_node_range": 75,
+  "interpretation": "Scenarios, not confidence bounds or guaranteed .01 cost; AST opcode mix, paths, hardware, seed and longer horizons vary. One persistent worker; JIT once. Larger M and seed count scale work approximately linearly."
+}

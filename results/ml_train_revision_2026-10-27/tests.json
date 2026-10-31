@@ -1,0 +1,1 @@
+{"command": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_train_revision.py tests/test_probabilistic_selector.py tests/test_nested_probability_calibration.py", "exit_code": 0, "passed": 37, "seconds": 0.88, "solver_calls": 0}

@@ -1,0 +1,1778 @@
+[
+  {
+    "config": {},
+    "constant": "remizov",
+    "feature_set": "X",
+    "id": "new__always_remizov",
+    "kind": "constant",
+    "model": null,
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.0,
+    "weight": 1
+  },
+  {
+    "config": {},
+    "constant": "monte_carlo",
+    "feature_set": "X",
+    "id": "new__always_monte_carlo",
+    "kind": "constant",
+    "model": null,
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.0,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.40293541620485485,
+    "id": "new__X__classifier__w1__baseline",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w1__baseline.cbm",
+    "model_sha256": "e9e58890f1b3fdbb8259413cbf5356e310814b0356f4e50bfd932936c3d6a153",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.25,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.077363166026771,
+    "id": "new__X__classifier__w1__medium",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w1__medium.cbm",
+    "model_sha256": "1273c20e8dbc6594f3c22025f67420a5e7aed016663f05c3c3a216344a0c7e68",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.17432643533591513,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.1650684168562293,
+    "id": "new__X__classifier__w1__deeper",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w1__deeper.cbm",
+    "model_sha256": "5f272bed36cc9881f685fffb7174ff172b685ad66aed06a13b084b1f4b29bc91",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.5355939713251547,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.34546029195189476,
+    "id": "new__X__classifier__w2__baseline",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w2__baseline.cbm",
+    "model_sha256": "228fc2f6d95fffbd540f8ef10039939d647cdc28b9846d2ed8ecc5983ed30945",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.5071483593188005,
+    "weight": 2
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.0829765419475734,
+    "id": "new__X__classifier__w2__medium",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w2__medium.cbm",
+    "model_sha256": "60b099b03a32a86ded89baa7fe36f35e504399d282237b852f229f0407dcd48f",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.25634776548774646,
+    "weight": 2
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.269693624926731,
+    "id": "new__X__classifier__w2__deeper",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w2__deeper.cbm",
+    "model_sha256": "d548677fcad9adfee8b609450aac1374cb0e869cf91713528460b864d2b41044",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.5,
+    "weight": 2
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.34704929194413126,
+    "id": "new__X__classifier__w3__baseline",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w3__baseline.cbm",
+    "model_sha256": "864e060d627f0fbbd3644f7dc7ce44c2244998ac21f3531b86ed1d116006818e",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.5646018017889192,
+    "weight": 3
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.100473334081471,
+    "id": "new__X__classifier__w3__medium",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w3__medium.cbm",
+    "model_sha256": "b150caea5bcf902fee59742abb953f9bcca841511e296bb7817419143e606cd0",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.5620656916003619,
+    "weight": 3
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.2528887081425637,
+    "id": "new__X__classifier__w3__deeper",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w3__deeper.cbm",
+    "model_sha256": "f0999c187fdb4dca0d5f0885371d6a9a4a5e07c7336aa02abfdf71bf169084d1",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.6023906216726329,
+    "weight": 3
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.3487419590819627,
+    "id": "new__X__classifier__w5__baseline",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w5__baseline.cbm",
+    "model_sha256": "3364dc5f8f550a1f15d7243a7b0bfea45810112d6d304f20540f533b30f863cc",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.5878284717591293,
+    "weight": 5
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.0997734169941396,
+    "id": "new__X__classifier__w5__medium",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w5__medium.cbm",
+    "model_sha256": "f0a2a538d455795faf2ef71b1dd5a62ecd5abe733c89eebd00b356b6de832c91",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.6731888632747802,
+    "weight": 5
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.2340263752266765,
+    "id": "new__X__classifier__w5__deeper",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w5__deeper.cbm",
+    "model_sha256": "ab75cee01f0397c9f3d2c0d555b88705e25a4edce98d16b26688d29dc4bf296f",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.6374363584967767,
+    "weight": 5
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.33939533308148384,
+    "id": "new__X__classifier__w8__baseline",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w8__baseline.cbm",
+    "model_sha256": "efbc7b5d66d9c1b0cc5f9a03a912995ba02f7aba4776872d962ca620c32f9fe4",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.7464365779779635,
+    "weight": 8
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.065622332971543,
+    "id": "new__X__classifier__w8__medium",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w8__medium.cbm",
+    "model_sha256": "56c56b7ad86bea74a4cda0c72a44840c2b0b9878b8fdd9c5da83f17370c88536",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.6647601110582203,
+    "weight": 8
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.153757374966517,
+    "id": "new__X__classifier__w8__deeper",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w8__deeper.cbm",
+    "model_sha256": "68bc56e34e4342900994531a345a2ab58a8a839fc3bf84a5a8cd95a53902b515",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.7507606368313599,
+    "weight": 8
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.3411162500269711,
+    "id": "new__X__classifier__w12__baseline",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w12__baseline.cbm",
+    "model_sha256": "82077098458add50582c0d0f80db6b026152ee05456468b2c50ce7188663b02d",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.8467233310730798,
+    "weight": 12
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.081412916071713,
+    "id": "new__X__classifier__w12__medium",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w12__medium.cbm",
+    "model_sha256": "8efa01647a49bbc8c3ff59bfd6bdc3b0d71e6e67a5463e46720ae5e234ab5622",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.795009612090975,
+    "weight": 12
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.1643625418655574,
+    "id": "new__X__classifier__w12__deeper",
+    "kind": "classifier",
+    "model": "models/new__X__classifier__w12__deeper.cbm",
+    "model_sha256": "89d26e6fec0080656dfead00abd9a8abda27208c50bc7b29ea9576fe283894f2",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.8552418418749572,
+    "weight": 12
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.3099084170535207,
+    "id": "new__X__raw__w1__baseline",
+    "kind": "raw",
+    "model": "models/new__X__raw__w1__baseline.cbm",
+    "model_sha256": "178fc2978eccd0b942289b2410c1d64425f3b072729e33db2dc18328d9691e7d",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.034679661022178454,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.0302007079590112,
+    "id": "new__X__raw__w1__medium",
+    "kind": "raw",
+    "model": "models/new__X__raw__w1__medium.cbm",
+    "model_sha256": "9bec7c77490d42671b9330f9e76795a7515369cf82f05685823fe13a73fbf8f4",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.0021722854169956562,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.135523041943088,
+    "id": "new__X__raw__w1__deeper",
+    "kind": "raw",
+    "model": "models/new__X__raw__w1__deeper.cbm",
+    "model_sha256": "ac4f50de890629e78952c448f5739a22ac69680d941c92dbfb15a67041c166e5",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.093458476254489,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.32982237497344613,
+    "id": "new__X__asinh__w1__baseline",
+    "kind": "asinh",
+    "model": "models/new__X__asinh__w1__baseline.cbm",
+    "model_sha256": "98d000fc60fe1f7dea9ef9cd8af92a6ceae13955a2d8c3c7cd486328cd057856",
+    "scale": 0.007372424422264157,
+    "scenario": "new",
+    "threshold": 0.015495102484111147,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.0598851251415908,
+    "id": "new__X__asinh__w1__medium",
+    "kind": "asinh",
+    "model": "models/new__X__asinh__w1__medium.cbm",
+    "model_sha256": "02f015214e148fbef783309d68a02daefe2296e83fc32a5b2596cdb85cec0479",
+    "scale": 0.007372424422264157,
+    "scenario": "new",
+    "threshold": 0.005462153741604688,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.172048707958311,
+    "id": "new__X__asinh__w1__deeper",
+    "kind": "asinh",
+    "model": "models/new__X__asinh__w1__deeper.cbm",
+    "model_sha256": "ea336f5fea7abb5391591b6e18b15cd06ea7f51e39a85bbff7a00ee06187e02e",
+    "scale": 0.007372424422264157,
+    "scenario": "new",
+    "threshold": 0.002884927386207427,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.36037045903503895,
+    "id": "new__augmented__classifier__w1__baseline",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w1__baseline.cbm",
+    "model_sha256": "255c29a2caa087538ae2b589cd0fdc2ae693c7f73de3babe4ac7803ff9e46c18",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.2006671072130637,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.1141770409885794,
+    "id": "new__augmented__classifier__w1__medium",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w1__medium.cbm",
+    "model_sha256": "9c9b479c16bf647083de577aff7012d9510639f8d95cf310e75665d46dd5cc6c",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.7010087728179478,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.2740461248904467,
+    "id": "new__augmented__classifier__w1__deeper",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w1__deeper.cbm",
+    "model_sha256": "9ceb42677d76aea2ee969e54ba6e865df9b068bece030280a4566cf2739148d5",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.2,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.3570020410697907,
+    "id": "new__augmented__classifier__w2__baseline",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w2__baseline.cbm",
+    "model_sha256": "e2cac30e0d31b4e4fefc82259310b48408849104a8ddb90fe7643d2dab0ef1b8",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.5456152965653716,
+    "weight": 2
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.176273041171953,
+    "id": "new__augmented__classifier__w2__medium",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w2__medium.cbm",
+    "model_sha256": "6dd5a5b64c80f697551048b51c277fc6a13a2a8ecc4dfffc732b838c568b4348",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.5,
+    "weight": 2
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.379630665993318,
+    "id": "new__augmented__classifier__w2__deeper",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w2__deeper.cbm",
+    "model_sha256": "d82df227d745ffa2fba777f19d49900fdbba8cfceaef66c86331df625bd80d64",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.5664195106408149,
+    "weight": 2
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.35296170809306204,
+    "id": "new__augmented__classifier__w3__baseline",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w3__baseline.cbm",
+    "model_sha256": "31cd02f448c5d7759d16e5f1ad37df485f3f7cec99762a30fb5c3809ecea5bf2",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.5927017816210318,
+    "weight": 3
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.1859728328417987,
+    "id": "new__augmented__classifier__w3__medium",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w3__medium.cbm",
+    "model_sha256": "f73b035a49d7543c299de03f7c7046349713ba96a759354c25faea6295549e90",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.5497385703901819,
+    "weight": 3
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.437028125161305,
+    "id": "new__augmented__classifier__w3__deeper",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w3__deeper.cbm",
+    "model_sha256": "6e257c5529c3da3bd8c385fbe81f725a4f7f946b854ccb6bb394c02d81218a9b",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.6207886546196257,
+    "weight": 3
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.37703191698528826,
+    "id": "new__augmented__classifier__w5__baseline",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w5__baseline.cbm",
+    "model_sha256": "1ce7f097f2366f87f8bc8a48472d6837ec23540c0825e3be9351e94ad7468021",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.6120832428044638,
+    "weight": 5
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.172182457987219,
+    "id": "new__augmented__classifier__w5__medium",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w5__medium.cbm",
+    "model_sha256": "3c4e8e04c5f916f587e77be23546085dc8ecdfb09f28db8e3e07653f5a5aed1c",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.5574362205112242,
+    "weight": 5
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.325170249911025,
+    "id": "new__augmented__classifier__w5__deeper",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w5__deeper.cbm",
+    "model_sha256": "0974e5562a3a1ed8d3c40a33ecc9c20ec92c0e1c10adfd6b20c97d0b7fdac84f",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.7145535371540487,
+    "weight": 5
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.3681347498204559,
+    "id": "new__augmented__classifier__w8__baseline",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w8__baseline.cbm",
+    "model_sha256": "947841b9b57f24c745b78050c2a28844fe8a2c0798478cffd54a2e0f5542b2b4",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.7592240452620621,
+    "weight": 8
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.1854706248268485,
+    "id": "new__augmented__classifier__w8__medium",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w8__medium.cbm",
+    "model_sha256": "83389ed29cb1d07943893474391514907077ab20e43a087de24ea1129c5b0b12",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.7150600694769192,
+    "weight": 8
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.417164667043835,
+    "id": "new__augmented__classifier__w8__deeper",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w8__deeper.cbm",
+    "model_sha256": "487c81d076c76c0329805819893a5d4274751529597a4929d62c9b8d802a1e1d",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.8423674640890978,
+    "weight": 8
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.39337816601619124,
+    "id": "new__augmented__classifier__w12__baseline",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w12__baseline.cbm",
+    "model_sha256": "c254388954a642ac39ff63167d4d4aee67e80a1475a72971ad4fc4744e34adf0",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.8404774903992223,
+    "weight": 12
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.175013291882351,
+    "id": "new__augmented__classifier__w12__medium",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w12__medium.cbm",
+    "model_sha256": "74d4c593ab4e725420d09d0f8f9e34359c8f18d2d5ec326aa36ef317be5674ec",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.8300334910971033,
+    "weight": 12
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.41266308282502,
+    "id": "new__augmented__classifier__w12__deeper",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w12__deeper.cbm",
+    "model_sha256": "d673cbf532f80aa4da6d1bbaa03a228a44de422a69c9a15543da89bfe8ccfd16",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.8737615688807798,
+    "weight": 12
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.33358500013127923,
+    "id": "new__augmented__raw__w1__baseline",
+    "kind": "raw",
+    "model": "models/new__augmented__raw__w1__baseline.cbm",
+    "model_sha256": "cc0e5b21511dcdc0a19ca744aff67867217d15147807c75c6cecfbef57a69317",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.0348039731355414,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.0644588328432292,
+    "id": "new__augmented__raw__w1__medium",
+    "kind": "raw",
+    "model": "models/new__augmented__raw__w1__medium.cbm",
+    "model_sha256": "79220b9c84e7d207ec532f986e8f47afea69d1095f28913684976bc474a3b6b6",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.0011932947919284231,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.2314404170028865,
+    "id": "new__augmented__raw__w1__deeper",
+    "kind": "raw",
+    "model": "models/new__augmented__raw__w1__deeper.cbm",
+    "model_sha256": "cc1a6ea02b24d1ec528637f3ec96443d27b5dd768caa381323840593acbee218",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.09201643950247806,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.33672091690823436,
+    "id": "new__augmented__asinh__w1__baseline",
+    "kind": "asinh",
+    "model": "models/new__augmented__asinh__w1__baseline.cbm",
+    "model_sha256": "966b8a61f8e73878bda334ec0cd40cd7bed7b3ee99c6b9e1093ae7797473b600",
+    "scale": 0.007372424422264157,
+    "scenario": "new",
+    "threshold": 0.016699867145507686,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.1024026658851653,
+    "id": "new__augmented__asinh__w1__medium",
+    "kind": "asinh",
+    "model": "models/new__augmented__asinh__w1__medium.cbm",
+    "model_sha256": "e41e28f56bfee1a996638474a9165debacef88c2ce0237d706efbff28bf2cda5",
+    "scale": 0.007372424422264157,
+    "scenario": "new",
+    "threshold": 0.0023218531740351444,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.285960915964097,
+    "id": "new__augmented__asinh__w1__deeper",
+    "kind": "asinh",
+    "model": "models/new__augmented__asinh__w1__deeper.cbm",
+    "model_sha256": "cc3f1c97c1266fb7472fe747988be241cf5715944fbab2cc0c21dcec39732c4c",
+    "scale": 0.007372424422264157,
+    "scenario": "new",
+    "threshold": 0.0006574883341863678,
+    "weight": 1
+  },
+  {
+    "config": {},
+    "constant": "remizov",
+    "feature_set": "X",
+    "id": "old__always_remizov",
+    "kind": "constant",
+    "model": null,
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.0,
+    "weight": 1
+  },
+  {
+    "config": {},
+    "constant": "monte_carlo",
+    "feature_set": "X",
+    "id": "old__always_monte_carlo",
+    "kind": "constant",
+    "model": null,
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.0,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.37331270799040794,
+    "id": "old__X__classifier__w1__baseline",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w1__baseline.cbm",
+    "model_sha256": "20b235d845fcd02913f772a22a935e34825256f3c07e3fb62b7c69b6bf33f9a3",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.5934346452548614,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.1411230419762433,
+    "id": "old__X__classifier__w1__medium",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w1__medium.cbm",
+    "model_sha256": "1ce891caf56116780d3f1abc2e032caaee844bf6e1ce833246f96b57824c99d5",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7606841887151519,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.2906271659303457,
+    "id": "old__X__classifier__w1__deeper",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w1__deeper.cbm",
+    "model_sha256": "bcb9a19a89b0e1090d465e76f5e1c0a32199cfd1b507757f439313d3db5a77e4",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.726110923227255,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.38770912517793477,
+    "id": "old__X__classifier__w2__baseline",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w2__baseline.cbm",
+    "model_sha256": "4b71718c0fb0eb62759f4add942bebe8cc22f78e4b9602443555330e6acb5871",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.5918225025741609,
+    "weight": 2
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.134164874907583,
+    "id": "old__X__classifier__w2__medium",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w2__medium.cbm",
+    "model_sha256": "af95b1ff6f0851b3624173c84c0cd20319d9d47e3d0f3abf268d664b6de163fa",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.8013303792430256,
+    "weight": 2
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.280159582849592,
+    "id": "old__X__classifier__w2__deeper",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w2__deeper.cbm",
+    "model_sha256": "598f3624a26dc20d2982d02d9e29f3b37f096c8f2624bc857e7c6138cebcf81b",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.6999588849809126,
+    "weight": 2
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.3754292910452932,
+    "id": "old__X__classifier__w3__baseline",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w3__baseline.cbm",
+    "model_sha256": "569efbbe4e7d1442c585c79c36736d1de1b9635ba50b69edf6ff2b5d219ec01b",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.6664138154860585,
+    "weight": 3
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.110380541998893,
+    "id": "old__X__classifier__w3__medium",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w3__medium.cbm",
+    "model_sha256": "0ce6bd97e6cc3f96e32786bea28966d18b7b890a4600110058477577ccefee52",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.8050339296346217,
+    "weight": 3
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.2538071658927947,
+    "id": "old__X__classifier__w3__deeper",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w3__deeper.cbm",
+    "model_sha256": "3acbf30e3e35278b520c37656caa08ff48f4925d99ffe323593a71028577c918",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.6605274209354779,
+    "weight": 3
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.38740891590714455,
+    "id": "old__X__classifier__w5__baseline",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w5__baseline.cbm",
+    "model_sha256": "f3f21cee89b9cd4446e183798363cd4ddccbd6b3d699b37afa8f85cf0b0f583c",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.6846532238391373,
+    "weight": 5
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.1247280410025269,
+    "id": "old__X__classifier__w5__medium",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w5__medium.cbm",
+    "model_sha256": "4bc747aaade22c6ef0f27ae26f7630075d1ae2297648b819f4273f4ff88037c3",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7331397327432033,
+    "weight": 5
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.309536874992773,
+    "id": "old__X__classifier__w5__deeper",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w5__deeper.cbm",
+    "model_sha256": "499ece1ce5647100c5466c354dd3a87787394d32f01670e4f9c861536663e619",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7310679650235653,
+    "weight": 5
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.373640124918893,
+    "id": "old__X__classifier__w8__baseline",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w8__baseline.cbm",
+    "model_sha256": "c42f2755de1be925dbedc66fb0b0378a63f8e28728b6666f24a0760c4d56178c",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7527064320988911,
+    "weight": 8
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.1245393340941519,
+    "id": "old__X__classifier__w8__medium",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w8__medium.cbm",
+    "model_sha256": "6c9d273565b2cfdea0423ee931eab82795bab145b8c982b8fdc20e410b1bfd19",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7397563643350699,
+    "weight": 8
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.207139709033072,
+    "id": "old__X__classifier__w8__deeper",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w8__deeper.cbm",
+    "model_sha256": "a77314d523517fc9f899a6550260ab880e2ac6058224762b8ad33e796e267a25",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.709324992315821,
+    "weight": 8
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.37171070906333625,
+    "id": "old__X__classifier__w12__baseline",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w12__baseline.cbm",
+    "model_sha256": "3dded6f4457094899b4cdad9afccc4029813e4a676cb59334fc7880f9b3ebe40",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.786828324195101,
+    "weight": 12
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.129422458121553,
+    "id": "old__X__classifier__w12__medium",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w12__medium.cbm",
+    "model_sha256": "9f6e6011546efaab6469cdd7b9a355624b3adf4cbf8c1d892890c17369626072",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7787747267861567,
+    "weight": 12
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.310897500021383,
+    "id": "old__X__classifier__w12__deeper",
+    "kind": "classifier",
+    "model": "models/old__X__classifier__w12__deeper.cbm",
+    "model_sha256": "ddc966f6633cd3fd3595e9834da42aa5a67e33e702c4d231211713160e18b2f2",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7778723406382332,
+    "weight": 12
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.3430785830132663,
+    "id": "old__X__raw__w1__baseline",
+    "kind": "raw",
+    "model": "models/old__X__raw__w1__baseline.cbm",
+    "model_sha256": "7a28a8e0ae313216eda8b3f334c647a5f1c6886c92cff95eab9c8519b915cf1b",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 276.7228414764925,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.055537500185892,
+    "id": "old__X__raw__w1__medium",
+    "kind": "raw",
+    "model": "models/old__X__raw__w1__medium.cbm",
+    "model_sha256": "1fef8e9d4914591f3e7e08501f262e015a9f839df6b4f8fb13c2806ed2883099",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 251.31130648043964,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.2098809159360826,
+    "id": "old__X__raw__w1__deeper",
+    "kind": "raw",
+    "model": "models/old__X__raw__w1__deeper.cbm",
+    "model_sha256": "79face2a367718f8953f9fdc830db02a58e147a2bf33325fa6229eac4d6cda82",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 268.9107231620119,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "X",
+    "fit_seconds": 0.35701195895671844,
+    "id": "old__X__asinh__w1__baseline",
+    "kind": "asinh",
+    "model": "models/old__X__asinh__w1__baseline.cbm",
+    "model_sha256": "4db992ed2a151fcd509e3362ea8e498371e0d6c4655bccd258bc69ddcbbdd887",
+    "scale": 0.0070948029455421,
+    "scenario": "old",
+    "threshold": 0.3223891228605126,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "X",
+    "fit_seconds": 1.115193665958941,
+    "id": "old__X__asinh__w1__medium",
+    "kind": "asinh",
+    "model": "models/old__X__asinh__w1__medium.cbm",
+    "model_sha256": "aa70d44261cb1137806be89a3beb362c8922fd4a5677ddcdf52b86e521aac5da",
+    "scale": 0.0070948029455421,
+    "scenario": "old",
+    "threshold": 0.6247267435110774,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "X",
+    "fit_seconds": 2.1543804579414427,
+    "id": "old__X__asinh__w1__deeper",
+    "kind": "asinh",
+    "model": "models/old__X__asinh__w1__deeper.cbm",
+    "model_sha256": "0494920a132720639785f27e91ca26ba2cd428ec5c8c52d331d09732bc9d8b5b",
+    "scale": 0.0070948029455421,
+    "scenario": "old",
+    "threshold": 0.2896839667650691,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.37779629207216203,
+    "id": "old__augmented__classifier__w1__baseline",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w1__baseline.cbm",
+    "model_sha256": "8a9034d09cab22dc2c43603bc5d28d57c819820f2a216ca0bfb485df9851dd62",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.6158354147502715,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.1919344998896122,
+    "id": "old__augmented__classifier__w1__medium",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w1__medium.cbm",
+    "model_sha256": "6f7f479e629e163dd3ea4efa4537e9e71e7f42678f68efc079e82cf1e94635c7",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.8039658299210222,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.387074208119884,
+    "id": "old__augmented__classifier__w1__deeper",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w1__deeper.cbm",
+    "model_sha256": "aa30f9e38540b9378b40e801b02db6db3d3c58e3724df7fe4fae912cf75ab369",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7340556791418149,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.38804054190404713,
+    "id": "old__augmented__classifier__w2__baseline",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w2__baseline.cbm",
+    "model_sha256": "0c681f3269df95ca7a2b4368d73f49048817d7ba5f1b0baa4c40966c6a863f09",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.6529411303607788,
+    "weight": 2
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.168142250040546,
+    "id": "old__augmented__classifier__w2__medium",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w2__medium.cbm",
+    "model_sha256": "e0d90bce64b3e80f1a5121e14b4576c22e1465f46ae6a758d33e801c6d4b7a52",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7666816740480087,
+    "weight": 2
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.3328058749902993,
+    "id": "old__augmented__classifier__w2__deeper",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w2__deeper.cbm",
+    "model_sha256": "7ca77e7db656d207e52073c8f6542ff6b224adff8329adb2b6c22041a0092400",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7165620915864684,
+    "weight": 2
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.387212417088449,
+    "id": "old__augmented__classifier__w3__baseline",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w3__baseline.cbm",
+    "model_sha256": "8bfbf330dad9a5cff5984bda53bf03196d8350a3f79339cedc85b91eeab8c455",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.642903539711446,
+    "weight": 3
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.1855541658587754,
+    "id": "old__augmented__classifier__w3__medium",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w3__medium.cbm",
+    "model_sha256": "1fb3c4773d55b81ae5ed8fb50538200819e76519f15aa76eca175600b8dd0f09",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7907859363880599,
+    "weight": 3
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.3456892920657992,
+    "id": "old__augmented__classifier__w3__deeper",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w3__deeper.cbm",
+    "model_sha256": "91be9de20dbc858340607f9028148bed51e831e2a8d3581613c031d6222f815a",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7538220067157577,
+    "weight": 3
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.38319195806980133,
+    "id": "old__augmented__classifier__w5__baseline",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w5__baseline.cbm",
+    "model_sha256": "a65a41dccc0e58868d4b5e9139a0aa53b675979606d5aa0cdb349f478996ff95",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.6757493860803993,
+    "weight": 5
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.1673510000109673,
+    "id": "old__augmented__classifier__w5__medium",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w5__medium.cbm",
+    "model_sha256": "7f623d8d6104b0ab74613953734af06314a77b983961b4c0ad0b2b1133dbc901",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7991588573202658,
+    "weight": 5
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.4076050829607993,
+    "id": "old__augmented__classifier__w5__deeper",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w5__deeper.cbm",
+    "model_sha256": "49768cda4218df8acd6348d232fdb364977e4bf29810a6e7bb5c5e59b1c26afc",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7482054513396181,
+    "weight": 5
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.3966755410656333,
+    "id": "old__augmented__classifier__w8__baseline",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w8__baseline.cbm",
+    "model_sha256": "6b8fd05027b3b10877e1fc983a393dc3ca017b92241b06a917212d389b870c1b",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.7416961686942383,
+    "weight": 8
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.1579111670143902,
+    "id": "old__augmented__classifier__w8__medium",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w8__medium.cbm",
+    "model_sha256": "fb8d12f3dead80a51bb0cace907f335c3dcb4e9afafe0a77347c40003ad4a8c3",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.858375399325142,
+    "weight": 8
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.299678332870826,
+    "id": "old__augmented__classifier__w8__deeper",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w8__deeper.cbm",
+    "model_sha256": "bf7ccd826691cd3371336865210fcdfce24e79a87610c1a56179cd1e15b01e23",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.8222389878629416,
+    "weight": 8
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.38285387493669987,
+    "id": "old__augmented__classifier__w12__baseline",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w12__baseline.cbm",
+    "model_sha256": "14b3b118df529e31effae7a9e2fa7c863944e15ad84cf74714cfd2dde93939a1",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.8130974275754173,
+    "weight": 12
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.1490000830963254,
+    "id": "old__augmented__classifier__w12__medium",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w12__medium.cbm",
+    "model_sha256": "528d9338c1fb140753f874a2439e4d3b9545499aedac79a57c695e530eb25ac8",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.8103712376218097,
+    "weight": 12
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.3043144999537617,
+    "id": "old__augmented__classifier__w12__deeper",
+    "kind": "classifier",
+    "model": "models/old__augmented__classifier__w12__deeper.cbm",
+    "model_sha256": "402804131617b8fd352f6aaeb3d40997d9e00a78999edd47557dd50252e4b3ba",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 0.8408021435935793,
+    "weight": 12
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.3574427079875022,
+    "id": "old__augmented__raw__w1__baseline",
+    "kind": "raw",
+    "model": "models/old__augmented__raw__w1__baseline.cbm",
+    "model_sha256": "e409e40b3c3bcc554d2d4bfbd0e0041d330b8de80f719cacc0c24f55ca50dd50",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 276.91658313797274,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.1092976660002023,
+    "id": "old__augmented__raw__w1__medium",
+    "kind": "raw",
+    "model": "models/old__augmented__raw__w1__medium.cbm",
+    "model_sha256": "2d73a2b70d7c67c052bd37972365ae72e5e54752b97e96ea9d1818b712684adf",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 251.31130648043964,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.3229343339335173,
+    "id": "old__augmented__raw__w1__deeper",
+    "kind": "raw",
+    "model": "models/old__augmented__raw__w1__deeper.cbm",
+    "model_sha256": "ec7ea07b4edec428f3e7084de099916597a47a80b2d7034bbed21adfec052227",
+    "scale": 1.0,
+    "scenario": "old",
+    "threshold": 274.2217202810341,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.36018604109995067,
+    "id": "old__augmented__asinh__w1__baseline",
+    "kind": "asinh",
+    "model": "models/old__augmented__asinh__w1__baseline.cbm",
+    "model_sha256": "f5c6a8c0497fc2b4fd50a0d9be34eaf4807fcd05a08509b77d4a0babae24fcac",
+    "scale": 0.0070948029455421,
+    "scenario": "old",
+    "threshold": 0.25625507902149686,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 3,
+      "iterations": 240,
+      "l2_leaf_reg": 10,
+      "name": "medium"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 1.129977999953553,
+    "id": "old__augmented__asinh__w1__medium",
+    "kind": "asinh",
+    "model": "models/old__augmented__asinh__w1__medium.cbm",
+    "model_sha256": "90743ef0f67676f9e495e7219539a9c667fcfddf2db973cda9ee3a2395da2d32",
+    "scale": 0.0070948029455421,
+    "scenario": "old",
+    "threshold": 0.6386769900645906,
+    "weight": 1
+  },
+  {
+    "config": {
+      "depth": 4,
+      "iterations": 300,
+      "l2_leaf_reg": 20,
+      "name": "deeper"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 2.220945999957621,
+    "id": "old__augmented__asinh__w1__deeper",
+    "kind": "asinh",
+    "model": "models/old__augmented__asinh__w1__deeper.cbm",
+    "model_sha256": "11ba78086c9a5bc94e6d5578827996b4279ba097349705a0a28514a080662d1d",
+    "scale": 0.0070948029455421,
+    "scenario": "old",
+    "threshold": 0.24729590678178767,
+    "weight": 1
+  }
+]

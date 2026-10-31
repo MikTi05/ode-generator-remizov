@@ -1,0 +1,39 @@
+{
+  "all_reports_links_exist": true,
+  "analysis_revised_after_sampling": true,
+  "changed_or_removed": [],
+  "current_source_sha256": {
+    "diagnostics/mc_convergence.py": "78df3e54daa730e3697fb9e3aa21e12fb1cdcfb5b4ae3100c83ec6bb96f36a52",
+    "diagnostics/report_mc_convergence.py": "37b7190c407466a058c0c8babce3736324691e47a9b87faec1861c98d26b069d",
+    "tests/test_mc_convergence_protocol.py": "a66f3fb525b5ec5016ca12d20f8570c2db35a54e8768ab1fcd375bc0e68c43e0"
+  },
+  "figures": [
+    "figures/M_convergence.pdf",
+    "figures/M_convergence.png",
+    "figures/T_convergence.pdf",
+    "figures/T_convergence.png",
+    "figures/analytic_error_components.pdf",
+    "figures/analytic_error_components.png",
+    "figures/h_convergence.pdf",
+    "figures/h_convergence.png",
+    "figures/tail_cost.pdf",
+    "figures/tail_cost.png"
+  ],
+  "final_source_snapshots_match": {
+    "diagnostics/mc_convergence.py": true,
+    "diagnostics/report_mc_convergence.py": true,
+    "tests/test_mc_convergence_protocol.py": true
+  },
+  "mathematical_core": {
+    "remizov_solver.py": true,
+    "src/all_methods_dataset_v1.py": true,
+    "src/all_methods_expressions.py": true
+  },
+  "plan_sha256": "a5cc5002ee7528c77fc270c36cca37ed9b624f19b337b041898490c516210cf8",
+  "project_status_after_sha256": "2060bea6da12ce9ff6bc8275d2c3153cbe8dc7b1c936551fb67e35795119b697",
+  "project_status_before_sha256": "bc16f13f013385a4980d3c958a314d9d3b1f9988ada2b1e67f372132a91f8c0e",
+  "protected_files": 4498,
+  "raw_result_count": 295,
+  "revision_note": "Added Holm adjustment, pilot planning from long-T variance, independent M variance comparisons, and explanatory text after sampling; no further solver calls/config changes.",
+  "runner_matches_frozen_source": true
+}

@@ -1,0 +1,73 @@
+{
+  "baseline_R256_only21_possible_disagreement_families": true,
+  "first20_only5_R128_switches": true,
+  "no_MC_selected_on_this_frame": true,
+  "no_power_or_population_reliability_claim": true,
+  "paired_binomial_best_case": [
+    {
+      "best_two_sided_p": 0.0625,
+      "discordances": 5
+    },
+    {
+      "best_two_sided_p": 0.03125,
+      "discordances": 6
+    },
+    {
+      "best_two_sided_p": 0.015625,
+      "discordances": 7
+    },
+    {
+      "best_two_sided_p": 0.0078125,
+      "discordances": 8
+    }
+  ],
+  "rare_MC_event_scenarios": [
+    {
+      "hypothetical_family_event_rate": 0.01,
+      "no_events20": 0.8179069375972308,
+      "no_events60": 0.5471566423907612
+    },
+    {
+      "hypothetical_family_event_rate": 0.05,
+      "no_events20": 0.3584859224085419,
+      "no_events60": 0.046069798986951946
+    },
+    {
+      "hypothetical_family_event_rate": 0.1,
+      "no_events20": 0.12157665459056935,
+      "no_events60": 0.001797010299914434
+    }
+  ],
+  "reference_intervals": [
+    {
+      "approximate_accuracy_halfwidth_at_p825": 0.16652486559635526,
+      "assumptions": "binomial/iid reference and normal planning approximation only; not a certificate for stratified families or sequential stopping",
+      "families": 20,
+      "zero_loss_3looks_2comparisons_upper": 0.21288001787901756,
+      "zero_loss_one_sided95_upper": 0.13910834066826516,
+      "zero_loss_two_comparison_Bonferroni_upper": 0.16843347098308536
+    },
+    {
+      "approximate_accuracy_halfwidth_at_p825": 0.11775086169936122,
+      "assumptions": "binomial/iid reference and normal planning approximation only; not a certificate for stratified families or sequential stopping",
+      "families": 40,
+      "zero_loss_3looks_2comparisons_upper": 0.11280217419056848,
+      "zero_loss_one_sided95_upper": 0.0721575245055146,
+      "zero_loss_two_comparison_Bonferroni_upper": 0.08809730287880235
+    },
+    {
+      "approximate_accuracy_halfwidth_at_p825": 0.09614317597882197,
+      "assumptions": "binomial/iid reference and normal planning approximation only; not a certificate for stratified families or sequential stopping",
+      "families": 60,
+      "zero_loss_3looks_2comparisons_upper": 0.07669119060754304,
+      "zero_loss_one_sided95_upper": 0.04870291331009746,
+      "zero_loss_two_comparison_Bonferroni_upper": 0.059629492286166874
+    }
+  ],
+  "zero_loss_sample_size": {
+    "caveat": "best-case zero-loss illustration, not power calculation, and relative loss is different from absolute accuracy",
+    "three_looks_two_baselines": 94,
+    "two_baselines": 72,
+    "zero_losses_needed_for5percent_one_endpoint": 59
+  }
+}

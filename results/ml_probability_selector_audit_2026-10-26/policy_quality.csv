@@ -1,0 +1,7 @@
+policy,abstention_rate,abstentions,accurate_deliveries,conditional_accuracy,delivery_accuracy,denominator_scope,known_selected_cost_cases,missing_selected_cost_cases,requests,seconds_per_accurate_delivery,selected,violations,warm_cost
+constant_R256,0.0,0,7.0,0.875,0.875,"R deterministic primary; MC seed-averaged empirical deliveries; no imputed costs, no free failure or abstention",8,0,8,27.875270038857142,8,1.0,195.126890272
+constant_R128,0.0,0,6.0,0.75,0.75,"R deterministic primary; MC seed-averaged empirical deliveries; no imputed costs, no free failure or abstention",8,0,8,16.31390783675,8,2.0,97.88344702050001
+point q=.5/.8,0.125,1,6.0,0.8571428571428571,0.75,"R deterministic primary; MC seed-averaged empirical deliveries; no imputed costs, no free failure or abstention",7,0,8,14.073253531166666,7,1.0,84.439521187
+point q=.95,0.125,1,6.0,0.8571428571428571,0.75,"R deterministic primary; MC seed-averaged empirical deliveries; no imputed costs, no free failure or abstention",7,0,8,19.98730659716667,7,1.0,119.923839583
+model_spread q=.95,1.0,8,0.0,,0.0,"R deterministic primary; MC seed-averaged empirical deliveries; no imputed costs, no free failure or abstention",0,0,8,,0,0.0,0.089569666
+production_guard,1.0,8,0.0,,0.0,"R deterministic primary; MC seed-averaged empirical deliveries; no imputed costs, no free failure or abstention",0,0,8,,0,0.0,0.089569666

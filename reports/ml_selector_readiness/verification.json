@@ -1,0 +1,57 @@
+{
+  "added_project_files": [
+    "diagnostics/audit_ml_selector_readiness.py",
+    "reports/ml_selector_readiness/"
+  ],
+  "all_other_original_files_unchanged": true,
+  "artifact_sha256": {
+    "AUDIT_REPORT.md": "4aef2cd24e5a8087cb4e03a376c7fd6305174e43909a1791467d967f7dadedde",
+    "PROJECT_STATUS.before.md": "99127ed6afe3e396b9a028e3c3cecb81e0ae750dac14cd9cb6b8b8b4e3368123",
+    "artifact_inventory.json": "937753f18f866dd314cf43ae0ea88c1d79ed4b8f19351712d294d637066eb8bb",
+    "audit_by_equation.csv": "6f0199048d3aa6837a204fabc5d61b3a9855aecfea1b63baba918f322596a754",
+    "audit_summary.json": "172cb0640e721987ff450f4a12eb4c8a685534e85e347cd037e4814053ba29ae",
+    "expression_tests.txt": "24779fa0cdd872a95fe3f11dd2942f568799e785f5519060435f59414f64ac80",
+    "input_sha256.json": "1bfe7e874b013ba92db95673a4ca823afea272033a52e3e58a9d4d205c20c025",
+    "ml_checks.json": "a8bb6a17c3a47d961c1cdbf88dfa326cc4b8010cd9f6dd30ab969e237e52c201",
+    "project_before_sha256.json": "2f2fe8efaa7827e689986aadab2bc629521972191470e3b8ca663405e6cd35f5",
+    "run_evidence.csv": "7d0e286d1b8dd1f07e3b86d39bc6771044df7f2949ba03f017d69671a919749b",
+    "special_equations.csv": "eb5d649ec8c34e053e04ca916de86252c7091134019a8bfdf0c947594c216608",
+    "tests.txt": "27fd15e573ad18f64431a8fb8a42669338dc4398cc4b58a2c2c38ba5b1e36bf1"
+  },
+  "changed": [
+    "PROJECT_STATUS.md"
+  ],
+  "common_grid33_pairs": 100,
+  "csv_rows": 1000,
+  "csv_unique_ids": 1000,
+  "date": "2026-10-25",
+  "deleted_or_missing": [],
+  "input_files_rehashed": 7879,
+  "input_hashes_match": true,
+  "main_csv_semantics": "historical Remizov fields; MC grid33 primary or missing; pair_remizov fields identify comparable joint Remizov",
+  "mc_missing_grid33_errors": 900,
+  "network_calls": 0,
+  "new_mc_paths": 0,
+  "new_model_fits": 0,
+  "new_solver_calls": 0,
+  "original_status_sha256": "99127ed6afe3e396b9a028e3c3cecb81e0ae750dac14cd9cb6b8b8b4e3368123",
+  "protected_paths": 17237,
+  "remizov_missing_errors": 3,
+  "reproducible_outputs_byte_identical": [
+    "audit_by_equation.csv",
+    "audit_summary.json",
+    "run_evidence.csv",
+    "input_sha256.json",
+    "special_equations.csv",
+    "ml_checks.json",
+    "artifact_inventory.json"
+  ],
+  "test_results": {
+    "expressions": "17 passed, 56 subtests passed in 0.82s",
+    "ml_protocol_serving": "33 passed in 2.11s",
+    "warnings": [
+      "Pre-existing invalid escape sequence \\i in src/all_methods_expressions.py"
+    ]
+  },
+  "updated_status_sha256": "db97ae60e83bc6df8db48336e5ebfd3dfc81c7c74e7edb73899444739a0776bb"
+}

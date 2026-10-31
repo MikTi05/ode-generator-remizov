@@ -1,0 +1,35 @@
+{
+  "before_files": 22458,
+  "changed_existing_files": [
+    "PROJECT_STATUS.md",
+    "README.md"
+  ],
+  "changed_existing_files_backed_up": true,
+  "fit_count": 1,
+  "generator_changed": false,
+  "legacy_ml_tests": {
+    "passed": 72,
+    "warning": "pre-existing AST invalid escape sequence"
+  },
+  "missing_files": [],
+  "new_source_files": [
+    "ml/accuracy_selector.py",
+    "ml/accuracy_evidence.py",
+    "ml/accuracy_grid_evidence.py",
+    "diagnostics/train_accuracy_selector.py",
+    "diagnostics/predict_accuracy_selector.py",
+    "diagnostics/verify_accuracy_selector.py",
+    "tests/test_accuracy_selector.py",
+    "tests/test_accuracy_grid_evidence.py"
+  ],
+  "new_tests": {
+    "log": "pytest_new.txt",
+    "passed": 19
+  },
+  "numerical_calls": 0,
+  "numerical_core_changed": false,
+  "old_data_and_results_changed": false,
+  "run_artifact_hashes_checked": 32,
+  "status": "passed",
+  "unchanged_files": 22456
+}

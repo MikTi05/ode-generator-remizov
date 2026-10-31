@@ -1,0 +1,30 @@
+{
+  "inputs_sha256": {
+    "all_methods_equations_v1.csv": "ba498e3ee7432fa983a07d994b55b6e359c41fcb5353f20ab6c368b7bb76cd8b",
+    "all_methods_equations_v1_metadata.jsonl": "cef44a1950345a72cc36e7b023ad6e147c16527d3d12501c5be66f5e1afb5e16"
+  },
+  "monte_carlo_path_steps": 0,
+  "monte_carlo_trajectories": 0,
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "source_sha256": {
+    "all_methods_bounds.py": "a7a99776c8fa8faf48bc25f11f8884824aab989b646044c43a47455daff18d41",
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "diagnostics/certify_forcing_bounds.py": "024276facb2d4a51ac16378d294d3952b7411aa12c82d1718333be715c338fe0",
+    "mc_solver.py": "570eb70c6d9317bffdb6efb806c7b25b76bf654f17559ff6b85e8eac494a9936",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "thread_environment": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "pytest": "9.1.1",
+    "scipy": "1.15.3",
+    "sympy": "1.14.0"
+  }
+}

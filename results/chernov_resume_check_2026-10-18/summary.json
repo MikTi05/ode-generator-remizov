@@ -1,0 +1,155 @@
+{
+  "pilot_pass": true,
+  "saved_files_only": true,
+  "baseline_file_count": 3114,
+  "baseline_changed_files": [
+    "PROJECT_STATUS.md",
+    "docs/CHERNOV_BATCH_EXECUTION.md",
+    "results/chernov_solve1000_2026-10-18/progress.json"
+  ],
+  "baseline_missing_files": [],
+  "old_694_unchanged": true,
+  "selected_ids": [
+    "AMV1_F0138_S01",
+    "AMV1_F0138_S02",
+    "AMV1_F0138_S03"
+  ],
+  "results": [
+    {
+      "problem_id": "AMV1_F0138_S01",
+      "complexity_level": "L3",
+      "regime": "oscillatory",
+      "max_abs_error": 0.0034151436640138533,
+      "relative_error": 0.0034541509740610705,
+      "solver_seconds": 13.916108749923296,
+      "task_wall_seconds": 13.916529957903549,
+      "T": 24.662914670016878,
+      "actual_dx": 0.0125,
+      "process_peak_rss_mib": 172.90625,
+      "operator_applications": 65536,
+      "spline_builds": 65537,
+      "work_grid_points": 2081,
+      "accuracy_reached": true,
+      "status": "accuracy_pass"
+    },
+    {
+      "problem_id": "AMV1_F0138_S02",
+      "complexity_level": "L3",
+      "regime": "oscillatory",
+      "max_abs_error": 0.002640641555774259,
+      "relative_error": 0.0018930629324173656,
+      "solver_seconds": 14.58263420802541,
+      "task_wall_seconds": 14.583003832958639,
+      "T": 14.360566679079142,
+      "actual_dx": 0.0125,
+      "process_peak_rss_mib": 173.40625,
+      "operator_applications": 65536,
+      "spline_builds": 65537,
+      "work_grid_points": 2081,
+      "accuracy_reached": true,
+      "status": "accuracy_pass"
+    },
+    {
+      "problem_id": "AMV1_F0138_S03",
+      "complexity_level": "L3",
+      "regime": "oscillatory",
+      "max_abs_error": 0.003452362627780592,
+      "relative_error": 0.0026563210443508547,
+      "solver_seconds": 14.764998541097157,
+      "task_wall_seconds": 14.765455208020285,
+      "T": 18.111509202184543,
+      "actual_dx": 0.0125,
+      "process_peak_rss_mib": 173.4375,
+      "operator_applications": 65536,
+      "spline_builds": 65537,
+      "work_grid_points": 2081,
+      "accuracy_reached": true,
+      "status": "accuracy_pass"
+    }
+  ],
+  "attempts": [
+    {
+      "problem_id": "AMV1_F0138_S01",
+      "attempt_id": "2026-10-18T123906767997+0000_041442_AMV1_F0138_S01",
+      "status": "completed",
+      "interrupted": null
+    },
+    {
+      "problem_id": "AMV1_F0138_S02",
+      "attempt_id": "2026-10-18T123906767997+0000_041442_AMV1_F0138_S02",
+      "status": "interrupted",
+      "interrupted": {
+        "elapsed": 4.833362416946329,
+        "guardian_reason": "stop_requested",
+        "status": "interrupted",
+        "utc": "2026-10-18T12:39:29.401354+00:00"
+      }
+    },
+    {
+      "problem_id": "AMV1_F0138_S02",
+      "attempt_id": "2026-10-18T124049618259+0000_1a82ee_AMV1_F0138_S02",
+      "status": "completed",
+      "interrupted": null
+    },
+    {
+      "problem_id": "AMV1_F0138_S03",
+      "attempt_id": "2026-10-18T124049618259+0000_1a82ee_AMV1_F0138_S03",
+      "status": "completed",
+      "interrupted": null
+    }
+  ],
+  "telemetry": {
+    "stop_check": {
+      "samples": 12,
+      "max_compute_workers": 1,
+      "max_cpu_percent": 100.0,
+      "max_sample_rss_mib": 173.078125,
+      "thermal_states": [
+        0
+      ],
+      "temperature_celsius": null,
+      "wall_seconds": 22.94061303138733,
+      "automatic_lease_renewals": 0,
+      "cleanup_confirmed": true
+    },
+    "resume_two": {
+      "samples": 18,
+      "max_compute_workers": 1,
+      "max_cpu_percent": 100.1,
+      "max_sample_rss_mib": 173.4375,
+      "thermal_states": [
+        0
+      ],
+      "temperature_celsius": null,
+      "wall_seconds": 35.19568920135498,
+      "automatic_lease_renewals": 0,
+      "cleanup_confirmed": true
+    }
+  },
+  "cooldown_observed_seconds": 79.9271309375763,
+  "terminal_records": 697,
+  "finite_results": 694,
+  "pending": 303,
+  "outcomes": {
+    "accuracy_pass": 632,
+    "accuracy_not_met": 62,
+    "worker_exception": 3
+  },
+  "unchanged_worker_exceptions": [
+    "AMV1_F0134_S03",
+    "AMV1_F0136_S01",
+    "AMV1_F0139_S00"
+  ],
+  "owner_lease_seconds": 120,
+  "automatic_lease_renewals": 0,
+  "full_remaining_series_started": false,
+  "thermal_mode_user_accepted": "macOS thermalState + operator observation; no Celsius",
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_chernov_monitored_batch.py",
+    "returncode": 0,
+    "passed": 13,
+    "pytest_seconds": 0.05,
+    "numerical_solver_calls": 0
+  },
+  "report_source_sha256": "65d5bb6673bba67b647ade64a57201a2294e5657b0331dc71b923b9428215421"
+}

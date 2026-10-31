@@ -1,0 +1,30 @@
+{
+  "caveats": [
+    "F0002 throughput is a scenario only; L2-L4 AST costs and other x are unmeasured",
+    "Chernov timings use historical taper and different T; zero/common T timings unknown",
+    "Timeouts/early resource stops reduce completed work; partial work still consumes budget",
+    "Point and grid profiles differ in M and repeat count; accuracy labels do not transfer"
+  ],
+  "forecast_is_not_measurement_or_bound": true,
+  "grid20_max_attempts": 140,
+  "grid20_mc_proxy_seconds": 3936.02341898947,
+  "grid20_mc_updates_4seeds": 8508014592,
+  "grid20_remizov_legacy_time_proxy_seconds": 929.6531322577503,
+  "grid6_max_attempts": 42,
+  "grid6_mc_proxy_seconds": 1581.813173722001,
+  "grid6_mc_updates_4seeds": 3419209728,
+  "grid6_remizov_legacy_time_proxy_seconds": 276.28553650248796,
+  "mc_anchor": {
+    "M": 1024,
+    "T": 63.625,
+    "chunk": 1024,
+    "h": 0.0078125,
+    "problem": "AMV1_F0002_S00",
+    "seconds": 3.85804393759463,
+    "seconds_per_update": 4.626253723977475e-07
+  },
+  "point20_max_attempts": 220,
+  "point20_mc_proxy_seconds": 477.09374775629936,
+  "point20_mc_updates_8seeds": 1031274496,
+  "point20_remizov_legacy_time_proxy_seconds": 929.6531322577503
+}

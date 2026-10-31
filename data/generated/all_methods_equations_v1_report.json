@@ -1,0 +1,206 @@
+{
+  "certified_ranges": {
+    "a_lower_cert": {
+      "max": 1.4258715695274384,
+      "min": 0.5832585445631672
+    },
+    "a_upper_cert": {
+      "max": 2.869992068816187,
+      "min": 1.4908256998219425
+    },
+    "b_abs_cert": {
+      "max": 3.7271517005646952,
+      "min": 0.21681231180275426
+    },
+    "remizov_c_abs_cert": {
+      "max": 3.909698979205136,
+      "min": 0.3344717292569471
+    },
+    "remizov_gap_cert": {
+      "max": 1.6032897178759817,
+      "min": 0.23273779064513023
+    },
+    "remizov_lambda": {
+      "max": 4.887038391364096,
+      "min": 0.9918250266802049
+    }
+  },
+  "channel_order": [
+    "a",
+    "b",
+    "c",
+    "g"
+  ],
+  "coefficient_sampled_ranges": {
+    "a": {
+      "max": 2.728327890692791,
+      "min": 0.741897905851755
+    },
+    "b": {
+      "max": 0.9681803956925724,
+      "min": -2.498294985190343
+    },
+    "c": {
+      "max": -0.4343305062256113,
+      "min": -5.7613697751630335
+    },
+    "c_r": {
+      "max": 2.270500834312269,
+      "min": -1.6516762026860423
+    },
+    "g": {
+      "max": 100.78153469759515,
+      "min": -98.06241469955808
+    }
+  },
+  "configuration": {
+    "a_min": 0.001,
+    "max_abs_safety": 1000000.0,
+    "max_attempts": 100,
+    "ml_grid_size": 32,
+    "n_families": 20,
+    "residual_rtol": 1e-10,
+    "samples_per_family": 1,
+    "seed": 2488,
+    "validation_grid_size": 257,
+    "x0": -1.0,
+    "x1": 1.0
+  },
+  "counts_by_complexity": {
+    "L1": 5,
+    "L2": 5,
+    "L3": 5,
+    "L4": 5
+  },
+  "counts_by_complexity_regime": {
+    "L1|constant": 1,
+    "L1|high_contrast": 1,
+    "L1|moderate_varying": 1,
+    "L1|oscillatory": 1,
+    "L1|slow_varying": 1,
+    "L2|constant": 1,
+    "L2|high_contrast": 1,
+    "L2|moderate_varying": 1,
+    "L2|oscillatory": 1,
+    "L2|slow_varying": 1,
+    "L3|constant": 1,
+    "L3|high_contrast": 1,
+    "L3|moderate_varying": 1,
+    "L3|oscillatory": 1,
+    "L3|slow_varying": 1,
+    "L4|constant": 1,
+    "L4|high_contrast": 1,
+    "L4|moderate_varying": 1,
+    "L4|oscillatory": 1,
+    "L4|slow_varying": 1
+  },
+  "counts_by_regime": {
+    "constant": 4,
+    "high_contrast": 4,
+    "moderate_varying": 4,
+    "oscillatory": 4,
+    "slow_varying": 4
+  },
+  "counts_by_split": {
+    "test": 10,
+    "train": 0,
+    "validation": 10
+  },
+  "exact_feature_duplicates": 0,
+  "exact_symbolic_duplicates": 0,
+  "family_split_leakage": false,
+  "generation_version": "all_methods_v1",
+  "global_max_residual": 0.0,
+  "master_seed": 2488,
+  "max_generation_attempts": 1,
+  "max_ml_tensor_absolute_value": 91.27545001818258,
+  "metadata_schema_version": "all_methods_metadata_v1",
+  "npz_dtypes": {
+    "X": "float64",
+    "channel_order": "<U1",
+    "complexity_level": "<U2",
+    "dy_exact": "float64",
+    "equation_id": "<U14",
+    "family_id": "<U5",
+    "regime": "<U16",
+    "split": "<U10",
+    "v0": "float64",
+    "x_grid": "float64",
+    "y0": "float64",
+    "y_exact": "float64"
+  },
+  "npz_shapes": {
+    "X": [
+      20,
+      4,
+      32
+    ],
+    "channel_order": [
+      4
+    ],
+    "complexity_level": [
+      20
+    ],
+    "dy_exact": [
+      20,
+      32
+    ],
+    "equation_id": [
+      20
+    ],
+    "family_id": [
+      20
+    ],
+    "regime": [
+      20
+    ],
+    "split": [
+      20
+    ],
+    "v0": [
+      20
+    ],
+    "x_grid": [
+      32
+    ],
+    "y0": [
+      20
+    ],
+    "y_exact": [
+      20,
+      32
+    ]
+  },
+  "output_sha256": {
+    "all_methods_equations_v1.csv": "ba498e3ee7432fa983a07d994b55b6e359c41fcb5353f20ab6c368b7bb76cd8b",
+    "all_methods_equations_v1_metadata.jsonl": "cef44a1950345a72cc36e7b023ad6e147c16527d3d12501c5be66f5e1afb5e16",
+    "all_methods_equations_v1_ml.npz": "1ce7d9e930138af7743bde726ba1cb68a2ef422dec406f8b901a16da10277d5a"
+  },
+  "rejection_counts": {},
+  "samples_per_family": 1,
+  "structure_signature_count": 20,
+  "total_equations": 20,
+  "total_families": 20,
+  "total_rejections": 0,
+  "v0_distribution": {
+    "count": 20,
+    "max": 2.199233535199769,
+    "mean": 0.402807103397676,
+    "median": 0.5918340034230756,
+    "min": -1.5897916252285635,
+    "q05": -1.1690087903720021,
+    "q95": 1.6563652444853512,
+    "std": 0.9343612231377691
+  },
+  "worst_residual_equation_id": "AMV1_F0000_S00",
+  "y0_distribution": {
+    "count": 20,
+    "max": 1.251992459543817,
+    "mean": 0.0976089971877018,
+    "median": -0.010097199744272447,
+    "min": -1.1598614538810668,
+    "q05": -0.8818186322679491,
+    "q95": 1.2205715714660992,
+    "std": 0.6491875441401888
+  }
+}

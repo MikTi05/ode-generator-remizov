@@ -1,0 +1,24 @@
+{
+  "config": {
+    "dx_initial": 0.05,
+    "max_quadrature_refinements": 8,
+    "max_spatial_refinements": 5,
+    "max_work_grid_points": 100000,
+    "n": 4,
+    "nt_initial": 8,
+    "quadrature_atol": 1e-09,
+    "quadrature_rtol": 1e-07,
+    "spatial_atol": 1e-09,
+    "spatial_rtol": 1e-07,
+    "tail_eps": 1e-08
+  },
+  "equation_id": "AMV1_F0000_S00",
+  "failure_reason": "external_time_limit",
+  "max_abs_error": null,
+  "n": 4,
+  "runtime_seconds": null,
+  "solver_result": null,
+  "status": "external_time_limit",
+  "worker_peak_rss_mib": 243.46875,
+  "worker_wall_seconds": 45.262741292011924
+}

@@ -1,0 +1,1 @@
+{"command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_nested_probability_calibration.py tests/test_nested_calibration_artifacts.py", "duration_seconds": 0.16, "failed": 0, "passed": 16, "scope": "pure math/unit and saved-artifact checks; no solver calls and no additional training by tests", "stdout": "16 passed in 0.16s"}

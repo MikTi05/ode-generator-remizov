@@ -1,0 +1,19 @@
+{
+  "pytest_command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_selector_hypotheses.py tests/test_selector_research_features.py tests/test_selector_hypotheses_verification.py tests/test_mean_mc_selector.py tests/test_accuracy_selector.py",
+  "pytest_exit_code": 0,
+  "passed": 46,
+  "elapsed_seconds": 7.17,
+  "warnings": [
+    "pre-existing invalid escape sequence in src/all_methods_expressions.py"
+  ],
+  "record": "recorded from completed tool output; suite not repeated during packaging",
+  "new_source_AST_parse": "passed for 9 files",
+  "preservation": {
+    "checked_files": 5931,
+    "changed_files": []
+  },
+  "independent_verification": "independent_verification.json",
+  "numerical_calls": 0,
+  "main_and_cv_fit_count": 256,
+  "separate_baseline_audit_fit_count": 1
+}

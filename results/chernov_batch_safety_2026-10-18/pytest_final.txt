@@ -1,0 +1,61 @@
+......................F......                                            [100%]
+=================================== FAILURES ===================================
+___________ test_run_locks_remain_held_until_orphan_cleanup_finishes ___________
+
+out = PosixPath('/private/var/folders/wv/6ln8y2fx6y9cr0vr1m_vm0h40000gn/T/pytest-of-mikti/pytest-10/test_run_locks_remain_held_unt0/run0')
+global_path = PosixPath('/private/var/folders/wv/6ln8y2fx6y9cr0vr1m_vm0h40000gn/T/pytest-of-mikti/pytest-10/test_run_locks_remain_held_unt0/run0/global.controller.lock')
+
+    @contextmanager
+    def controller_locks(out, global_path=None):
+        """Hold both locks through guardian cleanup; pass these FDs to guardian."""
+        handles=[]
+        try:
+            for path in (global_path or ROOT/'results/.chernov_batch_controller.lock',out/'batch.lock'):
+                path.parent.mkdir(parents=True,exist_ok=True)
+                f=path.open('a');handles.append(f)
+                try:
+>                   fcntl.flock(f,fcntl.LOCK_EX|fcntl.LOCK_NB)
+E                   BlockingIOError: [Errno 35] Resource temporarily unavailable
+
+diagnostics/chernov_batch_control.py:53: BlockingIOError
+
+The above exception was the direct cause of the following exception:
+
+sleeping_controller = <function sleeping_controller.<locals>.launch at 0x103470f70>
+
+    def test_run_locks_remain_held_until_orphan_cleanup_finishes(sleeping_controller):
+        p,out,pids=sleeping_controller()
+        p.kill();p.wait()
+        with pytest.raises(RuntimeError,match='running or cleaning'):
+            with controller_locks(out,out/'global.controller.lock'):pass
+        assert_clean(out,pids)
+        wait_until(lambda:not alive(pids['pid']))
+>       with controller_locks(out,out/'global.controller.lock'):pass
+
+tests/test_chernov_batch_control.py:146: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py:135: in __enter__
+    return next(self.gen)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+out = PosixPath('/private/var/folders/wv/6ln8y2fx6y9cr0vr1m_vm0h40000gn/T/pytest-of-mikti/pytest-10/test_run_locks_remain_held_unt0/run0')
+global_path = PosixPath('/private/var/folders/wv/6ln8y2fx6y9cr0vr1m_vm0h40000gn/T/pytest-of-mikti/pytest-10/test_run_locks_remain_held_unt0/run0/global.controller.lock')
+
+    @contextmanager
+    def controller_locks(out, global_path=None):
+        """Hold both locks through guardian cleanup; pass these FDs to guardian."""
+        handles=[]
+        try:
+            for path in (global_path or ROOT/'results/.chernov_batch_controller.lock',out/'batch.lock'):
+                path.parent.mkdir(parents=True,exist_ok=True)
+                f=path.open('a');handles.append(f)
+                try:
+                    fcntl.flock(f,fcntl.LOCK_EX|fcntl.LOCK_NB)
+                except BlockingIOError as exc:
+>                   raise RuntimeError(f'batch already running or cleaning up: {path}') from exc
+E                   RuntimeError: batch already running or cleaning up: /private/var/folders/wv/6ln8y2fx6y9cr0vr1m_vm0h40000gn/T/pytest-of-mikti/pytest-10/test_run_locks_remain_held_unt0/run0/global.controller.lock
+
+diagnostics/chernov_batch_control.py:55: RuntimeError
+=========================== short test summary info ============================
+FAILED tests/test_chernov_batch_control.py::test_run_locks_remain_held_until_orphan_cleanup_finishes
+1 failed, 28 passed in 12.45s

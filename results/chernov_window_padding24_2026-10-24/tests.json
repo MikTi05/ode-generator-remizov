@@ -1,0 +1,10 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_chernov_window_padding24.py",
+  "passed": 3,
+  "returncode": 0,
+  "seconds": 0.27,
+  "initial_test_assumption_corrected": "Initial expectation of cubic/zero contraction for constant forcing was false. An independent explicitly constructed two-step boundary profile confirms spline overshoot. No production code or experimental parameter changed.",
+  "warnings": [
+    "Existing invalid escape sequence in AST module docstring"
+  ]
+}

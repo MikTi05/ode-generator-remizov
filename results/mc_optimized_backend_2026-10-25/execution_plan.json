@@ -1,0 +1,69 @@
+{
+  "analytical_seed": 2026102511,
+  "block_steps": 64,
+  "estimated_seconds_before_run": [
+    120,
+    360
+  ],
+  "grid_M": 1024,
+  "grid_ids": [
+    "AMV1_F0000_S00",
+    "AMV1_F0002_S00",
+    "AMV1_F0017_S00"
+  ],
+  "grid_repeats": 1,
+  "grid_seed": 2026102520,
+  "maximum_path_updates": 804504576,
+  "note": "Finite work ~1 billion updates, no accuracy tuning; 3 actual grids calibrate point-to-grid extrapolation",
+  "numerical_calls": 50,
+  "owner_lease_seconds": 300.0,
+  "protocol_sha256": "daac9ba027fbeaf610df31962f8c2d789eec317aef0457a1f7ec388fa0baeb42",
+  "replay_M": 64,
+  "replay_seed": 2026102521,
+  "resource_sample_seconds": 0.2,
+  "rss_limit_mib": 768.0,
+  "stop": "first numerical failure/equivalence violation, RSS limit, stale telemetry, owner/controller loss or explicit stop; no retry",
+  "tasks": [
+    {
+      "G": 25.11832190687126,
+      "N": 1088,
+      "T": 8.5,
+      "coefficient_nodes": 3,
+      "problem_id": "AMV1_F0000_S00",
+      "solution_nodes": 3
+    },
+    {
+      "G": 380.99952616975816,
+      "N": 8144,
+      "T": 63.625,
+      "coefficient_nodes": 9,
+      "problem_id": "AMV1_F0002_S00",
+      "solution_nodes": 3
+    },
+    {
+      "G": 5397.570416635269,
+      "N": 2336,
+      "T": 18.25,
+      "coefficient_nodes": 31,
+      "problem_id": "AMV1_F0014_S00",
+      "solution_nodes": 12
+    },
+    {
+      "G": 204.1068591852126,
+      "N": 7904,
+      "T": 61.75,
+      "coefficient_nodes": 53,
+      "problem_id": "AMV1_F0017_S00",
+      "solution_nodes": 14
+    },
+    {
+      "G": 3819.219084779512,
+      "N": 3488,
+      "T": 27.25,
+      "coefficient_nodes": 48,
+      "problem_id": "AMV1_F0018_S00",
+      "solution_nodes": 15
+    }
+  ],
+  "telemetry_stale_seconds": 30.0
+}

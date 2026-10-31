@@ -1,0 +1,1209 @@
+{
+  "comparison_note": "Old decisions reused unchanged; new target errors applied to both policies",
+  "new_policy_under_mean_target": {
+    "test": {
+      "ML": {
+        "accuracy": 0.94,
+        "balanced_accuracy": 0.5,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            141,
+            0
+          ],
+          [
+            9,
+            0
+          ]
+        ],
+        "macro_f1": 0.4845360824742268,
+        "max_regret": 248.21999576573202,
+        "mean_error": 1.6589621134157981,
+        "mean_regret": 1.6550660012423641,
+        "median_error": 0.0011065436233683446,
+        "median_regret": 0.0,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 0,
+          "remizov": 150
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "status": "evaluated",
+        "success_count": 147,
+        "success_rate": 0.98,
+        "true_class_counts": {
+          "monte_carlo": 9,
+          "remizov": 141
+        }
+      },
+      "always_monte_carlo": {
+        "accuracy": 0.06,
+        "balanced_accuracy": 0.5,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            141
+          ],
+          [
+            0,
+            9
+          ]
+        ],
+        "macro_f1": 0.05660377358490566,
+        "max_regret": 0.29387748180279005,
+        "mean_error": 0.017275380416312974,
+        "mean_regret": 0.013379268242879163,
+        "median_error": 0.009979956263934178,
+        "median_regret": 0.008154928090371577,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 1.0,
+          "remizov": 0.0
+        },
+        "selection_counts": {
+          "monte_carlo": 150,
+          "remizov": 0
+        },
+        "selection_fractions": {
+          "monte_carlo": 1.0,
+          "remizov": 0.0
+        },
+        "status": "evaluated",
+        "success_count": 141,
+        "success_rate": 0.94,
+        "true_class_counts": {
+          "monte_carlo": 9,
+          "remizov": 141
+        }
+      },
+      "always_remizov": {
+        "accuracy": 0.94,
+        "balanced_accuracy": 0.5,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            141,
+            0
+          ],
+          [
+            9,
+            0
+          ]
+        ],
+        "macro_f1": 0.4845360824742268,
+        "max_regret": 248.21999576573202,
+        "mean_error": 1.6589621134157981,
+        "mean_regret": 1.6550660012423641,
+        "median_error": 0.0011065436233683446,
+        "median_regret": 0.0,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 0,
+          "remizov": 150
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "status": "evaluated",
+        "success_count": 147,
+        "success_rate": 0.98,
+        "true_class_counts": {
+          "monte_carlo": 9,
+          "remizov": 141
+        }
+      },
+      "oracle": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            141,
+            0
+          ],
+          [
+            0,
+            9
+          ]
+        ],
+        "macro_f1": 1.0,
+        "max_regret": 0.0,
+        "mean_error": 0.00389611217343381,
+        "mean_regret": 0.0,
+        "median_error": 0.0010423995492096216,
+        "median_regret": 0.0,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 1.0,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 9,
+          "remizov": 141
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.06,
+          "remizov": 0.94
+        },
+        "status": "evaluated",
+        "success_count": 147,
+        "success_rate": 0.98,
+        "true_class_counts": {
+          "monte_carlo": 9,
+          "remizov": 141
+        }
+      }
+    },
+    "train": {
+      "ML": {
+        "accuracy": 0.890961262553802,
+        "balanced_accuracy": 0.5730337078651685,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            608,
+            0
+          ],
+          [
+            76,
+            13
+          ]
+        ],
+        "macro_f1": 0.5980392156862745,
+        "max_regret": 842.004180177754,
+        "mean_error": 1.2527353373715386,
+        "mean_regret": 1.2487790325410226,
+        "median_error": 0.0012015722633416104,
+        "median_regret": 0.0,
+        "n": 697,
+        "recall": {
+          "monte_carlo": 0.14606741573033707,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 13,
+          "remizov": 684
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.018651362984218076,
+          "remizov": 0.9813486370157819
+        },
+        "status": "evaluated",
+        "success_count": 690,
+        "success_rate": 0.9899569583931134,
+        "true_class_counts": {
+          "monte_carlo": 89,
+          "remizov": 608
+        }
+      },
+      "always_monte_carlo": {
+        "accuracy": 0.12769010043041606,
+        "balanced_accuracy": 0.5,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            608
+          ],
+          [
+            0,
+            89
+          ]
+        ],
+        "macro_f1": 0.11323155216284987,
+        "max_regret": 0.31431329864384533,
+        "mean_error": 0.01730848204176054,
+        "mean_regret": 0.01335217721124456,
+        "median_error": 0.00866141571000334,
+        "median_regret": 0.006612310609689587,
+        "n": 697,
+        "recall": {
+          "monte_carlo": 1.0,
+          "remizov": 0.0
+        },
+        "selection_counts": {
+          "monte_carlo": 697,
+          "remizov": 0
+        },
+        "selection_fractions": {
+          "monte_carlo": 1.0,
+          "remizov": 0.0
+        },
+        "status": "evaluated",
+        "success_count": 655,
+        "success_rate": 0.93974175035868,
+        "true_class_counts": {
+          "monte_carlo": 89,
+          "remizov": 608
+        }
+      },
+      "always_remizov": {
+        "accuracy": 0.8723098995695839,
+        "balanced_accuracy": 0.5,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            608,
+            0
+          ],
+          [
+            89,
+            0
+          ]
+        ],
+        "macro_f1": 0.46590038314176246,
+        "max_regret": 842.004180177754,
+        "mean_error": 1.253681744048611,
+        "mean_regret": 1.249725439218095,
+        "median_error": 0.0012200476898708845,
+        "median_regret": 0.0,
+        "n": 697,
+        "recall": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 0,
+          "remizov": 697
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "status": "evaluated",
+        "success_count": 689,
+        "success_rate": 0.9885222381635581,
+        "true_class_counts": {
+          "monte_carlo": 89,
+          "remizov": 608
+        }
+      },
+      "oracle": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            608,
+            0
+          ],
+          [
+            0,
+            89
+          ]
+        ],
+        "macro_f1": 1.0,
+        "max_regret": 0.0,
+        "mean_error": 0.003956304830515978,
+        "mean_regret": 0.0,
+        "median_error": 0.0010574074831779523,
+        "median_regret": 0.0,
+        "n": 697,
+        "recall": {
+          "monte_carlo": 1.0,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 89,
+          "remizov": 608
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.12769010043041606,
+          "remizov": 0.8723098995695839
+        },
+        "status": "evaluated",
+        "success_count": 690,
+        "success_rate": 0.9899569583931134,
+        "true_class_counts": {
+          "monte_carlo": 89,
+          "remizov": 608
+        }
+      }
+    },
+    "validation": {
+      "ML": {
+        "accuracy": 0.8533333333333334,
+        "balanced_accuracy": 0.48484848484848486,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            128,
+            4
+          ],
+          [
+            18,
+            0
+          ]
+        ],
+        "macro_f1": 0.460431654676259,
+        "max_regret": 0.4596748485868273,
+        "mean_error": 0.010025404131951285,
+        "mean_regret": 0.005211440596967455,
+        "median_error": 0.0012961413994512921,
+        "median_regret": 0.0,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 0.0,
+          "remizov": 0.9696969696969697
+        },
+        "selection_counts": {
+          "monte_carlo": 4,
+          "remizov": 146
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.02666666666666667,
+          "remizov": 0.9733333333333334
+        },
+        "status": "evaluated",
+        "success_count": 144,
+        "success_rate": 0.96,
+        "true_class_counts": {
+          "monte_carlo": 18,
+          "remizov": 132
+        }
+      },
+      "always_monte_carlo": {
+        "accuracy": 0.12,
+        "balanced_accuracy": 0.5,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            132
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "macro_f1": 0.10714285714285714,
+        "max_regret": 0.4596748485868273,
+        "mean_error": 0.022491942906308432,
+        "mean_regret": 0.017677979371324596,
+        "median_error": 0.0105538195919061,
+        "median_regret": 0.008548703450657613,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 1.0,
+          "remizov": 0.0
+        },
+        "selection_counts": {
+          "monte_carlo": 150,
+          "remizov": 0
+        },
+        "selection_fractions": {
+          "monte_carlo": 1.0,
+          "remizov": 0.0
+        },
+        "status": "evaluated",
+        "success_count": 139,
+        "success_rate": 0.9266666666666666,
+        "true_class_counts": {
+          "monte_carlo": 18,
+          "remizov": 132
+        }
+      },
+      "always_remizov": {
+        "accuracy": 0.88,
+        "balanced_accuracy": 0.5,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            132,
+            0
+          ],
+          [
+            18,
+            0
+          ]
+        ],
+        "macro_f1": 0.46808510638297873,
+        "max_regret": 0.07500080058738723,
+        "mean_error": 0.005824712905232949,
+        "mean_regret": 0.0010107493702491176,
+        "median_error": 0.00126575744033397,
+        "median_regret": 0.0,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 0,
+          "remizov": 150
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "status": "evaluated",
+        "success_count": 146,
+        "success_rate": 0.9733333333333334,
+        "true_class_counts": {
+          "monte_carlo": 18,
+          "remizov": 132
+        }
+      },
+      "oracle": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            132,
+            0
+          ],
+          [
+            0,
+            18
+          ]
+        ],
+        "macro_f1": 1.0,
+        "max_regret": 0.0,
+        "mean_error": 0.004813963534983831,
+        "mean_regret": 0.0,
+        "median_error": 0.0011577414238478356,
+        "median_regret": 0.0,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 1.0,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 18,
+          "remizov": 132
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.12,
+          "remizov": 0.88
+        },
+        "status": "evaluated",
+        "success_count": 146,
+        "success_rate": 0.9733333333333334,
+        "true_class_counts": {
+          "monte_carlo": 18,
+          "remizov": 132
+        }
+      }
+    }
+  },
+  "old_metrics_under_old_target": {
+    "test": {
+      "ML": {
+        "accuracy": 0.9733333333333334,
+        "balanced_accuracy": 0.5,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            146,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "macro_f1": 0.49324324324324326,
+        "max_regret": 248.22356497733293,
+        "mean_error": 1.6589621134157981,
+        "mean_regret": 1.6551065823274311,
+        "median_error": 0.0011065436233683446,
+        "median_regret": 0.0,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 0,
+          "remizov": 150
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "status": "evaluated",
+        "success_count": 147,
+        "success_rate": 0.98,
+        "true_class_counts": {
+          "monte_carlo": 4,
+          "remizov": 146
+        }
+      },
+      "always_monte_carlo": {
+        "accuracy": 0.02666666666666667,
+        "balanced_accuracy": 0.5,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            146
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "macro_f1": 0.025974025974025976,
+        "max_regret": 0.288600008903079,
+        "mean_error": 0.0246606034868548,
+        "mean_regret": 0.020805072398487882,
+        "median_error": 0.015669427770852562,
+        "median_regret": 0.013385656065535156,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 1.0,
+          "remizov": 0.0
+        },
+        "selection_counts": {
+          "monte_carlo": 150,
+          "remizov": 0
+        },
+        "selection_fractions": {
+          "monte_carlo": 1.0,
+          "remizov": 0.0
+        },
+        "status": "evaluated",
+        "success_count": 138,
+        "success_rate": 0.92,
+        "true_class_counts": {
+          "monte_carlo": 4,
+          "remizov": 146
+        }
+      },
+      "always_remizov": {
+        "accuracy": 0.9733333333333334,
+        "balanced_accuracy": 0.5,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            146,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "macro_f1": 0.49324324324324326,
+        "max_regret": 248.22356497733293,
+        "mean_error": 1.6589621134157981,
+        "mean_regret": 1.6551065823274311,
+        "median_error": 0.0011065436233683446,
+        "median_regret": 0.0,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 0,
+          "remizov": 150
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "status": "evaluated",
+        "success_count": 147,
+        "success_rate": 0.98,
+        "true_class_counts": {
+          "monte_carlo": 4,
+          "remizov": 146
+        }
+      },
+      "oracle": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            146,
+            0
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "macro_f1": 1.0,
+        "max_regret": 0.0,
+        "mean_error": 0.0038555310883669133,
+        "mean_regret": 0.0,
+        "median_error": 0.0011065436233683446,
+        "median_regret": 0.0,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 1.0,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 4,
+          "remizov": 146
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.02666666666666667,
+          "remizov": 0.9733333333333334
+        },
+        "status": "evaluated",
+        "success_count": 148,
+        "success_rate": 0.9866666666666667,
+        "true_class_counts": {
+          "monte_carlo": 4,
+          "remizov": 146
+        }
+      }
+    },
+    "train": {
+      "ML": {
+        "accuracy": 0.9913916786226685,
+        "balanced_accuracy": 0.7272727272727273,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            686,
+            0
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "macro_f1": 0.8103229317851959,
+        "max_regret": 0.16500792695938626,
+        "mean_error": 0.004397535634109429,
+        "mean_regret": 0.0002558305152034358,
+        "median_error": 0.0012200476898708845,
+        "median_regret": 0.0,
+        "n": 697,
+        "recall": {
+          "monte_carlo": 0.45454545454545453,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 5,
+          "remizov": 692
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.007173601147776184,
+          "remizov": 0.9928263988522238
+        },
+        "status": "evaluated",
+        "success_count": 690,
+        "success_rate": 0.9899569583931134,
+        "true_class_counts": {
+          "monte_carlo": 11,
+          "remizov": 686
+        }
+      },
+      "always_monte_carlo": {
+        "accuracy": 0.015781922525107604,
+        "balanced_accuracy": 0.5,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            686
+          ],
+          [
+            0,
+            11
+          ]
+        ],
+        "macro_f1": 0.015536723163841809,
+        "max_regret": 0.34589780609666354,
+        "mean_error": 0.025518743177048643,
+        "mean_regret": 0.02137703805814265,
+        "median_error": 0.01746564926506608,
+        "median_regret": 0.015587768631570798,
+        "n": 697,
+        "recall": {
+          "monte_carlo": 1.0,
+          "remizov": 0.0
+        },
+        "selection_counts": {
+          "monte_carlo": 697,
+          "remizov": 0
+        },
+        "selection_fractions": {
+          "monte_carlo": 1.0,
+          "remizov": 0.0
+        },
+        "status": "evaluated",
+        "success_count": 632,
+        "success_rate": 0.9067431850789096,
+        "true_class_counts": {
+          "monte_carlo": 11,
+          "remizov": 686
+        }
+      },
+      "always_remizov": {
+        "accuracy": 0.9842180774748924,
+        "balanced_accuracy": 0.5,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            686,
+            0
+          ],
+          [
+            11,
+            0
+          ]
+        ],
+        "macro_f1": 0.4960231381055676,
+        "max_regret": 842.0203871029915,
+        "mean_error": 1.253681744048611,
+        "mean_regret": 1.2495400389297049,
+        "median_error": 0.0012200476898708845,
+        "median_regret": 0.0,
+        "n": 697,
+        "recall": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 0,
+          "remizov": 697
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "status": "evaluated",
+        "success_count": 689,
+        "success_rate": 0.9885222381635581,
+        "true_class_counts": {
+          "monte_carlo": 11,
+          "remizov": 686
+        }
+      },
+      "oracle": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            686,
+            0
+          ],
+          [
+            0,
+            11
+          ]
+        ],
+        "macro_f1": 1.0,
+        "max_regret": 0.0,
+        "mean_error": 0.004141705118905993,
+        "mean_regret": 0.0,
+        "median_error": 0.0012200476898708845,
+        "median_regret": 0.0,
+        "n": 697,
+        "recall": {
+          "monte_carlo": 1.0,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 11,
+          "remizov": 686
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.015781922525107604,
+          "remizov": 0.9842180774748924
+        },
+        "status": "evaluated",
+        "success_count": 691,
+        "success_rate": 0.9913916786226685,
+        "true_class_counts": {
+          "monte_carlo": 11,
+          "remizov": 686
+        }
+      }
+    },
+    "validation": {
+      "ML": {
+        "accuracy": 0.9666666666666667,
+        "balanced_accuracy": 0.5833333333333334,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            144,
+            0
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "macro_f1": 0.6343247196489517,
+        "max_regret": 0.02181668316580021,
+        "mean_error": 0.005258034187472869,
+        "mean_regret": 0.00024753516329017176,
+        "median_error": 0.00126575744033397,
+        "median_regret": 0.0,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 0.16666666666666666,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 1,
+          "remizov": 149
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.006666666666666667,
+          "remizov": 0.9933333333333333
+        },
+        "status": "evaluated",
+        "success_count": 146,
+        "success_rate": 0.9733333333333334,
+        "true_class_counts": {
+          "monte_carlo": 6,
+          "remizov": 144
+        }
+      },
+      "always_monte_carlo": {
+        "accuracy": 0.04,
+        "balanced_accuracy": 0.5,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            144
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "macro_f1": 0.038461538461538464,
+        "max_regret": 0.48921306073824233,
+        "mean_error": 0.029253788004432256,
+        "mean_regret": 0.024243288980249564,
+        "median_error": 0.015699601045014777,
+        "median_regret": 0.01401302078849511,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 1.0,
+          "remizov": 0.0
+        },
+        "selection_counts": {
+          "monte_carlo": 150,
+          "remizov": 0
+        },
+        "selection_fractions": {
+          "monte_carlo": 1.0,
+          "remizov": 0.0
+        },
+        "status": "evaluated",
+        "success_count": 135,
+        "success_rate": 0.9,
+        "true_class_counts": {
+          "monte_carlo": 6,
+          "remizov": 144
+        }
+      },
+      "always_remizov": {
+        "accuracy": 0.96,
+        "balanced_accuracy": 0.5,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            144,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "macro_f1": 0.4897959183673469,
+        "max_regret": 0.085001807664012,
+        "mean_error": 0.005824712905232949,
+        "mean_regret": 0.0008142138810502518,
+        "median_error": 0.00126575744033397,
+        "median_regret": 0.0,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 0,
+          "remizov": 150
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.0,
+          "remizov": 1.0
+        },
+        "status": "evaluated",
+        "success_count": 146,
+        "success_rate": 0.9733333333333334,
+        "true_class_counts": {
+          "monte_carlo": 6,
+          "remizov": 144
+        }
+      },
+      "oracle": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "class_order": [
+          "remizov",
+          "monte_carlo"
+        ],
+        "confusion_matrix": [
+          [
+            144,
+            0
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "macro_f1": 1.0,
+        "max_regret": 0.0,
+        "mean_error": 0.0050104990241826965,
+        "mean_regret": 0.0,
+        "median_error": 0.00126575744033397,
+        "median_regret": 0.0,
+        "n": 150,
+        "recall": {
+          "monte_carlo": 1.0,
+          "remizov": 1.0
+        },
+        "selection_counts": {
+          "monte_carlo": 6,
+          "remizov": 144
+        },
+        "selection_fractions": {
+          "monte_carlo": 0.04,
+          "remizov": 0.96
+        },
+        "status": "evaluated",
+        "success_count": 146,
+        "success_rate": 0.9733333333333334,
+        "true_class_counts": {
+          "monte_carlo": 6,
+          "remizov": 144
+        }
+      }
+    }
+  },
+  "old_policy_under_mean_target": {
+    "test": {
+      "accuracy": 0.94,
+      "balanced_accuracy": 0.5,
+      "class_order": [
+        "remizov",
+        "monte_carlo"
+      ],
+      "confusion_matrix": [
+        [
+          141,
+          0
+        ],
+        [
+          9,
+          0
+        ]
+      ],
+      "macro_f1": 0.4845360824742268,
+      "max_regret": 248.21999576573202,
+      "mean_error": 1.6589621134157981,
+      "mean_regret": 1.6550660012423641,
+      "median_error": 0.0011065436233683446,
+      "median_regret": 0.0,
+      "n": 150,
+      "recall": {
+        "monte_carlo": 0.0,
+        "remizov": 1.0
+      },
+      "selection_counts": {
+        "monte_carlo": 0,
+        "remizov": 150
+      },
+      "selection_fractions": {
+        "monte_carlo": 0.0,
+        "remizov": 1.0
+      },
+      "status": "evaluated",
+      "success_count": 147,
+      "success_rate": 0.98,
+      "true_class_counts": {
+        "monte_carlo": 9,
+        "remizov": 141
+      }
+    },
+    "train": {
+      "accuracy": 0.8766140602582496,
+      "balanced_accuracy": 0.521649541691307,
+      "class_order": [
+        "remizov",
+        "monte_carlo"
+      ],
+      "confusion_matrix": [
+        [
+          607,
+          1
+        ],
+        [
+          85,
+          4
+        ]
+      ],
+      "macro_f1": 0.5094762684124386,
+      "max_regret": 0.13590416313945747,
+      "mean_error": 0.004450815135496452,
+      "mean_regret": 0.0004945103049804743,
+      "median_error": 0.0012200476898708845,
+      "median_regret": 0.0,
+      "n": 697,
+      "recall": {
+        "monte_carlo": 0.0449438202247191,
+        "remizov": 0.9983552631578947
+      },
+      "selection_counts": {
+        "monte_carlo": 5,
+        "remizov": 692
+      },
+      "selection_fractions": {
+        "monte_carlo": 0.007173601147776184,
+        "remizov": 0.9928263988522238
+      },
+      "status": "evaluated",
+      "success_count": 689,
+      "success_rate": 0.9885222381635581,
+      "true_class_counts": {
+        "monte_carlo": 89,
+        "remizov": 608
+      }
+    },
+    "validation": {
+      "accuracy": 0.8866666666666667,
+      "balanced_accuracy": 0.5277777777777778,
+      "class_order": [
+        "remizov",
+        "monte_carlo"
+      ],
+      "confusion_matrix": [
+        [
+          132,
+          0
+        ],
+        [
+          17,
+          1
+        ]
+      ],
+      "macro_f1": 0.5223824686270837,
+      "max_regret": 0.020818094162147638,
+      "mean_error": 0.005324707567983701,
+      "mean_regret": 0.0005107440329998696,
+      "median_error": 0.00126575744033397,
+      "median_regret": 0.0,
+      "n": 150,
+      "recall": {
+        "monte_carlo": 0.05555555555555555,
+        "remizov": 1.0
+      },
+      "selection_counts": {
+        "monte_carlo": 1,
+        "remizov": 149
+      },
+      "selection_fractions": {
+        "monte_carlo": 0.006666666666666667,
+        "remizov": 0.9933333333333333
+      },
+      "status": "evaluated",
+      "success_count": 146,
+      "success_rate": 0.9733333333333334,
+      "true_class_counts": {
+        "monte_carlo": 18,
+        "remizov": 132
+      }
+    }
+  }
+}

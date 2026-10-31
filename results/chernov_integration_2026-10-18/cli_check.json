@@ -1,0 +1,50 @@
+[
+  {
+    "scheme": "solve",
+    "returncode": 0,
+    "max_abs_error": 0.00782526010550133,
+    "command": [
+      "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/bin/python",
+      "-B",
+      "examples/solve_chernov_equation.py",
+      "--equation-id",
+      "AMV1_F0005_S00",
+      "--scheme",
+      "solve",
+      "--n",
+      "32",
+      "--num-t",
+      "257",
+      "--n-steps",
+      "8192",
+      "--dx",
+      ".025",
+      "--padding",
+      "8"
+    ]
+  },
+  {
+    "scheme": "streaming",
+    "returncode": 0,
+    "max_abs_error": 0.009443660653303154,
+    "command": [
+      "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/bin/python",
+      "-B",
+      "examples/solve_chernov_equation.py",
+      "--equation-id",
+      "AMV1_F0005_S00",
+      "--scheme",
+      "streaming",
+      "--n",
+      "32",
+      "--num-t",
+      "257",
+      "--n-steps",
+      "8192",
+      "--dx",
+      ".025",
+      "--padding",
+      "8"
+    ]
+  }
+]

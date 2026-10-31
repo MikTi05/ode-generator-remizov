@@ -1,0 +1,10 @@
+{
+  "MC1000": "x0 only, not grid33",
+  "P1_MC0_MC2": "different M/h profiles; not extra MC1 samples",
+  "R256": "different n, pending profile selection; no oracle-min pooling",
+  "final_grid5_MC": "different seed protocol; not P1/P2 episode0",
+  "historical_mass_R": "taper/legacyT/mixedworkers: different profile",
+  "joint_MC0": "M1024 is not MC1",
+  "joint_controls": "4 control_* jobs use tail1e-8 and/or taper; primary zero/commonT only",
+  "mean4": "different estimator, diagnostics only"
+}

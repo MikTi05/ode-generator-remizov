@@ -1,0 +1,3421 @@
+{
+  "attempts": [
+    {
+      "attempt_id": "233_grid33_AMV1_F0002_S00_monte_carlo_r01",
+      "config": {
+        "M": 1024,
+        "T": 63.625,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 3758258073,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0002_S00",
+        "expression_hash": "0f3a920f18e629d87cefd38376376dfcd1da675df3e81cb9327482ccbf330f69",
+        "family_id": "F0002",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "moderate_varying",
+        "structure_signature": "2c2478f13d30d7f33e21268b361559450a3c22ba31256b71748a24cdde126f78",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0002_S00",
+      "repeat": 1,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 1075074,
+        "coefficient_values": 1100875776,
+        "normal_draws": 275202048,
+        "path_steps": 275202048,
+        "steps": 8144
+      }
+    },
+    {
+      "attempt_id": "234_grid33_AMV1_F0001_S00_monte_carlo_r01",
+      "config": {
+        "M": 1024,
+        "T": 57.375,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 3758258073,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0001_S00",
+        "expression_hash": "7720c18c68bf24290353520f2bad295895d7ca5046d3ea1018abb8f655a57a19",
+        "family_id": "F0001",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "slow_varying",
+        "structure_signature": "11cb4e3c8a213ace149bceee962f98cd17a49b238903241cd86d279009f8497c",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0001_S00",
+      "repeat": 1,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 969474,
+        "coefficient_values": 992741376,
+        "normal_draws": 248168448,
+        "path_steps": 248168448,
+        "steps": 7344
+      }
+    },
+    {
+      "attempt_id": "235_grid33_AMV1_F0001_S00_solve_r01",
+      "config": {
+        "T": 57.375,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0001_S00",
+        "expression_hash": "7720c18c68bf24290353520f2bad295895d7ca5046d3ea1018abb8f655a57a19",
+        "family_id": "F0001",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "slow_varying",
+        "structure_signature": "11cb4e3c8a213ace149bceee962f98cd17a49b238903241cd86d279009f8497c",
+        "training_eligible": false
+      },
+      "method": "solve",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0001_S00",
+      "repeat": 1,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "operator_applications": 65536,
+        "quadrature_nodes": 513,
+        "work_grid_points": 2081
+      }
+    },
+    {
+      "attempt_id": "236_grid33_AMV1_F0014_S00_monte_carlo_r01",
+      "config": {
+        "M": 1024,
+        "T": 18.25,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 3758258073,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L3",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0014_S00",
+        "expression_hash": "fc0ac34bab851272afc4f16449a5a2c498858962a3106ff215c796b845065c82",
+        "family_id": "F0014",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "high_contrast",
+        "structure_signature": "30c9b6e62bc1139c2b7b8d86391d35a2ffb583cc1b2274e62280f866e6693c57",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0014_S00",
+      "repeat": 1,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 308418,
+        "coefficient_values": 315820032,
+        "normal_draws": 78938112,
+        "path_steps": 78938112,
+        "steps": 2336
+      }
+    },
+    {
+      "attempt_id": "237_grid33_AMV1_F0014_S00_solve_r01",
+      "config": {
+        "T": 18.25,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "identity": {
+        "complexity": "L3",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0014_S00",
+        "expression_hash": "fc0ac34bab851272afc4f16449a5a2c498858962a3106ff215c796b845065c82",
+        "family_id": "F0014",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "high_contrast",
+        "structure_signature": "30c9b6e62bc1139c2b7b8d86391d35a2ffb583cc1b2274e62280f866e6693c57",
+        "training_eligible": false
+      },
+      "method": "solve",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0014_S00",
+      "repeat": 1,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "operator_applications": 65536,
+        "quadrature_nodes": 513,
+        "work_grid_points": 2081
+      }
+    },
+    {
+      "attempt_id": "238_grid33_AMV1_F0018_S00_monte_carlo_r01",
+      "config": {
+        "M": 1024,
+        "T": 27.25,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 3758258073,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L4",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0018_S00",
+        "expression_hash": "79a62e655b4b1f502c87d11e6b830a51254adb4bc1a1e1ae27e78a5a2eddff39",
+        "family_id": "F0018",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "oscillatory",
+        "structure_signature": "d8ab98ddb3756e01651068f255af6f244990008330d54d0e30481246e395b704",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0018_S00",
+      "repeat": 1,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 460482,
+        "coefficient_values": 471533568,
+        "normal_draws": 117866496,
+        "path_steps": 117866496,
+        "steps": 3488
+      }
+    },
+    {
+      "attempt_id": "239_grid33_AMV1_F0018_S00_solve_r01",
+      "config": {
+        "T": 27.25,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "identity": {
+        "complexity": "L4",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0018_S00",
+        "expression_hash": "79a62e655b4b1f502c87d11e6b830a51254adb4bc1a1e1ae27e78a5a2eddff39",
+        "family_id": "F0018",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "oscillatory",
+        "structure_signature": "d8ab98ddb3756e01651068f255af6f244990008330d54d0e30481246e395b704",
+        "training_eligible": false
+      },
+      "method": "solve",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0018_S00",
+      "repeat": 1,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "operator_applications": 65536,
+        "quadrature_nodes": 513,
+        "work_grid_points": 2081
+      }
+    },
+    {
+      "attempt_id": "240_grid33_AMV1_F0000_S00_monte_carlo_r01",
+      "config": {
+        "M": 1024,
+        "T": 8.5,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 3758258073,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0000_S00",
+        "expression_hash": "ed9a87f806ac2704a79d83444debe7e359317bbf07f5f0e0eb348b2aa52a3a0e",
+        "family_id": "F0000",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "constant",
+        "structure_signature": "131d18dbc708fd050efc213999c63b4286316208abe28f38603e5433f54cb426",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0000_S00",
+      "repeat": 1,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 143682,
+        "coefficient_values": 147130368,
+        "normal_draws": 36765696,
+        "path_steps": 36765696,
+        "steps": 1088
+      }
+    },
+    {
+      "attempt_id": "241_grid33_AMV1_F0000_S00_solve_r01",
+      "config": {
+        "T": 8.5,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0000_S00",
+        "expression_hash": "ed9a87f806ac2704a79d83444debe7e359317bbf07f5f0e0eb348b2aa52a3a0e",
+        "family_id": "F0000",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "constant",
+        "structure_signature": "131d18dbc708fd050efc213999c63b4286316208abe28f38603e5433f54cb426",
+        "training_eligible": false
+      },
+      "method": "solve",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0000_S00",
+      "repeat": 1,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "operator_applications": 65536,
+        "quadrature_nodes": 513,
+        "work_grid_points": 2081
+      }
+    },
+    {
+      "attempt_id": "242_grid33_AMV1_F0003_S00_solve_r01",
+      "config": {
+        "T": 22.625,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0003_S00",
+        "expression_hash": "5792899011f3b1d6a20f7e3da6a970de249eb269a065611564e626c5c6e594d7",
+        "family_id": "F0003",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "oscillatory",
+        "structure_signature": "9fb5bc2f2b236c1e29d9bab4c55fe2e560bbc7a80e98ab317397550136cb7f5b",
+        "training_eligible": false
+      },
+      "method": "solve",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0003_S00",
+      "repeat": 1,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "operator_applications": 65536,
+        "quadrature_nodes": 513,
+        "work_grid_points": 2081
+      }
+    },
+    {
+      "attempt_id": "243_grid33_AMV1_F0003_S00_monte_carlo_r01",
+      "config": {
+        "M": 1024,
+        "T": 22.625,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 3758258073,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0003_S00",
+        "expression_hash": "5792899011f3b1d6a20f7e3da6a970de249eb269a065611564e626c5c6e594d7",
+        "family_id": "F0003",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "oscillatory",
+        "structure_signature": "9fb5bc2f2b236c1e29d9bab4c55fe2e560bbc7a80e98ab317397550136cb7f5b",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0003_S00",
+      "repeat": 1,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 382338,
+        "coefficient_values": 391514112,
+        "normal_draws": 97861632,
+        "path_steps": 97861632,
+        "steps": 2896
+      }
+    },
+    {
+      "attempt_id": "244_grid33_AMV1_F0000_S00_monte_carlo_r02",
+      "config": {
+        "M": 1024,
+        "T": 8.5,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 1314908611,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0000_S00",
+        "expression_hash": "ed9a87f806ac2704a79d83444debe7e359317bbf07f5f0e0eb348b2aa52a3a0e",
+        "family_id": "F0000",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "constant",
+        "structure_signature": "131d18dbc708fd050efc213999c63b4286316208abe28f38603e5433f54cb426",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0000_S00",
+      "repeat": 2,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 143682,
+        "coefficient_values": 147130368,
+        "normal_draws": 36765696,
+        "path_steps": 36765696,
+        "steps": 1088
+      }
+    },
+    {
+      "attempt_id": "245_grid33_AMV1_F0000_S00_solve_r02",
+      "config": {
+        "T": 8.5,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0000_S00",
+        "expression_hash": "ed9a87f806ac2704a79d83444debe7e359317bbf07f5f0e0eb348b2aa52a3a0e",
+        "family_id": "F0000",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "constant",
+        "structure_signature": "131d18dbc708fd050efc213999c63b4286316208abe28f38603e5433f54cb426",
+        "training_eligible": false
+      },
+      "method": "solve",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0000_S00",
+      "repeat": 2,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "operator_applications": 65536,
+        "quadrature_nodes": 513,
+        "work_grid_points": 2081
+      }
+    },
+    {
+      "attempt_id": "246_grid33_AMV1_F0002_S00_solve_r02",
+      "config": {
+        "T": 63.625,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0002_S00",
+        "expression_hash": "0f3a920f18e629d87cefd38376376dfcd1da675df3e81cb9327482ccbf330f69",
+        "family_id": "F0002",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "moderate_varying",
+        "structure_signature": "2c2478f13d30d7f33e21268b361559450a3c22ba31256b71748a24cdde126f78",
+        "training_eligible": false
+      },
+      "method": "solve",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0002_S00",
+      "repeat": 2,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "operator_applications": 65536,
+        "quadrature_nodes": 513,
+        "work_grid_points": 2081
+      }
+    },
+    {
+      "attempt_id": "247_grid33_AMV1_F0002_S00_monte_carlo_r02",
+      "config": {
+        "M": 1024,
+        "T": 63.625,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 1314908611,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0002_S00",
+        "expression_hash": "0f3a920f18e629d87cefd38376376dfcd1da675df3e81cb9327482ccbf330f69",
+        "family_id": "F0002",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "moderate_varying",
+        "structure_signature": "2c2478f13d30d7f33e21268b361559450a3c22ba31256b71748a24cdde126f78",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0002_S00",
+      "repeat": 2,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 1075074,
+        "coefficient_values": 1100875776,
+        "normal_draws": 275202048,
+        "path_steps": 275202048,
+        "steps": 8144
+      }
+    },
+    {
+      "attempt_id": "248_grid33_AMV1_F0003_S00_solve_r02",
+      "config": {
+        "T": 22.625,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0003_S00",
+        "expression_hash": "5792899011f3b1d6a20f7e3da6a970de249eb269a065611564e626c5c6e594d7",
+        "family_id": "F0003",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "oscillatory",
+        "structure_signature": "9fb5bc2f2b236c1e29d9bab4c55fe2e560bbc7a80e98ab317397550136cb7f5b",
+        "training_eligible": false
+      },
+      "method": "solve",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0003_S00",
+      "repeat": 2,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "operator_applications": 65536,
+        "quadrature_nodes": 513,
+        "work_grid_points": 2081
+      }
+    },
+    {
+      "attempt_id": "249_grid33_AMV1_F0003_S00_monte_carlo_r02",
+      "config": {
+        "M": 1024,
+        "T": 22.625,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 1314908611,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0003_S00",
+        "expression_hash": "5792899011f3b1d6a20f7e3da6a970de249eb269a065611564e626c5c6e594d7",
+        "family_id": "F0003",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "oscillatory",
+        "structure_signature": "9fb5bc2f2b236c1e29d9bab4c55fe2e560bbc7a80e98ab317397550136cb7f5b",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0003_S00",
+      "repeat": 2,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 382338,
+        "coefficient_values": 391514112,
+        "normal_draws": 97861632,
+        "path_steps": 97861632,
+        "steps": 2896
+      }
+    },
+    {
+      "attempt_id": "250_grid33_AMV1_F0018_S00_solve_r02",
+      "config": {
+        "T": 27.25,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "identity": {
+        "complexity": "L4",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0018_S00",
+        "expression_hash": "79a62e655b4b1f502c87d11e6b830a51254adb4bc1a1e1ae27e78a5a2eddff39",
+        "family_id": "F0018",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "oscillatory",
+        "structure_signature": "d8ab98ddb3756e01651068f255af6f244990008330d54d0e30481246e395b704",
+        "training_eligible": false
+      },
+      "method": "solve",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0018_S00",
+      "repeat": 2,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "operator_applications": 65536,
+        "quadrature_nodes": 513,
+        "work_grid_points": 2081
+      }
+    },
+    {
+      "attempt_id": "251_grid33_AMV1_F0018_S00_monte_carlo_r02",
+      "config": {
+        "M": 1024,
+        "T": 27.25,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 1314908611,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L4",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0018_S00",
+        "expression_hash": "79a62e655b4b1f502c87d11e6b830a51254adb4bc1a1e1ae27e78a5a2eddff39",
+        "family_id": "F0018",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "oscillatory",
+        "structure_signature": "d8ab98ddb3756e01651068f255af6f244990008330d54d0e30481246e395b704",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0018_S00",
+      "repeat": 2,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 460482,
+        "coefficient_values": 471533568,
+        "normal_draws": 117866496,
+        "path_steps": 117866496,
+        "steps": 3488
+      }
+    },
+    {
+      "attempt_id": "252_grid33_AMV1_F0014_S00_solve_r02",
+      "config": {
+        "T": 18.25,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "identity": {
+        "complexity": "L3",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0014_S00",
+        "expression_hash": "fc0ac34bab851272afc4f16449a5a2c498858962a3106ff215c796b845065c82",
+        "family_id": "F0014",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "high_contrast",
+        "structure_signature": "30c9b6e62bc1139c2b7b8d86391d35a2ffb583cc1b2274e62280f866e6693c57",
+        "training_eligible": false
+      },
+      "method": "solve",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0014_S00",
+      "repeat": 2,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "operator_applications": 65536,
+        "quadrature_nodes": 513,
+        "work_grid_points": 2081
+      }
+    },
+    {
+      "attempt_id": "253_grid33_AMV1_F0014_S00_monte_carlo_r02",
+      "config": {
+        "M": 1024,
+        "T": 18.25,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 1314908611,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L3",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0014_S00",
+        "expression_hash": "fc0ac34bab851272afc4f16449a5a2c498858962a3106ff215c796b845065c82",
+        "family_id": "F0014",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "high_contrast",
+        "structure_signature": "30c9b6e62bc1139c2b7b8d86391d35a2ffb583cc1b2274e62280f866e6693c57",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0014_S00",
+      "repeat": 2,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 308418,
+        "coefficient_values": 315820032,
+        "normal_draws": 78938112,
+        "path_steps": 78938112,
+        "steps": 2336
+      }
+    },
+    {
+      "attempt_id": "254_grid33_AMV1_F0001_S00_monte_carlo_r02",
+      "config": {
+        "M": 1024,
+        "T": 57.375,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 1314908611,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0001_S00",
+        "expression_hash": "7720c18c68bf24290353520f2bad295895d7ca5046d3ea1018abb8f655a57a19",
+        "family_id": "F0001",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "slow_varying",
+        "structure_signature": "11cb4e3c8a213ace149bceee962f98cd17a49b238903241cd86d279009f8497c",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0001_S00",
+      "repeat": 2,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 969474,
+        "coefficient_values": 992741376,
+        "normal_draws": 248168448,
+        "path_steps": 248168448,
+        "steps": 7344
+      }
+    },
+    {
+      "attempt_id": "255_grid33_AMV1_F0001_S00_solve_r02",
+      "config": {
+        "T": 57.375,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0001_S00",
+        "expression_hash": "7720c18c68bf24290353520f2bad295895d7ca5046d3ea1018abb8f655a57a19",
+        "family_id": "F0001",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "slow_varying",
+        "structure_signature": "11cb4e3c8a213ace149bceee962f98cd17a49b238903241cd86d279009f8497c",
+        "training_eligible": false
+      },
+      "method": "solve",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0001_S00",
+      "repeat": 2,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "operator_applications": 65536,
+        "quadrature_nodes": 513,
+        "work_grid_points": 2081
+      }
+    },
+    {
+      "attempt_id": "256_grid33_AMV1_F0003_S00_monte_carlo_r03",
+      "config": {
+        "M": 1024,
+        "T": 22.625,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 3552329624,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0003_S00",
+        "expression_hash": "5792899011f3b1d6a20f7e3da6a970de249eb269a065611564e626c5c6e594d7",
+        "family_id": "F0003",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "oscillatory",
+        "structure_signature": "9fb5bc2f2b236c1e29d9bab4c55fe2e560bbc7a80e98ab317397550136cb7f5b",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0003_S00",
+      "repeat": 3,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 382338,
+        "coefficient_values": 391514112,
+        "normal_draws": 97861632,
+        "path_steps": 97861632,
+        "steps": 2896
+      }
+    },
+    {
+      "attempt_id": "257_grid33_AMV1_F0001_S00_monte_carlo_r03",
+      "config": {
+        "M": 1024,
+        "T": 57.375,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 3552329624,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0001_S00",
+        "expression_hash": "7720c18c68bf24290353520f2bad295895d7ca5046d3ea1018abb8f655a57a19",
+        "family_id": "F0001",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "slow_varying",
+        "structure_signature": "11cb4e3c8a213ace149bceee962f98cd17a49b238903241cd86d279009f8497c",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0001_S00",
+      "repeat": 3,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 969474,
+        "coefficient_values": 992741376,
+        "normal_draws": 248168448,
+        "path_steps": 248168448,
+        "steps": 7344
+      }
+    },
+    {
+      "attempt_id": "258_grid33_AMV1_F0000_S00_monte_carlo_r03",
+      "config": {
+        "M": 1024,
+        "T": 8.5,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 3552329624,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0000_S00",
+        "expression_hash": "ed9a87f806ac2704a79d83444debe7e359317bbf07f5f0e0eb348b2aa52a3a0e",
+        "family_id": "F0000",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "constant",
+        "structure_signature": "131d18dbc708fd050efc213999c63b4286316208abe28f38603e5433f54cb426",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0000_S00",
+      "repeat": 3,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 143682,
+        "coefficient_values": 147130368,
+        "normal_draws": 36765696,
+        "path_steps": 36765696,
+        "steps": 1088
+      }
+    },
+    {
+      "attempt_id": "259_grid33_AMV1_F0002_S00_monte_carlo_r03",
+      "config": {
+        "M": 1024,
+        "T": 63.625,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 3552329624,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0002_S00",
+        "expression_hash": "0f3a920f18e629d87cefd38376376dfcd1da675df3e81cb9327482ccbf330f69",
+        "family_id": "F0002",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "moderate_varying",
+        "structure_signature": "2c2478f13d30d7f33e21268b361559450a3c22ba31256b71748a24cdde126f78",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0002_S00",
+      "repeat": 3,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 1075074,
+        "coefficient_values": 1100875776,
+        "normal_draws": 275202048,
+        "path_steps": 275202048,
+        "steps": 8144
+      }
+    },
+    {
+      "attempt_id": "260_grid33_AMV1_F0018_S00_monte_carlo_r03",
+      "config": {
+        "M": 1024,
+        "T": 27.25,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 3552329624,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L4",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0018_S00",
+        "expression_hash": "79a62e655b4b1f502c87d11e6b830a51254adb4bc1a1e1ae27e78a5a2eddff39",
+        "family_id": "F0018",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "oscillatory",
+        "structure_signature": "d8ab98ddb3756e01651068f255af6f244990008330d54d0e30481246e395b704",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0018_S00",
+      "repeat": 3,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 460482,
+        "coefficient_values": 471533568,
+        "normal_draws": 117866496,
+        "path_steps": 117866496,
+        "steps": 3488
+      }
+    },
+    {
+      "attempt_id": "261_grid33_AMV1_F0014_S00_monte_carlo_r03",
+      "config": {
+        "M": 1024,
+        "T": 18.25,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 300000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": 3552329624,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "identity": {
+        "complexity": "L3",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0014_S00",
+        "expression_hash": "fc0ac34bab851272afc4f16449a5a2c498858962a3106ff215c796b845065c82",
+        "family_id": "F0014",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "high_contrast",
+        "structure_signature": "30c9b6e62bc1139c2b7b8d86391d35a2ffb583cc1b2274e62280f866e6693c57",
+        "training_eligible": false
+      },
+      "method": "monte_carlo",
+      "mode": "grid33",
+      "problem_id": "AMV1_F0014_S00",
+      "repeat": 3,
+      "target_x": [
+        -1.0,
+        -0.9375,
+        -0.875,
+        -0.8125,
+        -0.75,
+        -0.6875,
+        -0.625,
+        -0.5625,
+        -0.5,
+        -0.4375,
+        -0.375,
+        -0.3125,
+        -0.25,
+        -0.1875,
+        -0.125,
+        -0.0625,
+        0.0,
+        0.0625,
+        0.125,
+        0.1875,
+        0.25,
+        0.3125,
+        0.375,
+        0.4375,
+        0.5,
+        0.5625,
+        0.625,
+        0.6875,
+        0.75,
+        0.8125,
+        0.875,
+        0.9375,
+        1.0
+      ],
+      "work": {
+        "batches": 33,
+        "coefficient_calls": 308418,
+        "coefficient_values": 315820032,
+        "normal_draws": 78938112,
+        "path_steps": 78938112,
+        "steps": 2336
+      }
+    }
+  ],
+  "authorization": "User explicitly requested numerical completion of the 20+6 pilot; removes 60s/90min cutoffs",
+  "confidence": 0.95,
+  "continuation_created_utc": "2026-10-24T22:51:37.261585+00:00",
+  "continuation_reason": "Operator missed external renewal; guardian stopped an unscored trial. Same seed/config restarted, remaining fixed queue follows.",
+  "epsilon": 0.01,
+  "execution_authorized": true,
+  "external_lease_change": "300s operator grace accommodates tool/code/report communication; does not limit worker duration. Parent pipe/heartbeat cleanup still immediate/15s; CPU/RSS/progress guards unchanged.",
+  "frozen_utc": "2026-10-24T22:04:34.706889+00:00",
+  "input_sha256": {
+    "data/generated/all_methods_equations_v1.csv": "ba498e3ee7432fa983a07d994b55b6e359c41fcb5353f20ab6c368b7bb76cd8b",
+    "data/generated/all_methods_equations_v1_metadata.jsonl": "cef44a1950345a72cc36e7b023ad6e147c16527d3d12501c5be66f5e1afb5e16",
+    "data/generated/all_methods_equations_v1_ml.npz": "1ce7d9e930138af7743bde726ba1cb68a2ef422dec406f8b901a16da10277d5a",
+    "data/generated/all_methods_equations_v1_report.json": "8fbe370a582edb6535c6f25ee903cc03fc4e7bb19bf941b7b267f5a72f40f669"
+  },
+  "maximum_work": {
+    "attempts": 29,
+    "mc_path_steps": 2564407296,
+    "remizov_operator_applications": 720896
+  },
+  "parent_plan_sha256": "7017b521446b01d11115f4dfc4061d6e9c413737924f8a485ee5f444c024b6b4",
+  "practical_time_margin": 0.1,
+  "proposal_sha256": "296723a550d82db9cc99d83497c4e6d2a330d20e1e1cce29c5dfb4b87da43897",
+  "reliability_target": 0.95,
+  "resources": {
+    "attempt_wall_seconds": null,
+    "automatic_retries": 0,
+    "blas_threads": 1,
+    "cpu_idle_seconds": 120,
+    "external_owner_lease_seconds": 300,
+    "guardian_controller_heartbeat_seconds": 15,
+    "minimum_free_disk_bytes": 268435456,
+    "phase_wall_seconds": null,
+    "progress_stall_seconds": 600,
+    "resource_sample_seconds": 1,
+    "rss_limit_mib": 512,
+    "stop_on_safety_condition": true,
+    "telemetry_stale_seconds": 30,
+    "thermal_sample_seconds": 10,
+    "thermal_stop_at": 2,
+    "total_wall_seconds": null,
+    "workers": 1
+  },
+  "schema_version": "joint_pilot_execution_v1",
+  "scope": "small20 point + selected6 grid33, no production1000 solves or ML",
+  "scoring": "Exact after prediction+hash+ready written, never used in parameter choice or scheduling",
+  "source_sha256": {
+    "all_methods_bounds.py": "a7a99776c8fa8faf48bc25f11f8884824aab989b646044c43a47455daff18d41",
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "diagnostics/chernov_batch_control.py": "7483a440da43179e3c873d6e6d4d54900304c902a5b5ab73a468a6d1d79618a2",
+    "diagnostics/joint_benchmark_pilot.py": "c967611c370f01888e70332a411cc0e9026feb88b2496fa0aa1fb8b4ada9d1f9",
+    "diagnostics/resume_joint_benchmark_pilot.py": "e55f30d58ceaf36dadfd3a9b6c51ee7b6ffdbc967f3710073d2b7ccfcaff7827",
+    "mc_solver.py": "b48e05e148009aaa4fabe7ec783d956f776438537c522a338a31624fe118ad83",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a",
+    "tests/test_joint_benchmark_pilot.py": "aa69f576616260dcc03f1f541b2d76960507d350d743ae811198543029cc61b4"
+  },
+  "statistic": "One independent production answer per seed; no pooling as a free answer; point/grid distinct policies",
+  "tasks": {
+    "AMV1_F0000_S00": {
+      "T": 8.5,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.9185282812011861,
+          "d2": 11.559857873742567,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 1.8213673568681696,
+          "b_abs": 0.08731063871405725,
+          "c_R_abs": 0.14401710585383778,
+          "q_abs": 1.9058129880823391
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 25.11832190687126,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0000_S00:sha256=23bd0f03b18e6bc767c445fb55ce5dd8cc6b8874d10130aa0180c3f2a3be6c03"
+        },
+        "problem_id": "AMV1_F0000_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "23bd0f03b18e6bc767c445fb55ce5dd8cc6b8874d10130aa0180c3f2a3be6c03",
+        "shape_bounds": {
+          "d1": 0.052807114431396206,
+          "d2": 0.03631502440707256,
+          "value": 0.0767889153346536
+        },
+        "solution_bounds": {
+          "d1": 2.268676374434024,
+          "d2": 12.771317124198262,
+          "value": 0.8704853098031629
+        },
+        "support": [
+          -1.5360387807838334,
+          1.5913584323776082
+        ],
+        "term_bounds": {
+          "diffusion": 23.261260114226182,
+          "drift": 0.19807958328732636,
+          "potential": 1.6589822093577467
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 8.462083692395737,
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0000_S00",
+        "expression_hash": "ed9a87f806ac2704a79d83444debe7e359317bbf07f5f0e0eb348b2aa52a3a0e",
+        "family_id": "F0000",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "constant",
+        "structure_signature": "131d18dbc708fd050efc213999c63b4286316208abe28f38603e5433f54cb426",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.473194998649439e-05
+    },
+    "AMV1_F0001_S00": {
+      "T": 57.375,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.2869617676718343,
+          "d2": 5.201724826269555,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 1.9891820176967097,
+          "b_abs": 0.8442489127445898,
+          "c_R_abs": 1.091458666221945,
+          "q_abs": 2.4429340931910115
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 77.3156124962267,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0001_S00:sha256=7ee4f5bec941b673684aa22cfe78f947419ec456b90044e4a4b9036271054590"
+        },
+        "problem_id": "AMV1_F0001_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "7ee4f5bec941b673684aa22cfe78f947419ec456b90044e4a4b9036271054590",
+        "shape_bounds": {
+          "d1": 0.8205046727814793,
+          "d2": 0.7699772746053974,
+          "value": 1.1791682210680507
+        },
+        "solution_bounds": {
+          "d1": 7.932513427660685,
+          "d2": 30.588059750133773,
+          "value": 4.000672091659871
+        },
+        "support": [
+          -2.483748163202725,
+          2.178394994984672
+        ],
+        "term_bounds": {
+          "diffusion": 60.845218411198616,
+          "drift": 6.697015836634393,
+          "potential": 9.773378248393694
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 57.32417180632636,
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0001_S00",
+        "expression_hash": "7720c18c68bf24290353520f2bad295895d7ca5046d3ea1018abb8f655a57a19",
+        "family_id": "F0001",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "slow_varying",
+        "structure_signature": "11cb4e3c8a213ace149bceee962f98cd17a49b238903241cd86d279009f8497c",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.868707679916127e-05
+    },
+    "AMV1_F0002_S00": {
+      "T": 63.625,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.7678183123691067,
+          "d2": 9.815023417110293,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 2.521099371167056,
+          "b_abs": 0.8053875019109252,
+          "c_R_abs": 1.1797493337521907,
+          "q_abs": 2.6191225378099694
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 380.99952616975816,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0002_S00:sha256=a8e6a64c2b2d6fabf6f356c408c2b1cae52cc1b00327ca38839360c8589a718b"
+        },
+        "problem_id": "AMV1_F0002_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "a8e6a64c2b2d6fabf6f356c408c2b1cae52cc1b00327ca38839360c8589a718b",
+        "shape_bounds": {
+          "d1": 2.4618803927002304,
+          "d2": 2.3069172859286016,
+          "value": 2.64085619670561
+        },
+        "solution_bounds": {
+          "d1": 25.685640727036375,
+          "d2": 133.0359394728598,
+          "value": 9.513036691600222
+        },
+        "support": [
+          -1.4983686386190112,
+          1.8956453038880214
+        ],
+        "term_bounds": {
+          "diffusion": 335.39682334764547,
+          "drift": 20.68689402012935,
+          "potential": 24.91580880198333
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 63.559871563734674,
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0002_S00",
+        "expression_hash": "0f3a920f18e629d87cefd38376376dfcd1da675df3e81cb9327482ccbf330f69",
+        "family_id": "F0002",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "moderate_varying",
+        "structure_signature": "2c2478f13d30d7f33e21268b361559450a3c22ba31256b71748a24cdde126f78",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.832332563587108e-05
+    },
+    "AMV1_F0003_S00": {
+      "T": 22.625,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.7330118710042484,
+          "d2": 9.432333736771419,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 2.2140289622603437,
+          "b_abs": 1.1455568871670014,
+          "c_R_abs": 1.2574481828117656,
+          "q_abs": 3.173222763415916
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 185.43530243798455,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0003_S00:sha256=e6a7dec37d3a605ab7c8bddf3a51b8633eaa5a70e5ef55c5081e260ce99e490c"
+        },
+        "problem_id": "AMV1_F0003_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "e6a7dec37d3a605ab7c8bddf3a51b8633eaa5a70e5ef55c5081e260ce99e490c",
+        "shape_bounds": {
+          "d1": 2.705658306220558,
+          "d2": 8.810197916515808,
+          "value": 1.0
+        },
+        "solution_bounds": {
+          "d1": 11.858261713082722,
+          "d2": 73.79012376073855,
+          "value": 2.671579829005649
+        },
+        "support": [
+          -1.7720772690777846,
+          1.6901032851287547
+        ],
+        "term_bounds": {
+          "diffusion": 163.37347113505032,
+          "drift": 13.584313375250678,
+          "potential": 8.477517927683525
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 22.558871852077374,
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0003_S00",
+        "expression_hash": "5792899011f3b1d6a20f7e3da6a970de249eb269a065611564e626c5c6e594d7",
+        "family_id": "F0003",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "oscillatory",
+        "structure_signature": "9fb5bc2f2b236c1e29d9bab4c55fe2e560bbc7a80e98ab317397550136cb7f5b",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.574000924935985e-05
+    },
+    "AMV1_F0004_S00": {
+      "T": 10.375,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.4325195420741508,
+          "d2": 6.444914998801426,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 2.594998322649372,
+          "b_abs": 3.7271517005646952,
+          "c_R_abs": 2.716003859112397,
+          "q_abs": 6.785253428858696
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 154.9924264722033,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0004_S00:sha256=26bb047294b1a6979ff71574082d80a2413266386b56e700060d04501ca6d9ca"
+        },
+        "problem_id": "AMV1_F0004_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "26bb047294b1a6979ff71574082d80a2413266386b56e700060d04501ca6d9ca",
+        "shape_bounds": {
+          "d1": 2.165844650311986,
+          "d2": 5.376872311802993,
+          "value": 1.0
+        },
+        "solution_bounds": {
+          "d1": 8.327027992552765,
+          "d2": 41.716587368346104,
+          "value": 2.3141148442317534
+        },
+        "support": [
+          -2.06493361433279,
+          2.1234909228379744
+        ],
+        "term_bounds": {
+          "diffusion": 108.25447424751412,
+          "drift": 31.03609654309286,
+          "potential": 15.701855681596314
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 10.309443864916759,
+      "identity": {
+        "complexity": "L1",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0004_S00",
+        "expression_hash": "86ab5edcfbd81d05e4d86234c1baaf2919cbc2e2fd96693c4e6de4f1d6029f7c",
+        "family_id": "F0004",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "high_contrast",
+        "structure_signature": "07c14d186aa866ed151484c72ea2dc88226aa796f48c74d266fea0a3284077c5",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.151076607493199e-05
+    },
+    "AMV1_F0005_S00": {
+      "T": 20.0,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.1331495497872772,
+          "d2": 4.032650130293827,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 1.32054800786268,
+          "b_abs": 1.1010378098980294,
+          "c_R_abs": 0.506897194535524,
+          "q_abs": 2.171973206392499
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 348.8664375482294,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0005_S00:sha256=2f0c77db1993e76181eac7ec66bb0a2b7307a7d7238efb9c38cf432934cf6ac9"
+        },
+        "problem_id": "AMV1_F0005_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "2f0c77db1993e76181eac7ec66bb0a2b7307a7d7238efb9c38cf432934cf6ac9",
+        "shape_bounds": {
+          "d1": 7.400287856720691,
+          "d2": 74.80925728359315,
+          "value": 1.0
+        },
+        "solution_bounds": {
+          "d1": 21.599383007605095,
+          "d2": 242.01097968093242,
+          "value": 2.5311468261468075
+        },
+        "support": [
+          -2.7592671971205407,
+          2.5357090936315165
+        ],
+        "term_bounds": {
+          "diffusion": 319.58711709855083,
+          "drift": 23.781737361842225,
+          "potential": 5.497583087836279
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 19.979829468744168,
+      "identity": {
+        "complexity": "L2",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0005_S00",
+        "expression_hash": "02488055c13e4a5a761fea1fd44bb123114b8eece82a3f1c87a958e7e7214c67",
+        "family_id": "F0005",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "constant",
+        "structure_signature": "607530dea3c36d6c664b6c02aae7ac0e54e2ce8ed34525a73ce3993ad6b9af61",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.846428773329563e-05
+    },
+    "AMV1_F0006_S00": {
+      "T": 10.25,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.1350042829242202,
+          "d2": 4.045862174586265,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 1.4908256998219425,
+          "b_abs": 0.43910252368294406,
+          "c_R_abs": 1.1470079375582287,
+          "q_abs": 3.552412626556733
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 48.845008797484766,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0006_S00:sha256=adbe6f934e600f086d8ff86b974e01a56d372ab4e1965cf937a0bc490b69f745"
+        },
+        "problem_id": "AMV1_F0006_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "adbe6f934e600f086d8ff86b974e01a56d372ab4e1965cf937a0bc490b69f745",
+        "shape_bounds": {
+          "d1": 1.7778337192078912,
+          "d2": 2.298929894070722,
+          "value": 2.150633342094039
+        },
+        "solution_bounds": {
+          "d1": 6.458153553825388,
+          "d2": 23.016780574813513,
+          "value": 3.292187731274194
+        },
+        "support": [
+          -2.4141840311212874,
+          2.8721396332631555
+        ],
+        "term_bounds": {
+          "diffusion": 34.31400800809445,
+          "drift": 2.835791523816702,
+          "potential": 11.695209265573611
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 10.226626908567313,
+      "identity": {
+        "complexity": "L2",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0006_S00",
+        "expression_hash": "b8b769827a2c16fd4305e84379f79419021c2f2b48b7ea0ffa0f44b2e8218b88",
+        "family_id": "F0006",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "slow_varying",
+        "structure_signature": "41a7872b51c18e5df155162ea3afeca35a50544e4296908fe3e81ad7074f6fb1",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.710157190255703e-05
+    },
+    "AMV1_F0007_S00": {
+      "T": 9.125,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.7953078883622868,
+          "d2": 10.122643956518539,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 2.191550565568305,
+          "b_abs": 1.0753789109642764,
+          "c_R_abs": 0.6139069006095002,
+          "q_abs": 2.725400637323031
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 112.09921890176447,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0007_S00:sha256=0634c50be35984411d4a5e66b5f02e80ca1757db28baf288905db80ade1545dd"
+        },
+        "problem_id": "AMV1_F0007_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "0634c50be35984411d4a5e66b5f02e80ca1757db28baf288905db80ade1545dd",
+        "shape_bounds": {
+          "d1": 2.2333153673534514,
+          "d2": 7.033583135048451,
+          "value": 1.5217358084719927
+        },
+        "solution_bounds": {
+          "d1": 7.301286820253274,
+          "d2": 44.785214235215406,
+          "value": 2.237655397361607
+        },
+        "support": [
+          -1.715634918250554,
+          1.6264102200200252
+        ],
+        "term_bounds": {
+          "diffusion": 98.14906158628403,
+          "drift": 7.8516498694017915,
+          "potential": 6.098507446078644
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 9.031776569724366,
+      "identity": {
+        "complexity": "L2",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0007_S00",
+        "expression_hash": "3b37b8b15d674d0e081cc2d074f79a73981f1601972f57764a6c209d9fa6d520",
+        "family_id": "F0007",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "moderate_varying",
+        "structure_signature": "a7a7c370cc0b3b08ea3b647bc99032b53cf371f0e16f9df4d8c443b203145def",
+        "training_eligible": false
+      },
+      "tail_error_bound": 8.696971929513875e-05
+    },
+    "AMV1_F0008_S00": {
+      "T": 10.75,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.1555191197324308,
+          "d2": 4.193439244523586,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 1.6629279770806267,
+          "b_abs": 0.7821663841871914,
+          "c_R_abs": 1.757268764608295,
+          "q_abs": 4.828121455381194
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 160.58005975303374,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0008_S00:sha256=4693981f2c1bb8fd67864ab885a760b9a931d96cdb2d68a5b344f19380cbfc7a"
+        },
+        "problem_id": "AMV1_F0008_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "4693981f2c1bb8fd67864ab885a760b9a931d96cdb2d68a5b344f19380cbfc7a",
+        "shape_bounds": {
+          "d1": 7.802506296164347,
+          "d2": 38.30739859782756,
+          "value": 1.797288125343952
+        },
+        "solution_bounds": {
+          "d1": 12.93704218817977,
+          "d2": 83.64634189817977,
+          "value": 2.353565092491293
+        },
+        "support": [
+          -2.3491526240169294,
+          2.843318792111041
+        ],
+        "term_bounds": {
+          "diffusion": 139.09784212293457,
+          "drift": 10.118919510405723,
+          "potential": 11.363298119693438
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 10.670329852924132,
+      "identity": {
+        "complexity": "L2",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0008_S00",
+        "expression_hash": "03d27bfd7c1ac3eb2751de1a4abddcae8895f9097d83e73a58f810d2017c4191",
+        "family_id": "F0008",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "oscillatory",
+        "structure_signature": "c5df2baa66c03b10e6c268758b62500f4c971a3c8ddc389c7effe6d8df95467e",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.006366070004518e-05
+    },
+    "AMV1_F0009_S00": {
+      "T": 8.5,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.736912683833412,
+          "d2": 9.474843748805291,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 2.3206541273641745,
+          "b_abs": 3.2698288773041377,
+          "c_R_abs": 2.5064038546010092,
+          "q_abs": 6.616097427078
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 110.773348884619,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0009_S00:sha256=fc1240e1a972928d00e02ec5d853c026c3acb41532d854868a721ac509213a17"
+        },
+        "problem_id": "AMV1_F0009_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "fc1240e1a972928d00e02ec5d853c026c3acb41532d854868a721ac509213a17",
+        "shape_bounds": {
+          "d1": 5.452957275039489,
+          "d2": 15.849208669410602,
+          "value": 2.7285101306166886
+        },
+        "solution_bounds": {
+          "d1": 5.876857127719373,
+          "d2": 34.96775970654824,
+          "value": 1.5732772933981378
+        },
+        "support": [
+          -1.8561683889357927,
+          1.5982366918986926
+        ],
+        "term_bounds": {
+          "diffusion": 81.14807588767987,
+          "drift": 19.21631714400746,
+          "potential": 10.40895585293166
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 8.386362640400018,
+      "identity": {
+        "complexity": "L2",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0009_S00",
+        "expression_hash": "9b30ac6a86e4bde48e56b3bd2e6812294b0c5ed4247d9b0cbb2914c65946d816",
+        "family_id": "F0009",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "high_contrast",
+        "structure_signature": "75175af976a990d5aee7a22dddf041d94350cc1518a458d42bb4624d72bd5491",
+        "training_eligible": false
+      },
+      "tail_error_bound": 8.33439962305199e-05
+    },
+    "AMV1_F0010_S00": {
+      "T": 17.75,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.4155701888960077,
+          "d2": 6.293306732779795,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 1.969250775918329,
+          "b_abs": 1.1137758244640952,
+          "c_R_abs": 0.9184482959452396,
+          "q_abs": 3.4139047099773987
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 798.9816735951459,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0010_S00:sha256=55c573763b5427e34484c5dc1533411f8b3f9418ac14a0ed06a3c621aee01938"
+        },
+        "problem_id": "AMV1_F0010_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "55c573763b5427e34484c5dc1533411f8b3f9418ac14a0ed06a3c621aee01938",
+        "shape_bounds": {
+          "d1": 21.044736064138696,
+          "d2": 177.0665622133631,
+          "value": 2.7068751943105815
+        },
+        "solution_bounds": {
+          "d1": 37.046463081730664,
+          "d2": 377.78751857913136,
+          "value": 4.03111853074806
+        },
+        "support": [
+          -1.9845174702583068,
+          2.2540572377039694
+        ],
+        "term_bounds": {
+          "diffusion": 743.9583640942146,
+          "drift": 41.26145496233324,
+          "potential": 13.761854538597975
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 17.671983561940596,
+      "identity": {
+        "complexity": "L3",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0010_S00",
+        "expression_hash": "6858fdac69ed26745381ef493cb58926e810e589aeb3abfb07c038f91e182d7d",
+        "family_id": "F0010",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "constant",
+        "structure_signature": "60c2a69d2f3f9aa3e6e867ac59f65f91a27e3db41e572e950eea2c2393ff4ba1",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.318286383924471e-05
+    },
+    "AMV1_F0011_S00": {
+      "T": 16.875,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.4762560037491534,
+          "d2": 6.844463898588898,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 2.1277847645751216,
+          "b_abs": 0.6313105949111196,
+          "c_R_abs": 0.5618779708757601,
+          "q_abs": 1.9948051405151834
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 192.57871940893355,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0011_S00:sha256=e893c3b3fdc9aeaf88efa5edf5aa29f6fb0d57b0d9d0d9837514441e6e8ce8a4"
+        },
+        "problem_id": "AMV1_F0011_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "e893c3b3fdc9aeaf88efa5edf5aa29f6fb0d57b0d9d0d9837514441e6e8ce8a4",
+        "shape_bounds": {
+          "d1": 3.830623628361363,
+          "d2": 12.433609791616169,
+          "value": 1.863080077673351
+        },
+        "solution_bounds": {
+          "d1": 14.818542725018917,
+          "d2": 82.17709174597383,
+          "value": 4.19512282244754
+        },
+        "support": [
+          -2.1295076555953814,
+          1.9348280590517954
+        ],
+        "term_bounds": {
+          "diffusion": 174.85516381417509,
+          "drift": 9.355103023447537,
+          "potential": 8.368452571310918
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 16.771615441689725,
+      "identity": {
+        "complexity": "L3",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0011_S00",
+        "expression_hash": "e37d8032130eac45358f3fee00340741a3ba7ff532ca437132973f71af73722f",
+        "family_id": "F0011",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "slow_varying",
+        "structure_signature": "da23301e1539ba7fd95c302351c9c132b65432041d05b27cf4ec87c40298000f",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.138827146801429e-05
+    },
+    "AMV1_F0012_S00": {
+      "T": 12.0,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.6582140865789856,
+          "d2": 8.635694770980077,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 1.9136460883110615,
+          "b_abs": 0.3491425692283048,
+          "c_R_abs": 1.2192620178591742,
+          "q_abs": 3.5873062277525474
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 101.11976051874146,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0012_S00:sha256=cc7ed32baf920a60f02804c6e55fbcfd79a85aaa5c3710ead6454efca9482b58"
+        },
+        "problem_id": "AMV1_F0012_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "cc7ed32baf920a60f02804c6e55fbcfd79a85aaa5c3710ead6454efca9482b58",
+        "shape_bounds": {
+          "d1": 2.7268551948433353,
+          "d2": 10.328339733753802,
+          "value": 1.4870180897457828
+        },
+        "solution_bounds": {
+          "d1": 7.632854927855723,
+          "d2": 47.35128583064163,
+          "value": 2.1858192567209813
+        },
+        "support": [
+          -1.8653680593823987,
+          1.7529825797551748
+        ],
+        "term_bounds": {
+          "diffusion": 90.61360290630635,
+          "drift": 2.6649545800584744,
+          "potential": 7.841203032376621
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 11.91517731661355,
+      "identity": {
+        "complexity": "L3",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0012_S00",
+        "expression_hash": "396de395a27d7685d7b9cf9de2c1385df1bc88dbabc3942c89f7118408ff75dd",
+        "family_id": "F0012",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "moderate_varying",
+        "structure_signature": "671ee502823cc4bc9eebdca503d64503def68269192b0647a77a5a27713a0044",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.071542400390363e-05
+    },
+    "AMV1_F0013_S00": {
+      "T": 12.625,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.3808818430918284,
+          "d2": 5.988652618448714,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 1.6239392720230186,
+          "b_abs": 0.4976776016517789,
+          "c_R_abs": 0.8827394060005221,
+          "q_abs": 2.872745481823798
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 118.90118388963289,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0013_S00:sha256=cdc5990fb8f20c2c933b50a29c257f2835c881db31b3735c2647e1ace8e93970"
+        },
+        "problem_id": "AMV1_F0013_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "cdc5990fb8f20c2c933b50a29c257f2835c881db31b3735c2647e1ace8e93970",
+        "shape_bounds": {
+          "d1": 1.660045980400244,
+          "d2": 11.668995036260107,
+          "value": 0.3877480116904488
+        },
+        "solution_bounds": {
+          "d1": 8.063816312486349,
+          "d2": 68.22714241809096,
+          "value": 1.4241662417762566
+        },
+        "support": [
+          -2.260123014276637,
+          2.084926513325126
+        ],
+        "term_bounds": {
+          "diffusion": 110.79673599064546,
+          "drift": 4.013180762558698,
+          "potential": 4.09126713642872
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 12.541458162017026,
+      "identity": {
+        "complexity": "L3",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0013_S00",
+        "expression_hash": "1797ae3464605da608bea5649133e06c6ecda16bcb23ac40cdc19f6ea7a9f59c",
+        "family_id": "F0013",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "oscillatory",
+        "structure_signature": "f027087f79f70d1d685accf7d301b23a554977878578f1f1968827d51d39347d",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.116463914800546e-05
+    },
+    "AMV1_F0014_S00": {
+      "T": 18.25,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.3145901570376686,
+          "d2": 5.427462554328823,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 2.869992068816187,
+          "b_abs": 1.6794608837116256,
+          "c_R_abs": 0.48684372610507054,
+          "q_abs": 5.373882117469167
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 5397.570416635269,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0014_S00:sha256=fbbde09cd62de64e855dbc17720aaabbb3896e415ea0ea7fcd341ef443898313"
+        },
+        "problem_id": "AMV1_F0014_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "fbbde09cd62de64e855dbc17720aaabbb3896e415ea0ea7fcd341ef443898313",
+        "shape_bounds": {
+          "d1": 19.242186384669466,
+          "d2": 158.4956455846995,
+          "value": 2.5347019573311194
+        },
+        "solution_bounds": {
+          "d1": 176.30930343655083,
+          "d2": 1740.4514406134704,
+          "value": 19.796490699515427
+        },
+        "support": [
+          -2.4835176955077336,
+          2.0806424481529766
+        ],
+        "term_bounds": {
+          "diffusion": 4995.081830720367,
+          "drift": 296.10457855613083,
+          "potential": 106.38400735877065
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 18.240301827092598,
+      "identity": {
+        "complexity": "L3",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0014_S00",
+        "expression_hash": "fc0ac34bab851272afc4f16449a5a2c498858962a3106ff215c796b845065c82",
+        "family_id": "F0014",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "high_contrast",
+        "structure_signature": "30c9b6e62bc1139c2b7b8d86391d35a2ffb583cc1b2274e62280f866e6693c57",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.905663718995998e-05
+    },
+    "AMV1_F0015_S00": {
+      "T": 62.875,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.9235976998743929,
+          "d2": 11.621028910990203,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 1.5277296076586702,
+          "b_abs": 0.23287251446985258,
+          "c_R_abs": 0.15291442792141344,
+          "q_abs": 1.3384338820732795
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 52.59995158722466,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0015_S00:sha256=f3b43f453accc452639a368fcfbb3ae62e5b950b7429c56ac9052bf5e98fdf7b"
+        },
+        "problem_id": "AMV1_F0015_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "f3b43f453accc452639a368fcfbb3ae62e5b950b7429c56ac9052bf5e98fdf7b",
+        "shape_bounds": {
+          "d1": 4.114144156430702,
+          "d2": 13.889286320711678,
+          "value": 2.1684677615819776
+        },
+        "solution_bounds": {
+          "d1": 4.911653610638263,
+          "d2": 32.55525420839514,
+          "value": 1.2854850319729223
+        },
+        "support": [
+          -1.4264754514697908,
+          1.6926798689965357
+        ],
+        "term_bounds": {
+          "diffusion": 49.73562573901978,
+          "drift": 1.1437891265142626,
+          "potential": 1.7205367216906124
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 62.86430042976101,
+      "identity": {
+        "complexity": "L4",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0015_S00",
+        "expression_hash": "3a8d2719805d0d7d491b9b93efbe877dfddd1069645cd74a84b11d61d1a8ca0c",
+        "family_id": "F0015",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "constant",
+        "structure_signature": "e127c8129b809dbeded5bd0bb5b3fa87f5533a314e03bb4e4304a0ae766ea0ee",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.975129036236021e-05
+    },
+    "AMV1_F0016_S00": {
+      "T": 32.875,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.0476439528755845,
+          "d2": 3.447017628927387,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 1.631572805822022,
+          "b_abs": 0.3297286342074895,
+          "c_R_abs": 0.41133633858216,
+          "q_abs": 1.564930122368181
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 635.6169507811063,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0016_S00:sha256=69fe87efabc23de590efd4e193107140e36d2b9386730508b5e82134282b3661"
+        },
+        "problem_id": "AMV1_F0016_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "69fe87efabc23de590efd4e193107140e36d2b9386730508b5e82134282b3661",
+        "shape_bounds": {
+          "d1": 8.041416752447239,
+          "d2": 35.814618453695715,
+          "value": 2.146167808919923
+        },
+        "solution_bounds": {
+          "d1": 62.44034086353269,
+          "d2": 364.4630830676598,
+          "value": 13.023282712863601
+        },
+        "support": [
+          -3.044937207676993,
+          2.6821993672358246
+        ],
+        "term_bounds": {
+          "diffusion": 594.6480550592464,
+          "drift": 20.58836831238273,
+          "potential": 20.380527409477054
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 32.7811853990989,
+      "identity": {
+        "complexity": "L4",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0016_S00",
+        "expression_hash": "4418664720297275285a117f9a695b1595d9edad9b9770158fa4a97cd117affe",
+        "family_id": "F0016",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "slow_varying",
+        "structure_signature": "55f592a8d5af652e4ca353822c68454b49164a762a1a6fadaffc80a6565a8b57",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.54259512189358e-05
+    },
+    "AMV1_F0017_S00": {
+      "T": 61.75,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.4171421789215666,
+          "d2": 6.307291922046745,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 2.116953612522934,
+          "b_abs": 1.7207163411052782,
+          "c_R_abs": 0.7344420314448608,
+          "q_abs": 1.7262670581250656
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 204.1068591852126,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0017_S00:sha256=ed1e1cfae36199cc78cc7f707480d37de2e2e07bd25533a6d1910d01b6d56228"
+        },
+        "problem_id": "AMV1_F0017_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "ed1e1cfae36199cc78cc7f707480d37de2e2e07bd25533a6d1910d01b6d56228",
+        "shape_bounds": {
+          "d1": 2.8889265459139457,
+          "d2": 10.946189271420524,
+          "value": 1.2063461873334875
+        },
+        "solution_bounds": {
+          "d1": 14.090966793177378,
+          "d2": 81.94750051607113,
+          "value": 3.6965573069728213
+        },
+        "support": [
+          -2.1777078845785627,
+          2.0561651094254336
+        ],
+        "term_bounds": {
+          "diffusion": 173.47905725472177,
+          "drift": 24.246556822992154,
+          "potential": 6.381245107498688
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 61.72192565893274,
+      "identity": {
+        "complexity": "L4",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0017_S00",
+        "expression_hash": "bc4beb21458c5d4d47c247014a1e5b57e5bd36eb89d980f0f2df95aa1c84d73f",
+        "family_id": "F0017",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "moderate_varying",
+        "structure_signature": "b95668c648c2beea831fa800ec27bacc31f287850bb0ea03e9c0f867acf8fc8c",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.928001857514965e-05
+    },
+    "AMV1_F0018_S00": {
+      "T": 27.25,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.1421898129215142,
+          "d2": 4.09725173932935,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 2.0961443048764226,
+          "b_abs": 2.2102033744690455,
+          "c_R_abs": 2.7473729624762693,
+          "q_abs": 6.152876713622897
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 3819.219084779512,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0018_S00:sha256=6cf938e821d41e0a45e78d98d4ecf83a3f1cd72e7f62dc3e20ed5bbfcb9a78b5"
+        },
+        "problem_id": "AMV1_F0018_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "6cf938e821d41e0a45e78d98d4ecf83a3f1cd72e7f62dc3e20ed5bbfcb9a78b5",
+        "shape_bounds": {
+          "d1": 55.45854346163536,
+          "d2": 1745.3994561903053,
+          "value": 2.32044242763764
+        },
+        "solution_bounds": {
+          "d1": 54.304211704229736,
+          "d2": 1758.3966663285194,
+          "value": 2.1685100491591474
+        },
+        "support": [
+          -2.6659421049452807,
+          2.5871252330071477
+        ],
+        "term_bounds": {
+          "diffusion": 3685.853157838213,
+          "drift": 120.02335195657001,
+          "potential": 13.342574984728563
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 27.162523821684314,
+      "identity": {
+        "complexity": "L4",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0018_S00",
+        "expression_hash": "79a62e655b4b1f502c87d11e6b830a51254adb4bc1a1e1ae27e78a5a2eddff39",
+        "family_id": "F0018",
+        "original_split": "validation",
+        "policy_development_exposed": true,
+        "regime": "oscillatory",
+        "structure_signature": "d8ab98ddb3756e01651068f255af6f244990008330d54d0e30481246e395b704",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.440550808084735e-05
+    },
+    "AMV1_F0019_S00": {
+      "T": 8.375,
+      "certificate": {
+        "bump_bounds": {
+          "d1": 1.0580127989832444,
+          "d2": 3.515587619457565,
+          "value": 1.0
+        },
+        "coefficient_bounds": {
+          "a_upper": 2.2366578086902766,
+          "b_abs": 3.3954620727913682,
+          "c_R_abs": 2.6542063002190597,
+          "q_abs": 6.9060966996681055
+        },
+        "forcing_bound": {
+          "abs_upper_bound": 97.12733542814232,
+          "bounds_certification": "analytic",
+          "bounds_domain": "all_real_x",
+          "source": "all_methods_forcing_bounds_v1:AMV1_F0019_S00:sha256=77220cf5af0cd447e7d21b93e61fb621a0b06cff450306d47496006f20cace69"
+        },
+        "problem_id": "AMV1_F0019_S00",
+        "rounding": "exact_rational_upward_binary64_v1",
+        "serialized_ast_sha256": "77220cf5af0cd447e7d21b93e61fb621a0b06cff450306d47496006f20cace69",
+        "shape_bounds": {
+          "d1": 2.889358949971445,
+          "d2": 18.320471935742077,
+          "value": 1.4538454165615453
+        },
+        "solution_bounds": {
+          "d1": 4.717515697497151,
+          "d2": 31.480553212958014,
+          "value": 1.549060938337949
+        },
+        "support": [
+          -2.8752205948498917,
+          2.7957883057664628
+        ],
+        "term_bounds": {
+          "diffusion": 70.41122516565233,
+          "drift": 16.018145628649496,
+          "potential": 10.697964633840488
+        },
+        "version": "all_methods_forcing_bounds_v1"
+      },
+      "certified_T": 8.335695454233733,
+      "identity": {
+        "complexity": "L4",
+        "dataset_sha256": "68cfdd6977370b228d76f98adcc481a48b599946d1933855556b7d592b3c7fa3",
+        "equation_id": "AMV1_F0019_S00",
+        "expression_hash": "5e65487371eb77bde08a28670f164bfbebafe319b794e8a16a5d3af38cb6fa6c",
+        "family_id": "F0019",
+        "original_split": "test",
+        "policy_development_exposed": true,
+        "regime": "high_contrast",
+        "structure_signature": "686507c70eb9e7080249cedeb8834f7fb3f148e856a0374c2ec17d39cd9d5afa",
+        "training_eligible": false
+      },
+      "tail_error_bound": 9.391348049806653e-05
+    }
+  },
+  "watchdog_rationale": "No duration cutoff. Progress means a completed original MC chunk or Chernov node. 600s without a completed work unit is >150x the measured 3.858s longest-horizon F0002 chunk; all ASTs are bounded finite v1 expressions with fixed chunk<=1024,N<=8144. Telemetry/CPU stalls indicate loss of responsiveness, not slow but advancing computation. 512MiB is >2.8x the prior 179.5MiB sequential peak; one worker. Guardian and external lease enforce cleanup after controller/operator loss."
+}

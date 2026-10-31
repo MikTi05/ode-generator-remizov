@@ -1,0 +1,72 @@
+{
+  "by_split": {
+    "test": {
+      "original": 150,
+      "summary": {
+        "exact_ties": 0,
+        "mc_success_count": 141,
+        "n": 150,
+        "oracle_success_count": 147,
+        "remizov_success_count": 147,
+        "winners": {
+          "monte_carlo": 9,
+          "remizov": 141
+        }
+      }
+    },
+    "train": {
+      "original": 700,
+      "summary": {
+        "exact_ties": 0,
+        "mc_success_count": 655,
+        "n": 697,
+        "oracle_success_count": 690,
+        "remizov_success_count": 689,
+        "winners": {
+          "monte_carlo": 89,
+          "remizov": 608
+        }
+      }
+    },
+    "validation": {
+      "original": 150,
+      "summary": {
+        "exact_ties": 0,
+        "mc_success_count": 139,
+        "n": 150,
+        "oracle_success_count": 146,
+        "remizov_success_count": 146,
+        "winners": {
+          "monte_carlo": 18,
+          "remizov": 132
+        }
+      }
+    }
+  },
+  "catboost_fit_seconds": 0.4060023338533938,
+  "exact_evaluations": 0,
+  "family_topology_split_verified": true,
+  "feature_count": 253,
+  "feature_source": "results/ml_accuracy_selector_2026-10-31/run/input_features.npz",
+  "features_copied_byte_for_byte": true,
+  "fit_count": 1,
+  "no_automatic_followup_experiments": true,
+  "numerical_calls": 0,
+  "paired_summary": {
+    "exact_ties": 0,
+    "mc_success_count": 935,
+    "n": 997,
+    "oracle_success_count": 983,
+    "remizov_success_count": 982,
+    "winners": {
+      "monte_carlo": 116,
+      "remizov": 881
+    }
+  },
+  "previous_release_unchanged": true,
+  "retrospective_reanalysis": true,
+  "train_classes": {
+    "monte_carlo": 89,
+    "remizov": 608
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "attempts": [
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "base",
+      "method": "solve",
+      "problem_id": "R1"
+    },
+    {
+      "config": {
+        "dx": 0.0125,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "dx_half",
+      "method": "solve",
+      "problem_id": "R1"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 16,
+        "tail_eps": 1e-08
+      },
+      "label": "padding_double",
+      "method": "solve",
+      "problem_id": "R1"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 513,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "time_refine",
+      "method": "solve",
+      "problem_id": "R1"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-10
+      },
+      "label": "tail_refine",
+      "method": "solve",
+      "problem_id": "R1"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "base",
+      "method": "streaming",
+      "problem_id": "R1"
+    },
+    {
+      "config": {
+        "dx": 0.0125,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "dx_half",
+      "method": "streaming",
+      "problem_id": "R1"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 16,
+        "tail_eps": 1e-08
+      },
+      "label": "padding_double",
+      "method": "streaming",
+      "problem_id": "R1"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 1024,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "time_refine",
+      "method": "streaming",
+      "problem_id": "R1"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 8,
+        "n_steps": 512,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-10
+      },
+      "label": "tail_refine",
+      "method": "streaming",
+      "problem_id": "R1"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 8192,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "base",
+      "method": "solve",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.0125,
+        "n": 32,
+        "n_steps": 8192,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "dx_half",
+      "method": "solve",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 8192,
+        "num_t": 257,
+        "padding": 16,
+        "tail_eps": 1e-08
+      },
+      "label": "padding_double",
+      "method": "solve",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 8192,
+        "num_t": 513,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "time_refine",
+      "method": "solve",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 8192,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-10
+      },
+      "label": "tail_refine",
+      "method": "solve",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 8192,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "base",
+      "method": "streaming",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.0125,
+        "n": 32,
+        "n_steps": 8192,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "dx_half",
+      "method": "streaming",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 8192,
+        "num_t": 257,
+        "padding": 16,
+        "tail_eps": 1e-08
+      },
+      "label": "padding_double",
+      "method": "streaming",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 16384,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "time_refine",
+      "method": "streaming",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 8192,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-10
+      },
+      "label": "tail_refine",
+      "method": "streaming",
+      "problem_id": "AMV1_F0005_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 64,
+        "n_steps": 4096,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "base",
+      "method": "solve",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.0125,
+        "n": 64,
+        "n_steps": 4096,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "dx_half",
+      "method": "solve",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 64,
+        "n_steps": 4096,
+        "num_t": 257,
+        "padding": 16,
+        "tail_eps": 1e-08
+      },
+      "label": "padding_double",
+      "method": "solve",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 64,
+        "n_steps": 4096,
+        "num_t": 513,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "time_refine",
+      "method": "solve",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 64,
+        "n_steps": 4096,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-10
+      },
+      "label": "tail_refine",
+      "method": "solve",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 64,
+        "n_steps": 4096,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "base",
+      "method": "streaming",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.0125,
+        "n": 64,
+        "n_steps": 4096,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "dx_half",
+      "method": "streaming",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 64,
+        "n_steps": 4096,
+        "num_t": 257,
+        "padding": 16,
+        "tail_eps": 1e-08
+      },
+      "label": "padding_double",
+      "method": "streaming",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 64,
+        "n_steps": 8192,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "time_refine",
+      "method": "streaming",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 64,
+        "n_steps": 4096,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-10
+      },
+      "label": "tail_refine",
+      "method": "streaming",
+      "problem_id": "AMV1_F0006_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 2048,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "base",
+      "method": "solve",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "dx": 0.0125,
+        "n": 32,
+        "n_steps": 2048,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "dx_half",
+      "method": "solve",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 2048,
+        "num_t": 257,
+        "padding": 16,
+        "tail_eps": 1e-08
+      },
+      "label": "padding_double",
+      "method": "solve",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 2048,
+        "num_t": 513,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "time_refine",
+      "method": "solve",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 2048,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-10
+      },
+      "label": "tail_refine",
+      "method": "solve",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 2048,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "base",
+      "method": "streaming",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "dx": 0.0125,
+        "n": 32,
+        "n_steps": 2048,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "dx_half",
+      "method": "streaming",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 2048,
+        "num_t": 257,
+        "padding": 16,
+        "tail_eps": 1e-08
+      },
+      "label": "padding_double",
+      "method": "streaming",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 4096,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-08
+      },
+      "label": "time_refine",
+      "method": "streaming",
+      "problem_id": "AMV1_F0007_S00"
+    },
+    {
+      "config": {
+        "dx": 0.025,
+        "n": 32,
+        "n_steps": 2048,
+        "num_t": 257,
+        "padding": 8,
+        "tail_eps": 1e-10
+      },
+      "label": "tail_refine",
+      "method": "streaming",
+      "problem_id": "AMV1_F0007_S00"
+    }
+  ],
+  "purpose": "One-factor numerical controls around selected configurations: dx/2, padding*2, temporal nodes*2-1 or streaming steps*2, tail_eps/100. No runtime ranking from these trials. Goal changes in dx/window/quadrature/T <= 1e-3 on target grid. Streaming doubling measures time-scheme error, not quadrature alone.",
+  "rss_limit_mib": 1024,
+  "wall_seconds": 120
+}

@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-10-20T13:21:36.510821+00:00",
+  "scope": "saved-only analysis and documentation; no numerical solver runs",
+  "numerical_solver_calls": 0,
+  "pytest_runs": 0,
+  "new_profiling_runs": 0,
+  "original_files_checked": 4316,
+  "original_files_unchanged": 4315,
+  "changed_original_files": [
+    "PROJECT_STATUS.md"
+  ],
+  "removed_original_files": [],
+  "restored_status_backup_matches": true,
+  "core_matches_historical_comparison_and_production_plan": true,
+  "historical_controller_archive_matches_production_plan": true,
+  "all_protected_production_data_hashes_match": true,
+  "report_local_links_checked": 122,
+  "markdown_tables_checked": 23,
+  "markdown_table_widths_valid": true,
+  "markdown_delimiters_valid": true,
+  "python_scripts_ast_valid": [
+    "diagnostics/analyze_remizov_saved_results.py",
+    "diagnostics/plot_remizov_saved_analysis.py"
+  ],
+  "plot_png_signature_valid": true,
+  "plot_visually_inspected": true,
+  "unique_records": 1000,
+  "finite_arrays_verified": 997,
+  "errors_recomputed": true,
+  "comparison_runs_verified": 36,
+  "outcomes": {
+    "accuracy_pass": 871,
+    "accuracy_not_met": 126,
+    "worker_exception": 3
+  },
+  "artifact_sha256": {
+    "results/remizov_technical_report_2026-10-20/PROJECT_STATUS.before.md": "cf5b431fcffe8dbad19791997bec291323cbbd3b6b351826fae8969fd65e03e8",
+    "results/remizov_technical_report_2026-10-20/REPORT.md": "2157c537ff6129191f4d5ca5545485c0878af1236066ac367cfd2de12cb1ce52",
+    "results/remizov_technical_report_2026-10-20/analysis/accuracy_not_met_126.csv": "e9962dfddaf3594b0e5bb4bce17c862a17ffdbc5f4b47f1d46d693c4a2a6e308",
+    "results/remizov_technical_report_2026-10-20/analysis/all_1000.csv": "cfd38312a84d8f406c0ab202dfbf9fc18ff5f83b7483477d3a60244074fd7b2e",
+    "results/remizov_technical_report_2026-10-20/analysis/analysis.json": "16b8e2662eafc0126f298090292f20b64edb24eb6264b7bbc94ff0d501cfc02e",
+    "results/remizov_technical_report_2026-10-20/analysis/exceptions_evidence.json": "595d3c93cb76185c7e0daa5019ab36d55787ac39a88f91250d651e3a68fbf2ee",
+    "results/remizov_technical_report_2026-10-20/analysis/outliers_top20.csv": "e44c42be7a1f8caa25b6e22f33dee0b0f3bafb94dd43e5300d4e2dad0d1159f4",
+    "results/remizov_technical_report_2026-10-20/analysis/verification.json": "5a5edb82a52448a4e7f1f23232f4822927c4174bcb71d36f5f36cfec1087d1dc",
+    "results/remizov_technical_report_2026-10-20/before_sha256.json": "503fd194c5e9ae495f482b3e8f4716c7a19265c048574e8582b6ed45391f6552",
+    "results/remizov_technical_report_2026-10-20/errors_overview.png": "7505f3b8c66d8a2575b012302155bf78b3889ce76ec7457e71749d18dbf800da",
+    "results/remizov_technical_report_2026-10-20/errors_overview.svg": "743dd06ff7de993cbcf6959f2956d67431561be6aba8e02917c41d6630e5e3da",
+    "results/remizov_technical_report_2026-10-20/os_log_lookup.json": "154b051f2142be321c9ca148800e4bb75765713b4dfcbf0053b9a56a9b746725",
+    "results/remizov_technical_report_2026-10-20/os_log_lookup_direct.json": "4fedc6317bf4e1a5e225a32e07f26bbc1333d823fd45d0d3de362cf12b80c1ff"
+  },
+  "new_script_sha256": {
+    "diagnostics/analyze_remizov_saved_results.py": "351fb48e63081d2f628b16365e5b79506670c7ffb6fee408f45fdf27478aeee9",
+    "diagnostics/plot_remizov_saved_analysis.py": "d18bbb147bfd85a53872501af1e13022503f913108d8df71c74bc41582c349e9"
+  },
+  "updated_status_sha256": "f69b3e31ea9e8e99734556198c6b2828a59c4f45960682e7538f09d614b8c4ec"
+}

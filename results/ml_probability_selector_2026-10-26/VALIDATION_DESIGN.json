@@ -1,0 +1,144 @@
+{
+  "benchmark1000": false,
+  "calibration": "Do not fit a calibrator and claim its evaluation on these same8 cases; separate calibration/evaluation design before expansion",
+  "cases": [
+    {
+      "equation_id": "AMV1_F0032_S02",
+      "expression_hash": "0df44a85b14772258cd111449950087a569712d1ee411d8cef161c2cafcea7ca",
+      "family_id": "F0032",
+      "split": "validation"
+    },
+    {
+      "equation_id": "AMV1_F0041_S02",
+      "expression_hash": "9e4e468041d125c9183d6a6b47e424d8de01131e58f29354eec1a00263bf2d91",
+      "family_id": "F0041",
+      "split": "validation"
+    },
+    {
+      "equation_id": "AMV1_F0069_S00",
+      "expression_hash": "b9d9acb83c17e84183e4a609fdd9993cae38fb613e1a6b608ac4d6d66c30dded",
+      "family_id": "F0069",
+      "split": "validation"
+    },
+    {
+      "equation_id": "AMV1_F0106_S01",
+      "expression_hash": "9862fe6f750f04d9c9196c3dff3156508bb24473f1d50d71ba3ccd2a66c31ff2",
+      "family_id": "F0106",
+      "split": "validation"
+    },
+    {
+      "equation_id": "AMV1_F0133_S03",
+      "expression_hash": "40bb994a00c0baf3f354a827f2533da852598f337d490738913e7583292c9775",
+      "family_id": "F0133",
+      "split": "validation"
+    },
+    {
+      "equation_id": "AMV1_F0143_S04",
+      "expression_hash": "da63dbcee6ad52a609e0e60d5c2569ba4d7b7a865f2b187b7ec7455405745eca",
+      "family_id": "F0143",
+      "split": "validation"
+    },
+    {
+      "equation_id": "AMV1_F0189_S01",
+      "expression_hash": "7541b6a8ce89f2186d966a21c2612f6dedf3ec1083f508c65a70775e41778b1f",
+      "family_id": "F0189",
+      "split": "validation"
+    },
+    {
+      "equation_id": "AMV1_F0194_S00",
+      "expression_hash": "575f69dbc87f35aae0c5ba75dc4e8712f79a7526000ccf355ace9529b11fa667",
+      "family_id": "F0194",
+      "split": "validation"
+    }
+  ],
+  "execution_authorized": false,
+  "fresh_primary": "episode0 fixed; all4 seeds scored separately; no winner hunting",
+  "frozen_registry_sha256": "9854a71be60a42f88878da317e02947a9de857fb862e088096661449eb1684d9",
+  "full_three_profile_calls": 96,
+  "main_calls": 64,
+  "preflight_required": [
+    "canonical hashes/identities/splits",
+    "source/profile equality",
+    "analytic common G/T and actual work",
+    "new seed nonreuse",
+    "saved-output scan",
+    "resource and total-cost budget from saved scenarios"
+  ],
+  "profiles": {
+    "MC1": {
+      "aggregation": "none_single_full_call",
+      "backend": "numba",
+      "block_steps": 64,
+      "config": {
+        "M": 4096,
+        "T": null,
+        "chunk": 1024,
+        "dt": 0.0078125,
+        "max_batch_paths": 1024,
+        "max_path_steps": 100000000,
+        "max_runtime_seconds": null,
+        "max_steps": 100000,
+        "seed": null,
+        "stream_id": 0,
+        "tail_eps": 0.0001
+      },
+      "implementation": "mc_optimized.solve_monte_carlo_optimized",
+      "method": "monte_carlo"
+    },
+    "R128": {
+      "config": {
+        "T": null,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 128,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "implementation": "chernov_solver.ChernovSolver.solve",
+      "method": "remizov"
+    },
+    "R256": {
+      "config": {
+        "T": null,
+        "boundary": "zero",
+        "dx": 0.0125,
+        "interp": "cubic",
+        "max_work_grid_points": 100000,
+        "n": 256,
+        "n_jobs": 1,
+        "n_steps": 32768,
+        "num_t": 513,
+        "padding": 12.0,
+        "start_method": "spawn",
+        "t_grading": "quadratic",
+        "tail_eps": 0.0001,
+        "taper_width": null
+      },
+      "implementation": "chernov_solver.ChernovSolver.solve",
+      "method": "remizov"
+    }
+  },
+  "proposed_MC_seed_group": [
+    248800060100,
+    248800060101,
+    248800060102,
+    248800060103
+  ],
+  "purpose": "held-family diagnostic of frozen p/time heads and point/uncertainty policy; not complete calibration or per-instance reliability certification",
+  "seed_semantics": "Same4 base seeds across IDs; point_address_v1 includes equation identity, so streams differ by ID; verify nonreuse before any execution",
+  "test_outcomes_used": false,
+  "thresholds": [
+    0.5,
+    0.8,
+    0.95
+  ],
+  "timing": "one worker/thread, same cohort; full method wall; shared JIT/load separate; all4 uncensored times"
+}

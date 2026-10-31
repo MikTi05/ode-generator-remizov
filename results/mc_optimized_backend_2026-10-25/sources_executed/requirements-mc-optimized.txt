@@ -1,0 +1,4 @@
+-r requirements.txt
+# Optional backend; reference mc_solver and fused NumPy do not need Numba.
+numba==0.65.1
+llvmlite==0.47.0

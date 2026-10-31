@@ -1,0 +1,2366 @@
+{
+  "after_sha256": {
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "comparison_inputs/Chern.py": "2f56b407c78ed5b79a3c7253587e806b8200e916c051415e7c6bd6ef94b39d52",
+    "comparison_inputs/README.md": "6cbe76f2fca432ce90935bf9729eb72f5998a1b1a6a78ce35665d39ee9ace334",
+    "comparison_inputs/example.ipynb": "0a403607b31455ca7f23cd8820eab9f703694b48492e468df2846c466b7199c8",
+    "comparison_inputs/provenance.json": "095c87030f7c9c230cb1a8a1dd8cdf2f28e8bdd2328bec60831608235a06b3c6",
+    "data/generated/all_methods_equations_v1.csv": "ba498e3ee7432fa983a07d994b55b6e359c41fcb5353f20ab6c368b7bb76cd8b",
+    "data/generated/all_methods_equations_v1_metadata.jsonl": "cef44a1950345a72cc36e7b023ad6e147c16527d3d12501c5be66f5e1afb5e16",
+    "data/generated/all_methods_equations_v1_ml.npz": "1ce7d9e930138af7743bde726ba1cb68a2ef422dec406f8b901a16da10277d5a",
+    "data/generated/all_methods_equations_v1_report.json": "8fbe370a582edb6535c6f25ee903cc03fc4e7bb19bf941b7b267f5a72f40f669",
+    "data/remizov_benchmark.csv": "3a82de02fb6367706def5f3ec5e0658be11f638d6897f5da992ff799bccaee36",
+    "diagnostics/compare_chernov.py": "ca1bd751333f3c32c2c68b7c1a623af0c27d6bf86c4ecad4b2fbbd0f40cbf484",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "before_sha256": {
+    "all_methods_dataset_loader.py": "318245bd5822d9ac33b07833ad3472e13da0261654ae9f9ee9890eaf7cd71601",
+    "chernov_solver.py": "bb18147c01aefebbb248696533557e4e7d73355bf64ef39ca83dccd910404ae0",
+    "comparison_inputs/Chern.py": "2f56b407c78ed5b79a3c7253587e806b8200e916c051415e7c6bd6ef94b39d52",
+    "comparison_inputs/README.md": "6cbe76f2fca432ce90935bf9729eb72f5998a1b1a6a78ce35665d39ee9ace334",
+    "comparison_inputs/example.ipynb": "0a403607b31455ca7f23cd8820eab9f703694b48492e468df2846c466b7199c8",
+    "comparison_inputs/provenance.json": "095c87030f7c9c230cb1a8a1dd8cdf2f28e8bdd2328bec60831608235a06b3c6",
+    "data/generated/all_methods_equations_v1.csv": "ba498e3ee7432fa983a07d994b55b6e359c41fcb5353f20ab6c368b7bb76cd8b",
+    "data/generated/all_methods_equations_v1_metadata.jsonl": "cef44a1950345a72cc36e7b023ad6e147c16527d3d12501c5be66f5e1afb5e16",
+    "data/generated/all_methods_equations_v1_ml.npz": "1ce7d9e930138af7743bde726ba1cb68a2ef422dec406f8b901a16da10277d5a",
+    "data/generated/all_methods_equations_v1_report.json": "8fbe370a582edb6535c6f25ee903cc03fc4e7bb19bf941b7b267f5a72f40f669",
+    "data/remizov_benchmark.csv": "3a82de02fb6367706def5f3ec5e0658be11f638d6897f5da992ff799bccaee36",
+    "diagnostics/compare_chernov.py": "ca1bd751333f3c32c2c68b7c1a623af0c27d6bf86c4ecad4b2fbbd0f40cbf484",
+    "remizov_solver.py": "a25af37adbb9d357047f52f04d19e6b439df253c114b64b86a83a6620f0b0754",
+    "src/all_methods_dataset_v1.py": "a16a6a2e67f7b7795276b66c0e769587778a23e072a67be75b922d8d7ef0f120",
+    "src/all_methods_expressions.py": "8e4bdf5cfcc4f8d04b7b3d2d3c3543ad2933564a84c1c5097f54d91336f0fb9a"
+  },
+  "changed_or_removed": [],
+  "environment": {
+    "executable": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/bin/python",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "versions": {
+      "numpy": "2.2.6",
+      "pytest": "9.1.1",
+      "scipy": "1.15.3",
+      "sympy": "1.14.0"
+    }
+  },
+  "finished_utc": "2026-10-18T07:28:17.994823+00:00",
+  "plan": {
+    "accuracy_threshold": 0.01,
+    "attempts": [
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0000_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0000_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0001_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0001_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0002_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0002_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0003_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0003_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0004_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0004_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0005_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0005_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0006_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0006_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0007_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0007_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0008_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0008_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0009_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0009_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0010_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0010_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0011_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0011_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0012_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0012_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0013_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0013_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0014_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0014_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0015_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0015_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0016_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0016_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0017_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0017_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0018_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0018_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0019_S00"
+      },
+      {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0019_S00"
+      }
+    ],
+    "created_utc": "2026-10-18T07:20:09.890615+00:00",
+    "parameter_policy": "identical complete ChernovConfig for every equation and both schemes; only T derives from the certified gap by the unchanged formula",
+    "purpose": "One-pass coverage of both Chern schemes on all 20 existing equations; no per-equation tuning or retries",
+    "resource_policy": {
+      "automatic_retries": 0,
+      "blas_threads": 1,
+      "concurrent_solver_processes": 1,
+      "continue_after_failure": true,
+      "max_attempts": 40,
+      "poll_seconds": 0.1,
+      "worst_case_worker_wall_seconds": 2400
+    },
+    "rss_limit_mib": 512,
+    "selection_rationale": "n=128 is twice the largest selected fixed n in the preceding four-task study; 513 time nodes double its panels; K=32768 is four times its largest selected streaming K; dx is halved, padding increased from 8 to 12. No current exact errors are inspected before freezing this plan.",
+    "target_grid": {
+      "points": 33,
+      "x_max": 1.0,
+      "x_min": -1.0
+    },
+    "wall_seconds": 60.0
+  },
+  "preflight": [
+    {
+      "T": 13.142092786567558,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 13.142092786567558,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 78.69045461282312,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 78.69045461282312,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 78.815361809671,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 78.815361809671,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 29.668994613279185,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 29.668994613279185,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 13.900891641243847,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 13.900891641243847,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 25.256710982823332,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 25.256710982823332,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 15.006387621106363,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 15.006387621106363,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 12.493414362854814,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 12.493414362854814,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 14.343254607537421,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 14.343254607537421,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 11.627200077798225,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 11.627200077798225,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 21.23008581647051,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 21.23008581647051,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 22.101948742028924,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 22.101948742028924,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 16.517600671615163,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 16.517600671615163,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 17.17014873092014,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 17.17014873092014,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 19.580453802731643,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 19.580453802731643,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 88.38990302623027,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 88.38990302623027,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 39.691886096788195,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 39.691886096788195,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 79.5352387416788,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 79.5352387416788,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 29.67826435290456,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 29.67826435290456,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 11.670187361058627,
+      "operator_applications": 65536,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    },
+    {
+      "T": 11.670187361058627,
+      "operator_applications": 32768,
+      "source_width_bound": 26.0,
+      "target_points": 33,
+      "work_points": 2081
+    }
+  ],
+  "runs": [
+    {
+      "max_abs_error": 0.00042676033771160693,
+      "observed_peak_rss_mib": 80.015625,
+      "relative_error": 0.0005845148743856555,
+      "result_file": "000_AMV1_F0000_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 13.864457792020403,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0000_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 14.248527333023958
+    },
+    {
+      "max_abs_error": 0.00011254579038294521,
+      "observed_peak_rss_mib": 79.28125,
+      "relative_error": 0.00015414902162903677,
+      "result_file": "001_AMV1_F0000_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 6.820957834017463,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0000_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 7.195763500058092
+    },
+    {
+      "max_abs_error": 0.0025901720954066842,
+      "observed_peak_rss_mib": 81.453125,
+      "relative_error": 0.0022331737008239975,
+      "result_file": "002_AMV1_F0001_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 14.471288375090808,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0001_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 14.829400125076063
+    },
+    {
+      "max_abs_error": 0.0006814338873541576,
+      "observed_peak_rss_mib": 79.375,
+      "relative_error": 0.0005875131767453601,
+      "result_file": "003_AMV1_F0001_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 7.259550957940519,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0001_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 7.613270458998159
+    },
+    {
+      "max_abs_error": 0.00893517318870507,
+      "observed_peak_rss_mib": 80.9375,
+      "relative_error": 0.01211532451222034,
+      "result_file": "004_AMV1_F0002_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 15.238456458086148,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0002_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 15.591611084062606
+    },
+    {
+      "max_abs_error": 0.01181397464017267,
+      "observed_peak_rss_mib": 80.359375,
+      "relative_error": 0.016018731089148208,
+      "result_file": "005_AMV1_F0002_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 7.6236804579384625,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0002_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 8.016081499983557
+    },
+    {
+      "max_abs_error": 0.0020282980184949118,
+      "observed_peak_rss_mib": 82.859375,
+      "relative_error": 0.003202524097361738,
+      "result_file": "006_AMV1_F0003_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 15.125885499990545,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0003_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 15.494458375032991
+    },
+    {
+      "max_abs_error": 0.0017660248121399436,
+      "observed_peak_rss_mib": 80.0,
+      "relative_error": 0.0027884151963101142,
+      "result_file": "007_AMV1_F0003_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 7.487594542093575,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0003_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 7.916575041017495
+    },
+    {
+      "max_abs_error": 0.0068052263830593596,
+      "observed_peak_rss_mib": 81.765625,
+      "relative_error": 0.004902402450090758,
+      "result_file": "008_AMV1_F0004_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 15.005305292084813,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0004_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 15.39143787510693
+    },
+    {
+      "max_abs_error": 0.0015944109124181871,
+      "observed_peak_rss_mib": 79.484375,
+      "relative_error": 0.0011485942602803463,
+      "result_file": "009_AMV1_F0004_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 7.454688375000842,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0004_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 7.806092083919793
+    },
+    {
+      "max_abs_error": 0.0019458394887214014,
+      "observed_peak_rss_mib": 82.15625,
+      "relative_error": 0.0029485850670775355,
+      "result_file": "010_AMV1_F0005_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 14.656764999963343,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0005_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 15.096627500024624
+    },
+    {
+      "max_abs_error": 0.002305153486288347,
+      "observed_peak_rss_mib": 79.234375,
+      "relative_error": 0.003493063629548276,
+      "result_file": "011_AMV1_F0005_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 7.26308050006628,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0005_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 7.716237875050865
+    },
+    {
+      "max_abs_error": 0.002672342191358812,
+      "observed_peak_rss_mib": 79.65625,
+      "relative_error": 0.001808727496664773,
+      "result_file": "012_AMV1_F0006_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 14.428038458921947,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0006_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 14.79053037497215
+    },
+    {
+      "max_abs_error": 0.0005006608286006742,
+      "observed_peak_rss_mib": 80.125,
+      "relative_error": 0.00033886341731279436,
+      "result_file": "013_AMV1_F0006_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 7.239535375032574,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0006_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 7.72852258302737
+    },
+    {
+      "max_abs_error": 0.0015692493200779797,
+      "observed_peak_rss_mib": 82.21875,
+      "relative_error": 0.0013531935981950152,
+      "result_file": "014_AMV1_F0007_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 15.390657750074752,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0007_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 15.813162834034301
+    },
+    {
+      "max_abs_error": 0.00029501454799674143,
+      "observed_peak_rss_mib": 82.96875,
+      "relative_error": 0.00025439666763962576,
+      "result_file": "015_AMV1_F0007_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 7.771932917064987,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0007_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 8.32698608294595
+    },
+    {
+      "max_abs_error": 0.005002777374810086,
+      "observed_peak_rss_mib": 81.109375,
+      "relative_error": 0.004433069012674465,
+      "result_file": "016_AMV1_F0008_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 15.741861292044632,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0008_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 16.130425665993243
+    },
+    {
+      "max_abs_error": 0.001535698243001593,
+      "observed_peak_rss_mib": 79.5,
+      "relative_error": 0.0013608153599134363,
+      "result_file": "017_AMV1_F0008_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 7.990397957968526,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0008_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 8.53655037493445
+    },
+    {
+      "max_abs_error": 0.002700590707798288,
+      "observed_peak_rss_mib": 82.296875,
+      "relative_error": 0.0031825456657380963,
+      "result_file": "018_AMV1_F0009_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 16.522100874921307,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0009_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 16.96668008295819
+    },
+    {
+      "max_abs_error": 0.0008525515992669382,
+      "observed_peak_rss_mib": 80.046875,
+      "relative_error": 0.0010047003380520172,
+      "result_file": "019_AMV1_F0009_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 8.182918249978684,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0009_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 8.753489417023957
+    },
+    {
+      "max_abs_error": 0.0015601953163801863,
+      "observed_peak_rss_mib": 82.265625,
+      "relative_error": 0.0017985338819635254,
+      "result_file": "020_AMV1_F0010_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 15.671027541044168,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0010_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 16.306215042015538
+    },
+    {
+      "max_abs_error": 0.004178529927655328,
+      "observed_peak_rss_mib": 81.828125,
+      "relative_error": 0.0048168505396637175,
+      "result_file": "021_AMV1_F0010_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 7.85362187505234,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0010_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 8.329851625021547
+    },
+    {
+      "max_abs_error": 0.0030143662559578566,
+      "observed_peak_rss_mib": 80.53125,
+      "relative_error": 0.002108251818577351,
+      "result_file": "022_AMV1_F0011_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 16.15276420803275,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0011_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 16.518315000110306
+    },
+    {
+      "max_abs_error": 0.000697230663162518,
+      "observed_peak_rss_mib": 81.96875,
+      "relative_error": 0.0004876440647101054,
+      "result_file": "023_AMV1_F0011_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 8.17334141698666,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0011_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 8.616530459024943
+    },
+    {
+      "max_abs_error": 0.0026753417489928655,
+      "observed_peak_rss_mib": 80.015625,
+      "relative_error": 0.0024416134038507623,
+      "result_file": "024_AMV1_F0012_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 15.166726291994564,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0012_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 15.614167292020284
+    },
+    {
+      "max_abs_error": 0.0013538272504118876,
+      "observed_peak_rss_mib": 80.84375,
+      "relative_error": 0.0012355515934921039,
+      "result_file": "025_AMV1_F0012_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 7.841114291921258,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0012_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 8.208039042074233
+    },
+    {
+      "max_abs_error": 0.003104172080009293,
+      "observed_peak_rss_mib": 83.515625,
+      "relative_error": 0.003541490751544912,
+      "result_file": "026_AMV1_F0013_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 15.594501042040065,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0013_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 16.013443042058498
+    },
+    {
+      "max_abs_error": 0.0010932126469478942,
+      "observed_peak_rss_mib": 79.875,
+      "relative_error": 0.0012472254690939393,
+      "result_file": "027_AMV1_F0013_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 7.97249829210341,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0013_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 8.515003583044745
+    },
+    {
+      "max_abs_error": 0.005403481900934426,
+      "observed_peak_rss_mib": 82.71875,
+      "relative_error": 0.005172816549230586,
+      "result_file": "028_AMV1_F0014_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 16.249265708960593,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0014_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 16.64609900000505
+    },
+    {
+      "max_abs_error": 0.005609047151577451,
+      "observed_peak_rss_mib": 81.296875,
+      "relative_error": 0.005369606572768758,
+      "result_file": "029_AMV1_F0014_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 8.106053124996834,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0014_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 8.646572250057943
+    },
+    {
+      "max_abs_error": 0.007939518372115206,
+      "observed_peak_rss_mib": 80.15625,
+      "relative_error": 0.008798940486442263,
+      "result_file": "030_AMV1_F0015_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 16.25735279195942,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0015_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 16.859244875027798
+    },
+    {
+      "max_abs_error": 0.008152239289553831,
+      "observed_peak_rss_mib": 82.71875,
+      "relative_error": 0.00903468761933355,
+      "result_file": "031_AMV1_F0015_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 7.913231457932852,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0015_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 8.412055250024423
+    },
+    {
+      "max_abs_error": 0.001015881927066125,
+      "observed_peak_rss_mib": 81.578125,
+      "relative_error": 0.0012656378481942941,
+      "result_file": "032_AMV1_F0016_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 15.002998083014973,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0016_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 15.395208292058669
+    },
+    {
+      "max_abs_error": 0.0007957928958384208,
+      "observed_peak_rss_mib": 79.28125,
+      "relative_error": 0.000991439636303015,
+      "result_file": "033_AMV1_F0016_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 7.598145458032377,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0016_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 8.02147762500681
+    },
+    {
+      "max_abs_error": 0.008556145250840919,
+      "observed_peak_rss_mib": 80.578125,
+      "relative_error": 0.006590565929019583,
+      "result_file": "034_AMV1_F0017_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 16.474634459009394,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0017_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 16.93992579204496
+    },
+    {
+      "max_abs_error": 0.007636132845824206,
+      "observed_peak_rss_mib": 82.015625,
+      "relative_error": 0.005881905401057814,
+      "result_file": "035_AMV1_F0017_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 8.222853582934476,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0017_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 8.632840208010748
+    },
+    {
+      "max_abs_error": 0.005801540897794333,
+      "observed_peak_rss_mib": 80.25,
+      "relative_error": 0.010058795466524367,
+      "result_file": "036_AMV1_F0018_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 17.145825000014156,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0018_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 17.59510862501338
+    },
+    {
+      "max_abs_error": 0.01746071490322118,
+      "observed_peak_rss_mib": 82.203125,
+      "relative_error": 0.03027363988377109,
+      "result_file": "037_AMV1_F0018_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 8.71988374995999,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0018_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 9.143732042051852
+    },
+    {
+      "max_abs_error": 0.00029858680980077157,
+      "observed_peak_rss_mib": 81.03125,
+      "relative_error": 0.000294765857689986,
+      "result_file": "038_AMV1_F0019_S00_solve.result.json",
+      "returncode": 0,
+      "runtime_seconds": 15.724465499981306,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "solve",
+        "problem_id": "AMV1_F0019_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 16.108611583942547
+    },
+    {
+      "max_abs_error": 0.00013679126170695888,
+      "observed_peak_rss_mib": 82.203125,
+      "relative_error": 0.00013504077292781632,
+      "result_file": "039_AMV1_F0019_S00_streaming.result.json",
+      "returncode": 0,
+      "runtime_seconds": 8.17301425000187,
+      "spec": {
+        "config": {
+          "T": null,
+          "boundary": "taper",
+          "dx": 0.0125,
+          "interp": "cubic",
+          "max_work_grid_points": 100000,
+          "n": 128,
+          "n_jobs": 1,
+          "n_steps": 32768,
+          "num_t": 513,
+          "padding": 12.0,
+          "start_method": "spawn",
+          "t_grading": "quadratic",
+          "tail_eps": 1e-08,
+          "taper_width": null
+        },
+        "method": "streaming",
+        "problem_id": "AMV1_F0019_S00"
+      },
+      "status": "success",
+      "worker_wall_seconds": 8.633603374939412
+    }
+  ],
+  "started_utc": "2026-10-18T07:20:12.018095+00:00"
+}
