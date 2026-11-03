@@ -1,0 +1,27 @@
+{
+  "restore_commit": "3038d6a35220cc29173c4d4aa2070f1ca2637481",
+  "manifest_unchanged": true,
+  "algorithm_change": false,
+  "solver_adaptations": [
+    "TYPE_CHECKING import: dataset_loader.CauchyProblem -> src.problem_types.CauchyProblem",
+    "matching wrapper type documentation"
+  ],
+  "unit_test_adaptations": [
+    "qualified package imports",
+    "qualified unittest.mock.patch targets"
+  ],
+  "files": [
+    {
+      "source": "migration_input/rk4_product_integral_transfer/rk4_solver.py",
+      "destination": "src/numerical_methods/rk4_solver.py",
+      "source_sha256": "c90da82321ac55df20325e26eac94aff58d84fb5601bf245019770d6f93f31c0",
+      "destination_sha256": "1353fcbdfbfab4acc58dfca81c7c07ac215798959d9b9d810ca8be6147b82fdf"
+    },
+    {
+      "source": "migration_input/rk4_product_integral_transfer/product_integral_solver.py",
+      "destination": "src/numerical_methods/product_integral_solver.py",
+      "source_sha256": "982cace11896b3f3b9495fc2fdfae7fc148d4fbb557932179f749e94a5b187a8",
+      "destination_sha256": "a2c1d2f60095a8855b0c7da3bee5231199cc8c29133d9c64a32b7e586a09a6fd"
+    }
+  ]
+}

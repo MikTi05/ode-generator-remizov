@@ -1,0 +1,42 @@
+{
+  "schema": "independent_four_method_saved_verification_v1",
+  "equations": 1000,
+  "new_records_checked": 2000,
+  "old_R_records_checked": 1000,
+  "old_MC_seed_records_checked": 4000,
+  "initial_conditions_checked": 1000,
+  "finite_scalar_input_probes": 12000,
+  "full_numerical_grids_checked": 2000,
+  "complete_rows": 997,
+  "incomplete_rows": 3,
+  "winner_counts": {
+    "remizov": 0,
+    "monte_carlo": 0,
+    "rk4": 997,
+    "product_integral": 0
+  },
+  "exact_ties": 0,
+  "statuses": {
+    "rk4": {
+      "success": 1000
+    },
+    "product_integral": {
+      "success": 1000
+    }
+  },
+  "group_tables_checked": [
+    "complexity",
+    "regime",
+    "complexity_regime",
+    "family",
+    "original_split",
+    "latest_split"
+  ],
+  "test_ids_preserved": 150,
+  "family_leakage": false,
+  "physical_solver_calls_in_series": 2000,
+  "new_solver_calls_in_verifier": 0,
+  "R_or_MC_recomputations": 0,
+  "resume_without_recomputation_verified": true,
+  "ml_training": false
+}

@@ -1,0 +1,16 @@
+{
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests",
+  "passed": 713,
+  "failed": 2,
+  "subtests_passed": 708,
+  "warnings": 2,
+  "seconds": 70.02,
+  "exit_code": 1,
+  "R1_included": true,
+  "deselected": 0,
+  "existing_tests_modified": false,
+  "failures": [
+    "tests/test_final140_protocol.py::test_no_approval_no_worker_no_solver",
+    "tests/test_final140_protocol.py::test_saved_only_empty_analysis_never_invents_outcomes"
+  ]
+}

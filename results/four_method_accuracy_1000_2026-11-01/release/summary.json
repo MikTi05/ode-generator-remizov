@@ -1,0 +1,110 @@
+{
+  "schema": "four_method_accuracy_release_v1",
+  "rows": 1000,
+  "complete_rows": 997,
+  "incomplete_rows": 3,
+  "method_statistics": [
+    {
+      "method": "remizov",
+      "equations": 1000,
+      "usable": 997,
+      "failures": 3,
+      "accurate": 982,
+      "mean": 1.1269149443831863,
+      "median": 0.0011862543142486803,
+      "maximum": 842.0865810144144
+    },
+    {
+      "method": "monte_carlo",
+      "equations": 1000,
+      "usable": 1000,
+      "failures": 0,
+      "accurate": 938,
+      "mean": 0.01806391581977115,
+      "median": 0.00918753330859462,
+      "maximum": 0.5697637347981473
+    },
+    {
+      "method": "rk4",
+      "equations": 1000,
+      "usable": 1000,
+      "failures": 0,
+      "accurate": 1000,
+      "mean": 1.784385222449652e-07,
+      "median": 6.191011684211767e-09,
+      "maximum": 4.5873165057231866e-05
+    },
+    {
+      "method": "product_integral",
+      "equations": 1000,
+      "usable": 1000,
+      "failures": 0,
+      "accurate": 760,
+      "mean": 0.045614904819069255,
+      "median": 0.017378131286853782,
+      "maximum": 1.9852741861585637
+    }
+  ],
+  "winners": [
+    {
+      "method": "remizov",
+      "wins": 0
+    },
+    {
+      "method": "monte_carlo",
+      "wins": 0
+    },
+    {
+      "method": "rk4",
+      "wins": 997
+    },
+    {
+      "method": "product_integral",
+      "wins": 0
+    }
+  ],
+  "exact_ties": 0,
+  "tie_order": [
+    "remizov",
+    "monte_carlo",
+    "rk4",
+    "product_integral"
+  ],
+  "original_split": {
+    "validation": 150,
+    "train": 697,
+    "test": 150
+  },
+  "latest_split": {
+    "train": 747,
+    "test": 150,
+    "validation": 100
+  },
+  "previous_test_ids_preserved": true,
+  "families": 200,
+  "primary_metric": "absolute_error_at_x0",
+  "epsilon": 0.05,
+  "feature_generation": false,
+  "ml_training": false,
+  "new_R_or_MC_calls": 0,
+  "producer_sessions": [
+    {
+      "finished_utc": "2026-10-31T22:11:01.795745+00:00",
+      "new_solver_calls": 2000,
+      "skipped_valid_records": 0,
+      "total_records": 2000,
+      "wall_seconds": 308.4323937918525,
+      "peak_rss_mib": 219.578125,
+      "complete": true
+    },
+    {
+      "finished_utc": "2026-10-31T22:11:25.662219+00:00",
+      "new_solver_calls": 0,
+      "skipped_valid_records": 2000,
+      "total_records": 2000,
+      "wall_seconds": 0.0009876249823719263,
+      "peak_rss_mib": 265.109375,
+      "complete": true
+    }
+  ]
+}

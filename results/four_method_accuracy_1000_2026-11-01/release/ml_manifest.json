@@ -1,0 +1,43 @@
+{
+  "labels_file": "ml_four_methods.csv",
+  "rows": 997,
+  "target": "best_method",
+  "join_keys": [
+    "dataset_sha256",
+    "equation_id",
+    "expression_hash"
+  ],
+  "feature_builder": "ml.remizov_features.load_inputs",
+  "feature_builder_sha256": "caafd44f886e54d0fe78f28f6bc235045035d8f25f2e857eec61397cef518828",
+  "input_dataset": "data/all_methods_v1_1000_2026-10-18",
+  "feature_generation": false,
+  "permitted_npz_entries": [
+    "X",
+    "x_grid",
+    "equation_id",
+    "family_id",
+    "split"
+  ],
+  "coefficient_channels": [
+    "a",
+    "b",
+    "c",
+    "g"
+  ],
+  "coefficient_metadata_fields": [
+    "a_lower_cert",
+    "a_upper_cert",
+    "b_abs_cert",
+    "remizov_c_abs_cert",
+    "remizov_lambda"
+  ],
+  "permitted_ast_roles": [
+    "a_raw",
+    "b_raw",
+    "c_raw"
+  ],
+  "forbidden_as_features": "all E_, y0_method, status_, usable_, accuracy_met_, seconds_, failure_reason_, diagnostics_, best_method, exact solutions, solver answers, solution AST; IDs/splits are join/group fields",
+  "split_policy": "existing original and latest membership retained; no new split; previous Test already disclosed",
+  "previous_test_ids": "previous_test_ids.json",
+  "ml_training": false
+}

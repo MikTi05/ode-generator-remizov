@@ -1,0 +1,39 @@
+{
+  "candidate_id": "new__augmented__classifier__w1__baseline",
+  "threshold": 0.2006671072130637,
+  "confusion_matrix": [
+    [
+      127,
+      14
+    ],
+    [
+      3,
+      6
+    ]
+  ],
+  "cases": {
+    "FN": 3,
+    "FP": 14,
+    "TP": 6
+  },
+  "false_positive_sum_regret": 0.248645740919119,
+  "false_negative_sum_regret": 0.007545289608040247,
+  "true_positive_sum_saving": 248.2523548967466,
+  "epsilon_harmed_ids": [
+    "AMV1_F0180_S01",
+    "AMV1_F0180_S02"
+  ],
+  "epsilon_rescued_ids": [],
+  "both_inaccurate_true_positive_ids": [
+    "AMV1_F0070_S04",
+    "AMV1_F0180_S04"
+  ],
+  "total_excess_error": 0.2561910305271593,
+  "sensitivity_excluding_only_largest_R_error": {
+    "n": 149,
+    "omitted_id": "AMV1_F0180_S04",
+    "always_R_mean": 0.0034982569431481238,
+    "selected_mean": 0.004949844929084751,
+    "scope": "post-hoc sensitivity only; omitted row remains in all primary metrics"
+  }
+}

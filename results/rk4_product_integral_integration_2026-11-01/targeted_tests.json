@@ -1,0 +1,9 @@
+{
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_rk4_solver.py tests/test_product_integral_solver.py tests/test_numerical_methods_integration.py tests/test_all_methods_remizov_pipeline.py",
+  "passed": 48,
+  "subtests_passed": 25,
+  "warnings": 2,
+  "seconds": 19.06,
+  "exit_code": 0,
+  "warning": "existing invalid escape sequence in src/all_methods_expressions.py, also encountered by AST import-isolation check"
+}

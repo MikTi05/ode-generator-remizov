@@ -1,0 +1,28 @@
+{
+  "before": {
+    "records": 2000,
+    "sha256": "4baf3967f5cd3e6e7b69f8019ec07f125a607358bcbed38bdff698227e8e4c4e"
+  },
+  "after": {
+    "records": 2000,
+    "sha256": "4baf3967f5cd3e6e7b69f8019ec07f125a607358bcbed38bdff698227e8e4c4e"
+  },
+  "unchanged": true,
+  "command": [
+    "/Users/mikti/Documents/vsc projects/ode-generator-remizov/.venv/bin/python",
+    "-B",
+    "diagnostics/run_rk4_product_integral_mass.py",
+    "run",
+    "--out",
+    "results/four_method_accuracy_1000_2026-11-01"
+  ],
+  "session": {
+    "finished_utc": "2026-10-31T22:11:25.662219+00:00",
+    "new_solver_calls": 0,
+    "skipped_valid_records": 2000,
+    "total_records": 2000,
+    "wall_seconds": 0.0009876249823719263,
+    "peak_rss_mib": 265.109375,
+    "complete": true
+  }
+}

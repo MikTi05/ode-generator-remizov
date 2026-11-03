@@ -1,0 +1,35 @@
+{
+  "schema": "four_method_mass_integrity_v1",
+  "previous_files": 22856,
+  "unchanged_previous_files": 22855,
+  "changed_previous_files": [
+    "PROJECT_STATUS.md"
+  ],
+  "protected_counts": {
+    "results/": 22005,
+    "data/": 10,
+    "ml/": 19,
+    "src/numerical_methods/": 3,
+    "migration_input/": 5,
+    "diagnostics/": 143,
+    "tests/": 68
+  },
+  "previous_status_history_preserved": true,
+  "protected_files_unchanged": true,
+  "core_matches_manifest": true,
+  "pinned_plan_sources_unchanged": true,
+  "task_sources_sha256": {
+    "diagnostics/four_method_common.py": "1b08a50772f2ac7e2811a4128833e9bfb7a0d5232d0c016a881e3de52f592c9b",
+    "diagnostics/run_rk4_product_integral_mass.py": "40e3d8e6bcf1f5dc20f5942d39cb021da2bd645861299f11457da0f1329e8806",
+    "diagnostics/report_four_method_accuracy.py": "d2d47e96bb5715925b7b352a20799f74ef5b0dc0752d453bf8e8294a1b1aac28",
+    "diagnostics/verify_four_method_accuracy.py": "0c9f7b237cd4a3614360eb44ef564f8e437611b46dce6dbf1072108e3f3e7d55",
+    "tests/test_four_method_accuracy.py": "097b3095a4fb398fe08218339d461abb2b2487f94e20cb61bfcbf043daa9c00a"
+  },
+  "report_sha256": "0f9524fdb3aa7c198251198c1bb9cd9ed89beec812936d8ff358da1d01a06cd5",
+  "changed_status": {
+    "before": "2f1b9ccb86a17e283210f0c2dee05146f010c3e7ece9ee635315e2aa77e2e737",
+    "after": "eb6c477de54edc13fbb578fed543792dd202f12b1be17af5839f553efeb84903"
+  },
+  "new_R_or_MC_calls": 0,
+  "ml_training": false
+}

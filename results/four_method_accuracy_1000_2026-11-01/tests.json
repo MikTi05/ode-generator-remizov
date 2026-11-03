@@ -1,0 +1,10 @@
+{
+  "passed": 45,
+  "warnings": 2,
+  "subtests_passed": 25,
+  "seconds": 3.63,
+  "exit_code": 0,
+  "production_solver_calls": 0,
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_four_method_accuracy.py tests/test_rk4_solver.py tests/test_product_integral_solver.py tests/test_numerical_methods_integration.py::test_solver_copy_only_adapts_type_import_and_documentation tests/test_numerical_methods_integration.py::test_transferred_unit_tests_only_adapt_imports_and_patch_targets tests/test_numerical_methods_integration.py::test_wrapper_forwards_original_ivp_without_exact_or_resolvent_substitution tests/test_numerical_methods_integration.py::test_qualified_package_creates_no_forbidden_top_level_modules tests/test_all_methods_remizov_pipeline.py::test_working_components_import_only_from_this_project tests/test_all_methods_remizov_pipeline.py::test_mathematical_core_matches_import_manifest",
+  "notes": "Existing unit problems and data/interface checks only; no repeated production integration series. Two pre-existing final140 failures are outside scope and were not repaired or rerun."
+}

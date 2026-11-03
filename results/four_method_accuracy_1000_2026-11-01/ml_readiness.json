@@ -1,0 +1,25 @@
+{
+  "schema": "four_method_ml_readiness_v1",
+  "rows": 997,
+  "expected_methods": [
+    "remizov",
+    "monte_carlo",
+    "rk4",
+    "product_integral"
+  ],
+  "observed_classes": [
+    "rk4"
+  ],
+  "counts": {
+    "remizov": 0,
+    "monte_carlo": 0,
+    "rk4": 997,
+    "product_integral": 0
+  },
+  "four_method_labels_ready": true,
+  "four_class_learning_informative": false,
+  "reason": "single observed target class: all 997 labels are rk4",
+  "baseline": "always rk4 for this frozen comparison context",
+  "no_parameter_changes": true,
+  "ml_training": false
+}

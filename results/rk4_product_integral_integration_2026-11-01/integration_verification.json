@@ -1,0 +1,73 @@
+{
+  "schema": "saved_only_numerical_methods_integration_verification_v1",
+  "solver_calls": 0,
+  "primary_attempts_checked": 10,
+  "expected_guard_failures_checked": 2,
+  "stored_initial_conditions_match_csv": true,
+  "zero_node_exact": true,
+  "unrounded_errors_recomputed": true,
+  "epsilon": 0.05,
+  "core_matches_migration_manifest": true,
+  "cases": [
+    {
+      "equation_id": "AMV1_F0001_S00",
+      "method": "rk4",
+      "absolute_error_at_zero": 9.659367750103343e-11,
+      "E_inf_grid33": 2.5867782360577962e-09
+    },
+    {
+      "equation_id": "AMV1_F0001_S00",
+      "method": "product_integral_left_exponential",
+      "absolute_error_at_zero": 0.009896089801567587,
+      "E_inf_grid33": 0.05156168660320826
+    },
+    {
+      "equation_id": "AMV1_F0060_S00",
+      "method": "rk4",
+      "absolute_error_at_zero": 4.053511604151794e-08,
+      "E_inf_grid33": 1.4291649186315425e-07
+    },
+    {
+      "equation_id": "AMV1_F0060_S00",
+      "method": "product_integral_left_exponential",
+      "absolute_error_at_zero": 0.004181168532201185,
+      "E_inf_grid33": 0.006084782355443963
+    },
+    {
+      "equation_id": "AMV1_F0122_S00",
+      "method": "rk4",
+      "absolute_error_at_zero": 3.0122018213063484e-08,
+      "E_inf_grid33": 5.8666309143973194e-08
+    },
+    {
+      "equation_id": "AMV1_F0122_S00",
+      "method": "product_integral_left_exponential",
+      "absolute_error_at_zero": 0.07824526944081656,
+      "E_inf_grid33": 0.1390889199703771
+    },
+    {
+      "equation_id": "AMV1_F0134_S03",
+      "method": "rk4",
+      "absolute_error_at_zero": 2.1859783497224505e-07,
+      "E_inf_grid33": 7.392186546148483e-07
+    },
+    {
+      "equation_id": "AMV1_F0134_S03",
+      "method": "product_integral_left_exponential",
+      "absolute_error_at_zero": 0.13156399482108558,
+      "E_inf_grid33": 0.33874559265086157
+    },
+    {
+      "equation_id": "AMV1_F0192_S00",
+      "method": "rk4",
+      "absolute_error_at_zero": 2.5858567576086955e-07,
+      "E_inf_grid33": 1.1021182320103406e-06
+    },
+    {
+      "equation_id": "AMV1_F0192_S00",
+      "method": "product_integral_left_exponential",
+      "absolute_error_at_zero": 0.146380640582834,
+      "E_inf_grid33": 0.5778514007660418
+    }
+  ]
+}

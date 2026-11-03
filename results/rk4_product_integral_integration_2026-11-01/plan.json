@@ -1,0 +1,103 @@
+{
+  "a_min": 0.001,
+  "attempts": "ten primary solves, two expected guard failures with a_min=a_upper_cert+1; tests may repeat this fixed check",
+  "cases": [
+    {
+      "complexity_level": "L1",
+      "equation_id": "AMV1_F0001_S00",
+      "regime": "constant",
+      "split": "train"
+    },
+    {
+      "complexity_level": "L2",
+      "equation_id": "AMV1_F0060_S00",
+      "regime": "slow_varying",
+      "split": "train"
+    },
+    {
+      "complexity_level": "L3",
+      "equation_id": "AMV1_F0122_S00",
+      "regime": "moderate_varying",
+      "split": "train"
+    },
+    {
+      "complexity_level": "L3",
+      "equation_id": "AMV1_F0134_S03",
+      "regime": "oscillatory",
+      "split": "train"
+    },
+    {
+      "complexity_level": "L4",
+      "equation_id": "AMV1_F0192_S00",
+      "regime": "high_contrast",
+      "split": "train"
+    }
+  ],
+  "dataset_dir": "data/all_methods_v1_1000_2026-10-18",
+  "date": "2026-11-01",
+  "environment": {
+    "numpy": "2.2.6",
+    "python": "3.10.11",
+    "scipy": "1.15.3"
+  },
+  "epsilon": 0.05,
+  "evaluation_grid": [
+    -1.0,
+    -0.9375,
+    -0.875,
+    -0.8125,
+    -0.75,
+    -0.6875,
+    -0.625,
+    -0.5625,
+    -0.5,
+    -0.4375,
+    -0.375,
+    -0.3125,
+    -0.25,
+    -0.1875,
+    -0.125,
+    -0.0625,
+    0.0,
+    0.0625,
+    0.125,
+    0.1875,
+    0.25,
+    0.3125,
+    0.375,
+    0.4375,
+    0.5,
+    0.5625,
+    0.625,
+    0.6875,
+    0.75,
+    0.8125,
+    0.875,
+    0.9375,
+    1.0
+  ],
+  "failure_probe": "same first loaded CauchyProblem, elevated a_min only; not an accuracy experiment",
+  "h": 0.015625,
+  "initial_git_status": "",
+  "interval": [
+    -1.0,
+    1.0
+  ],
+  "mass_benchmark": false,
+  "ml_training": false,
+  "n_steps": 128,
+  "resources": {
+    "blas_threads": 1,
+    "estimated_primary_pi_expm_evals": 640,
+    "estimated_primary_rk4_rhs_evals": 2560,
+    "processes": 1,
+    "trajectory_points_per_success": 129
+  },
+  "restore_commit": "3038d6a35220cc29173c4d4aa2070f1ca2637481",
+  "retry_policy": "none; no step refinement or parameter tuning",
+  "schema": "rk4_product_integral_integration_v1",
+  "selection": "predeclared train cases across all five regimes and L1-L4; oscillatory case has historical R worker_exception; no solution errors used",
+  "target_x": [
+    0.0
+  ]
+}

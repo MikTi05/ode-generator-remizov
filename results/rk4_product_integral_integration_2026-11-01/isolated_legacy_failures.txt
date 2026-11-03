@@ -1,0 +1,58 @@
+FF                                                                       [100%]
+=================================== FAILURES ===================================
+_____________________ test_no_approval_no_worker_no_solver _____________________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x1073207c0>
+
+    def test_no_approval_no_worker_no_solver(monkeypatch):
+        def forbidden(*a,**k):pytest.fail('execution forbidden in protocol preparation')
+        monkeypatch.setattr(run,'GuardedProcess',forbidden)
+        monkeypatch.setattr(run,'run_authorized',forbidden)
+        # Approval guard itself does not need a thermal sensor.
+        monkeypatch.setattr(run,'preflight',lambda out: {})
+>       with pytest.raises(PermissionError,match='Separate start'):run.execute(OUT)
+
+tests/test_final140_protocol.py:61: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+diagnostics/run_final140.py:120: in execute
+    check_authorization(out);return run_authorized(out)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = (PosixPath('/Users/mikti/Documents/vsc projects/ode-generator-remizov/results/ml_selector_final140_protocol_2026-10-27'),)
+k = {}
+
+>   def forbidden(*a,**k):pytest.fail('execution forbidden in protocol preparation')
+E   Failed: execution forbidden in protocol preparation
+
+tests/test_final140_protocol.py:56: Failed
+____________ test_saved_only_empty_analysis_never_invents_outcomes _____________
+
+    def test_saved_only_empty_analysis_never_invents_outcomes():
+        r=evaluate.analyze(OUT)
+>       assert r['status']=='not_executed' and not r['final_evaluation_complete'] and r['records']==r['requests']==0
+E       AssertionError: assert ('complete' == 'not_executed'
+E         
+E         - not_executed
+E         + complete)
+
+tests/test_final140_protocol.py:245: AssertionError
+=============================== warnings summary ===============================
+tests/test_final140_protocol.py::test_saved_only_empty_analysis_never_invents_outcomes
+  /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:1: DeprecationWarning: invalid escape sequence '\i'
+    """Safe expression trees and analytic derivatives for ``all_methods_v1``.
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_final140_protocol.py::test_no_approval_no_worker_no_solver
+FAILED tests/test_final140_protocol.py::test_saved_only_empty_analysis_never_invents_outcomes
+2 failed, 1 warning in 0.69s
+{
+  "exit_code": 1,
+  "tests": 2,
+  "new_numerical_methods_imported": [],
+  "old_files_match_before_sha256": true,
+  "authorization_already_exists": true,
+  "saved_records": 140,
+  "saved_requests": 140,
+  "cause": "two old tests assume an unexecuted/unapproved final140 directory, but the immutable saved series is authorized and complete"
+}

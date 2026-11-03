@@ -1,0 +1,488 @@
+{
+  "saved_models_loaded": 96,
+  "prediction_calls": 96,
+  "fit_calls": 0,
+  "policy_selection_changed": false,
+  "score_audits": [
+    {
+      "candidate_id": "new__X__classifier__w1__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w1__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w1__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w2__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w2__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w2__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w3__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w3__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w3__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w5__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w5__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w5__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w8__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w8__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w8__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w12__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w12__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__classifier__w12__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__raw__w1__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__raw__w1__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__raw__w1__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__asinh__w1__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__asinh__w1__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__X__asinh__w1__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w1__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w1__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w1__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w2__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w2__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w2__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w3__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w3__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w3__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w5__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w5__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w5__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w8__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w8__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w8__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w12__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w12__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w12__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__raw__w1__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__raw__w1__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__raw__w1__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__asinh__w1__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__asinh__w1__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "new__augmented__asinh__w1__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w1__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w1__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w1__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w2__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w2__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w2__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w3__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w3__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w3__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w5__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w5__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w5__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w8__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w8__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w8__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w12__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w12__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__classifier__w12__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__raw__w1__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__raw__w1__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__raw__w1__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__asinh__w1__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__asinh__w1__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__X__asinh__w1__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w1__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w1__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w1__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w2__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w2__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w2__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w3__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w3__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w3__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w5__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w5__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w5__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w8__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w8__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w8__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w12__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w12__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__classifier__w12__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__raw__w1__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__raw__w1__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__raw__w1__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__asinh__w1__baseline",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__asinh__w1__medium",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    },
+    {
+      "candidate_id": "old__augmented__asinh__w1__deeper",
+      "validation_max_difference": 0.0,
+      "test_max_difference": 0.0
+    }
+  ]
+}

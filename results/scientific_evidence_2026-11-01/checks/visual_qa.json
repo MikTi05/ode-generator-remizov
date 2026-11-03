@@ -1,0 +1,19 @@
+{
+  "all_figures_reviewed": true,
+  "figures": 14,
+  "formats": ["PNG", "PDF"],
+  "inspection": "All three contact sheets visually inspected through view_image; plot sources checked for scales and point inclusion.",
+  "contact_sheets": ["contact_sheet_1.png", "contact_sheet_2.png", "contact_sheet_3.png"],
+  "checks": [
+    "Russian text and equation IDs legible at full output resolution",
+    "Titles, axes, labels and legends do not overlap or clip",
+    "Train/Validation/Test are distinguished; Train is in-sample",
+    "Diagnostic258 is distinguished from the Validation-selected model",
+    "All 23 highlighted cases and 17 incorrect choices are represented",
+    "Log scales retain all positive E0 observations; no error-floor substitution",
+    "Trajectory symlog retains zero initial error with linthresh=1e-10",
+    "IQR is descriptive spread of tasks, not a confidence interval",
+    "Outlier sensitivity is explicitly post-hoc, original row retained in primary metrics"
+  ],
+  "remaining_visual_defects": []
+}

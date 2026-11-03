@@ -1,0 +1,323 @@
+{
+  "diagnostic_candidate": {
+    "config": {
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "name": "baseline"
+    },
+    "feature_set": "augmented",
+    "fit_seconds": 0.36037045903503895,
+    "id": "new__augmented__classifier__w1__baseline",
+    "kind": "classifier",
+    "model": "models/new__augmented__classifier__w1__baseline.cbm",
+    "model_sha256": "255c29a2caa087538ae2b589cd0fdc2ae693c7f73de3babe4ac7803ff9e46c18",
+    "scale": 1.0,
+    "scenario": "new",
+    "threshold": 0.2006671072130637,
+    "weight": 1
+  },
+  "diagnostic_cases": {
+    "candidate_id": "new__augmented__classifier__w1__baseline",
+    "threshold": 0.2006671072130637,
+    "confusion_matrix": [
+      [
+        127,
+        14
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "cases": {
+      "FN": 3,
+      "FP": 14,
+      "TP": 6
+    },
+    "false_positive_sum_regret": 0.248645740919119,
+    "false_negative_sum_regret": 0.007545289608040247,
+    "true_positive_sum_saving": 248.2523548967466,
+    "epsilon_harmed_ids": [
+      "AMV1_F0180_S01",
+      "AMV1_F0180_S02"
+    ],
+    "epsilon_rescued_ids": [],
+    "both_inaccurate_true_positive_ids": [
+      "AMV1_F0070_S04",
+      "AMV1_F0180_S04"
+    ],
+    "total_excess_error": 0.2561910305271593,
+    "sensitivity_excluding_only_largest_R_error": {
+      "n": 149,
+      "omitted_id": "AMV1_F0180_S04",
+      "always_R_mean": 0.0034982569431481238,
+      "selected_mean": 0.004949844929084751,
+      "scope": "post-hoc sensitivity only; omitted row remains in all primary metrics"
+    }
+  },
+  "selected_on_validation": {
+    "new": {
+      "accuracy": 0.88,
+      "balanced_accuracy": 0.5711759504862953,
+      "candidate_id": "new__X__classifier__w1__baseline",
+      "class_order": [
+        "remizov",
+        "monte_carlo"
+      ],
+      "confusion_matrix": [
+        [
+          86,
+          1
+        ],
+        [
+          11,
+          2
+        ]
+      ],
+      "macro_f1": 0.5923913043478262,
+      "max_regret": 0.035975937531931845,
+      "mc_correct": 2,
+      "mc_f1": 0.25,
+      "mc_false": 1,
+      "mc_missed": 11,
+      "mc_precision": 0.6666666666666666,
+      "mc_predictions": 3,
+      "mc_recall": 0.15384615384615385,
+      "mean_error": 0.0033090238375156635,
+      "mean_regret": 0.0007103512814988237,
+      "median_error": 0.0010565288791297284,
+      "median_regret": 0.0,
+      "n": 100,
+      "policy": "grid_0.25",
+      "recall": {
+        "monte_carlo": 0.15384615384615385,
+        "remizov": 0.9885057471264368
+      },
+      "scenario": "new",
+      "selection_counts": {
+        "monte_carlo": 3,
+        "remizov": 97
+      },
+      "selection_errors": 12,
+      "selection_fractions": {
+        "monte_carlo": 0.03,
+        "remizov": 0.97
+      },
+      "status": "evaluated",
+      "success_count": 99,
+      "success_rate": 0.99,
+      "threshold": 0.25,
+      "true_class_counts": {
+        "monte_carlo": 13,
+        "remizov": 87
+      }
+    },
+    "old": {
+      "accuracy": 0.8866666666666667,
+      "balanced_accuracy": 0.5277777777777778,
+      "candidate_id": "old__augmented__classifier__w12__baseline",
+      "class_order": [
+        "remizov",
+        "monte_carlo"
+      ],
+      "confusion_matrix": [
+        [
+          132,
+          0
+        ],
+        [
+          17,
+          1
+        ]
+      ],
+      "macro_f1": 0.5223824686270837,
+      "max_regret": 0.07500080058738723,
+      "mc_correct": 1,
+      "mc_f1": 0.10526315789473684,
+      "mc_false": 0,
+      "mc_missed": 17,
+      "mc_precision": 1.0,
+      "mc_predictions": 1,
+      "mc_recall": 0.05555555555555555,
+      "mean_error": 0.005813035514450365,
+      "mean_regret": 0.0009990719794665342,
+      "median_error": 0.00126575744033397,
+      "median_regret": 0.0,
+      "n": 150,
+      "policy": "validation_optimal",
+      "recall": {
+        "monte_carlo": 0.05555555555555555,
+        "remizov": 1.0
+      },
+      "scenario": "old",
+      "selection_counts": {
+        "monte_carlo": 1,
+        "remizov": 149
+      },
+      "selection_errors": 17,
+      "selection_fractions": {
+        "monte_carlo": 0.006666666666666667,
+        "remizov": 0.9933333333333333
+      },
+      "status": "evaluated",
+      "success_count": 146,
+      "success_rate": 0.9733333333333334,
+      "threshold": 0.8130974275754173,
+      "true_class_counts": {
+        "monte_carlo": 18,
+        "remizov": 132
+      }
+    }
+  },
+  "plan": {
+    "calibration": "descriptive validation Brier/logloss/ECE only; weighted scores not assumed calibrated; no calibration fit",
+    "class_weights_MC": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      12
+    ],
+    "classifier_base": {
+      "allow_const_label": true,
+      "allow_writing_files": false,
+      "bootstrap_type": "No",
+      "class_names": [
+        "remizov",
+        "monte_carlo"
+      ],
+      "depth": 2,
+      "iterations": 120,
+      "l2_leaf_reg": 10,
+      "learning_rate": 0.05,
+      "loss_function": "Logloss",
+      "random_seed": 2488,
+      "random_strength": 0,
+      "thread_count": 1,
+      "verbose": false
+    },
+    "classifier_thresholds": "0.05:0.05:0.50 plus every validation score partition including constant policies",
+    "configs": [
+      {
+        "depth": 2,
+        "iterations": 120,
+        "l2_leaf_reg": 10,
+        "name": "baseline"
+      },
+      {
+        "depth": 3,
+        "iterations": 240,
+        "l2_leaf_reg": 10,
+        "name": "medium"
+      },
+      {
+        "depth": 4,
+        "iterations": 300,
+        "l2_leaf_reg": 20,
+        "name": "deeper"
+      }
+    ],
+    "cv": "5 stratified family folds within each train; fixed-default comparisons plus nested inner one-quarter group holdout selection over baseline original253 six weights two regressions and constants; refit chosen spec on outer train",
+    "errors": "E_R=abs(saved_R128-exact0); E_MC=abs(mean(four saved MC1024)-exact0)",
+    "features": [
+      "original253",
+      "augmented258"
+    ],
+    "final_stage": "lock every candidate/threshold and selected policy before one final pass on fixed test; no changes afterwards",
+    "fit_budget": {
+      "cv_default_and_nested_max": 170,
+      "main": 96,
+      "upper_total": 266
+    },
+    "new_equations": 0,
+    "numerical_calls": 0,
+    "primary": "minimum validation mean_regret = minimum mean selected absolute error minus fixed oracle mean",
+    "regression_decision": "MC iff predicted_delta > threshold; strict sign at threshold0",
+    "regression_targets": [
+      "raw_delta",
+      "asinh(delta/train_median_abs_delta)"
+    ],
+    "regression_thresholds": "0 plus every validation score partition including constant policies",
+    "resources": "one process, CatBoost and BLAS one thread; no universal wall limit",
+    "scenarios": [
+      "new",
+      "old"
+    ],
+    "schema": "selector_hypotheses_v1",
+    "scope": "retrospective exploratory comparison on previously disclosed test; x=0 only",
+    "seed": 2488,
+    "source": "results/ml_mean_mc_selector_2026-10-31/run",
+    "split_algorithm": {
+      "rule": "largest_remainder_family_MC_count_then_seeded_permutation",
+      "seed": 2488,
+      "strata_sizes": {
+        "0": 91,
+        "1": 52,
+        "2": 18,
+        "3": 6
+      },
+      "validation_families": [
+        "F0011",
+        "F0015",
+        "F0016",
+        "F0017",
+        "F0031",
+        "F0044",
+        "F0047",
+        "F0048",
+        "F0076",
+        "F0078",
+        "F0080",
+        "F0083",
+        "F0101",
+        "F0107",
+        "F0108",
+        "F0119",
+        "F0155",
+        "F0165",
+        "F0170",
+        "F0172"
+      ],
+      "validation_family_quotas": {
+        "0": 11,
+        "1": 6,
+        "2": 2,
+        "3": 1
+      }
+    },
+    "thread_count": 1,
+    "threshold_selection": "same primary criterion, validation only; no fit on validation",
+    "tie_breakers": [
+      "higher success at epsilon=.05",
+      "higher macro_f1",
+      "fewer MC choices",
+      "stable candidate ID"
+    ],
+    "winner": "MC iff E_MC < E_R; ties R"
+  },
+  "two_method_pairs": 997,
+  "diagnostic_model_train_n": 747,
+  "validation_n": 100,
+  "test_n": 150,
+  "feature_count": 258,
+  "all_policy_metric_rows": 2532,
+  "models_loaded": 96,
+  "model_prediction_calls": 96,
+  "training_calls": 0,
+  "numerical_solver_calls": 0,
+  "generator_calls": 0,
+  "four_method_common": 997,
+  "four_method_winners": {
+    "remizov": 0,
+    "monte_carlo": 0,
+    "rk4": 997,
+    "product_integral": 0
+  },
+  "limitations": [
+    "Train metrics are in-sample derivations from already saved models",
+    "Test previously disclosed; highlighted 258 model is diagnostic, not validation-selected",
+    "historical objectives and solver profiles differ"
+  ]
+}

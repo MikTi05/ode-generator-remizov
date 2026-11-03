@@ -1,0 +1,136 @@
+[
+  {
+    "file": "01_R_MC_error_comparison.png",
+    "pdf": "01_R_MC_error_comparison.pdf",
+    "title": "Ремизов и MC: сохранённые ошибки в x=0",
+    "sources": [
+      "results/four_method_accuracy_1000_2026-11-01/release/ml_four_methods.csv"
+    ],
+    "notes": "Исходный split. Все точки сохранены, выбросы не удалялись. Не является новым расчётом."
+  },
+  {
+    "file": "02_ML_split_metrics.png",
+    "pdf": "02_ML_split_metrics.pdf",
+    "title": "Фиксированные политики: Train / Validation / Test",
+    "sources": [
+      "tables/main_model_comparisons.csv"
+    ],
+    "notes": "Train — in-sample предсказание сохранённых CBM. Политика 258 диагностическая, не выбранная глобально по Validation."
+  },
+  {
+    "file": "03_258_confusion.png",
+    "pdf": "03_258_confusion.pdf",
+    "title": "258 признаков: матрицы ошибок при t=0.2006671072130637",
+    "sources": [
+      "tables/main_model_comparisons.csv"
+    ],
+    "notes": "Строки — истинный метод минимальной ошибки; столбцы — выбор. Train не является OOF."
+  },
+  {
+    "file": "04_258_all_23_cases.png",
+    "pdf": "04_258_all_23_cases.pdf",
+    "title": "Все 23 Test-случая: найденные, ложные и пропущенные MC",
+    "sources": [
+      "tables/diagnostic_258_cases.csv"
+    ],
+    "notes": "Симметричная логарифмическая шкала сохраняет знак и малые Δ; крупный выброс не удалён."
+  },
+  {
+    "file": "05_wrong_choice_severity.png",
+    "pdf": "05_wrong_choice_severity.pdf",
+    "title": "17 неправильных выборов 258-модели: величина ущерба и порог ε",
+    "sources": [
+      "tables/diagnostic_258_cases.csv"
+    ],
+    "notes": "Два FP вызывают дополнительное нарушение ε; остальные неправильные winner-метки не равны нарушениям точности."
+  },
+  {
+    "file": "06_outlier_sensitivity.png",
+    "pdf": "06_outlier_sensitivity.pdf",
+    "title": "Влияние одного большого R-выброса на среднюю ошибку",
+    "sources": [
+      "tables/diagnostic_258_all_splits.csv",
+      "results/ml_selector_hypotheses_2026-10-31/test_predictions.csv"
+    ],
+    "notes": "Постфактум анализ чувствительности. F0180/S04 остаётся во всех основных метриках; исключение не используется для выбора модели."
+  },
+  {
+    "file": "07_all_policy_results.png",
+    "pdf": "07_all_policy_results.pdf",
+    "title": "Разведочное сопоставление 844 политик: Validation и раскрытый Test",
+    "sources": [
+      "tables/model_policy_metrics_all.csv"
+    ],
+    "notes": "График не является новым выбором по Test; показывает множественность просмотренных вариантов."
+  },
+  {
+    "file": "08_class_weights.png",
+    "pdf": "08_class_weights.pdf",
+    "title": "Веса классов: снижение Validation loss не гарантирует Test-перенос",
+    "sources": [
+      "tables/weights_new253_val_selected.csv"
+    ],
+    "notes": "Никаких новых fit. Показанные строки извлечены из ранее сохранённых Val-optimal политик; Test не использован для их выбора."
+  },
+  {
+    "file": "09_feature_importance.png",
+    "pdf": "09_feature_importance.pdf",
+    "title": "258-модель: top-25 сохранённых важностей",
+    "sources": [
+      "results/ml_selector_hypotheses_2026-10-31/feature_importance.csv"
+    ],
+    "notes": "PredictionValuesChange — описательная важность модели, не причинный эффект и не доказательство независимого вклада признака."
+  },
+  {
+    "file": "10_four_method_distributions.png",
+    "pdf": "10_four_method_distributions.pdf",
+    "title": "Четыре метода: распределения E0 на одних и тех же 997 задачах",
+    "sources": [
+      "results/four_method_accuracy_1000_2026-11-01/release/ml_four_methods.csv"
+    ],
+    "notes": "Данные положительны; логарифм используется только для отображения. Все выбросы сохранены."
+  },
+  {
+    "file": "11_four_complexity.png",
+    "pdf": "11_four_complexity.pdf",
+    "title": "Ошибки четырёх методов по L1–L4",
+    "sources": [
+      "tables/four_method_group_distributions.csv"
+    ],
+    "notes": "IQR описывает задачи, а не доверительный интервал; группы: 250/250/247/250."
+  },
+  {
+    "file": "12_regime_accuracy_and_winners.png",
+    "pdf": "12_regime_accuracy_and_winners.pdf",
+    "title": "Точность по режимам и отсутствие разнообразия четырёхметодных целей",
+    "sources": [
+      "tables/four_method_group_distributions.csv",
+      "results/four_method_accuracy_1000_2026-11-01/release/winners.csv"
+    ],
+    "notes": "В каждой клетке все методы сравниваются на одинаковых ID; oscillatory n=197, остальные n=200."
+  },
+  {
+    "file": "13_family_median_errors.png",
+    "pdf": "13_family_median_errors.pdf",
+    "title": "Все 200 структурных семейств: медианные ошибки методов",
+    "sources": [
+      "tables/four_method_group_distributions.csv"
+    ],
+    "notes": "В каждом семействе 5 параметризаций; F0134/F0136/F0139 содержат 4 общих ответа. Линии соединяют категории только для читаемости."
+  },
+  {
+    "file": "14_saved_worst_trajectories.png",
+    "pdf": "14_saved_worst_trajectories.pdf",
+    "title": "Сохранённые ошибки: максимальная E0 RK4 и максимальная E0 PI",
+    "sources": [
+      "results/four_method_accuracy_1000_2026-11-01/records/rk4/AMV1_F0181_S04.json",
+      "results/four_method_accuracy_1000_2026-11-01/records/product_integral/AMV1_F0181_S04.json",
+      "results/four_method_accuracy_1000_2026-11-01/records/rk4/AMV1_F0180_S00.json",
+      "results/four_method_accuracy_1000_2026-11-01/records/product_integral/AMV1_F0180_S00.json",
+      "results/chernov_solve1000_2026-10-18/solutions/AMV1_F0181_S04.json",
+      "results/chernov_solve1000_2026-10-18/solutions/AMV1_F0180_S00.json",
+      "tables/four_method_common997.csv"
+    ],
+    "notes": "Только существующие 33 узла и MC в нуле. Symlog с линейной областью до 1e-10 сохраняет нулевую ошибку НУ без подстановки floor. Междуузловая точность не установлена; новых exact/solver вызовов нет."
+  }
+]

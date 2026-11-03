@@ -1,0 +1,259 @@
+index,feature_name,group,channel,mathematical_meaning,computation,source,function,line
+1,a_absmax,channel_statistic,a,Максимальный модуль отсчётов; v=a,max_i(abs(v_i)),ml/remizov_features.py,coefficient_features,53
+2,a_d1_absmax,channel_statistic,a,Максимальный модуль первых разделённых разностей; v=a,max_i(abs(d1_i)),ml/remizov_features.py,coefficient_features,55
+3,a_d1_rms,channel_statistic,a,"RMS первых разделённых разностей d1, 255 значений; v=a",sqrt(mean_i(d1_i^2)),ml/remizov_features.py,coefficient_features,54
+4,a_d2_rms,channel_statistic,a,"RMS вторых разделённых разностей по серединам соседних интервалов, 254 значения; v=a",sqrt(mean_i(d2_i^2)),ml/remizov_features.py,coefficient_features,55
+5,a_max,channel_statistic,a,Максимум отсчётов; v=a,max_i(v_i),ml/remizov_features.py,coefficient_features,52
+6,a_mean,channel_statistic,a,Невзвешенное арифметическое среднее; v=a,mean_i(v_i),ml/remizov_features.py,coefficient_features,52
+7,a_median,channel_statistic,a,Медиана; NumPy усредняет два средних значения при чётной длине; v=a,median_i(v_i),ml/remizov_features.py,coefficient_features,53
+8,a_min,channel_statistic,a,Минимум отсчётов; v=a,min_i(v_i),ml/remizov_features.py,coefficient_features,52
+9,a_negative_fraction,channel_statistic,a,Доля строго отрицательных отсчётов; нулевые не входят; v=a,mean_i(v_i<0),ml/remizov_features.py,coefficient_features,56
+10,a_rms,channel_statistic,a,Среднеквадратическая амплитуда отсчётов; v=a,sqrt(mean_i(v_i^2)),ml/remizov_features.py,coefficient_features,53
+11,a_sample_00,sample,a,Отсчёт #00 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=0, x_j=-1+2*0/255=-1",ml/remizov_features.py,coefficient_features,59
+12,a_sample_01,sample,a,Отсчёт #01 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=8, x_j=-1+2*8/255=-0.93725490196078431",ml/remizov_features.py,coefficient_features,59
+13,a_sample_02,sample,a,Отсчёт #02 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=16, x_j=-1+2*16/255=-0.87450980392156863",ml/remizov_features.py,coefficient_features,59
+14,a_sample_03,sample,a,Отсчёт #03 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=24, x_j=-1+2*24/255=-0.81176470588235294",ml/remizov_features.py,coefficient_features,59
+15,a_sample_04,sample,a,Отсчёт #04 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=32, x_j=-1+2*32/255=-0.74901960784313726",ml/remizov_features.py,coefficient_features,59
+16,a_sample_05,sample,a,Отсчёт #05 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=41, x_j=-1+2*41/255=-0.67843137254901964",ml/remizov_features.py,coefficient_features,59
+17,a_sample_06,sample,a,Отсчёт #06 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=49, x_j=-1+2*49/255=-0.61568627450980395",ml/remizov_features.py,coefficient_features,59
+18,a_sample_07,sample,a,Отсчёт #07 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=57, x_j=-1+2*57/255=-0.55294117647058827",ml/remizov_features.py,coefficient_features,59
+19,a_sample_08,sample,a,Отсчёт #08 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=65, x_j=-1+2*65/255=-0.49019607843137258",ml/remizov_features.py,coefficient_features,59
+20,a_sample_09,sample,a,Отсчёт #09 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=74, x_j=-1+2*74/255=-0.41960784313725497",ml/remizov_features.py,coefficient_features,59
+21,a_sample_10,sample,a,Отсчёт #10 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=82, x_j=-1+2*82/255=-0.35686274509803928",ml/remizov_features.py,coefficient_features,59
+22,a_sample_11,sample,a,Отсчёт #11 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=90, x_j=-1+2*90/255=-0.29411764705882359",ml/remizov_features.py,coefficient_features,59
+23,a_sample_12,sample,a,Отсчёт #12 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=98, x_j=-1+2*98/255=-0.23137254901960791",ml/remizov_features.py,coefficient_features,59
+24,a_sample_13,sample,a,Отсчёт #13 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=106, x_j=-1+2*106/255=-0.16862745098039222",ml/remizov_features.py,coefficient_features,59
+25,a_sample_14,sample,a,Отсчёт #14 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=115, x_j=-1+2*115/255=-0.098039215686274495",ml/remizov_features.py,coefficient_features,59
+26,a_sample_15,sample,a,Отсчёт #15 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=123, x_j=-1+2*123/255=-0.035294117647058809",ml/remizov_features.py,coefficient_features,59
+27,a_sample_16,sample,a,Отсчёт #16 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=131, x_j=-1+2*131/255=0.027450980392156765",ml/remizov_features.py,coefficient_features,59
+28,a_sample_17,sample,a,Отсчёт #17 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=139, x_j=-1+2*139/255=0.090196078431372451",ml/remizov_features.py,coefficient_features,59
+29,a_sample_18,sample,a,Отсчёт #18 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=148, x_j=-1+2*148/255=0.16078431372549007",ml/remizov_features.py,coefficient_features,59
+30,a_sample_19,sample,a,Отсчёт #19 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=156, x_j=-1+2*156/255=0.22352941176470598",ml/remizov_features.py,coefficient_features,59
+31,a_sample_20,sample,a,Отсчёт #20 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=164, x_j=-1+2*164/255=0.28627450980392144",ml/remizov_features.py,coefficient_features,59
+32,a_sample_21,sample,a,Отсчёт #21 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=172, x_j=-1+2*172/255=0.34901960784313735",ml/remizov_features.py,coefficient_features,59
+33,a_sample_22,sample,a,Отсчёт #22 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=180, x_j=-1+2*180/255=0.41176470588235281",ml/remizov_features.py,coefficient_features,59
+34,a_sample_23,sample,a,Отсчёт #23 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=189, x_j=-1+2*189/255=0.48235294117647065",ml/remizov_features.py,coefficient_features,59
+35,a_sample_24,sample,a,Отсчёт #24 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=197, x_j=-1+2*197/255=0.54509803921568634",ml/remizov_features.py,coefficient_features,59
+36,a_sample_25,sample,a,Отсчёт #25 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=205, x_j=-1+2*205/255=0.60784313725490202",ml/remizov_features.py,coefficient_features,59
+37,a_sample_26,sample,a,Отсчёт #26 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=213, x_j=-1+2*213/255=0.67058823529411771",ml/remizov_features.py,coefficient_features,59
+38,a_sample_27,sample,a,Отсчёт #27 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=222, x_j=-1+2*222/255=0.74117647058823533",ml/remizov_features.py,coefficient_features,59
+39,a_sample_28,sample,a,Отсчёт #28 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=230, x_j=-1+2*230/255=0.80392156862745101",ml/remizov_features.py,coefficient_features,59
+40,a_sample_29,sample,a,Отсчёт #29 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=238, x_j=-1+2*238/255=0.8666666666666667",ml/remizov_features.py,coefficient_features,59
+41,a_sample_30,sample,a,Отсчёт #30 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=246, x_j=-1+2*246/255=0.92941176470588238",ml/remizov_features.py,coefficient_features,59
+42,a_sample_31,sample,a,Отсчёт #31 канала a в точном выбранном индексе входной сетки; не интерполяция,"a at j=255, x_j=-1+2*255/255=1",ml/remizov_features.py,coefficient_features,59
+43,a_spectral_high_fraction,channel_statistic,a,"Доля мощности rFFT по индексам от 8; это индексный, не универсальный физический cutoff; v=a","sum(P_k,k>=8)/sum(P_k); 0 if sum(P_k)=0",ml/remizov_features.py,coefficient_features,57
+44,a_std,channel_statistic,a,Стандартное отклонение ddof=0; v=a,sqrt(mean_i((v_i-mean(v))^2)),ml/remizov_features.py,coefficient_features,52
+45,a_total_variation,channel_statistic,a,Дискретная полная вариация без деления на длину интервала; v=a,sum_i(abs(v[i+1]-v[i])),ml/remizov_features.py,coefficient_features,54
+46,a_zero_crossings,channel_statistic,a,Число строгих смен знака; переход через точный нулевой отсчёт не учитывается; v=a,count_i(v[i]*v[i+1]<0),ml/remizov_features.py,coefficient_features,56
+47,ast_a_raw_depth,AST,a_raw,"Максимальная глубина сырого коэффициентного AST, корень имеет глубину 1","max_node_depth(a_raw), root_depth=1",ml/remizov_features.py,ast_features,21
+48,ast_a_raw_nodes,AST,a_raw,Общее число узлов сырого дерева коэффициента до tanh-преобразования,number_of_nodes(a_raw),ml/remizov_features.py,ast_features,21
+49,ast_a_raw_op_constant,AST,a_raw,Число узлов операции: константный лист value; численные параметры узлов в счётчик не входят,"count_nodes(op='constant', tree=a_raw)",ml/remizov_features.py,ast_features,21
+50,ast_a_raw_op_cos,AST,a_raw,Число узлов операции: унарный cos(u); численные параметры узлов в счётчик не входят,"count_nodes(op='cos', tree=a_raw)",ml/remizov_features.py,ast_features,21
+51,ast_a_raw_op_cos_affine,AST,a_raw,Число узлов операции: лист cos(omega*x+phi); численные параметры узлов в счётчик не входят,"count_nodes(op='cos_affine', tree=a_raw)",ml/remizov_features.py,ast_features,21
+52,ast_a_raw_op_exp_neg_square,AST,a_raw,Число узлов операции: унарный exp(-u^2); численные параметры узлов в счётчик не входят,"count_nodes(op='exp_neg_square', tree=a_raw)",ml/remizov_features.py,ast_features,21
+53,ast_a_raw_op_gaussian,AST,a_raw,Число узлов операции: лист exp(-alpha*(x-mu)^2); численные параметры узлов в счётчик не входят,"count_nodes(op='gaussian', tree=a_raw)",ml/remizov_features.py,ast_features,21
+54,ast_a_raw_op_lincomb,AST,a_raw,Число узлов операции: бинарный alpha*u+beta*v; численные параметры узлов в счётчик не входят,"count_nodes(op='lincomb', tree=a_raw)",ml/remizov_features.py,ast_features,21
+55,ast_a_raw_op_lorentz,AST,a_raw,Число узлов операции: лист 1/(1+alpha*(x-mu)^2); численные параметры узлов в счётчик не входят,"count_nodes(op='lorentz', tree=a_raw)",ml/remizov_features.py,ast_features,21
+56,ast_a_raw_op_mul,AST,a_raw,Число узлов операции: бинарный u*v; численные параметры узлов в счётчик не входят,"count_nodes(op='mul', tree=a_raw)",ml/remizov_features.py,ast_features,21
+57,ast_a_raw_op_rational_saturate,AST,a_raw,Число узлов операции: унарный u/(1+u^2); численные параметры узлов в счётчик не входят,"count_nodes(op='rational_saturate', tree=a_raw)",ml/remizov_features.py,ast_features,21
+58,ast_a_raw_op_saturating,AST,a_raw,Число узлов операции: лист (x-mu)/sqrt(1+(x-mu)^2); численные параметры узлов в счётчик не входят,"count_nodes(op='saturating', tree=a_raw)",ml/remizov_features.py,ast_features,21
+59,ast_a_raw_op_sin,AST,a_raw,Число узлов операции: унарный sin(u); численные параметры узлов в счётчик не входят,"count_nodes(op='sin', tree=a_raw)",ml/remizov_features.py,ast_features,21
+60,ast_a_raw_op_sin_affine,AST,a_raw,Число узлов операции: лист sin(omega*x+phi); численные параметры узлов в счётчик не входят,"count_nodes(op='sin_affine', tree=a_raw)",ml/remizov_features.py,ast_features,21
+61,ast_a_raw_op_tanh,AST,a_raw,Число узлов операции: унарный tanh(u); численные параметры узлов в счётчик не входят,"count_nodes(op='tanh', tree=a_raw)",ml/remizov_features.py,ast_features,21
+62,ast_a_raw_op_tanh_affine,AST,a_raw,Число узлов операции: лист tanh(omega*x+phi); численные параметры узлов в счётчик не входят,"count_nodes(op='tanh_affine', tree=a_raw)",ml/remizov_features.py,ast_features,21
+63,ast_b_raw_depth,AST,b_raw,"Максимальная глубина сырого коэффициентного AST, корень имеет глубину 1","max_node_depth(b_raw), root_depth=1",ml/remizov_features.py,ast_features,21
+64,ast_b_raw_nodes,AST,b_raw,Общее число узлов сырого дерева коэффициента до tanh-преобразования,number_of_nodes(b_raw),ml/remizov_features.py,ast_features,21
+65,ast_b_raw_op_constant,AST,b_raw,Число узлов операции: константный лист value; численные параметры узлов в счётчик не входят,"count_nodes(op='constant', tree=b_raw)",ml/remizov_features.py,ast_features,21
+66,ast_b_raw_op_cos,AST,b_raw,Число узлов операции: унарный cos(u); численные параметры узлов в счётчик не входят,"count_nodes(op='cos', tree=b_raw)",ml/remizov_features.py,ast_features,21
+67,ast_b_raw_op_cos_affine,AST,b_raw,Число узлов операции: лист cos(omega*x+phi); численные параметры узлов в счётчик не входят,"count_nodes(op='cos_affine', tree=b_raw)",ml/remizov_features.py,ast_features,21
+68,ast_b_raw_op_exp_neg_square,AST,b_raw,Число узлов операции: унарный exp(-u^2); численные параметры узлов в счётчик не входят,"count_nodes(op='exp_neg_square', tree=b_raw)",ml/remizov_features.py,ast_features,21
+69,ast_b_raw_op_gaussian,AST,b_raw,Число узлов операции: лист exp(-alpha*(x-mu)^2); численные параметры узлов в счётчик не входят,"count_nodes(op='gaussian', tree=b_raw)",ml/remizov_features.py,ast_features,21
+70,ast_b_raw_op_lincomb,AST,b_raw,Число узлов операции: бинарный alpha*u+beta*v; численные параметры узлов в счётчик не входят,"count_nodes(op='lincomb', tree=b_raw)",ml/remizov_features.py,ast_features,21
+71,ast_b_raw_op_lorentz,AST,b_raw,Число узлов операции: лист 1/(1+alpha*(x-mu)^2); численные параметры узлов в счётчик не входят,"count_nodes(op='lorentz', tree=b_raw)",ml/remizov_features.py,ast_features,21
+72,ast_b_raw_op_mul,AST,b_raw,Число узлов операции: бинарный u*v; численные параметры узлов в счётчик не входят,"count_nodes(op='mul', tree=b_raw)",ml/remizov_features.py,ast_features,21
+73,ast_b_raw_op_rational_saturate,AST,b_raw,Число узлов операции: унарный u/(1+u^2); численные параметры узлов в счётчик не входят,"count_nodes(op='rational_saturate', tree=b_raw)",ml/remizov_features.py,ast_features,21
+74,ast_b_raw_op_saturating,AST,b_raw,Число узлов операции: лист (x-mu)/sqrt(1+(x-mu)^2); численные параметры узлов в счётчик не входят,"count_nodes(op='saturating', tree=b_raw)",ml/remizov_features.py,ast_features,21
+75,ast_b_raw_op_sin,AST,b_raw,Число узлов операции: унарный sin(u); численные параметры узлов в счётчик не входят,"count_nodes(op='sin', tree=b_raw)",ml/remizov_features.py,ast_features,21
+76,ast_b_raw_op_sin_affine,AST,b_raw,Число узлов операции: лист sin(omega*x+phi); численные параметры узлов в счётчик не входят,"count_nodes(op='sin_affine', tree=b_raw)",ml/remizov_features.py,ast_features,21
+77,ast_b_raw_op_tanh,AST,b_raw,Число узлов операции: унарный tanh(u); численные параметры узлов в счётчик не входят,"count_nodes(op='tanh', tree=b_raw)",ml/remizov_features.py,ast_features,21
+78,ast_b_raw_op_tanh_affine,AST,b_raw,Число узлов операции: лист tanh(omega*x+phi); численные параметры узлов в счётчик не входят,"count_nodes(op='tanh_affine', tree=b_raw)",ml/remizov_features.py,ast_features,21
+79,ast_c_raw_depth,AST,c_raw,"Максимальная глубина сырого коэффициентного AST, корень имеет глубину 1","max_node_depth(c_raw), root_depth=1",ml/remizov_features.py,ast_features,21
+80,ast_c_raw_nodes,AST,c_raw,Общее число узлов сырого дерева коэффициента до tanh-преобразования,number_of_nodes(c_raw),ml/remizov_features.py,ast_features,21
+81,ast_c_raw_op_constant,AST,c_raw,Число узлов операции: константный лист value; численные параметры узлов в счётчик не входят,"count_nodes(op='constant', tree=c_raw)",ml/remizov_features.py,ast_features,21
+82,ast_c_raw_op_cos,AST,c_raw,Число узлов операции: унарный cos(u); численные параметры узлов в счётчик не входят,"count_nodes(op='cos', tree=c_raw)",ml/remizov_features.py,ast_features,21
+83,ast_c_raw_op_cos_affine,AST,c_raw,Число узлов операции: лист cos(omega*x+phi); численные параметры узлов в счётчик не входят,"count_nodes(op='cos_affine', tree=c_raw)",ml/remizov_features.py,ast_features,21
+84,ast_c_raw_op_exp_neg_square,AST,c_raw,Число узлов операции: унарный exp(-u^2); численные параметры узлов в счётчик не входят,"count_nodes(op='exp_neg_square', tree=c_raw)",ml/remizov_features.py,ast_features,21
+85,ast_c_raw_op_gaussian,AST,c_raw,Число узлов операции: лист exp(-alpha*(x-mu)^2); численные параметры узлов в счётчик не входят,"count_nodes(op='gaussian', tree=c_raw)",ml/remizov_features.py,ast_features,21
+86,ast_c_raw_op_lincomb,AST,c_raw,Число узлов операции: бинарный alpha*u+beta*v; численные параметры узлов в счётчик не входят,"count_nodes(op='lincomb', tree=c_raw)",ml/remizov_features.py,ast_features,21
+87,ast_c_raw_op_lorentz,AST,c_raw,Число узлов операции: лист 1/(1+alpha*(x-mu)^2); численные параметры узлов в счётчик не входят,"count_nodes(op='lorentz', tree=c_raw)",ml/remizov_features.py,ast_features,21
+88,ast_c_raw_op_mul,AST,c_raw,Число узлов операции: бинарный u*v; численные параметры узлов в счётчик не входят,"count_nodes(op='mul', tree=c_raw)",ml/remizov_features.py,ast_features,21
+89,ast_c_raw_op_rational_saturate,AST,c_raw,Число узлов операции: унарный u/(1+u^2); численные параметры узлов в счётчик не входят,"count_nodes(op='rational_saturate', tree=c_raw)",ml/remizov_features.py,ast_features,21
+90,ast_c_raw_op_saturating,AST,c_raw,Число узлов операции: лист (x-mu)/sqrt(1+(x-mu)^2); численные параметры узлов в счётчик не входят,"count_nodes(op='saturating', tree=c_raw)",ml/remizov_features.py,ast_features,21
+91,ast_c_raw_op_sin,AST,c_raw,Число узлов операции: унарный sin(u); численные параметры узлов в счётчик не входят,"count_nodes(op='sin', tree=c_raw)",ml/remizov_features.py,ast_features,21
+92,ast_c_raw_op_sin_affine,AST,c_raw,Число узлов операции: лист sin(omega*x+phi); численные параметры узлов в счётчик не входят,"count_nodes(op='sin_affine', tree=c_raw)",ml/remizov_features.py,ast_features,21
+93,ast_c_raw_op_tanh,AST,c_raw,Число узлов операции: унарный tanh(u); численные параметры узлов в счётчик не входят,"count_nodes(op='tanh', tree=c_raw)",ml/remizov_features.py,ast_features,21
+94,ast_c_raw_op_tanh_affine,AST,c_raw,Число узлов операции: лист tanh(omega*x+phi); численные параметры узлов в счётчик не входят,"count_nodes(op='tanh_affine', tree=c_raw)",ml/remizov_features.py,ast_features,21
+95,b_absmax,channel_statistic,b,Максимальный модуль отсчётов; v=b,max_i(abs(v_i)),ml/remizov_features.py,coefficient_features,53
+96,b_d1_absmax,channel_statistic,b,Максимальный модуль первых разделённых разностей; v=b,max_i(abs(d1_i)),ml/remizov_features.py,coefficient_features,55
+97,b_d1_rms,channel_statistic,b,"RMS первых разделённых разностей d1, 255 значений; v=b",sqrt(mean_i(d1_i^2)),ml/remizov_features.py,coefficient_features,54
+98,b_d2_rms,channel_statistic,b,"RMS вторых разделённых разностей по серединам соседних интервалов, 254 значения; v=b",sqrt(mean_i(d2_i^2)),ml/remizov_features.py,coefficient_features,55
+99,b_max,channel_statistic,b,Максимум отсчётов; v=b,max_i(v_i),ml/remizov_features.py,coefficient_features,52
+100,b_mean,channel_statistic,b,Невзвешенное арифметическое среднее; v=b,mean_i(v_i),ml/remizov_features.py,coefficient_features,52
+101,b_median,channel_statistic,b,Медиана; NumPy усредняет два средних значения при чётной длине; v=b,median_i(v_i),ml/remizov_features.py,coefficient_features,53
+102,b_min,channel_statistic,b,Минимум отсчётов; v=b,min_i(v_i),ml/remizov_features.py,coefficient_features,52
+103,b_negative_fraction,channel_statistic,b,Доля строго отрицательных отсчётов; нулевые не входят; v=b,mean_i(v_i<0),ml/remizov_features.py,coefficient_features,56
+104,b_rms,channel_statistic,b,Среднеквадратическая амплитуда отсчётов; v=b,sqrt(mean_i(v_i^2)),ml/remizov_features.py,coefficient_features,53
+105,b_sample_00,sample,b,Отсчёт #00 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=0, x_j=-1+2*0/255=-1",ml/remizov_features.py,coefficient_features,59
+106,b_sample_01,sample,b,Отсчёт #01 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=8, x_j=-1+2*8/255=-0.93725490196078431",ml/remizov_features.py,coefficient_features,59
+107,b_sample_02,sample,b,Отсчёт #02 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=16, x_j=-1+2*16/255=-0.87450980392156863",ml/remizov_features.py,coefficient_features,59
+108,b_sample_03,sample,b,Отсчёт #03 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=24, x_j=-1+2*24/255=-0.81176470588235294",ml/remizov_features.py,coefficient_features,59
+109,b_sample_04,sample,b,Отсчёт #04 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=32, x_j=-1+2*32/255=-0.74901960784313726",ml/remizov_features.py,coefficient_features,59
+110,b_sample_05,sample,b,Отсчёт #05 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=41, x_j=-1+2*41/255=-0.67843137254901964",ml/remizov_features.py,coefficient_features,59
+111,b_sample_06,sample,b,Отсчёт #06 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=49, x_j=-1+2*49/255=-0.61568627450980395",ml/remizov_features.py,coefficient_features,59
+112,b_sample_07,sample,b,Отсчёт #07 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=57, x_j=-1+2*57/255=-0.55294117647058827",ml/remizov_features.py,coefficient_features,59
+113,b_sample_08,sample,b,Отсчёт #08 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=65, x_j=-1+2*65/255=-0.49019607843137258",ml/remizov_features.py,coefficient_features,59
+114,b_sample_09,sample,b,Отсчёт #09 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=74, x_j=-1+2*74/255=-0.41960784313725497",ml/remizov_features.py,coefficient_features,59
+115,b_sample_10,sample,b,Отсчёт #10 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=82, x_j=-1+2*82/255=-0.35686274509803928",ml/remizov_features.py,coefficient_features,59
+116,b_sample_11,sample,b,Отсчёт #11 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=90, x_j=-1+2*90/255=-0.29411764705882359",ml/remizov_features.py,coefficient_features,59
+117,b_sample_12,sample,b,Отсчёт #12 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=98, x_j=-1+2*98/255=-0.23137254901960791",ml/remizov_features.py,coefficient_features,59
+118,b_sample_13,sample,b,Отсчёт #13 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=106, x_j=-1+2*106/255=-0.16862745098039222",ml/remizov_features.py,coefficient_features,59
+119,b_sample_14,sample,b,Отсчёт #14 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=115, x_j=-1+2*115/255=-0.098039215686274495",ml/remizov_features.py,coefficient_features,59
+120,b_sample_15,sample,b,Отсчёт #15 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=123, x_j=-1+2*123/255=-0.035294117647058809",ml/remizov_features.py,coefficient_features,59
+121,b_sample_16,sample,b,Отсчёт #16 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=131, x_j=-1+2*131/255=0.027450980392156765",ml/remizov_features.py,coefficient_features,59
+122,b_sample_17,sample,b,Отсчёт #17 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=139, x_j=-1+2*139/255=0.090196078431372451",ml/remizov_features.py,coefficient_features,59
+123,b_sample_18,sample,b,Отсчёт #18 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=148, x_j=-1+2*148/255=0.16078431372549007",ml/remizov_features.py,coefficient_features,59
+124,b_sample_19,sample,b,Отсчёт #19 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=156, x_j=-1+2*156/255=0.22352941176470598",ml/remizov_features.py,coefficient_features,59
+125,b_sample_20,sample,b,Отсчёт #20 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=164, x_j=-1+2*164/255=0.28627450980392144",ml/remizov_features.py,coefficient_features,59
+126,b_sample_21,sample,b,Отсчёт #21 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=172, x_j=-1+2*172/255=0.34901960784313735",ml/remizov_features.py,coefficient_features,59
+127,b_sample_22,sample,b,Отсчёт #22 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=180, x_j=-1+2*180/255=0.41176470588235281",ml/remizov_features.py,coefficient_features,59
+128,b_sample_23,sample,b,Отсчёт #23 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=189, x_j=-1+2*189/255=0.48235294117647065",ml/remizov_features.py,coefficient_features,59
+129,b_sample_24,sample,b,Отсчёт #24 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=197, x_j=-1+2*197/255=0.54509803921568634",ml/remizov_features.py,coefficient_features,59
+130,b_sample_25,sample,b,Отсчёт #25 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=205, x_j=-1+2*205/255=0.60784313725490202",ml/remizov_features.py,coefficient_features,59
+131,b_sample_26,sample,b,Отсчёт #26 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=213, x_j=-1+2*213/255=0.67058823529411771",ml/remizov_features.py,coefficient_features,59
+132,b_sample_27,sample,b,Отсчёт #27 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=222, x_j=-1+2*222/255=0.74117647058823533",ml/remizov_features.py,coefficient_features,59
+133,b_sample_28,sample,b,Отсчёт #28 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=230, x_j=-1+2*230/255=0.80392156862745101",ml/remizov_features.py,coefficient_features,59
+134,b_sample_29,sample,b,Отсчёт #29 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=238, x_j=-1+2*238/255=0.8666666666666667",ml/remizov_features.py,coefficient_features,59
+135,b_sample_30,sample,b,Отсчёт #30 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=246, x_j=-1+2*246/255=0.92941176470588238",ml/remizov_features.py,coefficient_features,59
+136,b_sample_31,sample,b,Отсчёт #31 канала b в точном выбранном индексе входной сетки; не интерполяция,"b at j=255, x_j=-1+2*255/255=1",ml/remizov_features.py,coefficient_features,59
+137,b_spectral_high_fraction,channel_statistic,b,"Доля мощности rFFT по индексам от 8; это индексный, не универсальный физический cutoff; v=b","sum(P_k,k>=8)/sum(P_k); 0 if sum(P_k)=0",ml/remizov_features.py,coefficient_features,57
+138,b_std,channel_statistic,b,Стандартное отклонение ddof=0; v=b,sqrt(mean_i((v_i-mean(v))^2)),ml/remizov_features.py,coefficient_features,52
+139,b_total_variation,channel_statistic,b,Дискретная полная вариация без деления на длину интервала; v=b,sum_i(abs(v[i+1]-v[i])),ml/remizov_features.py,coefficient_features,54
+140,b_zero_crossings,channel_statistic,b,Число строгих смен знака; переход через точный нулевой отсчёт не учитывается; v=b,count_i(v[i]*v[i+1]<0),ml/remizov_features.py,coefficient_features,56
+141,cR_absmax,channel_statistic,cR,Максимальный модуль отсчётов; v=c_R=c+lambda,max_i(abs(v_i)),ml/remizov_features.py,coefficient_features,53
+142,cR_d1_absmax,channel_statistic,cR,Максимальный модуль первых разделённых разностей; v=c_R=c+lambda,max_i(abs(d1_i)),ml/remizov_features.py,coefficient_features,55
+143,cR_d1_rms,channel_statistic,cR,"RMS первых разделённых разностей d1, 255 значений; v=c_R=c+lambda",sqrt(mean_i(d1_i^2)),ml/remizov_features.py,coefficient_features,54
+144,cR_d2_rms,channel_statistic,cR,"RMS вторых разделённых разностей по серединам соседних интервалов, 254 значения; v=c_R=c+lambda",sqrt(mean_i(d2_i^2)),ml/remizov_features.py,coefficient_features,55
+145,cR_max,channel_statistic,cR,Максимум отсчётов; v=c_R=c+lambda,max_i(v_i),ml/remizov_features.py,coefficient_features,52
+146,cR_mean,channel_statistic,cR,Невзвешенное арифметическое среднее; v=c_R=c+lambda,mean_i(v_i),ml/remizov_features.py,coefficient_features,52
+147,cR_median,channel_statistic,cR,Медиана; NumPy усредняет два средних значения при чётной длине; v=c_R=c+lambda,median_i(v_i),ml/remizov_features.py,coefficient_features,53
+148,cR_min,channel_statistic,cR,Минимум отсчётов; v=c_R=c+lambda,min_i(v_i),ml/remizov_features.py,coefficient_features,52
+149,cR_negative_fraction,channel_statistic,cR,Доля строго отрицательных отсчётов; нулевые не входят; v=c_R=c+lambda,mean_i(v_i<0),ml/remizov_features.py,coefficient_features,56
+150,cR_rms,channel_statistic,cR,Среднеквадратическая амплитуда отсчётов; v=c_R=c+lambda,sqrt(mean_i(v_i^2)),ml/remizov_features.py,coefficient_features,53
+151,cR_sample_00,sample,cR,Отсчёт #00 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=0, x_j=-1+2*0/255=-1",ml/remizov_features.py,coefficient_features,59
+152,cR_sample_01,sample,cR,Отсчёт #01 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=8, x_j=-1+2*8/255=-0.93725490196078431",ml/remizov_features.py,coefficient_features,59
+153,cR_sample_02,sample,cR,Отсчёт #02 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=16, x_j=-1+2*16/255=-0.87450980392156863",ml/remizov_features.py,coefficient_features,59
+154,cR_sample_03,sample,cR,Отсчёт #03 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=24, x_j=-1+2*24/255=-0.81176470588235294",ml/remizov_features.py,coefficient_features,59
+155,cR_sample_04,sample,cR,Отсчёт #04 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=32, x_j=-1+2*32/255=-0.74901960784313726",ml/remizov_features.py,coefficient_features,59
+156,cR_sample_05,sample,cR,Отсчёт #05 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=41, x_j=-1+2*41/255=-0.67843137254901964",ml/remizov_features.py,coefficient_features,59
+157,cR_sample_06,sample,cR,Отсчёт #06 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=49, x_j=-1+2*49/255=-0.61568627450980395",ml/remizov_features.py,coefficient_features,59
+158,cR_sample_07,sample,cR,Отсчёт #07 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=57, x_j=-1+2*57/255=-0.55294117647058827",ml/remizov_features.py,coefficient_features,59
+159,cR_sample_08,sample,cR,Отсчёт #08 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=65, x_j=-1+2*65/255=-0.49019607843137258",ml/remizov_features.py,coefficient_features,59
+160,cR_sample_09,sample,cR,Отсчёт #09 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=74, x_j=-1+2*74/255=-0.41960784313725497",ml/remizov_features.py,coefficient_features,59
+161,cR_sample_10,sample,cR,Отсчёт #10 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=82, x_j=-1+2*82/255=-0.35686274509803928",ml/remizov_features.py,coefficient_features,59
+162,cR_sample_11,sample,cR,Отсчёт #11 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=90, x_j=-1+2*90/255=-0.29411764705882359",ml/remizov_features.py,coefficient_features,59
+163,cR_sample_12,sample,cR,Отсчёт #12 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=98, x_j=-1+2*98/255=-0.23137254901960791",ml/remizov_features.py,coefficient_features,59
+164,cR_sample_13,sample,cR,Отсчёт #13 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=106, x_j=-1+2*106/255=-0.16862745098039222",ml/remizov_features.py,coefficient_features,59
+165,cR_sample_14,sample,cR,Отсчёт #14 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=115, x_j=-1+2*115/255=-0.098039215686274495",ml/remizov_features.py,coefficient_features,59
+166,cR_sample_15,sample,cR,Отсчёт #15 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=123, x_j=-1+2*123/255=-0.035294117647058809",ml/remizov_features.py,coefficient_features,59
+167,cR_sample_16,sample,cR,Отсчёт #16 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=131, x_j=-1+2*131/255=0.027450980392156765",ml/remizov_features.py,coefficient_features,59
+168,cR_sample_17,sample,cR,Отсчёт #17 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=139, x_j=-1+2*139/255=0.090196078431372451",ml/remizov_features.py,coefficient_features,59
+169,cR_sample_18,sample,cR,Отсчёт #18 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=148, x_j=-1+2*148/255=0.16078431372549007",ml/remizov_features.py,coefficient_features,59
+170,cR_sample_19,sample,cR,Отсчёт #19 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=156, x_j=-1+2*156/255=0.22352941176470598",ml/remizov_features.py,coefficient_features,59
+171,cR_sample_20,sample,cR,Отсчёт #20 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=164, x_j=-1+2*164/255=0.28627450980392144",ml/remizov_features.py,coefficient_features,59
+172,cR_sample_21,sample,cR,Отсчёт #21 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=172, x_j=-1+2*172/255=0.34901960784313735",ml/remizov_features.py,coefficient_features,59
+173,cR_sample_22,sample,cR,Отсчёт #22 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=180, x_j=-1+2*180/255=0.41176470588235281",ml/remizov_features.py,coefficient_features,59
+174,cR_sample_23,sample,cR,Отсчёт #23 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=189, x_j=-1+2*189/255=0.48235294117647065",ml/remizov_features.py,coefficient_features,59
+175,cR_sample_24,sample,cR,Отсчёт #24 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=197, x_j=-1+2*197/255=0.54509803921568634",ml/remizov_features.py,coefficient_features,59
+176,cR_sample_25,sample,cR,Отсчёт #25 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=205, x_j=-1+2*205/255=0.60784313725490202",ml/remizov_features.py,coefficient_features,59
+177,cR_sample_26,sample,cR,Отсчёт #26 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=213, x_j=-1+2*213/255=0.67058823529411771",ml/remizov_features.py,coefficient_features,59
+178,cR_sample_27,sample,cR,Отсчёт #27 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=222, x_j=-1+2*222/255=0.74117647058823533",ml/remizov_features.py,coefficient_features,59
+179,cR_sample_28,sample,cR,Отсчёт #28 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=230, x_j=-1+2*230/255=0.80392156862745101",ml/remizov_features.py,coefficient_features,59
+180,cR_sample_29,sample,cR,Отсчёт #29 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=238, x_j=-1+2*238/255=0.8666666666666667",ml/remizov_features.py,coefficient_features,59
+181,cR_sample_30,sample,cR,Отсчёт #30 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=246, x_j=-1+2*246/255=0.92941176470588238",ml/remizov_features.py,coefficient_features,59
+182,cR_sample_31,sample,cR,Отсчёт #31 канала c_R=c+lambda в точном выбранном индексе входной сетки; не интерполяция,"c_R=c+lambda at j=255, x_j=-1+2*255/255=1",ml/remizov_features.py,coefficient_features,59
+183,cR_spectral_high_fraction,channel_statistic,cR,"Доля мощности rFFT по индексам от 8; это индексный, не универсальный физический cutoff; v=c_R=c+lambda","sum(P_k,k>=8)/sum(P_k); 0 if sum(P_k)=0",ml/remizov_features.py,coefficient_features,57
+184,cR_std,channel_statistic,cR,Стандартное отклонение ddof=0; v=c_R=c+lambda,sqrt(mean_i((v_i-mean(v))^2)),ml/remizov_features.py,coefficient_features,52
+185,cR_total_variation,channel_statistic,cR,Дискретная полная вариация без деления на длину интервала; v=c_R=c+lambda,sum_i(abs(v[i+1]-v[i])),ml/remizov_features.py,coefficient_features,54
+186,cR_zero_crossings,channel_statistic,cR,Число строгих смен знака; переход через точный нулевой отсчёт не учитывается; v=c_R=c+lambda,count_i(v[i]*v[i+1]<0),ml/remizov_features.py,coefficient_features,56
+187,cert_a_lower_cert,certificate,,"Аналитический глобальный нижний сертификат a(x), не sampled min и не guard a_min",A_minus,ml/remizov_features.py,coefficient_features,38
+188,cert_a_upper_cert,certificate,,Аналитический глобальный верхний сертификат a(x),A_plus,ml/remizov_features.py,coefficient_features,38
+189,cert_b_abs_cert,certificate,,Глобальный сертификат abs(b(x)) <= B,B,ml/remizov_features.py,coefficient_features,38
+190,cert_remizov_c_abs_cert,certificate,,Глобальный сертификат abs(c_R(x)) <= C,C,ml/remizov_features.py,coefficient_features,38
+191,cert_remizov_lambda,certificate,,"Заданный параметр резольвенты, c=c_R-lambda",lambda,ml/remizov_features.py,coefficient_features,38
+192,corr_a_b,correlation,,Корреляция отсчётов каналов a и b; ноль для константного канала — соглашение кода,sum(center(a)*center(b))/sqrt(sum(center(a)^2)*sum(center(b)^2)); 0 if denominator=0,ml/remizov_features.py,coefficient_features,60
+193,corr_a_cR,correlation,,Корреляция отсчётов каналов a и c_R=c+lambda; ноль для константного канала — соглашение кода,sum(center(a)*center(cR))/sqrt(sum(center(a)^2)*sum(center(cR)^2)); 0 if denominator=0,ml/remizov_features.py,coefficient_features,60
+194,corr_a_gR,correlation,,Корреляция отсчётов каналов a и g_R=-g; ноль для константного канала — соглашение кода,sum(center(a)*center(gR))/sqrt(sum(center(a)^2)*sum(center(gR)^2)); 0 if denominator=0,ml/remizov_features.py,coefficient_features,60
+195,corr_b_cR,correlation,,Корреляция отсчётов каналов b и c_R=c+lambda; ноль для константного канала — соглашение кода,sum(center(b)*center(cR))/sqrt(sum(center(b)^2)*sum(center(cR)^2)); 0 if denominator=0,ml/remizov_features.py,coefficient_features,60
+196,corr_b_gR,correlation,,Корреляция отсчётов каналов b и g_R=-g; ноль для константного канала — соглашение кода,sum(center(b)*center(gR))/sqrt(sum(center(b)^2)*sum(center(gR)^2)); 0 if denominator=0,ml/remizov_features.py,coefficient_features,60
+197,corr_cR_gR,correlation,,Корреляция отсчётов каналов c_R=c+lambda и g_R=-g; ноль для константного канала — соглашение кода,sum(center(cR)*center(gR))/sqrt(sum(center(cR)^2)*sum(center(gR)^2)); 0 if denominator=0,ml/remizov_features.py,coefficient_features,60
+198,gR_absmax,channel_statistic,gR,Максимальный модуль отсчётов; v=g_R=-g,max_i(abs(v_i)),ml/remizov_features.py,coefficient_features,53
+199,gR_d1_absmax,channel_statistic,gR,Максимальный модуль первых разделённых разностей; v=g_R=-g,max_i(abs(d1_i)),ml/remizov_features.py,coefficient_features,55
+200,gR_d1_rms,channel_statistic,gR,"RMS первых разделённых разностей d1, 255 значений; v=g_R=-g",sqrt(mean_i(d1_i^2)),ml/remizov_features.py,coefficient_features,54
+201,gR_d2_rms,channel_statistic,gR,"RMS вторых разделённых разностей по серединам соседних интервалов, 254 значения; v=g_R=-g",sqrt(mean_i(d2_i^2)),ml/remizov_features.py,coefficient_features,55
+202,gR_max,channel_statistic,gR,Максимум отсчётов; v=g_R=-g,max_i(v_i),ml/remizov_features.py,coefficient_features,52
+203,gR_mean,channel_statistic,gR,Невзвешенное арифметическое среднее; v=g_R=-g,mean_i(v_i),ml/remizov_features.py,coefficient_features,52
+204,gR_median,channel_statistic,gR,Медиана; NumPy усредняет два средних значения при чётной длине; v=g_R=-g,median_i(v_i),ml/remizov_features.py,coefficient_features,53
+205,gR_min,channel_statistic,gR,Минимум отсчётов; v=g_R=-g,min_i(v_i),ml/remizov_features.py,coefficient_features,52
+206,gR_negative_fraction,channel_statistic,gR,Доля строго отрицательных отсчётов; нулевые не входят; v=g_R=-g,mean_i(v_i<0),ml/remizov_features.py,coefficient_features,56
+207,gR_rms,channel_statistic,gR,Среднеквадратическая амплитуда отсчётов; v=g_R=-g,sqrt(mean_i(v_i^2)),ml/remizov_features.py,coefficient_features,53
+208,gR_sample_00,sample,gR,Отсчёт #00 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=0, x_j=-1+2*0/255=-1",ml/remizov_features.py,coefficient_features,59
+209,gR_sample_01,sample,gR,Отсчёт #01 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=8, x_j=-1+2*8/255=-0.93725490196078431",ml/remizov_features.py,coefficient_features,59
+210,gR_sample_02,sample,gR,Отсчёт #02 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=16, x_j=-1+2*16/255=-0.87450980392156863",ml/remizov_features.py,coefficient_features,59
+211,gR_sample_03,sample,gR,Отсчёт #03 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=24, x_j=-1+2*24/255=-0.81176470588235294",ml/remizov_features.py,coefficient_features,59
+212,gR_sample_04,sample,gR,Отсчёт #04 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=32, x_j=-1+2*32/255=-0.74901960784313726",ml/remizov_features.py,coefficient_features,59
+213,gR_sample_05,sample,gR,Отсчёт #05 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=41, x_j=-1+2*41/255=-0.67843137254901964",ml/remizov_features.py,coefficient_features,59
+214,gR_sample_06,sample,gR,Отсчёт #06 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=49, x_j=-1+2*49/255=-0.61568627450980395",ml/remizov_features.py,coefficient_features,59
+215,gR_sample_07,sample,gR,Отсчёт #07 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=57, x_j=-1+2*57/255=-0.55294117647058827",ml/remizov_features.py,coefficient_features,59
+216,gR_sample_08,sample,gR,Отсчёт #08 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=65, x_j=-1+2*65/255=-0.49019607843137258",ml/remizov_features.py,coefficient_features,59
+217,gR_sample_09,sample,gR,Отсчёт #09 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=74, x_j=-1+2*74/255=-0.41960784313725497",ml/remizov_features.py,coefficient_features,59
+218,gR_sample_10,sample,gR,Отсчёт #10 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=82, x_j=-1+2*82/255=-0.35686274509803928",ml/remizov_features.py,coefficient_features,59
+219,gR_sample_11,sample,gR,Отсчёт #11 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=90, x_j=-1+2*90/255=-0.29411764705882359",ml/remizov_features.py,coefficient_features,59
+220,gR_sample_12,sample,gR,Отсчёт #12 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=98, x_j=-1+2*98/255=-0.23137254901960791",ml/remizov_features.py,coefficient_features,59
+221,gR_sample_13,sample,gR,Отсчёт #13 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=106, x_j=-1+2*106/255=-0.16862745098039222",ml/remizov_features.py,coefficient_features,59
+222,gR_sample_14,sample,gR,Отсчёт #14 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=115, x_j=-1+2*115/255=-0.098039215686274495",ml/remizov_features.py,coefficient_features,59
+223,gR_sample_15,sample,gR,Отсчёт #15 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=123, x_j=-1+2*123/255=-0.035294117647058809",ml/remizov_features.py,coefficient_features,59
+224,gR_sample_16,sample,gR,Отсчёт #16 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=131, x_j=-1+2*131/255=0.027450980392156765",ml/remizov_features.py,coefficient_features,59
+225,gR_sample_17,sample,gR,Отсчёт #17 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=139, x_j=-1+2*139/255=0.090196078431372451",ml/remizov_features.py,coefficient_features,59
+226,gR_sample_18,sample,gR,Отсчёт #18 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=148, x_j=-1+2*148/255=0.16078431372549007",ml/remizov_features.py,coefficient_features,59
+227,gR_sample_19,sample,gR,Отсчёт #19 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=156, x_j=-1+2*156/255=0.22352941176470598",ml/remizov_features.py,coefficient_features,59
+228,gR_sample_20,sample,gR,Отсчёт #20 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=164, x_j=-1+2*164/255=0.28627450980392144",ml/remizov_features.py,coefficient_features,59
+229,gR_sample_21,sample,gR,Отсчёт #21 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=172, x_j=-1+2*172/255=0.34901960784313735",ml/remizov_features.py,coefficient_features,59
+230,gR_sample_22,sample,gR,Отсчёт #22 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=180, x_j=-1+2*180/255=0.41176470588235281",ml/remizov_features.py,coefficient_features,59
+231,gR_sample_23,sample,gR,Отсчёт #23 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=189, x_j=-1+2*189/255=0.48235294117647065",ml/remizov_features.py,coefficient_features,59
+232,gR_sample_24,sample,gR,Отсчёт #24 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=197, x_j=-1+2*197/255=0.54509803921568634",ml/remizov_features.py,coefficient_features,59
+233,gR_sample_25,sample,gR,Отсчёт #25 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=205, x_j=-1+2*205/255=0.60784313725490202",ml/remizov_features.py,coefficient_features,59
+234,gR_sample_26,sample,gR,Отсчёт #26 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=213, x_j=-1+2*213/255=0.67058823529411771",ml/remizov_features.py,coefficient_features,59
+235,gR_sample_27,sample,gR,Отсчёт #27 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=222, x_j=-1+2*222/255=0.74117647058823533",ml/remizov_features.py,coefficient_features,59
+236,gR_sample_28,sample,gR,Отсчёт #28 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=230, x_j=-1+2*230/255=0.80392156862745101",ml/remizov_features.py,coefficient_features,59
+237,gR_sample_29,sample,gR,Отсчёт #29 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=238, x_j=-1+2*238/255=0.8666666666666667",ml/remizov_features.py,coefficient_features,59
+238,gR_sample_30,sample,gR,Отсчёт #30 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=246, x_j=-1+2*246/255=0.92941176470588238",ml/remizov_features.py,coefficient_features,59
+239,gR_sample_31,sample,gR,Отсчёт #31 канала g_R=-g в точном выбранном индексе входной сетки; не интерполяция,"g_R=-g at j=255, x_j=-1+2*255/255=1",ml/remizov_features.py,coefficient_features,59
+240,gR_spectral_high_fraction,channel_statistic,gR,"Доля мощности rFFT по индексам от 8; это индексный, не универсальный физический cutoff; v=g_R=-g","sum(P_k,k>=8)/sum(P_k); 0 if sum(P_k)=0",ml/remizov_features.py,coefficient_features,57
+241,gR_std,channel_statistic,gR,Стандартное отклонение ddof=0; v=g_R=-g,sqrt(mean_i((v_i-mean(v))^2)),ml/remizov_features.py,coefficient_features,52
+242,gR_total_variation,channel_statistic,gR,Дискретная полная вариация без деления на длину интервала; v=g_R=-g,sum_i(abs(v[i+1]-v[i])),ml/remizov_features.py,coefficient_features,54
+243,gR_zero_crossings,channel_statistic,gR,Число строгих смен знака; переход через точный нулевой отсчёт не учитывается; v=g_R=-g,count_i(v[i]*v[i+1]<0),ml/remizov_features.py,coefficient_features,56
+244,pre_C_T,precomputed,,"Сертификат потенциала, умноженный на исторический горизонт",C*T,ml/remizov_features.py,coefficient_features,39
+245,pre_T,precomputed,,Предвычисленный исторический горизонт R128; не полная погрешность и не G-нормированная граница,"T=max(0,(ln(2)-ln(gap)-ln(1e-8))/gap)",ml/remizov_features.py,coefficient_features,39
+246,pre_T_over_n,precomputed,,Шаг искусственного времени для конечной аппроксимации Чернова n=128; не шаг RK4 по x,T/128,ml/remizov_features.py,coefficient_features,39
+247,pre_a_contrast,precomputed,,Контраст аналитических сертификатов диффузии,A_plus/A_minus,ml/remizov_features.py,coefficient_features,39
+248,pre_diffusive_length,precomputed,,Описательный диффузионный масштаб на горизонте T,sqrt(2*A_plus*T),ml/remizov_features.py,coefficient_features,39
+249,pre_diffusive_shift,precomputed,,Предвычисленная максимальная диффузионная трансляция оператора при tau=T/128,2*sqrt(A_plus*T/128),ml/remizov_features.py,coefficient_features,39
+250,pre_drift_length,precomputed,,Описательный дрейфовый масштаб на горизонте T,B*T,ml/remizov_features.py,coefficient_features,39
+251,pre_drift_shift,precomputed,,Предвычисленная максимальная дрейфовая трансляция при tau=T/128,2*B*T/128,ml/remizov_features.py,coefficient_features,39
+252,pre_gap,precomputed,,Сертифицированный положительный реакционный зазор,gap=lambda-C,ml/remizov_features.py,coefficient_features,39
+253,pre_lambda_T,precomputed,,Масштаб затухания резольвентного веса на горизонте T,lambda*T,ml/remizov_features.py,coefficient_features,39
+254,research_local_peclet,research,,Локальный дрейф относительно диффузионно-реакционного масштаба; не стандартный Pe с заданной длиной L,abs(b0)/sqrt(a0*q0),ml/selector_research_features.py,additional_coefficient_features,63
+255,research_forcing_curvature_ratio,research,,Кривизна заданного forcing относительно реакционного масштаба; в коде F предварительно нормирован на RMS,a0*RMS(G2(F))/(q0*RMS(F)); 0 if F=0,ml/selector_research_features.py,additional_coefficient_features,68
+256,research_diffusion_gradient_ratio,research,,Изменчивость диффузии относительно локального масштаба,RMS(G(a))/sqrt(a0*q0),ml/selector_research_features.py,additional_coefficient_features,65
+257,research_forcing_cancellation,research,,Компенсация положительной и отрицательной частей forcing на входной сетке,abs(trapz(F))/trapz(abs(F)); 0 if F=0,ml/selector_research_features.py,additional_coefficient_features,74
+258,research_reaction_proxy_defect,research,,Дифференциальный дефект реакционного proxy u=F/q; решение ОДУ не вычисляется,RMS(a*G2(F/q)+b*G(F/q))/RMS(F); 0 if F=0,ml/selector_research_features.py,additional_coefficient_features,79

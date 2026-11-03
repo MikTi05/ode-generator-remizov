@@ -1,0 +1,50 @@
+{
+  "schema": "numerical_methods_integration_integrity_v1",
+  "original_tracked_files": 22836,
+  "unchanged_original_files": 22835,
+  "changed_original_files": [
+    "PROJECT_STATUS.md"
+  ],
+  "changed_original_sha256": {
+    "PROJECT_STATUS.md": {
+      "before": "562ec47434a225a21a42e95e0b01874659bf235c430e5c7b7367b03ec83d5b41",
+      "after": "2f1b9ccb86a17e283210f0c2dee05146f010c3e7ece9ee635315e2aa77e2e737"
+    }
+  },
+  "protected_prefix_file_counts": {
+    "results/": 21993,
+    "data/": 10,
+    "ml/": 19,
+    "migration_input/": 5,
+    "diagnostics/": 142,
+    "tests/": 65
+  },
+  "protected_prefixes_unchanged": true,
+  "core_matches_migration_manifest": true,
+  "manifest_unchanged": true,
+  "status_history_preserved": true,
+  "existing_tests_unchanged": true,
+  "restore_commit": "3038d6a35220cc29173c4d4aa2070f1ca2637481",
+  "new_files": [
+    "diagnostics/check_numerical_methods_integration.py",
+    "docs/NUMERICAL_METHODS.md",
+    "results/rk4_product_integral_integration_2026-11-01/REPORT.md",
+    "results/rk4_product_integral_integration_2026-11-01/before_sha256.json",
+    "results/rk4_product_integral_integration_2026-11-01/integration.json",
+    "results/rk4_product_integral_integration_2026-11-01/integration_verification.json",
+    "results/rk4_product_integral_integration_2026-11-01/isolated_legacy_failures.json",
+    "results/rk4_product_integral_integration_2026-11-01/isolated_legacy_failures.txt",
+    "results/rk4_product_integral_integration_2026-11-01/plan.json",
+    "results/rk4_product_integral_integration_2026-11-01/provenance.json",
+    "results/rk4_product_integral_integration_2026-11-01/regression_summary.json",
+    "results/rk4_product_integral_integration_2026-11-01/regression_tests.txt",
+    "results/rk4_product_integral_integration_2026-11-01/targeted_tests.json",
+    "src/numerical_methods/__init__.py",
+    "src/numerical_methods/product_integral_solver.py",
+    "src/numerical_methods/rk4_solver.py",
+    "tests/test_numerical_methods_integration.py",
+    "tests/test_product_integral_solver.py",
+    "tests/test_rk4_solver.py",
+    "results/rk4_product_integral_integration_2026-11-01/integrity.json"
+  ]
+}
