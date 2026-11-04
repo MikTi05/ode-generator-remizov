@@ -1,0 +1,197 @@
+{
+  "candidate_id": "new__augmented__classifier__w1__medium",
+  "policy": "validation_optimal",
+  "biases": [
+    0.7585894996714374,
+    1.4368175228112068
+  ],
+  "class_order": [
+    "remizov",
+    "monte_carlo",
+    "product_integral"
+  ],
+  "winners_n": 997,
+  "test_n": 150,
+  "top_features": [
+    {
+      "feature": "b_rms",
+      "importance": 10.359927487306017,
+      "label": "Среднеквадратичное b"
+    },
+    {
+      "feature": "b_sample_24",
+      "importance": 5.147267623718971,
+      "label": "Значение b (b_sample_24)"
+    },
+    {
+      "feature": "cert_remizov_lambda",
+      "importance": 4.847485441561256,
+      "label": "Параметр λ"
+    },
+    {
+      "feature": "a_total_variation",
+      "importance": 4.617271344210144,
+      "label": "Изменчивость a"
+    },
+    {
+      "feature": "pre_diffusive_length",
+      "importance": 4.270500978151543,
+      "label": "Диффузионная длина"
+    }
+  ],
+  "graphs": [
+    {
+      "name": "01_winners",
+      "title": "Распределение победителей",
+      "labels": [
+        "R128",
+        "MC mean4",
+        "PI"
+      ],
+      "values": [
+        826,
+        106,
+        65
+      ],
+      "display_values": [
+        "826",
+        "106",
+        "65"
+      ],
+      "sample": "Все 997 полных задач",
+      "source": "labels.csv; dataset.json/summary/classes"
+    },
+    {
+      "name": "02_accuracy",
+      "title": "Accuracy на Test",
+      "labels": [
+        "ML-модель",
+        "Всегда R128"
+      ],
+      "values": [
+        0.8866666666666667,
+        0.9066666666666666
+      ],
+      "display_values": [
+        "88,67%",
+        "90,67%"
+      ],
+      "plotted_values": [
+        88.66666666666667,
+        90.66666666666666
+      ],
+      "sample": "Test, 150 задач",
+      "source": "test_metrics.json: selected/accuracy; policies/new__always_remizov/accuracy"
+    },
+    {
+      "name": "03_macro_f1",
+      "title": "Macro-F1 на Test",
+      "labels": [
+        "ML-модель",
+        "Всегда R128"
+      ],
+      "values": [
+        0.3144208037825059,
+        0.317016317016317
+      ],
+      "display_values": [
+        "0,3144",
+        "0,3170"
+      ],
+      "sample": "Test, 150 задач",
+      "source": "test_metrics.json: selected/macro_f1; policies/new__always_remizov/macro_f1"
+    },
+    {
+      "name": "04_mean_error",
+      "title": "Средняя ошибка в x=0",
+      "labels": [
+        "ML-модель",
+        "Всегда R128",
+        "Всегда MC mean4",
+        "Всегда PI"
+      ],
+      "values": [
+        1.6588504604511507,
+        1.6589621134157981,
+        0.017275380416312974,
+        0.054156320857485694
+      ],
+      "display_values": [
+        "1,658850",
+        "1,658962",
+        "0,017275",
+        "0,054156"
+      ],
+      "sample": "Test, 150 задач",
+      "source": "test_metrics.json: selected/mean_error; policies/new__always_{method}/mean_error"
+    },
+    {
+      "name": "05_confusion_matrix",
+      "title": "Матрица ошибок на Test",
+      "labels": [
+        "R128",
+        "MC mean4",
+        "PI"
+      ],
+      "matrix": [
+        [
+          133,
+          3,
+          0
+        ],
+        [
+          7,
+          0,
+          0
+        ],
+        [
+          6,
+          1,
+          0
+        ]
+      ],
+      "rows": "Истинный лучший метод",
+      "columns": "Предсказанный метод",
+      "sample": "Test, 150 задач",
+      "source": "test_metrics.json: selected/confusion_matrix"
+    },
+    {
+      "name": "06_top5_features",
+      "title": "Пять важнейших признаков",
+      "labels": [
+        "Среднеквадратичное b",
+        "Значение b (b_sample_24)",
+        "Параметр λ",
+        "Изменчивость a",
+        "Диффузионная длина"
+      ],
+      "values": [
+        10.359927487306017,
+        5.147267623718971,
+        4.847485441561256,
+        4.617271344210144,
+        4.270500978151543
+      ],
+      "features": [
+        "b_rms",
+        "b_sample_24",
+        "cert_remizov_lambda",
+        "a_total_variation",
+        "pre_diffusive_length"
+      ],
+      "display_values": [
+        "10,36",
+        "5,15",
+        "4,85",
+        "4,62",
+        "4,27"
+      ],
+      "sample": "Сохранённая важность выбранной модели",
+      "source": "feature_importance.csv: selected candidate; descending importance, first 5; not renormalized"
+    }
+  ],
+  "numerical_calls": 0,
+  "fit_calls": 0,
+  "inference_calls": 0,
+  "hyperparameter_search_calls": 0
+}

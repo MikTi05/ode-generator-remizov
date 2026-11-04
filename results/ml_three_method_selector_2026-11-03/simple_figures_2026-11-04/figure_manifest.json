@@ -1,0 +1,108 @@
+{
+  "figures": [
+    {
+      "name": "01_winners",
+      "title": "Распределение победителей",
+      "source": "labels.csv; dataset.json/summary/classes",
+      "sample": "Все 997 полных задач",
+      "files": [
+        {
+          "path": "01_winners.png",
+          "sha256": "e5f3438134c4a47f6c675b76c4344d379161a8b424210b39e0c250e0b34522ce"
+        },
+        {
+          "path": "01_winners.pdf",
+          "sha256": "f29475e8ca53fcb5de568e4c96077571867d3d83728577a15aca93eb9b45591f"
+        }
+      ]
+    },
+    {
+      "name": "02_accuracy",
+      "title": "Accuracy на Test",
+      "source": "test_metrics.json: selected/accuracy; policies/new__always_remizov/accuracy",
+      "sample": "Test, 150 задач",
+      "files": [
+        {
+          "path": "02_accuracy.png",
+          "sha256": "adad296567ccefccd3977dcc1d4fc9f64fc6c29dd38e0a2ceba09dd071f83389"
+        },
+        {
+          "path": "02_accuracy.pdf",
+          "sha256": "b1b0863c43b91d01e9e8571314198b630bc1d9c7779fb2293dc0b07a6587b862"
+        }
+      ]
+    },
+    {
+      "name": "03_macro_f1",
+      "title": "Macro-F1 на Test",
+      "source": "test_metrics.json: selected/macro_f1; policies/new__always_remizov/macro_f1",
+      "sample": "Test, 150 задач",
+      "files": [
+        {
+          "path": "03_macro_f1.png",
+          "sha256": "a365fc85b688df8c7aa43d5dddd20334757e8256a56fff0d2b0ca92094404f84"
+        },
+        {
+          "path": "03_macro_f1.pdf",
+          "sha256": "aec80d65f551f7b527e9f1290a7ea782cdfe46d18e01cc7bd01fe9db6faac2a4"
+        }
+      ]
+    },
+    {
+      "name": "04_mean_error",
+      "title": "Средняя ошибка в x=0",
+      "source": "test_metrics.json: selected/mean_error; policies/new__always_{method}/mean_error",
+      "sample": "Test, 150 задач",
+      "files": [
+        {
+          "path": "04_mean_error.png",
+          "sha256": "f198165feffac5fddfa340ef741d88154468dac1cc4f100b53d00ad6fefac3df"
+        },
+        {
+          "path": "04_mean_error.pdf",
+          "sha256": "3b5723d6adac860949a1180a261c79adfd1dc2d1248bc09a736e622a2b0965d5"
+        }
+      ]
+    },
+    {
+      "name": "05_confusion_matrix",
+      "title": "Матрица ошибок на Test",
+      "source": "test_metrics.json: selected/confusion_matrix",
+      "sample": "Test, 150 задач",
+      "files": [
+        {
+          "path": "05_confusion_matrix.png",
+          "sha256": "3097487c791e33629de050fa99e05c1b0fa47f8bf81f27c3b69fb954b0c61d4e"
+        },
+        {
+          "path": "05_confusion_matrix.pdf",
+          "sha256": "e2708b4d26f70677f29f89c847c9e46947b472a406f88bf223063c54d5ff71dc"
+        }
+      ]
+    },
+    {
+      "name": "06_top5_features",
+      "title": "Пять важнейших признаков",
+      "source": "feature_importance.csv: selected candidate; descending importance, first 5; not renormalized",
+      "sample": "Сохранённая важность выбранной модели",
+      "files": [
+        {
+          "path": "06_top5_features.png",
+          "sha256": "fdc4bc18e426b15ce08cb2fff0d7dde90dd1001140262c53d97c4d2d43c6b6aa"
+        },
+        {
+          "path": "06_top5_features.pdf",
+          "sha256": "b44076ddd07c790e7472fbb30142f486dddbcf8b796b23396ce0e36d5e66ea6c"
+        }
+      ]
+    }
+  ],
+  "figure_count": 6,
+  "formats": [
+    "png",
+    "pdf"
+  ],
+  "numerical_calls": 0,
+  "fit_calls": 0,
+  "inference_calls": 0
+}

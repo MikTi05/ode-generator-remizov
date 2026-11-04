@@ -1,0 +1,32 @@
+{
+  "source_sha256": {
+    "dataset.json": "66bcd629b093e142a9a4faae2fa7b64efe9e7a6f2cb30034e6fc8c7a92c8391f",
+    "plan.json": "d5339165577a58a9699a43e670d2c47f8f542d37cf862f3f256b2b66be910031",
+    "splits.json": "ed4d2c1f130fd50c001a47cb5d40e86863270248e5a73ba6fb8d99796bfb2fb6",
+    "selection_lock.json": "803fd0af68318084d14350d571e9f127490abf1d12689e4a69fda8ea8ee04bc8",
+    "candidates.json": "c4760c2b0ba843aac2162ea3cb72cce34c780576beaad539f95bf6b73eaf87bd",
+    "validation_metrics.json": "9ec6e03930dfaa72481cff36469ca6a2efef2e1ef7e58dd7c6712e145c9e28e2",
+    "test_metrics.json": "2653c5df35f3dc406eaf00cd08b4a8bb5e1f23ee25fd73e19fbbba342d503d22",
+    "train_metrics.json": "70600f37f1d6371e25bd3bdaadc8946a88d3242e3eac27370ecce57a38b83b8e",
+    "cv_summary.json": "16d39ce45702ff7b85d9f76f847cb092a72dd42689986f4ca351f611b850477f",
+    "cv_folds.json": "3ba62bfeae4e6e40902841fb5340ebda5c80d3854483638e605e4c04ecef3b0a",
+    "fit_ledger.json": "c41862af6529c1d6ab0bc29aec2763826c4d5c2cc6d15d5a6ffd6db5fb6be3ee",
+    "feature_importance.csv": "f9fc4a680e28ad969b75ec90cf1929187387f6195a1d88e738da01f732b53bf7",
+    "features.npz": "f81bd2c22be23717cf3b98165661cf2aea9af964a403faefe59a855f7bf08c36",
+    "calibration.json": "c7e21202abaeeb4ec4c03da39c8a2f80b087468c14edcbb412353ec90516c1ae",
+    "reload_verification.json": "ea7cab087872dbbaca637e3b026d5aebb0b107d866de2decf522c86061bdb6a8",
+    "preservation_verification.json": "c2499111bdac0fd2a5f429da7833ae051120ecfa6c1f75abea6ff7ef3bf23d9f",
+    "script:diagnostics/report_three_method_selector.py": "4279b6e8f5edf62501fe33790f763f6273029239602f68bcd205f52bd355bb39"
+  },
+  "numerical_calls": 0,
+  "fit_calls": 0,
+  "selection_from": "selection_lock.json/latest",
+  "test_used_for_selection": false,
+  "output_files": [
+    "REPORT.md",
+    "ALL_EXPERIMENTS.md",
+    "feature_analysis.json",
+    "figure_manifest.json"
+  ],
+  "figures": 3
+}

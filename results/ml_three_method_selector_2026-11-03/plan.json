@@ -1,0 +1,90 @@
+{
+  "schema": "three_method_selector_v1",
+  "seed": 2488,
+  "methods": [
+    "remizov",
+    "monte_carlo",
+    "product_integral"
+  ],
+  "epsilon": 0.05,
+  "primary_scenario": "new",
+  "sensitivity_scenario": "old",
+  "classifier_configs": [
+    {
+      "name": "baseline",
+      "iterations": 120,
+      "depth": 2,
+      "l2_leaf_reg": 10
+    },
+    {
+      "name": "medium",
+      "iterations": 240,
+      "depth": 3,
+      "l2_leaf_reg": 10
+    },
+    {
+      "name": "deeper",
+      "iterations": 300,
+      "depth": 4,
+      "l2_leaf_reg": 20
+    }
+  ],
+  "weights": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    12
+  ],
+  "class_weights": "[1,w,w], no resampling or modification of labels/errors",
+  "features": [
+    "original253",
+    "augmented258"
+  ],
+  "classifier_base": {
+    "iterations": 120,
+    "depth": 2,
+    "l2_leaf_reg": 10,
+    "learning_rate": 0.05,
+    "loss_function": "MultiClass",
+    "random_seed": 2488,
+    "bootstrap_type": "No",
+    "random_strength": 0,
+    "thread_count": 1
+  },
+  "regression": "two RMSE heads delta_MC=E_R-E_MC, delta_PI=E_R-E_PI; raw and asinh(delta/train_median_abs_delta)",
+  "policy": "argmax(scores+[0,bias_MC,bias_PI]); classifier scores log raw probabilities; regression scores [0,delta_MC,delta_PI]; ties R,MC,PI",
+  "policy_search": "old binary tau=.05:.05:.50 mapped to log((1-tau)/tau), 100 classifier coarse pairs; regression coordinate-boundary quantiles; 2 starts, <=3 coordinate partition sweeps, boundaries and both nextafter neighbours; local search, not certified global 2D optimum",
+  "selection": "minimum Validation mean_regret, higher success, higher fixed-three-class Macro-F1, fewer non-R predictions, stable candidate ID/policy; latest primary fixed before fit, original sensitivity",
+  "cv": "5 outer StratifiedGroupKFold within each Train, first 4-fold inner holdout; baseline original253 six weights+raw+asinh+three constants; inner policy/spec selected independently then corresponding outer refit evaluated",
+  "fit_budget": {
+    "main_specifications": 96,
+    "main_estimator_fits": 120,
+    "cv_estimator_fits": 200,
+    "total_estimator_fits": 320
+  },
+  "numerical_calls": 0,
+  "new_equations": 0,
+  "test_tuning": false,
+  "retrospective": true,
+  "prospective_independent_test": false,
+  "resources": {
+    "processes": 1,
+    "catboost_threads": 1,
+    "blas_threads": 1
+  },
+  "input_grid_sha256": "002045cee0cbc16c4bda735e38416f4679cc0ecdec4af05334c11602840eb56d",
+  "data_sha256": "66bcd629b093e142a9a4faae2fa7b64efe9e7a6f2cb30034e6fc8c7a92c8391f",
+  "splits_sha256": "ed4d2c1f130fd50c001a47cb5d40e86863270248e5a73ba6fb8d99796bfb2fb6",
+  "feature_sha256": "f81bd2c22be23717cf3b98165661cf2aea9af964a403faefe59a855f7bf08c36",
+  "source_sha256": {
+    "ml/three_method_selector.py": "4a86a2cb0574a7706d64d54ac0e28ef9c6e1d580cdae660f0b54a002b6168413",
+    "diagnostics/run_three_method_selector.py": "2000dd07804f031d1e07938f551fc27a66913cc05e59d6642c415432c37baff1",
+    "ml/remizov_features.py": "caafd44f886e54d0fe78f28f6bc235045035d8f25f2e857eec61397cef518828",
+    "ml/selector_research_features.py": "8a10bd2c7a7c5c76dc6132dfd779fdc6fb7116d17d4264c09260e94dc5ba6c38",
+    "ml/accuracy_selector.py": "9cded9b6c159cdf3a4b25f4ca5a88c1fd28a2074c1b9eea34a15c57a27fb3bfb",
+    "diagnostics/report_four_method_accuracy.py": "d2d47e96bb5715925b7b352a20799f74ef5b0dc0752d453bf8e8294a1b1aac28",
+    "diagnostics/four_method_common.py": "1b08a50772f2ac7e2811a4128833e9bfb7a0d5232d0c016a881e3de52f592c9b"
+  }
+}

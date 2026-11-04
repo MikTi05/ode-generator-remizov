@@ -1,0 +1,246 @@
+{
+  "primary_scenario": "new",
+  "selected": {
+    "candidate_id": "new__augmented__classifier__w1__medium",
+    "scenario": "new",
+    "policy": "validation_optimal",
+    "biases": [
+      0.7585894996714374,
+      1.4368175228112068
+    ],
+    "n": 100,
+    "status": "evaluated",
+    "class_order": [
+      "remizov",
+      "monte_carlo",
+      "product_integral"
+    ],
+    "confusion_matrix": [
+      [
+        81,
+        1,
+        0
+      ],
+      [
+        10,
+        1,
+        1
+      ],
+      [
+        5,
+        0,
+        1
+      ]
+    ],
+    "accuracy": 0.83,
+    "balanced_accuracy": 0.41260162601626016,
+    "macro_f1": 0.4343231674692349,
+    "precision": {
+      "remizov": 0.84375,
+      "monte_carlo": 0.5,
+      "product_integral": 0.5
+    },
+    "recall": {
+      "remizov": 0.9878048780487805,
+      "monte_carlo": 0.08333333333333333,
+      "product_integral": 0.16666666666666666
+    },
+    "f1": {
+      "remizov": 0.9101123595505618,
+      "monte_carlo": 0.14285714285714285,
+      "product_integral": 0.25
+    },
+    "true_class_counts": {
+      "remizov": 82,
+      "monte_carlo": 12,
+      "product_integral": 6
+    },
+    "selection_counts": {
+      "remizov": 96,
+      "monte_carlo": 2,
+      "product_integral": 2
+    },
+    "selection_fractions": {
+      "remizov": 0.96,
+      "monte_carlo": 0.02,
+      "product_integral": 0.02
+    },
+    "non_R_predictions": 4,
+    "selection_errors": 17,
+    "success_count": 100,
+    "success_rate": 1.0,
+    "mean_error": 0.0028739589544710155,
+    "median_error": 0.001046017365893645,
+    "max_error": 0.04458806347141505,
+    "mean_regret": 0.0007518430943367043,
+    "median_regret": 0.0,
+    "max_regret": 0.028964329426923008
+  },
+  "selected_by_scenario": {
+    "old": {
+      "candidate_id": "old__augmented__classifier__w3__baseline",
+      "scenario": "old",
+      "policy": "validation_optimal",
+      "biases": [
+        0.2848367613789384,
+        0.0
+      ],
+      "n": 150,
+      "status": "evaluated",
+      "class_order": [
+        "remizov",
+        "monte_carlo",
+        "product_integral"
+      ],
+      "confusion_matrix": [
+        [
+          114,
+          6,
+          0
+        ],
+        [
+          12,
+          3,
+          0
+        ],
+        [
+          12,
+          3,
+          0
+        ]
+      ],
+      "accuracy": 0.78,
+      "balanced_accuracy": 0.3833333333333333,
+      "macro_f1": 0.36864771748492675,
+      "precision": {
+        "remizov": 0.8260869565217391,
+        "monte_carlo": 0.25,
+        "product_integral": 0.0
+      },
+      "recall": {
+        "remizov": 0.95,
+        "monte_carlo": 0.2,
+        "product_integral": 0.0
+      },
+      "f1": {
+        "remizov": 0.8837209302325582,
+        "monte_carlo": 0.2222222222222222,
+        "product_integral": 0.0
+      },
+      "true_class_counts": {
+        "remizov": 120,
+        "monte_carlo": 15,
+        "product_integral": 15
+      },
+      "selection_counts": {
+        "remizov": 138,
+        "monte_carlo": 12,
+        "product_integral": 0
+      },
+      "selection_fractions": {
+        "remizov": 0.92,
+        "monte_carlo": 0.08,
+        "product_integral": 0.0
+      },
+      "non_R_predictions": 12,
+      "selection_errors": 33,
+      "success_count": 146,
+      "success_rate": 0.9733333333333334,
+      "mean_error": 0.005641889970690669,
+      "median_error": 0.00136435965586916,
+      "max_error": 0.16088482794840148,
+      "mean_regret": 0.0017860648881298587,
+      "median_regret": 0.0,
+      "max_regret": 0.06582882476488139
+    },
+    "new": {
+      "candidate_id": "new__augmented__classifier__w1__medium",
+      "scenario": "new",
+      "policy": "validation_optimal",
+      "biases": [
+        0.7585894996714374,
+        1.4368175228112068
+      ],
+      "n": 100,
+      "status": "evaluated",
+      "class_order": [
+        "remizov",
+        "monte_carlo",
+        "product_integral"
+      ],
+      "confusion_matrix": [
+        [
+          81,
+          1,
+          0
+        ],
+        [
+          10,
+          1,
+          1
+        ],
+        [
+          5,
+          0,
+          1
+        ]
+      ],
+      "accuracy": 0.83,
+      "balanced_accuracy": 0.41260162601626016,
+      "macro_f1": 0.4343231674692349,
+      "precision": {
+        "remizov": 0.84375,
+        "monte_carlo": 0.5,
+        "product_integral": 0.5
+      },
+      "recall": {
+        "remizov": 0.9878048780487805,
+        "monte_carlo": 0.08333333333333333,
+        "product_integral": 0.16666666666666666
+      },
+      "f1": {
+        "remizov": 0.9101123595505618,
+        "monte_carlo": 0.14285714285714285,
+        "product_integral": 0.25
+      },
+      "true_class_counts": {
+        "remizov": 82,
+        "monte_carlo": 12,
+        "product_integral": 6
+      },
+      "selection_counts": {
+        "remizov": 96,
+        "monte_carlo": 2,
+        "product_integral": 2
+      },
+      "selection_fractions": {
+        "remizov": 0.96,
+        "monte_carlo": 0.02,
+        "product_integral": 0.02
+      },
+      "non_R_predictions": 4,
+      "selection_errors": 17,
+      "success_count": 100,
+      "success_rate": 1.0,
+      "mean_error": 0.0028739589544710155,
+      "median_error": 0.001046017365893645,
+      "max_error": 0.04458806347141505,
+      "mean_regret": 0.0007518430943367043,
+      "median_regret": 0.0,
+      "max_regret": 0.028964329426923008
+    }
+  },
+  "test_evaluated": false,
+  "test_used_for_selection": false,
+  "primary_scenario_fixed_before_fit": true,
+  "main_estimator_fits": 120,
+  "main_specifications": 96,
+  "hashes": {
+    "plan.json": "d5339165577a58a9699a43e670d2c47f8f542d37cf862f3f256b2b66be910031",
+    "dataset.json": "66bcd629b093e142a9a4faae2fa7b64efe9e7a6f2cb30034e6fc8c7a92c8391f",
+    "features.npz": "f81bd2c22be23717cf3b98165661cf2aea9af964a403faefe59a855f7bf08c36",
+    "splits.json": "ed4d2c1f130fd50c001a47cb5d40e86863270248e5a73ba6fb8d99796bfb2fb6",
+    "candidates.json": "c4760c2b0ba843aac2162ea3cb72cce34c780576beaad539f95bf6b73eaf87bd",
+    "validation_metrics.json": "9ec6e03930dfaa72481cff36469ca6a2efef2e1ef7e58dd7c6712e145c9e28e2"
+  }
+}

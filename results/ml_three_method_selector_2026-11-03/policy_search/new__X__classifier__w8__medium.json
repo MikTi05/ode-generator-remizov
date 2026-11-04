@@ -1,0 +1,7880 @@
+{
+  "candidate_id": "new__X__classifier__w8__medium",
+  "visited": [
+    {
+      "biases": [
+        0.0,
+        0.0
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.012100103364900812,
+      "success_rate": 0.98,
+      "macro_f1": 0.3770685579196218,
+      "non_R_predictions": 41
+    },
+    {
+      "biases": [
+        0.0,
+        0.20067069546215124
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.01488321098446978,
+      "success_rate": 0.97,
+      "macro_f1": 0.40757575757575754,
+      "non_R_predictions": 42
+    },
+    {
+      "biases": [
+        0.0,
+        0.4054651081081642
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.015153749873857656,
+      "success_rate": 0.97,
+      "macro_f1": 0.3818092812571648,
+      "non_R_predictions": 43
+    },
+    {
+      "biases": [
+        0.0,
+        0.6190392084062236
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.01706849072262633,
+      "success_rate": 0.96,
+      "macro_f1": 0.33796174431868037,
+      "non_R_predictions": 51
+    },
+    {
+      "biases": [
+        0.0,
+        0.8472978603872037
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.020154151270178947,
+      "success_rate": 0.95,
+      "macro_f1": 0.29028944911297855,
+      "non_R_predictions": 63
+    },
+    {
+      "biases": [
+        0.0,
+        1.0986122886681098
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.02313414718266073,
+      "success_rate": 0.93,
+      "macro_f1": 0.257890301823196,
+      "non_R_predictions": 75
+    },
+    {
+      "biases": [
+        0.0,
+        1.3862943611198906
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.024880544230447534,
+      "success_rate": 0.9,
+      "macro_f1": 0.23665620094191522,
+      "non_R_predictions": 84
+    },
+    {
+      "biases": [
+        0.0,
+        1.7346010553881064
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.033957352403179625,
+      "success_rate": 0.81,
+      "macro_f1": 0.16592838426310041,
+      "non_R_predictions": 93
+    },
+    {
+      "biases": [
+        0.0,
+        2.1972245773362196
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.03700142536286222,
+      "success_rate": 0.77,
+      "macro_f1": 0.03773584905660377,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.0,
+        2.9444389791664403
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.03700142536286222,
+      "success_rate": 0.77,
+      "macro_f1": 0.03773584905660377,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.20067069546215124,
+        0.0
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.012366385886194223,
+      "success_rate": 0.98,
+      "macro_f1": 0.3791624686765352,
+      "non_R_predictions": 44
+    },
+    {
+      "biases": [
+        0.20067069546215124,
+        0.20067069546215124
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.012754953912435535,
+      "success_rate": 0.98,
+      "macro_f1": 0.3551263335204941,
+      "non_R_predictions": 45
+    },
+    {
+      "biases": [
+        0.20067069546215124,
+        0.4054651081081642
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.015348557236610412,
+      "success_rate": 0.97,
+      "macro_f1": 0.38412599082186066,
+      "non_R_predictions": 46
+    },
+    {
+      "biases": [
+        0.20067069546215124,
+        0.6190392084062236
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.01742378506742985,
+      "success_rate": 0.96,
+      "macro_f1": 0.32137345679012347,
+      "non_R_predictions": 54
+    },
+    {
+      "biases": [
+        0.20067069546215124,
+        0.8472978603872037
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.020073902009582905,
+      "success_rate": 0.95,
+      "macro_f1": 0.2714295641124909,
+      "non_R_predictions": 65
+    },
+    {
+      "biases": [
+        0.20067069546215124,
+        1.0986122886681098
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.022421355508899184,
+      "success_rate": 0.94,
+      "macro_f1": 0.24583724909033955,
+      "non_R_predictions": 76
+    },
+    {
+      "biases": [
+        0.20067069546215124,
+        1.3862943611198906
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.02384867999286481,
+      "success_rate": 0.92,
+      "macro_f1": 0.23589129277382506,
+      "non_R_predictions": 85
+    },
+    {
+      "biases": [
+        0.20067069546215124,
+        1.7346010553881064
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.03179993294826003,
+      "success_rate": 0.84,
+      "macro_f1": 0.1504937010554988,
+      "non_R_predictions": 93
+    },
+    {
+      "biases": [
+        0.20067069546215124,
+        2.1972245773362196
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.037060192195021574,
+      "success_rate": 0.77,
+      "macro_f1": 0.03809523809523809,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.20067069546215124,
+        2.9444389791664403
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.03700142536286222,
+      "success_rate": 0.77,
+      "macro_f1": 0.03773584905660377,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.4054651081081642,
+        0.0
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.013391297825882744,
+      "success_rate": 0.97,
+      "macro_f1": 0.3353499434271596,
+      "non_R_predictions": 55
+    },
+    {
+      "biases": [
+        0.4054651081081642,
+        0.20067069546215124
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.013718982626741892,
+      "success_rate": 0.97,
+      "macro_f1": 0.3265915685270524,
+      "non_R_predictions": 56
+    },
+    {
+      "biases": [
+        0.4054651081081642,
+        0.4054651081081642
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.013918046357589111,
+      "success_rate": 0.97,
+      "macro_f1": 0.3051928181108509,
+      "non_R_predictions": 57
+    },
+    {
+      "biases": [
+        0.4054651081081642,
+        0.6190392084062236
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.017794509309465755,
+      "success_rate": 0.95,
+      "macro_f1": 0.29401259822066367,
+      "non_R_predictions": 64
+    },
+    {
+      "biases": [
+        0.4054651081081642,
+        0.8472978603872037
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.02075457881985879,
+      "success_rate": 0.94,
+      "macro_f1": 0.2325373759827993,
+      "non_R_predictions": 73
+    },
+    {
+      "biases": [
+        0.4054651081081642,
+        1.0986122886681098
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.021478230732519484,
+      "success_rate": 0.95,
+      "macro_f1": 0.20703711187445276,
+      "non_R_predictions": 81
+    },
+    {
+      "biases": [
+        0.4054651081081642,
+        1.3862943611198906
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.02337636122820992,
+      "success_rate": 0.93,
+      "macro_f1": 0.19888418560145316,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.4054651081081642,
+        1.7346010553881064
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.030686513542307763,
+      "success_rate": 0.86,
+      "macro_f1": 0.1472359058565955,
+      "non_R_predictions": 95
+    },
+    {
+      "biases": [
+        0.4054651081081642,
+        2.1972245773362196
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.0366669075042241,
+      "success_rate": 0.78,
+      "macro_f1": 0.0392156862745098,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.4054651081081642,
+        2.9444389791664403
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.03700142536286222,
+      "success_rate": 0.77,
+      "macro_f1": 0.03773584905660377,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.6190392084062236,
+        0.0
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.008229991872082865,
+      "success_rate": 0.98,
+      "macro_f1": 0.3522874264142974,
+      "non_R_predictions": 60
+    },
+    {
+      "biases": [
+        0.6190392084062236,
+        0.20067069546215124
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.014352873345075927,
+      "success_rate": 0.97,
+      "macro_f1": 0.33243561805298577,
+      "non_R_predictions": 61
+    },
+    {
+      "biases": [
+        0.6190392084062236,
+        0.4054651081081642
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.014491053850540982,
+      "success_rate": 0.97,
+      "macro_f1": 0.3241676234213548,
+      "non_R_predictions": 62
+    },
+    {
+      "biases": [
+        0.6190392084062236,
+        0.6190392084062236
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.01587589423821888,
+      "success_rate": 0.96,
+      "macro_f1": 0.2775400038557933,
+      "non_R_predictions": 68
+    },
+    {
+      "biases": [
+        0.6190392084062236,
+        0.8472978603872037
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.01888594014597778,
+      "success_rate": 0.95,
+      "macro_f1": 0.2534096727645115,
+      "non_R_predictions": 77
+    },
+    {
+      "biases": [
+        0.6190392084062236,
+        1.0986122886681098
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.02180725718709793,
+      "success_rate": 0.94,
+      "macro_f1": 0.20723905723905725,
+      "non_R_predictions": 83
+    },
+    {
+      "biases": [
+        0.6190392084062236,
+        1.3862943611198906
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.022226380674914035,
+      "success_rate": 0.95,
+      "macro_f1": 0.20391220801056864,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.6190392084062236,
+        1.7346010553881064
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.02859323119297771,
+      "success_rate": 0.89,
+      "macro_f1": 0.17135862913096692,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        0.6190392084062236,
+        2.1972245773362196
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.033929351487543495,
+      "success_rate": 0.82,
+      "macro_f1": 0.10227272727272728,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.6190392084062236,
+        2.9444389791664403
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.03700142536286222,
+      "success_rate": 0.77,
+      "macro_f1": 0.03773584905660377,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.8472978603872037,
+        0.0
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.007958021519227355,
+      "success_rate": 0.98,
+      "macro_f1": 0.33289241622574955,
+      "non_R_predictions": 74
+    },
+    {
+      "biases": [
+        0.8472978603872037,
+        0.20067069546215124
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.00822373390861717,
+      "success_rate": 0.98,
+      "macro_f1": 0.31258491911571523,
+      "non_R_predictions": 75
+    },
+    {
+      "biases": [
+        0.8472978603872037,
+        0.4054651081081642
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.01415711108621614,
+      "success_rate": 0.97,
+      "macro_f1": 0.2947015714311312,
+      "non_R_predictions": 76
+    },
+    {
+      "biases": [
+        0.8472978603872037,
+        0.6190392084062236
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.014604395347851493,
+      "success_rate": 0.97,
+      "macro_f1": 0.2698819369531344,
+      "non_R_predictions": 79
+    },
+    {
+      "biases": [
+        0.8472978603872037,
+        0.8472978603872037
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.01556083612183282,
+      "success_rate": 0.96,
+      "macro_f1": 0.21562106324011088,
+      "non_R_predictions": 84
+    },
+    {
+      "biases": [
+        0.8472978603872037,
+        1.0986122886681098
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.01887350488537306,
+      "success_rate": 0.95,
+      "macro_f1": 0.20225660863958736,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.8472978603872037,
+        1.3862943611198906
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.022524702698391956,
+      "success_rate": 0.94,
+      "macro_f1": 0.17278077727515928,
+      "non_R_predictions": 93
+    },
+    {
+      "biases": [
+        0.8472978603872037,
+        1.7346010553881064
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.027948236960317497,
+      "success_rate": 0.9,
+      "macro_f1": 0.15562501569129572,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        0.8472978603872037,
+        2.1972245773362196
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.03200868202260816,
+      "success_rate": 0.85,
+      "macro_f1": 0.13689784321322485,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.8472978603872037,
+        2.9444389791664403
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.037060192195021574,
+      "success_rate": 0.77,
+      "macro_f1": 0.03809523809523809,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.0986122886681098,
+        0.0
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.009247480770406429,
+      "success_rate": 0.97,
+      "macro_f1": 0.27048053263858735,
+      "non_R_predictions": 84
+    },
+    {
+      "biases": [
+        1.0986122886681098,
+        0.20067069546215124
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.009247480770406429,
+      "success_rate": 0.97,
+      "macro_f1": 0.27048053263858735,
+      "non_R_predictions": 84
+    },
+    {
+      "biases": [
+        1.0986122886681098,
+        0.4054651081081642
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.009343925353851623,
+      "success_rate": 0.97,
+      "macro_f1": 0.25055896484467916,
+      "non_R_predictions": 84
+    },
+    {
+      "biases": [
+        1.0986122886681098,
+        0.6190392084062236
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.015541711169339199,
+      "success_rate": 0.96,
+      "macro_f1": 0.2246098626716604,
+      "non_R_predictions": 86
+    },
+    {
+      "biases": [
+        1.0986122886681098,
+        0.8472978603872037
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.015803177107742664,
+      "success_rate": 0.96,
+      "macro_f1": 0.18126318126318128,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        1.0986122886681098,
+        1.0986122886681098
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.016751039481379612,
+      "success_rate": 0.95,
+      "macro_f1": 0.14168869097184508,
+      "non_R_predictions": 94
+    },
+    {
+      "biases": [
+        1.0986122886681098,
+        1.3862943611198906
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.020588861419825747,
+      "success_rate": 0.93,
+      "macro_f1": 0.16202642209848236,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        1.0986122886681098,
+        1.7346010553881064
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.02419345260817854,
+      "success_rate": 0.92,
+      "macro_f1": 0.13124619458250145,
+      "non_R_predictions": 98
+    },
+    {
+      "biases": [
+        1.0986122886681098,
+        2.1972245773362196
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.029922176918656555,
+      "success_rate": 0.88,
+      "macro_f1": 0.13610299686249053,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.0986122886681098,
+        2.9444389791664403
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.03679055463306918,
+      "success_rate": 0.78,
+      "macro_f1": 0.038461538461538464,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.3862943611198906,
+        0.0
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.010947301744100434,
+      "success_rate": 0.97,
+      "macro_f1": 0.09760348583877994,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        1.3862943611198906,
+        0.20067069546215124
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.010947301744100434,
+      "success_rate": 0.97,
+      "macro_f1": 0.09760348583877994,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        1.3862943611198906,
+        0.4054651081081642
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.010918935153886079,
+      "success_rate": 0.97,
+      "macro_f1": 0.18162910023822612,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        1.3862943611198906,
+        0.6190392084062236
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.010900975922312022,
+      "success_rate": 0.97,
+      "macro_f1": 0.16638655462184873,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        1.3862943611198906,
+        0.8472978603872037
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011240897485394313,
+      "success_rate": 0.97,
+      "macro_f1": 0.13952538110953952,
+      "non_R_predictions": 98
+    },
+    {
+      "biases": [
+        1.3862943611198906,
+        1.0986122886681098
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.016830662155265685,
+      "success_rate": 0.96,
+      "macro_f1": 0.12183141166817808,
+      "non_R_predictions": 99
+    },
+    {
+      "biases": [
+        1.3862943611198906,
+        1.3862943611198906
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.017992360008550947,
+      "success_rate": 0.94,
+      "macro_f1": 0.10729683439640918,
+      "non_R_predictions": 99
+    },
+    {
+      "biases": [
+        1.3862943611198906,
+        1.7346010553881064
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.021079651264222746,
+      "success_rate": 0.93,
+      "macro_f1": 0.12655064703257474,
+      "non_R_predictions": 99
+    },
+    {
+      "biases": [
+        1.3862943611198906,
+        2.1972245773362196
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.028111204972184476,
+      "success_rate": 0.9,
+      "macro_f1": 0.14251207729468598,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.3862943611198906,
+        2.9444389791664403
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.03385331888129732,
+      "success_rate": 0.82,
+      "macro_f1": 0.10007627765064836,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.7346010553881064,
+        0.0
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011061606653736978,
+      "success_rate": 0.97,
+      "macro_f1": 0.07207207207207207,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.7346010553881064,
+        0.20067069546215124
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011061606653736978,
+      "success_rate": 0.97,
+      "macro_f1": 0.07207207207207207,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.7346010553881064,
+        0.4054651081081642
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011061606653736978,
+      "success_rate": 0.97,
+      "macro_f1": 0.07207207207207207,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.7346010553881064,
+        0.6190392084062236
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011033240063522623,
+      "success_rate": 0.97,
+      "macro_f1": 0.15606060606060604,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.7346010553881064,
+        0.8472978603872037
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011033240063522623,
+      "success_rate": 0.97,
+      "macro_f1": 0.15606060606060604,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.7346010553881064,
+        1.0986122886681098
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011265525043542824,
+      "success_rate": 0.97,
+      "macro_f1": 0.12211434735706579,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.7346010553881064,
+        1.3862943611198906
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.016999406296556205,
+      "success_rate": 0.96,
+      "macro_f1": 0.11363636363636365,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.7346010553881064,
+        1.7346010553881064
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.018043234365590907,
+      "success_rate": 0.94,
+      "macro_f1": 0.09835271317829457,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.7346010553881064,
+        2.1972245773362196
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.02413053803334806,
+      "success_rate": 0.91,
+      "macro_f1": 0.11978713110788582,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.7346010553881064,
+        2.9444389791664403
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.030078434689619328,
+      "success_rate": 0.87,
+      "macro_f1": 0.1434308663224326,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.1972245773362196,
+        0.0
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011044760956595725,
+      "success_rate": 0.97,
+      "macro_f1": 0.07142857142857142,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.1972245773362196,
+        0.20067069546215124
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011044760956595725,
+      "success_rate": 0.97,
+      "macro_f1": 0.07142857142857142,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.1972245773362196,
+        0.4054651081081642
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011061606653736978,
+      "success_rate": 0.97,
+      "macro_f1": 0.07207207207207207,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.1972245773362196,
+        0.6190392084062236
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011061606653736978,
+      "success_rate": 0.97,
+      "macro_f1": 0.07207207207207207,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.1972245773362196,
+        0.8472978603872037
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011061606653736978,
+      "success_rate": 0.97,
+      "macro_f1": 0.07207207207207207,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.1972245773362196,
+        1.0986122886681098
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011033240063522623,
+      "success_rate": 0.97,
+      "macro_f1": 0.15606060606060604,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.1972245773362196,
+        1.3862943611198906
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011093454940612719,
+      "success_rate": 0.97,
+      "macro_f1": 0.14074074074074075,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.1972245773362196,
+        1.7346010553881064
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.017019309470569458,
+      "success_rate": 0.96,
+      "macro_f1": 0.11589580010632643,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.1972245773362196,
+        2.1972245773362196
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.018043234365590907,
+      "success_rate": 0.94,
+      "macro_f1": 0.09835271317829457,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.1972245773362196,
+        2.9444389791664403
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.024794265145449582,
+      "success_rate": 0.92,
+      "macro_f1": 0.1261574074074074,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.9444389791664403,
+        0.0
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011044760956595725,
+      "success_rate": 0.97,
+      "macro_f1": 0.07142857142857142,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.9444389791664403,
+        0.20067069546215124
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011044760956595725,
+      "success_rate": 0.97,
+      "macro_f1": 0.07142857142857142,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.9444389791664403,
+        0.4054651081081642
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011044760956595725,
+      "success_rate": 0.97,
+      "macro_f1": 0.07142857142857142,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.9444389791664403,
+        0.6190392084062236
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011044760956595725,
+      "success_rate": 0.97,
+      "macro_f1": 0.07142857142857142,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.9444389791664403,
+        0.8472978603872037
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011044760956595725,
+      "success_rate": 0.97,
+      "macro_f1": 0.07142857142857142,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.9444389791664403,
+        1.0986122886681098
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011061606653736978,
+      "success_rate": 0.97,
+      "macro_f1": 0.07207207207207207,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.9444389791664403,
+        1.3862943611198906
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011061606653736978,
+      "success_rate": 0.97,
+      "macro_f1": 0.07207207207207207,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.9444389791664403,
+        1.7346010553881064
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011061606653736978,
+      "success_rate": 0.97,
+      "macro_f1": 0.07207207207207207,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.9444389791664403,
+        2.1972245773362196
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.011145886344162637,
+      "success_rate": 0.97,
+      "macro_f1": 0.1310272536687631,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        2.9444389791664403,
+        2.9444389791664403
+      ],
+      "phase": "coarse",
+      "mean_regret": 0.018043234365590907,
+      "success_rate": 0.94,
+      "macro_f1": 0.09835271317829457,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        -1.0438877953596457,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008942298979396107,
+      "success_rate": 0.98,
+      "macro_f1": 0.3446153846153846,
+      "non_R_predictions": 7
+    },
+    {
+      "biases": [
+        -1.0438877953596455,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008942298979396107,
+      "success_rate": 0.98,
+      "macro_f1": 0.3446153846153846,
+      "non_R_predictions": 7
+    },
+    {
+      "biases": [
+        -1.0438877953596453,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008988659392782691,
+      "success_rate": 0.98,
+      "macro_f1": 0.34246979074565287,
+      "non_R_predictions": 8
+    },
+    {
+      "biases": [
+        -1.0249230860100649,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008988659392782691,
+      "success_rate": 0.98,
+      "macro_f1": 0.34246979074565287,
+      "non_R_predictions": 8
+    },
+    {
+      "biases": [
+        -1.0249230860100647,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008988659392782691,
+      "success_rate": 0.98,
+      "macro_f1": 0.34246979074565287,
+      "non_R_predictions": 8
+    },
+    {
+      "biases": [
+        -1.0249230860100644,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00934841876810201,
+      "success_rate": 0.98,
+      "macro_f1": 0.3402993923225137,
+      "non_R_predictions": 9
+    },
+    {
+      "biases": [
+        -0.8953242453766036,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00934841876810201,
+      "success_rate": 0.98,
+      "macro_f1": 0.3402993923225137,
+      "non_R_predictions": 9
+    },
+    {
+      "biases": [
+        -0.8953242453766035,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00934841876810201,
+      "success_rate": 0.98,
+      "macro_f1": 0.3402993923225137,
+      "non_R_predictions": 9
+    },
+    {
+      "biases": [
+        -0.8953242453766034,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00934841876810201,
+      "success_rate": 0.98,
+      "macro_f1": 0.3402993923225137,
+      "non_R_predictions": 9
+    },
+    {
+      "biases": [
+        -0.8117451604502384,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009291443462232535,
+      "success_rate": 0.98,
+      "macro_f1": 0.3864241701451004,
+      "non_R_predictions": 10
+    },
+    {
+      "biases": [
+        -0.8117451604502383,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009291443462232535,
+      "success_rate": 0.98,
+      "macro_f1": 0.3864241701451004,
+      "non_R_predictions": 10
+    },
+    {
+      "biases": [
+        -0.8117451604502381,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009291443462232535,
+      "success_rate": 0.98,
+      "macro_f1": 0.3864241701451004,
+      "non_R_predictions": 10
+    },
+    {
+      "biases": [
+        -0.7972528883657357,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009143297852505929,
+      "success_rate": 0.98,
+      "macro_f1": 0.42701304543409807,
+      "non_R_predictions": 11
+    },
+    {
+      "biases": [
+        -0.7972528883657356,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009143297852505929,
+      "success_rate": 0.98,
+      "macro_f1": 0.42701304543409807,
+      "non_R_predictions": 11
+    },
+    {
+      "biases": [
+        -0.7972528883657355,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009143297852505929,
+      "success_rate": 0.98,
+      "macro_f1": 0.42701304543409807,
+      "non_R_predictions": 11
+    },
+    {
+      "biases": [
+        -0.7251611446360571,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009201280824848043,
+      "success_rate": 0.98,
+      "macro_f1": 0.41990950226244345,
+      "non_R_predictions": 12
+    },
+    {
+      "biases": [
+        -0.725161144636057,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009201280824848043,
+      "success_rate": 0.98,
+      "macro_f1": 0.41990950226244345,
+      "non_R_predictions": 12
+    },
+    {
+      "biases": [
+        -0.7251611446360569,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009201280824848043,
+      "success_rate": 0.98,
+      "macro_f1": 0.41990950226244345,
+      "non_R_predictions": 12
+    },
+    {
+      "biases": [
+        -0.6911972860471685,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009316610519213472,
+      "success_rate": 0.98,
+      "macro_f1": 0.413324567170721,
+      "non_R_predictions": 13
+    },
+    {
+      "biases": [
+        -0.6911972860471683,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009316610519213472,
+      "success_rate": 0.98,
+      "macro_f1": 0.413324567170721,
+      "non_R_predictions": 13
+    },
+    {
+      "biases": [
+        -0.6911972860471682,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009316610519213472,
+      "success_rate": 0.98,
+      "macro_f1": 0.413324567170721,
+      "non_R_predictions": 13
+    },
+    {
+      "biases": [
+        -0.6671451572838085,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009491575118140812,
+      "success_rate": 0.98,
+      "macro_f1": 0.40717177559282813,
+      "non_R_predictions": 14
+    },
+    {
+      "biases": [
+        -0.6671451572838084,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009491575118140812,
+      "success_rate": 0.98,
+      "macro_f1": 0.40717177559282813,
+      "non_R_predictions": 14
+    },
+    {
+      "biases": [
+        -0.6671451572838083,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009523444694413135,
+      "success_rate": 0.98,
+      "macro_f1": 0.40138185168125284,
+      "non_R_predictions": 15
+    },
+    {
+      "biases": [
+        -0.6282095000993376,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009523444694413135,
+      "success_rate": 0.98,
+      "macro_f1": 0.40138185168125284,
+      "non_R_predictions": 15
+    },
+    {
+      "biases": [
+        -0.6282095000993375,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009523444694413135,
+      "success_rate": 0.98,
+      "macro_f1": 0.40138185168125284,
+      "non_R_predictions": 15
+    },
+    {
+      "biases": [
+        -0.6282095000993374,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009376672008260695,
+      "success_rate": 0.98,
+      "macro_f1": 0.4316607087691424,
+      "non_R_predictions": 16
+    },
+    {
+      "biases": [
+        -0.61352418729636,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009376672008260695,
+      "success_rate": 0.98,
+      "macro_f1": 0.4316607087691424,
+      "non_R_predictions": 16
+    },
+    {
+      "biases": [
+        -0.6135241872963599,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009376672008260695,
+      "success_rate": 0.98,
+      "macro_f1": 0.4316607087691424,
+      "non_R_predictions": 16
+    },
+    {
+      "biases": [
+        -0.6135241872963598,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009353880563863281,
+      "success_rate": 0.98,
+      "macro_f1": 0.4593628593628593,
+      "non_R_predictions": 17
+    },
+    {
+      "biases": [
+        -0.6118237247500317,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009353880563863281,
+      "success_rate": 0.98,
+      "macro_f1": 0.4593628593628593,
+      "non_R_predictions": 17
+    },
+    {
+      "biases": [
+        -0.6118237247500316,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009353880563863281,
+      "success_rate": 0.98,
+      "macro_f1": 0.4593628593628593,
+      "non_R_predictions": 17
+    },
+    {
+      "biases": [
+        -0.6118237247500314,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009430770815654793,
+      "success_rate": 0.98,
+      "macro_f1": 0.4517769257960138,
+      "non_R_predictions": 18
+    },
+    {
+      "biases": [
+        -0.5728483617072556,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009430770815654793,
+      "success_rate": 0.98,
+      "macro_f1": 0.4517769257960138,
+      "non_R_predictions": 18
+    },
+    {
+      "biases": [
+        -0.5728483617072555,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009430770815654793,
+      "success_rate": 0.98,
+      "macro_f1": 0.4517769257960138,
+      "non_R_predictions": 18
+    },
+    {
+      "biases": [
+        -0.5728483617072554,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009430770815654793,
+      "success_rate": 0.98,
+      "macro_f1": 0.4517769257960138,
+      "non_R_predictions": 18
+    },
+    {
+      "biases": [
+        -0.5019227030204053,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00947136235341306,
+      "success_rate": 0.98,
+      "macro_f1": 0.4446017513502176,
+      "non_R_predictions": 19
+    },
+    {
+      "biases": [
+        -0.5019227030204052,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00947136235341306,
+      "success_rate": 0.98,
+      "macro_f1": 0.4446017513502176,
+      "non_R_predictions": 19
+    },
+    {
+      "biases": [
+        -0.5019227030204051,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00947136235341306,
+      "success_rate": 0.98,
+      "macro_f1": 0.4446017513502176,
+      "non_R_predictions": 19
+    },
+    {
+      "biases": [
+        -0.49382478991350237,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009488984883673592,
+      "success_rate": 0.98,
+      "macro_f1": 0.43778410889521996,
+      "non_R_predictions": 20
+    },
+    {
+      "biases": [
+        -0.4938247899135023,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009488984883673592,
+      "success_rate": 0.98,
+      "macro_f1": 0.43778410889521996,
+      "non_R_predictions": 20
+    },
+    {
+      "biases": [
+        -0.49382478991350226,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009488984883673592,
+      "success_rate": 0.98,
+      "macro_f1": 0.43778410889521996,
+      "non_R_predictions": 20
+    },
+    {
+      "biases": [
+        -0.4749328583173826,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009653487132781946,
+      "success_rate": 0.98,
+      "macro_f1": 0.4312788660614748,
+      "non_R_predictions": 21
+    },
+    {
+      "biases": [
+        -0.4749328583173825,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009653487132781946,
+      "success_rate": 0.98,
+      "macro_f1": 0.4312788660614748,
+      "non_R_predictions": 21
+    },
+    {
+      "biases": [
+        -0.47493285831738247,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009653487132781946,
+      "success_rate": 0.98,
+      "macro_f1": 0.4312788660614748,
+      "non_R_predictions": 21
+    },
+    {
+      "biases": [
+        -0.4410573357455632,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009702769214295068,
+      "success_rate": 0.98,
+      "macro_f1": 0.4250474833808167,
+      "non_R_predictions": 22
+    },
+    {
+      "biases": [
+        -0.44105733574556316,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009702769214295068,
+      "success_rate": 0.98,
+      "macro_f1": 0.4250474833808167,
+      "non_R_predictions": 22
+    },
+    {
+      "biases": [
+        -0.4410573357455631,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009702769214295068,
+      "success_rate": 0.98,
+      "macro_f1": 0.4250474833808167,
+      "non_R_predictions": 22
+    },
+    {
+      "biases": [
+        -0.4328333418370291,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009997588139675493,
+      "success_rate": 0.98,
+      "macro_f1": 0.4190568341511738,
+      "non_R_predictions": 23
+    },
+    {
+      "biases": [
+        -0.43283334183702904,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009997588139675493,
+      "success_rate": 0.98,
+      "macro_f1": 0.4190568341511738,
+      "non_R_predictions": 23
+    },
+    {
+      "biases": [
+        -0.432833341837029,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009997588139675493,
+      "success_rate": 0.98,
+      "macro_f1": 0.4190568341511738,
+      "non_R_predictions": 23
+    },
+    {
+      "biases": [
+        -0.3423571955017402,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010385830723624215,
+      "success_rate": 0.98,
+      "macro_f1": 0.413278268363384,
+      "non_R_predictions": 24
+    },
+    {
+      "biases": [
+        -0.34235719550174015,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010385830723624215,
+      "success_rate": 0.98,
+      "macro_f1": 0.413278268363384,
+      "non_R_predictions": 24
+    },
+    {
+      "biases": [
+        -0.3423571955017401,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010385830723624215,
+      "success_rate": 0.98,
+      "macro_f1": 0.413278268363384,
+      "non_R_predictions": 24
+    },
+    {
+      "biases": [
+        -0.3374672673381191,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010501776180829713,
+      "success_rate": 0.98,
+      "macro_f1": 0.4076868637378192,
+      "non_R_predictions": 25
+    },
+    {
+      "biases": [
+        -0.33746726733811905,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010501776180829713,
+      "success_rate": 0.98,
+      "macro_f1": 0.4076868637378192,
+      "non_R_predictions": 25
+    },
+    {
+      "biases": [
+        -0.337467267338119,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010501776180829713,
+      "success_rate": 0.98,
+      "macro_f1": 0.4076868637378192,
+      "non_R_predictions": 25
+    },
+    {
+      "biases": [
+        -0.3102332267820656,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010568569726573327,
+      "success_rate": 0.98,
+      "macro_f1": 0.4022608216156603,
+      "non_R_predictions": 26
+    },
+    {
+      "biases": [
+        -0.31023322678206555,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010568569726573327,
+      "success_rate": 0.98,
+      "macro_f1": 0.4022608216156603,
+      "non_R_predictions": 26
+    },
+    {
+      "biases": [
+        -0.3102332267820655,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010568569726573327,
+      "success_rate": 0.98,
+      "macro_f1": 0.4022608216156603,
+      "non_R_predictions": 26
+    },
+    {
+      "biases": [
+        -0.2827633627586937,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010640972873858644,
+      "success_rate": 0.98,
+      "macro_f1": 0.39698097601323407,
+      "non_R_predictions": 27
+    },
+    {
+      "biases": [
+        -0.2827633627586936,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010640972873858644,
+      "success_rate": 0.98,
+      "macro_f1": 0.39698097601323407,
+      "non_R_predictions": 27
+    },
+    {
+      "biases": [
+        -0.28276336275869357,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010640972873858644,
+      "success_rate": 0.98,
+      "macro_f1": 0.39698097601323407,
+      "non_R_predictions": 27
+    },
+    {
+      "biases": [
+        -0.19616426441528403,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010849861464153216,
+      "success_rate": 0.98,
+      "macro_f1": 0.3918303918303918,
+      "non_R_predictions": 28
+    },
+    {
+      "biases": [
+        -0.196164264415284,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010849861464153216,
+      "success_rate": 0.98,
+      "macro_f1": 0.3918303918303918,
+      "non_R_predictions": 28
+    },
+    {
+      "biases": [
+        -0.19616426441528398,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010849861464153216,
+      "success_rate": 0.98,
+      "macro_f1": 0.3918303918303918,
+      "non_R_predictions": 28
+    },
+    {
+      "biases": [
+        -0.1652822178469199,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010850096619305007,
+      "success_rate": 0.98,
+      "macro_f1": 0.3867940338528573,
+      "non_R_predictions": 29
+    },
+    {
+      "biases": [
+        -0.16528221784691988,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010850096619305007,
+      "success_rate": 0.98,
+      "macro_f1": 0.3867940338528573,
+      "non_R_predictions": 29
+    },
+    {
+      "biases": [
+        -0.16528221784691985,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010850096619305007,
+      "success_rate": 0.98,
+      "macro_f1": 0.3867940338528573,
+      "non_R_predictions": 29
+    },
+    {
+      "biases": [
+        -0.1482435472084244,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011030708309922217,
+      "success_rate": 0.98,
+      "macro_f1": 0.38401559454191037,
+      "non_R_predictions": 30
+    },
+    {
+      "biases": [
+        -0.14824354720842436,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011030708309922217,
+      "success_rate": 0.98,
+      "macro_f1": 0.38401559454191037,
+      "non_R_predictions": 30
+    },
+    {
+      "biases": [
+        -0.14824354720842434,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011030708309922217,
+      "success_rate": 0.98,
+      "macro_f1": 0.38401559454191037,
+      "non_R_predictions": 30
+    },
+    {
+      "biases": [
+        -0.1253286172659074,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011030708309922217,
+      "success_rate": 0.98,
+      "macro_f1": 0.38401559454191037,
+      "non_R_predictions": 30
+    },
+    {
+      "biases": [
+        -0.12532861726590738,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011030708309922217,
+      "success_rate": 0.98,
+      "macro_f1": 0.38401559454191037,
+      "non_R_predictions": 30
+    },
+    {
+      "biases": [
+        -0.12532861726590735,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011030708309922217,
+      "success_rate": 0.98,
+      "macro_f1": 0.38401559454191037,
+      "non_R_predictions": 30
+    },
+    {
+      "biases": [
+        -0.09804989414133193,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011207686324643855,
+      "success_rate": 0.98,
+      "macro_f1": 0.37928325676670044,
+      "non_R_predictions": 31
+    },
+    {
+      "biases": [
+        -0.09804989414133192,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011207686324643855,
+      "success_rate": 0.98,
+      "macro_f1": 0.37928325676670044,
+      "non_R_predictions": 31
+    },
+    {
+      "biases": [
+        -0.0980498941413319,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011207686324643855,
+      "success_rate": 0.98,
+      "macro_f1": 0.37928325676670044,
+      "non_R_predictions": 31
+    },
+    {
+      "biases": [
+        -0.08084295673318943,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011238131034293974,
+      "success_rate": 0.98,
+      "macro_f1": 0.37906432748538016,
+      "non_R_predictions": 32
+    },
+    {
+      "biases": [
+        -0.08084295673318942,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011238131034293974,
+      "success_rate": 0.98,
+      "macro_f1": 0.37906432748538016,
+      "non_R_predictions": 32
+    },
+    {
+      "biases": [
+        -0.0808429567331894,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011238131034293974,
+      "success_rate": 0.98,
+      "macro_f1": 0.37906432748538016,
+      "non_R_predictions": 32
+    },
+    {
+      "biases": [
+        -0.07995700649729144,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01124478520733398,
+      "success_rate": 0.98,
+      "macro_f1": 0.37449090804795504,
+      "non_R_predictions": 33
+    },
+    {
+      "biases": [
+        -0.07995700649729143,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01124478520733398,
+      "success_rate": 0.98,
+      "macro_f1": 0.37449090804795504,
+      "non_R_predictions": 33
+    },
+    {
+      "biases": [
+        -0.07995700649729141,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01124478520733398,
+      "success_rate": 0.98,
+      "macro_f1": 0.37449090804795504,
+      "non_R_predictions": 33
+    },
+    {
+      "biases": [
+        -0.07206165222100959,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01124021451063176,
+      "success_rate": 0.98,
+      "macro_f1": 0.3911411411411412,
+      "non_R_predictions": 34
+    },
+    {
+      "biases": [
+        -0.07206165222100958,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01124021451063176,
+      "success_rate": 0.98,
+      "macro_f1": 0.3911411411411412,
+      "non_R_predictions": 34
+    },
+    {
+      "biases": [
+        -0.07206165222100956,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01124021451063176,
+      "success_rate": 0.98,
+      "macro_f1": 0.3911411411411412,
+      "non_R_predictions": 34
+    },
+    {
+      "biases": [
+        -0.06089961324986771,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011273323018413037,
+      "success_rate": 0.98,
+      "macro_f1": 0.38628947513964934,
+      "non_R_predictions": 35
+    },
+    {
+      "biases": [
+        -0.0608996132498677,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011273323018413037,
+      "success_rate": 0.98,
+      "macro_f1": 0.38628947513964934,
+      "non_R_predictions": 35
+    },
+    {
+      "biases": [
+        -0.060899613249867694,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011273323018413037,
+      "success_rate": 0.98,
+      "macro_f1": 0.38628947513964934,
+      "non_R_predictions": 35
+    },
+    {
+      "biases": [
+        -0.057503903754489556,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011373622875219275,
+      "success_rate": 0.98,
+      "macro_f1": 0.38149597738638835,
+      "non_R_predictions": 36
+    },
+    {
+      "biases": [
+        -0.05750390375448955,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011373622875219275,
+      "success_rate": 0.98,
+      "macro_f1": 0.38149597738638835,
+      "non_R_predictions": 36
+    },
+    {
+      "biases": [
+        -0.05750390375448954,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011373622875219275,
+      "success_rate": 0.98,
+      "macro_f1": 0.38149597738638835,
+      "non_R_predictions": 36
+    },
+    {
+      "biases": [
+        -0.05202883529450331,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01157222498555209,
+      "success_rate": 0.98,
+      "macro_f1": 0.376753096320057,
+      "non_R_predictions": 37
+    },
+    {
+      "biases": [
+        -0.052028835294503306,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01157222498555209,
+      "success_rate": 0.98,
+      "macro_f1": 0.376753096320057,
+      "non_R_predictions": 37
+    },
+    {
+      "biases": [
+        -0.0520288352945033,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01157222498555209,
+      "success_rate": 0.98,
+      "macro_f1": 0.376753096320057,
+      "non_R_predictions": 37
+    },
+    {
+      "biases": [
+        -0.04548841254263703,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011657078947240652,
+      "success_rate": 0.98,
+      "macro_f1": 0.372053872053872,
+      "non_R_predictions": 38
+    },
+    {
+      "biases": [
+        -0.045488412542637024,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011657078947240652,
+      "success_rate": 0.98,
+      "macro_f1": 0.372053872053872,
+      "non_R_predictions": 38
+    },
+    {
+      "biases": [
+        -0.04548841254263702,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011657078947240652,
+      "success_rate": 0.98,
+      "macro_f1": 0.372053872053872,
+      "non_R_predictions": 38
+    },
+    {
+      "biases": [
+        -0.02404696302305243,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01206123145810195,
+      "success_rate": 0.98,
+      "macro_f1": 0.3673918673918674,
+      "non_R_predictions": 39
+    },
+    {
+      "biases": [
+        -0.024046963023052426,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01206123145810195,
+      "success_rate": 0.98,
+      "macro_f1": 0.3673918673918674,
+      "non_R_predictions": 39
+    },
+    {
+      "biases": [
+        -0.024046963023052422,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01206123145810195,
+      "success_rate": 0.98,
+      "macro_f1": 0.3673918673918674,
+      "non_R_predictions": 39
+    },
+    {
+      "biases": [
+        -0.005221283138720612,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012038093760539688,
+      "success_rate": 0.98,
+      "macro_f1": 0.3819486970129959,
+      "non_R_predictions": 40
+    },
+    {
+      "biases": [
+        -0.0052212831387206116,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012038093760539688,
+      "success_rate": 0.98,
+      "macro_f1": 0.3819486970129959,
+      "non_R_predictions": 40
+    },
+    {
+      "biases": [
+        -0.005221283138720611,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012038093760539688,
+      "success_rate": 0.98,
+      "macro_f1": 0.3819486970129959,
+      "non_R_predictions": 40
+    },
+    {
+      "biases": [
+        0.11790997499274113,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012100103364900812,
+      "success_rate": 0.98,
+      "macro_f1": 0.3770685579196218,
+      "non_R_predictions": 41
+    },
+    {
+      "biases": [
+        0.11790997499274114,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012100103364900812,
+      "success_rate": 0.98,
+      "macro_f1": 0.3770685579196218,
+      "non_R_predictions": 41
+    },
+    {
+      "biases": [
+        0.11790997499274115,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012100103364900812,
+      "success_rate": 0.98,
+      "macro_f1": 0.3770685579196218,
+      "non_R_predictions": 41
+    },
+    {
+      "biases": [
+        0.1296752745421412,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012163363848590385,
+      "success_rate": 0.98,
+      "macro_f1": 0.3891774891774891,
+      "non_R_predictions": 42
+    },
+    {
+      "biases": [
+        0.12967527454214123,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012163363848590385,
+      "success_rate": 0.98,
+      "macro_f1": 0.3891774891774891,
+      "non_R_predictions": 42
+    },
+    {
+      "biases": [
+        0.12967527454214126,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012163363848590385,
+      "success_rate": 0.98,
+      "macro_f1": 0.3891774891774891,
+      "non_R_predictions": 42
+    },
+    {
+      "biases": [
+        0.13788449466812944,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012163363848590385,
+      "success_rate": 0.98,
+      "macro_f1": 0.3891774891774891,
+      "non_R_predictions": 42
+    },
+    {
+      "biases": [
+        0.13788449466812946,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012163363848590385,
+      "success_rate": 0.98,
+      "macro_f1": 0.3891774891774891,
+      "non_R_predictions": 42
+    },
+    {
+      "biases": [
+        0.1378844946681295,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012163363848590385,
+      "success_rate": 0.98,
+      "macro_f1": 0.3891774891774891,
+      "non_R_predictions": 42
+    },
+    {
+      "biases": [
+        0.14123945389685297,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012264253929331528,
+      "success_rate": 0.98,
+      "macro_f1": 0.38415522127752344,
+      "non_R_predictions": 43
+    },
+    {
+      "biases": [
+        0.141239453896853,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012264253929331528,
+      "success_rate": 0.98,
+      "macro_f1": 0.38415522127752344,
+      "non_R_predictions": 43
+    },
+    {
+      "biases": [
+        0.14123945389685302,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012264253929331528,
+      "success_rate": 0.98,
+      "macro_f1": 0.38415522127752344,
+      "non_R_predictions": 43
+    },
+    {
+      "biases": [
+        0.20740009145856794,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012366385886194223,
+      "success_rate": 0.98,
+      "macro_f1": 0.3791624686765352,
+      "non_R_predictions": 44
+    },
+    {
+      "biases": [
+        0.20740009145856797,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012366385886194223,
+      "success_rate": 0.98,
+      "macro_f1": 0.3791624686765352,
+      "non_R_predictions": 44
+    },
+    {
+      "biases": [
+        0.207400091458568,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012366385886194223,
+      "success_rate": 0.98,
+      "macro_f1": 0.3791624686765352,
+      "non_R_predictions": 44
+    },
+    {
+      "biases": [
+        0.23390896679361414,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012629288208458706,
+      "success_rate": 0.98,
+      "macro_f1": 0.3741939325880932,
+      "non_R_predictions": 45
+    },
+    {
+      "biases": [
+        0.23390896679361417,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012629288208458706,
+      "success_rate": 0.98,
+      "macro_f1": 0.3741939325880932,
+      "non_R_predictions": 45
+    },
+    {
+      "biases": [
+        0.2339089667936142,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012629288208458706,
+      "success_rate": 0.98,
+      "macro_f1": 0.3741939325880932,
+      "non_R_predictions": 45
+    },
+    {
+      "biases": [
+        0.23695831974706968,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012629950267623799,
+      "success_rate": 0.98,
+      "macro_f1": 0.3692446103655871,
+      "non_R_predictions": 46
+    },
+    {
+      "biases": [
+        0.2369583197470697,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012629950267623799,
+      "success_rate": 0.98,
+      "macro_f1": 0.3692446103655871,
+      "non_R_predictions": 46
+    },
+    {
+      "biases": [
+        0.23695831974706974,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012629950267623799,
+      "success_rate": 0.98,
+      "macro_f1": 0.3692446103655871,
+      "non_R_predictions": 46
+    },
+    {
+      "biases": [
+        0.24119189644941227,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012677006669074556,
+      "success_rate": 0.98,
+      "macro_f1": 0.36430976430976436,
+      "non_R_predictions": 47
+    },
+    {
+      "biases": [
+        0.2411918964494123,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012677006669074556,
+      "success_rate": 0.98,
+      "macro_f1": 0.36430976430976436,
+      "non_R_predictions": 47
+    },
+    {
+      "biases": [
+        0.24119189644941233,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012677006669074556,
+      "success_rate": 0.98,
+      "macro_f1": 0.36430976430976436,
+      "non_R_predictions": 47
+    },
+    {
+      "biases": [
+        0.24284099240662024,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012737547381043096,
+      "success_rate": 0.98,
+      "macro_f1": 0.35938489371325194,
+      "non_R_predictions": 48
+    },
+    {
+      "biases": [
+        0.24284099240662027,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012737547381043096,
+      "success_rate": 0.98,
+      "macro_f1": 0.35938489371325194,
+      "non_R_predictions": 48
+    },
+    {
+      "biases": [
+        0.2428409924066203,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.012737547381043096,
+      "success_rate": 0.98,
+      "macro_f1": 0.35938489371325194,
+      "non_R_predictions": 48
+    },
+    {
+      "biases": [
+        0.2466818268076386,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0129567374355308,
+      "success_rate": 0.97,
+      "macro_f1": 0.3594782410571884,
+      "non_R_predictions": 49
+    },
+    {
+      "biases": [
+        0.24668182680763862,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0129567374355308,
+      "success_rate": 0.97,
+      "macro_f1": 0.3594782410571884,
+      "non_R_predictions": 49
+    },
+    {
+      "biases": [
+        0.24668182680763864,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0129567374355308,
+      "success_rate": 0.97,
+      "macro_f1": 0.3594782410571884,
+      "non_R_predictions": 49
+    },
+    {
+      "biases": [
+        0.30439268240154765,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013172202404671016,
+      "success_rate": 0.97,
+      "macro_f1": 0.35964912280701755,
+      "non_R_predictions": 50
+    },
+    {
+      "biases": [
+        0.3043926824015477,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013172202404671016,
+      "success_rate": 0.97,
+      "macro_f1": 0.35964912280701755,
+      "non_R_predictions": 50
+    },
+    {
+      "biases": [
+        0.30439268240154777,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013172202404671016,
+      "success_rate": 0.97,
+      "macro_f1": 0.35964912280701755,
+      "non_R_predictions": 50
+    },
+    {
+      "biases": [
+        0.30727881739596125,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013201842601960556,
+      "success_rate": 0.97,
+      "macro_f1": 0.35480628873627035,
+      "non_R_predictions": 51
+    },
+    {
+      "biases": [
+        0.3072788173959613,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013201842601960556,
+      "success_rate": 0.97,
+      "macro_f1": 0.35480628873627035,
+      "non_R_predictions": 51
+    },
+    {
+      "biases": [
+        0.30727881739596136,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013201842601960556,
+      "success_rate": 0.97,
+      "macro_f1": 0.35480628873627035,
+      "non_R_predictions": 51
+    },
+    {
+      "biases": [
+        0.3902799418274085,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013256933308718594,
+      "success_rate": 0.97,
+      "macro_f1": 0.349958516060211,
+      "non_R_predictions": 52
+    },
+    {
+      "biases": [
+        0.39027994182740855,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013256933308718594,
+      "success_rate": 0.97,
+      "macro_f1": 0.349958516060211,
+      "non_R_predictions": 52
+    },
+    {
+      "biases": [
+        0.3902799418274086,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013256933308718594,
+      "success_rate": 0.97,
+      "macro_f1": 0.349958516060211,
+      "non_R_predictions": 52
+    },
+    {
+      "biases": [
+        0.39544226631926954,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013389073509275724,
+      "success_rate": 0.97,
+      "macro_f1": 0.3451021846370684,
+      "non_R_predictions": 53
+    },
+    {
+      "biases": [
+        0.3954422663192696,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013389073509275724,
+      "success_rate": 0.97,
+      "macro_f1": 0.3451021846370684,
+      "non_R_predictions": 53
+    },
+    {
+      "biases": [
+        0.39544226631926965,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013389073509275724,
+      "success_rate": 0.97,
+      "macro_f1": 0.3451021846370684,
+      "non_R_predictions": 53
+    },
+    {
+      "biases": [
+        0.39591944134232665,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013391270223044857,
+      "success_rate": 0.97,
+      "macro_f1": 0.3402337928464978,
+      "non_R_predictions": 54
+    },
+    {
+      "biases": [
+        0.3959194413423267,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013391270223044857,
+      "success_rate": 0.97,
+      "macro_f1": 0.3402337928464978,
+      "non_R_predictions": 54
+    },
+    {
+      "biases": [
+        0.39591944134232676,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013391270223044857,
+      "success_rate": 0.97,
+      "macro_f1": 0.3402337928464978,
+      "non_R_predictions": 54
+    },
+    {
+      "biases": [
+        0.4689585062877966,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013391297825882744,
+      "success_rate": 0.97,
+      "macro_f1": 0.3353499434271596,
+      "non_R_predictions": 55
+    },
+    {
+      "biases": [
+        0.4689585062877967,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013391297825882744,
+      "success_rate": 0.97,
+      "macro_f1": 0.3353499434271596,
+      "non_R_predictions": 55
+    },
+    {
+      "biases": [
+        0.46895850628779673,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013380721857228108,
+      "success_rate": 0.97,
+      "macro_f1": 0.3463203463203463,
+      "non_R_predictions": 56
+    },
+    {
+      "biases": [
+        0.4999445956301157,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013380721857228108,
+      "success_rate": 0.97,
+      "macro_f1": 0.3463203463203463,
+      "non_R_predictions": 56
+    },
+    {
+      "biases": [
+        0.49994459563011573,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013480790434726102,
+      "success_rate": 0.97,
+      "macro_f1": 0.35105820105820107,
+      "non_R_predictions": 56
+    },
+    {
+      "biases": [
+        0.4999445956301158,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013480790434726102,
+      "success_rate": 0.97,
+      "macro_f1": 0.35105820105820107,
+      "non_R_predictions": 56
+    },
+    {
+      "biases": [
+        0.5132747862657555,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013480790434726102,
+      "success_rate": 0.97,
+      "macro_f1": 0.35105820105820107,
+      "non_R_predictions": 56
+    },
+    {
+      "biases": [
+        0.5132747862657556,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007585525185094192,
+      "success_rate": 0.98,
+      "macro_f1": 0.35718355718355715,
+      "non_R_predictions": 56
+    },
+    {
+      "biases": [
+        0.5132747862657557,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007585525185094192,
+      "success_rate": 0.98,
+      "macro_f1": 0.35718355718355715,
+      "non_R_predictions": 56
+    },
+    {
+      "biases": [
+        0.524205997137078,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007585525185094192,
+      "success_rate": 0.98,
+      "macro_f1": 0.35718355718355715,
+      "non_R_predictions": 56
+    },
+    {
+      "biases": [
+        0.5242059971370782,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007585525185094192,
+      "success_rate": 0.98,
+      "macro_f1": 0.35718355718355715,
+      "non_R_predictions": 56
+    },
+    {
+      "biases": [
+        0.5242059971370783,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007569626566495352,
+      "success_rate": 0.98,
+      "macro_f1": 0.3676498316498316,
+      "non_R_predictions": 57
+    },
+    {
+      "biases": [
+        0.5631723090288537,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007569626566495352,
+      "success_rate": 0.98,
+      "macro_f1": 0.3676498316498316,
+      "non_R_predictions": 57
+    },
+    {
+      "biases": [
+        0.5631723090288538,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007569626566495352,
+      "success_rate": 0.98,
+      "macro_f1": 0.3676498316498316,
+      "non_R_predictions": 57
+    },
+    {
+      "biases": [
+        0.563172309028854,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007700670172834779,
+      "success_rate": 0.98,
+      "macro_f1": 0.3625510440628399,
+      "non_R_predictions": 58
+    },
+    {
+      "biases": [
+        0.6005072571372752,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007700670172834779,
+      "success_rate": 0.98,
+      "macro_f1": 0.3625510440628399,
+      "non_R_predictions": 58
+    },
+    {
+      "biases": [
+        0.6005072571372753,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007700670172834779,
+      "success_rate": 0.98,
+      "macro_f1": 0.3625510440628399,
+      "non_R_predictions": 58
+    },
+    {
+      "biases": [
+        0.6005072571372754,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0077977531437058685,
+      "success_rate": 0.98,
+      "macro_f1": 0.35743131941123335,
+      "non_R_predictions": 59
+    },
+    {
+      "biases": [
+        0.606028107572256,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0077977531437058685,
+      "success_rate": 0.98,
+      "macro_f1": 0.35743131941123335,
+      "non_R_predictions": 59
+    },
+    {
+      "biases": [
+        0.6060281075722561,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0077977531437058685,
+      "success_rate": 0.98,
+      "macro_f1": 0.35743131941123335,
+      "non_R_predictions": 59
+    },
+    {
+      "biases": [
+        0.6060281075722562,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008229991872082865,
+      "success_rate": 0.98,
+      "macro_f1": 0.3522874264142974,
+      "non_R_predictions": 60
+    },
+    {
+      "biases": [
+        0.6294099897002946,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008229991872082865,
+      "success_rate": 0.98,
+      "macro_f1": 0.3522874264142974,
+      "non_R_predictions": 60
+    },
+    {
+      "biases": [
+        0.6294099897002947,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008229991872082865,
+      "success_rate": 0.98,
+      "macro_f1": 0.3522874264142974,
+      "non_R_predictions": 60
+    },
+    {
+      "biases": [
+        0.6294099897002948,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008215951309085347,
+      "success_rate": 0.98,
+      "macro_f1": 0.36214963487690754,
+      "non_R_predictions": 61
+    },
+    {
+      "biases": [
+        0.707397714647632,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008215951309085347,
+      "success_rate": 0.98,
+      "macro_f1": 0.36214963487690754,
+      "non_R_predictions": 61
+    },
+    {
+      "biases": [
+        0.7073977146476321,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008215951309085347,
+      "success_rate": 0.98,
+      "macro_f1": 0.36214963487690754,
+      "non_R_predictions": 61
+    },
+    {
+      "biases": [
+        0.7073977146476322,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008249501137682295,
+      "success_rate": 0.98,
+      "macro_f1": 0.3568596765779864,
+      "non_R_predictions": 62
+    },
+    {
+      "biases": [
+        0.7457312360460675,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008249501137682295,
+      "success_rate": 0.98,
+      "macro_f1": 0.3568596765779864,
+      "non_R_predictions": 62
+    },
+    {
+      "biases": [
+        0.7457312360460676,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008249501137682295,
+      "success_rate": 0.98,
+      "macro_f1": 0.3568596765779864,
+      "non_R_predictions": 62
+    },
+    {
+      "biases": [
+        0.7457312360460677,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008230876280361944,
+      "success_rate": 0.98,
+      "macro_f1": 0.36640211640211645,
+      "non_R_predictions": 63
+    },
+    {
+      "biases": [
+        0.7530585696685883,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008230876280361944,
+      "success_rate": 0.98,
+      "macro_f1": 0.36640211640211645,
+      "non_R_predictions": 63
+    },
+    {
+      "biases": [
+        0.7530585696685884,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008230876280361944,
+      "success_rate": 0.98,
+      "macro_f1": 0.36640211640211645,
+      "non_R_predictions": 63
+    },
+    {
+      "biases": [
+        0.7530585696685885,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008367746124992548,
+      "success_rate": 0.98,
+      "macro_f1": 0.3609713730447419,
+      "non_R_predictions": 64
+    },
+    {
+      "biases": [
+        0.7674188729945384,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008367746124992548,
+      "success_rate": 0.98,
+      "macro_f1": 0.3609713730447419,
+      "non_R_predictions": 64
+    },
+    {
+      "biases": [
+        0.7674188729945385,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008367746124992548,
+      "success_rate": 0.98,
+      "macro_f1": 0.3609713730447419,
+      "non_R_predictions": 64
+    },
+    {
+      "biases": [
+        0.7674188729945386,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0085950298293436,
+      "success_rate": 0.98,
+      "macro_f1": 0.35550935550935553,
+      "non_R_predictions": 65
+    },
+    {
+      "biases": [
+        0.7679155717774885,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0085950298293436,
+      "success_rate": 0.98,
+      "macro_f1": 0.35550935550935553,
+      "non_R_predictions": 65
+    },
+    {
+      "biases": [
+        0.7679155717774886,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0085950298293436,
+      "success_rate": 0.98,
+      "macro_f1": 0.35550935550935553,
+      "non_R_predictions": 65
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007235988197949025,
+      "success_rate": 0.98,
+      "macro_f1": 0.35575989782886336,
+      "non_R_predictions": 66
+    },
+    {
+      "biases": [
+        0.7705587508608783,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007235988197949025,
+      "success_rate": 0.98,
+      "macro_f1": 0.35575989782886336,
+      "non_R_predictions": 66
+    },
+    {
+      "biases": [
+        0.7705587508608784,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007297960609418356,
+      "success_rate": 0.98,
+      "macro_f1": 0.36373260738052027,
+      "non_R_predictions": 66
+    },
+    {
+      "biases": [
+        0.7705587508608785,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007297960609418356,
+      "success_rate": 0.98,
+      "macro_f1": 0.36373260738052027,
+      "non_R_predictions": 66
+    },
+    {
+      "biases": [
+        0.778319323102346,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007297960609418356,
+      "success_rate": 0.98,
+      "macro_f1": 0.36373260738052027,
+      "non_R_predictions": 66
+    },
+    {
+      "biases": [
+        0.7783193231023461,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007297960609418356,
+      "success_rate": 0.98,
+      "macro_f1": 0.36373260738052027,
+      "non_R_predictions": 66
+    },
+    {
+      "biases": [
+        0.7783193231023462,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0073107728472944266,
+      "success_rate": 0.98,
+      "macro_f1": 0.3582815734989648,
+      "non_R_predictions": 67
+    },
+    {
+      "biases": [
+        0.7836245536157179,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0073107728472944266,
+      "success_rate": 0.98,
+      "macro_f1": 0.3582815734989648,
+      "non_R_predictions": 67
+    },
+    {
+      "biases": [
+        0.783624553615718,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0073107728472944266,
+      "success_rate": 0.98,
+      "macro_f1": 0.3582815734989648,
+      "non_R_predictions": 67
+    },
+    {
+      "biases": [
+        0.7836245536157181,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007453805333938528,
+      "success_rate": 0.98,
+      "macro_f1": 0.3527890238416554,
+      "non_R_predictions": 68
+    },
+    {
+      "biases": [
+        0.7941112675484205,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007453805333938528,
+      "success_rate": 0.98,
+      "macro_f1": 0.3527890238416554,
+      "non_R_predictions": 68
+    },
+    {
+      "biases": [
+        0.7941112675484207,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007453805333938528,
+      "success_rate": 0.98,
+      "macro_f1": 0.3527890238416554,
+      "non_R_predictions": 68
+    },
+    {
+      "biases": [
+        0.7941112675484208,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0074606241689691676,
+      "success_rate": 0.98,
+      "macro_f1": 0.34725178298047127,
+      "non_R_predictions": 69
+    },
+    {
+      "biases": [
+        0.799765044037828,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0074606241689691676,
+      "success_rate": 0.98,
+      "macro_f1": 0.34725178298047127,
+      "non_R_predictions": 69
+    },
+    {
+      "biases": [
+        0.7997650440378281,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0074606241689691676,
+      "success_rate": 0.98,
+      "macro_f1": 0.34725178298047127,
+      "non_R_predictions": 69
+    },
+    {
+      "biases": [
+        0.7997650440378282,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007637345626264194,
+      "success_rate": 0.98,
+      "macro_f1": 0.3416666666666666,
+      "non_R_predictions": 70
+    },
+    {
+      "biases": [
+        0.809788464966326,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007637345626264194,
+      "success_rate": 0.98,
+      "macro_f1": 0.3416666666666666,
+      "non_R_predictions": 70
+    },
+    {
+      "biases": [
+        0.8097884649663261,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007637345626264194,
+      "success_rate": 0.98,
+      "macro_f1": 0.3416666666666666,
+      "non_R_predictions": 70
+    },
+    {
+      "biases": [
+        0.8097884649663262,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007749939134049038,
+      "success_rate": 0.98,
+      "macro_f1": 0.33603047491936383,
+      "non_R_predictions": 71
+    },
+    {
+      "biases": [
+        0.8177555331867241,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007749939134049038,
+      "success_rate": 0.98,
+      "macro_f1": 0.33603047491936383,
+      "non_R_predictions": 71
+    },
+    {
+      "biases": [
+        0.8177555331867242,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007749939134049038,
+      "success_rate": 0.98,
+      "macro_f1": 0.33603047491936383,
+      "non_R_predictions": 71
+    },
+    {
+      "biases": [
+        0.8177555331867243,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00792226198938657,
+      "success_rate": 0.98,
+      "macro_f1": 0.330339985218034,
+      "non_R_predictions": 72
+    },
+    {
+      "biases": [
+        0.8190548951856914,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00792226198938657,
+      "success_rate": 0.98,
+      "macro_f1": 0.330339985218034,
+      "non_R_predictions": 72
+    },
+    {
+      "biases": [
+        0.8190548951856915,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00792226198938657,
+      "success_rate": 0.98,
+      "macro_f1": 0.330339985218034,
+      "non_R_predictions": 72
+    },
+    {
+      "biases": [
+        0.8190548951856916,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00795816283263326,
+      "success_rate": 0.98,
+      "macro_f1": 0.32459194576471023,
+      "non_R_predictions": 73
+    },
+    {
+      "biases": [
+        0.831939031838844,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00795816283263326,
+      "success_rate": 0.98,
+      "macro_f1": 0.32459194576471023,
+      "non_R_predictions": 73
+    },
+    {
+      "biases": [
+        0.8319390318388441,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00795816283263326,
+      "success_rate": 0.98,
+      "macro_f1": 0.32459194576471023,
+      "non_R_predictions": 73
+    },
+    {
+      "biases": [
+        0.8319390318388442,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007958021519227355,
+      "success_rate": 0.98,
+      "macro_f1": 0.33289241622574955,
+      "non_R_predictions": 74
+    },
+    {
+      "biases": [
+        0.8476061303359604,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007958021519227355,
+      "success_rate": 0.98,
+      "macro_f1": 0.33289241622574955,
+      "non_R_predictions": 74
+    },
+    {
+      "biases": [
+        0.8476061303359606,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007958021519227355,
+      "success_rate": 0.98,
+      "macro_f1": 0.33289241622574955,
+      "non_R_predictions": 74
+    },
+    {
+      "biases": [
+        0.8476061303359607,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008241693140191225,
+      "success_rate": 0.98,
+      "macro_f1": 0.3269836906725307,
+      "non_R_predictions": 75
+    },
+    {
+      "biases": [
+        0.8551460933392213,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008241693140191225,
+      "success_rate": 0.98,
+      "macro_f1": 0.3269836906725307,
+      "non_R_predictions": 75
+    },
+    {
+      "biases": [
+        0.8551460933392214,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008241693140191225,
+      "success_rate": 0.98,
+      "macro_f1": 0.3269836906725307,
+      "non_R_predictions": 75
+    },
+    {
+      "biases": [
+        0.8551460933392215,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008323310602784281,
+      "success_rate": 0.98,
+      "macro_f1": 0.3210106771976013,
+      "non_R_predictions": 76
+    },
+    {
+      "biases": [
+        0.8902348974740203,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008323310602784281,
+      "success_rate": 0.98,
+      "macro_f1": 0.3210106771976013,
+      "non_R_predictions": 76
+    },
+    {
+      "biases": [
+        0.8902348974740204,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008323310602784281,
+      "success_rate": 0.98,
+      "macro_f1": 0.3210106771976013,
+      "non_R_predictions": 76
+    },
+    {
+      "biases": [
+        0.8902348974740205,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00833365135918229,
+      "success_rate": 0.98,
+      "macro_f1": 0.31496989600437875,
+      "non_R_predictions": 77
+    },
+    {
+      "biases": [
+        0.8982299417129761,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00833365135918229,
+      "success_rate": 0.98,
+      "macro_f1": 0.31496989600437875,
+      "non_R_predictions": 77
+    },
+    {
+      "biases": [
+        0.8982299417129762,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00833365135918229,
+      "success_rate": 0.98,
+      "macro_f1": 0.31496989600437875,
+      "non_R_predictions": 77
+    },
+    {
+      "biases": [
+        0.8982299417129763,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008431819917431006,
+      "success_rate": 0.98,
+      "macro_f1": 0.30885780885780884,
+      "non_R_predictions": 78
+    },
+    {
+      "biases": [
+        0.9048044300624307,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008431819917431006,
+      "success_rate": 0.98,
+      "macro_f1": 0.30885780885780884,
+      "non_R_predictions": 78
+    },
+    {
+      "biases": [
+        0.9048044300624308,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008431819917431006,
+      "success_rate": 0.98,
+      "macro_f1": 0.30885780885780884,
+      "non_R_predictions": 78
+    },
+    {
+      "biases": [
+        0.9048044300624309,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008534605858315353,
+      "success_rate": 0.98,
+      "macro_f1": 0.3026708119704738,
+      "non_R_predictions": 79
+    },
+    {
+      "biases": [
+        0.9423814017310029,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008534605858315353,
+      "success_rate": 0.98,
+      "macro_f1": 0.3026708119704738,
+      "non_R_predictions": 79
+    },
+    {
+      "biases": [
+        0.942381401731003,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.008534605858315353,
+      "success_rate": 0.98,
+      "macro_f1": 0.3026708119704738,
+      "non_R_predictions": 79
+    },
+    {
+      "biases": [
+        0.9423814017310032,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009132509680982595,
+      "success_rate": 0.97,
+      "macro_f1": 0.29640522875816994,
+      "non_R_predictions": 80
+    },
+    {
+      "biases": [
+        0.9481855144902008,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009132509680982595,
+      "success_rate": 0.97,
+      "macro_f1": 0.29640522875816994,
+      "non_R_predictions": 80
+    },
+    {
+      "biases": [
+        0.9481855144902009,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009132509680982595,
+      "success_rate": 0.97,
+      "macro_f1": 0.29640522875816994,
+      "non_R_predictions": 80
+    },
+    {
+      "biases": [
+        0.948185514490201,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009168864089796473,
+      "success_rate": 0.97,
+      "macro_f1": 0.29005730243354005,
+      "non_R_predictions": 81
+    },
+    {
+      "biases": [
+        0.9829698399469838,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009168864089796473,
+      "success_rate": 0.97,
+      "macro_f1": 0.29005730243354005,
+      "non_R_predictions": 81
+    },
+    {
+      "biases": [
+        0.982969839946984,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009168864089796473,
+      "success_rate": 0.97,
+      "macro_f1": 0.29005730243354005,
+      "non_R_predictions": 81
+    },
+    {
+      "biases": [
+        0.9829698399469841,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00920526158258093,
+      "success_rate": 0.97,
+      "macro_f1": 0.2836231884057971,
+      "non_R_predictions": 82
+    },
+    {
+      "biases": [
+        0.997870741914073,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00920526158258093,
+      "success_rate": 0.97,
+      "macro_f1": 0.2836231884057971,
+      "non_R_predictions": 82
+    },
+    {
+      "biases": [
+        0.9978707419140731,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00920526158258093,
+      "success_rate": 0.97,
+      "macro_f1": 0.2836231884057971,
+      "non_R_predictions": 82
+    },
+    {
+      "biases": [
+        0.9978707419140732,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009229038273026737,
+      "success_rate": 0.97,
+      "macro_f1": 0.2770989464537852,
+      "non_R_predictions": 83
+    },
+    {
+      "biases": [
+        1.057159332796518,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009229038273026737,
+      "success_rate": 0.97,
+      "macro_f1": 0.2770989464537852,
+      "non_R_predictions": 83
+    },
+    {
+      "biases": [
+        1.0571593327965183,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009229038273026737,
+      "success_rate": 0.97,
+      "macro_f1": 0.2770989464537852,
+      "non_R_predictions": 83
+    },
+    {
+      "biases": [
+        1.0571593327965185,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009247480770406429,
+      "success_rate": 0.97,
+      "macro_f1": 0.27048053263858735,
+      "non_R_predictions": 84
+    },
+    {
+      "biases": [
+        1.1005232775786988,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009247480770406429,
+      "success_rate": 0.97,
+      "macro_f1": 0.27048053263858735,
+      "non_R_predictions": 84
+    },
+    {
+      "biases": [
+        1.100523277578699,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009360701286261942,
+      "success_rate": 0.97,
+      "macro_f1": 0.27063664315427743,
+      "non_R_predictions": 85
+    },
+    {
+      "biases": [
+        1.1005232775786993,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009360701286261942,
+      "success_rate": 0.97,
+      "macro_f1": 0.27063664315427743,
+      "non_R_predictions": 85
+    },
+    {
+      "biases": [
+        1.1071523834488668,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009360701286261942,
+      "success_rate": 0.97,
+      "macro_f1": 0.27063664315427743,
+      "non_R_predictions": 85
+    },
+    {
+      "biases": [
+        1.107152383448867,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009425225918353894,
+      "success_rate": 0.97,
+      "macro_f1": 0.2638888888888889,
+      "non_R_predictions": 86
+    },
+    {
+      "biases": [
+        1.1071523834488672,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009425225918353894,
+      "success_rate": 0.97,
+      "macro_f1": 0.2638888888888889,
+      "non_R_predictions": 86
+    },
+    {
+      "biases": [
+        1.1086888169670728,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009425225918353894,
+      "success_rate": 0.97,
+      "macro_f1": 0.2638888888888889,
+      "non_R_predictions": 86
+    },
+    {
+      "biases": [
+        1.108688816967073,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009425225918353894,
+      "success_rate": 0.97,
+      "macro_f1": 0.2638888888888889,
+      "non_R_predictions": 86
+    },
+    {
+      "biases": [
+        1.1086888169670732,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009701661149567676,
+      "success_rate": 0.97,
+      "macro_f1": 0.2570356303128956,
+      "non_R_predictions": 87
+    },
+    {
+      "biases": [
+        1.1170700440543235,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009701661149567676,
+      "success_rate": 0.97,
+      "macro_f1": 0.2570356303128956,
+      "non_R_predictions": 87
+    },
+    {
+      "biases": [
+        1.1170700440543238,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009701661149567676,
+      "success_rate": 0.97,
+      "macro_f1": 0.2570356303128956,
+      "non_R_predictions": 87
+    },
+    {
+      "biases": [
+        1.117070044054324,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00973002773978203,
+      "success_rate": 0.97,
+      "macro_f1": 0.1728607232366631,
+      "non_R_predictions": 87
+    },
+    {
+      "biases": [
+        1.1250898635714022,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.00973002773978203,
+      "success_rate": 0.97,
+      "macro_f1": 0.1728607232366631,
+      "non_R_predictions": 87
+    },
+    {
+      "biases": [
+        1.1250898635714024,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009760754576420142,
+      "success_rate": 0.97,
+      "macro_f1": 0.16591446378680422,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        1.1250898635714026,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009760754576420142,
+      "success_rate": 0.97,
+      "macro_f1": 0.16591446378680422,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        1.1415672566186537,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009760754576420142,
+      "success_rate": 0.97,
+      "macro_f1": 0.16591446378680422,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        1.1415672566186539,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009914108203228224,
+      "success_rate": 0.97,
+      "macro_f1": 0.1588530465949821,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        1.141567256618654,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009914108203228224,
+      "success_rate": 0.97,
+      "macro_f1": 0.1588530465949821,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        1.1635274263825892,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009914108203228224,
+      "success_rate": 0.97,
+      "macro_f1": 0.1588530465949821,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        1.1635274263825894,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009914108203228224,
+      "success_rate": 0.97,
+      "macro_f1": 0.1588530465949821,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        1.1635274263825897,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009922033343311638,
+      "success_rate": 0.97,
+      "macro_f1": 0.1516716889080212,
+      "non_R_predictions": 90
+    },
+    {
+      "biases": [
+        1.1908169612817108,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.009922033343311638,
+      "success_rate": 0.97,
+      "macro_f1": 0.1516716889080212,
+      "non_R_predictions": 90
+    },
+    {
+      "biases": [
+        1.190816961281711,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010344075512942655,
+      "success_rate": 0.97,
+      "macro_f1": 0.14436543848308556,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        1.1908169612817112,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010344075512942655,
+      "success_rate": 0.97,
+      "macro_f1": 0.14436543848308556,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        1.2174839330676426,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010344075512942655,
+      "success_rate": 0.97,
+      "macro_f1": 0.14436543848308556,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        1.2174839330676428,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01039859842976193,
+      "success_rate": 0.97,
+      "macro_f1": 0.13692916217188064,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        1.217483933067643,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01039859842976193,
+      "success_rate": 0.97,
+      "macro_f1": 0.13692916217188064,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        1.2357958391580046,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01039859842976193,
+      "success_rate": 0.97,
+      "macro_f1": 0.13692916217188064,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        1.2357958391580048,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01039859842976193,
+      "success_rate": 0.97,
+      "macro_f1": 0.13692916217188064,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        1.235795839158005,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010568592741010477,
+      "success_rate": 0.97,
+      "macro_f1": 0.12935753385191587,
+      "non_R_predictions": 93
+    },
+    {
+      "biases": [
+        1.250280828643035,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010568592741010477,
+      "success_rate": 0.97,
+      "macro_f1": 0.12935753385191587,
+      "non_R_predictions": 93
+    },
+    {
+      "biases": [
+        1.2502808286430351,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010568592741010477,
+      "success_rate": 0.97,
+      "macro_f1": 0.12935753385191587,
+      "non_R_predictions": 93
+    },
+    {
+      "biases": [
+        1.2502808286430354,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010584587649307637,
+      "success_rate": 0.97,
+      "macro_f1": 0.12164502164502163,
+      "non_R_predictions": 94
+    },
+    {
+      "biases": [
+        1.295289443370045,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010584587649307637,
+      "success_rate": 0.97,
+      "macro_f1": 0.12164502164502163,
+      "non_R_predictions": 94
+    },
+    {
+      "biases": [
+        1.2952894433700453,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010584587649307637,
+      "success_rate": 0.97,
+      "macro_f1": 0.12164502164502163,
+      "non_R_predictions": 94
+    },
+    {
+      "biases": [
+        1.2952894433700455,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010724977473382967,
+      "success_rate": 0.97,
+      "macro_f1": 0.11378587435841829,
+      "non_R_predictions": 95
+    },
+    {
+      "biases": [
+        1.3347603078829426,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010724977473382967,
+      "success_rate": 0.97,
+      "macro_f1": 0.11378587435841829,
+      "non_R_predictions": 95
+    },
+    {
+      "biases": [
+        1.3347603078829429,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010748789462896686,
+      "success_rate": 0.97,
+      "macro_f1": 0.1057741070781714,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        1.334760307882943,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010748789462896686,
+      "success_rate": 0.97,
+      "macro_f1": 0.1057741070781714,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        1.3423812443462038,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010748789462896686,
+      "success_rate": 0.97,
+      "macro_f1": 0.1057741070781714,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        1.342381244346204,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010748789462896686,
+      "success_rate": 0.97,
+      "macro_f1": 0.1057741070781714,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        1.3423812443462042,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010947301744100434,
+      "success_rate": 0.97,
+      "macro_f1": 0.09760348583877994,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        1.4005657371336948,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010947301744100434,
+      "success_rate": 0.97,
+      "macro_f1": 0.09760348583877994,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        1.400565737133695,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010998176101140393,
+      "success_rate": 0.97,
+      "macro_f1": 0.08926751128585991,
+      "non_R_predictions": 98
+    },
+    {
+      "biases": [
+        1.4005657371336953,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010998176101140393,
+      "success_rate": 0.97,
+      "macro_f1": 0.08926751128585991,
+      "non_R_predictions": 98
+    },
+    {
+      "biases": [
+        1.5068421613331606,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.010998176101140393,
+      "success_rate": 0.97,
+      "macro_f1": 0.08926751128585991,
+      "non_R_predictions": 98
+    },
+    {
+      "biases": [
+        1.5068421613331608,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011011965893443826,
+      "success_rate": 0.97,
+      "macro_f1": 0.08075940124132895,
+      "non_R_predictions": 99
+    },
+    {
+      "biases": [
+        1.506842161333161,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011011965893443826,
+      "success_rate": 0.97,
+      "macro_f1": 0.08075940124132895,
+      "non_R_predictions": 99
+    },
+    {
+      "biases": [
+        1.670757523379047,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011011965893443826,
+      "success_rate": 0.97,
+      "macro_f1": 0.08075940124132895,
+      "non_R_predictions": 99
+    },
+    {
+      "biases": [
+        1.6707575233790473,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011011965893443826,
+      "success_rate": 0.97,
+      "macro_f1": 0.08075940124132895,
+      "non_R_predictions": 99
+    },
+    {
+      "biases": [
+        1.6707575233790475,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011061606653736978,
+      "success_rate": 0.97,
+      "macro_f1": 0.07207207207207207,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.867216616100967,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011061606653736978,
+      "success_rate": 0.97,
+      "macro_f1": 0.07207207207207207,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.8672166161009671,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011061606653736978,
+      "success_rate": 0.97,
+      "macro_f1": 0.07207207207207207,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        1.8672166161009673,
+        0.0
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.011044760956595725,
+      "success_rate": 0.97,
+      "macro_f1": 0.07142857142857142,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        -0.32926602411955
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007267277501412726,
+      "success_rate": 0.98,
+      "macro_f1": 0.2829319060362771,
+      "non_R_predictions": 64
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        -0.32926602411954997
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007267277501412726,
+      "success_rate": 0.98,
+      "macro_f1": 0.2829319060362771,
+      "non_R_predictions": 64
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        -0.3292660241195499
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007304869807381575,
+      "success_rate": 0.98,
+      "macro_f1": 0.2788274104063578,
+      "non_R_predictions": 65
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        -0.14147578446988698
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007304869807381575,
+      "success_rate": 0.98,
+      "macro_f1": 0.2788274104063578,
+      "non_R_predictions": 65
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        -0.14147578446988696
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007304869807381575,
+      "success_rate": 0.98,
+      "macro_f1": 0.2788274104063578,
+      "non_R_predictions": 65
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        -0.14147578446988693
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007304869807381575,
+      "success_rate": 0.98,
+      "macro_f1": 0.2788274104063578,
+      "non_R_predictions": 65
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        -0.0026431790833897355
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007297960609418356,
+      "success_rate": 0.98,
+      "macro_f1": 0.36373260738052027,
+      "non_R_predictions": 66
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        -0.002643179083389735
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007297960609418356,
+      "success_rate": 0.98,
+      "macro_f1": 0.36373260738052027,
+      "non_R_predictions": 66
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        -0.0026431790833897346
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007297960609418356,
+      "success_rate": 0.98,
+      "macro_f1": 0.36373260738052027,
+      "non_R_predictions": 66
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.014131589191979764
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007235988197949025,
+      "success_rate": 0.98,
+      "macro_f1": 0.35575989782886336,
+      "non_R_predictions": 66
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.014131589191979765
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007235988197949025,
+      "success_rate": 0.98,
+      "macro_f1": 0.35575989782886336,
+      "non_R_predictions": 66
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.014131589191979767
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007235988197949025,
+      "success_rate": 0.98,
+      "macro_f1": 0.35575989782886336,
+      "non_R_predictions": 66
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.24135182253835616
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007563672998808171,
+      "success_rate": 0.98,
+      "macro_f1": 0.3441545893719807,
+      "non_R_predictions": 67
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.2413518225383562
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007563672998808171,
+      "success_rate": 0.98,
+      "macro_f1": 0.3441545893719807,
+      "non_R_predictions": 67
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.24135182253835621
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007563672998808171,
+      "success_rate": 0.98,
+      "macro_f1": 0.3441545893719807,
+      "non_R_predictions": 67
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.254640785511733
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007701853504273225,
+      "success_rate": 0.98,
+      "macro_f1": 0.33382243487506646,
+      "non_R_predictions": 68
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.2546407855117331
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.007701853504273225,
+      "success_rate": 0.98,
+      "macro_f1": 0.33382243487506646,
+      "non_R_predictions": 68
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.25464078551173314
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013597118753905138,
+      "success_rate": 0.97,
+      "macro_f1": 0.33009325114588267,
+      "non_R_predictions": 68
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.2679709761473729
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013597118753905138,
+      "success_rate": 0.97,
+      "macro_f1": 0.33009325114588267,
+      "non_R_predictions": 68
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.267970976147373
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013597118753905138,
+      "success_rate": 0.97,
+      "macro_f1": 0.33009325114588267,
+      "non_R_predictions": 68
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.26797097614737303
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013497050176407142,
+      "success_rate": 0.97,
+      "macro_f1": 0.32717726877784553,
+      "non_R_predictions": 68
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.4243908837263142
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013497050176407142,
+      "success_rate": 0.97,
+      "macro_f1": 0.32717726877784553,
+      "non_R_predictions": 68
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.4243908837263143
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013497050176407142,
+      "success_rate": 0.97,
+      "macro_f1": 0.32717726877784553,
+      "non_R_predictions": 68
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.42439088372631434
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013684946538819664,
+      "success_rate": 0.97,
+      "macro_f1": 0.3191671140513424,
+      "non_R_predictions": 69
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.4608276188915245
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013684946538819664,
+      "success_rate": 0.97,
+      "macro_f1": 0.3191671140513424,
+      "non_R_predictions": 69
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.46082761889152457
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013684946538819664,
+      "success_rate": 0.97,
+      "macro_f1": 0.3191671140513424,
+      "non_R_predictions": 69
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.4608276188915246
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013684946538819664,
+      "success_rate": 0.97,
+      "macro_f1": 0.3191671140513424,
+      "non_R_predictions": 69
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.4949528452366731
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013899639319760803,
+      "success_rate": 0.97,
+      "macro_f1": 0.3115677321156773,
+      "non_R_predictions": 70
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.49495284523667316
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013899639319760803,
+      "success_rate": 0.97,
+      "macro_f1": 0.3115677321156773,
+      "non_R_predictions": 70
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.4949528452366732
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013899639319760803,
+      "success_rate": 0.97,
+      "macro_f1": 0.3115677321156773,
+      "non_R_predictions": 70
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.5577382111899454
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013944334438042494,
+      "success_rate": 0.97,
+      "macro_f1": 0.30428544983339506,
+      "non_R_predictions": 71
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.5577382111899455
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013944334438042494,
+      "success_rate": 0.97,
+      "macro_f1": 0.30428544983339506,
+      "non_R_predictions": 71
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.5577382111899456
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013912463851322802,
+      "success_rate": 0.97,
+      "macro_f1": 0.30322970028852386,
+      "non_R_predictions": 71
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.5745057039187307
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013912463851322802,
+      "success_rate": 0.97,
+      "macro_f1": 0.30322970028852386,
+      "non_R_predictions": 71
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.5745057039187308
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.013912463851322802,
+      "success_rate": 0.97,
+      "macro_f1": 0.30322970028852386,
+      "non_R_predictions": 71
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.5745057039187309
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014338348014069337,
+      "success_rate": 0.96,
+      "macro_f1": 0.302485584175725,
+      "non_R_predictions": 71
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6129935832673388
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014338348014069337,
+      "success_rate": 0.96,
+      "macro_f1": 0.302485584175725,
+      "non_R_predictions": 71
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6129935832673389
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014338348014069337,
+      "success_rate": 0.96,
+      "macro_f1": 0.302485584175725,
+      "non_R_predictions": 71
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.612993583267339
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014424511316494835,
+      "success_rate": 0.96,
+      "macro_f1": 0.30201046791113506,
+      "non_R_predictions": 72
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6222575545429798
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014424511316494835,
+      "success_rate": 0.96,
+      "macro_f1": 0.30201046791113506,
+      "non_R_predictions": 72
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6222575545429799
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014424511316494835,
+      "success_rate": 0.96,
+      "macro_f1": 0.30201046791113506,
+      "non_R_predictions": 72
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.62225755454298
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01465058766547532,
+      "success_rate": 0.96,
+      "macro_f1": 0.30173160173160174,
+      "non_R_predictions": 72
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6316152859511572
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01465058766547532,
+      "success_rate": 0.96,
+      "macro_f1": 0.30173160173160174,
+      "non_R_predictions": 72
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6316152859511573
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01465058766547532,
+      "success_rate": 0.96,
+      "macro_f1": 0.30173160173160174,
+      "non_R_predictions": 72
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6316152859511575
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01468057915497357,
+      "success_rate": 0.96,
+      "macro_f1": 0.29552934323576524,
+      "non_R_predictions": 73
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6340645077616198
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01468057915497357,
+      "success_rate": 0.96,
+      "macro_f1": 0.29552934323576524,
+      "non_R_predictions": 73
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6340645077616199
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01468057915497357,
+      "success_rate": 0.96,
+      "macro_f1": 0.29552934323576524,
+      "non_R_predictions": 73
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.63406450776162
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014616616933798348,
+      "success_rate": 0.96,
+      "macro_f1": 0.29560463026757405,
+      "non_R_predictions": 73
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6382402972353474
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014616616933798348,
+      "success_rate": 0.96,
+      "macro_f1": 0.29560463026757405,
+      "non_R_predictions": 73
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6382402972353475
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014616616933798348,
+      "success_rate": 0.96,
+      "macro_f1": 0.29560463026757405,
+      "non_R_predictions": 73
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6382402972353476
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014677500159180514,
+      "success_rate": 0.96,
+      "macro_f1": 0.2860461296604801,
+      "non_R_predictions": 73
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6566213316862082
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014677500159180514,
+      "success_rate": 0.96,
+      "macro_f1": 0.2860461296604801,
+      "non_R_predictions": 73
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6566213316862083
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014677500159180514,
+      "success_rate": 0.96,
+      "macro_f1": 0.2860461296604801,
+      "non_R_predictions": 73
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6566213316862084
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01480932056250812,
+      "success_rate": 0.96,
+      "macro_f1": 0.2801379811183733,
+      "non_R_predictions": 74
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6850908324657026
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01480932056250812,
+      "success_rate": 0.96,
+      "macro_f1": 0.2801379811183733,
+      "non_R_predictions": 74
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6850908324657027
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01480932056250812,
+      "success_rate": 0.96,
+      "macro_f1": 0.2801379811183733,
+      "non_R_predictions": 74
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.6850908324657028
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014857290634029297,
+      "success_rate": 0.96,
+      "macro_f1": 0.274238592633315,
+      "non_R_predictions": 75
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.7886825227749484
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014857290634029297,
+      "success_rate": 0.96,
+      "macro_f1": 0.274238592633315,
+      "non_R_predictions": 75
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.7886825227749485
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014857290634029297,
+      "success_rate": 0.96,
+      "macro_f1": 0.274238592633315,
+      "non_R_predictions": 75
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.7886825227749487
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014878970726489018,
+      "success_rate": 0.96,
+      "macro_f1": 0.2683343293776146,
+      "non_R_predictions": 76
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.8156231966871901
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014878970726489018,
+      "success_rate": 0.96,
+      "macro_f1": 0.2683343293776146,
+      "non_R_predictions": 76
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.8156231966871902
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.014878970726489018,
+      "success_rate": 0.96,
+      "macro_f1": 0.2683343293776146,
+      "non_R_predictions": 76
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.8156231966871903
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017398771696355245,
+      "success_rate": 0.95,
+      "macro_f1": 0.2688479336371949,
+      "non_R_predictions": 76
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.8225123765454188
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017398771696355245,
+      "success_rate": 0.95,
+      "macro_f1": 0.2688479336371949,
+      "non_R_predictions": 76
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.8225123765454189
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017398771696355245,
+      "success_rate": 0.95,
+      "macro_f1": 0.2688479336371949,
+      "non_R_predictions": 76
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.822512376545419
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01746931978197703,
+      "success_rate": 0.95,
+      "macro_f1": 0.26299455105425257,
+      "non_R_predictions": 77
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.8352397911641138
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01746931978197703,
+      "success_rate": 0.95,
+      "macro_f1": 0.26299455105425257,
+      "non_R_predictions": 77
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.835239791164114
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01746931978197703,
+      "success_rate": 0.95,
+      "macro_f1": 0.26299455105425257,
+      "non_R_predictions": 77
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.8352397911641141
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017490982954105925,
+      "success_rate": 0.95,
+      "macro_f1": 0.2571063779247001,
+      "non_R_predictions": 78
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.836576111615839
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017490982954105925,
+      "success_rate": 0.95,
+      "macro_f1": 0.2571063779247001,
+      "non_R_predictions": 78
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.8365761116158391
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017490982954105925,
+      "success_rate": 0.95,
+      "macro_f1": 0.2571063779247001,
+      "non_R_predictions": 78
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.8365761116158392
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017527513396135647,
+      "success_rate": 0.95,
+      "macro_f1": 0.2511745479721135,
+      "non_R_predictions": 79
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.8479083899201943
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017527513396135647,
+      "success_rate": 0.95,
+      "macro_f1": 0.2511745479721135,
+      "non_R_predictions": 79
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.8479083899201945
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017527513396135647,
+      "success_rate": 0.95,
+      "macro_f1": 0.2511745479721135,
+      "non_R_predictions": 79
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.8479083899201946
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017531818981522514,
+      "success_rate": 0.95,
+      "macro_f1": 0.24519087044222276,
+      "non_R_predictions": 80
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.8819422377262469
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017531818981522514,
+      "success_rate": 0.95,
+      "macro_f1": 0.24519087044222276,
+      "non_R_predictions": 80
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.881942237726247
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017531818981522514,
+      "success_rate": 0.95,
+      "macro_f1": 0.24519087044222276,
+      "non_R_predictions": 80
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.8819422377262471
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017487294936244423,
+      "success_rate": 0.95,
+      "macro_f1": 0.2668597742127154,
+      "non_R_predictions": 80
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.9079237728930126
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017487294936244423,
+      "success_rate": 0.95,
+      "macro_f1": 0.2668597742127154,
+      "non_R_predictions": 80
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.9079237728930127
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017487294936244423,
+      "success_rate": 0.95,
+      "macro_f1": 0.2668597742127154,
+      "non_R_predictions": 80
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.9079237728930128
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01773122242529804,
+      "success_rate": 0.95,
+      "macro_f1": 0.26022602260226024,
+      "non_R_predictions": 81
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.916159118985913
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01773122242529804,
+      "success_rate": 0.95,
+      "macro_f1": 0.26022602260226024,
+      "non_R_predictions": 81
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.9161591189859131
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01773122242529804,
+      "success_rate": 0.95,
+      "macro_f1": 0.26022602260226024,
+      "non_R_predictions": 81
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.9161591189859132
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017711368319419725,
+      "success_rate": 0.95,
+      "macro_f1": 0.26059167002673117,
+      "non_R_predictions": 81
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.9360247757479732
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017711368319419725,
+      "success_rate": 0.95,
+      "macro_f1": 0.26059167002673117,
+      "non_R_predictions": 81
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.9360247757479733
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017711368319419725,
+      "success_rate": 0.95,
+      "macro_f1": 0.26059167002673117,
+      "non_R_predictions": 81
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.9360247757479734
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01775650673170334,
+      "success_rate": 0.95,
+      "macro_f1": 0.25065711928335693,
+      "non_R_predictions": 81
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.9395971048655275
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01775650673170334,
+      "success_rate": 0.95,
+      "macro_f1": 0.25065711928335693,
+      "non_R_predictions": 81
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.9395971048655276
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01775650673170334,
+      "success_rate": 0.95,
+      "macro_f1": 0.25065711928335693,
+      "non_R_predictions": 81
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.9395971048655277
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017892388618612916,
+      "success_rate": 0.95,
+      "macro_f1": 0.2441203703703704,
+      "non_R_predictions": 82
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.9517118767549101
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017892388618612916,
+      "success_rate": 0.95,
+      "macro_f1": 0.2441203703703704,
+      "non_R_predictions": 82
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.9517118767549102
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.017892388618612916,
+      "success_rate": 0.95,
+      "macro_f1": 0.2441203703703704,
+      "non_R_predictions": 82
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        0.9517118767549103
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01794343930622979,
+      "success_rate": 0.95,
+      "macro_f1": 0.2375301437801438,
+      "non_R_predictions": 83
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.0181056729189255
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01794343930622979,
+      "success_rate": 0.95,
+      "macro_f1": 0.2375301437801438,
+      "non_R_predictions": 83
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.0181056729189257
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.01794343930622979,
+      "success_rate": 0.95,
+      "macro_f1": 0.2375301437801438,
+      "non_R_predictions": 83
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.018105672918926
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018233468190887548,
+      "success_rate": 0.95,
+      "macro_f1": 0.23806992228044857,
+      "non_R_predictions": 83
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.0349028095143422
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018233468190887548,
+      "success_rate": 0.95,
+      "macro_f1": 0.23806992228044857,
+      "non_R_predictions": 83
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.0349028095143424
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018233468190887548,
+      "success_rate": 0.95,
+      "macro_f1": 0.23806992228044857,
+      "non_R_predictions": 83
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.0349028095143427
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018492271886235017,
+      "success_rate": 0.95,
+      "macro_f1": 0.23146694575266002,
+      "non_R_predictions": 84
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.0517137042034264
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018492271886235017,
+      "success_rate": 0.95,
+      "macro_f1": 0.23146694575266002,
+      "non_R_predictions": 84
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.0517137042034266
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018492271886235017,
+      "success_rate": 0.95,
+      "macro_f1": 0.23146694575266002,
+      "non_R_predictions": 84
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.0517137042034268
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018581978047697425,
+      "success_rate": 0.95,
+      "macro_f1": 0.2247913598429062,
+      "non_R_predictions": 85
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.1087169791179143
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018581978047697425,
+      "success_rate": 0.95,
+      "macro_f1": 0.2247913598429062,
+      "non_R_predictions": 85
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.1087169791179146
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018630786977535924,
+      "success_rate": 0.95,
+      "macro_f1": 0.21803619821912504,
+      "non_R_predictions": 86
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.1087169791179148
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018630786977535924,
+      "success_rate": 0.95,
+      "macro_f1": 0.21803619821912504,
+      "non_R_predictions": 86
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.1105548791697186
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018630786977535924,
+      "success_rate": 0.95,
+      "macro_f1": 0.21803619821912504,
+      "non_R_predictions": 86
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.1105548791697188
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018763145361458747,
+      "success_rate": 0.95,
+      "macro_f1": 0.20804531490015357,
+      "non_R_predictions": 86
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.110554879169719
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018763145361458747,
+      "success_rate": 0.95,
+      "macro_f1": 0.20804531490015357,
+      "non_R_predictions": 86
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.1583854244324485
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018763145361458747,
+      "success_rate": 0.95,
+      "macro_f1": 0.20804531490015357,
+      "non_R_predictions": 86
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.1583854244324487
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018763145361458747,
+      "success_rate": 0.95,
+      "macro_f1": 0.20804531490015357,
+      "non_R_predictions": 86
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.158385424432449
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018856034356955632,
+      "success_rate": 0.95,
+      "macro_f1": 0.20123978363011807,
+      "non_R_predictions": 87
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.1823661231339193
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018856034356955632,
+      "success_rate": 0.95,
+      "macro_f1": 0.20123978363011807,
+      "non_R_predictions": 87
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.1823661231339195
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.018856034356955632,
+      "success_rate": 0.95,
+      "macro_f1": 0.20123978363011807,
+      "non_R_predictions": 87
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.1823661231339198
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.019636974440701113,
+      "success_rate": 0.94,
+      "macro_f1": 0.19433872007653752,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.1846346742969718
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.019636974440701113,
+      "success_rate": 0.94,
+      "macro_f1": 0.19433872007653752,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.184634674296972
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.019636974440701113,
+      "success_rate": 0.94,
+      "macro_f1": 0.19433872007653752,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.1846346742969722
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.019808234157804604,
+      "success_rate": 0.94,
+      "macro_f1": 0.1950755080158638,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2017113967831297
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.019808234157804604,
+      "success_rate": 0.94,
+      "macro_f1": 0.1950755080158638,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2017113967831299
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.019808234157804604,
+      "success_rate": 0.94,
+      "macro_f1": 0.1950755080158638,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.20171139678313
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021257476963080904,
+      "success_rate": 0.93,
+      "macro_f1": 0.19588858053242877,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2045703505408063
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021257476963080904,
+      "success_rate": 0.93,
+      "macro_f1": 0.19588858053242877,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2045703505408065
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021257476963080904,
+      "success_rate": 0.93,
+      "macro_f1": 0.19588858053242877,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2045703505408067
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02098967207708028,
+      "success_rate": 0.93,
+      "macro_f1": 0.19677845894939294,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2062555941528716
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02098967207708028,
+      "success_rate": 0.93,
+      "macro_f1": 0.19677845894939294,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2062555941528719
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02098967207708028,
+      "success_rate": 0.93,
+      "macro_f1": 0.19677845894939294,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.206255594152872
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021352228707463873,
+      "success_rate": 0.93,
+      "macro_f1": 0.19774598516344666,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2677012310624396
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021352228707463873,
+      "success_rate": 0.93,
+      "macro_f1": 0.19774598516344666,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2677012310624398
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021352228707463873,
+      "success_rate": 0.93,
+      "macro_f1": 0.19774598516344666,
+      "non_R_predictions": 88
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.26770123106244
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021765756266386244,
+      "success_rate": 0.93,
+      "macro_f1": 0.19084949515586733,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2708436577118711
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021765756266386244,
+      "success_rate": 0.93,
+      "macro_f1": 0.19084949515586733,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2708436577118714
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021765756266386244,
+      "success_rate": 0.93,
+      "macro_f1": 0.19084949515586733,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2708436577118716
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021785503099235538,
+      "success_rate": 0.93,
+      "macro_f1": 0.19191850594227503,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2804340406193002
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021785503099235538,
+      "success_rate": 0.93,
+      "macro_f1": 0.19191850594227503,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2804340406193004
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02162839414830437,
+      "success_rate": 0.94,
+      "macro_f1": 0.20613836932622512,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2804340406193007
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02162839414830437,
+      "success_rate": 0.94,
+      "macro_f1": 0.20613836932622512,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2870613133956603
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02162839414830437,
+      "success_rate": 0.94,
+      "macro_f1": 0.20613836932622512,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2870613133956605
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02162839414830437,
+      "success_rate": 0.94,
+      "macro_f1": 0.20613836932622512,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2870613133956608
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021949610336494594,
+      "success_rate": 0.94,
+      "macro_f1": 0.19499461112364339,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.298843849094901
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021949610336494594,
+      "success_rate": 0.94,
+      "macro_f1": 0.19499461112364339,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2988438490949012
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02207890996418522,
+      "success_rate": 0.94,
+      "macro_f1": 0.18349451094429792,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.2988438490949015
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02207890996418522,
+      "success_rate": 0.94,
+      "macro_f1": 0.18349451094429792,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.306062056256181
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02207890996418522,
+      "success_rate": 0.94,
+      "macro_f1": 0.18349451094429792,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.3060620562561813
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02208077425604201,
+      "success_rate": 0.94,
+      "macro_f1": 0.18419332296386468,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.3060620562561815
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02208077425604201,
+      "success_rate": 0.94,
+      "macro_f1": 0.18419332296386468,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.3090503798390458
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02208077425604201,
+      "success_rate": 0.94,
+      "macro_f1": 0.18419332296386468,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.309050379839046
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02208077425604201,
+      "success_rate": 0.94,
+      "macro_f1": 0.18419332296386468,
+      "non_R_predictions": 89
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.3090503798390463
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.022350978388423818,
+      "success_rate": 0.94,
+      "macro_f1": 0.17705272578119177,
+      "non_R_predictions": 90
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.3285062127277234
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.022350978388423818,
+      "success_rate": 0.94,
+      "macro_f1": 0.17705272578119177,
+      "non_R_predictions": 90
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.3285062127277236
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.022345769368501158,
+      "success_rate": 0.94,
+      "macro_f1": 0.18902481166632112,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.3285062127277238
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.022345769368501158,
+      "success_rate": 0.94,
+      "macro_f1": 0.18902481166632112,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.348934780232024
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.022345769368501158,
+      "success_rate": 0.94,
+      "macro_f1": 0.18902481166632112,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.3489347802320242
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.022345769368501158,
+      "success_rate": 0.94,
+      "macro_f1": 0.18902481166632112,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.3489347802320244
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.022297893937523922,
+      "success_rate": 0.94,
+      "macro_f1": 0.18964076858813703,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.4570831875995147
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.022297893937523922,
+      "success_rate": 0.94,
+      "macro_f1": 0.18964076858813703,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.457083187599515
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.022297893937523922,
+      "success_rate": 0.94,
+      "macro_f1": 0.18964076858813703,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.4570831875995152
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021789060588766986,
+      "success_rate": 0.95,
+      "macro_f1": 0.20183670285090163,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.4809659145475915
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021789060588766986,
+      "success_rate": 0.95,
+      "macro_f1": 0.20183670285090163,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.4809659145475917
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.021789060588766986,
+      "success_rate": 0.95,
+      "macro_f1": 0.20183670285090163,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.480965914547592
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02187697657030792,
+      "success_rate": 0.95,
+      "macro_f1": 0.20243124107530885,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5022819498723485
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02187697657030792,
+      "success_rate": 0.95,
+      "macro_f1": 0.20243124107530885,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5022819498723488
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02187697657030792,
+      "success_rate": 0.95,
+      "macro_f1": 0.20243124107530885,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.502281949872349
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02190779507617878,
+      "success_rate": 0.95,
+      "macro_f1": 0.20312227455084597,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5312316472480696
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02190779507617878,
+      "success_rate": 0.95,
+      "macro_f1": 0.20312227455084597,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5312316472480698
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.022226380674914035,
+      "success_rate": 0.95,
+      "macro_f1": 0.20391220801056864,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.53123164724807
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.022226380674914035,
+      "success_rate": 0.95,
+      "macro_f1": 0.20391220801056864,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5422943487028393
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.022226380674914035,
+      "success_rate": 0.95,
+      "macro_f1": 0.20391220801056864,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5422943487028395
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.022226380674914035,
+      "success_rate": 0.95,
+      "macro_f1": 0.20391220801056864,
+      "non_R_predictions": 91
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5422943487028398
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02416277412262504,
+      "success_rate": 0.94,
+      "macro_f1": 0.19635603345280764,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.558034276539482
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02416277412262504,
+      "success_rate": 0.94,
+      "macro_f1": 0.19635603345280764,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5580342765394821
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02416277412262504,
+      "success_rate": 0.94,
+      "macro_f1": 0.19635603345280764,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5580342765394823
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.024063026552811406,
+      "success_rate": 0.94,
+      "macro_f1": 0.19727569514803556,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5606130165932715
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.024063026552811406,
+      "success_rate": 0.94,
+      "macro_f1": 0.19727569514803556,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5606130165932717
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.024359329942546255,
+      "success_rate": 0.94,
+      "macro_f1": 0.198299114331723,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.560613016593272
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.024359329942546255,
+      "success_rate": 0.94,
+      "macro_f1": 0.198299114331723,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.575559373727107
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.024359329942546255,
+      "success_rate": 0.94,
+      "macro_f1": 0.198299114331723,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5755593737271072
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.024140258076237764,
+      "success_rate": 0.94,
+      "macro_f1": 0.20968660968660968,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5755593737271074
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.024140258076237764,
+      "success_rate": 0.94,
+      "macro_f1": 0.20968660968660968,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5765509771605672
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.024140258076237764,
+      "success_rate": 0.94,
+      "macro_f1": 0.20968660968660968,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5765509771605675
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.024140258076237764,
+      "success_rate": 0.94,
+      "macro_f1": 0.20968660968660968,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.5765509771605677
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.024196155048645567,
+      "success_rate": 0.94,
+      "macro_f1": 0.2107744107744108,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6241328433814253
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.024196155048645567,
+      "success_rate": 0.94,
+      "macro_f1": 0.2107744107744108,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6241328433814255
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.024196155048645567,
+      "success_rate": 0.94,
+      "macro_f1": 0.2107744107744108,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6241328433814257
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02503443919179278,
+      "success_rate": 0.93,
+      "macro_f1": 0.1964801316415339,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6495686835840881
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02503443919179278,
+      "success_rate": 0.93,
+      "macro_f1": 0.1964801316415339,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6495686835840884
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02503443919179278,
+      "success_rate": 0.93,
+      "macro_f1": 0.1964801316415339,
+      "non_R_predictions": 92
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6495686835840886
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.025319541552525044,
+      "success_rate": 0.93,
+      "macro_f1": 0.18877736618556493,
+      "non_R_predictions": 93
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6638330576936853
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.025319541552525044,
+      "success_rate": 0.93,
+      "macro_f1": 0.18877736618556493,
+      "non_R_predictions": 93
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6638330576936855
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.025319541552525044,
+      "success_rate": 0.93,
+      "macro_f1": 0.18877736618556493,
+      "non_R_predictions": 93
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6638330576936857
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.025231714438218172,
+      "success_rate": 0.93,
+      "macro_f1": 0.18977055078667193,
+      "non_R_predictions": 93
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.682223774493068
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.025231714438218172,
+      "success_rate": 0.93,
+      "macro_f1": 0.18977055078667193,
+      "non_R_predictions": 93
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6822237744930681
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.025231714438218172,
+      "success_rate": 0.93,
+      "macro_f1": 0.18977055078667193,
+      "non_R_predictions": 93
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6822237744930684
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.026265608439623344,
+      "success_rate": 0.92,
+      "macro_f1": 0.18196248196248196,
+      "non_R_predictions": 94
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6885983703938288
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.026265608439623344,
+      "success_rate": 0.92,
+      "macro_f1": 0.18196248196248196,
+      "non_R_predictions": 94
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.688598370393829
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.026990718282340946,
+      "success_rate": 0.91,
+      "macro_f1": 0.17401728377930417,
+      "non_R_predictions": 95
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6885983703938292
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.026990718282340946,
+      "success_rate": 0.91,
+      "macro_f1": 0.17401728377930417,
+      "non_R_predictions": 95
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6996692590245381
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.026990718282340946,
+      "success_rate": 0.91,
+      "macro_f1": 0.17401728377930417,
+      "non_R_predictions": 95
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6996692590245384
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.026990718282340946,
+      "success_rate": 0.91,
+      "macro_f1": 0.17401728377930417,
+      "non_R_predictions": 95
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.6996692590245386
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02782450900276393,
+      "success_rate": 0.9,
+      "macro_f1": 0.1659283868586194,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.7090328159482657
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02782450900276393,
+      "success_rate": 0.9,
+      "macro_f1": 0.1659283868586194,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.709032815948266
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02782450900276393,
+      "success_rate": 0.9,
+      "macro_f1": 0.1659283868586194,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.7090328159482662
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.028305796588939537,
+      "success_rate": 0.89,
+      "macro_f1": 0.16710308549405975,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.7664210235169373
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.028305796588939537,
+      "success_rate": 0.89,
+      "macro_f1": 0.16710308549405975,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.7664210235169375
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.028260837024650633,
+      "success_rate": 0.89,
+      "macro_f1": 0.1683951393253719,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.7664210235169377
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.028260837024650633,
+      "success_rate": 0.89,
+      "macro_f1": 0.1683951393253719,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.798886034262298
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.028260837024650633,
+      "success_rate": 0.89,
+      "macro_f1": 0.1683951393253719,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.7988860342622983
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.028578612997442906,
+      "success_rate": 0.89,
+      "macro_f1": 0.16981117074140328,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.7988860342622985
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.028578612997442906,
+      "success_rate": 0.89,
+      "macro_f1": 0.16981117074140328,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.8126249366536902
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.028578612997442906,
+      "success_rate": 0.89,
+      "macro_f1": 0.16981117074140328,
+      "non_R_predictions": 96
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.8126249366536904
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.029219795928463403,
+      "success_rate": 0.88,
+      "macro_f1": 0.16163107618215974,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.8126249366536906
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.029219795928463403,
+      "success_rate": 0.88,
+      "macro_f1": 0.16163107618215974,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.849413444379266
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.029219795928463403,
+      "success_rate": 0.88,
+      "macro_f1": 0.16163107618215974,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.8494134443792662
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.029219795928463403,
+      "success_rate": 0.88,
+      "macro_f1": 0.16163107618215974,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.8494134443792665
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.029234414123998208,
+      "success_rate": 0.88,
+      "macro_f1": 0.16319676195837188,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.8840901181861207
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.029234414123998208,
+      "success_rate": 0.88,
+      "macro_f1": 0.16319676195837188,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.884090118186121
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.029234414123998208,
+      "success_rate": 0.88,
+      "macro_f1": 0.16319676195837188,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.8840901181861212
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02956225928964416,
+      "success_rate": 0.87,
+      "macro_f1": 0.16490155313684726,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.8980027862368518
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.02956225928964416,
+      "success_rate": 0.87,
+      "macro_f1": 0.16490155313684726,
+      "non_R_predictions": 97
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.898002786236852
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.029911987757239845,
+      "success_rate": 0.87,
+      "macro_f1": 0.156596017355511,
+      "non_R_predictions": 98
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.8980027862368523
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.029911987757239845,
+      "success_rate": 0.87,
+      "macro_f1": 0.156596017355511,
+      "non_R_predictions": 98
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.90602601346022
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.029911987757239845,
+      "success_rate": 0.87,
+      "macro_f1": 0.156596017355511,
+      "non_R_predictions": 98
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.9060260134602203
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.029929243122531774,
+      "success_rate": 0.87,
+      "macro_f1": 0.15846560846560845,
+      "non_R_predictions": 98
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.9060260134602205
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.029929243122531774,
+      "success_rate": 0.87,
+      "macro_f1": 0.15846560846560845,
+      "non_R_predictions": 98
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.9203065064187343
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.029929243122531774,
+      "success_rate": 0.87,
+      "macro_f1": 0.15846560846560845,
+      "non_R_predictions": 98
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.9203065064187346
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.029929243122531774,
+      "success_rate": 0.87,
+      "macro_f1": 0.15846560846560845,
+      "non_R_predictions": 98
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.9203065064187348
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.030231376606347747,
+      "success_rate": 0.87,
+      "macro_f1": 0.15000743715603154,
+      "non_R_predictions": 99
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.9678520113578417
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.030231376606347747,
+      "success_rate": 0.87,
+      "macro_f1": 0.15000743715603154,
+      "non_R_predictions": 99
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.967852011357842
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.030231376606347747,
+      "success_rate": 0.87,
+      "macro_f1": 0.15000743715603154,
+      "non_R_predictions": 99
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.9678520113578422
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.030022906761733772,
+      "success_rate": 0.87,
+      "macro_f1": 0.1520507115570295,
+      "non_R_predictions": 99
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.992685231386511
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.030022906761733772,
+      "success_rate": 0.87,
+      "macro_f1": 0.1520507115570295,
+      "non_R_predictions": 99
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.9926852313865113
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.030022906761733772,
+      "success_rate": 0.87,
+      "macro_f1": 0.1520507115570295,
+      "non_R_predictions": 99
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.9926852313865115
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.030078434689619328,
+      "success_rate": 0.87,
+      "macro_f1": 0.1434308663224326,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.996377754015718
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.030078434689619328,
+      "success_rate": 0.87,
+      "macro_f1": 0.1434308663224326,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.9963777540157182
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.030078434689619328,
+      "success_rate": 0.87,
+      "macro_f1": 0.1434308663224326,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        1.9963777540157184
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.031003624832299456,
+      "success_rate": 0.86,
+      "macro_f1": 0.14565826330532214,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.038850736978978
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.031003624832299456,
+      "success_rate": 0.86,
+      "macro_f1": 0.14565826330532214,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.0388507369789783
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.031003624832299456,
+      "success_rate": 0.86,
+      "macro_f1": 0.14565826330532214,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.038850736978979
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.031102664375073648,
+      "success_rate": 0.86,
+      "macro_f1": 0.1480689245395128,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.0444605023015767
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.031102664375073648,
+      "success_rate": 0.86,
+      "macro_f1": 0.1480689245395128,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.044460502301577
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.031102664375073648,
+      "success_rate": 0.86,
+      "macro_f1": 0.1480689245395128,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.0444605023015776
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03092736128376353,
+      "success_rate": 0.86,
+      "macro_f1": 0.15067829457364343,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.051313889411075
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03092736128376353,
+      "success_rate": 0.86,
+      "macro_f1": 0.15067829457364343,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.0513138894110754
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03092736128376353,
+      "success_rate": 0.86,
+      "macro_f1": 0.15067829457364343,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.051313889411076
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.030938432418052088,
+      "success_rate": 0.86,
+      "macro_f1": 0.15350389321468297,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.0683164796505866
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.030938432418052088,
+      "success_rate": 0.86,
+      "macro_f1": 0.15350389321468297,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.068316479650587
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.032019187734026636,
+      "success_rate": 0.85,
+      "macro_f1": 0.13434343434343435,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.0683164796505875
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.032019187734026636,
+      "success_rate": 0.85,
+      "macro_f1": 0.13434343434343435,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.0992044872659124
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.032019187734026636,
+      "success_rate": 0.85,
+      "macro_f1": 0.13434343434343435,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.099204487265913
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.032019187734026636,
+      "success_rate": 0.85,
+      "macro_f1": 0.13434343434343435,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.0992044872659132
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03200868202260816,
+      "success_rate": 0.85,
+      "macro_f1": 0.13689784321322485,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.146352365539832
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03200868202260816,
+      "success_rate": 0.85,
+      "macro_f1": 0.13689784321322485,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.1463523655398324
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.032344848995237305,
+      "success_rate": 0.84,
+      "macro_f1": 0.13968253968253966,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.146352365539833
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.032344848995237305,
+      "success_rate": 0.84,
+      "macro_f1": 0.13968253968253966,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.166189927321008
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.032344848995237305,
+      "success_rate": 0.84,
+      "macro_f1": 0.13968253968253966,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.1661899273210086
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03270311916676341,
+      "success_rate": 0.84,
+      "macro_f1": 0.11803011803011802,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.166189927321009
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03270311916676341,
+      "success_rate": 0.84,
+      "macro_f1": 0.11803011803011802,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.2169637800808357
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03270311916676341,
+      "success_rate": 0.84,
+      "macro_f1": 0.11803011803011802,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.216963780080836
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03270311916676341,
+      "success_rate": 0.84,
+      "macro_f1": 0.11803011803011802,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.2169637800808366
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.032656110514819904,
+      "success_rate": 0.84,
+      "macro_f1": 0.12040133779264213,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.3016815400959603
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.032656110514819904,
+      "success_rate": 0.84,
+      "macro_f1": 0.12040133779264213,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.3016815400959607
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.032656110514819904,
+      "success_rate": 0.84,
+      "macro_f1": 0.12040133779264213,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.301681540095961
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.033133296801981876,
+      "success_rate": 0.83,
+      "macro_f1": 0.12301075268817203,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.309304558273135
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.033133296801981876,
+      "success_rate": 0.83,
+      "macro_f1": 0.12301075268817203,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.3093045582731353
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03319548930601396,
+      "success_rate": 0.83,
+      "macro_f1": 0.09810874704491725,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.3093045582731357
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03319548930601396,
+      "success_rate": 0.83,
+      "macro_f1": 0.09810874704491725,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.3115801793389683
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03319548930601396,
+      "success_rate": 0.83,
+      "macro_f1": 0.09810874704491725,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.3115801793389688
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03385331888129732,
+      "success_rate": 0.82,
+      "macro_f1": 0.10007627765064836,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.311580179338969
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03385331888129732,
+      "success_rate": 0.82,
+      "macro_f1": 0.10007627765064836,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.3300693827518195
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03385331888129732,
+      "success_rate": 0.82,
+      "macro_f1": 0.10007627765064836,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.33006938275182
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03385331888129732,
+      "success_rate": 0.82,
+      "macro_f1": 0.10007627765064836,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.3300693827518204
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.033929351487543495,
+      "success_rate": 0.82,
+      "macro_f1": 0.10227272727272728,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.352304660143948
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.033929351487543495,
+      "success_rate": 0.82,
+      "macro_f1": 0.10227272727272728,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.3523046601439486
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03441417699663182,
+      "success_rate": 0.81,
+      "macro_f1": 0.10472917689412535,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.352304660143949
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03441417699663182,
+      "success_rate": 0.81,
+      "macro_f1": 0.10472917689412535,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.39018164903694
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03441417699663182,
+      "success_rate": 0.81,
+      "macro_f1": 0.10472917689412535,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.3901816490369403
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03441417699663182,
+      "success_rate": 0.81,
+      "macro_f1": 0.10472917689412535,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.3901816490369407
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03517889466485712,
+      "success_rate": 0.8,
+      "macro_f1": 0.1074829931972789,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.3980988963671077
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03517889466485712,
+      "success_rate": 0.8,
+      "macro_f1": 0.1074829931972789,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.398098896367108
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03594881659908843,
+      "success_rate": 0.79,
+      "macro_f1": 0.11057947900053162,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.3980988963671086
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03594881659908843,
+      "success_rate": 0.79,
+      "macro_f1": 0.11057947900053162,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.4562603468582553
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03594881659908843,
+      "success_rate": 0.79,
+      "macro_f1": 0.11057947900053162,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.456260346858256
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03611762642915886,
+      "success_rate": 0.79,
+      "macro_f1": 0.11407407407407406,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.4562603468582562
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03611762642915886,
+      "success_rate": 0.79,
+      "macro_f1": 0.11407407407407406,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.515695078738883
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03611762642915886,
+      "success_rate": 0.79,
+      "macro_f1": 0.11407407407407406,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.5156950787388834
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03611762642915886,
+      "success_rate": 0.79,
+      "macro_f1": 0.11407407407407406,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.515695078738884
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.036562271219081385,
+      "success_rate": 0.78,
+      "macro_f1": 0.0788196466705494,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.5331171521024034
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.036562271219081385,
+      "success_rate": 0.78,
+      "macro_f1": 0.0788196466705494,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.533117152102404
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.036562271219081385,
+      "success_rate": 0.78,
+      "macro_f1": 0.0788196466705494,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.5331171521024043
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0366669075042241,
+      "success_rate": 0.78,
+      "macro_f1": 0.0392156862745098,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.5607783910924096
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0366669075042241,
+      "success_rate": 0.78,
+      "macro_f1": 0.0392156862745098,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.56077839109241
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.0366669075042241,
+      "success_rate": 0.78,
+      "macro_f1": 0.0392156862745098,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.5607783910924105
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03680459509586758,
+      "success_rate": 0.78,
+      "macro_f1": 0.03883495145631068,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.594791993377181
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03680459509586758,
+      "success_rate": 0.78,
+      "macro_f1": 0.03883495145631068,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.5947919933771812
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03679055463306918,
+      "success_rate": 0.78,
+      "macro_f1": 0.038461538461538464,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.5947919933771817
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03679055463306918,
+      "success_rate": 0.78,
+      "macro_f1": 0.038461538461538464,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.714192842738124
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03679055463306918,
+      "success_rate": 0.78,
+      "macro_f1": 0.038461538461538464,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.7141928427381243
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03679055463306918,
+      "success_rate": 0.78,
+      "macro_f1": 0.038461538461538464,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.7141928427381248
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.037060192195021574,
+      "success_rate": 0.77,
+      "macro_f1": 0.03809523809523809,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.9222210173617738
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.037060192195021574,
+      "success_rate": 0.77,
+      "macro_f1": 0.03809523809523809,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.922221017361774
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03700142536286222,
+      "success_rate": 0.77,
+      "macro_f1": 0.03773584905660377,
+      "non_R_predictions": 100
+    },
+    {
+      "biases": [
+        0.7679155717774887,
+        2.9222210173617746
+      ],
+      "phase": "coordinate",
+      "mean_regret": 0.03700142536286222,
+      "success_rate": 0.77,
+      "macro_f1": 0.03773584905660377,
+      "non_R_predictions": 100
+    }
+  ],
+  "best": {
+    "biases": [
+      0.7679155717774887,
+      0.0
+    ],
+    "n": 100,
+    "status": "evaluated",
+    "class_order": [
+      "remizov",
+      "monte_carlo",
+      "product_integral"
+    ],
+    "confusion_matrix": [
+      [
+        32,
+        48,
+        2
+      ],
+      [
+        1,
+        11,
+        0
+      ],
+      [
+        1,
+        4,
+        1
+      ]
+    ],
+    "accuracy": 0.44,
+    "balanced_accuracy": 0.4911924119241193,
+    "macro_f1": 0.35575989782886336,
+    "precision": {
+      "remizov": 0.9411764705882353,
+      "monte_carlo": 0.1746031746031746,
+      "product_integral": 0.3333333333333333
+    },
+    "recall": {
+      "remizov": 0.3902439024390244,
+      "monte_carlo": 0.9166666666666666,
+      "product_integral": 0.16666666666666666
+    },
+    "f1": {
+      "remizov": 0.5517241379310345,
+      "monte_carlo": 0.29333333333333333,
+      "product_integral": 0.2222222222222222
+    },
+    "true_class_counts": {
+      "remizov": 82,
+      "monte_carlo": 12,
+      "product_integral": 6
+    },
+    "selection_counts": {
+      "remizov": 34,
+      "monte_carlo": 63,
+      "product_integral": 3
+    },
+    "selection_fractions": {
+      "remizov": 0.34,
+      "monte_carlo": 0.63,
+      "product_integral": 0.03
+    },
+    "non_R_predictions": 66,
+    "selection_errors": 56,
+    "success_count": 98,
+    "success_rate": 0.98,
+    "mean_error": 0.009358104058083336,
+    "median_error": 0.003971941755550268,
+    "max_error": 0.060298958564531914,
+    "mean_regret": 0.007235988197949025,
+    "median_regret": 0.0005931596481334317,
+    "max_regret": 0.05088333487569339
+  },
+  "validation_ids": [
+    "AMV1_F0011_S00",
+    "AMV1_F0011_S01",
+    "AMV1_F0011_S02",
+    "AMV1_F0011_S03",
+    "AMV1_F0011_S04",
+    "AMV1_F0015_S00",
+    "AMV1_F0015_S01",
+    "AMV1_F0015_S02",
+    "AMV1_F0015_S03",
+    "AMV1_F0015_S04",
+    "AMV1_F0016_S00",
+    "AMV1_F0016_S01",
+    "AMV1_F0016_S02",
+    "AMV1_F0016_S03",
+    "AMV1_F0016_S04",
+    "AMV1_F0017_S00",
+    "AMV1_F0017_S01",
+    "AMV1_F0017_S02",
+    "AMV1_F0017_S03",
+    "AMV1_F0017_S04",
+    "AMV1_F0031_S00",
+    "AMV1_F0031_S01",
+    "AMV1_F0031_S02",
+    "AMV1_F0031_S03",
+    "AMV1_F0031_S04",
+    "AMV1_F0044_S00",
+    "AMV1_F0044_S01",
+    "AMV1_F0044_S02",
+    "AMV1_F0044_S03",
+    "AMV1_F0044_S04",
+    "AMV1_F0047_S00",
+    "AMV1_F0047_S01",
+    "AMV1_F0047_S02",
+    "AMV1_F0047_S03",
+    "AMV1_F0047_S04",
+    "AMV1_F0048_S00",
+    "AMV1_F0048_S01",
+    "AMV1_F0048_S02",
+    "AMV1_F0048_S03",
+    "AMV1_F0048_S04",
+    "AMV1_F0076_S00",
+    "AMV1_F0076_S01",
+    "AMV1_F0076_S02",
+    "AMV1_F0076_S03",
+    "AMV1_F0076_S04",
+    "AMV1_F0078_S00",
+    "AMV1_F0078_S01",
+    "AMV1_F0078_S02",
+    "AMV1_F0078_S03",
+    "AMV1_F0078_S04",
+    "AMV1_F0080_S00",
+    "AMV1_F0080_S01",
+    "AMV1_F0080_S02",
+    "AMV1_F0080_S03",
+    "AMV1_F0080_S04",
+    "AMV1_F0083_S00",
+    "AMV1_F0083_S01",
+    "AMV1_F0083_S02",
+    "AMV1_F0083_S03",
+    "AMV1_F0083_S04",
+    "AMV1_F0101_S00",
+    "AMV1_F0101_S01",
+    "AMV1_F0101_S02",
+    "AMV1_F0101_S03",
+    "AMV1_F0101_S04",
+    "AMV1_F0107_S00",
+    "AMV1_F0107_S01",
+    "AMV1_F0107_S02",
+    "AMV1_F0107_S03",
+    "AMV1_F0107_S04",
+    "AMV1_F0108_S00",
+    "AMV1_F0108_S01",
+    "AMV1_F0108_S02",
+    "AMV1_F0108_S03",
+    "AMV1_F0108_S04",
+    "AMV1_F0119_S00",
+    "AMV1_F0119_S01",
+    "AMV1_F0119_S02",
+    "AMV1_F0119_S03",
+    "AMV1_F0119_S04",
+    "AMV1_F0155_S00",
+    "AMV1_F0155_S01",
+    "AMV1_F0155_S02",
+    "AMV1_F0155_S03",
+    "AMV1_F0155_S04",
+    "AMV1_F0165_S00",
+    "AMV1_F0165_S01",
+    "AMV1_F0165_S02",
+    "AMV1_F0165_S03",
+    "AMV1_F0165_S04",
+    "AMV1_F0170_S00",
+    "AMV1_F0170_S01",
+    "AMV1_F0170_S02",
+    "AMV1_F0170_S03",
+    "AMV1_F0170_S04",
+    "AMV1_F0172_S00",
+    "AMV1_F0172_S01",
+    "AMV1_F0172_S02",
+    "AMV1_F0172_S03",
+    "AMV1_F0172_S04"
+  ]
+}

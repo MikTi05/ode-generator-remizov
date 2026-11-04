@@ -1,0 +1,48 @@
+{
+  "figures": [
+    {
+      "name": "01_winner_counts",
+      "description": "997 complete saved-result rows; RK4 excluded from target",
+      "files": [
+        {
+          "path": "figures/01_winner_counts.png",
+          "sha256": "96a86630589b3d04333ab20d06aa942fb48a8167f81a0b884384364d080b9a3b"
+        },
+        {
+          "path": "figures/01_winner_counts.pdf",
+          "sha256": "ea740b15f1ed2107936302d8122f63b5fb8075d0f8a738e13cdf0fd460e34fb0"
+        }
+      ]
+    },
+    {
+      "name": "02_selected_test_confusion",
+      "description": "Rows=true best method, columns=selected method; frozen latest Validation policy",
+      "files": [
+        {
+          "path": "figures/02_selected_test_confusion.png",
+          "sha256": "42c453594ae237d4cf36816efb686df80bb995c5aed4a7bd7217def7c03b937d"
+        },
+        {
+          "path": "figures/02_selected_test_confusion.pdf",
+          "sha256": "87363ecfd3153560d93c724ea297c9c9c866cee9ac5a101f1a39a09ab72e51b2"
+        }
+      ]
+    },
+    {
+      "name": "03_top_features",
+      "description": "Training-model importance; regression averages two heads; no causal interpretation or Test-based feature selection",
+      "files": [
+        {
+          "path": "figures/03_top_features.png",
+          "sha256": "8c169d02f76c4155ac4c04d249685f4f6738dbe69b835bb70dda111f20cc4f48"
+        },
+        {
+          "path": "figures/03_top_features.pdf",
+          "sha256": "f4bb23ef8ae5aa16c847ea0a1baf8e5145491f1b50f76637587fa1f78029d8b3"
+        }
+      ]
+    }
+  ],
+  "numerical_calls": 0,
+  "fit_calls": 0
+}

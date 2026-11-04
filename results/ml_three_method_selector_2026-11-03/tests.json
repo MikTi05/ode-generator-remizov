@@ -1,0 +1,10 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_three_method_selector.py tests/test_mean_mc_selector.py tests/test_accuracy_selector.py tests/test_selector_hypotheses.py tests/test_selector_research_features.py tests/test_four_method_accuracy.py",
+  "passed": 87,
+  "failed": 0,
+  "warnings": 1,
+  "warning": "existing invalid escape sequence in src/all_methods_expressions.py docstring",
+  "ODE_solver_calls": 0,
+  "generator_calls": 0,
+  "scope": "targeted new multiclass and existing saved-only selector/feature/release tests; tiny CatBoost unit fits are separate from the 320 experiment estimator fits"
+}

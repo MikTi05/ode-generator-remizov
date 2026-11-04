@@ -1,0 +1,3704 @@
+[
+  {
+    "candidate_id": "old__X__classifier__w1__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3397566248093832,
+      "logloss": 0.6447327041801327,
+      "ece": 0.061200480346197836,
+      "roc_auc_ovr": {
+        "remizov": 0.5741666666666667,
+        "monte_carlo": 0.6666666666666667,
+        "product_integral": 0.4795061728395062
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 1,
+          "confidence": 0.4237435368525991,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.5,
+          "n": 1,
+          "confidence": 0.5804334448522902,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.6,
+          "n": 8,
+          "confidence": 0.6661576639955179,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.7,
+          "n": 33,
+          "confidence": 0.7589275162685798,
+          "accuracy": 0.696969696969697
+        },
+        {
+          "lower": 0.8,
+          "n": 106,
+          "confidence": 0.8539787701312141,
+          "accuracy": 0.8207547169811321
+        },
+        {
+          "lower": 0.9,
+          "n": 1,
+          "confidence": 0.900334398878318,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w1__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3456997323355149,
+      "logloss": 0.6563466665577923,
+      "ece": 0.07321254743983141,
+      "roc_auc_ovr": {
+        "remizov": 0.5558333333333334,
+        "monte_carlo": 0.657283950617284,
+        "product_integral": 0.5027160493827161
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 1,
+          "confidence": 0.3759719077172286,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.4,
+          "n": 1,
+          "confidence": 0.4917407589638637,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.5,
+          "n": 1,
+          "confidence": 0.5459906519800635,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.6,
+          "n": 12,
+          "confidence": 0.659632908763152,
+          "accuracy": 0.9166666666666666
+        },
+        {
+          "lower": 0.7,
+          "n": 32,
+          "confidence": 0.7608139231719637,
+          "accuracy": 0.75
+        },
+        {
+          "lower": 0.8,
+          "n": 89,
+          "confidence": 0.8598466693795968,
+          "accuracy": 0.8089887640449438
+        },
+        {
+          "lower": 0.9,
+          "n": 14,
+          "confidence": 0.9062026720051629,
+          "accuracy": 0.7857142857142857
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w1__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3459804823718199,
+      "logloss": 0.6627466882149226,
+      "ece": 0.050505001761603774,
+      "roc_auc_ovr": {
+        "remizov": 0.5447222222222222,
+        "monte_carlo": 0.6177777777777778,
+        "product_integral": 0.4755555555555556
+      },
+      "bins": [
+        {
+          "lower": 0.5,
+          "n": 3,
+          "confidence": 0.5463761244742978,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "lower": 0.6,
+          "n": 8,
+          "confidence": 0.6693496010180184,
+          "accuracy": 0.75
+        },
+        {
+          "lower": 0.7,
+          "n": 32,
+          "confidence": 0.7574826811358302,
+          "accuracy": 0.78125
+        },
+        {
+          "lower": 0.8,
+          "n": 81,
+          "confidence": 0.8540167320099201,
+          "accuracy": 0.8024691358024691
+        },
+        {
+          "lower": 0.9,
+          "n": 26,
+          "confidence": 0.9089909980519478,
+          "accuracy": 0.8461538461538461
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w2__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.35340283719258886,
+      "logloss": 0.6592312752213347,
+      "ece": 0.09010404886858338,
+      "roc_auc_ovr": {
+        "remizov": 0.5763888888888887,
+        "monte_carlo": 0.6938271604938272,
+        "product_integral": 0.5293827160493827
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 2,
+          "confidence": 0.4675955863865529,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.5,
+          "n": 19,
+          "confidence": 0.5733078142169992,
+          "accuracy": 0.7368421052631579
+        },
+        {
+          "lower": 0.6,
+          "n": 38,
+          "confidence": 0.660708821871095,
+          "accuracy": 0.7894736842105263
+        },
+        {
+          "lower": 0.7,
+          "n": 60,
+          "confidence": 0.7503205089363633,
+          "accuracy": 0.8
+        },
+        {
+          "lower": 0.8,
+          "n": 31,
+          "confidence": 0.8193732130670713,
+          "accuracy": 0.8709677419354839
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w2__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3451923786841473,
+      "logloss": 0.6445091145568359,
+      "ece": 0.06395995368563333,
+      "roc_auc_ovr": {
+        "remizov": 0.596388888888889,
+        "monte_carlo": 0.7185185185185186,
+        "product_integral": 0.5456790123456791
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 1,
+          "confidence": 0.3597138748336214,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.4,
+          "n": 2,
+          "confidence": 0.4609328195351414,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.5,
+          "n": 16,
+          "confidence": 0.5649746475312646,
+          "accuracy": 0.6875
+        },
+        {
+          "lower": 0.6,
+          "n": 37,
+          "confidence": 0.654942187386822,
+          "accuracy": 0.7567567567567568
+        },
+        {
+          "lower": 0.7,
+          "n": 46,
+          "confidence": 0.7600009795687003,
+          "accuracy": 0.8260869565217391
+        },
+        {
+          "lower": 0.8,
+          "n": 48,
+          "confidence": 0.8460698922696975,
+          "accuracy": 0.8541666666666666
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w2__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.35266823672257713,
+      "logloss": 0.6586983737832253,
+      "ece": 0.07792627430234214,
+      "roc_auc_ovr": {
+        "remizov": 0.5811111111111111,
+        "monte_carlo": 0.6958024691358025,
+        "product_integral": 0.49876543209876545
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 3,
+          "confidence": 0.4813564600253351,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "lower": 0.5,
+          "n": 17,
+          "confidence": 0.570169557972295,
+          "accuracy": 0.7647058823529411
+        },
+        {
+          "lower": 0.6,
+          "n": 30,
+          "confidence": 0.6501346336990769,
+          "accuracy": 0.7666666666666667
+        },
+        {
+          "lower": 0.7,
+          "n": 46,
+          "confidence": 0.7578115107131618,
+          "accuracy": 0.7391304347826086
+        },
+        {
+          "lower": 0.8,
+          "n": 51,
+          "confidence": 0.845811422686798,
+          "accuracy": 0.9019607843137255
+        },
+        {
+          "lower": 0.9,
+          "n": 3,
+          "confidence": 0.906282108665963,
+          "accuracy": 0.6666666666666666
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w3__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.38566686928692384,
+      "logloss": 0.7048572261960445,
+      "ece": 0.1482754227376797,
+      "roc_auc_ovr": {
+        "remizov": 0.59,
+        "monte_carlo": 0.72,
+        "product_integral": 0.4987654320987655
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 17,
+          "confidence": 0.4736854431406332,
+          "accuracy": 0.6470588235294118
+        },
+        {
+          "lower": 0.5,
+          "n": 36,
+          "confidence": 0.5500161751449396,
+          "accuracy": 0.75
+        },
+        {
+          "lower": 0.6,
+          "n": 44,
+          "confidence": 0.6482538521653228,
+          "accuracy": 0.7727272727272727
+        },
+        {
+          "lower": 0.7,
+          "n": 49,
+          "confidence": 0.7376664848833328,
+          "accuracy": 0.8571428571428571
+        },
+        {
+          "lower": 0.8,
+          "n": 4,
+          "confidence": 0.8091561240454849,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w3__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3678005107910128,
+      "logloss": 0.6822628712730453,
+      "ece": 0.12986036951512672,
+      "roc_auc_ovr": {
+        "remizov": 0.6074999999999999,
+        "monte_carlo": 0.7407407407407407,
+        "product_integral": 0.4849382716049383
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 1,
+          "confidence": 0.37668266730532773,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.4,
+          "n": 10,
+          "confidence": 0.45855302295570655,
+          "accuracy": 0.8
+        },
+        {
+          "lower": 0.5,
+          "n": 32,
+          "confidence": 0.5527655452877371,
+          "accuracy": 0.75
+        },
+        {
+          "lower": 0.6,
+          "n": 33,
+          "confidence": 0.6393244861386423,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "lower": 0.7,
+          "n": 47,
+          "confidence": 0.7465480092372099,
+          "accuracy": 0.8936170212765957
+        },
+        {
+          "lower": 0.8,
+          "n": 27,
+          "confidence": 0.8310420401684295,
+          "accuracy": 0.8888888888888888
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w3__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3726750064888854,
+      "logloss": 0.6868968532485421,
+      "ece": 0.09815069088625435,
+      "roc_auc_ovr": {
+        "remizov": 0.5802777777777778,
+        "monte_carlo": 0.7076543209876544,
+        "product_integral": 0.5061728395061729
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 11,
+          "confidence": 0.4693166689108946,
+          "accuracy": 0.45454545454545453
+        },
+        {
+          "lower": 0.5,
+          "n": 27,
+          "confidence": 0.5499851145754503,
+          "accuracy": 0.7777777777777778
+        },
+        {
+          "lower": 0.6,
+          "n": 37,
+          "confidence": 0.6487867047508655,
+          "accuracy": 0.7837837837837838
+        },
+        {
+          "lower": 0.7,
+          "n": 51,
+          "confidence": 0.7521500561228994,
+          "accuracy": 0.803921568627451
+        },
+        {
+          "lower": 0.8,
+          "n": 24,
+          "confidence": 0.8427300288956099,
+          "accuracy": 0.875
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w5__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.4668699734349874,
+      "logloss": 0.8128694978041202,
+      "ece": 0.15084518343966621,
+      "roc_auc_ovr": {
+        "remizov": 0.596111111111111,
+        "monte_carlo": 0.7076543209876544,
+        "product_integral": 0.45234567901234574
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 3,
+          "confidence": 0.3930114374845941,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "lower": 0.4,
+          "n": 52,
+          "confidence": 0.45061996436412577,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "lower": 0.5,
+          "n": 50,
+          "confidence": 0.5540641742533181,
+          "accuracy": 0.74
+        },
+        {
+          "lower": 0.6,
+          "n": 40,
+          "confidence": 0.6449497926168435,
+          "accuracy": 0.85
+        },
+        {
+          "lower": 0.7,
+          "n": 5,
+          "confidence": 0.7237636464459329,
+          "accuracy": 0.8
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w5__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.42284140858201374,
+      "logloss": 0.7480171504022999,
+      "ece": 0.13025906123502454,
+      "roc_auc_ovr": {
+        "remizov": 0.5994444444444444,
+        "monte_carlo": 0.7037037037037037,
+        "product_integral": 0.5160493827160494
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 2,
+          "confidence": 0.3827990466292485,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.4,
+          "n": 35,
+          "confidence": 0.4625770453492702,
+          "accuracy": 0.5428571428571428
+        },
+        {
+          "lower": 0.5,
+          "n": 33,
+          "confidence": 0.5470306009535602,
+          "accuracy": 0.7575757575757576
+        },
+        {
+          "lower": 0.6,
+          "n": 40,
+          "confidence": 0.6494125419546742,
+          "accuracy": 0.775
+        },
+        {
+          "lower": 0.7,
+          "n": 33,
+          "confidence": 0.7499503430513862,
+          "accuracy": 0.8787878787878788
+        },
+        {
+          "lower": 0.8,
+          "n": 7,
+          "confidence": 0.8183533291304522,
+          "accuracy": 0.8571428571428571
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w5__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.4270185094567816,
+      "logloss": 0.7514433866979844,
+      "ece": 0.12069100836724776,
+      "roc_auc_ovr": {
+        "remizov": 0.5555555555555556,
+        "monte_carlo": 0.6419753086419754,
+        "product_integral": 0.5091358024691358
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 30,
+          "confidence": 0.4642343244410638,
+          "accuracy": 0.6
+        },
+        {
+          "lower": 0.5,
+          "n": 34,
+          "confidence": 0.537975487258294,
+          "accuracy": 0.47058823529411764
+        },
+        {
+          "lower": 0.6,
+          "n": 41,
+          "confidence": 0.6479766938987584,
+          "accuracy": 0.8292682926829268
+        },
+        {
+          "lower": 0.7,
+          "n": 32,
+          "confidence": 0.7449523691777464,
+          "accuracy": 0.875
+        },
+        {
+          "lower": 0.8,
+          "n": 13,
+          "confidence": 0.8349973319173796,
+          "accuracy": 0.8461538461538461
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w8__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.5768090234008552,
+      "logloss": 0.9539660420427201,
+      "ece": 0.07496227650982566,
+      "roc_auc_ovr": {
+        "remizov": 0.6041666666666666,
+        "monte_carlo": 0.7288888888888889,
+        "product_integral": 0.47160493827160493
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 14,
+          "confidence": 0.37249404908933365,
+          "accuracy": 0.35714285714285715
+        },
+        {
+          "lower": 0.4,
+          "n": 67,
+          "confidence": 0.4513786626437363,
+          "accuracy": 0.582089552238806
+        },
+        {
+          "lower": 0.5,
+          "n": 59,
+          "confidence": 0.5449927492651301,
+          "accuracy": 0.559322033898305
+        },
+        {
+          "lower": 0.6,
+          "n": 8,
+          "confidence": 0.6254525472709622,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.7,
+          "n": 2,
+          "confidence": 0.7113735074142443,
+          "accuracy": 0.5
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w8__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.5172954842308586,
+      "logloss": 0.869088666213138,
+      "ece": 0.04622778612656885,
+      "roc_auc_ovr": {
+        "remizov": 0.5608333333333334,
+        "monte_carlo": 0.6750617283950617,
+        "product_integral": 0.49283950617283956
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 6,
+          "confidence": 0.3844672621131546,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.4,
+          "n": 47,
+          "confidence": 0.4590011673461869,
+          "accuracy": 0.5106382978723404
+        },
+        {
+          "lower": 0.5,
+          "n": 42,
+          "confidence": 0.5511585330909768,
+          "accuracy": 0.5952380952380952
+        },
+        {
+          "lower": 0.6,
+          "n": 41,
+          "confidence": 0.6515582270221089,
+          "accuracy": 0.6829268292682927
+        },
+        {
+          "lower": 0.7,
+          "n": 14,
+          "confidence": 0.737387710381248,
+          "accuracy": 0.7857142857142857
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w8__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.5069087554397342,
+      "logloss": 0.8528666864952283,
+      "ece": 0.06587320783498794,
+      "roc_auc_ovr": {
+        "remizov": 0.5538888888888889,
+        "monte_carlo": 0.659753086419753,
+        "product_integral": 0.5066666666666667
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 7,
+          "confidence": 0.38962709228305403,
+          "accuracy": 0.14285714285714285
+        },
+        {
+          "lower": 0.4,
+          "n": 31,
+          "confidence": 0.45667575389460263,
+          "accuracy": 0.5806451612903226
+        },
+        {
+          "lower": 0.5,
+          "n": 52,
+          "confidence": 0.5403577061577515,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "lower": 0.6,
+          "n": 38,
+          "confidence": 0.6454960655753034,
+          "accuracy": 0.7368421052631579
+        },
+        {
+          "lower": 0.7,
+          "n": 19,
+          "confidence": 0.7451601362479308,
+          "accuracy": 0.7368421052631579
+        },
+        {
+          "lower": 0.8,
+          "n": 3,
+          "confidence": 0.8057509723509133,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w12__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.7079348418927439,
+      "logloss": 1.1300674408399147,
+      "ece": 0.15512446103014332,
+      "roc_auc_ovr": {
+        "remizov": 0.64,
+        "monte_carlo": 0.76,
+        "product_integral": 0.4577777777777778
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 29,
+          "confidence": 0.37615878171703865,
+          "accuracy": 0.41379310344827586
+        },
+        {
+          "lower": 0.4,
+          "n": 60,
+          "confidence": 0.4397700939714653,
+          "accuracy": 0.43333333333333335
+        },
+        {
+          "lower": 0.5,
+          "n": 38,
+          "confidence": 0.5384668874279825,
+          "accuracy": 0.2631578947368421
+        },
+        {
+          "lower": 0.6,
+          "n": 18,
+          "confidence": 0.6480128610502479,
+          "accuracy": 0.16666666666666666
+        },
+        {
+          "lower": 0.7,
+          "n": 5,
+          "confidence": 0.73301899297198,
+          "accuracy": 0.2
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w12__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.6266264782762256,
+      "logloss": 1.0140788845727324,
+      "ece": 0.1194045594162975,
+      "roc_auc_ovr": {
+        "remizov": 0.5802777777777777,
+        "monte_carlo": 0.6908641975308641,
+        "product_integral": 0.48148148148148145
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 9,
+          "confidence": 0.3779805408035284,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "lower": 0.4,
+          "n": 55,
+          "confidence": 0.44921995379015095,
+          "accuracy": 0.5636363636363636
+        },
+        {
+          "lower": 0.5,
+          "n": 55,
+          "confidence": 0.5497117007299736,
+          "accuracy": 0.509090909090909
+        },
+        {
+          "lower": 0.6,
+          "n": 22,
+          "confidence": 0.6532158318432475,
+          "accuracy": 0.45454545454545453
+        },
+        {
+          "lower": 0.7,
+          "n": 8,
+          "confidence": 0.7261883816887,
+          "accuracy": 0.25
+        },
+        {
+          "lower": 0.8,
+          "n": 1,
+          "confidence": 0.8015576094615806,
+          "accuracy": 0.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__classifier__w12__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.6034773727311091,
+      "logloss": 0.9823896086718039,
+      "ece": 0.07265106146832863,
+      "roc_auc_ovr": {
+        "remizov": 0.5633333333333332,
+        "monte_carlo": 0.654320987654321,
+        "product_integral": 0.4533333333333333
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 9,
+          "confidence": 0.3747631233598085,
+          "accuracy": 0.4444444444444444
+        },
+        {
+          "lower": 0.4,
+          "n": 52,
+          "confidence": 0.45137393595113484,
+          "accuracy": 0.4230769230769231
+        },
+        {
+          "lower": 0.5,
+          "n": 45,
+          "confidence": 0.552237069896861,
+          "accuracy": 0.5777777777777777
+        },
+        {
+          "lower": 0.6,
+          "n": 31,
+          "confidence": 0.6496214300097781,
+          "accuracy": 0.5483870967741935
+        },
+        {
+          "lower": 0.7,
+          "n": 13,
+          "confidence": 0.7316528058526297,
+          "accuracy": 0.38461538461538464
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__X__raw__w1__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "old__X__raw__w1__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "old__X__raw__w1__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "old__X__asinh__w1__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "old__X__asinh__w1__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "old__X__asinh__w1__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w1__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3334647587313514,
+      "logloss": 0.6341558714754023,
+      "ece": 0.025638470094374984,
+      "roc_auc_ovr": {
+        "remizov": 0.5938888888888889,
+        "monte_carlo": 0.7165432098765433,
+        "product_integral": 0.48345679012345677
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 1,
+          "confidence": 0.429753575260069,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.5,
+          "n": 1,
+          "confidence": 0.5540408667305441,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.6,
+          "n": 9,
+          "confidence": 0.6679536016164982,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "lower": 0.7,
+          "n": 34,
+          "confidence": 0.7620735281661276,
+          "accuracy": 0.7352941176470589
+        },
+        {
+          "lower": 0.8,
+          "n": 103,
+          "confidence": 0.8567581307879275,
+          "accuracy": 0.8446601941747572
+        },
+        {
+          "lower": 0.9,
+          "n": 2,
+          "confidence": 0.9009439811366822,
+          "accuracy": 0.5
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w1__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3391312385292961,
+      "logloss": 0.6465960156185069,
+      "ece": 0.058771951004434546,
+      "roc_auc_ovr": {
+        "remizov": 0.5863888888888888,
+        "monte_carlo": 0.659753086419753,
+        "product_integral": 0.5318518518518518
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 1,
+          "confidence": 0.36330461399753294,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.5,
+          "n": 2,
+          "confidence": 0.554040476394557,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.6,
+          "n": 11,
+          "confidence": 0.6726325353186325,
+          "accuracy": 0.8181818181818182
+        },
+        {
+          "lower": 0.7,
+          "n": 28,
+          "confidence": 0.75879676311535,
+          "accuracy": 0.75
+        },
+        {
+          "lower": 0.8,
+          "n": 85,
+          "confidence": 0.85681569065829,
+          "accuracy": 0.8117647058823529
+        },
+        {
+          "lower": 0.9,
+          "n": 23,
+          "confidence": 0.9079949480337943,
+          "accuracy": 0.8260869565217391
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w1__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.34269623246269176,
+      "logloss": 0.6568109291944021,
+      "ece": 0.04266707312364532,
+      "roc_auc_ovr": {
+        "remizov": 0.5599999999999999,
+        "monte_carlo": 0.6237037037037036,
+        "product_integral": 0.514074074074074
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 1,
+          "confidence": 0.4716705080743883,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.5,
+          "n": 1,
+          "confidence": 0.5964319998155525,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.6,
+          "n": 8,
+          "confidence": 0.647095220204876,
+          "accuracy": 0.75
+        },
+        {
+          "lower": 0.7,
+          "n": 41,
+          "confidence": 0.7574576660483289,
+          "accuracy": 0.7560975609756098
+        },
+        {
+          "lower": 0.8,
+          "n": 69,
+          "confidence": 0.8584030298400478,
+          "accuracy": 0.8260869565217391
+        },
+        {
+          "lower": 0.9,
+          "n": 30,
+          "confidence": 0.9138670284994064,
+          "accuracy": 0.8333333333333334
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w2__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3497043136136347,
+      "logloss": 0.6544933442125513,
+      "ece": 0.08419412227103264,
+      "roc_auc_ovr": {
+        "remizov": 0.5816666666666667,
+        "monte_carlo": 0.7150617283950618,
+        "product_integral": 0.5160493827160494
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 2,
+          "confidence": 0.45384246502480907,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.5,
+          "n": 18,
+          "confidence": 0.5640962998128124,
+          "accuracy": 0.7222222222222222
+        },
+        {
+          "lower": 0.6,
+          "n": 39,
+          "confidence": 0.6565126545689979,
+          "accuracy": 0.8461538461538461
+        },
+        {
+          "lower": 0.7,
+          "n": 58,
+          "confidence": 0.750484817286685,
+          "accuracy": 0.7758620689655172
+        },
+        {
+          "lower": 0.8,
+          "n": 33,
+          "confidence": 0.8235560727832186,
+          "accuracy": 0.8484848484848485
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w2__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.34327067606550676,
+      "logloss": 0.6428895872522026,
+      "ece": 0.06814077887393909,
+      "roc_auc_ovr": {
+        "remizov": 0.5980555555555556,
+        "monte_carlo": 0.7298765432098766,
+        "product_integral": 0.5471604938271606
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 1,
+          "confidence": 0.37224635398793593,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.4,
+          "n": 2,
+          "confidence": 0.478908830108093,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.5,
+          "n": 12,
+          "confidence": 0.5549474341209532,
+          "accuracy": 0.75
+        },
+        {
+          "lower": 0.6,
+          "n": 37,
+          "confidence": 0.6445436026535248,
+          "accuracy": 0.7297297297297297
+        },
+        {
+          "lower": 0.7,
+          "n": 50,
+          "confidence": 0.7611584212134936,
+          "accuracy": 0.8
+        },
+        {
+          "lower": 0.8,
+          "n": 48,
+          "confidence": 0.8464147561327989,
+          "accuracy": 0.875
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w2__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3505535595678839,
+      "logloss": 0.6567701152423209,
+      "ece": 0.09718711224735765,
+      "roc_auc_ovr": {
+        "remizov": 0.5925,
+        "monte_carlo": 0.682962962962963,
+        "product_integral": 0.5204938271604937
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 4,
+          "confidence": 0.47548346369240685,
+          "accuracy": 0.25
+        },
+        {
+          "lower": 0.5,
+          "n": 18,
+          "confidence": 0.5705378208181393,
+          "accuracy": 0.8333333333333334
+        },
+        {
+          "lower": 0.6,
+          "n": 32,
+          "confidence": 0.6558060701029351,
+          "accuracy": 0.75
+        },
+        {
+          "lower": 0.7,
+          "n": 43,
+          "confidence": 0.759973240621819,
+          "accuracy": 0.7441860465116279
+        },
+        {
+          "lower": 0.8,
+          "n": 49,
+          "confidence": 0.8442233296622244,
+          "accuracy": 0.9183673469387755
+        },
+        {
+          "lower": 0.9,
+          "n": 4,
+          "confidence": 0.9049254517663067,
+          "accuracy": 0.5
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w3__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3828732696716459,
+      "logloss": 0.700432681479723,
+      "ece": 0.14541867618435855,
+      "roc_auc_ovr": {
+        "remizov": 0.5947222222222223,
+        "monte_carlo": 0.7214814814814816,
+        "product_integral": 0.5017283950617284
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 18,
+          "confidence": 0.47555446064093687,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "lower": 0.5,
+          "n": 35,
+          "confidence": 0.5480459883527539,
+          "accuracy": 0.7714285714285715
+        },
+        {
+          "lower": 0.6,
+          "n": 43,
+          "confidence": 0.6502438155674558,
+          "accuracy": 0.7209302325581395
+        },
+        {
+          "lower": 0.7,
+          "n": 50,
+          "confidence": 0.7449691925622974,
+          "accuracy": 0.88
+        },
+        {
+          "lower": 0.8,
+          "n": 4,
+          "confidence": 0.8091662477368736,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w3__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3667017739420285,
+      "logloss": 0.6786452017688669,
+      "ece": 0.12019359657058272,
+      "roc_auc_ovr": {
+        "remizov": 0.605,
+        "monte_carlo": 0.7135802469135802,
+        "product_integral": 0.49580246913580245
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 9,
+          "confidence": 0.47762192332143383,
+          "accuracy": 0.5555555555555556
+        },
+        {
+          "lower": 0.5,
+          "n": 32,
+          "confidence": 0.5429622059076442,
+          "accuracy": 0.78125
+        },
+        {
+          "lower": 0.6,
+          "n": 35,
+          "confidence": 0.6484311448629558,
+          "accuracy": 0.8
+        },
+        {
+          "lower": 0.7,
+          "n": 46,
+          "confidence": 0.7486566247595725,
+          "accuracy": 0.8260869565217391
+        },
+        {
+          "lower": 0.8,
+          "n": 28,
+          "confidence": 0.827295635940403,
+          "accuracy": 0.8571428571428571
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w3__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.36729189730777034,
+      "logloss": 0.6794667381311498,
+      "ece": 0.12033174686186873,
+      "roc_auc_ovr": {
+        "remizov": 0.5852777777777778,
+        "monte_carlo": 0.6958024691358025,
+        "product_integral": 0.5125925925925925
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 12,
+          "confidence": 0.4785632970725375,
+          "accuracy": 0.75
+        },
+        {
+          "lower": 0.5,
+          "n": 27,
+          "confidence": 0.5559357227886986,
+          "accuracy": 0.8148148148148148
+        },
+        {
+          "lower": 0.6,
+          "n": 39,
+          "confidence": 0.6552145372733461,
+          "accuracy": 0.7435897435897436
+        },
+        {
+          "lower": 0.7,
+          "n": 46,
+          "confidence": 0.7535550477701989,
+          "accuracy": 0.8478260869565217
+        },
+        {
+          "lower": 0.8,
+          "n": 26,
+          "confidence": 0.8469109715590488,
+          "accuracy": 0.8461538461538461
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w5__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.46001759649655904,
+      "logloss": 0.804333095306819,
+      "ece": 0.1625488742438316,
+      "roc_auc_ovr": {
+        "remizov": 0.5988888888888889,
+        "monte_carlo": 0.717037037037037,
+        "product_integral": 0.47456790123456793
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 2,
+          "confidence": 0.39114638851010125,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.4,
+          "n": 51,
+          "confidence": 0.4545315418840123,
+          "accuracy": 0.5882352941176471
+        },
+        {
+          "lower": 0.5,
+          "n": 49,
+          "confidence": 0.5521721719821827,
+          "accuracy": 0.673469387755102
+        },
+        {
+          "lower": 0.6,
+          "n": 43,
+          "confidence": 0.6504353274453027,
+          "accuracy": 0.8837209302325582
+        },
+        {
+          "lower": 0.7,
+          "n": 5,
+          "confidence": 0.7258223886090914,
+          "accuracy": 0.8
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w5__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.42886490501569235,
+      "logloss": 0.7574651388621393,
+      "ece": 0.12205587665903281,
+      "roc_auc_ovr": {
+        "remizov": 0.5813888888888888,
+        "monte_carlo": 0.6750617283950617,
+        "product_integral": 0.5017283950617284
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 1,
+          "confidence": 0.36825441473665027,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.4,
+          "n": 35,
+          "confidence": 0.4626607205808251,
+          "accuracy": 0.6285714285714286
+        },
+        {
+          "lower": 0.5,
+          "n": 35,
+          "confidence": 0.5512032283009928,
+          "accuracy": 0.6285714285714286
+        },
+        {
+          "lower": 0.6,
+          "n": 40,
+          "confidence": 0.6542019843010607,
+          "accuracy": 0.775
+        },
+        {
+          "lower": 0.7,
+          "n": 34,
+          "confidence": 0.7504142491474108,
+          "accuracy": 0.8823529411764706
+        },
+        {
+          "lower": 0.8,
+          "n": 5,
+          "confidence": 0.8215058276072584,
+          "accuracy": 0.8
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w5__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.4199379920781648,
+      "logloss": 0.7416005602819328,
+      "ece": 0.11168153909157118,
+      "roc_auc_ovr": {
+        "remizov": 0.5727777777777778,
+        "monte_carlo": 0.6607407407407407,
+        "product_integral": 0.5037037037037038
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 2,
+          "confidence": 0.3923003250823148,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.4,
+          "n": 29,
+          "confidence": 0.4663058137515083,
+          "accuracy": 0.6896551724137931
+        },
+        {
+          "lower": 0.5,
+          "n": 39,
+          "confidence": 0.5500303319612565,
+          "accuracy": 0.5897435897435898
+        },
+        {
+          "lower": 0.6,
+          "n": 32,
+          "confidence": 0.6455247060326451,
+          "accuracy": 0.78125
+        },
+        {
+          "lower": 0.7,
+          "n": 36,
+          "confidence": 0.744650230473894,
+          "accuracy": 0.8333333333333334
+        },
+        {
+          "lower": 0.8,
+          "n": 12,
+          "confidence": 0.8354098375593438,
+          "accuracy": 0.9166666666666666
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w8__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.5728841516450204,
+      "logloss": 0.9484814131397763,
+      "ece": 0.08402613881206807,
+      "roc_auc_ovr": {
+        "remizov": 0.6088888888888889,
+        "monte_carlo": 0.7392592592592593,
+        "product_integral": 0.4874074074074074
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 13,
+          "confidence": 0.3716539891689234,
+          "accuracy": 0.46153846153846156
+        },
+        {
+          "lower": 0.4,
+          "n": 68,
+          "confidence": 0.45171881610813325,
+          "accuracy": 0.5882352941176471
+        },
+        {
+          "lower": 0.5,
+          "n": 60,
+          "confidence": 0.5430600084010762,
+          "accuracy": 0.5666666666666667
+        },
+        {
+          "lower": 0.6,
+          "n": 7,
+          "confidence": 0.6168300618233645,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "lower": 0.7,
+          "n": 2,
+          "confidence": 0.7090461238301453,
+          "accuracy": 0.5
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w8__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.5120867944521649,
+      "logloss": 0.8635904117401028,
+      "ece": 0.057467465190526756,
+      "roc_auc_ovr": {
+        "remizov": 0.5752777777777778,
+        "monte_carlo": 0.6874074074074074,
+        "product_integral": 0.5007407407407407
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 7,
+          "confidence": 0.3788517082898158,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "lower": 0.4,
+          "n": 40,
+          "confidence": 0.46085273068197524,
+          "accuracy": 0.525
+        },
+        {
+          "lower": 0.5,
+          "n": 47,
+          "confidence": 0.5494565535975927,
+          "accuracy": 0.5957446808510638
+        },
+        {
+          "lower": 0.6,
+          "n": 39,
+          "confidence": 0.6433518103056569,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "lower": 0.7,
+          "n": 16,
+          "confidence": 0.7231166633377529,
+          "accuracy": 0.75
+        },
+        {
+          "lower": 0.8,
+          "n": 1,
+          "confidence": 0.8087638017017397,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w8__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.5098551006791565,
+      "logloss": 0.8571102803037302,
+      "ece": 0.035318235890795864,
+      "roc_auc_ovr": {
+        "remizov": 0.5455555555555556,
+        "monte_carlo": 0.6098765432098765,
+        "product_integral": 0.4953086419753086
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 4,
+          "confidence": 0.381761155485709,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.4,
+          "n": 37,
+          "confidence": 0.460933756063675,
+          "accuracy": 0.5135135135135135
+        },
+        {
+          "lower": 0.5,
+          "n": 49,
+          "confidence": 0.5461021405888833,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "lower": 0.6,
+          "n": 34,
+          "confidence": 0.6435343111444499,
+          "accuracy": 0.6470588235294118
+        },
+        {
+          "lower": 0.7,
+          "n": 24,
+          "confidence": 0.7427741144027542,
+          "accuracy": 0.7916666666666666
+        },
+        {
+          "lower": 0.8,
+          "n": 2,
+          "confidence": 0.8274604033245645,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w12__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.7105864623498014,
+      "logloss": 1.1354208488398176,
+      "ece": 0.135466565275623,
+      "roc_auc_ovr": {
+        "remizov": 0.6397222222222223,
+        "monte_carlo": 0.7451851851851852,
+        "product_integral": 0.4276543209876543
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 26,
+          "confidence": 0.3740414968772773,
+          "accuracy": 0.34615384615384615
+        },
+        {
+          "lower": 0.4,
+          "n": 68,
+          "confidence": 0.4452634795391775,
+          "accuracy": 0.4411764705882353
+        },
+        {
+          "lower": 0.5,
+          "n": 33,
+          "confidence": 0.5467625218112644,
+          "accuracy": 0.30303030303030304
+        },
+        {
+          "lower": 0.6,
+          "n": 18,
+          "confidence": 0.6444237839095247,
+          "accuracy": 0.16666666666666666
+        },
+        {
+          "lower": 0.7,
+          "n": 5,
+          "confidence": 0.7348395867454001,
+          "accuracy": 0.2
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w12__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.618539005753109,
+      "logloss": 1.0074634366523758,
+      "ece": 0.12506369538560239,
+      "roc_auc_ovr": {
+        "remizov": 0.5936111111111111,
+        "monte_carlo": 0.6666666666666667,
+        "product_integral": 0.46913580246913583
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 13,
+          "confidence": 0.3800476307584624,
+          "accuracy": 0.38461538461538464
+        },
+        {
+          "lower": 0.4,
+          "n": 54,
+          "confidence": 0.4510802677155333,
+          "accuracy": 0.6111111111111112
+        },
+        {
+          "lower": 0.5,
+          "n": 48,
+          "confidence": 0.5475266960727428,
+          "accuracy": 0.5625
+        },
+        {
+          "lower": 0.6,
+          "n": 26,
+          "confidence": 0.64202071069411,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.7,
+          "n": 8,
+          "confidence": 0.7299497798504054,
+          "accuracy": 0.125
+        },
+        {
+          "lower": 0.8,
+          "n": 1,
+          "confidence": 0.8076526589807154,
+          "accuracy": 0.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__classifier__w12__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.6039259929010183,
+      "logloss": 0.9817147653811651,
+      "ece": 0.115024646949711,
+      "roc_auc_ovr": {
+        "remizov": 0.5844444444444444,
+        "monte_carlo": 0.6222222222222222,
+        "product_integral": 0.48444444444444446
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 8,
+          "confidence": 0.36823864128357603,
+          "accuracy": 0.25
+        },
+        {
+          "lower": 0.4,
+          "n": 55,
+          "confidence": 0.45263563567576076,
+          "accuracy": 0.5454545454545454
+        },
+        {
+          "lower": 0.5,
+          "n": 44,
+          "confidence": 0.5497663290037942,
+          "accuracy": 0.4318181818181818
+        },
+        {
+          "lower": 0.6,
+          "n": 34,
+          "confidence": 0.6464804173579684,
+          "accuracy": 0.5588235294117647
+        },
+        {
+          "lower": 0.7,
+          "n": 8,
+          "confidence": 0.7301084197287232,
+          "accuracy": 0.375
+        },
+        {
+          "lower": 0.8,
+          "n": 1,
+          "confidence": 0.808172149812766,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "old__augmented__raw__w1__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "old__augmented__raw__w1__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "old__augmented__raw__w1__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "old__augmented__asinh__w1__baseline",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "old__augmented__asinh__w1__medium",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "old__augmented__asinh__w1__deeper",
+    "scenario": "old",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "new__X__classifier__w1__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3006118685201901,
+      "logloss": 0.5659199446359559,
+      "ece": 0.011209804817547044,
+      "roc_auc_ovr": {
+        "remizov": 0.6517615176151761,
+        "monte_carlo": 0.6534090909090908,
+        "product_integral": 0.652482269503546
+      },
+      "bins": [
+        {
+          "lower": 0.6,
+          "n": 2,
+          "confidence": 0.6893243942604281,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.7,
+          "n": 25,
+          "confidence": 0.7659065876612821,
+          "accuracy": 0.76
+        },
+        {
+          "lower": 0.8,
+          "n": 73,
+          "confidence": 0.8411689451821671,
+          "accuracy": 0.8493150684931506
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w1__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.29106430285898005,
+      "logloss": 0.5477545492510228,
+      "ece": 0.04497625115655003,
+      "roc_auc_ovr": {
+        "remizov": 0.7073170731707317,
+        "monte_carlo": 0.7168560606060606,
+        "product_integral": 0.6329787234042553
+      },
+      "bins": [
+        {
+          "lower": 0.5,
+          "n": 1,
+          "confidence": 0.589688213598657,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.6,
+          "n": 8,
+          "confidence": 0.6741578482456916,
+          "accuracy": 0.375
+        },
+        {
+          "lower": 0.7,
+          "n": 17,
+          "confidence": 0.7570582860951038,
+          "accuracy": 0.8235294117647058
+        },
+        {
+          "lower": 0.8,
+          "n": 72,
+          "confidence": 0.8559240974539394,
+          "accuracy": 0.8611111111111112
+        },
+        {
+          "lower": 0.9,
+          "n": 2,
+          "confidence": 0.9047117882057374,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w1__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.2904657793878393,
+      "logloss": 0.5496169095379535,
+      "ece": 0.024146898830803766,
+      "roc_auc_ovr": {
+        "remizov": 0.7134146341463414,
+        "monte_carlo": 0.6732954545454545,
+        "product_integral": 0.7092198581560284
+      },
+      "bins": [
+        {
+          "lower": 0.5,
+          "n": 1,
+          "confidence": 0.5628211307011783,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.6,
+          "n": 7,
+          "confidence": 0.6733737621453401,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "lower": 0.7,
+          "n": 20,
+          "confidence": 0.7552085375611267,
+          "accuracy": 0.75
+        },
+        {
+          "lower": 0.8,
+          "n": 71,
+          "confidence": 0.8600689165558849,
+          "accuracy": 0.8732394366197183
+        },
+        {
+          "lower": 0.9,
+          "n": 1,
+          "confidence": 0.9010252583928842,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w2__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3124316970961998,
+      "logloss": 0.5883717717247164,
+      "ece": 0.11711914420123995,
+      "roc_auc_ovr": {
+        "remizov": 0.7059620596205962,
+        "monte_carlo": 0.7367424242424242,
+        "product_integral": 0.698581560283688
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 1,
+          "confidence": 0.4549463218950883,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.5,
+          "n": 9,
+          "confidence": 0.5521286137087645,
+          "accuracy": 0.5555555555555556
+        },
+        {
+          "lower": 0.6,
+          "n": 26,
+          "confidence": 0.6464731441115921,
+          "accuracy": 0.8076923076923077
+        },
+        {
+          "lower": 0.7,
+          "n": 59,
+          "confidence": 0.7458913989639436,
+          "accuracy": 0.847457627118644
+        },
+        {
+          "lower": 0.8,
+          "n": 5,
+          "confidence": 0.8096174897655934,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w2__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.30503381525638223,
+      "logloss": 0.5706834090415984,
+      "ece": 0.11624450422039771,
+      "roc_auc_ovr": {
+        "remizov": 0.6998644986449865,
+        "monte_carlo": 0.7111742424242424,
+        "product_integral": 0.7127659574468085
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 4,
+          "confidence": 0.45055386513914353,
+          "accuracy": 0.25
+        },
+        {
+          "lower": 0.5,
+          "n": 15,
+          "confidence": 0.5615554339017841,
+          "accuracy": 0.8
+        },
+        {
+          "lower": 0.6,
+          "n": 16,
+          "confidence": 0.6605888516861335,
+          "accuracy": 0.8125
+        },
+        {
+          "lower": 0.7,
+          "n": 33,
+          "confidence": 0.7507984751958087,
+          "accuracy": 0.7878787878787878
+        },
+        {
+          "lower": 0.8,
+          "n": 32,
+          "confidence": 0.8252706944234444,
+          "accuracy": 0.9375
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w2__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3004380570720642,
+      "logloss": 0.5700868364726178,
+      "ece": 0.11231558172746425,
+      "roc_auc_ovr": {
+        "remizov": 0.720189701897019,
+        "monte_carlo": 0.7367424242424243,
+        "product_integral": 0.6276595744680851
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 2,
+          "confidence": 0.4607220250359261,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.5,
+          "n": 11,
+          "confidence": 0.5417691967001984,
+          "accuracy": 0.6363636363636364
+        },
+        {
+          "lower": 0.6,
+          "n": 24,
+          "confidence": 0.6535903351797633,
+          "accuracy": 0.7916666666666666
+        },
+        {
+          "lower": 0.7,
+          "n": 34,
+          "confidence": 0.7613014755987265,
+          "accuracy": 0.8529411764705882
+        },
+        {
+          "lower": 0.8,
+          "n": 29,
+          "confidence": 0.8331036723776628,
+          "accuracy": 0.9310344827586207
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w3__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.35993046284263824,
+      "logloss": 0.6590427119355731,
+      "ece": 0.19106600398416712,
+      "roc_auc_ovr": {
+        "remizov": 0.679539295392954,
+        "monte_carlo": 0.6884469696969697,
+        "product_integral": 0.6365248226950354
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 15,
+          "confidence": 0.47435302814537,
+          "accuracy": 0.7333333333333333
+        },
+        {
+          "lower": 0.5,
+          "n": 20,
+          "confidence": 0.5585913585305053,
+          "accuracy": 0.75
+        },
+        {
+          "lower": 0.6,
+          "n": 48,
+          "confidence": 0.6512325575156402,
+          "accuracy": 0.7916666666666666
+        },
+        {
+          "lower": 0.7,
+          "n": 17,
+          "confidence": 0.7263008381201116,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w3__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3511696061836967,
+      "logloss": 0.6386489690718519,
+      "ece": 0.16467763680992856,
+      "roc_auc_ovr": {
+        "remizov": 0.660569105691057,
+        "monte_carlo": 0.6714015151515151,
+        "product_integral": 0.601063829787234
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 2,
+          "confidence": 0.3877466381661625,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.4,
+          "n": 11,
+          "confidence": 0.4663474585438845,
+          "accuracy": 0.7272727272727273
+        },
+        {
+          "lower": 0.5,
+          "n": 17,
+          "confidence": 0.5502605963693998,
+          "accuracy": 0.8823529411764706
+        },
+        {
+          "lower": 0.6,
+          "n": 30,
+          "confidence": 0.6614143619312896,
+          "accuracy": 0.7666666666666667
+        },
+        {
+          "lower": 0.7,
+          "n": 36,
+          "confidence": 0.7525731495542439,
+          "accuracy": 0.8611111111111112
+        },
+        {
+          "lower": 0.8,
+          "n": 4,
+          "confidence": 0.8343566546302069,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w3__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3452316723210106,
+      "logloss": 0.6271157692832626,
+      "ece": 0.15538644426397596,
+      "roc_auc_ovr": {
+        "remizov": 0.6368563685636857,
+        "monte_carlo": 0.6751893939393939,
+        "product_integral": 0.6719858156028369
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 1,
+          "confidence": 0.38226455071829646,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.4,
+          "n": 12,
+          "confidence": 0.46183032343142233,
+          "accuracy": 0.75
+        },
+        {
+          "lower": 0.5,
+          "n": 18,
+          "confidence": 0.5561295786813106,
+          "accuracy": 0.7777777777777778
+        },
+        {
+          "lower": 0.6,
+          "n": 23,
+          "confidence": 0.6568387508385202,
+          "accuracy": 0.6956521739130435
+        },
+        {
+          "lower": 0.7,
+          "n": 40,
+          "confidence": 0.7547487257702958,
+          "accuracy": 0.9
+        },
+        {
+          "lower": 0.8,
+          "n": 6,
+          "confidence": 0.8323472544637074,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w5__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.46093446530761994,
+      "logloss": 0.7941078731979242,
+      "ece": 0.18823298974931227,
+      "roc_auc_ovr": {
+        "remizov": 0.6185636856368564,
+        "monte_carlo": 0.6600378787878788,
+        "product_integral": 0.6187943262411347
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 4,
+          "confidence": 0.3781080228662393,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.4,
+          "n": 33,
+          "confidence": 0.4526069804710261,
+          "accuracy": 0.5454545454545454
+        },
+        {
+          "lower": 0.5,
+          "n": 49,
+          "confidence": 0.5483960911543148,
+          "accuracy": 0.8163265306122449
+        },
+        {
+          "lower": 0.6,
+          "n": 14,
+          "confidence": 0.632630722249895,
+          "accuracy": 0.7857142857142857
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w5__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.4224186522442882,
+      "logloss": 0.7352113689013285,
+      "ece": 0.16399359896737858,
+      "roc_auc_ovr": {
+        "remizov": 0.6429539295392954,
+        "monte_carlo": 0.6931818181818181,
+        "product_integral": 0.5656028368794326
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 5,
+          "confidence": 0.3816606494524124,
+          "accuracy": 0.6
+        },
+        {
+          "lower": 0.4,
+          "n": 22,
+          "confidence": 0.459094290714777,
+          "accuracy": 0.5909090909090909
+        },
+        {
+          "lower": 0.5,
+          "n": 27,
+          "confidence": 0.554541571271102,
+          "accuracy": 0.7037037037037037
+        },
+        {
+          "lower": 0.6,
+          "n": 35,
+          "confidence": 0.642557029464365,
+          "accuracy": 0.8571428571428571
+        },
+        {
+          "lower": 0.7,
+          "n": 11,
+          "confidence": 0.739104000427496,
+          "accuracy": 0.8181818181818182
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w5__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.40597874671170914,
+      "logloss": 0.7097641655510288,
+      "ece": 0.15278730360734763,
+      "roc_auc_ovr": {
+        "remizov": 0.6280487804878049,
+        "monte_carlo": 0.6676136363636364,
+        "product_integral": 0.6595744680851063
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 4,
+          "confidence": 0.39009621725558613,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.4,
+          "n": 23,
+          "confidence": 0.4520087252835538,
+          "accuracy": 0.6086956521739131
+        },
+        {
+          "lower": 0.5,
+          "n": 21,
+          "confidence": 0.541068906292515,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "lower": 0.6,
+          "n": 35,
+          "confidence": 0.6511103446602887,
+          "accuracy": 0.7714285714285715
+        },
+        {
+          "lower": 0.7,
+          "n": 15,
+          "confidence": 0.732393938588078,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.8,
+          "n": 2,
+          "confidence": 0.8137329573235337,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w8__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.5996803810879034,
+      "logloss": 0.9783647217735808,
+      "ece": 0.17130156860992168,
+      "roc_auc_ovr": {
+        "remizov": 0.5548780487804879,
+        "monte_carlo": 0.6373106060606061,
+        "product_integral": 0.648936170212766
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 12,
+          "confidence": 0.3828315637895178,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.4,
+          "n": 63,
+          "confidence": 0.45019223290668847,
+          "accuracy": 0.5873015873015873
+        },
+        {
+          "lower": 0.5,
+          "n": 21,
+          "confidence": 0.5355250940197083,
+          "accuracy": 0.2857142857142857
+        },
+        {
+          "lower": 0.6,
+          "n": 3,
+          "confidence": 0.6277918832478212,
+          "accuracy": 1.0
+        },
+        {
+          "lower": 0.7,
+          "n": 1,
+          "confidence": 0.7235949749173434,
+          "accuracy": 0.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w8__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.5218019793244,
+      "logloss": 0.8655641253124766,
+      "ece": 0.06984596426051741,
+      "roc_auc_ovr": {
+        "remizov": 0.5813008130081301,
+        "monte_carlo": 0.6590909090909091,
+        "product_integral": 0.6099290780141844
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 5,
+          "confidence": 0.3629959406219546,
+          "accuracy": 0.2
+        },
+        {
+          "lower": 0.4,
+          "n": 34,
+          "confidence": 0.44983136365548737,
+          "accuracy": 0.4411764705882353
+        },
+        {
+          "lower": 0.5,
+          "n": 44,
+          "confidence": 0.5490964047690367,
+          "accuracy": 0.6590909090909091
+        },
+        {
+          "lower": 0.6,
+          "n": 16,
+          "confidence": 0.6405151406490939,
+          "accuracy": 0.6875
+        },
+        {
+          "lower": 0.7,
+          "n": 1,
+          "confidence": 0.7161655811214876,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w8__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.4953263556208844,
+      "logloss": 0.8318531213691912,
+      "ece": 0.070677034940336,
+      "roc_auc_ovr": {
+        "remizov": 0.5982384823848238,
+        "monte_carlo": 0.6846590909090909,
+        "product_integral": 0.6099290780141844
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 5,
+          "confidence": 0.38364904970748787,
+          "accuracy": 0.4
+        },
+        {
+          "lower": 0.4,
+          "n": 37,
+          "confidence": 0.4546552896629271,
+          "accuracy": 0.4594594594594595
+        },
+        {
+          "lower": 0.5,
+          "n": 28,
+          "confidence": 0.5528873192608458,
+          "accuracy": 0.6071428571428571
+        },
+        {
+          "lower": 0.6,
+          "n": 26,
+          "confidence": 0.6452040403347115,
+          "accuracy": 0.8076923076923077
+        },
+        {
+          "lower": 0.7,
+          "n": 4,
+          "confidence": 0.7339138879736196,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w12__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.7367892893460105,
+      "logloss": 1.1767632115210818,
+      "ece": 0.28427657962269165,
+      "roc_auc_ovr": {
+        "remizov": 0.5711382113821138,
+        "monte_carlo": 0.6117424242424242,
+        "product_integral": 0.6028368794326242
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 28,
+          "confidence": 0.37087472105912095,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "lower": 0.4,
+          "n": 38,
+          "confidence": 0.44201852717024326,
+          "accuracy": 0.23684210526315788
+        },
+        {
+          "lower": 0.5,
+          "n": 23,
+          "confidence": 0.5540676379002327,
+          "accuracy": 0.13043478260869565
+        },
+        {
+          "lower": 0.6,
+          "n": 8,
+          "confidence": 0.6324949289802175,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.7,
+          "n": 3,
+          "confidence": 0.7373103386360723,
+          "accuracy": 0.6666666666666666
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w12__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.6413707180834196,
+      "logloss": 1.0287750842118963,
+      "ece": 0.1138221187839303,
+      "roc_auc_ovr": {
+        "remizov": 0.5521680216802167,
+        "monte_carlo": 0.6240530303030303,
+        "product_integral": 0.6595744680851063
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 9,
+          "confidence": 0.3790941764263768,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "lower": 0.4,
+          "n": 53,
+          "confidence": 0.45717619195660564,
+          "accuracy": 0.4339622641509434
+        },
+        {
+          "lower": 0.5,
+          "n": 23,
+          "confidence": 0.5569834917361228,
+          "accuracy": 0.391304347826087
+        },
+        {
+          "lower": 0.6,
+          "n": 13,
+          "confidence": 0.6389077712842621,
+          "accuracy": 0.46153846153846156
+        },
+        {
+          "lower": 0.7,
+          "n": 2,
+          "confidence": 0.7236499779520451,
+          "accuracy": 0.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__classifier__w12__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.6221419340373425,
+      "logloss": 1.0003961716088907,
+      "ece": 0.0940586469728151,
+      "roc_auc_ovr": {
+        "remizov": 0.5609756097560975,
+        "monte_carlo": 0.6354166666666667,
+        "product_integral": 0.6560283687943262
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 5,
+          "confidence": 0.38011210161592535,
+          "accuracy": 0.4
+        },
+        {
+          "lower": 0.4,
+          "n": 49,
+          "confidence": 0.4592957460936885,
+          "accuracy": 0.42857142857142855
+        },
+        {
+          "lower": 0.5,
+          "n": 28,
+          "confidence": 0.544264047149681,
+          "accuracy": 0.32142857142857145
+        },
+        {
+          "lower": 0.6,
+          "n": 16,
+          "confidence": 0.6340661838473141,
+          "accuracy": 0.625
+        },
+        {
+          "lower": 0.7,
+          "n": 2,
+          "confidence": 0.7082406925111528,
+          "accuracy": 0.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__X__raw__w1__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "new__X__raw__w1__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "new__X__raw__w1__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "new__X__asinh__w1__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "new__X__asinh__w1__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "new__X__asinh__w1__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w1__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.29565367683195015,
+      "logloss": 0.5571527521307901,
+      "ece": 0.03198937661246329,
+      "roc_auc_ovr": {
+        "remizov": 0.6998644986449863,
+        "monte_carlo": 0.6950757575757576,
+        "product_integral": 0.6968085106382979
+      },
+      "bins": [
+        {
+          "lower": 0.6,
+          "n": 4,
+          "confidence": 0.6722375474398277,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.7,
+          "n": 22,
+          "confidence": 0.7634753416693857,
+          "accuracy": 0.7272727272727273
+        },
+        {
+          "lower": 0.8,
+          "n": 74,
+          "confidence": 0.8417090546653982,
+          "accuracy": 0.8648648648648649
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w1__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.28719960402467226,
+      "logloss": 0.5426289118555934,
+      "ece": 0.05894276067146869,
+      "roc_auc_ovr": {
+        "remizov": 0.7208672086720868,
+        "monte_carlo": 0.7244318181818182,
+        "product_integral": 0.6613475177304964
+      },
+      "bins": [
+        {
+          "lower": 0.5,
+          "n": 2,
+          "confidence": 0.5897606225978722,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.6,
+          "n": 7,
+          "confidence": 0.6553719811493225,
+          "accuracy": 0.42857142857142855
+        },
+        {
+          "lower": 0.7,
+          "n": 20,
+          "confidence": 0.7658566449505477,
+          "accuracy": 0.7
+        },
+        {
+          "lower": 0.8,
+          "n": 69,
+          "confidence": 0.8606734035254382,
+          "accuracy": 0.8985507246376812
+        },
+        {
+          "lower": 0.9,
+          "n": 2,
+          "confidence": 0.9017585509249262,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w1__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.2876913375876714,
+      "logloss": 0.5441156223295494,
+      "ece": 0.03452827252197674,
+      "roc_auc_ovr": {
+        "remizov": 0.725609756097561,
+        "monte_carlo": 0.6998106060606061,
+        "product_integral": 0.7092198581560284
+      },
+      "bins": [
+        {
+          "lower": 0.5,
+          "n": 1,
+          "confidence": 0.5698023073252441,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.6,
+          "n": 9,
+          "confidence": 0.6637662393872845,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "lower": 0.7,
+          "n": 15,
+          "confidence": 0.7561870044213752,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "lower": 0.8,
+          "n": 72,
+          "confidence": 0.8580246240878879,
+          "accuracy": 0.875
+        },
+        {
+          "lower": 0.9,
+          "n": 3,
+          "confidence": 0.9027036775449023,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w2__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3092583264246926,
+      "logloss": 0.5844554226590484,
+      "ece": 0.13027095408834918,
+      "roc_auc_ovr": {
+        "remizov": 0.725609756097561,
+        "monte_carlo": 0.7329545454545454,
+        "product_integral": 0.6950354609929077
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 2,
+          "confidence": 0.45493064789008286,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.5,
+          "n": 10,
+          "confidence": 0.5545673300205061,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.6,
+          "n": 27,
+          "confidence": 0.6503744873066601,
+          "accuracy": 0.7777777777777778
+        },
+        {
+          "lower": 0.7,
+          "n": 55,
+          "confidence": 0.7488467768885088,
+          "accuracy": 0.8909090909090909
+        },
+        {
+          "lower": 0.8,
+          "n": 6,
+          "confidence": 0.8103387849070286,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w2__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.30664099916659515,
+      "logloss": 0.5772898003105215,
+      "ece": 0.12060011217418598,
+      "roc_auc_ovr": {
+        "remizov": 0.6836043360433603,
+        "monte_carlo": 0.6723484848484849,
+        "product_integral": 0.6861702127659575
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 4,
+          "confidence": 0.44419214740066065,
+          "accuracy": 0.25
+        },
+        {
+          "lower": 0.5,
+          "n": 11,
+          "confidence": 0.5570104509823292,
+          "accuracy": 0.8181818181818182
+        },
+        {
+          "lower": 0.6,
+          "n": 23,
+          "confidence": 0.6483558486381851,
+          "accuracy": 0.782608695652174
+        },
+        {
+          "lower": 0.7,
+          "n": 33,
+          "confidence": 0.748172245057283,
+          "accuracy": 0.8484848484848485
+        },
+        {
+          "lower": 0.8,
+          "n": 29,
+          "confidence": 0.8271646139934424,
+          "accuracy": 0.896551724137931
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w2__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.2991430000205294,
+      "logloss": 0.5695991765645428,
+      "ece": 0.11217023727414231,
+      "roc_auc_ovr": {
+        "remizov": 0.7181571815718157,
+        "monte_carlo": 0.7357954545454546,
+        "product_integral": 0.6347517730496454
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 5,
+          "confidence": 0.4714457855393481,
+          "accuracy": 0.4
+        },
+        {
+          "lower": 0.5,
+          "n": 8,
+          "confidence": 0.5608546322607975,
+          "accuracy": 0.5
+        },
+        {
+          "lower": 0.6,
+          "n": 22,
+          "confidence": 0.6451757889529374,
+          "accuracy": 0.7727272727272727
+        },
+        {
+          "lower": 0.7,
+          "n": 34,
+          "confidence": 0.7577425196487859,
+          "accuracy": 0.9117647058823529
+        },
+        {
+          "lower": 0.8,
+          "n": 31,
+          "confidence": 0.8280622333337272,
+          "accuracy": 0.9032258064516129
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w3__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3605989113554972,
+      "logloss": 0.6597245241767805,
+      "ece": 0.19347819463832644,
+      "roc_auc_ovr": {
+        "remizov": 0.684959349593496,
+        "monte_carlo": 0.6903409090909091,
+        "product_integral": 0.6542553191489362
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 16,
+          "confidence": 0.47005320424783026,
+          "accuracy": 0.625
+        },
+        {
+          "lower": 0.5,
+          "n": 21,
+          "confidence": 0.5637421552395876,
+          "accuracy": 0.8571428571428571
+        },
+        {
+          "lower": 0.6,
+          "n": 45,
+          "confidence": 0.6484871832755437,
+          "accuracy": 0.8222222222222222
+        },
+        {
+          "lower": 0.7,
+          "n": 18,
+          "confidence": 0.7283789311539591,
+          "accuracy": 0.8888888888888888
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w3__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.34546042199108595,
+      "logloss": 0.6280959949085805,
+      "ece": 0.173879074780401,
+      "roc_auc_ovr": {
+        "remizov": 0.6788617886178863,
+        "monte_carlo": 0.6856060606060606,
+        "product_integral": 0.700354609929078
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 1,
+          "confidence": 0.3909458855723046,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.4,
+          "n": 11,
+          "confidence": 0.4663369510709337,
+          "accuracy": 0.8181818181818182
+        },
+        {
+          "lower": 0.5,
+          "n": 20,
+          "confidence": 0.5465143574212312,
+          "accuracy": 0.85
+        },
+        {
+          "lower": 0.6,
+          "n": 29,
+          "confidence": 0.6547048339194816,
+          "accuracy": 0.7241379310344828
+        },
+        {
+          "lower": 0.7,
+          "n": 30,
+          "confidence": 0.7504844858699522,
+          "accuracy": 0.8666666666666667
+        },
+        {
+          "lower": 0.8,
+          "n": 9,
+          "confidence": 0.8268966708404198,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w3__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.3460444149334013,
+      "logloss": 0.6310424419821302,
+      "ece": 0.1454061353853078,
+      "roc_auc_ovr": {
+        "remizov": 0.6219512195121951,
+        "monte_carlo": 0.6439393939393939,
+        "product_integral": 0.6418439716312057
+      },
+      "bins": [
+        {
+          "lower": 0.4,
+          "n": 14,
+          "confidence": 0.4721054100664019,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "lower": 0.5,
+          "n": 14,
+          "confidence": 0.5449592524183905,
+          "accuracy": 0.8571428571428571
+        },
+        {
+          "lower": 0.6,
+          "n": 27,
+          "confidence": 0.6537693518130493,
+          "accuracy": 0.8518518518518519
+        },
+        {
+          "lower": 0.7,
+          "n": 37,
+          "confidence": 0.7548166091270739,
+          "accuracy": 0.8108108108108109
+        },
+        {
+          "lower": 0.8,
+          "n": 8,
+          "confidence": 0.8300617687535076,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w5__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.46248177565621873,
+      "logloss": 0.795521885739241,
+      "ece": 0.18153123665138118,
+      "roc_auc_ovr": {
+        "remizov": 0.6219512195121952,
+        "monte_carlo": 0.6638257575757575,
+        "product_integral": 0.6471631205673759
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 3,
+          "confidence": 0.3818827541562492,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "lower": 0.4,
+          "n": 34,
+          "confidence": 0.45191386685145635,
+          "accuracy": 0.47058823529411764
+        },
+        {
+          "lower": 0.5,
+          "n": 47,
+          "confidence": 0.5433989797844573,
+          "accuracy": 0.851063829787234
+        },
+        {
+          "lower": 0.6,
+          "n": 16,
+          "confidence": 0.6304813171569765,
+          "accuracy": 0.8125
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w5__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.4309857410210127,
+      "logloss": 0.7445538508762438,
+      "ece": 0.15935736289583435,
+      "roc_auc_ovr": {
+        "remizov": 0.5948509485094851,
+        "monte_carlo": 0.6486742424242424,
+        "product_integral": 0.5851063829787234
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 5,
+          "confidence": 0.3844062568283436,
+          "accuracy": 0.6
+        },
+        {
+          "lower": 0.4,
+          "n": 23,
+          "confidence": 0.45840103419090494,
+          "accuracy": 0.5652173913043478
+        },
+        {
+          "lower": 0.5,
+          "n": 34,
+          "confidence": 0.553009544142447,
+          "accuracy": 0.7352941176470589
+        },
+        {
+          "lower": 0.6,
+          "n": 23,
+          "confidence": 0.6421073099366708,
+          "accuracy": 0.8695652173913043
+        },
+        {
+          "lower": 0.7,
+          "n": 15,
+          "confidence": 0.7352144006998272,
+          "accuracy": 0.8
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w5__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.4002678197603554,
+      "logloss": 0.7059978379282054,
+      "ece": 0.17811755604985777,
+      "roc_auc_ovr": {
+        "remizov": 0.6138211382113822,
+        "monte_carlo": 0.6638257575757576,
+        "product_integral": 0.6294326241134751
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 5,
+          "confidence": 0.37411420139699814,
+          "accuracy": 0.6
+        },
+        {
+          "lower": 0.4,
+          "n": 20,
+          "confidence": 0.45364144357017694,
+          "accuracy": 0.55
+        },
+        {
+          "lower": 0.5,
+          "n": 25,
+          "confidence": 0.5435994109884001,
+          "accuracy": 0.8
+        },
+        {
+          "lower": 0.6,
+          "n": 29,
+          "confidence": 0.6517362842664383,
+          "accuracy": 0.896551724137931
+        },
+        {
+          "lower": 0.7,
+          "n": 18,
+          "confidence": 0.7412469726440709,
+          "accuracy": 0.7777777777777778
+        },
+        {
+          "lower": 0.8,
+          "n": 3,
+          "confidence": 0.804020496865236,
+          "accuracy": 1.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w8__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.6035923050362829,
+      "logloss": 0.9837647117311248,
+      "ece": 0.2035931437206806,
+      "roc_auc_ovr": {
+        "remizov": 0.5623306233062331,
+        "monte_carlo": 0.6287878787878788,
+        "product_integral": 0.5921985815602837
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 9,
+          "confidence": 0.37794917047586013,
+          "accuracy": 0.5555555555555556
+        },
+        {
+          "lower": 0.4,
+          "n": 67,
+          "confidence": 0.4465783032922518,
+          "accuracy": 0.6268656716417911
+        },
+        {
+          "lower": 0.5,
+          "n": 20,
+          "confidence": 0.5423094628515883,
+          "accuracy": 0.25
+        },
+        {
+          "lower": 0.6,
+          "n": 3,
+          "confidence": 0.6327390122889661,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "lower": 0.7,
+          "n": 1,
+          "confidence": 0.7336310067668026,
+          "accuracy": 0.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w8__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.53064058600904,
+      "logloss": 0.8778551027595166,
+      "ece": 0.0769818889965913,
+      "roc_auc_ovr": {
+        "remizov": 0.571138211382114,
+        "monte_carlo": 0.6553030303030303,
+        "product_integral": 0.553191489361702
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 6,
+          "confidence": 0.380358224537839,
+          "accuracy": 0.16666666666666666
+        },
+        {
+          "lower": 0.4,
+          "n": 39,
+          "confidence": 0.4589612239434585,
+          "accuracy": 0.5128205128205128
+        },
+        {
+          "lower": 0.5,
+          "n": 35,
+          "confidence": 0.5518317013975009,
+          "accuracy": 0.6
+        },
+        {
+          "lower": 0.6,
+          "n": 19,
+          "confidence": 0.6369530690137253,
+          "accuracy": 0.7368421052631579
+        },
+        {
+          "lower": 0.7,
+          "n": 1,
+          "confidence": 0.731745146400294,
+          "accuracy": 0.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w8__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.4937173941075466,
+      "logloss": 0.826423446461504,
+      "ece": 0.07751504980499481,
+      "roc_auc_ovr": {
+        "remizov": 0.6104336043360433,
+        "monte_carlo": 0.6799242424242424,
+        "product_integral": 0.6595744680851063
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 5,
+          "confidence": 0.38130642070561427,
+          "accuracy": 0.4
+        },
+        {
+          "lower": 0.4,
+          "n": 31,
+          "confidence": 0.44961531286576006,
+          "accuracy": 0.5161290322580645
+        },
+        {
+          "lower": 0.5,
+          "n": 33,
+          "confidence": 0.547332431434107,
+          "accuracy": 0.5454545454545454
+        },
+        {
+          "lower": 0.6,
+          "n": 25,
+          "confidence": 0.6443922111806192,
+          "accuracy": 0.84
+        },
+        {
+          "lower": 0.7,
+          "n": 6,
+          "confidence": 0.7260088624906563,
+          "accuracy": 0.8333333333333334
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w12__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.7383246615222958,
+      "logloss": 1.178297787360795,
+      "ece": 0.28168448022700754,
+      "roc_auc_ovr": {
+        "remizov": 0.559620596205962,
+        "monte_carlo": 0.6022727272727273,
+        "product_integral": 0.6099290780141844
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 27,
+          "confidence": 0.3704272616892127,
+          "accuracy": 0.5555555555555556
+        },
+        {
+          "lower": 0.4,
+          "n": 39,
+          "confidence": 0.43876052082549133,
+          "accuracy": 0.23076923076923078
+        },
+        {
+          "lower": 0.5,
+          "n": 22,
+          "confidence": 0.5535350073463406,
+          "accuracy": 0.13636363636363635
+        },
+        {
+          "lower": 0.6,
+          "n": 9,
+          "confidence": 0.6302987847244116,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.7,
+          "n": 3,
+          "confidence": 0.7359548506587106,
+          "accuracy": 0.6666666666666666
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w12__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.6504053065020028,
+      "logloss": 1.040217663445526,
+      "ece": 0.13118009246046491,
+      "roc_auc_ovr": {
+        "remizov": 0.5399728997289972,
+        "monte_carlo": 0.6306818181818181,
+        "product_integral": 0.6595744680851063
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 11,
+          "confidence": 0.3730933344369056,
+          "accuracy": 0.5454545454545454
+        },
+        {
+          "lower": 0.4,
+          "n": 46,
+          "confidence": 0.4558476255935956,
+          "accuracy": 0.43478260869565216
+        },
+        {
+          "lower": 0.5,
+          "n": 26,
+          "confidence": 0.5470003066694477,
+          "accuracy": 0.34615384615384615
+        },
+        {
+          "lower": 0.6,
+          "n": 16,
+          "confidence": 0.6417684618113743,
+          "accuracy": 0.375
+        },
+        {
+          "lower": 0.7,
+          "n": 1,
+          "confidence": 0.7627417851594267,
+          "accuracy": 0.0
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__classifier__w12__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": {
+      "brier_multiclass": 0.6174237635567623,
+      "logloss": 0.9949294939830233,
+      "ece": 0.0808941930723249,
+      "roc_auc_ovr": {
+        "remizov": 0.5521680216802167,
+        "monte_carlo": 0.6325757575757576,
+        "product_integral": 0.6524822695035462
+      },
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 8,
+          "confidence": 0.3823646551515393,
+          "accuracy": 0.625
+        },
+        {
+          "lower": 0.4,
+          "n": 38,
+          "confidence": 0.45446047662603073,
+          "accuracy": 0.4473684210526316
+        },
+        {
+          "lower": 0.5,
+          "n": 39,
+          "confidence": 0.5423751826801162,
+          "accuracy": 0.4358974358974359
+        },
+        {
+          "lower": 0.6,
+          "n": 13,
+          "confidence": 0.6395080100516165,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "lower": 0.7,
+          "n": 2,
+          "confidence": 0.7063010907300442,
+          "accuracy": 0.5
+        }
+      ],
+      "interpretation": "raw model scores only; descriptive, not a probability calibration guarantee"
+    }
+  },
+  {
+    "candidate_id": "new__augmented__raw__w1__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "new__augmented__raw__w1__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "new__augmented__raw__w1__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "new__augmented__asinh__w1__baseline",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "new__augmented__asinh__w1__medium",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": null
+  },
+  {
+    "candidate_id": "new__augmented__asinh__w1__deeper",
+    "scenario": "new",
+    "split": "validation",
+    "calibration": null
+  }
+]

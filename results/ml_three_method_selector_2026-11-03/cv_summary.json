@@ -1,0 +1,2290 @@
+{
+  "fit_count": 200,
+  "outer_folds": 5,
+  "inner_holdout": "first SGKF 4-fold validation",
+  "policy_summary": [
+    {
+      "scenario": "new",
+      "policy": "always_monte_carlo",
+      "pooled": {
+        "n": 747,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            608,
+            0
+          ],
+          [
+            0,
+            87,
+            0
+          ],
+          [
+            0,
+            52,
+            0
+          ]
+        ],
+        "accuracy": 0.11646586345381527,
+        "balanced_accuracy": 0.3333333333333333,
+        "macro_f1": 0.06954436450839328,
+        "precision": {
+          "remizov": 0.0,
+          "monte_carlo": 0.11646586345381527,
+          "product_integral": 0.0
+        },
+        "recall": {
+          "remizov": 0.0,
+          "monte_carlo": 1.0,
+          "product_integral": 0.0
+        },
+        "f1": {
+          "remizov": 0.0,
+          "monte_carlo": 0.20863309352517986,
+          "product_integral": 0.0
+        },
+        "true_class_counts": {
+          "remizov": 608,
+          "monte_carlo": 87,
+          "product_integral": 52
+        },
+        "selection_counts": {
+          "remizov": 0,
+          "monte_carlo": 747,
+          "product_integral": 0
+        },
+        "selection_fractions": {
+          "remizov": 0.0,
+          "monte_carlo": 1.0,
+          "product_integral": 0.0
+        },
+        "non_R_predictions": 747,
+        "selection_errors": 660,
+        "success_count": 697,
+        "success_rate": 0.9330655957161981,
+        "mean_error": 0.01890376939408348,
+        "median_error": 0.009132459242275237,
+        "max_error": 0.5697637347981473,
+        "mean_regret": 0.015634678138395273,
+        "median_regret": 0.0070948029455421,
+        "max_regret": 0.4596748485868273
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.11673970332434995,
+          "sd": 0.024544277338884573
+        },
+        "macro_f1": {
+          "mean": 0.06946155381491285,
+          "sd": 0.013037887146976013
+        },
+        "mean_error": {
+          "mean": 0.018880564837567622,
+          "sd": 0.0037935967654794877
+        },
+        "mean_regret": {
+          "mean": 0.01561688476241227,
+          "sd": 0.0033851744256081623
+        },
+        "success_rate": {
+          "mean": 0.9328423080081523,
+          "sd": 0.014393585783025676
+        }
+      }
+    },
+    {
+      "scenario": "new",
+      "policy": "always_product_integral",
+      "pooled": {
+        "n": 747,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            608
+          ],
+          [
+            0,
+            0,
+            87
+          ],
+          [
+            0,
+            0,
+            52
+          ]
+        ],
+        "accuracy": 0.06961178045515395,
+        "balanced_accuracy": 0.3333333333333333,
+        "macro_f1": 0.04338756779307468,
+        "precision": {
+          "remizov": 0.0,
+          "monte_carlo": 0.0,
+          "product_integral": 0.06961178045515395
+        },
+        "recall": {
+          "remizov": 0.0,
+          "monte_carlo": 0.0,
+          "product_integral": 1.0
+        },
+        "f1": {
+          "remizov": 0.0,
+          "monte_carlo": 0.0,
+          "product_integral": 0.13016270337922403
+        },
+        "true_class_counts": {
+          "remizov": 608,
+          "monte_carlo": 87,
+          "product_integral": 52
+        },
+        "selection_counts": {
+          "remizov": 0,
+          "monte_carlo": 0,
+          "product_integral": 747
+        },
+        "selection_fractions": {
+          "remizov": 0.0,
+          "monte_carlo": 0.0,
+          "product_integral": 1.0
+        },
+        "non_R_predictions": 747,
+        "selection_errors": 695,
+        "success_count": 571,
+        "success_rate": 0.7643908969210174,
+        "mean_error": 0.04476545885476003,
+        "median_error": 0.016804838757744966,
+        "max_error": 1.44262628282513,
+        "mean_regret": 0.04149636759907182,
+        "median_regret": 0.014866202343465584,
+        "max_regret": 1.4380192453368885
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.06972340632022157,
+          "sd": 0.011042148566705524
+        },
+        "macro_f1": {
+          "mean": 0.0433992794183877,
+          "sd": 0.006457978959909918
+        },
+        "mean_error": {
+          "mean": 0.044685960094834457,
+          "sd": 0.007346677711876211
+        },
+        "mean_regret": {
+          "mean": 0.04142228001967909,
+          "sd": 0.007223809250264333
+        },
+        "success_rate": {
+          "mean": 0.7640062410881592,
+          "sd": 0.034320517718814635
+        }
+      }
+    },
+    {
+      "scenario": "new",
+      "policy": "always_remizov",
+      "pooled": {
+        "n": 747,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            608,
+            0,
+            0
+          ],
+          [
+            87,
+            0,
+            0
+          ],
+          [
+            52,
+            0,
+            0
+          ]
+        ],
+        "accuracy": 0.8139223560910308,
+        "balanced_accuracy": 0.3333333333333333,
+        "macro_f1": 0.2991389913899139,
+        "precision": {
+          "remizov": 0.8139223560910308,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "recall": {
+          "remizov": 1.0,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "f1": {
+          "remizov": 0.8974169741697416,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "true_class_counts": {
+          "remizov": 608,
+          "monte_carlo": 87,
+          "product_integral": 52
+        },
+        "selection_counts": {
+          "remizov": 747,
+          "monte_carlo": 0,
+          "product_integral": 0
+        },
+        "selection_fractions": {
+          "remizov": 1.0,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "non_R_predictions": 0,
+        "selection_errors": 139,
+        "success_count": 736,
+        "success_rate": 0.9852744310575636,
+        "mean_error": 1.170340344534585,
+        "median_error": 0.0012653740008878867,
+        "max_error": 842.0865810144144,
+        "mean_regret": 1.167071253278897,
+        "median_regret": 0.0,
+        "max_regret": 842.0180371055671
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.8135368903554285,
+          "sd": 0.024510171418178975
+        },
+        "macro_f1": {
+          "mean": 0.2990068871739954,
+          "sd": 0.0049933529551786215
+        },
+        "mean_error": {
+          "mean": 1.1734739249376072,
+          "sd": 2.509850131937407
+        },
+        "mean_regret": {
+          "mean": 1.1702102448624518,
+          "sd": 2.5095338287743227
+        },
+        "success_rate": {
+          "mean": 0.9852647609946921,
+          "sd": 0.009964712718366459
+        }
+      }
+    },
+    {
+      "scenario": "new",
+      "policy": "asinh",
+      "pooled": {
+        "n": 747,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            604,
+            3,
+            1
+          ],
+          [
+            87,
+            0,
+            0
+          ],
+          [
+            51,
+            1,
+            0
+          ]
+        ],
+        "accuracy": 0.8085676037483266,
+        "balanced_accuracy": 0.331140350877193,
+        "macro_f1": 0.2982716049382716,
+        "precision": {
+          "remizov": 0.8140161725067385,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "recall": {
+          "remizov": 0.993421052631579,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "f1": {
+          "remizov": 0.8948148148148148,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "true_class_counts": {
+          "remizov": 608,
+          "monte_carlo": 87,
+          "product_integral": 52
+        },
+        "selection_counts": {
+          "remizov": 742,
+          "monte_carlo": 4,
+          "product_integral": 1
+        },
+        "selection_fractions": {
+          "remizov": 0.9933065595716198,
+          "monte_carlo": 0.00535475234270415,
+          "product_integral": 0.0013386880856760374
+        },
+        "non_R_predictions": 5,
+        "selection_errors": 143,
+        "success_count": 733,
+        "success_rate": 0.9812583668005355,
+        "mean_error": 1.1705628646158923,
+        "median_error": 0.0012661408797800533,
+        "max_error": 842.0865810144144,
+        "mean_regret": 1.1672937733602042,
+        "median_regret": 0.0,
+        "max_regret": 842.0180371055671
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.8080937059073839,
+          "sd": 0.029276183720104338
+        },
+        "macro_f1": {
+          "mean": 0.2981029891020377,
+          "sd": 0.005609750705878552
+        },
+        "mean_error": {
+          "mean": 1.1737004839115137,
+          "sd": 2.5097265247520535
+        },
+        "mean_regret": {
+          "mean": 1.1704368038363584,
+          "sd": 2.509410236515496
+        },
+        "success_rate": {
+          "mean": 0.9812008868914752,
+          "sd": 0.008859194795266409
+        }
+      }
+    },
+    {
+      "scenario": "new",
+      "policy": "classifier_w1",
+      "pooled": {
+        "n": 747,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            608,
+            0,
+            0
+          ],
+          [
+            87,
+            0,
+            0
+          ],
+          [
+            52,
+            0,
+            0
+          ]
+        ],
+        "accuracy": 0.8139223560910308,
+        "balanced_accuracy": 0.3333333333333333,
+        "macro_f1": 0.2991389913899139,
+        "precision": {
+          "remizov": 0.8139223560910308,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "recall": {
+          "remizov": 1.0,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "f1": {
+          "remizov": 0.8974169741697416,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "true_class_counts": {
+          "remizov": 608,
+          "monte_carlo": 87,
+          "product_integral": 52
+        },
+        "selection_counts": {
+          "remizov": 747,
+          "monte_carlo": 0,
+          "product_integral": 0
+        },
+        "selection_fractions": {
+          "remizov": 1.0,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "non_R_predictions": 0,
+        "selection_errors": 139,
+        "success_count": 736,
+        "success_rate": 0.9852744310575636,
+        "mean_error": 1.170340344534585,
+        "median_error": 0.0012653740008878867,
+        "max_error": 842.0865810144144,
+        "mean_regret": 1.167071253278897,
+        "median_regret": 0.0,
+        "max_regret": 842.0180371055671
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.8135368903554285,
+          "sd": 0.024510171418178975
+        },
+        "macro_f1": {
+          "mean": 0.2990068871739954,
+          "sd": 0.0049933529551786215
+        },
+        "mean_error": {
+          "mean": 1.1734739249376072,
+          "sd": 2.509850131937407
+        },
+        "mean_regret": {
+          "mean": 1.1702102448624518,
+          "sd": 2.5095338287743227
+        },
+        "success_rate": {
+          "mean": 0.9852647609946921,
+          "sd": 0.009964712718366459
+        }
+      }
+    },
+    {
+      "scenario": "new",
+      "policy": "classifier_w12",
+      "pooled": {
+        "n": 747,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            157,
+            342,
+            109
+          ],
+          [
+            13,
+            64,
+            10
+          ],
+          [
+            12,
+            33,
+            7
+          ]
+        ],
+        "accuracy": 0.30522088353413657,
+        "balanced_accuracy": 0.3761570842446523,
+        "macro_f1": 0.2398220158094003,
+        "precision": {
+          "remizov": 0.8626373626373627,
+          "monte_carlo": 0.14578587699316628,
+          "product_integral": 0.05555555555555555
+        },
+        "recall": {
+          "remizov": 0.2582236842105263,
+          "monte_carlo": 0.735632183908046,
+          "product_integral": 0.1346153846153846
+        },
+        "f1": {
+          "remizov": 0.39746835443037976,
+          "monte_carlo": 0.24334600760456274,
+          "product_integral": 0.07865168539325842
+        },
+        "true_class_counts": {
+          "remizov": 608,
+          "monte_carlo": 87,
+          "product_integral": 52
+        },
+        "selection_counts": {
+          "remizov": 182,
+          "monte_carlo": 439,
+          "product_integral": 126
+        },
+        "selection_fractions": {
+          "remizov": 0.24364123159303883,
+          "monte_carlo": 0.5876840696117804,
+          "product_integral": 0.1686746987951807
+        },
+        "non_R_predictions": 565,
+        "selection_errors": 519,
+        "success_count": 696,
+        "success_rate": 0.9317269076305221,
+        "mean_error": 0.016977801799729696,
+        "median_error": 0.006572733306844214,
+        "max_error": 0.5697637347981473,
+        "mean_regret": 0.013708710544041493,
+        "median_regret": 0.0034312735537982697,
+        "max_regret": 0.4596748485868273
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.30589454352711065,
+          "sd": 0.04223029439946297
+        },
+        "macro_f1": {
+          "mean": 0.23784131401435388,
+          "sd": 0.02054133818002886
+        },
+        "mean_error": {
+          "mean": 0.016920057358887623,
+          "sd": 0.0036524867008521705
+        },
+        "mean_regret": {
+          "mean": 0.013656377283732275,
+          "sd": 0.003551859698336364
+        },
+        "success_rate": {
+          "mean": 0.9315890138931401,
+          "sd": 0.015819578925314336
+        }
+      }
+    },
+    {
+      "scenario": "new",
+      "policy": "classifier_w2",
+      "pooled": {
+        "n": 747,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            603,
+            5,
+            0
+          ],
+          [
+            87,
+            0,
+            0
+          ],
+          [
+            52,
+            0,
+            0
+          ]
+        ],
+        "accuracy": 0.8072289156626506,
+        "balanced_accuracy": 0.3305921052631579,
+        "macro_f1": 0.29777777777777775,
+        "precision": {
+          "remizov": 0.8126684636118598,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "recall": {
+          "remizov": 0.9917763157894737,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "f1": {
+          "remizov": 0.8933333333333333,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "true_class_counts": {
+          "remizov": 608,
+          "monte_carlo": 87,
+          "product_integral": 52
+        },
+        "selection_counts": {
+          "remizov": 742,
+          "monte_carlo": 5,
+          "product_integral": 0
+        },
+        "selection_fractions": {
+          "remizov": 0.9933065595716198,
+          "monte_carlo": 0.006693440428380187,
+          "product_integral": 0.0
+        },
+        "non_R_predictions": 5,
+        "selection_errors": 144,
+        "success_count": 735,
+        "success_rate": 0.9839357429718876,
+        "mean_error": 1.1705128811329348,
+        "median_error": 0.0012653740008878867,
+        "max_error": 842.0865810144144,
+        "mean_regret": 1.1672437898772468,
+        "median_regret": 0.0,
+        "max_regret": 842.0180371055671
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.8068254809594553,
+          "sd": 0.02264015068843896
+        },
+        "macro_f1": {
+          "mean": 0.2976492067118373,
+          "sd": 0.004609477799438489
+        },
+        "mean_error": {
+          "mean": 1.173646924721456,
+          "sd": 2.509925967082929
+        },
+        "mean_regret": {
+          "mean": 1.1703832446463007,
+          "sd": 2.5096096315167182
+        },
+        "success_rate": {
+          "mean": 0.9839224791154975,
+          "sd": 0.011243732304715981
+        }
+      }
+    },
+    {
+      "scenario": "new",
+      "policy": "classifier_w3",
+      "pooled": {
+        "n": 747,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            591,
+            17,
+            0
+          ],
+          [
+            82,
+            5,
+            0
+          ],
+          [
+            51,
+            1,
+            0
+          ]
+        ],
+        "accuracy": 0.7978580990629184,
+        "balanced_accuracy": 0.3431702460173422,
+        "macro_f1": 0.3260988260988261,
+        "precision": {
+          "remizov": 0.8162983425414365,
+          "monte_carlo": 0.21739130434782608,
+          "product_integral": 0.0
+        },
+        "recall": {
+          "remizov": 0.9720394736842105,
+          "monte_carlo": 0.05747126436781609,
+          "product_integral": 0.0
+        },
+        "f1": {
+          "remizov": 0.8873873873873874,
+          "monte_carlo": 0.09090909090909091,
+          "product_integral": 0.0
+        },
+        "true_class_counts": {
+          "remizov": 608,
+          "monte_carlo": 87,
+          "product_integral": 52
+        },
+        "selection_counts": {
+          "remizov": 724,
+          "monte_carlo": 23,
+          "product_integral": 0
+        },
+        "selection_fractions": {
+          "remizov": 0.9692101740294511,
+          "monte_carlo": 0.030789825970548863,
+          "product_integral": 0.0
+        },
+        "non_R_predictions": 23,
+        "selection_errors": 151,
+        "success_count": 732,
+        "success_rate": 0.9799196787148594,
+        "mean_error": 1.1709416418806986,
+        "median_error": 0.0013017819852313428,
+        "max_error": 842.0865810144144,
+        "mean_regret": 1.1676725506250103,
+        "median_regret": 0.0,
+        "max_regret": 842.0180371055671
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.7973482840740271,
+          "sd": 0.031747247475972934
+        },
+        "macro_f1": {
+          "mean": 0.32389858175327163,
+          "sd": 0.03099895896507729
+        },
+        "mean_error": {
+          "mean": 1.1740810644611428,
+          "sd": 2.509758199892009
+        },
+        "mean_regret": {
+          "mean": 1.1708173843859873,
+          "sd": 2.5094418759768575
+        },
+        "success_rate": {
+          "mean": 0.9798215765466477,
+          "sd": 0.013586867198992762
+        }
+      }
+    },
+    {
+      "scenario": "new",
+      "policy": "classifier_w5",
+      "pooled": {
+        "n": 747,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            520,
+            81,
+            7
+          ],
+          [
+            66,
+            21,
+            0
+          ],
+          [
+            42,
+            8,
+            2
+          ]
+        ],
+        "accuracy": 0.7269076305220884,
+        "balanced_accuracy": 0.378368002233701,
+        "macro_f1": 0.37339856275167177,
+        "precision": {
+          "remizov": 0.8280254777070064,
+          "monte_carlo": 0.19090909090909092,
+          "product_integral": 0.2222222222222222
+        },
+        "recall": {
+          "remizov": 0.8552631578947368,
+          "monte_carlo": 0.2413793103448276,
+          "product_integral": 0.038461538461538464
+        },
+        "f1": {
+          "remizov": 0.8414239482200647,
+          "monte_carlo": 0.2131979695431472,
+          "product_integral": 0.06557377049180328
+        },
+        "true_class_counts": {
+          "remizov": 608,
+          "monte_carlo": 87,
+          "product_integral": 52
+        },
+        "selection_counts": {
+          "remizov": 628,
+          "monte_carlo": 110,
+          "product_integral": 9
+        },
+        "selection_fractions": {
+          "remizov": 0.8406961178045516,
+          "monte_carlo": 0.14725568942436412,
+          "product_integral": 0.012048192771084338
+        },
+        "non_R_predictions": 119,
+        "selection_errors": 204,
+        "success_count": 727,
+        "success_rate": 0.9732262382864793,
+        "mean_error": 0.04444811586081958,
+        "median_error": 0.0014009271151691483,
+        "max_error": 28.394331614870186,
+        "mean_regret": 0.04117902460513137,
+        "median_regret": 0.0,
+        "max_regret": 28.37074840443942
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.726593754432591,
+          "sd": 0.027936064226236
+        },
+        "macro_f1": {
+          "mean": 0.37128776411610354,
+          "sd": 0.06525408041079532
+        },
+        "mean_error": {
+          "mean": 0.04455821691228938,
+          "sd": 0.08594959325874212
+        },
+        "mean_regret": {
+          "mean": 0.041294536837134015,
+          "sd": 0.0856978770346132
+        },
+        "success_rate": {
+          "mean": 0.973088069517958,
+          "sd": 0.016756603500418427
+        }
+      }
+    },
+    {
+      "scenario": "new",
+      "policy": "classifier_w8",
+      "pooled": {
+        "n": 747,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            371,
+            207,
+            30
+          ],
+          [
+            37,
+            47,
+            3
+          ],
+          [
+            28,
+            19,
+            5
+          ]
+        ],
+        "accuracy": 0.5662650602409639,
+        "balanced_accuracy": 0.4155270332107901,
+        "macro_f1": 0.36098339719029376,
+        "precision": {
+          "remizov": 0.8509174311926605,
+          "monte_carlo": 0.17216117216117216,
+          "product_integral": 0.13157894736842105
+        },
+        "recall": {
+          "remizov": 0.6101973684210527,
+          "monte_carlo": 0.5402298850574713,
+          "product_integral": 0.09615384615384616
+        },
+        "f1": {
+          "remizov": 0.710727969348659,
+          "monte_carlo": 0.2611111111111111,
+          "product_integral": 0.1111111111111111
+        },
+        "true_class_counts": {
+          "remizov": 608,
+          "monte_carlo": 87,
+          "product_integral": 52
+        },
+        "selection_counts": {
+          "remizov": 436,
+          "monte_carlo": 273,
+          "product_integral": 38
+        },
+        "selection_fractions": {
+          "remizov": 0.5836680053547524,
+          "monte_carlo": 0.3654618473895582,
+          "product_integral": 0.050870147255689425
+        },
+        "non_R_predictions": 311,
+        "selection_errors": 324,
+        "success_count": 717,
+        "success_rate": 0.9598393574297188,
+        "mean_error": 0.04829560421808715,
+        "median_error": 0.002001598795951187,
+        "max_error": 28.394331614870186,
+        "mean_regret": 0.04502651296239895,
+        "median_regret": 0.0,
+        "max_regret": 28.37074840443942
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.5669240244567043,
+          "sd": 0.046839602604543305
+        },
+        "macro_f1": {
+          "mean": 0.35830101656254715,
+          "sd": 0.03925966843583669
+        },
+        "mean_error": {
+          "mean": 0.0483640317167917,
+          "sd": 0.08561527594900561
+        },
+        "mean_regret": {
+          "mean": 0.04510035164163634,
+          "sd": 0.08535738038549752
+        },
+        "success_rate": {
+          "mean": 0.9596951123918448,
+          "sd": 0.016897521961778017
+        }
+      }
+    },
+    {
+      "scenario": "new",
+      "policy": "nested_selection",
+      "pooled": {
+        "n": 747,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            542,
+            42,
+            24
+          ],
+          [
+            74,
+            9,
+            4
+          ],
+          [
+            47,
+            1,
+            4
+          ]
+        ],
+        "accuracy": 0.7429718875502008,
+        "balanced_accuracy": 0.3572729070687328,
+        "macro_f1": 0.3592020842132633,
+        "precision": {
+          "remizov": 0.8174962292609351,
+          "monte_carlo": 0.17307692307692307,
+          "product_integral": 0.125
+        },
+        "recall": {
+          "remizov": 0.8914473684210527,
+          "monte_carlo": 0.10344827586206896,
+          "product_integral": 0.07692307692307693
+        },
+        "f1": {
+          "remizov": 0.8528717545239969,
+          "monte_carlo": 0.12949640287769784,
+          "product_integral": 0.09523809523809523
+        },
+        "true_class_counts": {
+          "remizov": 608,
+          "monte_carlo": 87,
+          "product_integral": 52
+        },
+        "selection_counts": {
+          "remizov": 663,
+          "monte_carlo": 52,
+          "product_integral": 32
+        },
+        "selection_fractions": {
+          "remizov": 0.8875502008032129,
+          "monte_carlo": 0.06961178045515395,
+          "product_integral": 0.0428380187416332
+        },
+        "non_R_predictions": 84,
+        "selection_errors": 192,
+        "success_count": 722,
+        "success_rate": 0.9665327978580991,
+        "mean_error": 1.173108486956327,
+        "median_error": 0.0014075753133183655,
+        "max_error": 842.0865810144144,
+        "mean_regret": 1.1698393957006386,
+        "median_regret": 0.0,
+        "max_regret": 842.0180371055671
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.7424634381228956,
+          "sd": 0.10284755120830855
+        },
+        "macro_f1": {
+          "mean": 0.3416688909401878,
+          "sd": 0.03369531350349019
+        },
+        "mean_error": {
+          "mean": 1.1762493430626848,
+          "sd": 2.508415950251805
+        },
+        "mean_regret": {
+          "mean": 1.1729856629875293,
+          "sd": 2.5080992111345877
+        },
+        "success_rate": {
+          "mean": 0.9664507170532508,
+          "sd": 0.03116824366305454
+        }
+      }
+    },
+    {
+      "scenario": "new",
+      "policy": "raw",
+      "pooled": {
+        "n": 747,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            339,
+            265,
+            4
+          ],
+          [
+            49,
+            38,
+            0
+          ],
+          [
+            30,
+            22,
+            0
+          ]
+        ],
+        "accuracy": 0.5046854082998661,
+        "balanced_accuracy": 0.3314491328896955,
+        "macro_f1": 0.2817615776225894,
+        "precision": {
+          "remizov": 0.8110047846889952,
+          "monte_carlo": 0.11692307692307692,
+          "product_integral": 0.0
+        },
+        "recall": {
+          "remizov": 0.5575657894736842,
+          "monte_carlo": 0.4367816091954023,
+          "product_integral": 0.0
+        },
+        "f1": {
+          "remizov": 0.6608187134502924,
+          "monte_carlo": 0.18446601941747573,
+          "product_integral": 0.0
+        },
+        "true_class_counts": {
+          "remizov": 608,
+          "monte_carlo": 87,
+          "product_integral": 52
+        },
+        "selection_counts": {
+          "remizov": 418,
+          "monte_carlo": 325,
+          "product_integral": 4
+        },
+        "selection_fractions": {
+          "remizov": 0.5595716198125836,
+          "monte_carlo": 0.4350736278447122,
+          "product_integral": 0.00535475234270415
+        },
+        "non_R_predictions": 329,
+        "selection_errors": 370,
+        "success_count": 722,
+        "success_rate": 0.9665327978580991,
+        "mean_error": 1.1771007493780923,
+        "median_error": 0.002877593724564975,
+        "max_error": 842.0865810144144,
+        "mean_regret": 1.1738316581224042,
+        "median_regret": 0.0,
+        "max_regret": 842.0180371055671
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.5060384767564259,
+          "sd": 0.35868364036214906
+        },
+        "macro_f1": {
+          "mean": 0.20966662458964916,
+          "sd": 0.1247458746528325
+        },
+        "mean_error": {
+          "mean": 1.1802026056640122,
+          "sd": 2.5059482595847746
+        },
+        "mean_regret": {
+          "mean": 1.1769389255888572,
+          "sd": 2.5056323908524822
+        },
+        "success_rate": {
+          "mean": 0.9664363834536509,
+          "sd": 0.024157407516685787
+        }
+      }
+    },
+    {
+      "scenario": "old",
+      "policy": "always_monte_carlo",
+      "pooled": {
+        "n": 697,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            570,
+            0
+          ],
+          [
+            0,
+            84,
+            0
+          ],
+          [
+            0,
+            43,
+            0
+          ]
+        ],
+        "accuracy": 0.12051649928263988,
+        "balanced_accuracy": 0.3333333333333333,
+        "macro_f1": 0.07170294494238157,
+        "precision": {
+          "remizov": 0.0,
+          "monte_carlo": 0.12051649928263988,
+          "product_integral": 0.0
+        },
+        "recall": {
+          "remizov": 0.0,
+          "monte_carlo": 1.0,
+          "product_integral": 0.0
+        },
+        "f1": {
+          "remizov": 0.0,
+          "monte_carlo": 0.21510883482714468,
+          "product_integral": 0.0
+        },
+        "true_class_counts": {
+          "remizov": 570,
+          "monte_carlo": 84,
+          "product_integral": 43
+        },
+        "selection_counts": {
+          "remizov": 0,
+          "monte_carlo": 697,
+          "product_integral": 0
+        },
+        "selection_fractions": {
+          "remizov": 0.0,
+          "monte_carlo": 1.0,
+          "product_integral": 0.0
+        },
+        "non_R_predictions": 697,
+        "selection_errors": 613,
+        "success_count": 655,
+        "success_rate": 0.93974175035868,
+        "mean_error": 0.01730848204176054,
+        "median_error": 0.00866141571000334,
+        "max_error": 0.4208756945843687,
+        "mean_regret": 0.014330219499969439,
+        "median_regret": 0.006904964745759634,
+        "max_regret": 0.4107017798870837
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.12017655854612377,
+          "sd": 0.029059666203372175
+        },
+        "macro_f1": {
+          "mean": 0.07120489787907106,
+          "sd": 0.015298731379202965
+        },
+        "mean_error": {
+          "mean": 0.01730131605037729,
+          "sd": 0.003196721905780399
+        },
+        "mean_regret": {
+          "mean": 0.01432751539746289,
+          "sd": 0.003007060419320934
+        },
+        "success_rate": {
+          "mean": 0.9398775017253278,
+          "sd": 0.018799197890394984
+        }
+      }
+    },
+    {
+      "scenario": "old",
+      "policy": "always_product_integral",
+      "pooled": {
+        "n": 697,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            570
+          ],
+          [
+            0,
+            0,
+            84
+          ],
+          [
+            0,
+            0,
+            43
+          ]
+        ],
+        "accuracy": 0.06169296987087518,
+        "balanced_accuracy": 0.3333333333333333,
+        "macro_f1": 0.03873873873873874,
+        "precision": {
+          "remizov": 0.0,
+          "monte_carlo": 0.0,
+          "product_integral": 0.06169296987087518
+        },
+        "recall": {
+          "remizov": 0.0,
+          "monte_carlo": 0.0,
+          "product_integral": 1.0
+        },
+        "f1": {
+          "remizov": 0.0,
+          "monte_carlo": 0.0,
+          "product_integral": 0.11621621621621622
+        },
+        "true_class_counts": {
+          "remizov": 570,
+          "monte_carlo": 84,
+          "product_integral": 43
+        },
+        "selection_counts": {
+          "remizov": 0,
+          "monte_carlo": 0,
+          "product_integral": 697
+        },
+        "selection_fractions": {
+          "remizov": 0.0,
+          "monte_carlo": 0.0,
+          "product_integral": 1.0
+        },
+        "non_R_predictions": 697,
+        "selection_errors": 654,
+        "success_count": 533,
+        "success_rate": 0.7647058823529411,
+        "mean_error": 0.04547812245006081,
+        "median_error": 0.01692069009393271,
+        "max_error": 1.44262628282513,
+        "mean_regret": 0.04249985990826971,
+        "median_regret": 0.014774482777900277,
+        "max_regret": 1.4380192453368885
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.06173970554405336,
+          "sd": 0.010982994791716244
+        },
+        "macro_f1": {
+          "mean": 0.03871287454253394,
+          "sd": 0.0064657185639826
+        },
+        "mean_error": {
+          "mean": 0.04533552803303224,
+          "sd": 0.009089206520722292
+        },
+        "mean_regret": {
+          "mean": 0.04236172738011784,
+          "sd": 0.008940907398316619
+        },
+        "success_rate": {
+          "mean": 0.7656400966183574,
+          "sd": 0.07325466639927015
+        }
+      }
+    },
+    {
+      "scenario": "old",
+      "policy": "always_remizov",
+      "pooled": {
+        "n": 697,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            570,
+            0,
+            0
+          ],
+          [
+            84,
+            0,
+            0
+          ],
+          [
+            43,
+            0,
+            0
+          ]
+        ],
+        "accuracy": 0.8177905308464849,
+        "balanced_accuracy": 0.3333333333333333,
+        "macro_f1": 0.2999210734017364,
+        "precision": {
+          "remizov": 0.8177905308464849,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "recall": {
+          "remizov": 1.0,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "f1": {
+          "remizov": 0.8997632202052092,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "true_class_counts": {
+          "remizov": 570,
+          "monte_carlo": 84,
+          "product_integral": 43
+        },
+        "selection_counts": {
+          "remizov": 697,
+          "monte_carlo": 0,
+          "product_integral": 0
+        },
+        "selection_fractions": {
+          "remizov": 1.0,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "non_R_predictions": 0,
+        "selection_errors": 127,
+        "success_count": 689,
+        "success_rate": 0.9885222381635581,
+        "mean_error": 1.253681744048611,
+        "median_error": 0.0012200476898708845,
+        "max_error": 842.0865810144144,
+        "mean_regret": 1.2507034815068199,
+        "median_regret": 0.0,
+        "max_regret": 842.0180371055671
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.8180837359098229,
+          "sd": 0.02726353209070765
+        },
+        "macro_f1": {
+          "mean": 0.2999138577371814,
+          "sd": 0.00553203807703402
+        },
+        "mean_error": {
+          "mean": 1.2498295771776071,
+          "sd": 2.670503685331574
+        },
+        "mean_regret": {
+          "mean": 1.2468557765246926,
+          "sd": 2.670243664555563
+        },
+        "success_rate": {
+          "mean": 0.9883919944789511,
+          "sd": 0.013123782868500251
+        }
+      }
+    },
+    {
+      "scenario": "old",
+      "policy": "asinh",
+      "pooled": {
+        "n": 697,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            565,
+            5,
+            0
+          ],
+          [
+            83,
+            1,
+            0
+          ],
+          [
+            42,
+            1,
+            0
+          ]
+        ],
+        "accuracy": 0.812051649928264,
+        "balanced_accuracy": 0.33437761069340016,
+        "macro_f1": 0.3062678062678063,
+        "precision": {
+          "remizov": 0.8188405797101449,
+          "monte_carlo": 0.14285714285714285,
+          "product_integral": 0.0
+        },
+        "recall": {
+          "remizov": 0.9912280701754386,
+          "monte_carlo": 0.011904761904761904,
+          "product_integral": 0.0
+        },
+        "f1": {
+          "remizov": 0.8968253968253969,
+          "monte_carlo": 0.02197802197802198,
+          "product_integral": 0.0
+        },
+        "true_class_counts": {
+          "remizov": 570,
+          "monte_carlo": 84,
+          "product_integral": 43
+        },
+        "selection_counts": {
+          "remizov": 690,
+          "monte_carlo": 7,
+          "product_integral": 0
+        },
+        "selection_fractions": {
+          "remizov": 0.9899569583931134,
+          "monte_carlo": 0.010043041606886656,
+          "product_integral": 0.0
+        },
+        "non_R_predictions": 7,
+        "selection_errors": 131,
+        "success_count": 686,
+        "success_rate": 0.9842180774748924,
+        "mean_error": 0.04611059658874581,
+        "median_error": 0.0012264112502793911,
+        "max_error": 28.394331614870186,
+        "mean_regret": 0.04313233404695471,
+        "median_regret": 0.0,
+        "max_regret": 28.37074840443942
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.8123562226823097,
+          "sd": 0.03216555316089088
+        },
+        "macro_f1": {
+          "mean": 0.3078100954696929,
+          "sd": 0.02426944726482016
+        },
+        "mean_error": {
+          "mean": 0.04743494801690826,
+          "sd": 0.09382181571972564
+        },
+        "mean_regret": {
+          "mean": 0.04446114736399385,
+          "sd": 0.09401777404212086
+        },
+        "success_rate": {
+          "mean": 0.9840930526800091,
+          "sd": 0.01205033517269656
+        }
+      }
+    },
+    {
+      "scenario": "old",
+      "policy": "classifier_w1",
+      "pooled": {
+        "n": 697,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            570,
+            0,
+            0
+          ],
+          [
+            84,
+            0,
+            0
+          ],
+          [
+            43,
+            0,
+            0
+          ]
+        ],
+        "accuracy": 0.8177905308464849,
+        "balanced_accuracy": 0.3333333333333333,
+        "macro_f1": 0.2999210734017364,
+        "precision": {
+          "remizov": 0.8177905308464849,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "recall": {
+          "remizov": 1.0,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "f1": {
+          "remizov": 0.8997632202052092,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "true_class_counts": {
+          "remizov": 570,
+          "monte_carlo": 84,
+          "product_integral": 43
+        },
+        "selection_counts": {
+          "remizov": 697,
+          "monte_carlo": 0,
+          "product_integral": 0
+        },
+        "selection_fractions": {
+          "remizov": 1.0,
+          "monte_carlo": 0.0,
+          "product_integral": 0.0
+        },
+        "non_R_predictions": 0,
+        "selection_errors": 127,
+        "success_count": 689,
+        "success_rate": 0.9885222381635581,
+        "mean_error": 1.253681744048611,
+        "median_error": 0.0012200476898708845,
+        "max_error": 842.0865810144144,
+        "mean_regret": 1.2507034815068199,
+        "median_regret": 0.0,
+        "max_regret": 842.0180371055671
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.8180837359098229,
+          "sd": 0.02726353209070765
+        },
+        "macro_f1": {
+          "mean": 0.2999138577371814,
+          "sd": 0.00553203807703402
+        },
+        "mean_error": {
+          "mean": 1.2498295771776071,
+          "sd": 2.670503685331574
+        },
+        "mean_regret": {
+          "mean": 1.2468557765246926,
+          "sd": 2.670243664555563
+        },
+        "success_rate": {
+          "mean": 0.9883919944789511,
+          "sd": 0.013123782868500251
+        }
+      }
+    },
+    {
+      "scenario": "old",
+      "policy": "classifier_w12",
+      "pooled": {
+        "n": 697,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            162,
+            346,
+            62
+          ],
+          [
+            19,
+            59,
+            6
+          ],
+          [
+            9,
+            22,
+            12
+          ]
+        ],
+        "accuracy": 0.33428981348637016,
+        "balanced_accuracy": 0.4218870820462008,
+        "macro_f1": 0.28411916861984565,
+        "precision": {
+          "remizov": 0.8526315789473684,
+          "monte_carlo": 0.13817330210772832,
+          "product_integral": 0.15
+        },
+        "recall": {
+          "remizov": 0.28421052631578947,
+          "monte_carlo": 0.7023809523809523,
+          "product_integral": 0.27906976744186046
+        },
+        "f1": {
+          "remizov": 0.4263157894736842,
+          "monte_carlo": 0.2309197651663405,
+          "product_integral": 0.1951219512195122
+        },
+        "true_class_counts": {
+          "remizov": 570,
+          "monte_carlo": 84,
+          "product_integral": 43
+        },
+        "selection_counts": {
+          "remizov": 190,
+          "monte_carlo": 427,
+          "product_integral": 80
+        },
+        "selection_fractions": {
+          "remizov": 0.27259684361549497,
+          "monte_carlo": 0.6126255380200861,
+          "product_integral": 0.11477761836441894
+        },
+        "non_R_predictions": 507,
+        "selection_errors": 464,
+        "success_count": 651,
+        "success_rate": 0.9340028694404591,
+        "mean_error": 0.017039879470687802,
+        "median_error": 0.005417452163729686,
+        "max_error": 0.6132652131039322,
+        "mean_regret": 0.014061616928896702,
+        "median_regret": 0.003118829017218938,
+        "max_regret": 0.6130461391036759
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.3342788129744651,
+          "sd": 0.04963214025104629
+        },
+        "macro_f1": {
+          "mean": 0.27931208705445865,
+          "sd": 0.06907223513099472
+        },
+        "mean_error": {
+          "mean": 0.017000474014237342,
+          "sd": 0.0025773892592082705
+        },
+        "mean_regret": {
+          "mean": 0.014026673361322942,
+          "sd": 0.002319070932514273
+        },
+        "success_rate": {
+          "mean": 0.9343484011962273,
+          "sd": 0.025382911553193922
+        }
+      }
+    },
+    {
+      "scenario": "old",
+      "policy": "classifier_w2",
+      "pooled": {
+        "n": 697,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            567,
+            3,
+            0
+          ],
+          [
+            82,
+            2,
+            0
+          ],
+          [
+            43,
+            0,
+            0
+          ]
+        ],
+        "accuracy": 0.8163558106169297,
+        "balanced_accuracy": 0.33951545530492894,
+        "macro_f1": 0.3145058375920749,
+        "precision": {
+          "remizov": 0.819364161849711,
+          "monte_carlo": 0.4,
+          "product_integral": 0.0
+        },
+        "recall": {
+          "remizov": 0.9947368421052631,
+          "monte_carlo": 0.023809523809523808,
+          "product_integral": 0.0
+        },
+        "f1": {
+          "remizov": 0.8985736925515055,
+          "monte_carlo": 0.0449438202247191,
+          "product_integral": 0.0
+        },
+        "true_class_counts": {
+          "remizov": 570,
+          "monte_carlo": 84,
+          "product_integral": 43
+        },
+        "selection_counts": {
+          "remizov": 692,
+          "monte_carlo": 5,
+          "product_integral": 0
+        },
+        "selection_fractions": {
+          "remizov": 0.9928263988522238,
+          "monte_carlo": 0.007173601147776184,
+          "product_integral": 0.0
+        },
+        "non_R_predictions": 5,
+        "selection_errors": 128,
+        "success_count": 688,
+        "success_rate": 0.9870875179340028,
+        "mean_error": 1.2537830789471964,
+        "median_error": 0.0012200476898708845,
+        "max_error": 842.0865810144144,
+        "mean_regret": 1.2508048164054055,
+        "median_regret": 0.0,
+        "max_regret": 842.0180371055671
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.816694847020934,
+          "sd": 0.02586300155843039
+        },
+        "macro_f1": {
+          "mean": 0.31316196699250903,
+          "sd": 0.01686954026300019
+        },
+        "mean_error": {
+          "mean": 1.2499267827963318,
+          "sd": 2.670415594698151
+        },
+        "mean_regret": {
+          "mean": 1.2469529821434178,
+          "sd": 2.6701555467580644
+        },
+        "success_rate": {
+          "mean": 0.9870031055900622,
+          "sd": 0.011898452159086541
+        }
+      }
+    },
+    {
+      "scenario": "old",
+      "policy": "classifier_w3",
+      "pooled": {
+        "n": 697,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            557,
+            13,
+            0
+          ],
+          [
+            79,
+            5,
+            0
+          ],
+          [
+            43,
+            0,
+            0
+          ]
+        ],
+        "accuracy": 0.806312769010043,
+        "balanced_accuracy": 0.3455722639933166,
+        "macro_f1": 0.3299842488369781,
+        "precision": {
+          "remizov": 0.8203240058910162,
+          "monte_carlo": 0.2777777777777778,
+          "product_integral": 0.0
+        },
+        "recall": {
+          "remizov": 0.9771929824561404,
+          "monte_carlo": 0.05952380952380952,
+          "product_integral": 0.0
+        },
+        "f1": {
+          "remizov": 0.8919135308246597,
+          "monte_carlo": 0.09803921568627451,
+          "product_integral": 0.0
+        },
+        "true_class_counts": {
+          "remizov": 570,
+          "monte_carlo": 84,
+          "product_integral": 43
+        },
+        "selection_counts": {
+          "remizov": 679,
+          "monte_carlo": 18,
+          "product_integral": 0
+        },
+        "selection_fractions": {
+          "remizov": 0.9741750358680057,
+          "monte_carlo": 0.02582496413199426,
+          "product_integral": 0.0
+        },
+        "non_R_predictions": 18,
+        "selection_errors": 135,
+        "success_count": 687,
+        "success_rate": 0.9856527977044476,
+        "mean_error": 1.2539877289563077,
+        "median_error": 0.0012188452371534875,
+        "max_error": 842.0865810144144,
+        "mean_regret": 1.2510094664145166,
+        "median_regret": 0.0,
+        "max_regret": 842.0180371055671
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.8065683229813665,
+          "sd": 0.024682781427448345
+        },
+        "macro_f1": {
+          "mean": 0.32792437892978354,
+          "sd": 0.019109188641250496
+        },
+        "mean_error": {
+          "mean": 1.2501309383030434,
+          "sd": 2.670383229105755
+        },
+        "mean_regret": {
+          "mean": 1.2471571376501294,
+          "sd": 2.670123191488549
+        },
+        "success_rate": {
+          "mean": 0.9855745341614905,
+          "sd": 0.010264490507532843
+        }
+      }
+    },
+    {
+      "scenario": "old",
+      "policy": "classifier_w5",
+      "pooled": {
+        "n": 697,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            492,
+            73,
+            5
+          ],
+          [
+            63,
+            20,
+            1
+          ],
+          [
+            35,
+            7,
+            1
+          ]
+        ],
+        "accuracy": 0.7360114777618364,
+        "balanced_accuracy": 0.37483631559518954,
+        "macro_f1": 0.36855572213893056,
+        "precision": {
+          "remizov": 0.8338983050847457,
+          "monte_carlo": 0.2,
+          "product_integral": 0.14285714285714285
+        },
+        "recall": {
+          "remizov": 0.8631578947368421,
+          "monte_carlo": 0.23809523809523808,
+          "product_integral": 0.023255813953488372
+        },
+        "f1": {
+          "remizov": 0.8482758620689655,
+          "monte_carlo": 0.21739130434782608,
+          "product_integral": 0.04
+        },
+        "true_class_counts": {
+          "remizov": 570,
+          "monte_carlo": 84,
+          "product_integral": 43
+        },
+        "selection_counts": {
+          "remizov": 590,
+          "monte_carlo": 100,
+          "product_integral": 7
+        },
+        "selection_fractions": {
+          "remizov": 0.8464849354375896,
+          "monte_carlo": 0.14347202295552366,
+          "product_integral": 0.010043041606886656
+        },
+        "non_R_predictions": 107,
+        "selection_errors": 184,
+        "success_count": 682,
+        "success_rate": 0.9784791965566715,
+        "mean_error": 0.04766134543209036,
+        "median_error": 0.0013390211489898718,
+        "max_error": 28.394331614870186,
+        "mean_regret": 0.04468308289029926,
+        "median_regret": 0.0,
+        "max_regret": 28.37074840443942
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.7361743731308948,
+          "sd": 0.02122782151415855
+        },
+        "macro_f1": {
+          "mean": 0.363750244435882,
+          "sd": 0.05023576505231441
+        },
+        "mean_error": {
+          "mean": 0.04897105055893548,
+          "sd": 0.09333910759959527
+        },
+        "mean_regret": {
+          "mean": 0.04599724990602109,
+          "sd": 0.09353224719719583
+        },
+        "success_rate": {
+          "mean": 0.9785110420979987,
+          "sd": 0.01007698161837532
+        }
+      }
+    },
+    {
+      "scenario": "old",
+      "policy": "classifier_w8",
+      "pooled": {
+        "n": 697,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            353,
+            192,
+            25
+          ],
+          [
+            37,
+            44,
+            3
+          ],
+          [
+            20,
+            19,
+            4
+          ]
+        ],
+        "accuracy": 0.5753228120516499,
+        "balanced_accuracy": 0.4120436750791708,
+        "macro_f1": 0.3622206168603134,
+        "precision": {
+          "remizov": 0.8609756097560975,
+          "monte_carlo": 0.17254901960784313,
+          "product_integral": 0.125
+        },
+        "recall": {
+          "remizov": 0.6192982456140351,
+          "monte_carlo": 0.5238095238095238,
+          "product_integral": 0.09302325581395349
+        },
+        "f1": {
+          "remizov": 0.7204081632653061,
+          "monte_carlo": 0.25958702064896755,
+          "product_integral": 0.10666666666666667
+        },
+        "true_class_counts": {
+          "remizov": 570,
+          "monte_carlo": 84,
+          "product_integral": 43
+        },
+        "selection_counts": {
+          "remizov": 410,
+          "monte_carlo": 255,
+          "product_integral": 32
+        },
+        "selection_fractions": {
+          "remizov": 0.5882352941176471,
+          "monte_carlo": 0.36585365853658536,
+          "product_integral": 0.04591104734576758
+        },
+        "non_R_predictions": 287,
+        "selection_errors": 296,
+        "success_count": 664,
+        "success_rate": 0.9526542324246772,
+        "mean_error": 0.013623386363134407,
+        "median_error": 0.0018385718414268837,
+        "max_error": 0.8425018197523524,
+        "mean_regret": 0.010645123821343307,
+        "median_regret": 0.0,
+        "max_regret": 0.8323279050550674
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.5755244996549344,
+          "sd": 0.029130277618350624
+        },
+        "macro_f1": {
+          "mean": 0.3579124191483515,
+          "sd": 0.05996667278509648
+        },
+        "mean_error": {
+          "mean": 0.013595416227834533,
+          "sd": 0.00323614613385341
+        },
+        "mean_regret": {
+          "mean": 0.010621615574920135,
+          "sd": 0.002877857701945225
+        },
+        "success_rate": {
+          "mean": 0.9527743271221532,
+          "sd": 0.011356421685697273
+        }
+      }
+    },
+    {
+      "scenario": "old",
+      "policy": "nested_selection",
+      "pooled": {
+        "n": 697,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            486,
+            65,
+            19
+          ],
+          [
+            65,
+            11,
+            8
+          ],
+          [
+            35,
+            4,
+            4
+          ]
+        ],
+        "accuracy": 0.7187948350071736,
+        "balanced_accuracy": 0.35886907190456757,
+        "macro_f1": 0.3610282997995042,
+        "precision": {
+          "remizov": 0.8293515358361775,
+          "monte_carlo": 0.1375,
+          "product_integral": 0.12903225806451613
+        },
+        "recall": {
+          "remizov": 0.8526315789473684,
+          "monte_carlo": 0.13095238095238096,
+          "product_integral": 0.09302325581395349
+        },
+        "f1": {
+          "remizov": 0.8408304498269896,
+          "monte_carlo": 0.13414634146341464,
+          "product_integral": 0.10810810810810811
+        },
+        "true_class_counts": {
+          "remizov": 570,
+          "monte_carlo": 84,
+          "product_integral": 43
+        },
+        "selection_counts": {
+          "remizov": 586,
+          "monte_carlo": 80,
+          "product_integral": 31
+        },
+        "selection_fractions": {
+          "remizov": 0.8407460545193687,
+          "monte_carlo": 0.11477761836441894,
+          "product_integral": 0.04447632711621234
+        },
+        "non_R_predictions": 111,
+        "selection_errors": 196,
+        "success_count": 682,
+        "success_rate": 0.9784791965566715,
+        "mean_error": 1.2558957562906907,
+        "median_error": 0.0014395312477040179,
+        "max_error": 842.0865810144144,
+        "mean_regret": 1.2529174937488998,
+        "median_regret": 0.0,
+        "max_regret": 842.0180371055671
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.7185921325051761,
+          "sd": 0.14960249987133223
+        },
+        "macro_f1": {
+          "mean": 0.332143260185419,
+          "sd": 0.04364750200156956
+        },
+        "mean_error": {
+          "mean": 1.2520479911116642,
+          "sd": 2.6691698034418616
+        },
+        "mean_regret": {
+          "mean": 1.24907419045875,
+          "sd": 2.6689098820807793
+        },
+        "success_rate": {
+          "mean": 0.9783712905452037,
+          "sd": 0.01595245223442202
+        }
+      }
+    },
+    {
+      "scenario": "old",
+      "policy": "raw",
+      "pooled": {
+        "n": 697,
+        "status": "evaluated",
+        "class_order": [
+          "remizov",
+          "monte_carlo",
+          "product_integral"
+        ],
+        "confusion_matrix": [
+          [
+            302,
+            258,
+            10
+          ],
+          [
+            40,
+            43,
+            1
+          ],
+          [
+            22,
+            21,
+            0
+          ]
+        ],
+        "accuracy": 0.4949784791965567,
+        "balanced_accuracy": 0.3472431077694235,
+        "macro_f1": 0.2861678674275588,
+        "precision": {
+          "remizov": 0.8296703296703297,
+          "monte_carlo": 0.13354037267080746,
+          "product_integral": 0.0
+        },
+        "recall": {
+          "remizov": 0.5298245614035088,
+          "monte_carlo": 0.5119047619047619,
+          "product_integral": 0.0
+        },
+        "f1": {
+          "remizov": 0.6466809421841542,
+          "monte_carlo": 0.21182266009852216,
+          "product_integral": 0.0
+        },
+        "true_class_counts": {
+          "remizov": 570,
+          "monte_carlo": 84,
+          "product_integral": 43
+        },
+        "selection_counts": {
+          "remizov": 364,
+          "monte_carlo": 322,
+          "product_integral": 11
+        },
+        "selection_fractions": {
+          "remizov": 0.5222381635581061,
+          "monte_carlo": 0.4619799139167862,
+          "product_integral": 0.015781922525107604
+        },
+        "non_R_predictions": 333,
+        "selection_errors": 352,
+        "success_count": 668,
+        "success_rate": 0.9583931133428981,
+        "mean_error": 1.2622071212740722,
+        "median_error": 0.0026941532961460846,
+        "max_error": 842.0865810144144,
+        "mean_regret": 1.259228858732281,
+        "median_regret": 1.4131340590514685e-05,
+        "max_regret": 842.0180371055671
+      },
+      "fold_variability": {
+        "accuracy": {
+          "mean": 0.4995232344145387,
+          "sd": 0.3365219545068928
+        },
+        "macro_f1": {
+          "mean": 0.21187286624850699,
+          "sd": 0.10880458864479053
+        },
+        "mean_error": {
+          "mean": 1.2582415856196185,
+          "sd": 2.666175240483928
+        },
+        "mean_regret": {
+          "mean": 1.255267784966704,
+          "sd": 2.6659150951637582
+        },
+        "success_rate": {
+          "mean": 0.958768115942029,
+          "sd": 0.024668906961649615
+        }
+      }
+    }
+  ],
+  "test_labels_accessed": false,
+  "global_selected_hyperparameters_used": false,
+  "numerical_calls": 0
+}

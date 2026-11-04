@@ -1,0 +1,46 @@
+{
+  "schema": "three_method_presentation_update_v1",
+  "date": "2026-11-04",
+  "parent_manifest": "../artifact_sha256.json",
+  "parent_manifest_sha256": "236b9c10bc0cfa7bb4a0683b0b10408a8d739dc08639bb8b23edbf519ee67192",
+  "previous_manifests_preserved": true,
+  "modified_previous_artifacts": {
+    "REPORT.md": {
+      "before_sha256": "8e409c88cde0200e44f767ba898e5d8fec8f9a87483731ec9ce48ede469c8d5d",
+      "backup": "REPORT.before.md",
+      "after_sha256": "797157357ce259b1dc95bf66e7cb39a50f3e74e0b32d1b5a5c62b3806cfb76cd"
+    }
+  },
+  "project_status": {
+    "before_sha256": "3cfe1d06bc860626a01a6dbdacc7c7dad8477c818130063a98d910576b14edf8",
+    "after_sha256": "1e3cb36fc57b92b5be1c400b59f46370e3cd9174071d4371d5bff87ecbc5a678"
+  },
+  "files": {
+    "01_winners.pdf": "f29475e8ca53fcb5de568e4c96077571867d3d83728577a15aca93eb9b45591f",
+    "01_winners.png": "e5f3438134c4a47f6c675b76c4344d379161a8b424210b39e0c250e0b34522ce",
+    "02_accuracy.pdf": "b1b0863c43b91d01e9e8571314198b630bc1d9c7779fb2293dc0b07a6587b862",
+    "02_accuracy.png": "adad296567ccefccd3977dcc1d4fc9f64fc6c29dd38e0a2ceba09dd071f83389",
+    "03_macro_f1.pdf": "aec80d65f551f7b527e9f1290a7ea782cdfe46d18e01cc7bd01fe9db6faac2a4",
+    "03_macro_f1.png": "a365fc85b688df8c7aa43d5dddd20334757e8256a56fff0d2b0ca92094404f84",
+    "04_mean_error.pdf": "3b5723d6adac860949a1180a261c79adfd1dc2d1248bc09a736e622a2b0965d5",
+    "04_mean_error.png": "f198165feffac5fddfa340ef741d88154468dac1cc4f100b53d00ad6fefac3df",
+    "05_confusion_matrix.pdf": "e2708b4d26f70677f29f89c847c9e46947b472a406f88bf223063c54d5ff71dc",
+    "05_confusion_matrix.png": "3097487c791e33629de050fa99e05c1b0fa47f8bf81f27c3b69fb954b0c61d4e",
+    "06_top5_features.pdf": "b44076ddd07c790e7472fbb30142f486dddbcf8b796b23396ce0e36d5e66ea6c",
+    "06_top5_features.png": "fdc4bc18e426b15ce08cb2fff0d7dde90dd1001140262c53d97c4d2d43c6b6aa",
+    "PROJECT_STATUS.after.md": "1e3cb36fc57b92b5be1c400b59f46370e3cd9174071d4371d5bff87ecbc5a678",
+    "PROJECT_STATUS.before.md": "3cfe1d06bc860626a01a6dbdacc7c7dad8477c818130063a98d910576b14edf8",
+    "README.md": "e6dc27671c964d97d6d6ce6311e6ae245577c11f2b25100668e52f90331addaa",
+    "REPORT.before.md": "8e409c88cde0200e44f767ba898e5d8fec8f9a87483731ec9ce48ede469c8d5d",
+    "figure_data.json": "cdf590b04bff00e9601185c7a81534ebb1892a931de25017ce6b6312a845002b",
+    "figure_manifest.json": "9c1728337d893a34828b9b02df755cdd98e89cd54b5d5bbf94019f09a8e7f877",
+    "plot_three_method_presentation.py": "c4f08be85c2ba76d9b34f91eb457511dccb3bb082c647dd836410fd90295c547",
+    "previous_artifacts_sha256.json": "ec1a5ab93f82ef13c5ff27ec0965bfde9e14019c1c95c27d506a0d75cef6bad0",
+    "source_sha256.json": "653b92a1f89deb3d55c3c6ee1ca17060bb2c49fb2b60fe6a740332baa2b05aef",
+    "verification.json": "329fa17ec7a88b90d27b56d61d67b0ffd518e1d81a79ebee740c88ddfe7366da"
+  },
+  "numerical_calls": 0,
+  "fit_calls": 0,
+  "inference_calls": 0,
+  "hyperparameter_search_calls": 0
+}
