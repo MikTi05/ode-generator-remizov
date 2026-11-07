@@ -1,0 +1,84 @@
+{
+  "valid": true,
+  "generation_version": "all_methods_v1",
+  "master_seed": 2488,
+  "total_equations": 20,
+  "total_families": 20,
+  "samples_per_family": 1,
+  "counts_by_split": {
+    "test": 10,
+    "validation": 10
+  },
+  "family_split_leakage": false,
+  "structure_signature_count": 20,
+  "wide_grid_size": 1025,
+  "wide_grid_max_residual": 0.0,
+  "loader_compatibility_checked_ids": [
+    "AMV1_F0000_S00",
+    "AMV1_F0010_S00",
+    "AMV1_F0019_S00"
+  ],
+  "npz_shapes": {
+    "X": [
+      20,
+      4,
+      32
+    ],
+    "channel_order": [
+      4
+    ],
+    "complexity_level": [
+      20
+    ],
+    "dy_exact": [
+      20,
+      32
+    ],
+    "equation_id": [
+      20
+    ],
+    "family_id": [
+      20
+    ],
+    "regime": [
+      20
+    ],
+    "split": [
+      20
+    ],
+    "v0": [
+      20
+    ],
+    "x_grid": [
+      32
+    ],
+    "y0": [
+      20
+    ],
+    "y_exact": [
+      20,
+      32
+    ]
+  },
+  "npz_dtypes": {
+    "X": "float64",
+    "channel_order": "<U1",
+    "complexity_level": "<U2",
+    "dy_exact": "float64",
+    "equation_id": "<U14",
+    "family_id": "<U5",
+    "regime": "<U16",
+    "split": "<U10",
+    "v0": "float64",
+    "x_grid": "float64",
+    "y0": "float64",
+    "y_exact": "float64"
+  },
+  "reproducible_from_seed": true,
+  "sha256": {
+    "all_methods_equations_v1.csv": "ba498e3ee7432fa983a07d994b55b6e359c41fcb5353f20ab6c368b7bb76cd8b",
+    "all_methods_equations_v1_metadata.jsonl": "cef44a1950345a72cc36e7b023ad6e147c16527d3d12501c5be66f5e1afb5e16",
+    "all_methods_equations_v1_ml.npz": "1ce7d9e930138af7743bde726ba1cb68a2ef422dec406f8b901a16da10277d5a",
+    "all_methods_equations_v1_report.json": "8fbe370a582edb6535c6f25ee903cc03fc4e7bb19bf941b7b267f5a72f40f669"
+  }
+}

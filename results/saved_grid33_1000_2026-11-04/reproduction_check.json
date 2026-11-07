@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "builds": 2,
+  "all_six_artifacts_byte_identical": true,
+  "compared_sha256": {
+    "grid33_all1000.csv": "31dbfde0bcc264a7cb6413a8624c73dbff9fcbb68030662f209abf5176c3f52e",
+    "missing_remizov.csv": "c105f337cb4dd371140f87701a3a1b9f9d5b37fde60baeb554e616916cef86cd",
+    "summary.json": "0a9f41ffbf5c8dedcc080f9e5e4c05c67352d94e38bcd36ed6a434b38177a9ff",
+    "input_sha256.json": "c6152a2e7ddb44619ce1de5d463c3e8c3258717341649a8c5b3fcf19da9ad68d",
+    "reproduce.json": "35c6687160b9c2bd1e8aa312a27119e585e461384b186a58feacf4990c042f12",
+    "REPORT.md": "251e6cb6f247fa3dceb0680c90a7e314d69e895ba51eb037aef233abc03d5546"
+  },
+  "original_data_tables_unchanged": true,
+  "independent_verification_reproduced_identically": true,
+  "runtime_import_blocker": [
+    "remizov_solver",
+    "chernov_solver",
+    "mc_solver",
+    "mc_optimized",
+    "all_methods_dataset_loader",
+    "src",
+    "ml",
+    "catboost",
+    "sklearn",
+    "torch",
+    "numba"
+  ],
+  "new_solver_calls": 0,
+  "new_fit_calls": 0,
+  "new_model_inference_calls": 0
+}

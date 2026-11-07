@@ -1,0 +1,97 @@
+{
+  "source": "plot_data.json",
+  "source_origin": "results/grid33_scientific_presentation_2026-11-04/figure_data.json",
+  "source_sha256": "ad41de753b6a5aaca13ea5d68a3c627f2fd9fa04704eea331003ee5eea9f64e6",
+  "same_saved_data": true,
+  "histogram_bins_unchanged": 36,
+  "no_shift_trim_or_recalculation_of_errors": true,
+  "figures": [
+    {
+      "name": "grid33_01_ecdf_common997",
+      "width_cm": 16.5,
+      "height_cm": 15.494,
+      "minimum_text_size_pt": 10,
+      "observations": {
+        "R": 997,
+        "RK4": 997,
+        "PI": 997
+      },
+      "files": [
+        {
+          "path": "figures/grid33_01_ecdf_common997.pdf",
+          "sha256": "b07647f2f57ac3fcd22f32e70e37437bae714da9bc04352b5442e47936f385b3"
+        },
+        {
+          "path": "figures/grid33_01_ecdf_common997.png",
+          "sha256": "ee7dd5380b65d479f2165348aa7ee1baa94b1e2b0923b1a513e845d098d90714"
+        }
+      ]
+    },
+    {
+      "name": "grid33_02_histograms_available",
+      "width_cm": 16.5,
+      "height_cm": 18.669,
+      "minimum_text_size_pt": 10,
+      "observations": {
+        "R": 997,
+        "RK4": 1000,
+        "PI": 1000,
+        "MC": 1000
+      },
+      "files": [
+        {
+          "path": "figures/grid33_02_histograms_available.pdf",
+          "sha256": "511a88fc7fbe8e0bd3ad38a020e14070427174952b6cd17716a8936cee0b5ed8"
+        },
+        {
+          "path": "figures/grid33_02_histograms_available.png",
+          "sha256": "5d65514a8e92489dcdba543a0cd7ae082f00a14b3e8d383aa2888dff13195eb4"
+        }
+      ]
+    },
+    {
+      "name": "grid33_03_remizov_exceedances",
+      "width_cm": 16.5,
+      "height_cm": 19.431,
+      "minimum_text_size_pt": 10,
+      "observations": {
+        "R_exceedances": 27
+      },
+      "files": [
+        {
+          "path": "figures/grid33_03_remizov_exceedances.pdf",
+          "sha256": "7b74a8eb390b51a74edb2b9a1f3c3c60eec592c26462348f44bbb2f60ac8ec5c"
+        },
+        {
+          "path": "figures/grid33_03_remizov_exceedances.png",
+          "sha256": "d33419993e99bf3f257b307cd8f63fbcd10b38c1c9a86f5b5a9a0d56c1237cb0"
+        }
+      ]
+    },
+    {
+      "name": "grid33_04_threshold_shares",
+      "width_cm": 16.5,
+      "height_cm": 16.764,
+      "minimum_text_size_pt": 10,
+      "observations": {
+        "denominator": 1000,
+        "R_pass": 970,
+        "RK4_pass": 1000,
+        "PI_pass": 404,
+        "MC_bound_fail": 62,
+        "MC_unknown": 938
+      },
+      "files": [
+        {
+          "path": "figures/grid33_04_threshold_shares.pdf",
+          "sha256": "86226b2583600755c3c2840c2f5b6d56442407c79558b551ab3b48fe060952e5"
+        },
+        {
+          "path": "figures/grid33_04_threshold_shares.png",
+          "sha256": "6c9a78af5ef997787cfaa3260f96a08f3179573bf9cb3307aff427554ff87960"
+        }
+      ]
+    }
+  ],
+  "new_solver_MC_ML_calls": 0
+}

@@ -1,0 +1,237 @@
+{
+  "original_sha256": "879b6a66156c0e3e7511f4ef1ffd48c1bd5110260c14bc0e681e66063f3a17e2",
+  "original_backup_identical": true,
+  "report_sha256": "5a197fe4bb718373854c871281ca8ffd2ab16271c08d7f89d60828bb8d26d6b8",
+  "latex_static": {
+    "braces_balanced": true,
+    "environments_balanced": true,
+    "labels_unique": 39,
+    "references_resolved": 49,
+    "citations_resolved": [
+      "repo2488",
+      "savedboundary",
+      "savedgrid",
+      "savedmodels"
+    ],
+    "figures_present_and_byte_identical": 13
+  },
+  "binary_selected253": {
+    "validation": {
+      "label": "selected253 new",
+      "n": "100",
+      "confusion_matrix": "[[86, 1], [11, 2]]",
+      "accuracy": "0.88",
+      "balanced_accuracy": "0.5711759504862953",
+      "macro_f1": "0.5923913043478262",
+      "mc_precision": "0.6666666666666666",
+      "mc_recall": "0.15384615384615385",
+      "mc_f1": "0.25",
+      "mc_correct": "2",
+      "mc_false": "1",
+      "mc_missed": "11",
+      "mc_predictions": "3",
+      "success_count": "99",
+      "success_rate": "0.99",
+      "mean_error": "0.0033090238375156635",
+      "median_error": "0.0010565288791297284",
+      "mean_regret": "0.0007103512814988237",
+      "median_regret": "0.0",
+      "max_regret": "0.035975937531931845",
+      "candidate_id": "new__X__classifier__w1__baseline",
+      "scenario": "new",
+      "split": "validation",
+      "policy": "grid_0.25",
+      "threshold": "0.25",
+      "feature_set": "X",
+      "kind": "classifier",
+      "weight": "1.0",
+      "source": "recomputed from existing scores; checked against saved metrics"
+    },
+    "test": {
+      "label": "selected253 new",
+      "n": "150",
+      "confusion_matrix": "[[136, 5], [8, 1]]",
+      "accuracy": "0.9133333333333333",
+      "balanced_accuracy": "0.5378250591016548",
+      "macro_f1": "0.543859649122807",
+      "mc_precision": "0.16666666666666666",
+      "mc_recall": "0.1111111111111111",
+      "mc_f1": "0.13333333333333333",
+      "mc_correct": "1",
+      "mc_false": "5",
+      "mc_missed": "8",
+      "mc_predictions": "6",
+      "success_count": "146",
+      "success_rate": "0.9733333333333334",
+      "mean_error": "1.6597952570334338",
+      "median_error": "0.0011065436233683446",
+      "mean_regret": "1.65589914486",
+      "median_regret": "0.0",
+      "max_regret": "248.21999576573202",
+      "candidate_id": "new__X__classifier__w1__baseline",
+      "scenario": "new",
+      "split": "test",
+      "policy": "grid_0.25",
+      "threshold": "0.25",
+      "feature_set": "X",
+      "kind": "classifier",
+      "weight": "1.0",
+      "source": "recomputed from existing scores; checked against saved metrics"
+    }
+  },
+  "binary_diagnostic258": {
+    "validation": {
+      "label": "diagnostic258 new",
+      "n": "100",
+      "confusion_matrix": "[[84, 3], [8, 5]]",
+      "accuracy": "0.89",
+      "balanced_accuracy": "0.6750663129973475",
+      "macro_f1": "0.7073689811119979",
+      "mc_precision": "0.625",
+      "mc_recall": "0.38461538461538464",
+      "mc_f1": "0.47619047619047616",
+      "mc_correct": "5",
+      "mc_false": "3",
+      "mc_missed": "8",
+      "mc_predictions": "8",
+      "success_count": "99",
+      "success_rate": "0.99",
+      "mean_error": "0.003474702686977319",
+      "median_error": "0.001046895969941869",
+      "mean_regret": "0.0008760301309604797",
+      "median_regret": "0.0",
+      "max_regret": "0.035975937531931845",
+      "candidate_id": "new__augmented__classifier__w1__baseline",
+      "scenario": "new",
+      "split": "validation",
+      "policy": "validation_optimal",
+      "threshold": "0.2006671072130637",
+      "feature_set": "augmented",
+      "kind": "classifier",
+      "weight": "1.0",
+      "source": "recomputed from existing scores; checked against saved metrics"
+    },
+    "test": {
+      "label": "diagnostic258 new",
+      "n": "150",
+      "confusion_matrix": "[[127, 14], [3, 6]]",
+      "accuracy": "0.8866666666666667",
+      "balanced_accuracy": "0.7836879432624113",
+      "macro_f1": "0.6755312380710013",
+      "mc_precision": "0.3",
+      "mc_recall": "0.6666666666666666",
+      "mc_f1": "0.41379310344827586",
+      "mc_correct": "6",
+      "mc_false": "14",
+      "mc_missed": "3",
+      "mc_predictions": "20",
+      "success_count": "145",
+      "success_rate": "0.9666666666666667",
+      "mean_error": "0.005604052376948204",
+      "median_error": "0.001145287581707427",
+      "mean_regret": "0.0017079402035143952",
+      "median_regret": "0.0",
+      "max_regret": "0.06479997355309741",
+      "candidate_id": "new__augmented__classifier__w1__baseline",
+      "scenario": "new",
+      "split": "test",
+      "policy": "validation_optimal",
+      "threshold": "0.2006671072130637",
+      "feature_set": "augmented",
+      "kind": "classifier",
+      "weight": "1.0",
+      "source": "recomputed from existing scores; checked against saved metrics"
+    }
+  },
+  "three_selected_test": {
+    "candidate_id": "new__augmented__classifier__w1__medium",
+    "scenario": "new",
+    "policy": "validation_optimal",
+    "biases": [
+      0.7585894996714374,
+      1.4368175228112068
+    ],
+    "selected_on_validation": true,
+    "n": 150,
+    "status": "evaluated",
+    "class_order": [
+      "remizov",
+      "monte_carlo",
+      "product_integral"
+    ],
+    "confusion_matrix": [
+      [
+        133,
+        3,
+        0
+      ],
+      [
+        7,
+        0,
+        0
+      ],
+      [
+        6,
+        1,
+        0
+      ]
+    ],
+    "accuracy": 0.8866666666666667,
+    "balanced_accuracy": 0.32598039215686275,
+    "macro_f1": 0.3144208037825059,
+    "precision": {
+      "remizov": 0.910958904109589,
+      "monte_carlo": 0.0,
+      "product_integral": 0.0
+    },
+    "recall": {
+      "remizov": 0.9779411764705882,
+      "monte_carlo": 0.0,
+      "product_integral": 0.0
+    },
+    "f1": {
+      "remizov": 0.9432624113475178,
+      "monte_carlo": 0.0,
+      "product_integral": 0.0
+    },
+    "true_class_counts": {
+      "remizov": 136,
+      "monte_carlo": 7,
+      "product_integral": 7
+    },
+    "selection_counts": {
+      "remizov": 146,
+      "monte_carlo": 4,
+      "product_integral": 0
+    },
+    "selection_fractions": {
+      "remizov": 0.9733333333333334,
+      "monte_carlo": 0.02666666666666667,
+      "product_integral": 0.0
+    },
+    "non_R_predictions": 4,
+    "selection_errors": 17,
+    "success_count": 147,
+    "success_rate": 0.98,
+    "mean_error": 1.6588504604511507,
+    "median_error": 0.001124277764123327,
+    "max_error": 248.32307672784063,
+    "mean_regret": 1.6552717131047936,
+    "median_regret": 0.0,
+    "max_regret": 248.21999576573202
+  },
+  "grid_evidence": "grid33_verification.json and grid33_per_equation.csv",
+  "new_solver_calls": 0,
+  "new_fit_calls": 0,
+  "new_model_inference_calls": 0,
+  "latex_compiler_available": {
+    "pdflatex": null,
+    "xelatex": null,
+    "lualatex": null,
+    "tectonic": null,
+    "latexmk": null
+  },
+  "pdf_compiled": false,
+  "visual_page_layout_verified": false,
+  "limitation": "No local TeX engine; static validation only. Original PNG figures preserved."
+}

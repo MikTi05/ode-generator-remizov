@@ -1,0 +1,154 @@
+{
+  "schema": "cost60_analysis_v1",
+  "epsilon": 0.01,
+  "equations": 60,
+  "profiles": 480,
+  "solver_calls": 2880,
+  "measured_calls": 2400,
+  "warmup_calls": 480,
+  "raw_method_winners": {
+    "rk4": 60,
+    "product_integral": 0
+  },
+  "raw_method_win_fraction": {
+    "rk4": 1.0,
+    "product_integral": 0.0
+  },
+  "robust_method_winners": {
+    "rk4": 56,
+    "practical_tie_or_unstable": 4
+  },
+  "oracle_configuration_winners": {
+    "rk4_N32": 59,
+    "rk4_N64": 1
+  },
+  "no_configuration_meets_tolerance": [],
+  "unknown_due_to_failure": [],
+  "best_constant": {
+    "method": "rk4",
+    "N": 64,
+    "configuration": "rk4_N64",
+    "successful": 60,
+    "accurate": 60,
+    "total_solver_seconds": 7.197771627000002,
+    "mean_solver_seconds": 0.11996286045,
+    "mean_E33": 1.7576354705484598e-05,
+    "max_E33": 0.0002747975705021388,
+    "stable_profiles": 60
+  },
+  "max_coverage_constant": {
+    "method": "rk4",
+    "N": 64,
+    "configuration": "rk4_N64",
+    "successful": 60,
+    "accurate": 60,
+    "total_solver_seconds": 7.197771627000002,
+    "mean_solver_seconds": 0.11996286045,
+    "mean_E33": 1.7576354705484598e-05,
+    "max_E33": 0.0002747975705021388,
+    "stable_profiles": 60
+  },
+  "stable_profile_fraction": 1.0,
+  "gains": {
+    "raw_oracle_vs_best_constant": {
+      "n": 60,
+      "baseline_mean_seconds": 0.11996286045,
+      "selected_mean_seconds": 0.0620389597,
+      "mean_absolute_saving_seconds": 0.05792390075,
+      "pooled_saving_fraction": 0.48284861275163093,
+      "mean_relative_saving_fraction": 0.4919670508126855,
+      "median_relative_saving_fraction": 0.500801024273827,
+      "total_baseline_seconds": 7.197771626999999,
+      "total_selected_seconds": 3.7223375819999998
+    },
+    "conservative_oracle_vs_best_constant": {
+      "n": 60,
+      "baseline_mean_seconds": 0.11996286045,
+      "selected_mean_seconds": 0.0620389597,
+      "mean_absolute_saving_seconds": 0.05792390075,
+      "pooled_saving_fraction": 0.48284861275163093,
+      "mean_relative_saving_fraction": 0.4919670508126855,
+      "median_relative_saving_fraction": 0.500801024273827,
+      "total_baseline_seconds": 7.197771626999999,
+      "total_selected_seconds": 3.7223375819999998
+    },
+    "raw_oracle_vs_rk4_only_oracle": {
+      "n": 60,
+      "baseline_mean_seconds": 0.0620389597,
+      "selected_mean_seconds": 0.0620389597,
+      "mean_absolute_saving_seconds": 0.0,
+      "pooled_saving_fraction": 0.0,
+      "mean_relative_saving_fraction": 0.0,
+      "median_relative_saving_fraction": 0.0,
+      "total_baseline_seconds": 3.7223375819999998,
+      "total_selected_seconds": 3.7223375819999998
+    },
+    "conservative_oracle_vs_rk4_only_oracle": {
+      "n": 60,
+      "baseline_mean_seconds": 0.0620389597,
+      "selected_mean_seconds": 0.0620389597,
+      "mean_absolute_saving_seconds": 0.0,
+      "pooled_saving_fraction": 0.0,
+      "mean_relative_saving_fraction": 0.0,
+      "median_relative_saving_fraction": 0.0,
+      "total_baseline_seconds": 3.7223375819999998,
+      "total_selected_seconds": 3.7223375819999998
+    },
+    "raw_oracle_vs_rk4_minN_rule": {
+      "n": 60,
+      "baseline_mean_seconds": 0.0620389597,
+      "selected_mean_seconds": 0.0620389597,
+      "mean_absolute_saving_seconds": 0.0,
+      "pooled_saving_fraction": 0.0,
+      "mean_relative_saving_fraction": 0.0,
+      "median_relative_saving_fraction": 0.0,
+      "total_baseline_seconds": 3.7223375819999998,
+      "total_selected_seconds": 3.7223375819999998
+    },
+    "conservative_oracle_vs_rk4_minN_rule": {
+      "n": 60,
+      "baseline_mean_seconds": 0.0620389597,
+      "selected_mean_seconds": 0.0620389597,
+      "mean_absolute_saving_seconds": 0.0,
+      "pooled_saving_fraction": 0.0,
+      "mean_relative_saving_fraction": 0.0,
+      "median_relative_saving_fraction": 0.0,
+      "total_baseline_seconds": 3.7223375819999998,
+      "total_selected_seconds": 3.7223375819999998
+    }
+  },
+  "PI_savings": {
+    "raw_PI_winners": null,
+    "robust_PI_winners": null
+  },
+  "GO_thresholds": {
+    "minority_fraction": 0.2,
+    "minimum_pooled_saving": 0.1,
+    "minimum_mean_relative_saving": 0.1,
+    "practical_speed_margin": 0.1,
+    "max_relative_MAD": 0.2,
+    "minimum_stable_profile_fraction": 0.9,
+    "minimum_robust_each_method": 12,
+    "minimum_total_solved": 60
+  },
+  "GO_gates": {
+    "all60_solved": true,
+    "no_unknown_minimum": true,
+    "constant_meets_tolerance_on60": true,
+    "rk4_only_covers60": true,
+    "heterogeneous_raw_winners": false,
+    "robust_each_method": false,
+    "stable_profile_fraction": true,
+    "practical_gain_vs_best_constant": true,
+    "practical_gain_vs_rk4_only_oracle": false
+  },
+  "recommendation": "NO-GO",
+  "failed_GO_gates": [
+    "heterogeneous_raw_winners",
+    "robust_each_method",
+    "practical_gain_vs_rk4_only_oracle"
+  ],
+  "new_ML_fits": 0,
+  "MC_calls": 0,
+  "remizov_calls": 0
+}

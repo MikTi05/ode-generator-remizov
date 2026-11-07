@@ -1,0 +1,2597 @@
+{
+  "status": "passed",
+  "checks": 615,
+  "raw_split_counts": {
+    "validation": 150,
+    "train": 700,
+    "test": 150
+  },
+  "cost_candidates": 700,
+  "boundary_pool": 850,
+  "boundary_available": 847,
+  "missing_remizov": [
+    "AMV1_F0134_S03",
+    "AMV1_F0136_S01",
+    "AMV1_F0139_S00"
+  ],
+  "test_exceedances": [
+    "AMV1_F0052_S00",
+    "AMV1_F0070_S04",
+    "AMV1_F0180_S00",
+    "AMV1_F0180_S01",
+    "AMV1_F0180_S04"
+  ],
+  "original_exceedance_counts": {
+    "train": 17,
+    "test": 5,
+    "validation": 5
+  },
+  "top_two": [
+    {
+      "equation_id": "AMV1_F0141_S00",
+      "E33": 19704.50191093058
+    },
+    {
+      "equation_id": "AMV1_F0180_S04",
+      "E33": 19134.405186775984
+    }
+  ],
+  "top_two_share_percent": 98.84262516870093,
+  "stable_timings": 480,
+  "accuracy_only_wins": 53,
+  "time_margin_wins": 3,
+  "close_cases": [
+    {
+      "equation_id": "AMV1_F0174_S00",
+      "RK4_N": 32,
+      "PI_N": 128,
+      "RK4_median_ms": 110.915292,
+      "PI_median_ms": 114.789042,
+      "RK4_saving_percent": 3.3746688120282364,
+      "intervals_separated": false,
+      "RK4_min_ms": 108.760291,
+      "RK4_max_ms": 113.317375,
+      "PI_min_ms": 111.281958,
+      "PI_max_ms": 116.206166
+    },
+    {
+      "equation_id": "AMV1_F0169_S04",
+      "RK4_N": 32,
+      "PI_N": 128,
+      "RK4_median_ms": 112.83770799999999,
+      "PI_median_ms": 115.274958,
+      "RK4_saving_percent": 2.11429268098281,
+      "intervals_separated": true,
+      "RK4_min_ms": 112.10666599999999,
+      "RK4_max_ms": 113.96508299999999,
+      "PI_min_ms": 114.63104200000001,
+      "PI_max_ms": 116.05175
+    },
+    {
+      "equation_id": "AMV1_F0117_S00",
+      "RK4_N": 32,
+      "PI_N": 128,
+      "RK4_median_ms": 77.3055,
+      "PI_median_ms": 81.220584,
+      "RK4_saving_percent": 4.82031008297108,
+      "intervals_separated": true,
+      "RK4_min_ms": 75.98487499999999,
+      "RK4_max_ms": 78.432666,
+      "PI_min_ms": 79.98525,
+      "PI_max_ms": 81.864333
+    },
+    {
+      "equation_id": "AMV1_F0033_S01",
+      "RK4_N": 32,
+      "PI_N": 128,
+      "RK4_median_ms": 29.293416999999998,
+      "PI_median_ms": 32.397375,
+      "RK4_saving_percent": 9.580893513749189,
+      "intervals_separated": true,
+      "RK4_min_ms": 28.740792000000003,
+      "RK4_max_ms": 29.968249999999998,
+      "PI_min_ms": 31.408625000000004,
+      "PI_max_ms": 32.73525
+    }
+  ],
+  "old_train_to_new_validation": 95,
+  "old_validation_to_new_train": 145,
+  "three_method_features": 258,
+  "biases": [
+    0.7585894996714374,
+    1.4368175228112068
+  ],
+  "feature_importance_top5": [
+    {
+      "candidate_id": "new__augmented__classifier__w1__medium",
+      "feature": "b_rms",
+      "importance": "10.359927487306017"
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w1__medium",
+      "feature": "b_sample_24",
+      "importance": "5.147267623718971"
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w1__medium",
+      "feature": "cert_remizov_lambda",
+      "importance": "4.847485441561256"
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w1__medium",
+      "feature": "a_total_variation",
+      "importance": "4.617271344210144"
+    },
+    {
+      "candidate_id": "new__augmented__classifier__w1__medium",
+      "feature": "pre_diffusive_length",
+      "importance": "4.270500978151543"
+    }
+  ],
+  "new_solver_calls": 0,
+  "new_MC_calls": 0,
+  "new_model_fits": 0,
+  "new_model_predictions": 0,
+  "all_checks": [
+    {
+      "check": "raw dataset 700/150/150",
+      "passed": true
+    },
+    {
+      "check": "ML split dimensions",
+      "passed": true
+    },
+    {
+      "check": "same historical Test",
+      "passed": true
+    },
+    {
+      "check": "cost pool 700; boundary pool 850",
+      "passed": true
+    },
+    {
+      "check": "missing IDs and original Train",
+      "passed": true
+    },
+    {
+      "check": "27 exceedances; 5 Test; 22 outside Test",
+      "passed": true
+    },
+    {
+      "check": "boundary audit matches independent count",
+      "passed": true
+    },
+    {
+      "check": "all 60 selected IDs and order reproduced",
+      "passed": true
+    },
+    {
+      "check": "60 unique families/topologies and 20 cells",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0005_S01/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0005_S01/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0005_S01/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0005_S01/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0005_S01/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0005_S01/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0005_S01/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0005_S01/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0008_S01/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0008_S01/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0008_S01/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0008_S01/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0008_S01/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0008_S01/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0008_S01/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0008_S01/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0009_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0009_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0009_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0009_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0009_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0009_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0009_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0009_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0010_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0010_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0010_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0010_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0010_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0010_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0010_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0010_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0012_S04/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0012_S04/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0012_S04/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0012_S04/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0012_S04/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0012_S04/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0012_S04/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0012_S04/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0018_S03/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0018_S03/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0018_S03/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0018_S03/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0018_S03/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0018_S03/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0018_S03/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0018_S03/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0020_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0020_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0020_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0020_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0020_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0020_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0020_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0020_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0024_S04/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0024_S04/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0024_S04/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0024_S04/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0024_S04/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0024_S04/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0024_S04/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0024_S04/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0027_S01/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0027_S01/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0027_S01/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0027_S01/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0027_S01/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0027_S01/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0027_S01/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0027_S01/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0033_S01/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0033_S01/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0033_S01/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0033_S01/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0033_S01/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0033_S01/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0033_S01/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0033_S01/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0037_S03/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0037_S03/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0037_S03/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0037_S03/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0037_S03/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0037_S03/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0037_S03/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0037_S03/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0039_S01/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0039_S01/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0039_S01/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0039_S01/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0039_S01/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0039_S01/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0039_S01/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0039_S01/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0040_S02/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0040_S02/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0040_S02/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0040_S02/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0040_S02/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0040_S02/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0040_S02/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0040_S02/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0044_S04/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0044_S04/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0044_S04/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0044_S04/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0044_S04/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0044_S04/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0044_S04/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0044_S04/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0048_S02/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0048_S02/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0048_S02/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0048_S02/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0048_S02/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0048_S02/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0048_S02/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0048_S02/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0051_S03/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0051_S03/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0051_S03/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0051_S03/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0051_S03/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0051_S03/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0051_S03/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0051_S03/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0054_S03/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0054_S03/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0054_S03/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0054_S03/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0054_S03/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0054_S03/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0054_S03/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0054_S03/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0056_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0056_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0056_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0056_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0056_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0056_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0056_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0056_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0061_S01/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0061_S01/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0061_S01/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0061_S01/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0061_S01/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0061_S01/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0061_S01/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0061_S01/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0062_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0062_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0062_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0062_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0062_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0062_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0062_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0062_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0066_S03/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0066_S03/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0066_S03/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0066_S03/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0066_S03/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0066_S03/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0066_S03/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0066_S03/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0073_S02/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0073_S02/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0073_S02/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0073_S02/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0073_S02/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0073_S02/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0073_S02/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0073_S02/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0076_S03/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0076_S03/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0076_S03/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0076_S03/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0076_S03/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0076_S03/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0076_S03/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0076_S03/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0078_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0078_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0078_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0078_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0078_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0078_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0078_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0078_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0080_S01/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0080_S01/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0080_S01/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0080_S01/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0080_S01/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0080_S01/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0080_S01/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0080_S01/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0086_S01/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0086_S01/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0086_S01/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0086_S01/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0086_S01/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0086_S01/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0086_S01/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0086_S01/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0087_S01/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0087_S01/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0087_S01/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0087_S01/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0087_S01/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0087_S01/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0087_S01/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0087_S01/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0092_S02/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0092_S02/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0092_S02/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0092_S02/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0092_S02/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0092_S02/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0092_S02/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0092_S02/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0097_S04/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0097_S04/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0097_S04/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0097_S04/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0097_S04/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0097_S04/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0097_S04/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0097_S04/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0099_S01/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0099_S01/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0099_S01/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0099_S01/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0099_S01/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0099_S01/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0099_S01/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0099_S01/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0105_S02/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0105_S02/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0105_S02/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0105_S02/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0105_S02/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0105_S02/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0105_S02/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0105_S02/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0107_S03/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0107_S03/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0107_S03/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0107_S03/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0107_S03/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0107_S03/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0107_S03/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0107_S03/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0108_S03/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0108_S03/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0108_S03/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0108_S03/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0108_S03/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0108_S03/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0108_S03/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0108_S03/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0110_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0110_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0110_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0110_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0110_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0110_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0110_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0110_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0115_S02/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0115_S02/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0115_S02/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0115_S02/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0115_S02/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0115_S02/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0115_S02/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0115_S02/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0117_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0117_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0117_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0117_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0117_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0117_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0117_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0117_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0122_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0122_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0122_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0122_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0122_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0122_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0122_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0122_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0128_S02/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0128_S02/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0128_S02/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0128_S02/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0128_S02/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0128_S02/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0128_S02/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0128_S02/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0129_S04/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0129_S04/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0129_S04/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0129_S04/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0129_S04/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0129_S04/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0129_S04/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0129_S04/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0132_S04/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0132_S04/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0132_S04/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0132_S04/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0132_S04/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0132_S04/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0132_S04/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0132_S04/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0136_S04/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0136_S04/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0136_S04/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0136_S04/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0136_S04/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0136_S04/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0136_S04/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0136_S04/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0138_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0138_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0138_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0138_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0138_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0138_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0138_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0138_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0147_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0147_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0147_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0147_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0147_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0147_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0147_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0147_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0148_S04/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0148_S04/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0148_S04/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0148_S04/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0148_S04/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0148_S04/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0148_S04/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0148_S04/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0149_S03/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0149_S03/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0149_S03/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0149_S03/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0149_S03/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0149_S03/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0149_S03/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0149_S03/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0150_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0150_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0150_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0150_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0150_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0150_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0150_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0150_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0153_S03/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0153_S03/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0153_S03/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0153_S03/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0153_S03/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0153_S03/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0153_S03/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0153_S03/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0156_S01/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0156_S01/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0156_S01/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0156_S01/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0156_S01/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0156_S01/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0156_S01/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0156_S01/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0160_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0160_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0160_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0160_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0160_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0160_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0160_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0160_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0165_S03/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0165_S03/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0165_S03/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0165_S03/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0165_S03/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0165_S03/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0165_S03/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0165_S03/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0169_S04/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0169_S04/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0169_S04/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0169_S04/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0169_S04/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0169_S04/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0169_S04/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0169_S04/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0174_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0174_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0174_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0174_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0174_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0174_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0174_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0174_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0175_S03/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0175_S03/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0175_S03/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0175_S03/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0175_S03/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0175_S03/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0175_S03/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0175_S03/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0176_S01/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0176_S01/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0176_S01/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0176_S01/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0176_S01/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0176_S01/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0176_S01/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0176_S01/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0184_S03/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0184_S03/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0184_S03/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0184_S03/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0184_S03/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0184_S03/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0184_S03/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0184_S03/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0186_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0186_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0186_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0186_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0186_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0186_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0186_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0186_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0187_S03/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0187_S03/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0187_S03/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0187_S03/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0187_S03/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0187_S03/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0187_S03/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0187_S03/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0192_S01/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0192_S01/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0192_S01/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0192_S01/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0192_S01/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0192_S01/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0192_S01/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0192_S01/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0195_S00/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0195_S00/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0195_S00/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0195_S00/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0195_S00/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0195_S00/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0195_S00/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0195_S00/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0197_S01/product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0197_S01/product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0197_S01/product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0197_S01/product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0197_S01/rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0197_S01/rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0197_S01/rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "repeat statistics AMV1_F0197_S01/rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0037_S03",
+      "passed": true
+    },
+    {
+      "check": "independent robust comparison AMV1_F0037_S03",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0138_S00",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0138_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0122_S00",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0122_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0092_S02",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0092_S02",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0027_S01",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0027_S01",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0174_S00",
+      "passed": true
+    },
+    {
+      "check": "independent robust comparison AMV1_F0174_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0175_S03",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0175_S03",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0150_S00",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0150_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0186_S00",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0186_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0147_S00",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0147_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0169_S04",
+      "passed": true
+    },
+    {
+      "check": "independent robust comparison AMV1_F0169_S04",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0054_S03",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0054_S03",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0105_S02",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0105_S02",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0128_S02",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0128_S02",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0197_S01",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0197_S01",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0117_S00",
+      "passed": true
+    },
+    {
+      "check": "independent robust comparison AMV1_F0117_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0078_S00",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0078_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0048_S02",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0048_S02",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0187_S03",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0187_S03",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0136_S04",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0136_S04",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0148_S04",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0148_S04",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0020_S00",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0020_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0009_S00",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0009_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0097_S04",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0097_S04",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0132_S04",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0132_S04",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0024_S04",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0024_S04",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0176_S01",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0176_S01",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0087_S01",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0087_S01",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0033_S01",
+      "passed": true
+    },
+    {
+      "check": "independent robust comparison AMV1_F0033_S01",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0073_S02",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0073_S02",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0051_S03",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0051_S03",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0192_S01",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0192_S01",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0008_S01",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0008_S01",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0062_S00",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0062_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0115_S02",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0115_S02",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0110_S00",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0110_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0153_S03",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0153_S03",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0066_S03",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0066_S03",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0010_S00",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0010_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0061_S01",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0061_S01",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0107_S03",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0107_S03",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0184_S03",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0184_S03",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0160_S00",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0160_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0165_S03",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0165_S03",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0086_S01",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0086_S01",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0080_S01",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0080_S01",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0040_S02",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0040_S02",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0039_S01",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0039_S01",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0099_S01",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0099_S01",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0044_S04",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0044_S04",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0149_S03",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0149_S03",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0108_S03",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0108_S03",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0056_S00",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0056_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0156_S01",
+      "passed": true
+    },
+    {
+      "check": "independent robust comparison AMV1_F0156_S01",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0005_S01",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0005_S01",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0012_S04",
+      "passed": true
+    },
+    {
+      "check": "independent robust comparison AMV1_F0012_S04",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0195_S00",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0195_S00",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0076_S03",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0076_S03",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0018_S03",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0018_S03",
+      "passed": true
+    },
+    {
+      "check": "raw winner AMV1_F0129_S04",
+      "passed": true
+    },
+    {
+      "check": "missing rival marked robust AMV1_F0129_S04",
+      "passed": true
+    },
+    {
+      "check": "stable 480; robust bookkeeping 53+3; 4 close",
+      "passed": true
+    },
+    {
+      "check": "largest two 98.842625 percent",
+      "passed": true
+    },
+    {
+      "check": "six full equation IDs exist",
+      "passed": true
+    },
+    {
+      "check": "exact 258 saved feature names",
+      "passed": true
+    },
+    {
+      "check": "saved three probabilities sum to one",
+      "passed": true
+    },
+    {
+      "check": "correct top features",
+      "passed": true
+    }
+  ]
+}

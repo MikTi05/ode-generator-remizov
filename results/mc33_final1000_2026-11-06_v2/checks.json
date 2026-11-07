@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "pytest": {
+    "passed": 77,
+    "seconds": 3.03,
+    "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_mc33_final.py tests/test_mc33_parallel.py tests/test_saved_grid33.py tests/test_four_method_accuracy.py"
+  },
+  "independent_verification_passed": true,
+  "canonical_equations": 1000,
+  "valid_MC1_calls": 4000,
+  "problem_equations": 0,
+  "primary_accurate_005": 740,
+  "mean4_supplementary_accurate_005": 870,
+  "figures_visually_checked": 5,
+  "figure_files": 10,
+  "new_solver_calls": 0,
+  "new_fit_calls": 0,
+  "latex_changed": false,
+  "source_files": [
+    "diagnostics/finalize_mc33.py",
+    "diagnostics/verify_mc33_final.py",
+    "tests/test_mc33_final.py"
+  ],
+  "incomplete_first_report_build_preserved": "results/mc33_final1000_2026-11-06",
+  "incomplete_build_reason": "report JSON serializer encountered NumPy int key; numeric data unaffected; corrected before v2 release"
+}

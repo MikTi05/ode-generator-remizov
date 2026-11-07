@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "original_files_checked": 319,
+  "unchanged_original_files": 318,
+  "changed_original_files": [
+    "PROJECT_STATUS.md"
+  ],
+  "change_scope": "Only project status documentation; former content backed up and retained. No code/config/test/dataset modifications.",
+  "status_before_sha256": "e551a7848fc05e2cc6e15fb38590067ca6a7d4915b491be07fbbeb0954d6369f",
+  "status_backup_matches_before": true,
+  "mathematical_core_matches_migration_manifest": {
+    "src/all_methods_dataset_v1.py": true,
+    "src/all_methods_expressions.py": true,
+    "remizov_solver.py": true
+  },
+  "solver_calls": 0,
+  "prior_status_body_retained": true
+}

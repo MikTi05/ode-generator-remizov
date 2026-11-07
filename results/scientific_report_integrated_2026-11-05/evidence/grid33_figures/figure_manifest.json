@@ -1,0 +1,65 @@
+{
+  "figures": [
+    {
+      "name": "01_ecdf_common997",
+      "caption": "Общие 997 задач; логарифмическая ось ошибок, линейная накопленная доля. MC не показан, поскольку E33 неизвестна.",
+      "source": "CSV: R_E33/RK4_E33/PI_E33; R_available=True",
+      "files": [
+        {
+          "path": "figures/01_ecdf_common997.png",
+          "sha256": "bb559b83a597f289be2eac69055b0a19eba3c03d0546b69d20b43db79ee95ee1"
+        },
+        {
+          "path": "figures/01_ecdf_common997.pdf",
+          "sha256": "cd1ede9a707929b2462032991e025886329f1c5edd165f18d4be5e1af27a1882"
+        }
+      ]
+    },
+    {
+      "name": "02_histograms_available",
+      "caption": "Равные интервалы по log10 ошибки, доля в каждом интервале. MC-панель показывает только E0 как нижнюю границу E33; её нельзя читать как распределение MC E33. Все наблюдения сохранены.",
+      "source": "CSV: all available errors, MC_E0_lower_bound",
+      "files": [
+        {
+          "path": "figures/02_histograms_available.png",
+          "sha256": "1725a1378b2ecc02f454824a0eec44a4027145ec14094792a5baf087de2f9297"
+        },
+        {
+          "path": "figures/02_histograms_available.pdf",
+          "sha256": "2df2a46b65f09e68126428eb0a16f367846e980ae3c347a65b9734f1e8781580"
+        }
+      ]
+    },
+    {
+      "name": "03_remizov_exceedances",
+      "caption": "Показаны все ответы Ремизова с E33>0,05, без удаления из основных статистик. Два крупнейших выделены цветом; «выброс» здесь описательное слово, не результат статистического теста.",
+      "source": "CSV: R_E33>0.05; descending error",
+      "files": [
+        {
+          "path": "figures/03_remizov_exceedances.png",
+          "sha256": "1a81a407e966bbb77f302389bdb0e85c95c69f9caf30fc5c9a565ac87adb3fcb"
+        },
+        {
+          "path": "figures/03_remizov_exceedances.pdf",
+          "sha256": "21619c7c4cd8d622db456bc0b0f4af556ff760c274b7ab33bf9a0fdd9ac95aaa"
+        }
+      ]
+    },
+    {
+      "name": "04_threshold_shares",
+      "caption": "Доли от всех 1000 задач: пропуски R не считаются численными нарушениями. У MC нет измерений E33: 62 нарушения следуют из E0, для 938 достижение допуска неизвестно; условие — тот же ответ MC в нуле.",
+      "source": "CSV: availability and threshold evidence; denominator=1000",
+      "files": [
+        {
+          "path": "figures/04_threshold_shares.png",
+          "sha256": "df5de68c2a34aaa70430529de7e927749efa0f9fee87102a6bea6ca4babae223"
+        },
+        {
+          "path": "figures/04_threshold_shares.pdf",
+          "sha256": "e424b652a2e90ecf31af97eb48f2e9a802ede9eb77e7b701b00c3e5799a31fc4"
+        }
+      ]
+    }
+  ],
+  "logarithm": "base10 error axis, linear fractions; no zero shift or trimming"
+}

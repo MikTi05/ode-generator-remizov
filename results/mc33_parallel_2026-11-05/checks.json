@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "pytest": {
+    "passed": 146,
+    "warnings": 1,
+    "seconds": 21.25,
+    "log": "pytest.log",
+    "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_mc33_parallel.py tests/test_mc_solver.py tests/test_mc_optimized.py tests/test_mc_production_x0.py tests/test_mc_pilot_p2.py tests/test_mc_sentinel_p1.py tests/test_chernov_batch_control.py tests/test_all_methods_mc_pipeline.py"
+  },
+  "benchmark_complete_calls": 64,
+  "benchmark_numerical_equivalence": true,
+  "lifecycle_complete_calls": 3,
+  "lifecycle_interrupted_attempts": 1,
+  "lifecycle_sigkill_resume": true,
+  "completed_resume_new_workers": 0,
+  "unchanged_historical_files": 28749,
+  "production_completed": 0,
+  "production_pending": 4000,
+  "production_attempts": 0,
+  "changed_files": [
+    "diagnostics/mc33_parallel.py",
+    "diagnostics/audit_mc33_parallel.py",
+    "diagnostics/report_mc33_parallel.py",
+    "tests/test_mc33_parallel.py",
+    "PROJECT_STATUS.md"
+  ],
+  "new_artifact_directory": "results/mc33_parallel_2026-11-05",
+  "source_sha256": {
+    "diagnostics/mc33_parallel.py": "1bb03ec579b08d163356e1841a27bf17f4de31427ef54ee2997c5a8da5ecc05f",
+    "diagnostics/audit_mc33_parallel.py": "94438815baa430258ab11da4b3ac02d18f6d7622d4c38695218c23bf6c0850ac",
+    "diagnostics/report_mc33_parallel.py": "8c9006bf559ab77548fe7dfd22f6f622cdd275a126030dfd3ca54efe515d6559",
+    "tests/test_mc33_parallel.py": "99aaf11b7b9a51089d89cce914a3183d5f8ebddce9cebf8f2591677551c9d753"
+  }
+}

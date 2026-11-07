@@ -1,0 +1,7 @@
+{
+  "stage": "selected coefficient sampling before solver phase",
+  "solver_calls": 0,
+  "exception": "AllMethodsEvaluationError: scalar coefficient interface was passed vector grid",
+  "fix": "call each coefficient at each scalar coordinate; mathematical algorithms unchanged",
+  "next_output": "results/cost60_rk4_pi_2026-11-04_v2"
+}

@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "documents": {
+    "REPORT.md": {
+      "lines": 1071,
+      "characters": 88122,
+      "math_expressions_checked": 376,
+      "local_links_checked": 79,
+      "source_reference_count": 56
+    },
+    "EXAMPLES.md": {
+      "lines": 955,
+      "characters": 93308,
+      "math_expressions_checked": 355,
+      "local_links_checked": 2,
+      "source_reference_count": 0
+    },
+    "SCIENTIFIC_DESCRIPTION.md": {
+      "lines": 70,
+      "characters": 7137,
+      "math_expressions_checked": 27,
+      "local_links_checked": 1,
+      "source_reference_count": 0
+    },
+    "AUDIT_PROTOCOL.md": {
+      "lines": 101,
+      "characters": 8462,
+      "math_expressions_checked": 0,
+      "local_links_checked": 0,
+      "source_reference_count": 0
+    }
+  },
+  "datasets_validated": 4,
+  "records_validated": 1860,
+  "replayed_rejections": 7,
+  "independently_differentiated_examples": 5,
+  "precision_decimal_digits": 60,
+  "max_independent_forcing_absolute_discrepancy": 4.696387468111238e-14,
+  "pytest": "44 passed, 619 subtests passed, 1 existing warning",
+  "numerical_ODE_solver_calls": 0,
+  "format_check": "Markdown tables, delimiters, math braces, source reference targets and line numbers; not a PDF rendering check"
+}

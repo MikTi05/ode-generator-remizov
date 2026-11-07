@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "tests": {
+    "passed": 71,
+    "new_tests": 11,
+    "saved_regression": 60,
+    "command": ".venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_grid33_presentation.py tests/test_saved_grid33.py tests/test_four_method_accuracy.py",
+    "log": "pytest.log"
+  },
+  "verification": "verification.json",
+  "reproducibility": {
+    "builds": 2,
+    "byte_identical_files": 25,
+    "runtime_solver_ml_imports_blocked": true
+  },
+  "visual_QA": {
+    "all_four_PNG_inspected": true,
+    "threshold_small_segments_relabelled": true,
+    "TeX_compiled": false,
+    "TeX_pagination_verified": false
+  },
+  "integrity": {
+    "unchanged_prior_files": 25644,
+    "changed_prior_files": [
+      "PROJECT_STATUS.md"
+    ]
+  },
+  "new_solver_calls": 0,
+  "new_MC_calls": 0,
+  "new_fit_calls": 0,
+  "new_model_inference_calls": 0
+}

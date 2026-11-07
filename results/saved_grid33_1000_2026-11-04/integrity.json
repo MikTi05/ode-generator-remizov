@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "baseline_files": 25622,
+  "unchanged_files": 25621,
+  "changed_existing_files": [
+    "PROJECT_STATUS.md"
+  ],
+  "missing_existing_files": [],
+  "allowed_change": "PROJECT_STATUS.md, backed up byte-for-byte",
+  "status_backup_sha256": "64e6a95eca8f92dd9193208ac7712fdd30c6b6e2aa1099f363c451a67c031979",
+  "current_status_sha256": "c827f2503d93ffab145a719e8f8e9f600b8e788cd9c448fe28299803ff61f45e",
+  "excluded_from_baseline": [
+    ".git",
+    ".venv",
+    ".pytest_cache",
+    "__pycache__",
+    ".DS_Store"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "independent_three_method_saved_verification_v1",
+  "passed": true,
+  "raw": {
+    "remizov_records": 1000,
+    "MC_seed_records": 4000,
+    "PI_records": 1000,
+    "classes": {
+      "remizov": 826,
+      "product_integral": 65,
+      "monte_carlo": 106
+    },
+    "exact_ties": 0,
+    "large_R_errors_retained": 15,
+    "missing_R": [
+      "AMV1_F0134_S03",
+      "AMV1_F0136_S01",
+      "AMV1_F0139_S00"
+    ]
+  },
+  "features": {
+    "rows": 997,
+    "base_features": 253,
+    "augmented_features": 258,
+    "reconstructed_values": 257226,
+    "historical253_identical": true
+  },
+  "family_leakage": false,
+  "test_ids_preserved": 150,
+  "predictions": {
+    "validation_prediction_rows": 24750,
+    "test_prediction_rows": 29700,
+    "train_prediction_rows": 1444,
+    "candidate_bundles_reloaded": 102,
+    "validation_policies": 198,
+    "test_policies": 198,
+    "selected_before_Test": true,
+    "primary_scenario": "new",
+    "train_metrics_checked": 198,
+    "cv": {
+      "outer_folds": 10,
+      "outer_policy_metrics": 120,
+      "outer_prediction_rows": 17328,
+      "inner_prediction_rows": 11688,
+      "estimator_fits": 320,
+      "main_estimator_fits": 120,
+      "CV_estimator_fits": 200,
+      "policy_objectives_recomputed": 235346,
+      "policy_search_scope": "best among saved evaluated policies; no global 2D optimality claim"
+    }
+  },
+  "exported_model_predictions_checked": 150,
+  "preserved_files": 24991,
+  "numerical_solver_calls": 0,
+  "generator_calls": 0,
+  "training_calls": 0
+}

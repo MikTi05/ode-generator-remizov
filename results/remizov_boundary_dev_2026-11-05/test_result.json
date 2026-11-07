@@ -1,0 +1,6 @@
+{
+  "exit_code": 0,
+  "output": "...................                                                      [100%]\n=============================== warnings summary ===============================\nsrc/all_methods_expressions.py:1\n  /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:1: DeprecationWarning: invalid escape sequence '\\i'\n    \"\"\"Safe expression trees and analytic derivatives for ``all_methods_v1``.\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n19 passed, 1 warning in 0.66s\n",
+  "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_boundary_profile_dev.py tests/test_chernov_solver.py::test_operator_polynomial_weights_sign_and_no_lambda tests/test_chernov_solver.py::test_simpson_accumulation_matches_scipy_on_both_grids tests/test_chernov_boundary_diagnosis.py::test_observer_preserves_production_step_and_weight tests/test_chernov_boundary_diagnosis.py::test_outside_contribution_is_exact_boundary_intervention_on_same_state",
+  "new_full_solver_calls": 0
+}

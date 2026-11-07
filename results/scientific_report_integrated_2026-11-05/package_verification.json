@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "archive": "report_bundle.zip",
+  "entries": 89,
+  "archive_bytes": 6973267,
+  "archive_sha256": "80de535dddf700e5843ccfbcb4124f4498efeaf49247f7776be48929b0c8527d",
+  "CRC": "passed",
+  "SHA256_checked_files": 88,
+  "standalone_checks": [
+    {
+      "script": "verify_report.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_numeric_saved.py",
+      "exit_code": 0
+    }
+  ],
+  "new_solver_MC_ML_calls": 0
+}

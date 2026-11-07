@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "tests": {
+    "passed": 32,
+    "new_policy_tests": 15,
+    "unchanged_solver_source_tests": 2,
+    "saved_contract_tests": 15,
+    "log": "pytest.log",
+    "command": ".venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_cost60.py tests/test_numerical_methods_integration.py::test_solver_copy_only_adapts_type_import_and_documentation tests/test_four_method_accuracy.py"
+  },
+  "independent_verification": "verification.json",
+  "saved_only_replay": "final_saved_replay.json",
+  "replayed_files": 8,
+  "integrity": "integrity.json",
+  "old_files_unchanged": 25724,
+  "existing_file_changes": [
+    "PROJECT_STATUS.md"
+  ],
+  "actual_numerical_budget": {
+    "tasks": 60,
+    "families": 60,
+    "configurations": 8,
+    "warmup_calls": 480,
+    "measured_calls": 2400,
+    "total_solver_calls": 2880,
+    "preparation_failure_solver_calls": 0
+  },
+  "forbidden_calls": {
+    "MC": 0,
+    "remizov": 0,
+    "fit": 0,
+    "inference": 0
+  },
+  "recommendation": "NO-GO",
+  "new_series_started": false
+}

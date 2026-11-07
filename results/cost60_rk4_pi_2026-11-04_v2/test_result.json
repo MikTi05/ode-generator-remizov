@@ -1,0 +1,6 @@
+{
+  "exit_code": 0,
+  "command": ".venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_cost60.py tests/test_numerical_methods_integration.py::test_solver_copy_only_adapts_type_import_and_documentation tests/test_four_method_accuracy.py",
+  "output": "................................                                         [100%]\n=============================== warnings summary ===============================\nsrc/all_methods_expressions.py:1\n  /Users/mikti/Documents/vsc projects/ode-generator-remizov/src/all_methods_expressions.py:1: DeprecationWarning: invalid escape sequence '\\i'\n    \"\"\"Safe expression trees and analytic derivatives for ``all_methods_v1``.\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n32 passed, 1 warning in 0.98s\n",
+  "solver_calls": 0
+}

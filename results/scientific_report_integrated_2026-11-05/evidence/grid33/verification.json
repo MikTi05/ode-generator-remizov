@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "independent_implementation": "stdlib scalar max/abs/sum; no builder import",
+  "csv_rows_checked": 1000,
+  "csv_cells_checked": 21000,
+  "raw_records_checked": {
+    "R": 1000,
+    "RK4": 1000,
+    "PI": 1000,
+    "MC_seeds": 4000
+  },
+  "source_files_checked": 7003,
+  "source_sha256_aggregate": "1b0370db3815faa3d3eaf51b0f02dcf51fce2eec43f9a065902e0c4134a79efa",
+  "source_unchanged": true,
+  "artifacts_sha256": {
+    "grid33_all1000.csv": "31dbfde0bcc264a7cb6413a8624c73dbff9fcbb68030662f209abf5176c3f52e",
+    "missing_remizov.csv": "c105f337cb4dd371140f87701a3a1b9f9d5b37fde60baeb554e616916cef86cd",
+    "summary.json": "0a9f41ffbf5c8dedcc080f9e5e4c05c67352d94e38bcd36ed6a434b38177a9ff",
+    "input_sha256.json": "c6152a2e7ddb44619ce1de5d463c3e8c3258717341649a8c5b3fcf19da9ad68d",
+    "REPORT.md": "251e6cb6f247fa3dceb0680c90a7e314d69e895ba51eb037aef233abc03d5546",
+    "reproduce.json": "35c6687160b9c2bd1e8aa312a27119e585e461384b186a58feacf4990c042f12"
+  },
+  "missing_remizov_rows_checked": 3,
+  "missing_remizov_cells_checked": 63,
+  "full_input_sha256_mapping_verified": true,
+  "full_available": {
+    "R": {
+      "n": 997,
+      "accurate": 970,
+      "mean": 39.411918040907146,
+      "median": 0.0027479694131764543,
+      "q95": 0.02270658062703099,
+      "maximum": 19704.50191093058
+    },
+    "RK4": {
+      "n": 1000,
+      "accurate": 1000,
+      "mean": 1.2049420163392674e-06,
+      "median": 2.9845344806656016e-08,
+      "q95": 2.6164054468091855e-06,
+      "maximum": 0.0004578049595170275
+    },
+    "PI": {
+      "n": 1000,
+      "accurate": 404,
+      "mean": 0.27351246021817766,
+      "median": 0.06942322067364018,
+      "q95": 0.9604092267893388,
+      "maximum": 14.38361881985213
+    }
+  },
+  "common997": {
+    "R": {
+      "n": 997,
+      "accurate": 970,
+      "mean": 39.411918040907146,
+      "median": 0.0027479694131764543,
+      "q95": 0.02270658062703099,
+      "maximum": 19704.50191093058
+    },
+    "RK4": {
+      "n": 997,
+      "accurate": 997,
+      "mean": 1.2077797712918932e-06,
+      "median": 2.9841675242003873e-08,
+      "q95": 2.628673249782659e-06,
+      "maximum": 0.0004578049595170275
+    },
+    "PI": {
+      "n": 997,
+      "accurate": 402,
+      "mean": 0.27396532894913905,
+      "median": 0.06950588548200147,
+      "q95": 0.9606744761979821,
+      "maximum": 14.38361881985213
+    }
+  },
+  "missing_remizov_ids": [
+    "AMV1_F0134_S03",
+    "AMV1_F0136_S01",
+    "AMV1_F0139_S00"
+  ],
+  "strict_dominance": {
+    "counts_all_available": {
+      "R": 997,
+      "PI": 1000,
+      "MC_lower_bound": 1000
+    },
+    "minimum_margins_common997": {
+      "R": {
+        "margin": 0.00013741837764269516,
+        "equation_id": "AMV1_F0100_S02"
+      },
+      "PI": {
+        "margin": 0.001166666239436398,
+        "equation_id": "AMV1_F0064_S04"
+      },
+      "MC_lower_bound": {
+        "margin": 2.6073122595920983e-05,
+        "equation_id": "AMV1_F0014_S01"
+      }
+    },
+    "inferred_unique_four_method_winners": 997
+  },
+  "MC_full_grid33_calculated": false,
+  "new_solver_calls": 0,
+  "condition": "MC grid extension must preserve the same saved mean4 value at x=0"
+}

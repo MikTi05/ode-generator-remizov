@@ -1,0 +1,108 @@
+{
+  "schema": "integrated_report_saved_only_verification_v1",
+  "status": "passed",
+  "checks": {
+    "mutation_self_checks": {
+      "missing_reference": "rejected as expected",
+      "duplicate_label": "rejected as expected",
+      "missing_citation": "rejected as expected",
+      "crossed_environments": "rejected as expected",
+      "unclosed_brace": "rejected as expected",
+      "literal_newline_escape": "rejected as expected",
+      "changed_table_statistic": "rejected as expected",
+      "linear_quantile_order_statistic": "passed",
+      "escaped_braces_percent_and_linebreak": "passed"
+    },
+    "62_source_hashes": {
+      "copied_artifacts": 62,
+      "historical_originals": 62
+    },
+    "latex_static_structure": {
+      "labels": 50,
+      "references": 59,
+      "citations": 14,
+      "bibliography_items": 9,
+      "figure_references": [
+        "simple_01_two_methods_wins.png",
+        "01_R_MC_error_comparison.png",
+        "simple_02_two_methods_model_test.png",
+        "simple_03_wrong_mc_choices.png",
+        "simple_04_four_methods_wins.png",
+        "simple_05_four_methods_mean_error.png",
+        "simple_06_four_methods_success_rate.png",
+        "grid33_01_ecdf_common997.pdf",
+        "grid33_02_histograms_available.pdf",
+        "grid33_03_remizov_exceedances.pdf",
+        "grid33_04_threshold_shares.pdf",
+        "01_winners.png",
+        "02_accuracy.png",
+        "03_macro_f1.png",
+        "05_confusion_matrix.png",
+        "04_mean_error.png",
+        "06_top5_features.png"
+      ],
+      "unused_bibliography": []
+    },
+    "17_referenced_figures": {
+      "present": 17,
+      "ready_E33_PDFs": 4
+    },
+    "protected_base_blocks": {
+      "methods_entire": {
+        "identical": true,
+        "sha256": "0e6433526827e73979880992b4a3d7bb69e19aa6ff9a6c067d603ef244009a51",
+        "characters": 18653
+      },
+      "E0_results_entire": {
+        "identical": true,
+        "sha256": "6885097d7d306d6faa9bf837ae1ee5d6ac861595593c78117b12fea58b090a9d",
+        "characters": 12864
+      },
+      "ML3_results_entire": {
+        "identical": true,
+        "sha256": "bc4df9730e952768c54fd7b9b850ba2f006ad15d98eb8f971a02cbcc21ac848e",
+        "characters": 5545
+      },
+      "appendix_to_EOF": {
+        "identical": true,
+        "sha256": "8c4dc3be0de0c6eefa16a5d29a8cc8a525813836c2336e1d08b030f339dfec40",
+        "characters": 7373
+      }
+    },
+    "grid33_independent_CSV_and_TeX": {
+      "unique_equations": 1000,
+      "common_equations": 997,
+      "missing_remizov": [
+        "AMV1_F0134_S03",
+        "AMV1_F0136_S01",
+        "AMV1_F0139_S00"
+      ],
+      "independent_summary_cells": 68,
+      "printed_numeric_cells": 24,
+      "MC_certified_failures": 62,
+      "MC_unknown": 938,
+      "strict_four_method_winners": 997
+    },
+    "isolated_builder_replay": {
+      "byte_identical_outputs": [
+        "report.tex",
+        "report_changes.diff",
+        "editorial_changes.json"
+      ],
+      "isolated_temporary_directory": true,
+      "builder_summary": {
+        "target": "<isolated temporary directory>/report.tex",
+        "targeted_changes": 23,
+        "new_solver_calls": 0,
+        "new_MC_calls": 0,
+        "new_fit_calls": 0,
+        "new_model_inference_calls": 0
+      }
+    }
+  },
+  "new_solver_calls": 0,
+  "new_MC_calls": 0,
+  "new_ML_fits": 0,
+  "new_model_inference_calls": 0,
+  "report_sha256": "bdb53f1161e43ba1e5da4b4843d08b7456ec5d1ac01f4abe60ba1b592665d8ef"
+}

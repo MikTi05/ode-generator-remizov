@@ -1,0 +1,26 @@
+{
+  "production_issues": [],
+  "problem_MC_equations": 0,
+  "nonblocking_history": [
+    {
+      "kind": "interrupted_requests",
+      "count": 8,
+      "resolution": "same-seed retries completed; preserved in attempts"
+    },
+    {
+      "kind": "historical_missing_remizov",
+      "count": 3,
+      "equation_ids": [
+        "AMV1_F0134_S03",
+        "AMV1_F0136_S01",
+        "AMV1_F0139_S00"
+      ],
+      "effect": "common four-method comparison has997 equations"
+    },
+    {
+      "kind": "incomplete_report_build",
+      "path": "results/mc33_final1000_2026-11-06",
+      "effect": "report serialization only; corrected in v2"
+    }
+  ]
+}

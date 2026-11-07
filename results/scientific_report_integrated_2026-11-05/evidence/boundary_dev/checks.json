@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "tests": {
+    "passed": 19,
+    "new_tests": 14,
+    "existing_tests": 5,
+    "new_production_solve_calls": 0,
+    "log": "pytest.log",
+    "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_boundary_profile_dev.py tests/test_chernov_solver.py::test_operator_polynomial_weights_sign_and_no_lambda tests/test_chernov_solver.py::test_simpson_accumulation_matches_scipy_on_both_grids tests/test_chernov_boundary_diagnosis.py::test_observer_preserves_production_step_and_weight tests/test_chernov_boundary_diagnosis.py::test_outside_contribution_is_exact_boundary_intervention_on_same_state"
+  },
+  "selected": {
+    "total": 52,
+    "development_cases": 22,
+    "controls": 30,
+    "case_families": 14,
+    "control_families": 30,
+    "Test_overlap": 0
+  },
+  "solver_budget": {
+    "new_zero": 50,
+    "reused_zero": 2,
+    "reused_taper": 52,
+    "new_taper": 0,
+    "MC": 0,
+    "ML": 0,
+    "other_continuations": 0
+  },
+  "independent_verification": "verification.json",
+  "CSV_cells_checked": 1664,
+  "saved_only_replay": "saved_replay.json",
+  "byte_identical_files": 8,
+  "interpretation": "interpretation_checks.json",
+  "recommendation": "NO-GO",
+  "recommendation_condition": "strict preregistered comparison tolerance; three increases of order1e-9, not evidence of practical harm",
+  "theoretical_certification": false,
+  "production_profile_changed": false,
+  "integrity": "integrity.json",
+  "old_files_unchanged": 28731
+}

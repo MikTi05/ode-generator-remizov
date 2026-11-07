@@ -1,0 +1,184 @@
+{
+  "schema": "saved_grid33_comparison_v1",
+  "total_equations": 1000,
+  "common_equations": 997,
+  "missing_remizov_ids": [
+    "AMV1_F0134_S03",
+    "AMV1_F0136_S01",
+    "AMV1_F0139_S00"
+  ],
+  "metric": "max_k abs(saved_y(x_k)-saved_exact(x_k)); discrete, not continuous supremum",
+  "target_x": [
+    -1.0,
+    -0.9375,
+    -0.875,
+    -0.8125,
+    -0.75,
+    -0.6875,
+    -0.625,
+    -0.5625,
+    -0.5,
+    -0.4375,
+    -0.375,
+    -0.3125,
+    -0.25,
+    -0.1875,
+    -0.125,
+    -0.0625,
+    0.0,
+    0.0625,
+    0.125,
+    0.1875,
+    0.25,
+    0.3125,
+    0.375,
+    0.4375,
+    0.5,
+    0.5625,
+    0.625,
+    0.6875,
+    0.75,
+    0.8125,
+    0.875,
+    0.9375,
+    1.0
+  ],
+  "epsilon": 0.05,
+  "full_available": {
+    "R": {
+      "n": 997,
+      "accurate": 970,
+      "mean": 39.41191804090715,
+      "median": 0.0027479694131764543,
+      "q95": 0.02270658062703099,
+      "maximum": 19704.50191093058
+    },
+    "RK4": {
+      "n": 1000,
+      "accurate": 1000,
+      "mean": 1.2049420163392674e-06,
+      "median": 2.9845344806656016e-08,
+      "q95": 2.6164054468091855e-06,
+      "maximum": 0.0004578049595170275
+    },
+    "PI": {
+      "n": 1000,
+      "accurate": 404,
+      "mean": 0.27351246021817766,
+      "median": 0.06942322067364018,
+      "q95": 0.9604092267893388,
+      "maximum": 14.38361881985213
+    }
+  },
+  "common997": {
+    "R": {
+      "n": 997,
+      "accurate": 970,
+      "mean": 39.41191804090715,
+      "median": 0.0027479694131764543,
+      "q95": 0.02270658062703099,
+      "maximum": 19704.50191093058
+    },
+    "RK4": {
+      "n": 997,
+      "accurate": 997,
+      "mean": 1.2077797712918932e-06,
+      "median": 2.9841675242003873e-08,
+      "q95": 2.628673249782659e-06,
+      "maximum": 0.0004578049595170275
+    },
+    "PI": {
+      "n": 997,
+      "accurate": 402,
+      "mean": 0.27396532894913905,
+      "median": 0.06950588548200147,
+      "q95": 0.9606744761979821,
+      "maximum": 14.38361881985213
+    }
+  },
+  "strict_dominance": {
+    "counts_all_available": {
+      "R": 997,
+      "PI": 1000,
+      "MC_lower_bound": 1000
+    },
+    "minimum_margins_common997": {
+      "R": {
+        "margin": 0.00013741837764269516,
+        "equation_id": "AMV1_F0100_S02"
+      },
+      "PI": {
+        "margin": 0.001166666239436398,
+        "equation_id": "AMV1_F0064_S04"
+      },
+      "MC_lower_bound": {
+        "margin": 2.6073122595920983e-05,
+        "equation_id": "AMV1_F0014_S01"
+      }
+    },
+    "inferred_unique_four_method_winners": 997
+  },
+  "mc_threshold_evidence": {
+    "unknown": 938,
+    "fails_by_lower_bound": 62
+  },
+  "MC_full_grid33_calculated": false,
+  "MC_bound_condition": "Extend the same saved arithmetic mean4 answer at x=0; no claim for a new MC run",
+  "exact_source": "saved arrays, identical across RK4/PI/R where available; no exact evaluation",
+  "saved_configs": {
+    "R": {
+      "T": null,
+      "boundary": "taper",
+      "dx": 0.0125,
+      "interp": "cubic",
+      "max_work_grid_points": 100000,
+      "n": 128,
+      "n_jobs": 1,
+      "n_steps": 32768,
+      "num_t": 513,
+      "padding": 12.0,
+      "start_method": "spawn",
+      "t_grading": "quadratic",
+      "tail_eps": 1e-08,
+      "taper_width": null
+    },
+    "RK4_PI": {
+      "x0": -1.0,
+      "x1": 1.0,
+      "n_steps": 128,
+      "h": 0.015625,
+      "a_min": 0.001,
+      "target_x": 0.0,
+      "target_index": 64,
+      "epsilon": 0.05
+    },
+    "MC_common": {
+      "M": 1024,
+      "T": null,
+      "chunk": 1024,
+      "dt": 0.0078125,
+      "max_batch_paths": 1024,
+      "max_path_steps": 100000000,
+      "max_runtime_seconds": 60.0,
+      "max_steps": 100000,
+      "stream_id": 0,
+      "tail_eps": 0.0001
+    },
+    "MC_seeds": [
+      202610250101,
+      202610250102,
+      202610250103,
+      202610250104
+    ]
+  },
+  "raw_records_checked": {
+    "R": 1000,
+    "R_success": 997,
+    "RK4": 1000,
+    "PI": 1000,
+    "MC": 4000
+  },
+  "new_solver_calls": 0,
+  "new_fit_calls": 0,
+  "new_model_inference_calls": 0
+}

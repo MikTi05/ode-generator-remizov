@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "canonical_equations": 1000,
+  "valid_equations": 1000,
+  "problem_equations": 0,
+  "completed_calls": 4000,
+  "pending": 0,
+  "unique_semantic_keys": 4000,
+  "final_seeds": [
+    248800030100,
+    248800030101,
+    248800030102,
+    248800030103
+  ],
+  "nodes_per_call": 33,
+  "values_checked": 132000,
+  "request_count": 4008,
+  "complete_attempts": 4000,
+  "interrupted_attempts": 8,
+  "unaccounted_attempts": 0,
+  "duplicate_completed_keys": 0,
+  "issues": [],
+  "checks": {
+    "strict_json_no_duplicate_keys": true,
+    "no_nan_inf": true,
+    "plan_matches_pre_run_sha": true,
+    "all_input_and_source_pins_valid": true,
+    "record_and_attempt_checksums_valid": true,
+    "canonical_exact_recomputed": true,
+    "analytical_G_T_recomputed": true,
+    "RNG_addresses_verified": true,
+    "raw_max_error_recomputed": true,
+    "old_sources_and_release_unchanged": true,
+    "all_retry_seeds_preserved": true,
+    "old_x0_identity_exact_G_T_match": true,
+    "new_E33_ge_new_E0_all": true,
+    "guardians_clean": true
+  },
+  "total_path_updates": 1602306342912,
+  "sessions": [
+    {
+      "completed": 4000,
+      "compute_seconds": 55436.68400245812,
+      "interrupted_attempts": [],
+      "memory_measurement": "sum of sampled process lifetime RSS maxima; conservative; guardians excluded",
+      "new_terminal": 4000,
+      "peak_controller_plus_worker_highwater_mib": 1621.046875,
+      "peak_worker_highwater_sum_mib": 1394.640625,
+      "pending": 0,
+      "session": "a979a82370f445a7b0d33182f14da937",
+      "startup_seconds": 4.920686166966334,
+      "statuses": {
+        "completed": 4000
+      },
+      "stop_reason": null,
+      "wall_seconds": 55445.900795958936,
+      "worker_startups": 4,
+      "workers": 4
+    },
+    {
+      "completed": 0,
+      "compute_seconds": 111.1890745840501,
+      "interrupted_attempts": [
+        "be5b5d399eb34cf8869df3d64d2d00ff",
+        "370f8ddbef6e441b9e9f7896fdd1bb39",
+        "9348e2e403d54d688818adc10bb621ec",
+        "18b7af0d8c0c47e5984281e47905262a",
+        "6c433abd992d4818b8d55f6adeda62c7",
+        "fd544cc2ff064d238434f93bf7a8bc8e",
+        "b4fde717bc7949ce841a73fa01afd5bf",
+        "27adf2db09924436a9e1912abb1d74cb"
+      ],
+      "memory_measurement": "sum of sampled process lifetime RSS maxima; conservative; guardians excluded",
+      "new_terminal": 0,
+      "peak_controller_plus_worker_highwater_mib": 2878.640625,
+      "peak_worker_highwater_sum_mib": 2783.390625,
+      "pending": 4000,
+      "session": "dc6ae9e38fda4ee38132578368bfa441",
+      "startup_seconds": 5.646319332998246,
+      "statuses": {},
+      "stop_reason": "interrupted",
+      "wall_seconds": 116.88285070797428,
+      "worker_startups": 8,
+      "workers": 8
+    }
+  ],
+  "aggregation": "episode0 primary; mean4 function diagnostic, never mean/min of seed errors",
+  "old_x0_comparison": "different seeds and M; exact equality not required; old E0 not a lower bound for new f",
+  "new_solver_calls": 0,
+  "new_fit_calls": 0
+}

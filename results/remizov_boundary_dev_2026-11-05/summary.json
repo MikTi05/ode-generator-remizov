@@ -1,0 +1,81 @@
+{
+  "epsilon": 0.05,
+  "catastrophe_threshold": 1.0,
+  "n": 52,
+  "groups": {
+    "case": {
+      "n": 22,
+      "before_pass": 0,
+      "after_pass": 1,
+      "improved": 9,
+      "equal": 10,
+      "increased_unrounded": 8,
+      "material_regressions": 3,
+      "pass_losses": 0,
+      "pass_gains": 1,
+      "catastrophes_before": 3,
+      "catastrophes_after": 0,
+      "maximum_before": 19704.50191093058,
+      "maximum_after": 0.5968515481537189
+    },
+    "control": {
+      "n": 30,
+      "before_pass": 30,
+      "after_pass": 30,
+      "improved": 2,
+      "equal": 28,
+      "increased_unrounded": 11,
+      "material_regressions": 0,
+      "pass_losses": 0,
+      "pass_gains": 0,
+      "catastrophes_before": 0,
+      "catastrophes_after": 0,
+      "maximum_before": 0.04955522514750055,
+      "maximum_after": 0.04955522514750044
+    },
+    "all": {
+      "n": 52,
+      "before_pass": 30,
+      "after_pass": 31,
+      "improved": 11,
+      "equal": 38,
+      "increased_unrounded": 19,
+      "material_regressions": 3,
+      "pass_losses": 0,
+      "pass_gains": 1,
+      "catastrophes_before": 3,
+      "catastrophes_after": 0,
+      "maximum_before": 19704.50191093058,
+      "maximum_after": 0.5968515481537189
+    }
+  },
+  "GO_gates": {
+    "all_zero_results_usable": true,
+    "no_material_regressions": false,
+    "no_pass_losses": true,
+    "no_new_catastrophes": true,
+    "former_catastrophes_removed": true,
+    "pass_count_increases": true,
+    "at_least_one_material_improvement": true
+  },
+  "recommendation": "NO-GO",
+  "failed_gates": [
+    "no_material_regressions"
+  ],
+  "scope": "new experimental cubic/zero profile on this development sample; not production promotion or theorem certification",
+  "material_regression_ids": [
+    "AMV1_F0186_S01",
+    "AMV1_F0189_S02",
+    "AMV1_F0189_S03"
+  ],
+  "pass_loss_ids": [],
+  "new_catastrophe_ids": [],
+  "failed_zero_ids": [],
+  "reused_zero": 2,
+  "new_zero_calls": 50,
+  "new_taper_calls": 0,
+  "ML_calls": 0,
+  "MC_calls": 0,
+  "other_profiles_called": 0,
+  "production_profile_changed": false
+}

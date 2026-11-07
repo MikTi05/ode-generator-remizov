@@ -1,0 +1,1176 @@
+{
+  "schema": "integrated_numeric_audit_v1",
+  "report": "/Users/mikti/Documents/vsc projects/ode-generator-remizov/results/scientific_report_integrated_2026-11-05/report.tex",
+  "report_sha256": "bdb53f1161e43ba1e5da4b4843d08b7456ec5d1ac01f4abe60ba1b592665d8ef",
+  "scope": "Read-only independent numerical audit of new cost60 and boundary tables/prose against copied CSV/JSON evidence. No solver/MC/ML calls.",
+  "passed": true,
+  "checks_total": 113,
+  "checks_passed": 113,
+  "checks_failed": 0,
+  "new_solver_calls": 0,
+  "MC_calls": 0,
+  "ML_calls": 0,
+  "recomputed_cost": {
+    "raw_method_winners": {
+      "rk4": 60
+    },
+    "configuration_winners": {
+      "rk4_N32": 59,
+      "rk4_N64": 1
+    },
+    "robust_method_winners": {
+      "rk4": 56,
+      "practical_tie_or_unstable": 4
+    },
+    "pi_feasible_tasks": 7,
+    "best_constant": "rk4_N64",
+    "mean_relative_saving": 0.4919670508126855,
+    "pooled_saving": 0.4828486127516314,
+    "mean_absolute_saving_seconds": 0.05792390075,
+    "GO_gates": {
+      "all60_solved": true,
+      "no_unknown_minimum": true,
+      "constant_meets_tolerance_on60": true,
+      "rk4_only_covers60": true,
+      "heterogeneous_raw_winners": false,
+      "robust_each_method": false,
+      "stable_profile_fraction": true,
+      "practical_gain_vs_best_constant": true,
+      "practical_gain_vs_rk4_only_oracle": false
+    }
+  },
+  "recomputed_boundary": {
+    "groups": {
+      "case": {
+        "n": 22,
+        "before_pass": 0,
+        "after_pass": 1,
+        "improved": 9,
+        "equal": 10,
+        "increased_unrounded": 8,
+        "material_regressions": 3,
+        "pass_losses": 0,
+        "pass_gains": 1,
+        "catastrophes_before": 3,
+        "catastrophes_after": 0,
+        "maximum_before": 19704.50191093058,
+        "maximum_after": 0.5968515481537189
+      },
+      "control": {
+        "n": 30,
+        "before_pass": 30,
+        "after_pass": 30,
+        "improved": 2,
+        "equal": 28,
+        "increased_unrounded": 11,
+        "material_regressions": 0,
+        "pass_losses": 0,
+        "pass_gains": 0,
+        "catastrophes_before": 0,
+        "catastrophes_after": 0,
+        "maximum_before": 0.04955522514750055,
+        "maximum_after": 0.04955522514750044
+      },
+      "all": {
+        "n": 52,
+        "before_pass": 30,
+        "after_pass": 31,
+        "improved": 11,
+        "equal": 38,
+        "increased_unrounded": 19,
+        "material_regressions": 3,
+        "pass_losses": 0,
+        "pass_gains": 1,
+        "catastrophes_before": 3,
+        "catastrophes_after": 0,
+        "maximum_before": 19704.50191093058,
+        "maximum_after": 0.5968515481537189
+      }
+    },
+    "GO_gates": {
+      "all_zero_results_usable": true,
+      "no_material_regressions": false,
+      "no_pass_losses": true,
+      "no_new_catastrophes": true,
+      "former_catastrophes_removed": true,
+      "pass_count_increases": true,
+      "at_least_one_material_improvement": true
+    }
+  },
+  "failures": [],
+  "checks": [
+    {
+      "check": "cost selection dimensions and strata",
+      "passed": true,
+      "observed": {
+        "tasks": 60,
+        "families": 60,
+        "topologies": 60,
+        "cell_sizes": {
+          "3": 20
+        }
+      }
+    },
+    {
+      "check": "cost original train selection and no canonical Test families",
+      "passed": true
+    },
+    {
+      "check": "cost plan counts",
+      "passed": true
+    },
+    {
+      "check": "cost actual call counts",
+      "passed": true,
+      "observed": {
+        "warmup": 480,
+        "measured": 2400
+      }
+    },
+    {
+      "check": "cost 480 profile medians MAD and accuracy flags from five saved times",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "check": "cost 8 profiles per selected ID",
+      "passed": true
+    },
+    {
+      "check": "cost all deterministic usable profiles stable",
+      "passed": true
+    },
+    {
+      "check": "unique table tab:costpilot-configurations",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "cost table rows",
+      "passed": true,
+      "observed": 8,
+      "expected": 8
+    },
+    {
+      "check": "cost independent configuration aggregation rk4_N32",
+      "passed": true
+    },
+    {
+      "check": "cost printed coverage rk4_N32",
+      "passed": true,
+      "observed": "59/60",
+      "expected": "59/60"
+    },
+    {
+      "check": "cost printed milliseconds rk4_N32",
+      "passed": true,
+      "observed": {
+        "printed": "60.077893",
+        "actual": 60.07789303333334,
+        "absolute_rounding_error": "3.333334E-8"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost printed max E33 rk4_N32",
+      "passed": true,
+      "observed": {
+        "printed": "$1.366209\\cdot10^{-2}$",
+        "actual": 0.013662088178228338,
+        "absolute_rounding_error": "1.821771662E-9"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-9"
+      }
+    },
+    {
+      "check": "cost independent configuration aggregation rk4_N64",
+      "passed": true
+    },
+    {
+      "check": "cost printed coverage rk4_N64",
+      "passed": true,
+      "observed": "60/60",
+      "expected": "60/60"
+    },
+    {
+      "check": "cost printed milliseconds rk4_N64",
+      "passed": true,
+      "observed": {
+        "printed": "119.962860",
+        "actual": 119.96286045,
+        "absolute_rounding_error": "4.5E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost printed max E33 rk4_N64",
+      "passed": true,
+      "observed": {
+        "printed": "$2.747976\\cdot10^{-4}$",
+        "actual": 0.0002747975705021388,
+        "absolute_rounding_error": "2.94978612E-11"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-11"
+      }
+    },
+    {
+      "check": "cost independent configuration aggregation rk4_N128",
+      "passed": true
+    },
+    {
+      "check": "cost printed coverage rk4_N128",
+      "passed": true,
+      "observed": "60/60",
+      "expected": "60/60"
+    },
+    {
+      "check": "cost printed milliseconds rk4_N128",
+      "passed": true,
+      "observed": {
+        "printed": "239.217672",
+        "actual": 239.21767151666668,
+        "absolute_rounding_error": "4.8333332E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost printed max E33 rk4_N128",
+      "passed": true,
+      "observed": {
+        "printed": "$1.699437\\cdot10^{-5}$",
+        "actual": 1.6994370933776093e-05,
+        "absolute_rounding_error": "9.33776093E-13"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-12"
+      }
+    },
+    {
+      "check": "cost independent configuration aggregation rk4_N256",
+      "passed": true
+    },
+    {
+      "check": "cost printed coverage rk4_N256",
+      "passed": true,
+      "observed": "60/60",
+      "expected": "60/60"
+    },
+    {
+      "check": "cost printed milliseconds rk4_N256",
+      "passed": true,
+      "observed": {
+        "printed": "478.999962",
+        "actual": 478.99996178333333,
+        "absolute_rounding_error": "2.1666667E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost printed max E33 rk4_N256",
+      "passed": true,
+      "observed": {
+        "printed": "$1.058317\\cdot10^{-6}$",
+        "actual": 1.058317179891688e-06,
+        "absolute_rounding_error": "1.79891688E-13"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-13"
+      }
+    },
+    {
+      "check": "cost independent configuration aggregation product_integral_N32",
+      "passed": true
+    },
+    {
+      "check": "cost printed coverage product_integral_N32",
+      "passed": true,
+      "observed": "0/60",
+      "expected": "0/60"
+    },
+    {
+      "check": "cost printed milliseconds product_integral_N32",
+      "passed": true,
+      "observed": {
+        "printed": "15.686458",
+        "actual": 15.686458383333335,
+        "absolute_rounding_error": "3.83333335E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost printed max E33 product_integral_N32",
+      "passed": true,
+      "observed": {
+        "printed": "15.916198",
+        "actual": 15.916197620535007,
+        "absolute_rounding_error": "3.79464993E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost independent configuration aggregation product_integral_N64",
+      "passed": true
+    },
+    {
+      "check": "cost printed coverage product_integral_N64",
+      "passed": true,
+      "observed": "0/60",
+      "expected": "0/60"
+    },
+    {
+      "check": "cost printed milliseconds product_integral_N64",
+      "passed": true,
+      "observed": {
+        "printed": "31.300706",
+        "actual": 31.300705583333333,
+        "absolute_rounding_error": "4.16666667E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost printed max E33 product_integral_N64",
+      "passed": true,
+      "observed": {
+        "printed": "8.039300",
+        "actual": 8.039299619111862,
+        "absolute_rounding_error": "3.80888138E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost independent configuration aggregation product_integral_N128",
+      "passed": true
+    },
+    {
+      "check": "cost printed coverage product_integral_N128",
+      "passed": true,
+      "observed": "4/60",
+      "expected": "4/60"
+    },
+    {
+      "check": "cost printed milliseconds product_integral_N128",
+      "passed": true,
+      "observed": {
+        "printed": "62.703981",
+        "actual": 62.70398068333333,
+        "absolute_rounding_error": "3.1666667E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost printed max E33 product_integral_N128",
+      "passed": true,
+      "observed": {
+        "printed": "4.037363",
+        "actual": 4.037363091553438,
+        "absolute_rounding_error": "9.1553438E-8"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost independent configuration aggregation product_integral_N256",
+      "passed": true
+    },
+    {
+      "check": "cost printed coverage product_integral_N256",
+      "passed": true,
+      "observed": "7/60",
+      "expected": "7/60"
+    },
+    {
+      "check": "cost printed milliseconds product_integral_N256",
+      "passed": true,
+      "observed": {
+        "printed": "125.386115",
+        "actual": 125.38611526666668,
+        "absolute_rounding_error": "2.6666668E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost printed max E33 product_integral_N256",
+      "passed": true,
+      "observed": {
+        "printed": "2.022754",
+        "actual": 2.022753946114646,
+        "absolute_rounding_error": "5.3885354E-8"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost 60 winners and comparator choices independently recomputed",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "check": "cost raw method winner counts",
+      "passed": true,
+      "observed": {
+        "rk4": 60
+      },
+      "expected": {
+        "rk4": 60,
+        "product_integral": 0
+      }
+    },
+    {
+      "check": "cost oracle N counts",
+      "passed": true,
+      "observed": {
+        "rk4_N32": 59,
+        "rk4_N64": 1
+      }
+    },
+    {
+      "check": "cost robust counts",
+      "passed": true,
+      "observed": {
+        "rk4": 56,
+        "practical_tie_or_unstable": 4
+      }
+    },
+    {
+      "check": "cost feasible PI tasks",
+      "passed": true,
+      "observed": 7,
+      "expected": 7
+    },
+    {
+      "check": "cost no unresolved or unusable outcomes",
+      "passed": true
+    },
+    {
+      "check": "cost best all-accurate constant",
+      "passed": true,
+      "observed": "rk4_N64",
+      "expected": "rk4_N64"
+    },
+    {
+      "check": "cost oracle equals RK4-only and minimum feasible N",
+      "passed": true
+    },
+    {
+      "check": "cost mean relative percent in prose",
+      "passed": true,
+      "observed": {
+        "printed": "49.1967",
+        "actual": 49.19670508126855,
+        "absolute_rounding_error": "0.00000508126855"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "0.00005"
+      }
+    },
+    {
+      "check": "cost pooled percent in prose",
+      "passed": true,
+      "observed": {
+        "printed": "48.2849",
+        "actual": 48.28486127516314,
+        "absolute_rounding_error": "0.00003872483686"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "0.00005"
+      }
+    },
+    {
+      "check": "cost mean absolute milliseconds in prose",
+      "passed": true,
+      "observed": {
+        "printed": "57.923901",
+        "actual": 57.92390075,
+        "absolute_rounding_error": "2.5E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost gain numbers actually present in report",
+      "passed": true
+    },
+    {
+      "check": "unique table tab:costpilot-selection",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "cost selector comparison table rows",
+      "passed": true,
+      "observed": 3,
+      "expected": 3
+    },
+    {
+      "check": "cost selector mean row 0",
+      "passed": true,
+      "observed": {
+        "printed": "119.962860",
+        "actual": 119.96286045,
+        "absolute_rounding_error": "4.5E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost selector total row 0",
+      "passed": true,
+      "observed": {
+        "printed": "7.197772",
+        "actual": 7.197771627000002,
+        "absolute_rounding_error": "3.72999998E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost selector mean row 1",
+      "passed": true,
+      "observed": {
+        "printed": "62.038960",
+        "actual": 62.0389597,
+        "absolute_rounding_error": "3E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost selector total row 1",
+      "passed": true,
+      "observed": {
+        "printed": "3.722338",
+        "actual": 3.7223375819999984,
+        "absolute_rounding_error": "4.180000016E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost selector mean row 2",
+      "passed": true,
+      "observed": {
+        "printed": "62.038960",
+        "actual": 62.0389597,
+        "absolute_rounding_error": "3E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost selector total row 2",
+      "passed": true,
+      "observed": {
+        "printed": "3.722338",
+        "actual": 3.7223375819999984,
+        "absolute_rounding_error": "4.180000016E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost all NO-GO gates independently match summary",
+      "passed": true,
+      "observed": {
+        "all60_solved": true,
+        "no_unknown_minimum": true,
+        "constant_meets_tolerance_on60": true,
+        "rk4_only_covers60": true,
+        "heterogeneous_raw_winners": false,
+        "robust_each_method": false,
+        "stable_profile_fraction": true,
+        "practical_gain_vs_best_constant": true,
+        "practical_gain_vs_rk4_only_oracle": false
+      },
+      "expected": {
+        "all60_solved": true,
+        "no_unknown_minimum": true,
+        "constant_meets_tolerance_on60": true,
+        "rk4_only_covers60": true,
+        "heterogeneous_raw_winners": false,
+        "robust_each_method": false,
+        "stable_profile_fraction": true,
+        "practical_gain_vs_best_constant": true,
+        "practical_gain_vs_rk4_only_oracle": false
+      }
+    },
+    {
+      "check": "cost independent recommendation NO-GO",
+      "passed": true
+    },
+    {
+      "check": "cost exceptional ID N32 printed error",
+      "passed": true,
+      "observed": {
+        "printed": "0.0136620881782",
+        "actual": 0.013662088178228338,
+        "absolute_rounding_error": "2.8338E-14"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-14"
+      }
+    },
+    {
+      "check": "cost exceptional ID N64 printed error",
+      "passed": true,
+      "observed": {
+        "printed": "0.000210115440205",
+        "actual": 0.0002101154402045502,
+        "absolute_rounding_error": "4.498E-16"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-16"
+      }
+    },
+    {
+      "check": "cost preparation import_seconds",
+      "passed": true,
+      "observed": {
+        "printed": "0.208656",
+        "actual": 0.20865612500347197,
+        "absolute_rounding_error": "1.2500347197E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost preparation dataset_load_seconds",
+      "passed": true,
+      "observed": {
+        "printed": "2.885793",
+        "actual": 2.8857926670461893,
+        "absolute_rounding_error": "3.329538107E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost preparation selected_input_exact_preparation_and_IO_seconds",
+      "passed": true,
+      "observed": {
+        "printed": "0.913157",
+        "actual": 0.9131565419957042,
+        "absolute_rounding_error": "4.580042958E-7"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-7"
+      }
+    },
+    {
+      "check": "cost instrumentation limitations faithfully stated",
+      "passed": true
+    },
+    {
+      "check": "boundary all 52 delta thresholds accuracy and regression flags",
+      "passed": true,
+      "observed": []
+    },
+    {
+      "check": "boundary independent aggregation case",
+      "passed": true,
+      "observed": {
+        "n": 22,
+        "before_pass": 0,
+        "after_pass": 1,
+        "improved": 9,
+        "equal": 10,
+        "increased_unrounded": 8,
+        "material_regressions": 3,
+        "pass_losses": 0,
+        "pass_gains": 1,
+        "catastrophes_before": 3,
+        "catastrophes_after": 0,
+        "maximum_before": 19704.50191093058,
+        "maximum_after": 0.5968515481537189
+      },
+      "expected": {
+        "n": 22,
+        "before_pass": 0,
+        "after_pass": 1,
+        "improved": 9,
+        "equal": 10,
+        "increased_unrounded": 8,
+        "material_regressions": 3,
+        "pass_losses": 0,
+        "pass_gains": 1,
+        "catastrophes_before": 3,
+        "catastrophes_after": 0,
+        "maximum_before": 19704.50191093058,
+        "maximum_after": 0.5968515481537189
+      }
+    },
+    {
+      "check": "boundary independent aggregation control",
+      "passed": true,
+      "observed": {
+        "n": 30,
+        "before_pass": 30,
+        "after_pass": 30,
+        "improved": 2,
+        "equal": 28,
+        "increased_unrounded": 11,
+        "material_regressions": 0,
+        "pass_losses": 0,
+        "pass_gains": 0,
+        "catastrophes_before": 0,
+        "catastrophes_after": 0,
+        "maximum_before": 0.04955522514750055,
+        "maximum_after": 0.04955522514750044
+      },
+      "expected": {
+        "n": 30,
+        "before_pass": 30,
+        "after_pass": 30,
+        "improved": 2,
+        "equal": 28,
+        "increased_unrounded": 11,
+        "material_regressions": 0,
+        "pass_losses": 0,
+        "pass_gains": 0,
+        "catastrophes_before": 0,
+        "catastrophes_after": 0,
+        "maximum_before": 0.04955522514750055,
+        "maximum_after": 0.04955522514750044
+      }
+    },
+    {
+      "check": "boundary independent aggregation all",
+      "passed": true,
+      "observed": {
+        "n": 52,
+        "before_pass": 30,
+        "after_pass": 31,
+        "improved": 11,
+        "equal": 38,
+        "increased_unrounded": 19,
+        "material_regressions": 3,
+        "pass_losses": 0,
+        "pass_gains": 1,
+        "catastrophes_before": 3,
+        "catastrophes_after": 0,
+        "maximum_before": 19704.50191093058,
+        "maximum_after": 0.5968515481537189
+      },
+      "expected": {
+        "n": 52,
+        "before_pass": 30,
+        "after_pass": 31,
+        "improved": 11,
+        "equal": 38,
+        "increased_unrounded": 19,
+        "material_regressions": 3,
+        "pass_losses": 0,
+        "pass_gains": 1,
+        "catastrophes_before": 3,
+        "catastrophes_after": 0,
+        "maximum_before": 19704.50191093058,
+        "maximum_after": 0.5968515481537189
+      }
+    },
+    {
+      "check": "unique table tab:boundarydev-groups",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "boundary group table row count",
+      "passed": true,
+      "observed": 3,
+      "expected": 3
+    },
+    {
+      "check": "boundary group printed counts case",
+      "passed": true,
+      "observed": [
+        "22",
+        "0/1",
+        "9",
+        "10",
+        "3",
+        "3/0"
+      ],
+      "expected": [
+        "22",
+        "0/1",
+        "9",
+        "10",
+        "3",
+        "3/0"
+      ]
+    },
+    {
+      "check": "boundary group printed counts control",
+      "passed": true,
+      "observed": [
+        "30",
+        "30/30",
+        "2",
+        "28",
+        "0",
+        "0/0"
+      ],
+      "expected": [
+        "30",
+        "30/30",
+        "2",
+        "28",
+        "0",
+        "0/0"
+      ]
+    },
+    {
+      "check": "boundary group printed counts all",
+      "passed": true,
+      "observed": [
+        "52",
+        "30/31",
+        "11",
+        "38",
+        "3",
+        "3/0"
+      ],
+      "expected": [
+        "52",
+        "30/31",
+        "11",
+        "38",
+        "3",
+        "3/0"
+      ]
+    },
+    {
+      "check": "boundary selection dimensions and disjoint families",
+      "passed": true
+    },
+    {
+      "check": "boundary control coverage 20 strata",
+      "passed": true
+    },
+    {
+      "check": "boundary new and reused run counts",
+      "passed": true
+    },
+    {
+      "check": "boundary only parameter change",
+      "passed": true
+    },
+    {
+      "check": "boundary fixed grid and time counts",
+      "passed": true
+    },
+    {
+      "check": "unique table tab:boundarydev-extremes",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "boundary former catastrophic IDs",
+      "passed": true
+    },
+    {
+      "check": "boundary catastrophic before F0141_S00",
+      "passed": true,
+      "observed": {
+        "printed": "19704.5019109",
+        "actual": 19704.50191093058,
+        "absolute_rounding_error": "3.058E-8"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-8"
+      }
+    },
+    {
+      "check": "boundary catastrophic after F0141_S00",
+      "passed": true,
+      "observed": {
+        "printed": "0.0187192785409",
+        "actual": 0.01871927854087696,
+        "absolute_rounding_error": "2.304E-14"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-14"
+      }
+    },
+    {
+      "check": "boundary catastrophic pass after F0141_S00",
+      "passed": true
+    },
+    {
+      "check": "boundary catastrophic before F0184_S01",
+      "passed": true,
+      "observed": {
+        "printed": "444.589254639",
+        "actual": 444.58925463912163,
+        "absolute_rounding_error": "1.2163E-10"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-10"
+      }
+    },
+    {
+      "check": "boundary catastrophic after F0184_S01",
+      "passed": true,
+      "observed": {
+        "printed": "0.0535680732159",
+        "actual": 0.05356807321592094,
+        "absolute_rounding_error": "2.094E-14"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-14"
+      }
+    },
+    {
+      "check": "boundary catastrophic pass after F0184_S01",
+      "passed": true
+    },
+    {
+      "check": "boundary catastrophic before F0186_S02",
+      "passed": true,
+      "observed": {
+        "printed": "2.24644415774",
+        "actual": 2.2464441577398695,
+        "absolute_rounding_error": "1.305E-13"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-12"
+      }
+    },
+    {
+      "check": "boundary catastrophic after F0186_S02",
+      "passed": true,
+      "observed": {
+        "printed": "0.254377736872",
+        "actual": 0.2543777368723397,
+        "absolute_rounding_error": "3.397E-13"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-13"
+      }
+    },
+    {
+      "check": "boundary catastrophic pass after F0186_S02",
+      "passed": true
+    },
+    {
+      "check": "unique table tab:boundarydev-regressions",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "boundary exactly three above-threshold regressions",
+      "passed": true
+    },
+    {
+      "check": "boundary exact delta F0186_S01",
+      "passed": true,
+      "observed": {
+        "printed": "$6.098373472873675\\cdot10^{-10}$",
+        "actual": 6.098373472873675e-10,
+        "absolute_rounding_error": "0E-25"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-26"
+      }
+    },
+    {
+      "check": "boundary relative delta divided by before F0186_S01",
+      "passed": true,
+      "observed": {
+        "printed": "$1.9713427\\cdot10^{-9}$",
+        "actual": 1.9713426791080547e-09,
+        "absolute_rounding_error": "2.08919453E-17"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-17"
+      }
+    },
+    {
+      "check": "boundary exact delta F0189_S02",
+      "passed": true,
+      "observed": {
+        "printed": "$1.312633113315087\\cdot10^{-9}$",
+        "actual": 1.312633113315087e-09,
+        "absolute_rounding_error": "0E-24"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-25"
+      }
+    },
+    {
+      "check": "boundary relative delta divided by before F0189_S02",
+      "passed": true,
+      "observed": {
+        "printed": "$5.4572689\\cdot10^{-9}$",
+        "actual": 5.457268858595071e-09,
+        "absolute_rounding_error": "4.1404929E-17"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-17"
+      }
+    },
+    {
+      "check": "boundary exact delta F0189_S03",
+      "passed": true,
+      "observed": {
+        "printed": "$6.146191888767305\\cdot10^{-10}$",
+        "actual": 6.146191888767305e-10,
+        "absolute_rounding_error": "0E-25"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-26"
+      }
+    },
+    {
+      "check": "boundary relative delta divided by before F0189_S03",
+      "passed": true,
+      "observed": {
+        "printed": "$7.2482444\\cdot10^{-9}$",
+        "actual": 7.248244439814943e-09,
+        "absolute_rounding_error": "3.9814943E-17"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-17"
+      }
+    },
+    {
+      "check": "boundary all 19 positive deltas published",
+      "passed": true
+    },
+    {
+      "check": "boundary 21 of 22 cases remain outside tolerance",
+      "passed": true
+    },
+    {
+      "check": "boundary prose global maximum before",
+      "passed": true,
+      "observed": {
+        "printed": "19704.5019109",
+        "actual": 19704.50191093058,
+        "absolute_rounding_error": "3.058E-8"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-8"
+      }
+    },
+    {
+      "check": "boundary prose global maximum after",
+      "passed": true,
+      "observed": {
+        "printed": "0.596851548154",
+        "actual": 0.5968515481537189,
+        "absolute_rounding_error": "2.811E-13"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-13"
+      }
+    },
+    {
+      "check": "boundary all NO-GO gates independently match summary",
+      "passed": true,
+      "observed": {
+        "all_zero_results_usable": true,
+        "no_material_regressions": false,
+        "no_pass_losses": true,
+        "no_new_catastrophes": true,
+        "former_catastrophes_removed": true,
+        "pass_count_increases": true,
+        "at_least_one_material_improvement": true
+      },
+      "expected": {
+        "all_zero_results_usable": true,
+        "no_material_regressions": false,
+        "no_pass_losses": true,
+        "no_new_catastrophes": true,
+        "former_catastrophes_removed": true,
+        "pass_count_increases": true,
+        "at_least_one_material_improvement": true
+      }
+    },
+    {
+      "check": "boundary independent recommendation and sole failure",
+      "passed": true
+    },
+    {
+      "check": "boundary historical Test F0180 before",
+      "passed": true,
+      "observed": {
+        "printed": "19134.405",
+        "actual": 19134.405186775984,
+        "absolute_rounding_error": "0.000186775984"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "0.0005"
+      }
+    },
+    {
+      "check": "boundary historical Test F0180 after",
+      "passed": true,
+      "observed": {
+        "printed": "0.0704519",
+        "actual": 0.07045188951985172,
+        "absolute_rounding_error": "1.048014828E-8"
+      },
+      "expected": {
+        "maximum_absolute_rounding_error": "5E-8"
+      }
+    },
+    {
+      "check": "boundary historical Test excluded from 52",
+      "passed": true
+    },
+    {
+      "check": "boundary exact arithmetic nodal counterexamples without solver",
+      "passed": true,
+      "observed": [
+        "67/64",
+        "-1/64"
+      ],
+      "expected": [
+        "67/64",
+        "-1/64"
+      ],
+      "detail": "Fraction arithmetic applied to the already specified cubic polynomials; no solver or new numerical experiment."
+    },
+    {
+      "check": "boundary counterexample interpretation and strict NO-GO caveat retained",
+      "passed": true
+    }
+  ]
+}

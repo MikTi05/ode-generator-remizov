@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "tests": {
+    "passed": 60,
+    "new_saved_grid33": 45,
+    "existing_saved_contracts": 15,
+    "exit_code": 0,
+    "log": "pytest.log",
+    "command": ".venv/bin/python -B -m pytest -q -p no:cacheprovider tests/test_saved_grid33.py tests/test_four_method_accuracy.py"
+  },
+  "tables": {
+    "csv_rows_checked": 1000,
+    "csv_cells_checked": 21000,
+    "missing_rows": 3,
+    "missing_cells": 63,
+    "raw_json_records": 7000,
+    "input_sha256_files": 7003,
+    "independent_verification": "verification.json"
+  },
+  "reproducibility": {
+    "passed": true,
+    "builds": 2,
+    "byte_identical_builder_artifacts": 6,
+    "details": "reproduction_check.json",
+    "runtime_solver_ml_imports_blocked": true
+  },
+  "integrity": {
+    "passed": true,
+    "old_files_unchanged": 25621,
+    "only_existing_file_changed": "PROJECT_STATUS.md",
+    "details": "integrity.json"
+  },
+  "new_solver_calls": 0,
+  "new_MC_calls": 0,
+  "new_fit_calls": 0,
+  "new_model_inference_calls": 0,
+  "test_scope": "Only saved-data tests; broad solver suite and R1 convergence intentionally not run"
+}
